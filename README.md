@@ -1,5 +1,9 @@
 # The Jboss Tools Documentation project
 
+## Summary
+
+JBoss Tools Documentation contains various docs and Whats New and Noteworthy for JBoss Tools
+
 ## Install
 
 _Jboss Tools Documentation_ is part of [JBoss Tools](http://jboss.org/tools) from
