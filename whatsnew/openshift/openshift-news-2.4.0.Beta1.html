@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../whatsnew.css" />
+<title>OpenShift Tools 2.4.0.Beta1 What's New</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17645367-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
+<body>
+<h1>OpenShift 2.4.0.Alpha2 What's New</h1>
+
+	<p align="right">
+		<a href="..jst/jst-news-4.0.0.Beta1.html">&lt; JST/JSF Tools</a>&nbsp;
+	</p> 
+	<table border="0" cellpadding="10" cellspacing="0" width="80%">
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Support multiple servers</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left">
+				<b>Custom server when connecting</b>
+			</td>
+			<td valign="top" align="left">
+				Before Beta1 there was no way to define a server for the Eclipse tooling only. 
+				You had to set the server in the rhc configurations: ~/.openshift/express.con and 
+				/etc/openshift/express.conf. OpenShift for JBoss Tools was always referring to the 
+				server in those configuration files. 
+				<br /> 
+				In Beta1 we now allow you to define a server independetly of any express.conf. 
+				When you create a new connection you can provide the server you want to deal with: 
+				openshift.redhat.com, a local liveCD, an instance within its LAN etc. 
+				But you may of course leave the server alone and stick to the default that's defined in the express.conf:  
+				<p>
+					<img src="images/connection-dialog.png" alt="define new connection" />
+				</p>
+				The server in a connection gets displayed in the OpenShift explorer:
+				<p>
+					<img src="images/server-decoration-explorer.png" alt="server in openshift explorer" />
+				</p>
+				The server is also shown in the connection setting of the server adapter:
+				<p>
+					<img src="images/connection-server-adapter.png" alt="connection in server adapter" />
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-12168">Related Jira</a>
+					</small>
+				</p>				
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left">
+				<b>Use existing connection</b>
+			</td>
+			<td valign="top" align="left">
+				In Beta1 the connection dialog allows you to create a new connection but it'll offer you
+				to choose existing ones. Simply select among the available within the combo that lists 
+				the existing connections.
+				<p>
+					<img src="images/existing-connection-dialog.png" alt="select existing connection" />
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-12798">Related Jira</a>
+					</small>
+				</p>				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Server logs</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left">
+				<b>Tail files now for php applications</b>
+			</td>
+			<td valign="top" align="left">
+				Before Beta1 you could only look at the server logs for a JBoss AS running on OpenShift. 
+				For all other OpenShift applications, the console with the log showed up, but did not display
+				any valuable information. We fixed this in Beta1 and we now also support php applications 
+				<p>
+					<img src="images/tail-files-php.png" alt="server logs for php application" />
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-11269">Related Jira</a>
+					</small>
+				</p>				
+			</td>
+		</tr>
+	</table>
+	</body>
+
+</html>
+
+
