@@ -19,18 +19,18 @@
 </note> -->
    
   <para>
-    In this chapter you'll find out how to create a simple JSP application using <property>JBoss Developer Studio</property>. The application will show a classic &quot;Hello World!&quot; on the page.
+    In this chapter you will find out how to create a simple JSP application using <property>JBoss Developer Studio</property>. The application will show a classic &quot;Hello World!&quot; on the page.
   </para>
    
   <para>
-    We&apos;ll assume that you have already launched <property>JBoss Developer Studio</property> and also that the <property>Web Development</property> perspective is the current perspective. If not, make it active by selecting <menuchoice><guimenuitem>Window</guimenuitem><guimenuitem>Open Perspective</guimenuitem><guimenuitem>Web Development</guimenuitem></menuchoice> from the menu bar or by selecting <menuchoice><guimenuitem>Window</guimenuitem><guimenuitem>Open Perspective</guimenuitem><guimenuitem>Other...</guimenuitem></menuchoice> from the menu bar and then selecting Web Development from the Select Perspective dialog box.
+    It will be assumed that you have already launched <property>JBoss Developer Studio</property> and also that the <property>Web Development</property> perspective is the current perspective. If not, make it active by selecting <menuchoice><guimenuitem>Window</guimenuitem><guimenuitem>Open Perspective</guimenuitem><guimenuitem>Web Development</guimenuitem></menuchoice> from the menu bar or by selecting <menuchoice><guimenuitem>Window</guimenuitem><guimenuitem>Open Perspective</guimenuitem><guimenuitem>Other...</guimenuitem></menuchoice> from the menu bar and then selecting Web Development from the Select Perspective dialog box.
   </para>
    
   <section id="SettingUpTheProject">
 <?dbhtml filename="SettingUpTheProject.html"?>
     <title>Setting Up the Project</title> 
     <para>
-      We are going to start by creating a Dynamic Web Project with a minimal structure, i.e. with just required facets. Thus this section will perform you all necessary steps on how to do this.
+      We are going to start by creating a Dynamic Web Project with a minimal structure, that is with just required facets.
     </para>
      
     <itemizedlist>
@@ -99,7 +99,7 @@
     </figure>
      
     <para>
-      The <emphasis><property>jspHello</property></emphasis> node should appear in the upper-left <property>Package Explorer</property> view.
+      The <emphasis><property>jspHello</property></emphasis> node should be visible in the upper-left <property>Package Explorer</property> view.
     </para>
      
     <figure>
@@ -126,7 +126,7 @@
     <itemizedlist>
       <listitem>
         <para>
-          Right click the <filename>WebContent</filename> folder and select <menuchoice><guimenuitem>New</guimenuitem><guimenuitem>JSP</guimenuitem></menuchoice>.
+          Right-click the <filename>WebContent</filename> folder and select <menuchoice><guimenuitem>New</guimenuitem><guimenuitem>JSP</guimenuitem></menuchoice>.
         </para>
       </listitem>
        
@@ -174,21 +174,8 @@
 <?dbhtml filename="EditingJSPPage.html"?>
       <title>Editing a JSP Page</title> 
       <para>
-        Let&apos;s now make a little change so that a JSP page displays <emphasis>&quot;Hello World!&quot;</emphasis> message.
+        To edit the JSP page so that it displays the “Hello World!” message, insert the following line inside the <code>&lt;body&gt; &lt;/body&gt; </code> tags:
       </para>
-       
-      <itemizedlist>
-        <listitem>
-<!--<para>Insert this line inside the <emphasis role="bold">
-						<property>&lt;body&gt;</property>
-						</emphasis><emphasis role="bold">
-						<property>&lt;/body&gt;</property>
-						</emphasis> tag: </para>-->
-          <para>
-            Insert this line inside the <code>&lt;body&gt; &lt;/body&gt; </code> tag:
-          </para>
-        </listitem>
-      </itemizedlist>
        
       <programlisting role="XML">
 <![CDATA[<% System.out.println("Hello World!"); %>]]>
@@ -243,7 +230,7 @@
       </figure>
        
       <para>
-        Both modes are fully synchronized. Let&apos;s add a mapping to our <filename>hello.jsp</filename> page in the <filename>web.xml</filename> file.
+        Both modes are fully synchronized. To add a mapping to the <filename>hello.jsp</filename> page in the <filename>web.xml</filename> file:
       </para>
        
       <itemizedlist>
@@ -320,7 +307,7 @@
         </figure>
          
         <para>
-          Right click on the project and select the JAR type of archive. 
+          Right-click on the project and select <menuchoice><guimenuitem>New Archive</guimenuitem><guimenuitem>JAR</guimenuitem></menuchoice>. 
         </para>
          
         <figure>
@@ -408,7 +395,7 @@
         </figure>
          
         <para>
-          The "Finger" touches descriptors dependent on project (i.e. web.xml for WAR, application.xml for EAR, jboss-esb.xml in ESB projects).
+          The "Finger" touches descriptors dependent on project (that is web.xml for WAR, application.xml for EAR, jboss-esb.xml in ESB projects).
         </para>
       </section>
     </section>
@@ -423,7 +410,7 @@
       <itemizedlist>
         <listitem>
           <para>
-            Make a little change to <filename>hello.jsp</filename> page, e.g. put this code snippet:
+            Make a little change to <filename>hello.jsp</filename> page. For example, insert this piece of code:
           </para>
         </listitem>
       </itemizedlist>
@@ -489,7 +476,7 @@
             <guibutton>
               Run
             </guibutton>
-             icon or right click your project folder and select <menuchoice><guimenuitem>Run As</guimenuitem><guimenuitem>Run on Server</guimenuitem></menuchoice>. If you haven&apos;t made any changes in the <filename>web.xml</filename> file or cleared it out you can launch the application by right clicking the <filename>hello.jsp</filename> page and selecting <guimenuitem>Run on the Server</guimenuitem>( 
+             icon or right-click your project folder and select <menuchoice><guimenuitem>Run As</guimenuitem><guimenuitem>Run on Server</guimenuitem></menuchoice>. If you have not made any changes in the <filename>web.xml</filename> file or cleared it out you can launch the application by right clicking the <filename>hello.jsp</filename> page and selecting <guimenuitem>Run on the Server</guimenuitem>( 
             <inlinemediaobject>
               <imageobject>
                 <imagedata fileref="images/jsp_application/jsp_application_16.png"/>

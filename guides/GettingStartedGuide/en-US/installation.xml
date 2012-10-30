@@ -22,7 +22,7 @@
     <section id="InstallJDK60onLinux">
       <title>Installing and Configuring 32-bit Sun JDK 6 on Linux</title> 
       <para>
-        To install 32-bit Sun JDK 6 on Linux and configure it, you should follow the next steps:
+        To install 32-bit Sun JDK 6 on Linux and configure it, follow the next steps:
       </para>
        
       <itemizedlist>
@@ -59,7 +59,7 @@
          
         <listitem>
           <para>
-            Download and install the appropriate -compat RPM from JPackage <ulink url="ftp://jpackage.hmdc.harvard.edu/JPackage/1.7/generic/RPMS.non-free/">here</ulink>. Please ensure you choose a matching version of the -compat package to the JDK you've installed.
+            Download and install the appropriate -compat RPM from JPackage <ulink url="ftp://jpackage.hmdc.harvard.edu/JPackage/1.7/generic/RPMS.non-free/">here</ulink>. Ensure you choose a matching version of the -compat package to the JDK you have installed.
           </para>
         </listitem>
          
@@ -79,7 +79,7 @@ export PATH=$PATH:$JAVA_HOME/bin]]>
       <note>
         <title>Note:</title> 
         <para>
-          ﻿ If you have a JDK already installed and added in your system path, you should add <filename>$JAVA_HOME/bin</filename> before the old <emphasis>$PATH</emphasis> (not after it) so that the new version of JDK can be found first, i. e. <code>export PATH=$JAVA_HOME/bin:$PATH</code> This way, the machine will pick up the new JVM first. You only need to run "alternative" as a safe guard for the right JVM.
+          ﻿ If you have a JDK already installed and added in your system path, you should add <filename>$JAVA_HOME/bin</filename> before the old <emphasis>$PATH</emphasis> (not after it) so that the new version of JDK can be found first, that is <code>export PATH=$JAVA_HOME/bin:$PATH</code> This way, the machine will pick up the new JVM first. You only need to run "alternative" as a safe guard for the right JVM.
         </para>
       </note>
        
@@ -280,7 +280,7 @@ Java HotSpot(TM) Server VM (build 19.1-b02, mixed mode)]]>
        
       <listitem>
         <para>
-          Run the following command in a terminal window:
+          Run the following command on the command line:
         </para>
          
 <programlisting role="JAVA"><![CDATA[
@@ -376,7 +376,7 @@ java -jar jbdevstudio-product-universal-5.0.0.GA.jar]]>
           <guibutton>
             OK
           </guibutton>
-		  button to select the chosen location. This location and subsequent directories will be searched for any JBoss server instances when you launch JBoss Developer Studio.
+		  button to select the chosen location. This location and subsequent directories will be searched for any JBoss server instances when you start JBoss Developer Studio.
         </para>
  <!--    
     <itemizedlist>
