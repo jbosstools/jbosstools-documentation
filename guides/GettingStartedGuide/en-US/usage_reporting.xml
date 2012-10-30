@@ -107,7 +107,7 @@
 					<term>Operating System</term>
 					<listitem>
 						<para>
-							The <guilabel>Operating System</guilabel> field reports the Operating System and its version that the product is running on (with Linux distribution version reporting conducted through the <guilabel>User Defined Value</guilabel> field). Sample returned values include: Linux, Macintosh 10.6, Macintosh 10.7 and Windows 7.
+							The <guilabel>Operating System</guilabel> field reports the operating system and its version that the product is running on (with Linux distribution version reporting conducted through the <guilabel>User Defined Value</guilabel> field). Sample returned values include: Linux, Macintosh 10.6, Macintosh 10.7 and Windows 7.
 						</para>
 					</listitem>
 				</varlistentry>
@@ -115,7 +115,7 @@
 					<term>Linux distribution version</term>
 					<listitem>
 						<para>
-							The <guilabel>User Defined Value</guilabel> field reports the distribution and version of Linux, if one is being used as the Operating System. Sample returned values include: Red Hat Enterprise Linux 6 and Fedora 16
+							The <guilabel>User Defined Value</guilabel> field reports the distribution and version of Linux, if one is being used as the operating system. Sample returned values include: Red Hat Enterprise Linux 6 and Fedora 16
 						</para>
 					</listitem>
 				</varlistentry>

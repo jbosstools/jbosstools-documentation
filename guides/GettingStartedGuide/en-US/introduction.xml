@@ -16,7 +16,7 @@
 			<property>JBoss Developer Studio</property> is a set of Eclipse based development tools that have been pre-configured for JBoss Enterprise Middleware Platforms and Red Hat Enterprise Linux. These preconfigured tools save time and offer significant value, improving productivity and reducing deployment times.
 		</para>
 		<para>
-			This guide covers the foundation of getting started with <property>JBoss Developer Studio</property>. You will learn how to install and configure the software necessary for your OS (currently Linux, Microsoft Windows or Mac OSX), including detailed information on how to install, configure and use this toolset, as well as the Java Development Kit (JDK).
+			This guide covers the foundation of getting started with <property>JBoss Developer Studio</property>. You will learn how to install and configure the software necessary for your operating system (currently Linux, Microsoft Windows or Mac OSX), including detailed information on how to install, configure and use this toolset, as well as the Java Development Kit (JDK).
 		</para>
 	</section>
 
@@ -92,7 +92,7 @@
 						</entry>
 						<entry>
 							<para>
-								JBoss Developer Studio includes a Visual Page Editor for combined visual and source editing of Web pages. The Visual Page Editor even renders AJAX-enabled RichFaces components.
+								JBoss Developer Studio includes a Visual Page Editor for combined visual and source editing of web pages. The Visual Page Editor even renders AJAX-enabled RichFaces components.
 							</para>
 						</entry>
 					</row>
@@ -207,7 +207,7 @@
 		</para>
 	
 		<para>
-			For the 32-bit version of JBoss Developer Studio use the 32-bit JVM or just use <literal>-vm</literal> flag to tell JBoss Developer Studio to use 32-bit java if the 64-bit one is found as the default.
+			For the 32-bit version of JBoss Developer Studio use the 32-bit JVM or use the <literal>-vm</literal> flag to tell JBoss Developer Studio to use 32-bit java if the 64-bit one is found as the default.
 		</para>
 	
 		<note>

@@ -79,7 +79,7 @@
 			</figure>
 			<itemizedlist>
 				<listitem>
-					<para>Lastly, a screen will appear that will allow you to modify projects that are
+					<para>Lastly, a window will open that will allow you to modify projects that are
                         to be configured for the server. Click the <guibutton>Finish</guibutton> button.</para>
 				</listitem>
 			</itemizedlist>
@@ -91,7 +91,7 @@
 					</imageobject>
 				</mediaobject>
 			</figure>
-			<para>A new <property>JBoss Server</property> should now appear in the <property>Servers</property> view.</para>
+			<para>A new <property>JBoss Server</property> should now be visible in the <property>Servers</property> view.</para>
 			<figure>
 				<title>New JBoss Server</title>
 				<mediaobject>
@@ -111,7 +111,7 @@
 					
 					<itemizedlist>
 						<listitem>
-						<para>To launch the server click the green-with-white-arrow icon in the <property>Servers</property> view or right click server name in this view and click the <guibutton>Start</guibutton> button. If this view is not open, select <menuchoice>
+						<para>To launch the server click the green-with-white-arrow icon in the <property>Servers</property> view or right-click the server name in this view and click the <guibutton>Start</guibutton> button. If this view is not open, select <menuchoice>
 							<guimenuitem>Window</guimenuitem>
 							<guimenuitem>Show View</guimenuitem>
 							<guimenuitem>Other</guimenuitem>
@@ -158,7 +158,7 @@
 			<section id="StoppingJBoss">
 				<?dbhtml filename="StoppingJBoss.html"?>
 					<title>Stopping the JBoss Server</title>
-					<para>To stop the server, click the <guibutton>Stop</guibutton> button icon in <property>Servers</property> or right click the server name and press <guimenuitem>Stop</guimenuitem>.
+					<para>To stop the server, click the <guibutton>Stop</guibutton> button icon in <property>Servers</property> or right-click the server name and select <guimenuitem>Stop</guimenuitem>.
 				</para>
 				
 				<figure>
