@@ -100,7 +100,7 @@
 <?dbhtml filename="CreatingJSPPage.html"?>
     <title>Creating JSP Page</title> 
     <para>
-      This section covers all the points how to create, edit and then preview JSP page.
+      This section outlines how to create, edit and then preview a JSP page.
     </para>
      
     <para>
@@ -192,7 +192,7 @@
       </figure>
        
       <para>
-        After changes made your <filename>hello.jsp</filename> page should look like this:
+        After this line has been added, your <filename>hello.jsp</filename> page should look like this:
       </para>
        
       <figure>
@@ -262,7 +262,7 @@
 <?dbhtml filename="DeployTheProject.html"?>
       <title>Deploying the project</title> 
       <para>
-        Writing ant scripts and managing the packaging process can be quite a complicated and time consuming task for even the most trivial web applications. However, <property>JBoss Developer Studio</property> relieves you of this burden. All you need is to start your <property>JBoss Server</property> and launch your application in your favorite browser.
+        Writing any scripts and managing the packaging process can be quite a complicated and time consuming task for even the most trivial web applications. However, <property>JBoss Developer Studio</property> relieves you of this burden. All you need is to start your <property>JBoss Server</property> and launch your application in your favorite browser.
       </para>
        
       <para>
@@ -375,7 +375,7 @@
 <?dbhtml filename="AutoRedeploy.html"?>
         <title>Auto redeploy</title> 
         <para>
-			When you create a web application and register it on the <property>JBoss Server</property> as it is automatically deployed into the <filename>/deploy</filename> directory of the server. JBoss Developer Studio's auto-redeploy feature ensures you do not need to restart the server. Any changes made in the application in exploded format will trigger a redeployment on the server.
+			When you create a web application and register it on the <property>JBoss Server</property> it is automatically deployed into the <filename>/deploy</filename> directory of the server. JBoss Developer Studio's auto-redeploy feature ensures you do not need to restart the server. Any changes made in the application in exploded format will trigger a redeployment on the server.
         </para>
          
         <para>

@@ -240,7 +240,7 @@ Java HotSpot(TM) Server VM (build 19.1-b02, mixed mode)]]>
 		<itemizedlist>
 			<listitem>
 				<para>
-					The Visual Page Editor tooling is only available in the 32-bit versions of the JBoss Developer Studio for Windows and Mac OS X. You may still run your application servers in 64-bit virtual machines (if needed), to insure compatibility with the production environment.
+					The Visual Page Editor tooling is only available in the 32-bit versions of the JBoss Developer Studio for Windows and Mac OS X. You may still run your application servers in 64-bit virtual machines (if needed), to ensure compatibility with the production environment.
 				</para>
 			</listitem>
 			<listitem>
@@ -663,7 +663,7 @@ java -jar /path/to/installer.jar /path/to/InstallConfigRecord.xml
 			 </listitem>
 			 <listitem>
 				 <para>
-					 Creation of shoortcuts for all users on a system has not been tested.
+					 Creation of shortcuts for all users on a system has not been tested.
 				 </para>
 			 </listitem>
 			 <listitem>

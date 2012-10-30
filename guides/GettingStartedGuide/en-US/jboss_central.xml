@@ -1,7 +1,7 @@
 <chapter>
 	<title>JBoss Central</title>
 	<para>
-		When viewing the workbench for the first time you will be greated with <firstterm>JBoss Central</firstterm>. JBoss Central assists you in getting started and keeps you up to date with JBoss technologies.
+		When viewing the workbench for the first time you will be greeted with <firstterm>JBoss Central</firstterm>. JBoss Central assists you in getting started and keeps you up to date with JBoss technologies.
 	</para>
 	<figure>
 		<title>JBoss Central</title>
@@ -14,7 +14,7 @@
 	<section>
 		<title>Getting Started with JBoss Central</title>
 		<para>
-			The <guilabel>Getting Started</guilabel> tab of JBoss Central is the first tab you will see, and is setup as a functional starting point for developers.
+			The <guilabel>Getting Started</guilabel> tab of JBoss Central is the first tab you will see. It is set up as a functional starting point for developers.
 		</para>
 		<para>
 			At the top of the tab is a search box. By clicking the down arrow to the left you can select to perform a search on either the <guimenuitem>Red Hat Customer Portal</guimenuitem> or the <guimenuitem>JBoss Community</guimenuitem>.
