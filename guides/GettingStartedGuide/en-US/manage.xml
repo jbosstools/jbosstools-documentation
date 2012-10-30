@@ -79,7 +79,7 @@
 			</figure>
 			<itemizedlist>
 				<listitem>
-					<para>Lastly, a screen will appear that will allow you yo modify projects that are
+					<para>Lastly, a screen will appear that will allow you to modify projects that are
                         to be configured for the server. Click the <guibutton>Finish</guibutton> button.</para>
 				</listitem>
 			</itemizedlist>
@@ -143,7 +143,7 @@
 				</figure>
 				<para>When the server is started you should see <emphasis>
 					<property>Started</property>
-				</emphasis> in the square brackets right next its name in the <property>Servers</property> view.</para>
+				</emphasis> in the square brackets right next to its name in the <property>Servers</property> view.</para>
 				
 				<figure>
 					<title>Server is Started</title>
