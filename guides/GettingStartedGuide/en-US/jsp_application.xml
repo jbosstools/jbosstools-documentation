@@ -64,7 +64,23 @@
        
       <listitem>
         <para>
-          Then select <emphasis> <property>Minimal Configuration</property> </emphasis> from the list of possible configurations and click the 
+          Select <emphasis> <property>Minimal Configuration</property> </emphasis> from the list of possible configurations
+         </para>
+      </listitem>         
+          
+      <listitem>
+        <para>        
+          Click the 
+          <guibutton>
+            Next
+          </guibutton>
+           button twice to move through the Java window to the Web Module window
+        </para>
+      </listitem>
+      
+      <listitem>
+        <para>
+          Select the <emphasis> <property>Generate web.xml</property> </emphasis> check box and click the  
           <guibutton>
             Finish
           </guibutton>
