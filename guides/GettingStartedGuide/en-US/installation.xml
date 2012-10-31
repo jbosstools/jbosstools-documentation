@@ -77,7 +77,6 @@ export PATH=$PATH:$JAVA_HOME/bin]]>
       </itemizedlist>
        
       <note>
-        <title>Note:</title> 
         <para>
           ﻿ If you have a JDK already installed and added in your system path, you should add <filename>$JAVA_HOME/bin</filename> before the old <emphasis>$PATH</emphasis> (not after it) so that the new version of JDK can be found first, that is <code>export PATH=$JAVA_HOME/bin:$PATH</code> This way, the machine will pick up the new JVM first. You only need to run "alternative" as a safe guard for the right JVM.
         </para>
@@ -171,7 +170,6 @@ Enter to keep the current selection[+], or type selection number: ]]>
         </para>
          
         <note>
-          <title>Note:</title> 
           <para>
             You can always override this step by setting the JAVA_HOME environment variable as explained in the previous step.
           </para>
@@ -335,7 +333,6 @@ java -jar jbdevstudio-product-universal-5.0.0.GA.jar]]>
     </para>
      
     <note>
-      <title>Tip:</title> 
       <para>
         By selecting <emphasis><property>Default Java VM</property></emphasis> you set the default Java VM of your system (to verify your Java environment, type &quot;java -version&quot; in console).
       </para>
@@ -452,7 +449,6 @@ java -jar jbdevstudio-product-universal-5.0.0.GA.jar]]>
      
 	<para/> -->
 <!--  <note>
-   <title>Note:</title>
    <para>The installer installs JBoss Enterprise Application Platform for running your applications
     if you select this option during the installation process. If you want to use a different server
     than ours, you can change the setting in JBoss Developer Studio.</para>
@@ -807,7 +803,6 @@ java -jar /path/to/installer.jar /path/to/InstallConfigRecord.xml
 			</itemizedlist>
 
 			<note>
-				<title>Note</title>
 				<para>The JBoss Tools Deltacloud component is not included with JBoss Developer Studio in this release.</para>
 			</note>
 
@@ -825,7 +820,6 @@ java -jar /path/to/installer.jar /path/to/InstallConfigRecord.xml
 			</para>
 
 			<note>
-				<title>Tip:</title>
 				<para>
 					We recommend you do not use Eclipse.org update site to go from old version of Eclipse to new one. Instead we suggest that you download the full binary from <ulink url="http://www.eclipse.org/downloads/">here</ulink>.
 				</para>
@@ -836,7 +830,6 @@ java -jar /path/to/installer.jar /path/to/InstallConfigRecord.xml
 			</para>
 
 			<note>
-				<title>Note:</title>
 				<para>Remember to choose the download that matches your OS and use Java 6 when you run it.</para>
 			</note>
 			<para>
@@ -877,7 +870,6 @@ java -jar /path/to/installer.jar /path/to/InstallConfigRecord.xml
 				</para>
 				<itemizedlist>
 					<note>
-						<title>Note:</title>
 						<para>
 							During the JBT installation and updating process using some of JBoss update sites the <emphasis>No repository found containing...</emphasis> error can appear. This is an Eclipse P2 bug. To work around it try: 1.Restarting Eclipse. 2. Add the update site again. 3. Performing the update again.
 						</para>
@@ -954,7 +946,6 @@ java -jar /path/to/installer.jar /path/to/InstallConfigRecord.xml
 						</figure>
 						<para>If some of the dependencies are missing an error message will appear and the installation process will be terminated.</para>
 						<note>
-							<title>Note:</title>
 							<para>
 								Sometimes when a user changes the list of plugins for download and clicks the <guibutton>Next</guibutton> button, after the required dependencies have been checked, the list of missing dependencies from the previous attempt is showed. In this case completely closing the <emphasis>Install New Software</emphasis> dialog can help.
 							</para>
@@ -1001,7 +992,6 @@ java -jar /path/to/installer.jar /path/to/InstallConfigRecord.xml
 				</itemizedlist>
 
 				<note>
-					<title>Note:</title>
 					<para>
 						While installing JBoss Tools on GNU/Linux (64-bit) through the eclipse installation manager you may run into some problems which can interrupt your installation process. Please, read the <ulink url="http://www.jboss.org/community/wiki/ManualinstallationofJBossTools31xonEclipse35onGNULinux64-bit">Manual installation of JBoss Tools 3.1.x on Eclipse 3.5 on GNU/Linux (64-bit)</ulink> wiki article which provides you with the necessary steps to do it correct.
 					</para>

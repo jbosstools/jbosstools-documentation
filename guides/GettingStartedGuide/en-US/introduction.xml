@@ -211,7 +211,6 @@
 		</para>
 	
 		<note>
-			<title>Note:</title>
 			<para>
 				On Linux systems with a 64-bit JVM, the visual editor may fail to start. In this case you will need the <literal>libstdc++.so.5</literal> library. See the <link linkend="question_1">FAQ</link> for further details.
 			</para>
