@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../whatsnew.css" />
+<title>What's New in Maven Tools</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17645367-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
+<body>
+<h1>Maven Tools</h1>
+
+<p align="right">
+  <a href="../openshift/openshift-news-2.4.0.Beta1.html">&lt; OpenShift Tools</a>
+  <a href="../index.html">Main Index &gt;</a> 
+</p> 
+<table border="0" cellpadding="10" cellspacing="0" width="80%">
+	<tr>
+		<td colspan="2">
+		<hr />
+		<h3>JBoss Maven Integration</h3>
+		<hr />
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" align="left">
+		<a name="conversion" id="conversion"></a><b>Conversion of jar dependencies to Maven dependencies</b></td>
+		<td valign="top">
+        <p>Since we introduced this feature in <a href="./maven-news-4.0.0.Alpha1.html">JBT 4.0.0.Alpha1</a>, we've made a *lot* of improvements 
+          to help you convert your Eclipse project dependencies to Maven.
+        </p>
+<p> So, in no particular order :
+    <ul>
+    <li><a href="https://issues.jboss.org/browse/JBIDE-12527">JBIDE-12527</a> : Now converts EAR dependencies found in the lib folder or referenced in the Deployment Assembly page</li> 
+    <li><a href="https://issues.jboss.org/browse/JBIDE-12550">JBIDE-12550</a> : No more UI freezes during long running identifications</li>
+    <li><a href="https://issues.jboss.org/browse/JBIDE-12702">JBIDE-12702</a> : As a last resort, <a href="http://search.maven.org">http://search.maven.org</a> is queried when all other identification methods fail</li> 
+    <li><a href="https://issues.jboss.org/browse/JBIDE-12530">JBIDE-12530</a> : When some identified dependencies can not be resolved by Maven, you can access the Maven Repository wizard via a link, in order to update your settings.xml</li>
+    <li><a href="https://issues.jboss.org/browse/JBIDE-12551">JBIDE-12551</a> : You can manually relaunch / stop the identification process</li>
+    <li>You can configure the remote (Nexus) repositories queried during identification</li>
+    <li> <a href="https://issues.jboss.org/browse/JBIDE-12529">JBIDE-12529</a> : You can now decide to delete all existing jars from your project with the "Delete original references from project" checkbox</li>
+    <li>... and plenty of small usability bugs were squashed</li>
+    </ul>
+</p>
+	<img src="../images/jar_conversion_updates.png" />
+ 
+  		</td>
+	</tr>
+
+<tr>
+	    <td colspan="2">
+	      <hr/>
+	    </td>
+	</tr>
+
+
+	
+</table>
+
+</body>
+
+</html>
+
+
