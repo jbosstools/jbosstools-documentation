@@ -284,7 +284,7 @@ Java HotSpot(TM) Server VM (build 19.1-b02, mixed mode)]]>
         </para>
          
 <programlisting role="JAVA"><![CDATA[
-java -jar jbdevstudio-product-universal-5.0.0.GA.jar]]>
+java -jar jbdevstudio-product-universal-6.0.0.GA.jar]]>
 </programlisting>
       </listitem>
        
