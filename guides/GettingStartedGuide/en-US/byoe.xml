@@ -1,0 +1,18 @@
+<chapter id="byoe-installation">
+<?dbhtml filename="getting_started.html"?>
+   <title>Bring Your Own Eclipse installation</title>
+   <warning>
+	   <para>
+		   This installation method is currently offered as a Technology Preview only. 
+	   </para>
+   </warning>
+   <para>
+		The option to install the JBoss Developer Studio core tool set into your own Eclipse installation is now available. This can be underataken by navigating to <menuchoice><guimenuitem>Help</guimenuitem><guimenuitem>Install New Software</guimenuitem></menuchoice>.
+   </para>
+   <para>
+	   The <guilabel>Available Software</guilabel> wizard will ask you for a location to use; input the following address: https://devstudio.jboss.com/updates/6.0/
+   </para>
+   <para>
+	   From the list of available software select <guimenuitem>JBoss Developer Studio 6.0 - Bring Your Own Eclipse [Technology Preview]</guimenuitem> and click the <guibutton>Finish</guibutton> button.
+   </para>
+</chapter>
