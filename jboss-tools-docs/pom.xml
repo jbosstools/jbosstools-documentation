@@ -10,31 +10,62 @@
 	<packaging>pom</packaging>
 	<name>All_Userguides</name>
 
+	<!-- 
+	export MAVEN_OPTS="-Xshare:auto -Xms64m -Xmx512m -XX:MaxPermSize=256M"
+	mvn -s settings.xml clean assembly:assembly
+	-->
 	<modules>
+
+		<!-- JBT Core Doc -->
+
 		<module>../guides/GettingStartedGuide</module>
 		<module>../guides/Beginners_Guide</module>
-		<module>../../cdi/docs/reference</module>
-		<module>../../as/docs/reference</module>
-		<module>../../openshift/docs/reference</module>
-		<module>../../hibernatetools/docs/reference</module>
-		<module>../../jsf/docs/userguide</module>
-		<module>../../jsf/docs/jsf_tools_ref_guide</module>
-		<module>../../jsf/docs/jsf_tools_tutorial</module>
-		<module>../../seam/docs/reference</module>
-		<module>../../seam/docs/tutorial</module>	<module>../../struts/docs/struts_tools_ref_guide</module>	<module>../../struts/docs/struts_tools_tutorial</module>
-		<module>../../ws/docs/restful_reference</module>
-		<module>../../ws/docs/soap_reference</module>
-		<module>../../portlet/docs/reference</module>
-		<module>../../forge/docs/reference</module>
-		<module>../../birt/docs</module>
-		<module>../../maven/docs/reference</module>
-		<module>../../jmx/docs/reference</module>
-		<module>../../jbpm/docs/converter_ref</module>
+
+		<module>../../jbosstools-birt/docs</module>
+
+		<module>../../jbosstools-central/maven/docs/reference</module>
+
+		<module>../../jbosstools-forge/docs/reference</module>
+
+		<module>../../jbosstools-hibernate/docs/reference</module>
+
+		<module>../../jbosstools-javaee/cdi/docs/reference</module>
+		<module>../../jbosstools-javaee/jsf/docs/jsf_tools_ref_guide</module>
+		<module>../../jbosstools-javaee/jsf/docs/jsf_tools_tutorial</module>
+		<module>../../jbosstools-javaee/jsf/docs/userguide</module>
+		<module>../../jbosstools-javaee/seam/docs/reference</module>
+		<module>../../jbosstools-javaee/seam/docs/tutorial</module>
+		<module>../../jbosstools-javaee/struts/docs/struts_tools_ref_guide</module>
+		<module>../../jbosstools-javaee/struts/docs/struts_tools_tutorial</module>
+
+		<module>../../jbosstools-openshift/docs/reference</module>
+		
+		<module>../../jbosstools-portlet/docs/reference</module>
+
+		<module>../../jbosstools-server/as/docs/reference</module>
+		<module>../../jbosstools-server/jmx/docs/reference</module>
+
+		<module>../../jbosstools-webservices/docs/restful_reference</module>
+		<module>../../jbosstools-webservices/docs/soap_reference</module>
+
+		<!-- JBT SOA DOC -->
+
+		<module>../../jbosstools-bpel/docs/reference</module>
+
+		<module>../../jbosstools-esb/docs/esb_ref_guide</module>
+
+		<!-- Drools doc have moved to http://docs.jboss.org/drools/release/ -->
+		<!--
 		<module>../../drools/docs/reference</module>
 		<module>../../drools/docs/guvnor_ref</module>
-		<module>../../bpel/docs/reference</module>
-		<module>../../jbpm/docs/reference</module>
-		<module>../../modeshape/docs/ModeShape_Tools_Reference_Guide</module>
+		-->
+
+		<module>../../jbosstools-jbpm/docs/reference</module>
+		<module>../../jbosstools-jbpm/docs/converter_ref</module>
+
+		<!-- Modeshape doc has moved to https://github.com/ModeShape/modeshape-tools/ -->
+		<module>../../modeshape-tools/docs/ModeShape_Tools_Reference_Guide</module>
+
 		<module>index</module>
 	</modules>
 
