@@ -35,12 +35,12 @@
 		<tr>
 			<td colspan="2">
 				<hr />
-				<h3>Support for MongoDB 2.2</h3>
+				<h3>Embedding Cartridges</h3>
 				<hr />
 			</td>
 		</tr>
 		<tr>
-			<td valign="top" align="left"><b>Support for MongoDB 2.2</b></td>
+			<td valign="top" align="left"><b>MongoDB 2.2 and Ignore suggestions</b></td>
 			<td valign="top" align="left">
 				The OpenShift platform was
 				upgraded to use MongoDB 2.2. For this release of the associated
@@ -48,10 +48,18 @@
 				<p>
 					<img src="images/mongodb22.png" alt="MongoDB 2.2" />
 				</p>
+				When you embed cartridges to your application we check the requirements and 
+				suggest you to add or remove further cartridges. 
+				<br />In CR1 we now allow you to ignore these suggestions. You get the full control but may possibly 
+				run into errors if you dont meet the requirements.
+				Furthermore we now made these checks rely on the cartridge names only and ignore the versions. 
+				This makes sure the tooling wont break when OpenShift upgrades cartridges.
+				<p>
+					<img src="images/embedding-ignore-suggestion.png" alt="Ignore suggestions"/>
+				</p>
 				<p>
 					<small> <a
-						href="https://issues.jboss.org/browse/JBIDE-13087">Related
-							Jira</a>
+						href="https://issues.jboss.org/browse/JBIDE-13066">Related Jira</a>
 					</small>
 				</p>
 			</td>
@@ -115,7 +123,7 @@
 		<tr>
 			<td colspan="2">
 				<hr />
-				<h3>Server Adapter wizard</h3>
+				<h3>Server Adapter</h3>
 				<hr />
 			</td>
 		</tr>
@@ -132,6 +140,26 @@
 				<p>
 					<small> <a
 						href="https://issues.jboss.org/browse/JBIDE-12146">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left">
+				<b>No deploy error executing hooks </b>
+			</td>
+			<td valign="top" align="left">
+				When deploying existing projects to OpenShift, the server adapter was reporting an error when the deploy hooks should have been executed:<br>
+				
+				<pre>
+/usr/libexec/openshift/cartridges/abstract/info/lib/util: line 992: /var/lib/openshift/1e6a743963104f30bdcdebdff460d42b/app-root/runtime/repo/.openshift/action_hooks/post_start_jbossas-7: Permission denied
+Failed to start jbossas-7
+				</pre> 
+				
+				This was fixed in CR1 and we now set the correct permissions when merging the hook files into an existing workspace project.
+				<p>
+					<small> 
+						<a href="https://issues.jboss.org/browse/JBIDE-13217">Related Jira</a>
 					</small>
 				</p>
 			</td>
