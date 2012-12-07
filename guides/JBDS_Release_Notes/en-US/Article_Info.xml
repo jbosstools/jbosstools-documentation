@@ -3,11 +3,11 @@
 <!-- Modify the title tag to change which book will be built -->
 
 <articleinfo>
-	<title>5.0.2 Release Notes</title>
+	<title>6.0.0 Release Notes</title>
 	<subtitle>Information about the changes made for this release of the JBoss Developer Studio.</subtitle>
 	<productname>JBoss Developer Studio</productname>
-	<productnumber>5.0</productnumber>
-	<edition>5.0.2</edition>
+	<productnumber>6.0</productnumber>
+	<edition>6.0.0</edition>
 	<pubsnumber>1</pubsnumber>
 	<abstract>
 		<para>
