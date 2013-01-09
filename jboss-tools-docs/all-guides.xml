@@ -330,7 +330,9 @@
 			</fileSet>
 
 			<fileSet>
-				<directory>../../forge/docs/reference/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../forge/docs/reference/target/docbook/publish/en-US</directory> -->
+				<!-- Forge doc has moved to https://github.com/jbosstools/jbosstools-forge/-->
+				<directory>../../jbosstools-forge/docs/reference/target/docbook/publish/en-US</directory>
 				<outputDirectory>/forge_reference</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
