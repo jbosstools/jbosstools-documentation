@@ -7,7 +7,7 @@
 			<title>Installing JBoss Tools Plugins</title>
 	
 			<para>
-				The JBoss Tools plugins can be installed in Eclipse from the JBoss.org update site. JBoss Tools 3.2 requires Eclipse 3.6, which can be downloaded from the <ulink url="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/">Eclipse web site</ulink>. 				
+				The JBoss Tools plugins can be installed in Eclipse from the JBoss.org update site. JBoss Tools 4.0 requires Eclipse 4.2, which can be downloaded from the <ulink url="http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/junosr1">Eclipse web site</ulink>. 				
 			</para>
 			<para>
 				To install the JBoss Tools plugins start Eclipse and select	<menuchoice><guimenuitem>Help</guimenuitem><guimenuitem>Install New Software...</guimenuitem></menuchoice>
@@ -36,7 +36,7 @@
 		</figure>
 		
 		<para>
-			This will display the <guilabel>Add Repository</guilabel> dialog. Enter <guilabel>JBoss.org Tools</guilabel> in the <guilabel>Name</guilabel> field, and <ulink url="http://download.jboss.org/jbosstools/updates/JBossTools-3.2.0.GA/">http://download.jboss.org/jbosstools/updates/JBossTools-3.2.0.GA/</ulink> in the <guilabel>Location</guilabel> field. Click the <guibutton>OK</guibutton> button to save the changes and close the dialog.
+			This will display the <guilabel>Add Repository</guilabel> dialog. Enter <guilabel>JBoss.org Tools</guilabel> in the <guilabel>Name</guilabel> field, and <ulink url="http://download.jboss.org/jbosstools/updates/stable/juno/">http://download.jboss.org/jbosstools/updates/stable/juno/</ulink> in the <guilabel>Location</guilabel> field. Click the <guibutton>OK</guibutton> button to save the changes and close the dialog.
 		</para>
 		
 		<figure id="figure-add-repository">
@@ -49,7 +49,7 @@
 		</figure>
 		
 		<para>
-			The <guilabel>JBoss.org Tools</guilabel> site will be selected in the <guilabel>Work with</guilabel> drop down list, and after a moment the list of plugins that are included in the JBoss Tools package will be listed. From this list you can individually select the desired plugin, or select the <guilabel>All JBoss Tools 3.2.0</guilabel> option to install all the plugins.
+			The <guilabel>JBoss.org Tools</guilabel> site will be selected in the <guilabel>Work with</guilabel> drop down list, and after a moment the list of plugins that are included in the JBoss Tools package will be listed. From this list you can individually select the desired plugin, or select the <guilabel>Abridged JBoss Tools 4.0</guilabel> option to install all the plugins.
 		</para>
 		
 		<figure id="figure-available-software">
