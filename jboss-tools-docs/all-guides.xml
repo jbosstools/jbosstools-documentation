@@ -34,7 +34,9 @@
 				<directoryMode>0755</directoryMode>
 			</fileSet>
 			<fileSet>
-				<directory>../../cdi/docs/reference/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../cdi/docs/reference/target/docbook/publish/en-US</directory> -->
+				<!-- CDI doc has moved to https://github.com/jbosstools/jbosstools-javaee/-->
+				<directory>../../jbosstools-javaee/cdi/docs/reference/target/docbook/publish/en-US</directory>
 				<outputDirectory>/cdi_tools_reference_guide</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -60,7 +62,9 @@
 				<directoryMode>0755</directoryMode>
 			</fileSet>
 			<fileSet>
-				<directory>../../as/docs/reference/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../as/docs/reference/target/docbook/publish/en-US</directory> -->
+				<!-- Server Manager doc has moved to https://github.com/jbosstools/jbosstools-server/-->
+				<directory>../../jbosstools-server/as/docs/reference/target/docbook/publish/en-US</directory>
 				<outputDirectory>/as</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -72,7 +76,10 @@
 				<fileMode>0644</fileMode>
 				<directoryMode>0755</directoryMode>
 			</fileSet>
-			<fileSet>	<directory>../../openshift/docs/reference/target/docbook/publish/en-US</directory>
+			<fileSet>
+				<!-- <directory>../../openshift/docs/reference/target/docbook/publish/en-US</directory> -->
+				<!-- OpenShift doc has moved to https://github.com/jbosstools/jbosstools-openshift/-->
+				<directory>../../jbosstools-openshift/docs/reference/target/docbook/publish/en-US</directory>				
 				<outputDirectory>/openshift_tools_reference_guide</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -85,7 +92,9 @@
 				<directoryMode>0755</directoryMode>
 			</fileSet> 
 			<fileSet>
-				<directory>../../hibernatetools/docs/reference/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../hibernatetools/docs/reference/target/docbook/publish/en-US</directory> -->
+				<!-- Hibernate doc has moved to https://github.com/jbosstools/jbosstools-hibernate/-->
+				<directory>../../jbosstools-hibernate/docs/reference/target/docbook/publish/en-US</directory>
 				<outputDirectory>/hibernatetools</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -98,7 +107,9 @@
 				<directoryMode>0755</directoryMode>
 			</fileSet>
 			<fileSet>
-				<directory>../../jbpm/docs/reference/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../jbpm/docs/reference/target/docbook/publish/en-US</directory> -->
+				<!-- jBPM doc has moved to https://github.com/jbosstools/jbosstools-jbpm/-->
+				<directory>../../jbosstools-jbpm/docs/reference/target/docbook/publish/en-US</directory>				
 				<outputDirectory>/jboss_jbpm_ref_guide</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -110,8 +121,10 @@
 				<fileMode>0644</fileMode>
 				<directoryMode>0755</directoryMode>
 			</fileSet>
-						<fileSet>
-				<directory>../../jbpm/docs/converter_ref/target/docbook/publish/en-US</directory>
+			<fileSet>
+				<!-- <directory>../../jbpm/docs/converter_ref/target/docbook/publish/en-US</directory> -->
+				<!-- BPMN doc has moved to https://github.com/jbosstools/jbosstools-jbpm/-->
+				<directory>../../jbosstools-jbpm/docs/converter_ref/target/docbook/publish/en-US</directory>
 				<outputDirectory>/jboss_bpmn_convert_ref_guide</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -124,7 +137,9 @@
 				<directoryMode>0755</directoryMode>
 			</fileSet>
 			<fileSet>
-				<directory>../../jsf/docs/userguide/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../jsf/docs/userguide/target/docbook/publish/en-US</directory> -->
+				<!-- Visual Web doc has moved to https://github.com/jbosstools/jbosstools-javaee/-->
+				<directory>../../jbosstools-javaee/jsf/docs/userguide/target/docbook/publish/en-US</directory>
 				<outputDirectory>/jsf</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -137,7 +152,9 @@
 				<directoryMode>0755</directoryMode>
 			</fileSet>
 			<fileSet>
-				<directory>../../seam/docs/reference/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../seam/docs/reference/target/docbook/publish/en-US</directory> -->
+				<!-- Seam doc has moved to https://github.com/jbosstools/jbosstools-javaee/-->
+				<directory>../../jbosstools-javaee/seam/docs/reference/target/docbook/publish/en-US</directory>
 				<outputDirectory>/seam</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -150,7 +167,9 @@
 				<directoryMode>0755</directoryMode>
 			</fileSet>
 			<fileSet>
-				<directory>../../seam/docs/tutorial/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../seam/docs/tutorial/target/docbook/publish/en-US</directory> -->
+				<!-- Seam tut has moved to https://github.com/jbosstools/jbosstools-/-->
+				<directory>../../jbosstools-javaee/seam/docs/tutorial/target/docbook/publish/en-US</directory>
 				<outputDirectory>/seam_tutorial</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -163,7 +182,9 @@
 				<directoryMode>0755</directoryMode>
 			</fileSet>
 			<fileSet>
-				<directory>../../jsf/docs/jsf_tools_ref_guide/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../jsf/docs/jsf_tools_ref_guide/target/docbook/publish/en-US</directory> -->
+				<!-- JSF doc has moved to https://github.com/jbosstools/jbosstools-javaee/-->
+				<directory>../../javatools-javaee/jsf/docs/jsf_tools_ref_guide/target/docbook/publish/en-US</directory>
 				<outputDirectory>/jsf_tools_ref_guide</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -177,7 +198,9 @@
 			</fileSet>
 
 			<fileSet>
-				<directory>../../jsf/docs/jsf_tools_tutorial/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../jsf/docs/jsf_tools_tutorial/target/docbook/publish/en-US</directory> -->
+				<!-- JSF tut has moved to https://github.com/jbosstools/jbosstools-javaee/-->
+				<directory>../../javatools-javaee/jsf/docs/jsf_tools_tutorial/target/docbook/publish/en-US</directory>
 				<outputDirectory>/jsf_tools_tutorial</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -191,7 +214,9 @@
 			</fileSet>
 
 			<fileSet>
-				<directory>../../struts/docs/struts_tools_tutorial/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../struts/docs/struts_tools_tutorial/target/docbook/publish/en-US</directory> -->
+				<!-- Struts tut has moved to https://github.com/jbosstools/jbosstools-javaee/-->
+				<directory>../../jbosstools-javaee/struts/docs/struts_tools_tutorial/target/docbook/publish/en-US</directory>
 				<outputDirectory>/struts_tools_tutorial</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -205,7 +230,9 @@
 			</fileSet>
 
 			<fileSet>
-				<directory>../../struts/docs/struts_tools_ref_guide/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../struts/docs/struts_tools_ref_guide/target/docbook/publish/en-US</directory> -->
+				<!-- Struts doc has moved to https://github.com/jbosstools/jbosstools-javaee/-->
+				<directory>../../jbosstools-javaee/struts/docs/struts_tools_ref_guide/target/docbook/publish/en-US</directory>
 				<outputDirectory>/struts_tools_ref_guide</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -217,8 +244,10 @@
 				<fileMode>0644</fileMode>
 				<directoryMode>0755</directoryMode>
 			</fileSet>
-                        	<fileSet>
-				<directory>../../esb/docs/esb_ref_guide/target/docbook/publish/en-US</directory>
+            <fileSet>
+				<!-- <directory>../../esb/docs/esb_ref_guide/target/docbook/publish/en-US</directory> -->
+				<!-- ESB doc has moved to https://github.com/jbosstools/jbosstools-esb/-->
+				<directory>../../jbosstools-esb/docs/esb_ref_guide/target/docbook/publish/en-US</directory>				
 				<outputDirectory>/esb_ref_guide</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -232,7 +261,9 @@
 			</fileSet>
 
 			<fileSet>
-				<directory>../../ws/docs/restful-reference/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../ws/docs/restful-reference/target/docbook/publish/en-US</directory> -->
+				<!-- WS Restful doc has moved to https://github.com/jbosstools/jbosstools-webservices/-->
+				<directory>../../jbosstools-webservices/docs/restful_reference/target/docbook/publish/en-US</directory>
 				<outputDirectory>/ws_restful_reference</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -246,7 +277,9 @@
 			</fileSet>
 			
 			<fileSet>
-				<directory>../../ws/docs/soap-reference/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../ws/docs/soap-reference/target/docbook/publish/en-US</directory> -->
+				<!-- WS SOAP doc has moved to https://github.com/jbosstools/jbosstools-webservices/-->
+				<directory>../../jbosstools-webservices/ws/docs/soap_reference/target/docbook/publish/en-US</directory>
 				<outputDirectory>/ws_soap_reference</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -260,7 +293,9 @@
 			</fileSet>
 
 			<fileSet>
-				<directory>../../portlet/docs/reference/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../portlet/docs/reference/target/docbook/publish/en-US</directory> -->
+				<!-- Portal doc has moved to https://github.com/jbosstools/jbosstools-portlet/-->
+				<directory>../../jbosstools-portlet/docs/reference/target/docbook/publish/en-US</directory>
 				<outputDirectory>/jboss_portal_tools_ref_guide</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -274,7 +309,9 @@
 			</fileSet>
 
 			<fileSet>
-				<directory>../../birt/docs/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../birt/docs/target/docbook/publish/en-US</directory> -->
+				<!-- Birt doc has moved to https://github.com/jbosstools/jbosstools-birt/-->				
+				<directory>../../jbosstools-birt/docs/target/docbook/publish/en-US</directory>				
 				<outputDirectory>/jboss_birt_plugin_ref_guide</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -287,6 +324,7 @@
 				<directoryMode>0755</directoryMode>
 			</fileSet>
 
+			<!-- These docs are now hosted at http://docs.jboss.org/drools/release/
 			<fileSet>
 				<directory>../../drools/docs/reference/target/docbook/publish/en-US</directory>
 				<outputDirectory>/drools_tools_ref_guide</outputDirectory>
@@ -313,10 +351,12 @@
 				<useDefaultExcludes>true</useDefaultExcludes>
 				<fileMode>0644</fileMode>
 				<directoryMode>0755</directoryMode>
-			</fileSet>
+			</fileSet> -->
 
 			<fileSet>
-				<directory>../../maven/docs/reference/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../maven/docs/reference/target/docbook/publish/en-US</directory> -->
+				<!-- Maven doc has moved to https://github.com/jbosstools/jbosstools-central/-->
+				<directory>../../jbosstools-central/maven/docs/reference/target/docbook/publish/en-US</directory>
 				<outputDirectory>/maven_reference</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -346,7 +386,9 @@
 			</fileSet>
 
 			<fileSet>
-				<directory>../../jmx/docs/reference/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../jmx/docs/reference/target/docbook/publish/en-US</directory> -->
+				<!-- JMX doc has moved to https://github.com/jbosstools/jbosstools-server/-->
+				<directory>../../jbosstools-server/jmx/docs/reference/target/docbook/publish/en-US</directory>
 				<outputDirectory>/jmx_ref_guide</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -361,7 +403,9 @@
 
 
 			<fileSet>
-				<directory>../../bpel/docs/reference/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../bpel/docs/reference/target/docbook/publish/en-US</directory> -->
+				<!-- BPEL doc has moved to https://github.com/jbosstools/jbosstools-bpel/-->
+				<directory>../../jbosstools-bpel/docs/reference/target/docbook/publish/en-US</directory>
 				<outputDirectory>/bpel_user_guide</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -374,7 +418,9 @@
 				<directoryMode>0755</directoryMode>
 			</fileSet>
 			<fileSet>
-				<directory>../../modeshape/docs/ModeShape_Tools_Reference_Guide/target/docbook/publish/en-US</directory>
+				<!-- <directory>../../modeshape/docs/ModeShape_Tools_Reference_Guide/target/docbook/publish/en-US</directory> -->
+				<!-- ModeShape doc has moved to https://github.com/ModeShape/modeshape-tools/-->
+				<directory>../../../ModeShape/modeshape-tools/docs/ModeShape_Tools_Reference_Guide/target/docbook/publish/en-US</directory>
 				<outputDirectory>/modeshape</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
