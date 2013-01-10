@@ -128,7 +128,7 @@
 				<primaryie>OpenShift Tools Reference Guide <ulink
 					url="en/openshift_tools_reference_guide/html/index.html">(html)</ulink>
 					<ulink url="en/openshift_tools_reference_guide/html_single/index.html">(html single)</ulink>
-					<ulink url="en/openshift_tools_reference_guide/pdf/OpenShift_Reference_Guide.pdf"
+					<ulink url="en/openshift_tools_reference_guide/pdf/OpenShift_Tools_Reference_Guide.pdf"
 						>(pdf)</ulink>
 					</primaryie>
 				</indexentry> 
@@ -145,7 +145,7 @@
 			<primaryie>Seam Tools Tutorial <ulink url="en/seam_tutorial/html/index.html"
 				>(html)</ulink>
 				<ulink url="en/seam_tutorial/html_single/index.html">(html single)</ulink>
-				<ulink url="en/seam_tutorial/pdf/Seam_Reference_Guide.pdf">(pdf)</ulink>
+				<ulink url="en/seam_tutorial/pdf/Seam_Tools_Tutorial.pdf">(pdf)</ulink>
 			</primaryie>
 		</indexentry>
 
@@ -222,7 +222,7 @@
 			<primaryie>JBoss BPEL User Guide <ulink
 				url="en/bpel_user_guide/html/index.html">(html)</ulink>
 				<ulink url="en/bpel_user_guide/html_single/index.html">(html single)</ulink>
-				<ulink url="en/bpel_user_guide/pdf/JBoss BPEL User Guide.pdf">(pdf)</ulink>
+				<ulink url="en/bpel_user_guide/pdf/JBoss_BPEL_User_Guide.pdf">(pdf)</ulink>
 			</primaryie>
 		</indexentry>
 	
