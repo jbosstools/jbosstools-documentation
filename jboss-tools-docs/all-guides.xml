@@ -184,7 +184,7 @@
 			<fileSet>
 				<!-- <directory>../../jsf/docs/jsf_tools_ref_guide/target/docbook/publish/en-US</directory> -->
 				<!-- JSF doc has moved to https://github.com/jbosstools/jbosstools-javaee/-->
-				<directory>../../javatools-javaee/jsf/docs/jsf_tools_ref_guide/target/docbook/publish/en-US</directory>
+				<directory>../../jbosstools-javaee/jsf/docs/jsf_tools_ref_guide/target/docbook/publish/en-US</directory>
 				<outputDirectory>/jsf_tools_ref_guide</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -200,7 +200,7 @@
 			<fileSet>
 				<!-- <directory>../../jsf/docs/jsf_tools_tutorial/target/docbook/publish/en-US</directory> -->
 				<!-- JSF tut has moved to https://github.com/jbosstools/jbosstools-javaee/-->
-				<directory>../../javatools-javaee/jsf/docs/jsf_tools_tutorial/target/docbook/publish/en-US</directory>
+				<directory>../../jbosstools-javaee/jsf/docs/jsf_tools_tutorial/target/docbook/publish/en-US</directory>
 				<outputDirectory>/jsf_tools_tutorial</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
@@ -279,7 +279,7 @@
 			<fileSet>
 				<!-- <directory>../../ws/docs/soap-reference/target/docbook/publish/en-US</directory> -->
 				<!-- WS SOAP doc has moved to https://github.com/jbosstools/jbosstools-webservices/-->
-				<directory>../../jbosstools-webservices/ws/docs/soap_reference/target/docbook/publish/en-US</directory>
+				<directory>../../jbosstools-webservices/docs/soap_reference/target/docbook/publish/en-US</directory>
 				<outputDirectory>/ws_soap_reference</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
