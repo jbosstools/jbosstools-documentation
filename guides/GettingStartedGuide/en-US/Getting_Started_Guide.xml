@@ -7,6 +7,8 @@
 <xi:include href="introduction.xml" xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
 <xi:include href="minimumrequirements.xml" xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
 <xi:include href="installation.xml" xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
+<xi:include href="byoe.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
+</xi:include>
 <xi:include href="getting_started.xml" xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
 <xi:include href="jboss_central.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
 </xi:include>

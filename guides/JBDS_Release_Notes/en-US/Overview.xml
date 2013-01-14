@@ -2,13 +2,13 @@
 <section id="Overview">
 		<title>Overview</title>
 		<para>			
-			JBoss Developer Studio 5.0.2 is a minor release of the Eclipse based IDE developed and supported by Red Hat (the visual tooling components are supported for 3 years, and the runtime platform for 5 years). The IDE, which is available for Windows, Linux and OS X, provides tooling that allows for rapid Web 2.0 application development on the JBoss Enterprise Application Platform. 
+			JBoss Developer Studio 6.0.0 is a major release of the Eclipse based IDE developed and supported by Red Hat (the visual tooling components are supported for 3 years, and the runtime platform for 5 years). The IDE, which is available for Windows, Linux and OS X, provides tooling that allows for rapid Web 2.0 application development on the JBoss Enterprise Application Platform. 
 		</para>
 		
-		<para>
+		<!--		<para>
 			JBoss Developer Studio 5.0.2 corrects bugs and adds enhancements to the 5.0.1 release.
 		</para>
-<!--	<itemizedlist>
+		<itemizedlist>
 			<listitem>
 				<para>
 					OpenShift support
@@ -35,7 +35,7 @@
 			</listitem>
 		</itemizedlist> -->
 		<para>
-			JBoss Developer Studio 5 is supported on the following operating systems:
+			JBoss Developer Studio 6 is supported on the following operating systems:
 		</para>
 		<itemizedlist>
 			<listitem>
@@ -95,7 +95,7 @@
 			</para>
 		</important>
 		<para>
-			JBoss Developer Studio 5 requires Java Development Kit (JDK) 1.6.
+			JBoss Developer Studio 6 requires Java Development Kit (JDK) 1.6.
 		</para>
 <!--		<important>
 			<para>
