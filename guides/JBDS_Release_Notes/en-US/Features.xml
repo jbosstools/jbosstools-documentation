@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <section id="Features">
     <title>
-        Features of version 5.0.0
+        Features of version 6.0.0
     </title>
     <para>
         The following list highlights new features that have been added to this release, as well as listing notable bug fixes. You can find a complete list of bug fixes <ulink url="https://issues.jboss.org/browse/JBIDE">here</ulink>.
@@ -36,7 +36,7 @@
 				<itemizedlist>
 					<listitem>
 						<para>
-							The tooling in JBoss Developer Studio 5 works with JBoss Enterprise Application Platform 6.
+							The tooling in JBoss Developer Studio 6 works with JBoss Enterprise Application Platform 6.
 						</para>
 					</listitem>
 				</itemizedlist>
@@ -120,7 +120,7 @@
 			<itemizedlist>
 				<listitem>
 					<para>
-						Maven is now a major component of JBoss Developer Studio 5. Creating a Maven-ready project allows you to utilize remote resources from Maven repositories.
+						Creating a Maven-ready project allows you to utilize remote resources from Maven repositories.
 					</para>
 				</listitem>
 	        </itemizedlist>
@@ -150,4 +150,22 @@
 			</itemizedlist>
 		</para>
 	</formalpara>
+	<section>
+		<title>Technology Previews</title>
+		<para>
+			Features listed in this section are provided with this release as early access to future innovations. Technology preview features are not fully supported and are not intended for production use.
+		</para>
+		<formalpara>
+			<title>Bring Your Own Eclipse</title>
+			<para>
+				<itemizedlist>
+					<listitem>
+						<para>
+							The core set of JBoss Developer Studio tooling is now available for  installation into a pre-existing Eclipse setup. This allows for easy integration with a users current work environment. Consult the Getting Started Guide of this release for further information.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</formalpara>
+	</section>
 </section>
