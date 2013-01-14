@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../whatsnew.css" />
+<title>OpenShift Tools 2.4.0.CR1 What's New</title>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-17645367-5' ]);
+	_gaq.push([ '_trackPageview' ]);
+
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+<body>
+	<h1>OpenShift 2.4.0.CR1 What's New</h1>
+
+	<p align="right">
+		<a href="../as/as-news-4.0.0.CR1.html">Server Tools &gt; </a>
+	</p>
+	<table border="0" cellpadding="10" cellspacing="0" width="80%">
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Embedding Cartridges</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>MongoDB 2.2 and Ignore suggestions</b></td>
+			<td valign="top" align="left">
+				The OpenShift platform was
+				upgraded to use MongoDB 2.2. For this release of the associated
+				tooling, MongoDB 2.2 is now fully supported.
+				<p>
+					<img src="images/mongodb22.png" alt="MongoDB 2.2" />
+				</p>
+				When you embed cartridges to your application we check the requirements and 
+				suggest you to add or remove further cartridges. 
+				<br />In CR1 we now allow you to ignore these suggestions. You get the full control but may possibly 
+				run into errors if you dont meet the requirements.
+				Furthermore we now made these checks rely on the cartridge names only and ignore the versions. 
+				This makes sure the tooling wont break when OpenShift upgrades cartridges.
+				<p>
+					<img src="images/embedding-ignore-suggestion.png" alt="Ignore suggestions"/>
+				</p>
+				<p>
+					<small> <a
+						href="https://issues.jboss.org/browse/JBIDE-13066">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Support multiple servers</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Key in Properties View</b></td>
+			<td valign="top" align="left">In Beta2 we allowed every
+				OpenShift connection to use its very own server. This allows you to
+				work with openshift.redhat.com, a liveCD or your very own OpenShift
+				origin instance in parallel. With this change we started using the
+				server when storing the connections. We therefore enhanced the
+				properties view to now show the key that is used for the particular
+				connection. The key shown is what's used when we store the
+				connection to the Eclipse preferences.
+				<p>
+					<img src="images/key-property.png" alt="Key property" />
+				</p>
+				<p>
+					<small> <a
+						href="https://issues.jboss.org/browse/JBIDE-13015">Related
+							Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Server logs</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Tweakable "Tail files..."</b></td>
+			<td valign="top" align="left">Early November OpenShift changed
+				the location of the application log-files. Users of JBoss Tools for
+				OpenShift could therefore not list application logs from Eclipse any
+				more. We fixed this and enhanced our "Tail files" action. It will
+				present you a dialog that presents you the command that's used to
+				list your logs. You will then be able to tweak it or simply confirm
+				it.
+				<p>
+					<img src="images/tail-files.png"
+						alt="tweak command to tail server logs" />
+				</p>
+				<p>
+					<small> <a
+						href="https://issues.jboss.org/browse/JBIDE-13069">Related
+							Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Server Adapter</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Easy publishing for any OpenShift project</b></td>
+			<td valign="top" align="left">
+				In JBoss Tools for OpenShift you can create an Eclipse WTP server adapter for
+				easy publishing to OpenShift. In prior versions the server adapter
+				wizard did not allow you to create a server adapter for your
+				workspace projects if they had the OpenShift git repo stored to a
+				remote name that was not "origin". CR1 now fixes this. You'll now be able to 
+				create a server adapter for any project whose git repository points to OpenShift
+				by some remote.
+				<p>
+					<small> <a
+						href="https://issues.jboss.org/browse/JBIDE-12146">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left">
+				<b>No deploy error executing hooks </b>
+			</td>
+			<td valign="top" align="left">
+				When deploying existing projects to OpenShift, the server adapter was reporting an error when the deploy hooks should have been executed:<br>
+				
+				<pre>
+/usr/libexec/openshift/cartridges/abstract/info/lib/util: line 992: /var/lib/openshift/1e6a743963104f30bdcdebdff460d42b/app-root/runtime/repo/.openshift/action_hooks/post_start_jbossas-7: Permission denied
+Failed to start jbossas-7
+				</pre> 
+				
+				This was fixed in CR1 and we now set the correct permissions when merging the hook files into an existing workspace project.
+				<p>
+					<small> 
+						<a href="https://issues.jboss.org/browse/JBIDE-13217">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Port forwarding</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Is your application stopped?</b></td>
+			<td valign="top" align="left">
+				When attempting to retrieve
+				information on the ports used by an OpenShift application, the
+				PortForwarding dialog could return an empty list without providing
+				an explanation, leading to user confusion. The OpenShift
+				PortForwarding dialog has now been updated to inform a user that the
+				application may not be runinng if no port is retrieved from server.
+				<p>
+					<img src="images/application-eventually-stopped.png"
+						alt="is application stopped?" />
+				</p>
+				<p>
+					<small> <a
+						href="https://issues.jboss.org/browse/JBIDE-13090">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>SSH Keys</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left">
+				<b>No erroneous warning about id_rsa</b>
+			</td>
+			<td valign="top" align="left">
+				When adding SSH public keys to
+				OpenShift, they are verified to ensure the matching private key is
+				listed in Eclipse SSH preferences. Previously when performing this
+				task on a Windows operating system, a user would be warned in error
+				when adding default rsa or dsa keys (id_dsa, id_rsa). This has been
+				corrected and no false alerts are generated or displayed.
+				<p>
+					<img src="images/id-rsa-warning.png"
+						alt="erroneous warning about id_rsa" />
+				</p>
+				<p>
+					<small> <a
+						href="https://issues.jboss.org/browse/JBIDE-13095">Related
+							Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>

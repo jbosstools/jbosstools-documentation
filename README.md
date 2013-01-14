@@ -1,4 +1,4 @@
-# The Jboss Tools Documentation project
+# The JBoss Tools Documentation project
 
 ## Summary
 

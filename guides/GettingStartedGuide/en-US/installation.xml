@@ -16,19 +16,19 @@
 <?dbhtml filename="ConfigJavaEnvironment.html"?>
     <title>Configuring Your Java Environment</title> 
     <para>
-      You must have a working installation of JDK before you install <property>JBoss Developer Studio</property>. In this guide we will show you how to install a 32-bit Sun JDK 6 on a Linux Platform and Microsoft Windows Platform.
+      You must have a working installation of JDK before you install <property>JBoss Developer Studio</property>. In this guide we will show you how to install a 32-bit Oracle JDK 6 on a Linux Platform and Microsoft Windows Platform.
     </para>
      
     <section id="InstallJDK60onLinux">
-      <title>Installing and Configuring 32-bit Sun JDK 6 on Linux</title> 
+      <title>Installing and Configuring 32-bit Oracle JDK 6 on Linux</title> 
       <para>
-        To install 32-bit Sun JDK 6 on Linux and configure it, follow the next steps:
+        To install 32-bit Oracle JDK 6 on Linux and configure it, follow the next steps:
       </para>
        
       <itemizedlist>
         <listitem>
           <para>
-            Download the <ulink url="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Sun JDK 6</ulink> from Sun&apos;s website. Click the 
+            Download the <ulink url="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Oracle JDK 6</ulink> from Oracle&apos;s website. Click the 
             <guibutton>
               Download JDK
             </guibutton>
@@ -130,7 +130,7 @@ Enter to keep the current selection[+], or type selection number: ]]>
         </programlisting>
          
         <para>
-          Make sure the Sun version [/usr/java/jdk1.6.0_24/bin/java in this case] is selected (marked with a &apos;+&apos; in the output), or select it by entering its number as prompted.
+          Make sure the Oracle version [/usr/java/jdk1.6.0_24/bin/java in this case] is selected (marked with a &apos;+&apos; in the output), or select it by entering its number as prompted.
         </para>
          
         <itemizedlist>
@@ -193,15 +193,15 @@ Java HotSpot(TM) Server VM (build 19.1-b02, mixed mode)]]>
     </section>
      
     <section id="InstallJDK60onWindows">
-      <title>Installing and Configuring 32-bit Sun JDK 6 on Microsoft Windows</title> 
+      <title>Installing and Configuring 32-bit Oracle JDK 6 on Microsoft Windows</title> 
       <para>
-        To install and configure 32-bit Sun JDK 6 on Microsoft Windows, follow these steps:
+        To install and configure 32-bit Oracle JDK 6 on Microsoft Windows, follow these steps:
       </para>
        
       <itemizedlist>
         <listitem>
           <para>
-            Download the <ulink url="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Sun JDK 6</ulink> from Oracle&apos;s website. Choose &quot;JDK 6 Update &lt;x&gt;&quot; (where &quot;x&quot; is the latest update number) for download and then select your Windows Platform options to perform the installation.
+            Download the <ulink url="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Oracle JDK 6</ulink> from Oracle&apos;s website. Choose &quot;JDK 6 Update &lt;x&gt;&quot; (where &quot;x&quot; is the latest update number) for download and then select your Windows Platform options to perform the installation.
           </para>
         </listitem>
          
@@ -225,7 +225,7 @@ Java HotSpot(TM) Server VM (build 19.1-b02, mixed mode)]]>
       </para>
        
       <para>
-        Now, when 32-bit Sun JDK 6 has been successfully installed, we can pass on to the next step.
+        Now, when 32-bit Oracle JDK 6 has been successfully installed, we can pass on to the next step.
       </para>
     </section>
   </section>
