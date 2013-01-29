@@ -1,72 +1,34 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <section id="Known_Issues_with_this_release">
 	<title>
-			Known Issues in version 5.0.1
+			Known Issues in version 5.0.2
 	</title>
-<!--	<para>
-		There were no known issues at the time of release.
-	</para> -->
-	
-	
-<!-- Below is the list of known issues as they were for JBDS 5.0.0 -->
-	<para> 
-			Following is a list of known issues at the time of release.
-		</para>
-		<variablelist>
-			<!-- JBDS-2212 -->
-			<varlistentry>
-				<term>
-					<ulink url="https://issues.jboss.org/jira/browse/JBDS-2212">JBDS-2212</ulink>
-				</term>
-				<listitem>
-					<para>
-						Features of JBoss Developer Studio may show incorrect version numbers when viewing installation information. Under <menuchoice><guimenuitem>Help</guimenuitem><guimenuitem>About JBoss Developer Studio</guimenuitem><guimenuitem>Installation Details</guimenuitem><guimenuitem>Features</guimenuitem></menuchoice> some features will display a version number older than the previous release of JBoss Developer Studio. These numbers are incorrect and will be incremented correctly in the future.  
-					</para>
-				</listitem>
-			</varlistentry>
-			<!-- JBDS-2180 -->
-		<varlistentry>
-			<term>
-				<ulink url="https://issues.jboss.org/jira/browse/JBDS-2180">JBDS-2180</ulink>
-			</term>
-			<listitem>
-				<para>
-					When installing JBoss Developer Studio 5 on Mac OS X, if you are running Java 7 you will only be able to install the 64bit version of JBoss Developer Studio. The current workaround o install the 32bit version is to use Java 6. 
-				</para>
-			</listitem>
-		</varlistentry>
-		<!-- JBIDE-12202 -->
-		<varlistentry>
-			<term>
-				<ulink url="https://issues.jboss.org/jira/browse/JBIDE-12202">JBIDE-12202</ulink>
-			</term>
-			<listitem>
-				<para>
-					When deploying a project as an exploded archive to a remote server, the publishing process can be slow. It is recommended that users deploy projects as compressed archives to remote servers. This can be enbled by double-clicking the server in the Servers view, navigating to the Deployment page and clicking the checkbox beside the option to Deploy projects as compressed archives. 
-				</para>
-			</listitem>
-		</varlistentry>
-		<!-- JBIDE-12071 -->
-		<varlistentry>
-			<term>
-				<ulink url="https://issues.jboss.org/jira/browse/JBIDE-12071">JBIDE-12071</ulink>
-			</term>
-			<listitem>
-				<para>
-					When adding a project to an OpenShift server using the context menu, or you remove a project from the OpenShift server, no dialog appears to publish or unpublish the project. The current workaround is to manually publish and unpublish a project after performing one of the above actions. 
-				</para>
-			</listitem>
-		</varlistentry>
-		<!-- LOGTOOL-51 -->
-		<varlistentry>
-			<term>
-				<ulink url="https://issues.jboss.org/jira/browse/LOGTOOL-511">LOGTOOL-51</ulink>
-			</term>
-			<listitem>
-				<para>
-					If Maven integration with Eclipse JDT Annotation Processor Toolkit is used with an earlier version of jboss-logging-processor than 1.1.0.Beta1, the workspace may crash. This crash occurs because classes are loaded by reflection during APT processing. The current workaround is to use the 1.1.0.Beta1 or newer version of the jboss-logging-processor. 
-				</para>
-			</listitem>
-		</varlistentry>
-	</variablelist>
+
+<variablelist>
+
+   <!-- JBDS-2364 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBDS-2364">JBDS-2364</ulink></term>
+      <listitem>
+         <para>
+         An issue arises when importing existing Maven projects. The m2e connector for build-helper-maven-plugin is required but installation fails due to an unsatisfied dependency for org.eclipse.m2e.jdt, which requires versions higher than 1.1.0 (and lower than 2.0.0) when only 1.0.x is available. This issue remains unresolved but users can work around it by using JBoss Developer Studio 6.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBDS-1786 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBDS-1786">JBDS-1786</ulink></term>
+      <listitem>
+         <para>
+         Downloading m2e from the Eclipse Marketplace or other sites and installing in JBoss Developer Studio can fail due to incompatibility and missing requirements. m2e certified for use with JBoss Developer Studio 5 must be obtained from the JBoss Developer Studio Extras website.
+         </para>
+         <para>
+         Install the certified m2e plug-in from within JBoss Developer Studio by clicking <application>Help > Install New Software</application> to open the <application>Available Software</application> window. In the <application>Work with</application> combination box select <application>JBoss Developer Studio 5.0 Extras</application> or type the location of the Extras site <ulink url="https://devstudio.jboss.com/updates/5.0/extras/">https://devstudio.jboss.com/updates/5.0/extras/</ulink> to view packages for installation. Selecting the <application>Maven Integration - Extras</application> check box under <application>JBoss Selected Features</application> and completing the installation wizard will make m2e functionality available in JBoss Developer Studio 5.
+         </para>
+      </listitem>
+   </varlistentry>
+
+</variablelist>
+
 </section>

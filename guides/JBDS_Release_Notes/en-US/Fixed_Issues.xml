@@ -1,81 +1,170 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <section id="Issues-fixed-in-this-release">
     <title>
-        Enhancements and fixed issues in version 5.0.1
+        Enhancements and fixed issues in version 5.0.2
     </title>
-	<variablelist>
-		<!-- JBIDE-12177 -->
-		<varlistentry>
-		<term>
-			<ulink url="https://issues.jboss.org/jira/browse/JBIDE-12177">JBIDE-12177</ulink>
-		</term>
-		<listitem>
-			<para>
-				The feature to auto-complete code tags was broken in the Visual Editor. When attempting to auto-complete a code tag, invalid code would be generated. This has been corrected by modifying the content assist file XmlTagCompletionProposalComputer.java to ensure partner code tags are generated correctly when using auto-completion.
-			</para>
-		</listitem>
-	</varlistentry>
-	
-	<!-- JBIDE-12158 -->
-	<varlistentry>
-	<term>
-		<ulink url="https://issues.jboss.org/jira/browse/JBIDE-12158">JBIDE-12158</ulink>
-	</term>
-	<listitem>
-		<para>
-			An issue existed when creating a Dynamic Web Project and modifying the project to include the JBoss Core Portlet facet to the project. The portlet-api library was not detected in the target runtime, forcing the user to manually specify it via the user library. This has been corrected by adding the option, Portlet Target Runtime Provider, to the combo-box on the JBoss Portlet Capabilities wizard page.
-		</para>
-	</listitem>
-</varlistentry>
 
-   <!-- JBIDE-12111 -->
+<variablelist>
+   <!-- JBIDE-13368 -->
    <varlistentry>
-   <term>
-	   <ulink url="https://issues.jboss.org/jira/browse/JBIDE-12111">JBIDE-12111</ulink>
-   </term>
-   <listitem>
-	   <para>
-		   The version of Java to be used was hard coded in the pom.xml file of Maven projects. This caused errors when adding Maven configuration to a Seam 2.3 project since Maven projects were created to use Java 1.5, however Seam 2.3 requires Java 1.6. Maven tooling has been updated to allow the maven-compiler-plugin settings that are in the parent project to be dynamically inferred from the converted web project's original settings. This ensures the correct Java version is retained when Maven integration is added to an existing project.
-	   </para>
-   </listitem>
-   </varlistentry>
-   
-   <!-- JBIDE-12071 -->
-   <varlistentry>
-   <term>
-	   <ulink url="https://issues.jboss.org/jira/browse/JBIDE-12071">JBIDE-12071</ulink>
-   </term>
-   <listitem>
-	   <para>
-		   Previously, when a user performed a drag-and-drop action to publish a project it was ignored. This occurred because the code to publish a project only accepted direct user-initiated actions and not those considered to be a shell action. The ExpressPublishMethod.java and ExpressBehaviour.java files have been updated to handle shell actions correctly. As a result, incremental publishes initiated by the user are now also handled correctly.
-	   </para>
-   </listitem>
-   </varlistentry>
-   
-   <!-- JBIDE-12046 -->
-   <varlistentry>
-   <term>
-	   <ulink url="https://issues.jboss.org/jira/browse/JBIDE-12046">JBIDE-12046</ulink>
-   </term>
-   <listitem>
-	   <para>
-		   When a user tried to start or deploy to a remote server that was no longer reachable, various errors would be returned, however no adequate description of the issue was communicated. This issue has been resolved by returning a descriptive error when the remote server is unreachable and checking for file system responsiveness before attempting to publish.
-	   </para>
-   </listitem>
-   </varlistentry>
-   
-   <!-- JBIDE-11310 -->
-   <varlistentry>
-      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-11310">JBIDE-11310</ulink></term>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-13368">JBIDE-13368</ulink></term>
       <listitem>
          <para>
-         An issue in the OpenShift tooling meant that if a user logged into OpenShift and created an application, then went back to the login screen and signed in as a different user, the previous application parameters would still be available. This meant the second user was not able to create an application with the same parameters, and was also able to view what the previous user had created, causing a potential security issue. OpenShift tooling has been updated to reset  when a new user connects, triggering a refresh of the targets and parameters.
+         When a server is started a JVM is selected. The first JVM matching the execution environment was selected despite a better match being available. This led to sub-optimal choices and, in some cases, the server failed to start. This has been corrected and now if a JVM is available that exactly matches the execution environment is it preferentially selected.
+         </para>
+      </listitem>
+   </varlistentry>
+   
+   <!-- JBIDE-12619 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-12619">JBIDE-12619</ulink></term>
+      <listitem>
+         <para>
+         The JBoss JAX-RS Tools plug-in scanned JARs added in the class path of a project, looking for annotated classes and JAX-RS HTTP Methods. This could result in slow behavior during project building. To resolve the issue, scanning of JARs has been disabled and the JAX-RS HTTP Methods (@GET, @POST, etc.) are now built in the plug-in. Changing the project class path no longer invokes scanning of JARs.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-12618 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-12618">JBIDE-12618</ulink></term>
+      <listitem>
+         <para>
+         Previously, the JBoss JAX-RS Tools plug-in contained the JAX-RS API (jaxrs-api.jar). The API was solely needed to retrieve class names so it has been removed from the JBoss JAX-RS Tools plug-in and class names explicitly included as necessary. This has reduced the overall size of the JBoss JAX-RS Tools plug-in.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-12403 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-12403">JBIDE-12403</ulink></term>
+      <listitem>
+         <para>
+         Servers failed to start, with error messages stating an invalid <application>-server</application> option was being used. This issue occurred because the <application>-server</application> option was mistakenly added to the program arguments when a server was starting. It is now correctly added to the JVM arguments and servers start successfully.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-12380 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-12380">JBIDE-12380</ulink></term>
+      <listitem>
+         <para>
+         If the user had started the OpenShift tooling with a blank user account (no domain or applications), the user could not import applications that they had created outside the tooling environment. This occurred because the tooling failed to refresh the user account and discover the new applications. The issue has been corrected for this release, enabling discovery of applications created outside the tooling environment.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-12361 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-12361">JBIDE-12361</ulink></term>
+      <listitem>
+         <para>
+         When packaging a web project, the use of a fileset for automatically copying resources did not result in the correct files being copied. The expressions in the <application>Includes</application> and <application>Excludes</application> fields of the fileset reference were not strictly adhered to during pattern matching of file names. This has been resolved and strict adherence to the expressions in the <application>Includes</application> and <application>Excludes</application> fields ensures the correct files are now copied.
+         </para>
+      </listitem>
+   </varlistentry>
+   
+   <!-- JBIDE-12242 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-12242">JBIDE-12242</ulink></term>
+      <listitem>
+         <para>
+         A bug existed whereby any application created or deleted from OpenShift outside of the provided tooling was not correctly listed in the <application>OpenShift Application</application> wizard. This would result in users attempting to create applications with a name already in use and attempting to select applications no longer on the server. To correct this issue the DomanResource.java file has been updated with the addition of a refresh button for the listing of existing applications. If a user believes the provided list of applications on the server may be incorrect they are now able to perform a refresh to ensure the tooling is using the latest information.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-12241 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-12241">JBIDE-12241</ulink></term>
+      <listitem>
+         <para>
+         When creating or importing an OpenShift application to the workspace, the user must provide the wizard with a destination folder. If the destination folder already had a project with the same name, the wizard would not complete. Even after moving or removing the conflicting folder from outside the tooling, the wizard would not allow a user to save to the location. This issue has now been fixed and the wizard will check the folder again for any conflicts once a user switches in and out of the folder from within the wizard.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-12216 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-12216">JBIDE-12216</ulink></term>
+      <listitem>
+         <para>
+         When an incorrect username or password was entered for a remote application server and the management port was exposed the application server would continue to start until the time out limit was reached. When the startup poller was also set to Web Port, the server would be shown as started and when access was attempted through the <application>MBean Explorer</application> the tooling would crash. These errors have been corrected by requesting the password again if there is an authentication failure and disabling the <application>MBean Explorer</application> unless there was a successful MBean connection.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-12187 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-12187">JBIDE-12187</ulink></term>
+      <listitem>
+         <para>
+         The OpenShift Java Client library  is now available as a Maven artifact from Maven Central.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-12142 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-12142">JBIDE-12142</ulink></term>
+      <listitem>
+         <para>
+         In the <application>OpenShift Explorer</application>, domains and their applications can be deleted. After deleting a domain and the associated application, the <application>OpenShift Explorer</application> continued to display the deleted applications and continued to show <application>Delete Domain</application> as an option in the context menu. This has been resolved and the <application>OpenShift Explorer</application> now refreshes correctly. It no longer shows applications or allows a user to select <application>Delete Domain</application> after a domain and its applications have been deleted.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-11990 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-11990">JBIDE-11990</ulink></term>
+      <listitem>
+         <para>
+         An issue occurred when a server failed to start correctly. Processes continued to run on the server in the background even after time out was reached. This has been rectified so that when a server fails to start the associated processes are now cleanly terminated when time out is reached.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-11876 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-11876">JBIDE-11876</ulink></term>
+      <listitem>
+         <para>
+         A new shortcut has been added to the <application>Project Archives</application> and <application>Project Explorer</application> views for deleting archives. Selecting an archive in either of these views and pressing the delete key will now have the same effect as right-clicking on that archive and selecting <application>Delete Archives</application>.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-11217 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-11217">JBIDE-11217</ulink></term>
+      <listitem>
+         <para>
+         A new feature has been added that allows for a user to run the Forge Verbose command from within the Forge console, and any exceptions are recorded in the Eclipse error log. This command was previously only available when running Forge from a standard command line.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-10929 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-10929">JBIDE-10929</ulink></term>
+      <listitem>
+         <para>
+         An issue with password storage occurred when users signed in to OpenShift accounts. Passwords were stored in secure storage regardless of whether the <application>Save password</application> check box was selected. This has been resolved and now passwords are only stored when the <application>Save password</application> check box is selected.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBDS-2437 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBDS-2437">JBDS-2437</ulink></term>
+      <listitem>
+         <para>
+         An issue occurred when deploying a BPEL project to a server. The project failed to deploy as a result of modifications to the getDeployableServer method, which other plug-ins were dependent on. This issue has been resolved by including both the modified and unmodified versions of the getDeployableServer method. As a result, BPEL projects will now deploy on servers.
          </para>
       </listitem>
    </varlistentry>
 
 </variablelist>
-
-
 
 </section>
