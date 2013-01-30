@@ -7,6 +7,7 @@
 <!ENTITY  ComponentVersions SYSTEM "Component_Versions.xml">
 <!ENTITY  FixedIssues SYSTEM "Fixed_Issues.xml">
 <!ENTITY  KnownIssues SYSTEM "Known_Issues.xml">
+<!ENTITY  SystemRequirements SYSTEM "System_Requirements.xml">
 ]>
 
 <article>
@@ -16,16 +17,16 @@
              
          
          <author>
-		<firstname>Isaac</firstname>
-		<surname>Rooskov</surname>
-		<email>irooskov@redhat.com</email>
+		<firstname>Michelle</firstname>
+		<surname>Murray</surname>
+		<email>mmurray@redhat.com</email>
 	</author>      
 	     <copyright>
-	          <year>2011</year>
+	          <year>2013</year>
 	          <holder>JBoss by Red Hat</holder>
 	     </copyright>
          <releaseinfo>
-             Version: 3.3.0.GA
+             Version: 3.3.2.Final
          </releaseinfo>
 
 
@@ -35,7 +36,8 @@
    	&Overview;
  <!--  	&NewFeatures; -->
 	&ComponentVersions;
+	&SystemRequirements;
 	&FixedIssues;
-<!--    &KnownIssues; -->
+	&KnownIssues;
 
 </article> 
