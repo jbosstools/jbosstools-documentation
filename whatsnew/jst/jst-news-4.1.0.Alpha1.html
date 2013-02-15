@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../whatsnew.css" />
+<title>JST/JSF/HTML 4.1.0.Alpha1 What's New</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17645367-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
+<body>
+<h1>JST/JSF/HTML 4.1.0.Alpha1 What's New</h1>
+
+<p align="right">
+	<p align="right"><a href="../index.html">&lt; Main Index</a></p>
+</p>
+<table border="0" cellpadding="10" cellspacing="0" width="80%">
+
+	<tr>
+		<td colspan="2">
+		<hr />
+		<h3>jQuery Mobile</h3>
+		<hr />
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" align="left">
+			<p><b>jQuery Mobile Palette</b></p>
+		</td>
+        <td align="top">
+			<p>
+				New jQuery Mobile Palette is now available for HTML files.
+				The old JSF Palette and the new one shares the same Palette View so if you open any XHTML/HTML file with JBoss HTML Editor from a JSF project then you will see the old JSF Palette.
+				But if you open an HTML file from non-JSF project you will see the new HTML5 Widget Palette which contains jQuery Moblile widgets now.<br/>
+				Also we removed the deprecated JBoss Palette (Window->Show View->Other->JBoss Tools Web->JBoss Palette) which was a clone of the general palette view (Window->Other->General->Palette).
+			</p>
+			<p><img src="images/4.1.0.Alpha1/palette.png" /></p>
+			<p>
+				<small>
+					<a href="https://issues.jboss.org/browse/JBIDE-13454">Related Jira 1</a><br/>
+					<a href="https://issues.jboss.org/browse/JBIDE-13453">Related Jira 2</a>
+				</small><br/>
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" align="left">
+			<p><b>New jQuery Mobile Check Box Wizard</b></p>
+		</td>
+        <td align="top">
+			<p>
+				New Check Box Wizard is now opened when you DnD the check box widget from jQueryMobile Palette.
+				This is the first wizard for jQuery mobile palette we introduced in JBoss Tools 4.1.0.Alpha1. More wizards are coming.
+			</p>
+			<p><img src="images/4.1.0.Alpha1/checkBox.png" /></p>
+			<p>
+				<small>
+					<a href="https://issues.jboss.org/browse/JBIDE-13466">Related Jira</a>
+				</small><br/>
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr />
+		<h3>JSF</h3>
+		<hr />
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" align="left">
+			<p><b>Code completion for xmlns</b></p>
+		</td>
+        <td align="top">
+			<p>
+				Now you can insert a JSF component into your page via code assist feature (Ctrl+Space) even if you didn't define the corresponding xmlns.
+				The proper xmlns will be added automatically. JBoss Tools will look at the pages in the project and provide code assist for all components used in the project. Not only for those which defined in the current page.
+			</p>
+			<p><iframe width="640" height="480" src="http://www.youtube.com/embed/A2Gy5QPeGGk" frameborder="0" allowfullscreen></iframe></p>
+			<p>
+				<small>
+					<a href="https://issues.jboss.org/browse/JBIDE-12175">Related Jira</a>
+				</small><br/>
+			</p>
+		</td>
+	</tr>
+
+</table>
+
+</body>
+
+</html>
