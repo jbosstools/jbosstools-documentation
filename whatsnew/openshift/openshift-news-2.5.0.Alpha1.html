@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../whatsnew.css" />
+<title>OpenShift Tools 2.5.0.Alpha1 What's New</title>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-17645367-5' ]);
+	_gaq.push([ '_trackPageview' ]);
+
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+<body>
+	<h1>OpenShift 2.5.0.Alpha1 What's New</h1>
+
+	<p align="right">
+		<a href="../as/as-news-4.1.0.Alpha1.html">Server Tools &gt; </a>
+	</p>
+	<table border="0" cellpadding="10" cellspacing="0" width="80%">
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Connection wizard</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Invalid credentials</b></td>
+			<td valign="top" align="left">
+				Users of the latest rhc tools (1.4.7 and older) can run into the situation where they cannot succesfully authenticate against OpenShift when using JBoss Tools. 
+				The tools keep reporting invalid credentials.
+				The rhc command line tools create new configuration files (/etc/openshift/express.conf and ~/.openshift/express.conf) when they're told to do the initial setup. 
+				Version 1.4.7 used a new format where values were within double quotes. 
+				The Eclipse tooling could not handle these and tried to connect to an invalid host ("openshift.redhat.com"). 
+				It then reported invalid credentials since it could not connect to OpenShift.
+				In Alpha1 JBoss Tools can now read these new configuration files.
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-13558">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Embedding wizard</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>MySQL and PostgreSQL</b></td>
+			<td valign="top" align="left">
+				Historically OpenShift did not allow users to users to use a mysql and a Postgres database at the same time. 
+				This restriction was lifted some weeks ago and we now upgraded the tooling to allow that, too.
+				<p>
+					<small> 
+						<a href="https://issues.jboss.org/browse/JBIDE-13235">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Server adapter</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>No local changes to publish</b></td>
+			<td valign="top" align="left">
+			To easily publish a project to OpenShift one can use the OpenShift server adapter. 
+			This adapter keeps track of your local changes and tells you if there are any that you can publish to OpenShift. 
+			There are two situations where there are changes that you may publish to OpenShift: 
+			Firstly you may have uncommitted changes. The adapter will then commit and push them to OpenShift. 
+			Secondly you may have committed changes, that you didn't push yet. The adapter will then offer you to push them to OpenShift. 
+			Prior to Alpha1, the adapter wouldn't detect this latter usecase and falsely tell you that there are no changes that you could publish to OpenShift. 
+				<p>
+					<img src="images/committed-not-published.png" alt="ahead of remote repository" />
+				</p>
+				<p>
+					<small> <a
+						href="https://issues.jboss.org/browse/JBIDE-13175">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Tracing</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Trace client communication</b></td>
+			<td valign="top" align="left">
+				We now added the ability to trace the communication that occurrs with the OpenShift server. 
+				You may enable or disable it via the tracing option in the Eclipse preferences: 
+				<p>
+					<img src="images/tracing-preferences.png" alt="OpenShift client tracing" />
+				</p>
+				The log file that all requests and responses are writte to is by default located at <b>&lt;workspace&gt;/.metadata/trace.log</b>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-12381">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>
