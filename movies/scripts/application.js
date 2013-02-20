@@ -17,15 +17,16 @@ $(document).ready(function() {
 })
 
 var videosJSON = {"videos":[
-		{"id": "39743315", "ref": "marketplaceinstallation"},
-		{"id": "39606090", "ref": "jbdsinstallation"},
-		{"id": "39607154", "ref": "jee6arquillianintro"},
-		{"id": "39607711", "ref": "richfacesintro"},
-		{"id": "39608223", "ref": "forgeintro"},
-		{"id": "39743919", "ref": "gwtintro"},
-		{"id": "39608294", "ref": "hibreveng"},
-		{"id": "39608326", "ref": "forgereveng"}
-		]};
+    {"id": "60064715", "ref": "jbds5min" },
+    {"id": "39743315", "ref": "marketplaceinstallation"},
+    {"id": "39606090", "ref": "jbdsinstallation"},
+    {"id": "39607154", "ref": "jee6arquillianintro"},
+    {"id": "39607711", "ref": "richfacesintro"},
+    {"id": "39608223", "ref": "forgeintro"},
+    {"id": "39743919", "ref": "gwtintro"},
+    {"id": "39608294", "ref": "hibreveng"},
+    {"id": "39608326", "ref": "forgereveng"}
+]};
 
 function play(videoRef) {
 	var videoId = null;
