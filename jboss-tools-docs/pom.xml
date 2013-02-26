@@ -35,8 +35,7 @@
 		<module>../../jbosstools-javaee/jsf/docs/userguide</module>
 		<module>../../jbosstools-javaee/seam/docs/reference</module>
 		<module>../../jbosstools-javaee/seam/docs/tutorial</module>
-		<module>../../jbosstools-javaee/struts/docs/struts_tools_ref_guide</module>
-		<module>../../jbosstools-javaee/struts/docs/struts_tools_tutorial</module>
+
 
 		<module>../../jbosstools-openshift/docs/reference</module>
 		
