@@ -39,16 +39,28 @@
 			</td>
 		</tr>
 		<tr>
-			<td valign="top" align="left"><b>Invalid credentials</b></td>
+		  <td valign="top" align="left"><b>False 'Invalid credentials' error</b></td>
 			<td valign="top" align="left">
-				Users of the latest rhc tools (1.4.7 and older) can run into the situation where they cannot succesfully authenticate against OpenShift when using JBoss Tools. 
-				The tools keep reporting invalid credentials.
-				The rhc command line tools create new configuration files (/etc/openshift/express.conf and ~/.openshift/express.conf) when they're told to do the initial setup. 
-				Version 1.4.7 used a new format where values were within double quotes. 
-				The Eclipse tooling could not handle these and tried to connect to an invalid host ("openshift.redhat.com"). 
-				It then reported invalid credentials since it could not connect to OpenShift.
-				In Alpha1 JBoss Tools can now read these new configuration files.
-				<p>
+
+			  <p>If you have typed in a bad host name or
+			 your <tt>~/.openshift/express.conf</tt>
+			 settings were wrong you would get an "Invalid
+			 credentials" error instead of information on
+			 the host not being reachable. This is now
+			 fixed.</p>
+
+			  <p>Releated to this was that rhc tools
+			  version 1.4.7 generated a different format
+			  for host in <tt>express.conf</tt> which
+			  caused the tools to parse the host
+			  wrongly and you thus got the "Invalid
+			  credentials" error. JBoss Tools have been fixed to
+			  handle this new format but newer version of
+			  rhc tools have also been fixed to use the
+			  previous format making both old and new
+			  tools compatible again.</p>
+
+			  <p>
 					<small>
 						<a href="https://issues.jboss.org/browse/JBIDE-13558">Related Jira</a>
 					</small>
@@ -82,43 +94,35 @@
 			</td>
 		</tr>
 		<tr>
-			<td valign="top" align="left"><b>No local changes to publish</b></td>
+			<td valign="top" align="left"><b>Better change
+					detection</b></td>
 			<td valign="top" align="left">
-			To easily publish a project to OpenShift one can use the OpenShift server adapter. 
-			This adapter keeps track of your local changes and tells you if there are any that you can publish to OpenShift. 
-			There are two situations where there are changes that you may publish to OpenShift: 
-			Firstly you may have uncommitted changes. The adapter will then commit and push them to OpenShift. 
-			Secondly you may have committed changes, that you didn't push yet. The adapter will then offer you to push them to OpenShift. 
-			Prior to Alpha1, the adapter wouldn't detect this latter usecase and falsely tell you that there are no changes that you could publish to OpenShift. 
-				<p>
+			  
+			<p>The OpenShift server adpter keeps track of
+			your local changes and tells you if there are
+			any that you can publish to OpenShift.</p>
+			  
+			<p>Previously this tracking was only done
+			  against 'origin' remote and only tracking if
+			  there were changes to previously committed
+			  files that had not been pushed yet.</p>
+
+			  <p>This meant the dialog could be
+			  misleading/unprecise to the user.</p>
+			  
+			  <p>Now OpenShift Tools will check against the
+			  proper remote (in case it is not 'origin')
+			  and do a fetch do be able to do a proper
+			  check if there really are changes locally
+			  compared to what is on the remote
+			  OpenShift.</p>
+
+			  	<p>
 					<img src="images/committed-not-published.png" alt="ahead of remote repository" />
 				</p>
 				<p>
 					<small> <a
 						href="https://issues.jboss.org/browse/JBIDE-13175">Related Jira</a>
-					</small>
-				</p>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-				<hr />
-				<h3>Tracing</h3>
-				<hr />
-			</td>
-		</tr>
-		<tr>
-			<td valign="top" align="left"><b>Trace client communication</b></td>
-			<td valign="top" align="left">
-				We now added the ability to trace the communication that occurrs with the OpenShift server. 
-				You may enable or disable it via the tracing option in the Eclipse preferences: 
-				<p>
-					<img src="images/tracing-preferences.png" alt="OpenShift client tracing" />
-				</p>
-				The log file that all requests and responses are writte to is by default located at <b>&lt;workspace&gt;/.metadata/trace.log</b>
-				<p>
-					<small>
-						<a href="https://issues.jboss.org/browse/JBIDE-12381">Related Jira</a>
 					</small>
 				</p>
 			</td>
