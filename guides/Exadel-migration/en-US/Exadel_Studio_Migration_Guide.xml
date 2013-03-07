@@ -6,7 +6,7 @@
 <xi:include href="Preface.xml" xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
 <xi:include href="introduction.xml" xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
 <xi:include href="workspace.xml" xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
-<xi:include href="jsf_struts.xml" xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
-<xi:include href="jsf_struts_war.xml" xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
+<xi:include href="jsf.xml" xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
+<xi:include href="jsf_war.xml" xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
 <xi:include href="Revision_History.xml" xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
 </book>

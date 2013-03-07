@@ -49,8 +49,8 @@
 				<directoryMode>0755</directoryMode>
 			</fileSet>
 			<fileSet>
-				<directory>../guides/Legacy-jsf-struts/target/docbook/publish/en-US</directory>
-				<outputDirectory>/Legacy-jsf-struts</outputDirectory>
+				<directory>../guides/Legacy-jsf/target/docbook/publish/en-US</directory>
+				<outputDirectory>/Legacy-jsf</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
 				<includes>

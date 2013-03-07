@@ -15,7 +15,7 @@
 				<term>Visual Page Editor</term>
 				<listitem>
 					<para>
-						The Visual Page Editor allows an application to be developed in conjunction with a real time visual preview. The application can be viewed either as the source code, as a preview of the application, or both simultaneously in a split-screen presentation. The Visual Page Editor can be used for developing an application using technologies such as JavaServer Faces (<acronym>JSF</acronym>), JavaServer Pages (<acronym>JSP</acronym>), Struts, and Hypertext Markup Language (<acronym>HTML</acronym>). The Visual Page Editor also features a graphical toolbar for in-line styling.
+						The Visual Page Editor allows an application to be developed in conjunction with a real time visual preview. The application can be viewed either as the source code, as a preview of the application, or both simultaneously in a split-screen presentation. The Visual Page Editor can be used for developing an application using technologies such as JavaServer Faces (<acronym>JSF</acronym>), JavaServer Pages (<acronym>JSP</acronym>), and Hypertext Markup Language (<acronym>HTML</acronym>). The Visual Page Editor also features a graphical toolbar for in-line styling.
 					</para>
 					<figure id="figu-Beginners_Guide-Visual_Web_Tools-Visual_Page_Editor">
 						<title>Visual Page Editor</title>
@@ -74,11 +74,6 @@
 						</listitem>
 						<listitem>
 							<para>
-								Struts
-							</para>
-						</listitem>
-						<listitem>
-							<para>
 								<acronym>XHTML</acronym> (Extensible Hypertext Markup Language)
 							</para>
 						</listitem>
@@ -113,7 +108,7 @@
 					<itemizedlist>
 						<listitem>
 							<para>
-								Project artifacts for <acronym>JSF</acronym> and Struts projects are organized by function, allowing for better project visualization.
+								Project artifacts for <acronym>JSF</acronym> projects are organized by function, allowing for better project visualization.
 							</para>
 						</listitem>
 						<listitem>
@@ -160,7 +155,7 @@
 						</listitem> -->
 						<listitem>
 							<para>
-								<acronym>JSF</acronym> and Struts projects can be quickly created or imported from the shortcut buttons.
+								<acronym>JSF</acronym> projects can be quickly created or imported from the shortcut buttons.
 							</para>
 						</listitem>
 						<listitem>
@@ -169,15 +164,15 @@
 							</para>
 						</listitem>
 					</itemizedlist>
-					<figure id="figu-Beginners_Guide-Visual_Web_Tools-Web_Projects_View_for_JSF_left_and_Struts_right_projects">
-						<title>Web Projects View for <acronym>JSF</acronym> (left) and Struts (right) projects</title>
+					<figure id="figu-Beginners_Guide-Visual_Web_Tools-Web_Projects_View_for_JSF_projects">
+						<title>Web Projects View for <acronym>JSF</acronym> projects</title>
 						<mediaobject>
 							<imageobject>
-								<imagedata fileref="images/figu-Beginners_Guide-Visual_Web_Tools-Web_Projects_View_for_JSF_left_and_Struts_right_projects.png" format="PNG" />
+								<imagedata fileref="images/figu-Beginners_Guide-Visual_Web_Tools-Web_Projects_View_for_JSF_projects.png" format="PNG" />
 							</imageobject>
 							<textobject>
 								<phrase>
-									The Web Projects View, showing a <acronym>JSF</acronym> project on the left and a Struts project on the right.
+									The Web Projects View, showing a <acronym>JSF</acronym> project.
 								</phrase>
 							</textobject>
 						</mediaobject>
