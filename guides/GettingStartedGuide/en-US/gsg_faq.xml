@@ -151,9 +151,9 @@ If you are sure that your project does not need JSF capabilities, just disable t
 
 	</section>
 	<section id="questio_4">
-		<title>I have an existing Struts or JSF project. Can I open the project in JBoss Developer Studio?</title>
+		<title>I have an existing JSF project. Can I open the project in JBoss Developer Studio?</title>
 
-		<para>Yes. From main menu select <menuchoice><guimenuitem>File</guimenuitem><guimenuitem>File</guimenuitem><guimenuitem>Import</guimenuitem><guimenuitem>Other</guimenuitem><guimenuitem>JSF Project (or Struts Project)</guimenuitem></menuchoice> and follow wizards steps.</para>
+		<para>Yes. From main menu select <menuchoice><guimenuitem>File</guimenuitem><guimenuitem>File</guimenuitem><guimenuitem>Import</guimenuitem><guimenuitem>Other</guimenuitem><guimenuitem>JSF Project</guimenuitem></menuchoice> and follow wizards steps.</para>
 
 	</section>
 
@@ -213,10 +213,10 @@ If you are sure that your project does not need JSF capabilities, just disable t
 	<section id="question_10">
 		<title>Is a cross-platform project import possible for JBoss Developer Studio?</title>
 
-		<para>Yes. You can easily import created in Linux JSF, Struts or Seam project to Windows and vice versa.</para>
+		<para>Yes. You can easily import created in Linux JSF or Seam project to Windows and vice versa.</para>
 
 		<para>
-			To do the transferring JSF, Struts or Seam project, select <menuchoice><guimenuitem>Menu</guimenuitem><guimenuitem>Import</guimenuitem><guimenuitem>General</guimenuitem><guimenuitem>Existing Projects into Workspace</guimenuitem></menuchoice>.
+			To do the transferring JSF or Seam project, select <menuchoice><guimenuitem>Menu</guimenuitem><guimenuitem>Import</guimenuitem><guimenuitem>General</guimenuitem><guimenuitem>Existing Projects into Workspace</guimenuitem></menuchoice>.
 		</para>
 	</section>
 </chapter>

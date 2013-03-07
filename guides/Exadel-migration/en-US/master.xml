@@ -2,8 +2,8 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 "http://www.docbook.org/xml/4.3/docbookx.dtd"
 
-[<!ENTITY  jsf_struts SYSTEM "jsf_struts.xml">
-<!ENTITY  jsf_struts_war SYSTEM "jsf_struts_war.xml">
+[<!ENTITY  jsf SYSTEM "jsf.xml">
+<!ENTITY  jsf_war SYSTEM "jsf_war.xml">
 <!ENTITY introduction SYSTEM "introduction.xml">
 <!ENTITY workspace SYSTEM "workspace.xml">
 
@@ -16,8 +16,6 @@
 <!ENTITY jsflink "../../jsf/html_single/index.html">
 <!ENTITY jsfreflink "../../jsf_tools_ref_guide/html_single/index.html">
 <!ENTITY jsftutoriallink "../../jsf_tools_tutorial/html_single/index.html">
-<!ENTITY strutsreflink "../../struts_tools_ref_guide/html_single/index.html">
-<!ENTITY strutstutoriallink "../../struts_tools_tutorial/html_single/index.html">                         
 <!ENTITY migrationlink "../../Exadel-migration/html_single/index.html">                         
 
 ]>
@@ -51,8 +49,8 @@ Version: 3.0.1.GA
 	<toc/>  
 &introduction;
 &workspace;
-&jsf_struts;
-&jsf_struts_war;   
+&jsf;
+&jsf_war;   
 
 	
 </book>    

@@ -98,24 +98,6 @@
         </indexentry>
         
         <indexentry>
-            <primaryie>Struts Tools Reference Guide <ulink
-                url="en/struts_tools_ref_guide/html/index.html">(html)</ulink>
-                <ulink url="en/struts_tools_ref_guide/html_single/index.html">(html single)</ulink>
-                <ulink url="en/struts_tools_ref_guide/pdf/Struts_Tools_Reference_Guide.pdf"
-                    >(pdf)</ulink>
-            </primaryie>
-        </indexentry>
-        
-        <indexentry>
-            <primaryie>Struts Tools Tutorial <ulink
-                url="en/struts_tools_tutorial/html/index.html">(html)</ulink>
-                <ulink url="en/struts_tools_tutorial/html_single/index.html">(html single)</ulink>
-                <ulink url="en/struts_tools_tutorial/pdf/Struts_Tools_Tutorial.pdf"
-                    >(pdf)</ulink>
-            </primaryie>
-        </indexentry>
-        
-        <indexentry>
             <primaryie>JBoss Portal Tools Reference Guide <ulink
                 url="en/jboss_portal_tools_ref_guide/html/index.html">(html)</ulink>
                 <ulink url="en/jboss_portal_tools_ref_guide/html_single/index.html">(html single)</ulink>
