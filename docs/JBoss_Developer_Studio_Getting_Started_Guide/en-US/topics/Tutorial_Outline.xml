@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Getting_Started_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="Tutorial_Outline" remap="TID_13789">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</sectioninfo>
+	<title>Tutorial Outline</title>
+	<para>
+		The diversity and complexity of the TicketMonster application makes it ideal for demonstating some of the capabilities of JBoss&nbsp;Developer&nbsp;Studio. This tutorial sets the stage for building TicketMonster. It shows you how to develop some of the features of the TicketMonster application using JBoss&nbsp;Developer&nbsp;Studio: 
+		<itemizedlist>
+			<listitem>
+				<para>
+					Configure Maven
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Set up a runtime server using Server Manager
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Create a Java EE web project to which the TicketMonster functionality is added using JBoss Central
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Create <filename>Event</filename> and <filename>Venue</filename> entity classes for the database entities using Forge Tools and Hibernate Tools
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Prepare event records to populate the database at runtime
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Deploy the application on a runtime server using Server Manager
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Access and query the database holding the member, event and venue records
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Add a RESTful web service so that the application can retrieve the information in the database
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Add a user interface to the application that is optimized for mobile devices
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Test the mobile user interface using BrowserSim
+				</para>
+			</listitem>
+		</itemizedlist> You should work through these tasks in the order they are presented because many are prerequisites for the later tutorial tasks.
+	</para>
+	<note>
+		<para>
+			Information about building the complete TicketMonster application using JBoss&nbsp;Developer&nbsp;Studio can be seen at <ulink url="http://www.jboss.org/jdf/examples/get-started/"/> on the JBoss&nbsp;Developer&nbsp;Framework website.
+		</para>
+	</note>
+</section>

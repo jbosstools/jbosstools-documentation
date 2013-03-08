@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Getting_Started_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<chapter id="chap-Creating_the_TicketMonster_Application">
+	<title>Creating the TicketMonster Application</title>
+	<xi:include href="topics/Configure_Maven.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/Set_Up_a_Runtime_Server_Using_Server_Manager.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/Create_a_Java_EE_Web_Project_Using_JBoss_Central.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/Add_an_Entity_Using_Forge_Tools.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/Add_an_Entity_Using_Hibernate_Tools.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/Prepare_Event_Records_to_Populate_the_Database.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/Deploy_the_Application_using_Server_Manager.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/Access_and_Query_the_Database.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/Add_a_RESTful_Web_Service.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/Add_a_User_Interface_Optimized_for_Mobile_Devices.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/Test_the_Mobile_User_Interface_Using_BrowserSim.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>

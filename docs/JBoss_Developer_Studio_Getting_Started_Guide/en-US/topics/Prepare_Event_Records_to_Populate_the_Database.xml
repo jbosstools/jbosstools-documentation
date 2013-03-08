@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Getting_Started_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="Prepare_Event_Records_to_Populate_the_Database" remap="TID_13783">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</sectioninfo>
+	<title>Prepare Event Records to Populate the Database</title>
+	<para>
+		By default this web project uses H2 for data storage. H2 is a Java database integrated with the application servers of JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6. It is an in-memory database which means that the data does not persist once the application using the database stops running. For this reason, seed data must be stored in a file within the project and added to the database each time the application starts. While it might not seem practical to have to construct the database each time the application starts, this type of data storage is useful during development for testing purposes.
+	</para>
+	<warning>
+		<para>
+			The use of H2 for data storage is for testing purposes only and should not be used during production.
+		</para>
+	</warning>
+	<para>
+		The procedure below demonstrates preparing two sample Event records for addition to the H2 database once the TicketMonster application starts.
+	</para>
+	<procedure>
+		<title>Prepare Event Records</title>
+		<step>
+			<para>
+				In the <guilabel>Project Explorer</guilabel> tab, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/resources</guilabel>.
+			</para>
+		</step>
+		<step>
+			<para>
+				Double-click the <filename>import.sql</filename> file to open it in the editor.
+			</para>
+		</step>
+		<step>
+			<para>
+				The file already contains one sample Member record. If your screen is small you might not be able to see the whole of the entry. Double-click the <guilabel>import.sql</guilabel> tab to make the editor fill the window.
+			</para>
+		</step>
+		<step>
+			<para>
+				To create a new Event record, type the following on one line after the existing Member record 
+				<screen>insert into Event (id, name, description, major, picture, version) values (1, 'Shane''s Sock Puppets', 'This critically acclaimed masterpiece...', true, 'http://dl.dropbox.com/u/65660684/640px-Carnival_Puppets.jpg', 1);</screen>
+			</para>
+		</step>
+		<step>
+			<para>
+				To create a second new Event record, type the following on one line after the first new Event record 
+				<screen>insert into Event (id, name, description, major, picture, version) values (2, 'Rock concert of the decade', 'Get ready to rock...', true, 'http://dl.dropbox.com/u/65660684/640px-Weir%2C_Bob_(2007)_2.jpg', 1);</screen>
+			</para>
+		</step>
+		<step>
+			<para>
+				Save the <filename>import.sql</filename> file.
+			</para>
+		</step>
+		<step>
+			<para>
+				Double-click the <guilabel>import.sql</guilabel> tab to make the editor return to its previous size.
+			</para>
+		</step>
+	</procedure>
+</section>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Migration_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<book >
+	<xi:include href="Book_Info.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Preface.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+		<xi:include href="chap-Introduction_to_JBoss_Developer_Studio.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="chap-Upgrade_from_Previous_Versions_of_JBoss_Developer_Studio.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="chap-Resolving_Problems_following_Third_Party_Product_Upgrades.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+    <xi:include href="Revision_History.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+</book>

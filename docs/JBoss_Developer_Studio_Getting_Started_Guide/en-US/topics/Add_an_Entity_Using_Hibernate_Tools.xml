@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Getting_Started_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="Add_an_Entity_Using_Hibernate_Tools" remap="TID_13784">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</sectioninfo>
+	<title>Add an Entity Using Hibernate Tools</title>
+	<para>
+		A new entity class can be added to the TicketMonster project using Hibernate Tools. In the procedure below a <filename>Venue</filename> entity class is created to hold information about the venues where events will be held. This <filename>Venue</filename> entity has id, name, description and capacity fields.
+	</para>
+	<procedure>
+		<title>Add an Entity Using Hibernate Tools</title>
+		<step>
+			<para>
+				In the <guilabel>Project Explorer</guilabel> tab, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/java</guilabel>.
+			</para>
+		</step>
+		<step>
+			<para>
+				Right-click <guilabel>org.jboss.jdf.example.ticketmonster.model</guilabel> and click <guimenu>New</guimenu>&rarr;<guimenu>Class</guimenu>.
+			</para>
+		</step>
+		<step>
+			<para>
+				In the <guilabel>Name</guilabel> field, type <command>Venue</command> and click <guibutton>Finish</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				The <filename>Venue.java</filename> file will be automatically opened in the editor. Add the following lines in between the braces of the <filename>Venue</filename> class 
+				<screen>private Long id;
+private String name;
+private String description;
+private int capacity;
+			</screen>
+			</para>
+		</step>
+		<step>
+			<para>
+				Save the <filename>Venue.java</filename> file.
+			</para>
+		</step>
+		<step>
+			<para>
+				To add get and set methods for each field, right-click a new line after <command>private int capacity;</command> and click <guimenu>Source</guimenu>&rarr;<guimenu>Generate Getters and Setters</guimenu>.
+			</para>
+		</step>
+		<step>
+			<para>
+				Click <guibutton>Select All</guibutton> and click <guibutton>OK</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				To make the <filename>Venue</filename> class into an entity, right-click anywhere in the <command>Venue</command> class and click <guimenu>Source</guimenu>&rarr;<guimenu>Generate Hibernate/JPA annotations</guimenu>.
+			</para>
+		</step>
+		<step>
+			<para>
+				Ensure <guilabel>Venue.java</guilabel> is selected and click <guibutton>OK</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				Ensure <guilabel>org.jboss.jdf.example.ticketmonster.model.Venue</guilabel> is selected and click <guibutton>Next</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				Click <guibutton>Finish</guibutton> and save the <filename>Venue.java</filename> file.
+			</para>
+		</step>
+	</procedure>
+</section>

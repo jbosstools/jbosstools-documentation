@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Getting_Started_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="Configure_Maven" remap="TID_13798">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</sectioninfo>
+	<title>Configure Maven</title>
+	<para>
+		The Java EE Web Project, on which the TicketMonster application is based, is constructed from a Maven archetype. For this reason, Maven must be correctly configured to be able to use the Java EE Web Project wizard. Maven settings are stored in a <filename>settings.xml</filename> file and this file can be directly edited from within JBoss&nbsp;Developer&nbsp;Studio, as the procedure below demonstrates.
+	</para>
+	<procedure>
+		<title>Configure Maven</title>
+		<step>
+			<para>
+				Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>Maven</guilabel> and select <guilabel>User Settings</guilabel>.
+			</para>
+		</step>
+		<step>
+			<para>
+				To open the <filename>settings.xml</filename> file for editing, click <guilabel>open file</guilabel>. The file will open in an editor tab behind the <application>Preferences</application> window. Click <guibutton>OK</guibutton> to close the window.
+			</para>
+		</step>
+		<step>
+			<para>
+				In the <filename>settings.xml</filename> file, add the following lines between the <command>&lt;profiles&gt;</command> tags 
+				<screen>
+&lt;profile&gt;
+       &lt;id&gt;jboss-public-repository&lt;/id&gt;
+       &lt;activation&gt;
+          &lt;property&gt;
+             &lt;name&gt;jboss-public-repository&lt;/name&gt;
+             &lt;value&gt;!false&lt;/value&gt;
+          &lt;/property&gt;
+       &lt;/activation&gt;
+       &lt;repositories&gt;
+          &lt;repository&gt;
+             &lt;id&gt;jboss-public-repository-group&lt;/id&gt;
+             &lt;name&gt;JBoss Public Maven Repository Group&lt;/name&gt;
+             &lt;url&gt;http://repository.jboss.org/nexus/content/groups/public&lt;/url&gt;
+             &lt;releases&gt;
+                &lt;enabled&gt;true&lt;/enabled&gt;
+                &lt;updatePolicy&gt;never&lt;/updatePolicy&gt;
+             &lt;/releases&gt;
+             &lt;snapshots&gt;
+                &lt;enabled&gt;false&lt;/enabled&gt;
+                &lt;updatePolicy&gt;never&lt;/updatePolicy&gt;
+             &lt;/snapshots&gt;
+          &lt;/repository&gt;
+       &lt;/repositories&gt;
+       &lt;pluginRepositories&gt;
+          &lt;pluginRepository&gt;
+             &lt;id&gt;jboss-public-repository-group&lt;/id&gt;
+             &lt;name&gt;JBoss Public Maven Repository Group&lt;/name&gt;
+             &lt;url&gt;http://repository.jboss.org/nexus/content/groups/public&lt;/url&gt;
+             &lt;releases&gt;
+                &lt;enabled&gt;true&lt;/enabled&gt;
+                &lt;updatePolicy&gt;never&lt;/updatePolicy&gt;
+             &lt;/releases&gt;
+             &lt;snapshots&gt;
+                &lt;enabled&gt;false&lt;/enabled&gt;
+                &lt;updatePolicy&gt;never&lt;/updatePolicy&gt;
+             &lt;/snapshots&gt;
+          &lt;/pluginRepository&gt;
+       &lt;/pluginRepositories&gt;
+&lt;/profile&gt;	
+			</screen>
+			</para>
+		</step>
+		<step>
+			<para>
+				In the <filename>settings.xml</filename> file, add the following line between the <command>&lt;activeProfiles&gt;</command> tags 
+				<screen>&lt;activeProfile&gt;jboss.repository&lt;/activeProfile&gt;</screen>
+			</para>
+		</step>
+		<step>
+			<para>
+				Save the <filename>settings.xml</filename> file.
+			</para>
+		</step>
+		<step>
+			<para>
+				Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>Maven</guilabel> and select <guilabel>User Settings</guilabel>.
+			</para>
+		</step>
+		<step>
+			<para>
+				For the changes to the <filename>settings.xml</filename> file to be recognized, click <guibutton>Update Settings</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
+			</para>
+		</step>
+	</procedure>
+</section>

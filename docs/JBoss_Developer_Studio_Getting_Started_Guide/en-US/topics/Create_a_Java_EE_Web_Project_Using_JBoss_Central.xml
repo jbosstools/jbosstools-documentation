@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Getting_Started_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="Create_a_Java_EE_Web_Project_Using_JBoss_Central" remap="TID_13786">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</sectioninfo>
+	<title>Create a Java EE Web Project Using JBoss Central</title>
+	<para>
+		The TicketMonster application is based on a Java EE web application. A wizard is provided for creating this type of project in JBoss Central and the procedure below guides you through the wizard.
+	</para>
+	<procedure>
+		<title>Create a Web Application Using the Java EE Web Project Wizard</title>
+		<step>
+			<para>
+				Click the <guilabel>JBoss Central</guilabel> tab. If the <guilabel>JBoss Central</guilabel> tab is not visible, click <guimenu>Help</guimenu>&rarr;<guimenu>JBoss Central</guimenu>.
+			</para>
+		</step>
+		<step>
+			<para>
+				Under <guilabel>Create Projects</guilabel>, click <guilabel>Java EE Web Project</guilabel> to open the <application>Java EE Web Project</application> wizard.
+			</para>
+		</step>
+		<step>
+			<para>
+				From the <guilabel>Target Runtime</guilabel> list, select <guilabel>JBoss EAP 6.0 Runtime</guilabel> and click <guibutton>Next</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				In the <guilabel>Project name</guilabel> field, type <command>ticket-monster</command>.
+			</para>
+		</step>
+		<step>
+			<para>
+				In the <guilabel>Package</guilabel> field, type <command>org.jboss.jdf.example.ticketmonster</command> and click <guibutton>Next</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				In the <guilabel>Properties available from archetype</guilabel> table, select the <guilabel>Value</guilabel> field corresponding to <guilabel>jboss-bom-enterprise-version</guilabel> and edit it to contain <command>1.0.2.Final-redhat-1</command>. This value indicates the bill of materials (BOM) and specifies which versions of dependencies to include in the project.
+			</para>
+		</step>
+		<step>
+			<para>
+				Click <guibutton>Finish</guibutton> to create the project.
+			</para>
+		</step>
+		<step>
+			<para>
+				During project creation, the wizard imports project dependencies. When the <application>Java EE Web Project</application> wizard displays <guilabel>'Java EE Web Project' Project is now ready</guilabel>, click <guibutton>Finish</guibutton> to close the wizard. A readme file for the project will automatically be opened for viewing.
+			</para>
+		</step>
+	</procedure>
+</section>

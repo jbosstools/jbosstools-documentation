@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Installation_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="Uninstall_Methods" remap="TID_13463">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</sectioninfo>
+	<title>Uninstall Methods</title>
+	<para>
+		There are two uninstall methods for JBoss&nbsp;Developer&nbsp;Studio. The method you use depends on whether you are using JBoss&nbsp;Developer&nbsp;Studio or JBoss&nbsp;Developer&nbsp;Studio BYOE.
+	</para>
+</section>

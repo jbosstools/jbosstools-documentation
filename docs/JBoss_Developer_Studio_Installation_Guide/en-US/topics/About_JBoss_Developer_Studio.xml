@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Installation_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="About_JBoss_Developer_Studio" remap="TID_13337">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</sectioninfo>
+	<title>About JBoss Developer Studio</title>
+	<!-- Info from http://www.jboss.org/developer/features.html -->
+	<para>
+		JBoss&nbsp;Developer&nbsp;Studio is a set of Eclipse-based development tools. It contains plug-ins that integrate with Eclipse to extend the existing functionality of the integrated development environment (IDE). 
+		<!--Specifically, the plug-ins provide support for JSF, RichFaces, EJB, JPA and Hibernate, JAX-RS and RESTEasy, CDI, and HML5, in addition to Maven-based build and deployment. -->
+	</para>
+	<para>
+		JBoss&nbsp;Developer&nbsp;Studio is designed to increase your productivity when developing applications. You can focus on building, testing and deploying your applications because JBoss application development tools are integrated in one IDE. Additionally, each of the tools comprising JBoss&nbsp;Developer&nbsp;Studio has great features to assist your application development: 
+		<itemizedlist>
+			<listitem>
+				<para>
+					Develop new applications using the wizards and project examples of JBoss Central.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Add powerful functionality to applications with minimal effort using Forge Tools.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Build web interfaces with ease using the visual editing and drop-and-drag utilities of Visual Web Tools and JBoss Tools Palette.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Incorporate JSF, Seam, JAX-RS, Hibernate, CDI and other popular APIs into applications with simplicity using the tool-driven interface.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Preview and test mobile web applications on a variety of simulation mobile devices using BrowserSim.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Deploy applications to JBoss runtime servers and the cloud using JBoss Server Manager and OpenShift Tools.
+				</para>
+			</listitem>
+		</itemizedlist>
+	</para>
+	<para>
+		JBoss&nbsp;Developer&nbsp;Studio comes built around Eclipse and packaged with all of the necessary dependencies and third party plug-ins for simplified installing. For developers already running Eclipse, JBoss&nbsp;Developer&nbsp;Studio can also be installed through Eclipse Marketplace. For distinction, this latter JBoss&nbsp;Developer&nbsp;Studio installation is called JBoss&nbsp;Developer&nbsp;Studio BYOE (Bring Your Own Eclipse).
+	</para>
+</section>

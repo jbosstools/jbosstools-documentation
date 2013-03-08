@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Installation_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="Back_up_existing_workspaces" remap="TID_13419">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</sectioninfo>
+	<title>Upgrade Methods</title>
+	<para>
+		There are two upgrade methods for JBoss&nbsp;Developer&nbsp;Studio. The method you use depends on whether you are using JBoss&nbsp;Developer&nbsp;Studio or JBoss&nbsp;Developer&nbsp;Studio BYOE.
+	</para>
+	<warning>
+		<para>
+			Before upgrading JBoss&nbsp;Developer&nbsp;Studio, you are advised to back up your workspace. In addition to your project files, your workspace contains meta-data about customized setting and preferences for JBoss&nbsp;Developer&nbsp;Studio or Eclipse. To back up your workspace, either copy the workspace directory to a backup location or save it as a compressed file.
+		</para>
+	</warning>
+</section>
