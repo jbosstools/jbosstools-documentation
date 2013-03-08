@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Getting_Started_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="Set_Up_a_Runtime_Server_Using_Server_Manager" remap="TID_13796">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</sectioninfo>
+	<title>Set Up a Runtime Server Using Server Manager</title>
+	<para>
+		Runtime servers can be set up from within the <application>Java EE Web Project</application> wizard. But for the purposes of exploring JBoss&nbsp;Developer&nbsp;Studio the procedure below sets up the runtime server first.
+	</para>
+	<procedure>
+		<title>Set Up a New Runtime Server</title>
+		<step>
+			<para>
+				Click the <guilabel>Servers</guilabel> tab. If the <guilabel>Servers</guilabel> tab is not visible, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Servers</guimenu>.
+			</para>
+		</step>
+		<step>
+			<para>
+				To set up a new runtime server, click <guilabel>new server wizard</guilabel>. This opens the <application>Define a New Server</application> wizard.
+			</para>
+		</step>
+		<step>
+			<para>
+				From the <guilabel>Select the server type</guilabel> list, expand <guilabel>JBoss Enterprise Middleware</guilabel> and select <guilabel>JBoss Enterprise Application Platform 6.x</guilabel>.
+			</para>
+		</step>
+		<step>
+			<para>
+				Click <guibutton>Finish</guibutton> to close the <application>Define a New Server</application> wizard. The wizard create a new instance of a JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6 runtime server, which is visible in the <guilabel>Servers</guilabel> tab.
+			</para>
+		</step>
+		<step>
+			<para>
+				The runtime server is initially shown in stopped mode. To start the runtime server, right-click <guilabel>JBoss EAP 6.0 Runtime Server</guilabel> and click <guimenu>Start</guimenu>. After a short pause, the view switches to the <guilabel>Console</guilabel> tab and shows the startup output of the runtime server.
+			</para>
+		</step>
+	</procedure>
+</section>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE bookinfo PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Getting_Started_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<bookinfo id="book-JBoss_Developer_Studio_Getting_Started_Guide-JBoss_Developer_Studio_Getting_Started_Guide">
+	<title>JBoss Developer Studio Getting Started Guide</title>
+	<subtitle>Information about getting started with JBoss Developer Studio 7</subtitle>
+	<productname>JBoss Developer Studio</productname>
+	<productnumber>7.0.0</productnumber>
+	<edition>1</edition>
+	<abstract>
+		<para>
+			This document details how to install JBoss Developer Studio and guides you through creating an application using some of JBoss Developer Studio's tools.
+		</para>
+	</abstract>
+
+	<xi:include href="Legal_Notice.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<xi:fallback xmlns:xi="http://www.w3.org/2001/XInclude">
+		<xi:include href="Common_Content/Legal_Notice.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	</xi:fallback>
+</xi:include>
+	<xi:include href="Author_Group.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+</bookinfo>

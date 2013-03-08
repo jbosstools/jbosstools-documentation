@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+]>
+<section id="sect_JBoss-Getting_Help_and_Giving_Feedback">
+	<title>Getting Help and Giving Feedback</title>
+	 <section id="sect_JBoss-Do_You_Need_Help">
+		<title>Do You Need Help?</title>
+		 <indexterm>
+			<primary>help</primary>
+			 <secondary>getting help</secondary>
+
+		</indexterm>
+		 <para>
+			If you experience difficulty with a procedure described in this documentation, visit the JBoss Tools website at <ulink url="http://www.jboss.org/tools" />. Through the JBoss Tools website, you can:
+		</para>
+		 <itemizedlist>
+			<listitem>
+				<para>
+					search or browse through a knowledgebase of technical support articles in the wiki.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					view video tutorials on how to use the tools.
+				</para>
+			</listitem>
+			 <listitem>
+				<para>
+					participate in discussions in the user forum.
+				</para>
+
+			</listitem>
+			 <listitem>
+				<para>
+					keep up to date with changes via the blog, mailing list and News and Noteworthy web page.
+				</para>
+			</listitem>
+
+		</itemizedlist>
+		
+	</section>
+	
+	 <section id="jboss-feedback">
+		<title>Give us Feedback</title>
+
+		 <para>
+			If you find a typographical error, or know how this guide can be improved, we would love to hear from you. Submit a report in JIRA at <ulink url="https://issues.jboss.org"/> against the project <application>Documentation for JBoss Tools and Developer Studio (TOOLSDOC)</application>.
+		</para>
+		 <para>
+			Fill out the following template in JIRA's <guilabel>Description</guilabel> field. Be as specific as possible when describing the issue; this will help ensure that we can fix it quickly.
+		</para>
+		 
+<screen>Document URL:
+
+Section Number and Name:
+
+Describe the issue:
+
+Suggestions for improvement:
+
+Additional information:
+
+</screen>
+		 <para>
+			Be sure to give us your name so that you can receive full credit for reporting the issue.
+		</para>
+
+	</section>
+	
+
+</section>
+
+

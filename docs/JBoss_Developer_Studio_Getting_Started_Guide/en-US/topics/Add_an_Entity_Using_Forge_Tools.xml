@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Getting_Started_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="Add_an_Entity_Using_Forge_Tools" remap="TID_13791">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</sectioninfo>
+	<title>Add an Entity Using Forge Tools</title>
+	<para>
+		A new entity class can be added to the TicketMonster project using Forge Tools. In the procedure below an <filename>Event</filename> entity class is created to hold information about the events for which users can buy tickets. This <filename>Event</filename> entity has id, name, description, major, picture and version fields.
+	</para>
+	<procedure>
+		<title>Add an Entity Using Forge Tools</title>
+		<step>
+			<para>
+				In the <guilabel>Project Explorer</guilabel> tab, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/java</guilabel>.
+			</para>
+		</step>
+		<step>
+			<para>
+				Right-click <guilabel>org.jboss.jdf.example.ticketmonster.model</guilabel> and click <guimenu>Show In</guimenu>&rarr;<guimenu>Forge console</guimenu>.
+			</para>
+		</step>
+		<step>
+			<para>
+				When asked <guilabel>Do you want to start the Forge runtime?</guilabel> click <guibutton>Yes</guibutton>. The <guilabel>Forge Console</guilabel> tab is opened and Forge is started. The first command is automatically entered on the Forge command line and it changes the present working directory to <filename>model</filename>.
+			</para>
+		</step>
+		<step>
+			<para>
+				To create the <filename>Event</filename> entity class, on the Forge command line enter 
+				<screen>entity --named Event --package org.jboss.jdf.example.ticketmonster.model</screen>
+			</para>
+			<note>
+				<para>
+					The Forge console has auto-complete features. If you start typing a command, you can press <keycap>Tab</keycap> and Forge will attempt to complete the command as far as possible. If there are multiple possible options for completing a command, all the options will be output in the Forge console for you to see.
+				</para>
+			</note>
+		</step>
+		<step>
+			<para>
+				To define the primary key attribute of the <filename>Event</filename> entity class, on the Forge command line enter 
+				<screen>validation setup
+			</screen>
+			</para>
+		</step>
+		<step>
+			<para>
+				To create the fields for the <filename>Event</filename> entity class, on the Forge command line enter 
+				<screen>field string --named name
+field string --named description
+field boolean --named major
+field string --named picture
+field int --named version
+			</screen>
+			</para>
+		</step>
+		<step>
+			<para>
+				To set up constraints on the accepted values of the fields of the <filename>Event</filename> entity class, on the Forge command line enter 
+				<screen>constraint NotNull --onProperty name
+constraint Size --onProperty name --min 5 --max 50 --message "Must be &gt; 5 and &lt; 50"
+constraint Size --onProperty description --min 20 --max 1000 --message "Must be &gt; 20 and &lt; 1000"
+			</screen>
+			</para>
+		</step>
+		<step>
+			<para>
+				Save the <filename>Event.java</filename> file.
+			</para>
+		</step>
+	</procedure>
+</section>

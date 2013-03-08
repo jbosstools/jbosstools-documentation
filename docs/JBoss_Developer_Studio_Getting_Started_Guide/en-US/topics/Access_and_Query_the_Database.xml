@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Getting_Started_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="Access_and_Query_the_Database" remap="TID_13797">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</sectioninfo>
+	<title>Access and Query the Database</title>
+	<para>
+		This web project uses the in-memory database, H2, of the application servers in JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6. The H2 console web application can be used to access the H2 database but this is not packaged with JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6. As the procedure below explains, the H2 console web application must be downloaded and deployed on the application server from outside JBoss&nbsp;Developer&nbsp;Studio before the H2 database can be accessed.
+	</para>
+	<procedure>
+		<title>Access and Query the Database</title>
+		<step>
+			<para>
+				Go to <ulink url="http://www.jboss.org/jdf/quickstarts/jboss-as-quickstart/h2-console/"/>.
+			</para>
+		</step>
+		<step>
+			<para>
+				Click <guibutton>Download</guibutton> and click <guilabel>Source zip</guilabel>.
+			</para>
+		</step>
+		<step>
+			<para>
+				To deploy the H2 console web application, extract the contents of the downloaded file and copy the <filename>h2console.war</filename> file from the <filename>h2-console</filename> directory to the <filename>path/to/jboss-eap-6.0/standalone/deployments</filename> directory. The H2 console web application immediately starts running on the JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6 runtime server instance running the TicketMonster application. This can be confirmed by looking at the server output in the <guilabel>Console</guilabel> tab in JBoss&nbsp;Developer&nbsp;Studio.
+			</para>
+		</step>
+		<step>
+			<para>
+				In JBoss&nbsp;Developer&nbsp;Studio, open a new <guilabel>Web Browser</guilabel> tab by clicking <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>, expand <guilabel>General</guilabel> and double-click <guilabel>Internal Web Browser</guilabel>.
+			</para>
+		</step>
+		<step>
+			<para>
+				In the address bar of the <guilabel>Web Browser</guilabel> tab, enter <ulink url="http://localhost:8080/h2console"/>.
+			</para>
+		</step>
+		<step>
+			<para>
+				In the <guilabel>Login</guilabel> area, type <command>jdbc:h2:mem:ticket-monster</command> in the <guilabel>JDBC URL</guilabel> field and type <command>sa</command> in both the <guilabel>User Name</guilabel> and <guilabel>Password</guilabel> fields. These settings are defined in the <filename>ticket-monster-ds.xml</filename> file in the <filename>ticket-monster/src/main/webapp/WEB-INF</filename> directory.
+			</para>
+		</step>
+		<step>
+			<para>
+				To connect to the database, click <guibutton>Connect</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				The <filename>Event</filename>, <filename>Member</filename> and <filename>Venue</filename> entites created in the TicketMonster project are displayed under <guilabel>jbdc:h2:mem:ticket-monster</guilabel>. Expanding the entities shows the fields associated with each. The records stored in the database are viewed using SQL search statements. For example, to display all the Event records stored in the database, click <guilabel>Event</guilabel>, which creates a SQL search statement based on Event in the <guilabel>SQL statement</guilabel> field, and click <guibutton>Run</guibutton>. The details of the Event sample records you added to <filename>import.sql</filename> earlier in the tutorial are visible in the table below the <guilabel>SQL statement</guilabel> field.
+			</para>
+		</step>
+	</procedure>
+</section>

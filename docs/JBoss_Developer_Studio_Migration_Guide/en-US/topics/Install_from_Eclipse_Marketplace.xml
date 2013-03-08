@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Migration_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="Install_from_Eclipse_Marketplace" remap="TID_13343">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</sectioninfo>
+	<title>Install JBoss Developer Studio BYOE</title>
+	<procedure>
+		<title>Install from Eclipse Marketplace</title>
+		<step>
+			<para>
+				Start Eclipse Kepler.
+			</para>
+		</step>
+		<step>
+			<para>
+				Click <guimenu>Help</guimenu>&rarr;<guimenu>Eclipse Marketplace</guimenu>.
+			</para>
+		</step>
+		<step>
+			<para>
+				In the <guilabel>Find</guilabel> field of the <guilabel>Search</guilabel> tab, type <command>JBoss Developer Studio</command> and press <keycap>Enter</keycap>.
+			</para>
+		</step>
+		<step>
+			<para>
+				Locate <application>JBoss Developer Studio (Kepler)</application> and click <guibutton>Install</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				Ensure the <guilabel>JBoss Developer Studio (Kepler)</guilabel> check box is selected and click <guibutton>Next</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				After reading and agreeing to the licenses, click <guilabel>I accept the terms of the license agreements</guilabel> and click <guibutton>Finish</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.
+			</para>
+		</step>
+		<step>
+			<para>
+				Once installing is complete, you are prompted to restart Eclipse. Click <guibutton>Yes</guibutton> to restart now and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that changes do not take effect until Eclipse is restarted.
+			</para>
+		</step>
+	</procedure>
+</section>
