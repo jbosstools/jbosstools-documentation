@@ -150,22 +150,4 @@
 			</itemizedlist>
 		</para>
 	</formalpara>
-	<section>
-		<title>Technology Previews</title>
-		<para>
-			Features listed in this section are provided with this release as early access to future innovations. Technology preview features are not fully supported and are not intended for production use.
-		</para>
-		<formalpara>
-			<title>Bring Your Own Eclipse</title>
-			<para>
-				<itemizedlist>
-					<listitem>
-						<para>
-							The core set of JBoss Developer Studio tooling is now available for  installation into a pre-existing Eclipse setup. This allows for easy integration with a users current work environment. Consult the Getting Started Guide of this release for further information.
-						</para>
-					</listitem>
-				</itemizedlist>
-			</para>
-		</formalpara>
-	</section>
 </section>
