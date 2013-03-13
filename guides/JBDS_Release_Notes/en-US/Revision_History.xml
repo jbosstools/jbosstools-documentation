@@ -5,6 +5,21 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>6.0.0-3</revnumber>
+				<date>Wed Mar 13 2013</date>
+				<author>
+					<firstname>Michelle</firstname>
+					<surname>Murray</surname>
+					<email>mmurray@redhat.com</email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>Adding warning about upgrading Eclipse with BYOE (TOOLSDOC-286)</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			
+			<revision>
 				<revnumber>6.0.0-2</revnumber>
 				<date>Wed Mar 13 2013</date>
 				<author>
@@ -14,7 +29,7 @@
 				</author>
 				<revdescription>
 					<simplelist>
-						<member>Clarifying Java developer kit requirements</member>
+						<member>Clarifying Java developer kit requirements (TOOLSDOC-298)</member>
 					</simplelist>
 				</revdescription>
 			</revision>
