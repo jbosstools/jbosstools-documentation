@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<section id="SystemRequirements">
+		<title>System Requirements</title>
+
+		<para>
+			JBoss Developer Studio 6 is supported on the following operating systems:
+		</para>
+		
+		<table>
+			<title>Supported Operating Systems</title>
+			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+				<colspec colwidth="2*"/>
+				<colspec colwidth="1*"/>
+				<thead>
+					<row>
+						<entry>Operating system</entry>
+						<entry>Chip architecture</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>Red Hat Enterprise Linux 6</entry>
+						<entry>x86, x86_64</entry>
+					</row>
+					<row>
+						<entry>Microsoft Windows XP, Window 7 and Windows 8</entry>
+						<entry>x86, x86_64</entry>
+					</row>
+					<row>
+						<entry>OS X 10.7 and OS X 10.8</entry>
+						<entry>x86_64</entry>
+					</row>
+					<row>
+						<entry>Fedora 16 and Fedora 17</entry>
+						<entry>x86, x86_64</entry>
+					</row>
+					<row>
+						<entry>Ubuntu 11.10 and Ubuntu 12.10</entry>
+						<entry>x86_64</entry>
+					</row>					
+				</tbody>
+			</tgroup>
+		</table>		
+		
+		
+		<para>
+			JBoss Developer Studio 6 requires a Java developer kit of version 1.6 or newer. Although Oracle JDK 1.7 for Mac OS X is incompatible with JBoss Developer Studio 6, all of the other distributions of Oracle JDK 1.7 are compatible.  
+		</para>
+		
+		<important>
+			<para>
+				As JBoss Developer Studio is based on Eclipse, the system requirements of Eclipse Juno (4.2) are also applicable to JBoss Developer Studio 6. For example, GTK is required as the windowing system on Linux distributions, Win32 on Microsoft Windows operating systems and Cocoa on Mac OS X operating systems.  Further information about Eclipse Juno system requirements can be viewed at <ulink url="http://www.eclipse.org/eclipse/development/readme_eclipse_4.2.html">http://www.eclipse.org/eclipse/development/readme_eclipse_4.2.html</ulink>.
+			</para>
+		</important>
+
+	</section>
