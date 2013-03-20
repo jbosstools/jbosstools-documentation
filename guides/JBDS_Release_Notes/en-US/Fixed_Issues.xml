@@ -1,183 +1,156 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <section id="Issues-fixed-in-this-release">
-    <title>
-        Enhancements and fixed issues in version 6.0.0
+     <title>
+        Resolved Issues
     </title>
-	<variablelist>
-		<!-- JBIDE-12934 -->
-		<varlistentry>
-		<term>
-			<ulink url="https://issues.jboss.org/jira/browse/JBIDE-12934">JBIDE-12934</ulink>
-		</term>
-		<listitem>
-			<para>
-				A bug existed that would cause an error state to still display at the endpoint node of a JAX-RS Resource Method. This was viewable in the project explorer view. Correct behaviour has been implemented for this release, displaying warning and error markers at the endpoint and JAX-RS REST Web Services node levels.
-			</para>
-		</listitem>
-	</varlistentry>
-	
-	<!-- JBIDE-12842 -->
-	<varlistentry>
-	<term>
-		<ulink url="https://issues.jboss.org/jira/browse/JBIDE-12842">JBIDE-12842</ulink>
-	</term>
-	<listitem>
-		<para>
-			Fuse previously included Hibernate Tools runtime JAR files that were created based on a snapshot rather than an official build. These files have now been replaced with official builds. Users should not notice any functionality changes based on this.
-		</para>
-	</listitem>
-</varlistentry>
-
-
-   <!-- JBIDE-12793 -->
+<variablelist>
+   <!-- JBDS-2284 -->
    <varlistentry>
-   <term>
-	   <ulink url="https://issues.jboss.org/jira/browse/JBIDE-12793">JBIDE-12793</ulink>
-   </term>
-   <listitem>
-	   <para>
-		   A new wizard has been created that allows for the registering of Service implementations. The wizard adds an existing class that implements an interface, to an appropriate META-INF/services file, or creates the Service file if it does not exist. A user can access this wizard either through the wizard selection screen or by using the keyboard shortcut Ctrl+Shift+F10.
-	   </para>
-   </listitem>
-   </varlistentry>
-   
-   <!-- JBIDE-12781 -->
-   <varlistentry>
-   <term>
-	   <ulink url="https://issues.jboss.org/jira/browse/JBIDE-12781">JBIDE-12781</ulink>
-   </term>
-   <listitem>
-	   <para>
-		   The JSF project wizard now allows for the creation of a JSF 2.1 project.
-	   </para>
-   </listitem>
-   </varlistentry>
-   
-   <!-- JBIDE-12709 -->
-   <varlistentry>
-   <term>
-	   <ulink url="https://issues.jboss.org/jira/browse/JBIDE-12709">JBIDE-12709</ulink>
-   </term>
-   <listitem>
-	   <para>
-		   The JBoss server editor would insist a user provide their password just to access the editor. This issue has been resolved by modifying the ServerPasswordSection.java file so a password is only required when appropriate options are changed within the server editor.
-	   </para>
-   </listitem>
-   </varlistentry>
-   
-   <!-- JBIDE-12655 -->
-   <varlistentry>
-   <term>
-	   <ulink url="https://issues.jboss.org/jira/browse/JBIDE-12655">JBIDE-12655</ulink>
-   </term>
-   <listitem>
-	   <para>
-		   Prior versions of OpenShift tooling created and uploaded public SSH keys to the OpenShift server when the user was creating the domain. This caused troubles when the user created the domain outside Eclipse (web console or command line) since the tooling was not prompting the user to upload keys to OpenShift. This has been corrected by now allowing SSH keys to be created and uploaded through a specific wizard. Furthermore the application wizard now errors if no keys are on the OpenShift server.
-	   </para>
-   </listitem>
-   </varlistentry>
-   
-   
-   <!-- JBIDE-12633 -->
-   <varlistentry>
-   <term>
-	   <ulink url="https://issues.jboss.org/jira/browse/JBIDE-12633">JBIDE-12633</ulink>
-   </term>
-   <listitem>
-	   <para>
-		   Support has been added for JAX-RS Application subclassing by allowing a user to place a corresponding configuration in the web.xml file of the application.
-	   </para>
-   </listitem>
-   </varlistentry>
-   
-   
-   <!-- JBIDE-12551 -->
-   <varlistentry>
-   <term>
-	   <ulink url="https://issues.jboss.org/jira/browse/JBIDE-12551">JBIDE-12551</ulink>
-   </term>
-   <listitem>
-	   <para>
-		   When pressing the Reset button within the Convert to maven dependencies wizard, the dependencies lookup was still not reset. The issue has been correct by replacing the Reset button with a Identify Dependencies button. Through this new button a user can relaunch dependency identification after updating the Maven repositories list within settings.xml, or enabling new remote nexus repositories.
-	   </para>
-   </listitem>
-   </varlistentry>
-   
-   <!-- JBIDE-12390 -->
-   <varlistentry>
-   <term>
-	   <ulink url="https://issues.jboss.org/jira/browse/JBIDE-12390">JBIDE-12390</ulink>
-   </term>
-   <listitem>
-	   <para>
-		   A new quick fix has been implemented for the WTP issue marker: Missing required attribute. The new quick fix allows for the missing attributes to be automatically added into the code being written.
-	   </para>
-   </listitem>
-   </varlistentry>
-   
-   <!-- JBIDE-12166 -->
-   <varlistentry>
-   <term>
-	   <ulink url="https://issues.jboss.org/jira/browse/JBIDE-12166">JBIDE-12166</ulink>
-   </term>
-   <listitem>
-	   <para>
-		   The ability to generate blank archetypes for Java EE 6 (WAR and EAR), HTML5, RichFaces, Spring and GWT has been added to each relevant wizard. This assist users in creating a new archetype that is not based on provided demo code.
-	   </para>
-   </listitem>
-   </varlistentry>
-   
-   <!-- JBIDE-11912 -->
-   <varlistentry>
-   <term>
-	   <ulink url="https://issues.jboss.org/jira/browse/JBIDE-11912">JBIDE-11912</ulink>
-   </term>
-   <listitem>
-	   <para>
-		   A user can now manage their SSH public keys that are on the OpenShift server. You are now able to create and upload new keys, and remove existing keys. The SSH keys wizard is available through the context menu of OpenShift Explorer and when he's creating or importing an OpenShift application. The page dedicated to the git clone settings holds a link to the SSH preferences and the SSH keys wizard.
-	   </para>
-   </listitem>
-   </varlistentry>
-   
-   <!-- JBIDE-10287 -->
-   <varlistentry>
-   <term>
-	   <ulink url="https://issues.jboss.org/jira/browse/JBIDE-10287">JBIDE-10287</ulink>
-   </term>
-   <listitem>
-	   <para>
-		   Support for JAX-RS applications has been added. An applications path can be configured by using the @ApplicationPath annotation on a Java type, or by configuring the javax.ws.rs.core.Application class in the web.xml servlet-mappings.
-	   </para>
-	   <para>
-		   If a user implements both approaches, the web.xml configuration will override the annotation.
-	   </para>
-   </listitem>
-   </varlistentry>
-   
-   <!-- JBIDE-9443 -->
-   <varlistentry>
-      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-9443">JBIDE-9443</ulink></term>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBDS-2284">JBDS-2284</ulink></term>
       <listitem>
          <para>
-         A new wizard called New Service Provider Class has been added for the creation of service implementations. Through the wizard a user can create a Service Provider Java class for a selected Service Type.
+         A limited number of third party extensions and tools could be installed from the JBoss Developer Studio Extras site. Incompatibility between some of the third party products and Tycho, a set of plug-ins for Eclipse used to build update sites, made maintaining their provision difficult. To resolve this issue, FindBugs, PMD and Android Tooling are now only available through JBoss Central.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBDS-2365 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBDS-2365">JBDS-2365</ulink></term>
+      <listitem>
+         <para>
+         JBoss Enterprise Service Bus (ESB) 4.11 and 4.12 projects were not recognized as compatible for deploying on runtime server instances of JBoss Enterprise Application Platform and JBoss Application Server and, as a result, the associated applications could not be deployed to these servers. The list of compatible facets held by Server Tools has been extended to include JBoss ESB 4.11 and 4.12. Consequently, the applications of JBoss ESB 4.11 and 4.12 projects can now be deployed on runtime server instances of JBoss Enterprise Application Platform and JBoss Application Server without errors or warnings.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- Documented in section: Component Versions -->
+   <!-- JBDS-2438 -->
+   <!--<varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBDS-2438">JBDS-2438</ulink></term>
+      <listitem>
+         <para>
+         A universal installer that includes JBoss Enterprise Application Platform is available for each release of JBoss Developer Studio. Previously, JBoss Enterprise Application Platform 6.0.0 was included. JBoss Enterprise Application Platform 6.0.1 has now been released, which fixes issues in JBoss Enterprise Application Platform 6.0.0. Consequently, JBoss Enterprise Application Platform 6.0.1 is now included in the combined universal installer.
+         </para>
+      </listitem>
+   </varlistentry> -->
+
+   <!-- JBIDE-10398 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-10398">JBIDE-10398</ulink></term>
+      <listitem>
+         <para>
+         EGit provides tooling for Git in Eclipse and it is used by applications deployed to OpenShift. Previously the EGit cache held references to the files in a project and these references prevented workspace projects from being deleted on Microsoft Windows operating systems. Consequently, the projects of OpenShift applications that were imported into the workspace could not be deleted. A patch was submitted to EGit and it was accepted and applied to EGit 2.3.1 (Eclipse Juno SR2). The Git cache now releases references to missing files so projects of OpenShift applications can be deleted from the workspace on Microsoft Windows operating systems.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-12901 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-12901">JBIDE-12901</ulink></term>
+      <listitem>
+         <para>
+         Through the Remote Server Explorer (RSE), file systems on remote servers can be viewed and managed.  Previously, when an archived file was expanded in RSE it caused an exception to occur. A patch was submitted to RSE and it was accepted and applied to RSE 3.4.2 (Eclipse Juno SR2). The RSE now checks that the element to be expanded is a directory before performing the expansion and, consequently, exceptions relating to expanding archived files no longer occur.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-13213 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-13213">JBIDE-13213</ulink></term>
+      <listitem>
+         <para>
+         Project Archives capabilities for a project could previously only be set through the Project Archives view. To make it easier to find and more intuitive to use, this functionality has also been added to the context menu for a project. Now Project Archives capabilities can be added and removed from a project by right-clicking on a project and selecting Configure-&gt;Add Project Archives Support or Configure-&gt;Remove Project Archives Support, respectively. This can be accessed in Navigator, Project Explorer and Java Package Explorer views.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-13263 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-13263">JBIDE-13263</ulink></term>
+      <listitem>
+         <para>
+         By default, JBoss Application Server deployment scanners monitor the workspace metadata for applications to deploy. API changes caused duplicate deployment scanners to be created for JBoss Application Server 7. In rectifying this issue, tooling modifications inadvertently caused no deployment scanners to be created for JBoss Application Server 6. As a result, applications selected for deployment on JBoss Application Server 6 failed to deploy. Modifications have been reworked to ensure a deployment scanner is created for JBoss Application Server 6 and, consequently, applications will deploy to JBoss Application Server 6.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- Withdrawn -->
+   <!-- JBIDE-13335 -->
+   <!--<varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-13335">JBIDE-13335</ulink></term>
+      <listitem>
+         <para>
+         Following the release of JBoss Developer Studio 6.0.0, Eclipse released an optimization patch for Eclipse Juno SR1 to resolve some of its known issues. To ensure users of JBoss Developer Studio could benefit from this patch, a connector was included in JBoss Central to apply the patch. The issues resolved by the optimization patch are now incorporated in Eclipse Juno SR2 and, accordingly, JBoss Developer Studio 6.0.1 provided by the universal installer. Consequently, the connector is no longer needed and it has been removed from JBoss Central in JBoss Developer Studio 6.0.1.
+         </para>
+      </listitem>
+   </varlistentry> -->
+
+   <!-- JBIDE-13346 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-13346">JBIDE-13346</ulink></term>
+      <listitem>
+         <para>
+         Deployment Assembly is used to control which files should be deployed with an application to the runtime server and it can be accessed via the Properties of a project. Previously, if Deployment Assembly contained information about nonexistent directories, error messages were generated when the project was built. These error messages were noncritical and did not have an impact on the project's build success. Server Tools has been amended so that it no longer logs the noncritical error messages for nonexistent directories and, consequently, these error messages do not appear in error logs of project builds.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-13537 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-13537">JBIDE-13537</ulink></term>
+      <listitem>
+         <para>
+         JBoss Enterprise Application Platform 6.1 has a different module directory structure to previous releases of JBoss Enterprise Application Platform. Consequently, JBoss Enterprise Application Platform 6.1 was not recognized with either the new server wizard, runtime detection or Server-&gt;Runtime Environments in Preferences and servers could not be created. A new JBoss Enterprise Application Platform 6.1 (Tech Preview) server adapter has been created and integrated into the existing tooling. This recognizes JBoss Enterprise Application Platform 6.1 and allows associated server instances to be created.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-13601 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-13601">JBIDE-13601</ulink></term>
+      <listitem>
+         <para>
+         GWT web projects must be compiled using GWT Compile before being deployed on the server. However, GWT Compile did not create the required Errai classes when compiling GWT web projects and, as a result, errors occurred during application deployment. To solve this issue, the Maven Configurator Plug-in for GWT was modified. Now GWT Compile creates the required Errai classes and applications deploy without errors.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-13602 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-13602">JBIDE-13602</ulink></term>
+      <listitem>
+         <para>
+         The project wizards in JBoss central are based on Maven archetypes and stacks.yml holds information defining the archetype for each project. Occasionally, stacks.yml would not load correctly and archetype information necessary for building the project would not be available. As a result, the wizard description would show "Project based on the null:null:null Maven archetype" and the project would fail to be created, with the error "Root cause: For artifact null:null:null:pom". The tooling has been modified to ensure stack.yml is always correctly loaded. Consequently, the wizard does not show null in the Maven archetype information and the project is successfully created.
          </para>
       </listitem>
    </varlistentry>
 
 
-
-
-   <!-- JBIDE-7996 -->
+   <!-- JBIDE-13683 -->
    <varlistentry>
-      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-7996">JBIDE-7996</ulink></term>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-13683">JBIDE-13683</ulink></term>
       <listitem>
          <para>
-         A new feature has been added allowing for a user to import existing DTP connection settings when using the Hibernate Configuration File wizard. For a user this means an existing DTP connection can be selected and the settings imported for use in the configuration file being created.
+         Runtime detection is used to recognize and create instances of runtime servers. Although runtime detection recognized JBoss Portal Platform installations as runtime servers, it failed to create associated server instances. This issue has been resolved by updating the server bean loaders to identify JBoss Portal Platform runtime servers more specifically and by updating the runtime detection to ensure no likely server types are ignored in the future. As a result, JBoss Portal Platform runtime servers are now recognized and instantiated by runtime detection.
+         </para>
+      </listitem>
+   </varlistentry>
+
+   <!-- JBIDE-13690 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-13690">JBIDE-13690</ulink></term>
+      <listitem>
+         <para>
+         Application server directory trees were expected to have a certain structure, which was relied upon for the tooling to recognize and create new application servers. As highlighted by <ulink url="https://issues.jboss.org/jira/browse/JBIDE-13537">JBIDE-13537</ulink>, new releases of application servers do not necessarily conform to the expected directory structure. Consequently, these application servers would not be recognized by the tooling and would require patches to rectify the issues. To make recognition more reliable for future releases of application severs, the recognition methods have been modified to recognize a wider range of possible directory structures, under the provision that the directory structure does not deviate too far from the currently known structures.
          </para>
       </listitem>
    </varlistentry>
 
 </variablelist>
+
+
+
 
 
 </section>

@@ -2,18 +2,21 @@
 <section id="Component_Versions">
 		<title>Component Versions</title>
 		<para>
-			This section details the versions of the components which create the JBoss Developer Studio that can be found in this release.
+			This release of JBoss Developer Studio comprises the following components:
 		</para>
 		<itemizedlist>
 			<listitem>
 				<para>
-					Eclipse Juno (4.2)
+					Eclipse Juno (4.2) SR2
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					JBoss Tools 4.0.0.Final
+					JBoss Tools 4.0.1
 				</para>
 			</listitem>
 		</itemizedlist>
+		
+		<para>Additionally, the version of JBoss Enterprise Application Platform included in the combined universal installer with JBoss Developer Studio is now 6.0.1.</para>
+		
 </section>

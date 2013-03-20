@@ -13,8 +13,8 @@
 				<colspec colwidth="1*"/>
 				<thead>
 					<row>
-						<entry>Operating system</entry>
-						<entry>Chip architecture</entry>
+						<entry>Operating System</entry>
+						<entry>Chip Architecture</entry>
 					</row>
 				</thead>
 				<tbody>
