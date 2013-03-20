@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<section id="Deprecated">
+     <title>
+        Deprecated Features
+    </title>
+    
+	<para>
+		The following features have been deprecated in this release of JBoss Developer Studio.
+	</para>
+
+	<itemizedlist>
+		<listitem><para>Struts Tools is marked as deprecated as of this release and will be removed in the next major release of JBoss Developer Studio.</para></listitem>
+	</itemizedlist>
+
+</section>

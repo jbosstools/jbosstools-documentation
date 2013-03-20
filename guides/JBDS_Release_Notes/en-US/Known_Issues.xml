@@ -1,12 +1,19 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <section id="Known_Issues_with_this_release">
 	<title>
-			Known Issues in version 6.0.0
+			Known Issues
 	</title>
-<!--	<para>
-		There were no known issues at the time of release.
-	</para> -->
-	<para> 
-			Following is a list of known issues at the time of release.
-		</para>
+<variablelist>
+   <!-- JBIDE-13446 -->
+   <varlistentry>
+      <term><ulink url="https://issues.jboss.org/jira/browse/JBIDE-13446">JBIDE-13446</ulink></term>
+      <listitem>
+         <para>
+         Use of the pick-up command in Forge console results in a null pointer exception. Consequently, the Forge console displays an error message and fails to move into the requested directory.  
+         </para>
+      </listitem>
+   </varlistentry>
+
+</variablelist>
+
 </section>
