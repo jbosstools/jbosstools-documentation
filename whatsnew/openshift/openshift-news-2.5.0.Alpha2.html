@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../whatsnew.css" />
+<title>OpenShift Tools 2.5.0.Alpha2 What's New</title>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-17645367-5' ]);
+	_gaq.push([ '_trackPageview' ]);
+
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+<body>
+	<h1>OpenShift 2.5.0.Alpha2 What's New</h1>
+
+	<p align="right">
+		<a href="../as/as-news-4.1.0.Alpha2.html">Server Tools &gt; </a>
+	</p>
+	<table border="0" cellpadding="10" cellspacing="0" width="80%">
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>OpenShift Explorer</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Restart Application</b></td>
+			<td valign="top" align="left">
+				If your application has issues you may want to restart it. You can now achieve that within JBoss Tools. 
+				Pick "Restart" from the context menu of your application in the OpenShift Explorer: 
+				<p>
+					<img src="images/restart-application.png"/>
+				</p>
+				Restarting your application will fully restart your node, it will not just restart your deployed project. It is equivalent to restarting your server. 
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-13737">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Server adapter</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Console not shown</b></td>
+			<td valign="top" align="left">
+				The server adapter for OpenShift allows you to publish your local changes to OpenShift. It pops up the console after publishing so that you can have a detailed 
+				look at what happened when pushing. In Alpha1 the console was not shown any more. We fixed this for Alpha2.   
+				<p>
+					<img src="images/console.png"/>
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-13806">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>OpenShift Java Client</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>new version 2.1.0</b></td>
+			<td valign="top" align="left">
+				In the last few months we put a lot of effort into the <a href="https://github.com/openshift/openshift-java-client">openshift-java-client</a>. 
+				The new version 2.1.0 offers major improvements in terms of compatibility and stability. It'll be available from maven central very soon. 
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/issues/?jql=project%20%3D%20JBIDE%20AND%20fixVersion%20%3D%20%224.1.0.Alpha2%22%20AND%20component%20%3D%20openshift">Related Jiras</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>
