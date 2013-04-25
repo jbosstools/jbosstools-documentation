@@ -24,15 +24,7 @@ jira = JIRA(options={'server':'https://issues.jboss.org'}, basic_auth=(options.u
 jbide_fixversion = options.jbidefixversion
 jbds_fixversion = options.jbdsfixversion
 
-#versions = jira.project_versions('JBIDE')
-
-#pp.pprint(versions)
-
-#jbide_fixversionid = versions[jbide_fixversion]
-#pp.pprint([v.id for v in reversed(versions)])
-
-#print('jbide version ' + jbide_fixversion + ' = ' + jbide_fixversionid)
-
+## The jql query across for all N&N
 nnsearchquery = '((project in (JBDS) and fixVersion = "' + jbds_fixversion + '") or (project in (JBIDE) and fixVersion = "' + jbide_fixversion + '")) AND resolution = Done AND labels = new_and_noteworthy'
 
 nnsearch = 'https://issues.jboss.org/issues/?jql=' + urllib.quote_plus(nnsearchquery)
@@ -100,7 +92,7 @@ for name, comps in components.iteritems():
     child = jira.create_issue(fields=rootnn_dict)
     print("created child for " + name +  "->" + child.key)
 
-raw_input("Press Enter to delete...")
+raw_input("Press Enter to delete...or ctrl+c to be ok with the cretaed content")
 
 rootnn.delete(deleteSubtasks=True)
 #child.delete()
