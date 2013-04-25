@@ -43,16 +43,19 @@
 			<p>
 				Support has been increased for various server runtime types. 
 				First, a bare-minumum of support has been guaranteed for 
-				various products which will be based on JBoss AS. This ensures
+				any PRODUCTS which will be based on JBoss AS 7.2. This ensures
 				that we should (hopefully) never have a situation where a new product
-				release fully requires a corresponding release of tools to add support. 
-				Extended support may be added in future JBossTools versions, but a situation
-				where servers completely fail should now be a thing of the past. 
+				release for JBoss EAP, SOA-P, or any other new or unannounced product 
+				requires a corresponding release of tools to get a server started from within eclipse. 
+				Extended support may be added in future JBossTools versions for these runtimes, but a situation
+				where servers completely fail should now be a thing of the past.
+				The new runtime will at least be recognized as its base underlying server type, 
+				and, if the new runtime type follows typical conventions, it should be able to start, stop, and deploy, without any issues. 
 			</p>
 			<p>
 				Also, support for previous and current versions of Gate-In have been added. 
 				This ensures that Gate-In receives the same level of support that you've come to 
-				expect from our other server adapters. 
+				expect from our other server adapters. Specifically, support for Gate-In servers versions 3.3.0 , 3.4.0, and 3.5.0 has been added and tested. 
 			</p>
 				<small>
 					<a href="https://issues.jboss.org/browse/JBIDE-13858">Unreleased Products Related Jira</a> 
