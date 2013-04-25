@@ -44,7 +44,7 @@ rootnn = jira.create_issue(fields=rootnn_dict)
 print("created " + rootnn.key)
 
 ## map from descriptive name to list of JBIDE and/or JBDS components.
-## it is assumed if the component name is the same they are the same across the two jiras
+## it is assumed if the component name is the same, they are the same across the two jiras
 components = {
     "BrowserSim" : { "browsersim"},
     "Usage Analytics" : { "usage"},
@@ -92,8 +92,7 @@ for name, comps in components.iteritems():
     child = jira.create_issue(fields=rootnn_dict)
     print("created child for " + name +  "->" + child.key)
 
-raw_input("Press Enter to delete...or ctrl+c to be ok with the cretaed content")
+raw_input("Press Enter to delete...or ctrl+c to be ok with the created content")
 
 rootnn.delete(deleteSubtasks=True)
-#child.delete()
 
