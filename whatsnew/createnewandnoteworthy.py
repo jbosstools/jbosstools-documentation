@@ -47,6 +47,7 @@ print("created " + rootnn.key)
 ## it is assumed if the component name is the same, they are the same across the two jiras
 components = {
     "BrowserSim" : { "browsersim"},
+    "Live Reload" : { "livereload" },
     "Usage Analytics" : { "usage"},
     "GWT" : { "GWT"},
     "CDI" : { "CDI"},
