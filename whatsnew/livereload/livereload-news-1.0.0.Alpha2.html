@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Language" content="en-us" />
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" href="../whatsnew.css" />
-<title>JBossTools LiveReload 1.0.0.Alpha What's New</title>
+<title>JBoss Tools LiveReload 1.0.0.Alpha What's New</title>
 <script type="text/javascript">
 	var _gaq = _gaq || [];
 	_gaq.push([ '_setAccount', 'UA-17645367-5' ]);
@@ -25,7 +25,7 @@
 </script>
 </head>
 <body>
-	<h1>JBossTools LiveReload 1.0.0.Alpha What's New</h1>
+	<h1>JBoss Tools LiveReload 1.0.0.Alpha What's New</h1>
 
 	<table border="0" cellpadding="10" cellspacing="0" width="80%">
 		<tr>
@@ -40,7 +40,7 @@
 				id="itemname3"></a><b>Directory Mode Support</b></td>
 			<td valign="top">
 				<p>
-					JBossTools LiveReload is a server-side implementation of the <a
+					JBoss Tools LiveReload is a server-side implementation of the <a
 						href="http://feedback.livereload.com/knowledgebase/articles/86174-livereload-protocol">LiveReload
 						protocol</a>.
 				</p>
@@ -82,20 +82,21 @@
 				<p>
 					Chrome users can install the v.2.0.9 extension <a
 						href="https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei/details">from
-						the Chrome Marketplace</a>.
+						the Chrome Marketplace</a>. Be aware that to use Chrome LiveReload with file url's you have to explicitly enable that for the Live Reload extension under "Extensions" in Chrome preferences.
 				</p>
 				<p>
-					Firefox users may hit an <a
-						href="http://stackoverflow.com/questions/8710613/livereload-not-working-guard-firefox">issue</a>
-					with the <a
-						href="http://download.livereload.com/2.0.8/LiveReload-2.0.8.xpi">LiveReload
-						extension v.2.0.8</a>: the browser disconnects just after it has
-					connected, which means that the server cannot push refresh commands
-					to it. <br />A workaround is to install the v.2.0.9 extension that
-					is available <a
+					Firefox users should use v. 2.0.9 or newer of the LiveReload extension available from <a
 						href="https://github.com/downloads/siasia/livereload-extensions/LiveReload-2.0.9.xpi">here
-						instead</a>.
+						</a>.
+					If you hit an 	
+					 <a
+						href="http://stackoverflow.com/questions/8710613/livereload-not-working-guard-firefox">issue</a>
+					where the browser disconnects just after it has
+					connected, which means that the server cannot push refresh commands
+					to it you are using an old plugin and should update it.
 				</p>
+				
+				<p>Safari unfortunately does not work with file: url's and thus requires you to manually insert livereload.js or serve the files out of a local server. For now we recommend you use Chrome or Firefox, in the next version of JBoss Tools there will be an easier way to use Safari with LiveReload.</p>
 
 			</td>
 
