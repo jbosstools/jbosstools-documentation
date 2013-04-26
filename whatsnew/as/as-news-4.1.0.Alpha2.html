@@ -1,0 +1,77 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="../whatsnew.css">
+<title>JBoss AS Tools 4.1.0.Alpha1 News</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17645367-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
+
+<body>
+
+<h1>JBoss AS Tools 4.1.0.Alpha1 What's New</h1>
+
+<p align="right">
+	<a href="../openshift/cdi-news-4.1.0.Alpha2.html">&lt; OpenShift Tools</a>
+	<a href="../openshift/openshift-news-2.5.0.Alpha2.html">OpenShift&lt;</a> 
+</p>
+
+<table border="0" cellpadding="10" cellspacing="0" width="80%">
+
+	<tr>
+		<td colspan="2">
+		<hr />
+		<h3>Deployment</h3>
+		<hr />
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" align="left">
+			<p><b>Increased support for product server runtimes</b></p>
+		</td>
+        <td align="top">
+	  <p>
+	  
+	  Support has been increased for AS 7.1+ and it's derived
+	  products and it now supports the notion of a product slot
+	  instead of an hard coded EAP slot.</p>
+	  <p>
+	  This should mean EAP, SOA-P etc. should be identified and
+	  started correctly as long as they do not require custom
+	  handling outside of what AS 7 need.
+	  </p>
+	  <p>
+	  If the server cannot be fully identified the tools will try
+	  what it can to fallback to ensure the server can be used.
+	  	</p>
+			<p>
+				Also, support for previous and current versions of GateIn have been added. 
+				This ensures that GateIn receives the same level of support that you've come to 
+				expect from our other server adapters. Specifically, support for GateIn servers versions 3.3.0 , 3.4.0, and 3.5.0 has been added and tested. 
+			</p>
+				<small>
+					<a href="https://issues.jboss.org/browse/JBIDE-13858">Unreleased Products Related Jira</a> 
+                                        <a href="https://issues.jboss.org/browse/JBIDE-12157">GateIn Related Jira</a>
+				</small><br/>
+			</p>
+		</td>
+	</tr>
+<hr />
+
+</table>
+
+</body>
+
+</html>
+
+
