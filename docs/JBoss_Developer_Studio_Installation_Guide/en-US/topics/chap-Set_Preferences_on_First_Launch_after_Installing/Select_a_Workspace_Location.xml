@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Getting_Started_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Installation_Guide.ent">
 %BOOK_ENTITIES;
 ]>
 
@@ -14,7 +14,7 @@
 	</sectioninfo>
 	<title>Select a Workspace Location</title>
 	<para>
-		When the development environment starts, you are asked to choose the workspace folder for the session. The workspace is where your projects are stored.
+		When the IDE starts, you are asked to choose the workspace folder for the session. The workspace is where your projects are stored.
 	</para>
 	<para>
 		To set the workspace location, follow these steps: 

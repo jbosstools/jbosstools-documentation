@@ -10,6 +10,7 @@
 	<productname>JBoss Developer Studio</productname>
 	<productnumber>7.0.0</productnumber>
 	<edition>1</edition>
+    <pubsnumber>1</pubsnumber>
 	<abstract>
 		<para>
 			This document details how to install JBoss Developer Studio and guides you through creating an application using some of JBoss Developer Studio's tools.

@@ -6,8 +6,8 @@
 
 <chapter id="chap-Install_JBoss_Developer_Studio">
 	<title>Install JBoss Developer Studio</title>
-	<xi:include href="topics/Installation_Assumptions.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/Install_with_the_JAR_Installer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/Select_a_Workspace_Location.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/Set_Usage_Reporting.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Install_JBoss_Developer_Studio/Installation_Assumptions.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Install_JBoss_Developer_Studio/Install_with_the_JAR_Installer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Install_JBoss_Developer_Studio/Select_a_Workspace_Location.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Install_JBoss_Developer_Studio/Set_Usage_Reporting.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>

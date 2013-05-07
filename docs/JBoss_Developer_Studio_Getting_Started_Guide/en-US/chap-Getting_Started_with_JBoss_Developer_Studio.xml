@@ -6,5 +6,5 @@
 
 <chapter id="chap-Getting_Started_with_JBoss_Developer_Studio">
 	<title>Getting Started with JBoss Developer Studio</title>
-	<xi:include href="topics/About_Getting_Started.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Getting_Started_with_JBoss_Developer_Studio/About_Getting_Started.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>

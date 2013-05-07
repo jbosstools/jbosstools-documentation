@@ -6,7 +6,7 @@
 
 <chapter id="chap-Uninstall_JBoss_Developer_Studio">
 	<title>Uninstall JBoss Developer Studio</title>
-	<xi:include href="topics/Uninstall_Methods.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/Uninstall_with_the_Uninstaller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/Uninstall_from_Eclipse_Marketplace.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Uninstall_JBoss_Developer_Studio/Uninstall_Methods.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Uninstall_JBoss_Developer_Studio/Uninstall_with_the_Uninstaller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Uninstall_JBoss_Developer_Studio/Uninstall_from_Eclipse_Marketplace.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>
