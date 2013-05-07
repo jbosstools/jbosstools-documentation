@@ -6,7 +6,7 @@
 
 <chapter id="chap-Introduction_to_the_TicketMonster_Application">
 	<title>Introduction to the TicketMonster Application</title>
-	<xi:include href="topics/About_the_TicketMonster_Application.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/Tutorial_Outline.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/Tutorial_Assumptions.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Introduction_to_the_TicketMonster_Application/About_the_TicketMonster_Application.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Introduction_to_the_TicketMonster_Application/Tutorial_Outline.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Introduction_to_the_TicketMonster_Application/Tutorial_Assumptions.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>

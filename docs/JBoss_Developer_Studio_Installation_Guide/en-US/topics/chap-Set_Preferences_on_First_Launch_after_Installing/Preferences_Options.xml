@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Installation_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="Preferences_Options" remap="TID_15790">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</sectioninfo>
+	<title>Preferences Options</title>
+	<para>
+		The aim of this section is to guide you in setting preferences for the JBoss&nbsp;Developer&nbsp;Studio features encountered on the first IDE start after installing: 
+		<itemizedlist>
+			<listitem>
+				<para>
+					Set up a workspace that will contain your projects
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Choose whether to enable JBoss&nbsp;Developer&nbsp;Studio to collect usage information for compiling product-wide statistics
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Activate the JBoss perspective to provide easy access to common tabs, menus and toolbars for working with JBoss technologies
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Specify the locations where JBoss&nbsp;Developer&nbsp;Studio should automatically search for new runtime servers and so save you from setting up each one individually
+				</para>
+			</listitem>
+		</itemizedlist>
+	</para>
+</section>

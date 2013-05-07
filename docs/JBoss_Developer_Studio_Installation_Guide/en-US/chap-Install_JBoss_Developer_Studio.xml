@@ -6,7 +6,7 @@
 
 <chapter id="chap-Install_JBoss_Developer_Studio">
 	<title>Install JBoss Developer Studio</title>
-	<xi:include href="topics/Install_Options.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/Install_with_the_JAR_Installer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/Install_from_Eclipse_Marketplace.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Install_JBoss_Developer_Studio/Install_Options.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Install_JBoss_Developer_Studio/Install_with_the_JAR_Installer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Install_JBoss_Developer_Studio/Install_from_Eclipse_Marketplace.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>

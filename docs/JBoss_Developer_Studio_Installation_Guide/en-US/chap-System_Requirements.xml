@@ -6,12 +6,13 @@
 
 <chapter id="chap-System_Requirements">
 	<title>System Requirements</title>
-	<xi:include href="topics/Supported_Operating_Systems_and_Architectures.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/Computer_Memory.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-System_Requirements/About_System_Requirements.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-System_Requirements/Supported_Operating_Systems_and_Architectures.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-System_Requirements/Computer_Memory.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<section id="sect-Java_Developer_Kit">
 		<title>Java Developer Kit</title>
-		<xi:include href="topics/Compatible_Java_developer_kits.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-		<xi:include href="topics/Determine_current_Java_developer_kit_in_use.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-		<xi:include href="topics/Install_a_Java_developer_kit.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+		<xi:include href="topics/chap-System_Requirements/Compatible_Java_developer_kits.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+		<xi:include href="topics/chap-System_Requirements/Determine_current_Java_developer_kit_in_use.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+		<xi:include href="topics/chap-System_Requirements/Install_a_Java_developer_kit.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	</section>
 </chapter>

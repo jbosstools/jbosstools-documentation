@@ -6,12 +6,7 @@
 
 <chapter id="chap-Upgrade_from_Previous_Versions_of_JBoss_Developer_Studio">
 	<title>Upgrade from Previous Versions of JBoss Developer Studio</title>
-	<xi:include href="topics/Back_up_existing_workspaces.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/Upgrade_JBoss_Developer_Studio.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/Upgrade_JBoss_Developer_Studio_within_Eclipse.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<section id="sect-Install_JBoss_Developer_Studio">
-		<title>Install JBoss Developer Studio</title>
-		<xi:include href="topics/Install_with_the_JAR_Installer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-		<xi:include href="topics/Install_from_Eclipse_Marketplace.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	</section>
+	<xi:include href="topics/chap-Upgrade_from_Previous_Versions_of_JBoss_Developer_Studio/Back_up_existing_workspaces.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Upgrade_from_Previous_Versions_of_JBoss_Developer_Studio/Upgrade_JBoss_Developer_Studio.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Upgrade_from_Previous_Versions_of_JBoss_Developer_Studio/Upgrade_JBoss_Developer_Studio_within_Eclipse.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>

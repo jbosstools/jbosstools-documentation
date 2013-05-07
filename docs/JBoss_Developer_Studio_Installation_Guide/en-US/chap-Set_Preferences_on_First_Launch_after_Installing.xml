@@ -6,8 +6,9 @@
 
 <chapter id="chap-Set_Preferences_on_First_Launch_after_Installing">
 	<title>Set Preferences on First Launch after Installing</title>
-	<xi:include href="topics/Select_a_Workspace_Location.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/Set_Usage_Reporting.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/Set_the_Perspective_to_JBoss.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/Set_up_Automatic_Runtime_Detection.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Set_Preferences_on_First_Launch_after_Installing/Preferences_Options.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Set_Preferences_on_First_Launch_after_Installing/Select_a_Workspace_Location.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Set_Preferences_on_First_Launch_after_Installing/Set_Usage_Reporting.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Set_Preferences_on_First_Launch_after_Installing/Set_the_Perspective_to_JBoss.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="topics/chap-Set_Preferences_on_First_Launch_after_Installing/Set_up_Automatic_Runtime_Detection.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>
