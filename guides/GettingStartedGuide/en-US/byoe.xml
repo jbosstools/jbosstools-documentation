@@ -7,12 +7,18 @@
 	   </para>
    </warning>
    <para>
-		The option to install the JBoss Developer Studio core tool set into your own Eclipse installation is now available. This can be underataken by navigating to <menuchoice><guimenuitem>Help</guimenuitem><guimenuitem>Install New Software</guimenuitem></menuchoice>.
+		The option to install the JBoss Developer Studio core tool set into your own Eclipse installation is now available. Specifically, JBoss Developer Studio 6 is available for Eclipse Juno (4.2).
+   </para>	
+		
+   <para>	   
+	   To install JBoss Developer Studio in Eclipse, click <menuchoice><guimenuitem>Help</guimenuitem><guimenuitem>Eclipse Marketplace</guimenuitem></menuchoice>. In the <guilabel>Search</guilabel> tab, in the <guilabel>Find</guilabel> field enter <command>JBoss Developer Studio</command>. Locate <application>JBoss Developer Studio (Juno)</application> and click <guibutton>Install</guibutton>. After reading and agreeing to the licenses, click <guilabel>I accept the terms of the license agreements</guilabel> and click <guibutton>Finish</guibutton>.
    </para>
-   <para>
-	   The <guilabel>Available Software</guilabel> wizard will ask you for a location to use; input the following address: https://devstudio.jboss.com/updates/6.0/
+	
+   <para>   
+	   During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation. Once installing is complete, you are prompted to restart Eclipse. Click <guibutton>Yes</guibutton> to restart now and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that changes do not take effect until Eclipse is restarted.
    </para>
-   <para>
-	   From the list of available software select <guimenuitem>JBoss Developer Studio 6.0 - Bring Your Own Eclipse [Technology Preview]</guimenuitem> and click the <guibutton>Finish</guibutton> button.
-   </para>
+		
+   <!--<para>
+		Alternatively, the installation can be underataken by navigating to <menuchoice><guimenuitem>Help</guimenuitem><guimenuitem>Install New Software</guimenuitem></menuchoice>. In the <guilabel>Work with</guilabel> field, enter the address <command>https://devstudio.jboss.com/updates/6.0/</command>. From the table of available software, select  the <guimenuitem>JBoss Developer Studio 6.0 - Bring Your Own Eclipse [Technology Preview]</guimenuitem> check box and click <guibutton>Finish</guibutton>.
+   </para> -->
 </chapter>
