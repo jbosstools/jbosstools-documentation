@@ -6,6 +6,21 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>6.0.0-3</revnumber>
+				<date>Wed May 8 2013</date>
+				<author>
+					<firstname>Michelle</firstname>
+					<surname>Murray</surname>
+					<email>mmurray@redhat.com</email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>TOOLSDOC-320: Correcting BYOE installation details</member>
+					</simplelist>
+				</revdescription>
+			</revision>	
+
+			<revision>
 				<revnumber>6.0.0-2</revnumber>
 				<date>Wed Jan 9 2013</date>
 				<author>
