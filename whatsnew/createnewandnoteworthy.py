@@ -63,7 +63,9 @@ components = {
     "Forge": { "forge"},
     "OpenShift": { "openshift"},
     "JBoss Central": { "central"},
-    "Core/General": { "common/jst/core"}    
+    "Core/General": { "common/jst/core"},
+    "Arquillian": { "testing-tools" },
+    "Aerogear": { "aerogear-hybrid" }
     }
 
 
