@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../whatsnew.css" />
+<title>OpenShift Tools 2.5.0.Beta1 What's New</title>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-17645367-5' ]);
+	_gaq.push([ '_trackPageview' ]);
+
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+<body>
+	<h1>OpenShift 2.5.0.Beta1 What's New</h1>
+
+	<p align="right">
+		<a href="../livereload/livereload-news-1.0.0.Beta1.html">&lt; LiveReload</a>		
+		<a href="../jst/jst-news-4.1.0.Beta1.html">JST/JSF/HTML Tools &gt;</a>
+	</p>
+	<table border="0" cellpadding="10" cellspacing="0" width="80%">
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Wizard</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Verbose Cartridge Labels</b></td>
+			<td valign="top" align="left">
+				In Beta1 we gave labels in the OpenShift application wizard some love. 
+				We show you better descriptions of what application you're about to create 
+				and what cartridge you're about to embed: 
+				<p>
+					<img src="images/cartridge-labels.png"/>
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-14459">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Publish Right Away</b></td>
+			<td valign="top" align="left">
+				To create or import an OpenShift application in JBoss Tools you launch the application wizard that does all 
+				the heavy lifting for you. This wizard creates the application and imports it to a new project or merges it into 
+				an existing one. To then publish these changes to OpenShift, you get over to the 
+				server adapter and tell it to publish your Eclipse project. <br>
+				In Alpha2 you had to think about publishing and manually trigger the adapter once you had run through the wizard. 
+				Beta1 now prompts you right away and asks you if you want to push once the import/merge is done.
+				<p>
+					<image src="images/pushing-if-no-changes.png" alt="push to OpenShift" />
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-13075">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Server adapter</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>See it pushing while it's happening</b></td>
+			<td valign="top" align="left">
+				JBoss Tools offers you a server adapter to publish your local changes to OpenShift. This adapter does all
+				git pushing for you. In case of maven projects publishing will usually trigger a maven build on OpenShift. 
+				This may therefore take quite some time. In Alpha2 you had to wait for this to complete in order to 
+				see the results. A limitation in Eclipse EGit prevented us from showing you the output while it was occurring.<br> 
+				We improved EGit/JGit and contributed this enhancement to Eclipse. We are therefore now able to give you 
+				immediate feedback while we push to OpenShift.
+				<p>
+					<image src="images/publishing-to-openshift.png" alt="publishing to OpenShift" />
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-12137">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Restart Application</b></td>
+			<td valign="top" align="left">
+				In Alpha2 we allowed you to restart an application from the context menu in the OpenShift Explorer. 
+				Beta2 now adds this option to the context menu of the server adapter.
+				<p>
+					<image src="images/server-adapter-restart.png" alt="restart application" />
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-13960">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Binary Deploy to JBoss EWS (Tomcat 6/7)</b></td>
+			<td valign="top" align="left">
+				If you want to deploy some binary artifact (ex. your application war) in JBoss Tools you simply drag and drop 
+				your Eclipse project to the OpenShift server adapter. The adapter will then war and push it to OpenShift. 
+				While this worked fine with JBoss AS and EAP, things didn't work out of the box for tomcat 6 and 7. 
+				We now fixed this for Beta1.
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-13401">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Various Improvements</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Removing Cartridges</b></td>
+			<td valign="top" align="left">
+				Removing cartridges may cause loss of data. This is especially true when you remove databases like mysql, postgres 
+				or mongo db. Thus we now remind you of this potential risk and ask you to confirm this irreversible removal.  
+				<p>
+					<image src="images/remove-cartridge.png" alt="confirm cartridge removal" />
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-13961">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Upload SSH Keys</b></td>
+			<td valign="top" align="left">
+				Various operations like cloning and inspecting your application logs require you to upload your SSH keys to OpenShift.
+				In order to have an even smoother workflow the application wizard will prompt you if you have no keys on OpenShift yet.
+				It will ask you right away to create a new or upload your existing key(s).  
+				<p>
+					<image src="images/add-ssh-keys.png" alt="add ssh keys" />
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-13020">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Port Forwarding for Scalable Apps</b></td>
+			<td valign="top" align="left">
+				In Alpha2 port forwarding failed for scalable applications. 
+				In Beta1 we now made sure that you can forward the ports of any OpenShift application be it scalable or not.
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-14404">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Missing credentials when Creating Jenkins</b></td>
+			<td valign="top" align="left">
+				Before Beta1 it could happen that you created a jenkins application but didn't get the credentials for it. 
+				The dialog that reported these was empty.<br> 
+				In order to fix this we increased the timeouts that made you miss these informations. 
+				<br>To make your experience even smoother in case it still fails we now offer you a link to the environments variables  
+				in the creation dialog. This link allows you to easily look the credentials via a single click.
+				<p>
+					<image src="images/timouted-see-in-envvars.png" alt="link to environment variables" />
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-14342">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>OpenShift Java Client</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>New Version 2.2.0</b></td>
+			<td valign="top" align="left">
+				The latest openshift-java-client 2.2.0 moved to exclusively support protocol 1.2. With this upgrade JBoss Tools and all other user application will 
+				benefit from far more informative descriptions for cartridges. Further additional enhancement will make it to the library with the upcoming releases. 
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-12320">Related Jiras</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>
