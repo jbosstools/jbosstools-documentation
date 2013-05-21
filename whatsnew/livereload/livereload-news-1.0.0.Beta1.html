@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../whatsnew.css" />
+<title>JBoss Tools LiveReload 1.0.0.Beta1 What's New</title>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-17645367-5' ]);
+	_gaq.push([ '_trackPageview' ]);
+
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+<body>
+	<h1>JBoss Tools LiveReload 1.0.0.Beta1 What's New</h1>
+  <p align="right"><a href="../central/central-news-1.2.0.Beta1.html">&lt; JBoss Central</a> <a
+  href="../openshift/openshift-news-2.5.0.Beta1.html">OpenShift &gt;</a>
+
+
+    
+	<table border="0" cellpadding="10" cellspacing="0" width="80%">
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>General</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="right"><a name="itemname3"
+				id="itemname3"></a><b>Server Mode Support</b></td>
+			<td valign="top">
+        <p>In Addition with the Directory Mode support introduced in 1.0.0.Alpha, the new <strong>Server Mode</strong> brings LiveReload support to resources deployed on a JBoss AS Server (other types of servers will follow). In this mode, the LiveReload commands are sent to the connected browsers once resources have been redeployed on the Application Server. This means that notified browsers will retrieve wait until the latest version of the resources have been deployed to load them.</p>
+        <p>As before, users only need to create and start the LiveReload server, connect their browser using the installed extension and then start working on resources in their workspace.</p>
+        <p><small>Related JIRA: <a href="https://issues.jboss.org/browse/JBIDE-13950">JBIDE-13950</a> </small></p>
+      </td>
+      
+		</tr>
+
+		<tr>
+			<td valign="top" align="right"><a name="itemname3"
+				id="itemname3"></a><b>Directory Mode Support via Proxy</b></td>
+			<td valign="top">
+        <p>The LiveReload server now features an optional embedded proxy mode which enhances the Directory Mode experience. Using this proxy, users can not only access their local files from remote devices, but also have the &lt;script&gt; tag to load the livereload.js script automatically added at the bottom of the &lt;body&gt; element of the returned HTML pages. This means that LiveReload support is now available for tablets and smartphones on that would not allow for browser extension installation !</p>
+        <p>For security reasons, the proxy is disabled by default. Once enabled, it may optionaly accept remote connections if you want to enable LiveReload from remote devices or remote computers. For users wanting to use the BrowserSim with LiveReload, there is no need to allow for remote connections.</p> 
+        </p>In any case, only workspace projects files are exposed by this Proxy.</p> 
+        <p><img src="../images/LiveReload_server_configuration_with_security.png"></p>
+          
+          
+        <p><small>Related JIRAs: <a href="https://issues.jboss.org/browse/JBIDE-13970">JBIDE-13970</a>, <a href="https://issues.jboss.org/browse/JBIDE-14498">JBIDE-14498</a></small></p>
+      </td>
+		</tr>
+
+	</table>
+
+</body>
+
+</html>
+
+
