@@ -1,0 +1,108 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="../whatsnew.css">
+<title>JBoss AS Tools 4.1.0.Beta1 News</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17645367-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
+
+<body>
+
+<h1>JBoss AS Tools 4.1.0.Beta1 What's New</h1>
+
+<p align="right">
+        <!-- Other Module Owners:  Change These Values if Necessary! -->
+	<a href="../cdi/cdi-news-4.1.0.Beta2.html">&lt; OpenShift Tools</a>
+	<a href="../forge/forge-news-4.1.0.Beta2.html">Forge Tools &gt;</a> 
+</p>
+
+<table border="0" cellpadding="10" cellspacing="0" width="80%">
+
+	<tr>
+		<td colspan="2">
+		<hr />
+		<h3>Deployment Scanners</h3>
+		<hr />
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" align="left">
+			<p><b>More control over automatic management of deployment scanners</b></p>
+		</td>
+		<td align="top">
+			<p>
+
+				In past releases, whenever an application server is started, JBoss Tools automatically
+				adds relevant deployment scanners to your server, so that deployments to custom locations
+				will be picked up by the server without any problems. Depending on your application server
+				version, these scanners may be persisted across future restarts, or may not be. On servers
+				where they are persisted, we also typically remove these scanners, to prevent multiple
+				workspaces using the same server from having collisions or conflicting deployment locations.
+			</p>
+			<p>
+				Some users prefer to manage their deployment scanners on their own, and wish JBoss Tools did not
+				automatically take control of this aspect of their development environment. For these users, 
+				two new settings have been added to the server editor which will suppress this behavior. 
+			</p>
+
+			<p><img src="images/JBIDE-9830.png" alt="Deployment Scanner Options in Server Editor"/></p>
+			<p>
+				<small>
+					<a href="https://issues.jboss.org/browse/JBIDE-9830">Related Jira</a> 
+				</small><br/>
+			</p>
+		</td>
+	</tr>
+
+
+
+	<tr>
+		<td colspan="2">
+		<hr />
+		<h3>Starting and Stopping Deployed Modules</h3>
+		<hr />
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" align="left">
+			<p><b>Module Start and Stop re-implemented</b></p>
+		</td>
+		<td align="top">
+			<p>
+				Modules may be published to a server, but may also be stopped at the same time. 
+				You can see this behavior in your Administrative Console. Functionally, the difference
+				between an undeploy and a stop is simply that during a stop, 
+				the module will remain in the server's deployment
+				folder, but the server is instructed to undeploy it. These changes align the behavior
+				of JBoss Tools with that of the Administrative Console, and will help to remove confusion
+				over what the actions are actually doing. 
+				
+			</p>
+			<p>
+				<small>
+					<a href="https://issues.jboss.org/browse/JBIDE-2625">Related Jira</a> 
+				</small><br/>
+			</p>
+		</td>
+	</tr>
+
+<hr />
+
+</table>
+
+</body>
+
+</html>
+
+
