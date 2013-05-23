@@ -1,5 +1,5 @@
 <chapter id="introduction">
-	<?dbhtml filename="getting_started.html"?>
+	<?dbhtml filename="introduction.html"?>
 	<chapterinfo>
 		<keywordset>
 			<keyword>JBoss Developer Studio</keyword>
