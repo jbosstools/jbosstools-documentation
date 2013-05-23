@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE bookinfo PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_User_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<bookinfo id="book-Documentation-User_Guide">
+	<title>JBoss Tools User Guide</title>
+	<subtitle>Information about using the plug-ins of JBoss Tools</subtitle>
+	<productname>JBoss Tools</productname>
+	<productnumber>4.1.0</productnumber>
+	<edition>Pre-release</edition>
+	<abstract>
+		<para>
+			This document details how to use and customize the individual plug-ins of JBoss Tools.
+		</para>
+	</abstract>
+
+	<xi:include href="Legal_Notice.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<xi:fallback xmlns:xi="http://www.w3.org/2001/XInclude">
+		<xi:include href="Common_Content/Legal_Notice.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	</xi:fallback>
+</xi:include>
+	<xi:include href="Author_Group.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+</bookinfo>
+
