@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_User_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<section>
+	<title>Features of JBoss Central and the JBoss Perspective</title>
+
+	<section>
+	<title>Features Overview</title>
+	
+		<para>The aim of this section is to guide you in using JBoss Central and the JBoss perspective:</para>
+		<itemizedlist>
+			<listitem><para>View JBoss Central to access project wizards and information resources</para></listitem>
+			<listitem><para>Install and update software with JBoss Central</para></listitem>
+			<listitem><para>Open the JBoss perspective for easy access to key tabs, menus and toolbars</para></listitem>
+			<listitem><para>Access cheat sheets that assist in project development</para></listitem>
+		</itemizedlist>
+
+	</section>
+
+	
+	<section>
+		<title>View JBoss Central</title>
+		
+		<para>The <guilabel>JBoss Central</guilabel> tab provides resources for getting started and updating software.</para>
+		
+		<para>To open the <guilabel>JBoss Central</guilabel> tab, click the <guibutton>JBoss Central</guibutton> icon. Alternatively, click <guimenu>Help</guimenu>&rarr;<guimenu>JBoss Central</guimenu>.</para>
+
+		<para>To maximize the  <guilabel>JBoss Central</guilabel> tab, double-click the name of the <guibutton>JBoss Central</guibutton> tab. The <guilabel>JBoss Central</guilabel> tab fills the whole IDE window. Double-click the name of the <guibutton>JBoss Central</guibutton> tab to reduce the size of the tab again. These actions work for all IDE tabs.</para>
+
+	</section>	
+
+
+	<section>
+		<title>Access Project Wizards in JBoss Central</title>
+
+		<para>JBoss Central provides access to wizards for generating projects. There are two types of project wizards available in JBoss Central:
+			<itemizedlist>
+				<listitem><para>The <guilabel>Start from scratch</guilabel> wizards create the same project using different underlying technology, as started in the project name. To view a project summary, hover the cursor over a project wizard. If you do not have the necessary plug-in installed to use a wizard, you will be prompted to install it when you click the wizard. </para></listitem>
+				<listitem><para>The <guilabel>Start from a sample</guilabel> wizards create  sample web, mobile, back-end and portal applications.</para></listitem>
+			</itemizedlist>
+		</para>
+		
+		<para></para>
+	
+		<para>To create a project from one of the wizards, in the <guilabel>JBoss Central</guilabel> tab select the <guilabel>Getting Started</guilabel> page. Click on one of the links below <guilabel>Start from scratch</guilabel> or <guilabel>Start from a sample</guilabel>. Alternatively, click <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu> and select a project from the list. A wizard opens to guide you through the process of creating the project.</para>
+
+		<para>Additionally, access is provided to the comprehensive TicketMonster tutorial, part of JBoss Developer Framework, that guides you through developing a complex web application utilizing JBoss technologies from within the IDE. To view the tutorial, in the <guilabel>JBoss Central</guilabel> tab select the <guilabel>Getting Started</guilabel> page and click the <guibutton>Open the Ticket Monster tutorial</guibutton> button. The JBoss Developer Framework website will open in the default browser of the IDE.</para>
+	
+	</section>
+	
+
+	<section>
+		<title>Access Information in JBoss Central</title>
+
+		<para>JBoss Central provides easy access to JBoss and developer information. Each of the information sources listed below are web-based and, depending on the web browser preferences you have set for the IDE, clicking on links results in an internal or external browser window opening.</para>
+		
+		<variablelist>
+			<title></title>
+			<varlistentry>
+				<term>View JBoss Developer Studio website</term>
+				<listitem><para>In the <guilabel>JBoss Central</guilabel> tab, click the <guibutton>JBoss Developer Studio Home</guibutton> icon.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>View the latest JBoss developments</term>
+				<listitem><para>In the <guilabel>JBoss Central</guilabel> tab, select the <guilabel>Getting Started</guilabel> page and click the links under <guilabel>JBoss Buzz</guilabel>. To see previews of the blog posts, hover the cursor over these links. To view a complete list of JBoss blog posts, click the <guibutton>JBoss Buzz</guibutton> button. JBoss blog posts are available to follow as RSS feeds or with Twitter. To review these options, click the <guibutton>News</guibutton> or <guibutton>Twitter</guibutton> icons.</para></listitem>
+			</varlistentry>					
+			<varlistentry>
+				<term>View JBoss developer information sources</term>
+				<listitem><para>In the <guilabel>JBoss Central</guilabel> tab, select the <guilabel>Getting Started</guilabel> page and click the links under <guilabel>Other resources</guilabel>. These links provide access to videos, documentation and forums.</para></listitem>
+			</varlistentry>
+			
+			<varlistentry>
+				<term>Search JBoss Community website</term>
+				<listitem><para>In the <guilabel>JBoss Central</guilabel> tab, click the arrow next to the search box and select <guilabel>Search JBoss Community</guilabel>. In the search field, enter the search terms.</para></listitem>
+			</varlistentry>					
+			<varlistentry>
+				<term>Search Red Hat Customer Portal website</term>
+				<listitem><para>In the <guilabel>JBoss Central</guilabel> tab, click the arrow next to the search box and select <guilabel>Search Red Hat Customer Portal</guilabel>. In the search field, enter the search terms.</para></listitem>
+			</varlistentry>	
+		</variablelist>
+		
+	</section>
+
+
+	<section>
+		<title>Work offline with JBoss Central</title>
+		
+		<para><remark>still to do</remark></para>
+		
+		<!--<para><remark>JBDS-2556/2552/2543: offline usage of JBoss central, examples/archetypes/;</remark></para> -->
+		
+	</section>
+
+
+	<section>
+		<title>Update Software in JBoss Central</title>
+		
+		<para>JBoss Central enables you to install and update a range of IDE plug-ins. The available plug-ins comprise JBoss and third party plug-ins that have been specifically tested for use with the IDE. These plug-ins include ones for web and mobile development, source control management, testing and Maven.</para> 
+		
+		<para>For all actions listed below, open the <guilabel>JBoss Central</guilabel> tab and select the <guilabel>Software/Update</guilabel> page.</para>
+		
+		<variablelist>
+			<title></title>				
+			<varlistentry>
+				<term>View available software</term>
+				<listitem><para>The available software is listed in the table. To refresh the list of available plug-ins, click the <guibutton>Refresh</guibutton> icon.</para></listitem>
+			</varlistentry>	
+			<varlistentry>
+				<term>View installed plug-ins</term>
+				<listitem><para>Select the <guilabel>Show Installed</guilabel> check box. The installed plug-ins are listed in the table as disabled.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Install available software</term>
+				<listitem><para>In the <guilabel>Find</guilabel> field, type the name of the software or scroll through the list to locate it. Select the check box corresponding to the software you want to install and click <guibutton>Install</guibutton> or click the <guibutton>Install</guibutton> icon.</para> 
+				<para>In the <application>Install</application> wizard, ensure the check boxes are selected for the software you want to install and click <guibutton>Next</guibutton>. Review the details of the items listed for install and click <guibutton>Next</guibutton>. After reading and agreeing to the licenses, click <guilabel>I accept the terms of the license agreements</guilabel> and click <guibutton>Finish</guibutton>. The <guilabel>Installing Software</guilabel> window opens and reports the progress of the installation.</para> 
+				<para>During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation. Once installing is complete, you are prompted to restart the IDE. Click <guibutton>Yes</guibutton> to restart now and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that changes do not take effect until the IDE is restarted.</para></listitem>
+			</varlistentry>	
+			<varlistentry>
+				<term>Check for software updates</term>
+				<listitem><para>Click the <guibutton>Check for Updates</guibutton> icon. The <guilabel>Contacting Software Sites</guilabel> window opens and reports the progress of checking. Once checking is complete, a prompt informs you of any new software found. Click <guibutton>OK</guibutton> to close the prompt.</para></listitem>
+			</varlistentry>
+		</variablelist>		
+		
+	</section>
+
+
+	<section>
+		<title>Open the JBoss Perspective</title>
+		
+		<para>The JBoss perspective provides a default set of tabs, menus and toolbars to assist with common tasks associated with developing applications that use JBoss technologies.</para>
+		
+		<para>To open the JBoss perspective, click <guimenu>Window</guimenu>&rarr;<guimenu>Open Perspective</guimenu>&rarr;<guimenu>Other</guimenu>. From the list of available perspectives, select <guilabel>JBoss</guilabel> and click <guibutton>OK</guibutton>. The tabs associated with the JBoss perspective open and menus and toolbars change as appropriate.</para>
+
+	</section>
+
+
+	<section>
+		<title>Manage JBoss Perspective</title>
+		
+		<para>There are a number of actions provided by the IDE for managing perspectives, including the JBoss perspective.</para>
+			
+		<variablelist>
+			<title></title>
+			<varlistentry>
+				<term>Reset the JBoss perspective</term>
+				<listitem><para>You may want to reset the JBoss perspective to its default settings after opening and closing tabs. Click <guimenu>Window</guimenu>&rarr;<guimenu>Reset Perspective</guimenu>. At the prompt asking if you want to reset the current JBoss perspective to its default settings, click <guibutton>Yes</guibutton>.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Switch to the JBoss perspective</term>
+				<listitem><para>You can have multiple perspectives open at one time. To switch to the JBoss perspective, click the <guibutton>JBoss</guibutton> button. Alternatively, click <guimenu>Window</guimenu>&rarr;<guimenu>Navigation</guimenu>&rarr;<guimenu>Next Perspective</guimenu> or press <keycap>Ctrl+F8</keycap> and repeat until the JBoss perspective is the current perspective.</para></listitem>
+			</varlistentry>									
+			<varlistentry>
+				<term>Close the JBoss perspective</term>
+				<listitem><para>Click <guimenu>Window</guimenu>&rarr;<guimenu>Close Perspective</guimenu>.</para></listitem>
+			</varlistentry>	
+		</variablelist>
+		
+	</section>
+
+
+	<section>
+		<title>View Cheat Sheets</title>
+
+		<para><remark>still to do</remark></para>
+
+		<!--<para><remark>Eclipse have cheat sheets - don't appear to be any </remark></para>
+
+		<para>The JBoss perspective provides cheat sheets for a variety of applications. Each cheat sheet takes you through creating an application, with step by step guidance and explanations.</para>
+		
+		<para>To view a cheat sheet, click <guimenu>Help</guimenu>&rarr;<guimenu>Cheat Sheets</guimenu>. You may choose to select a cheet sheet from the list, a file or url:
+			<itemizedlist>
+				<listitem><para>For one of the listed cheat sheets, click <guilabel>Select a cheat sheet from the list</guilabel>, expand the categories and select the name of a cheat sheet. Short descriptions of selected cheat sheets are displayed below the list of cheat sheets.</para></listitem>
+				<listitem><para>For one from a file, click <guilabel>Select a cheat sheet from a file</guilabel> and type the location of the file in the field or click <guibutton>Browse</guibutton> to navigate to the file.</para></listitem>
+				<listitem><para>For one from a URL, click <guilabel>Enter the URL of a cheat sheet</guilabel> and type the address in the field.</para></listitem>
+			</itemizedlist>
+		Click <guibutton>OK</guibutton> to close the window. The cheat sheet opens in a new <guilabel>Cheat Sheets</guilabel> tab.	
+		</para> -->
+		
+		<!--<para><remark>JBDS-2557: cheat sheets on archetypes; JBDS-2558: project import > open files; JBIDE-14331: make cheat sheets more pervasive</remark></para> -->
+	</section>
+
+</section>
+
