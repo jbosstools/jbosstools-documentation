@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Language" content="en-us" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="../whatsnew.css" />
+    <title>What's New in Arquillian Eclipse</title>
+    <script type="text/javascript">
+      
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-17645367-5']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+      
+    </script></head>
+    <body>
+      <h1>Arquillian Eclipse</h1>
+      
+      <p align="right">
+      <a href="../forge/forge-news-4.1.0.Alpha2.html">&lt; Forge Tools</a> 
+      </p>
+ 
+      <table border="0" cellpadding="10" cellspacing="0" width="100%">
+        <tr>
+          <td colspan="2">
+            <hr />
+            <h3>Arquillian Eclipse</h3>
+            <hr />
+          </td>
+        </tr>
+        
+        <tr>
+          <td valign="top" align="left">
+          <a name="arquillianeclipse" id="arquillianeclipse"></a><b>Arquillian Eclipse</b></td>
+          <td valign="top">
+            <p>
+              Arquillian Eclipse is a new JBoss Tools component that makes using <a href="http://arquillian.org">Arquillian</a> easier. 
+            </p>
+            
+          <p><small>
+            See <a href="https://github.com/jbosstools/jbosstools-arquillian">Arquillian Eclipse</a>.
+            
+          </small></p>
+      		</td>
+	    </tr>
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+
+		<tr>
+          <td valign="top" align="left">
+          <a name="addarquillian" id="addarquillian"></a><b>Add/Remove Arquillian Support</b></td>
+          <td valign="top">
+            <p>
+              The Arquillian support can be added/removed by right-clicking the project and selecting <b>Configure&gt;Add/Remove Arquillian support</b>.
+            </p>
+            <p>
+            The project has to be a maven project. The Add Arquillian Support action adds the Arquillian nature to the project as well as the arquillian artifacts (bom, dependencies, required plugins, profiles ...) to the project's pom.xml.
+The Remove Arquillian Support removes the Arquillian nature, but doesn't change the project's pom.xml.
+            </p>
+            <p><small>Related jira: <a href="https://issues.jboss.org/browse/JBIDE-6319">JBIDE-6319</a></small></p>
+            
+            <p>
+            <small>See <a href="http://screencast.com/t/gUh1IjTBfnE">screencast</a>.</small>
+            </p>
+      	  </td>
+	    </tr>
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+		<tr>
+          <td valign="top" align="left">
+          <a name="arquillianwizard" id="arquillianwizard"></a><b>New Arquillian JUnit Test Case wizard</b></td>
+          <td valign="top">
+            <p>
+              The wizard is based on the JUnit Test Case wizard, but adds the following to a created class:
+			</p>
+			<ul>
+    		  <li>@RunWith(Arquillian.class) annotation</li>
+    		  <li>the deployment method</li>
+			</ul>
+            <img src="images/ArquillianJUnitWizard.png"/>
+            <p></p>
+            <img src="images/ArquillianJUnitWizard1.png"/>
+            <p>
+            The user can define the name of the deployment method, the name and order of the deployment, the type and name of the archive, add an empty beans.xml, available classes and resources to the deployment archive.
+            
+            </p>
+            <p><small>Related jira: <a href="https://issues.jboss.org/browse/JBIDE-6318">JBIDE-6318</a></small></p>
+            
+            <p>
+            <small>See <a href="http://screencast.com/t/mjoeU7gqkym">screencast</a>.</small>
+            </p>
+      	  </td>
+	    </tr>
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+		<tr>
+          <td valign="top" align="left">
+          <a name="generatearquillian" id="generatearquillian"></a><b>Generate Arquillian Deployment Method</b></td>
+          <td valign="top">
+            <p>
+              The Generate Arquillian Deployment Method action has been added to the context menu of the Java editor and Eclipse views.
+            </p>
+            <p><small>Related jira: <a href="https://issues.jboss.org/browse/JBIDE-8553">JBIDE-8553</a></small></p>
+            
+            <p>
+            <small>See <a href="http://screencast.com/t/OY701ZWeXWsv">screencast</a>.</small>
+            </p>
+      	  </td>
+	    </tr>
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+		<tr>
+          <td valign="top" align="left">
+          <a name="generatearquillian" id="generatearquillian"></a><b>Hyperlink on Arquillian resources</b></td>
+          <td valign="top">
+            <p>
+              The Arquillian Eclipse has ability to click through to resources specified as part of Shrinkwrap definition.
+            </p>
+            <p><small>Related jira: <a href="https://issues.jboss.org/browse/JBIDE-6338">JBIDE-6338</a></small></p>
+            
+            <p>
+            <small>See <a href="http://screencast.com/t/y8bt7See">screencast</a>.</small>
+            </p>
+      	  </td>
+	    </tr>
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+		<tr>
+          <td valign="top" align="left">
+          <a name="runarquillian" id="runarquillian"></a><b>Run As Arquillian launch configuration</b></td>
+          <td valign="top">
+            <img src="images/ArquillianTab.png"/>
+            <p>
+              The Run As Arquillian launch configuration includes the following features:
+            </p>
+			<ul>
+    			<li>is actived only if there is the org.jboss.arquillian.junit.Arquillian class</li>
+    			<li>runs only Arquillian JUnit tests</li>
+    			<li>checks if there is exactly one implementation of the org.jboss.arquillian.container.spi.client.container.DeployableContainer interface</li>
+    			<li>includes the Arquillian tab that enables the user to check/change the Arquillian configuration properties, select maven profiles, review/start/stop WTP servers. The Arquillian configuration properties are added using declarations from the arquillian.xml, arquillian.properties and the default values when instantiating the corresponding container configuration.</li>
+			</ul>
+			<p></p>
+			See <a href="http://screencast.com/t/0cOI6AITkupB">http://screencast.com/t/0cOI6AITkupB</a>
+            
+            <p><small>Related jira: <a href="https://issues.jboss.org/browse/JBIDE-10526">JBIDE-10526</a></small></p>
+            
+            <p>
+            <small>See <a href="http://screencast.com/t/0cOI6AITkupB">screencast</a>.</small>
+            </p>
+      	  </td>
+	    </tr>
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+		<tr>
+          <td valign="top" align="left">
+          <a name="arquillianvalidator" id="arquillianvalidator"></a><b>Arquillian Validator</b></td>
+          <td valign="top">
+            <p>
+              The arquillian validator finds the following issues:
+            </p>
+			<ul>
+    			<li>classes that are used in a test, but aren't included in the deployment</li>
+    			<li>tests without any deployment method and/or any test method</li>
+    			<li>resources that can't be found</li>
+			</ul>
+			<p>
+			Arquillian issues can be ignored, marked as a warning or as an error.<br/> 
+    		It is possible to add quick fixes (haven't been implemented yet) for some or all Arquillian issues.
+    		</p>
+			
+            <p><small>Related jira: <a href="https://issues.jboss.org/browse/JBIDE-6568">JBIDE-6568</a></small></p>
+            
+            <p>
+            <small>See <a href="http://screencast.com/t/53XkyHltg">screencast</a>.</small>
+            </p>
+      	  </td>
+	    </tr>
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+		<tr>
+          <td valign="top" align="left">
+          <a name="arquillianview" id="arquillianview"></a><b>Arquillia Cruiser</b></td>
+          <td valign="top">
+            <p>
+              The Arquillian view (Arquillia Cruiser) shows Arquillian deployment archives.
+            </p>
+			<img src="images/ArquilliaCruiser.png"/>
+			
+            <p><small>Related jira: <a href="https://issues.jboss.org/browse/JBIDE-6662">JBIDE-6662</a></small></p>
+            
+            <p>
+            <small>See <a href="http://screencast.com/t/P3mnJy8UV">screencast</a>.</small>
+            </p>
+      	  </td>
+	    </tr>
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+		<tr>
+          <td valign="top" align="left">
+          <a name="arquillianprofiles" id="arquillianprofiles"></a><b>Add Arquillian Profiles</b></td>
+          <td valign="top">
+            <p>
+              Arquillian Profiles can be added by right-clicking the project and selecting <b>Configure&gt;Add Arquillian Profiles support</b>.
+            </p>
+			
+            <p>See <a href="https://github.com/snjeza/arquillian-eclipse/issues/6">Issue 6</a> for more details.</p>
+            
+            <p>
+            <small>See <a href="http://screencast.com/t/HDAPlRjWsD">screencast</a>.</small>
+            </p>
+      	  </td>
+	    </tr>
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+		<tr>
+          <td valign="top" align="left">
+          <a name="vmarguments" id="vmarguments"></a><b>Default VM arguments</b></td>
+          <td valign="top">
+            <p>
+              Arquillian Eclipse enables adding default VM arguments to Arquillian/JUnit/TestNG launch configurations.
+            </p>
+			
+			<p><small>Related jira: <a href="https://issues.jboss.org/browse/JBIDE-13289">JBIDE-13289</a></small></p>
+            
+            <p>
+            <small>See <a href="http://screencast.com/t/Lrh0AA2hD55">screencast</a>.</small>
+            </p>
+      	  </td>
+	    </tr>
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+</table>
+</body>
+</html>
+
+
