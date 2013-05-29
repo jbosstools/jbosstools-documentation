@@ -1,5 +1,5 @@
-<chapter id="byoe-installation">
-<?dbhtml filename="getting_started.html"?>
+<chapter id="byoe">
+<?dbhtml filename="BYOE.html"?>
    <title>Bring Your Own Eclipse installation</title>
    <warning>
 	   <para>
@@ -11,7 +11,19 @@
    </para>	
 		
    <para>	   
-	   To install JBoss Developer Studio in Eclipse, click <menuchoice><guimenuitem>Help</guimenuitem><guimenuitem>Eclipse Marketplace</guimenuitem></menuchoice>. In the <guilabel>Search</guilabel> tab, in the <guilabel>Find</guilabel> field enter <command>JBoss Developer Studio</command>. Locate <application>JBoss Developer Studio (Juno)</application> and click <guibutton>Install</guibutton>. After reading and agreeing to the licenses, click <guilabel>I accept the terms of the license agreements</guilabel> and click <guibutton>Finish</guibutton>.
+	   To install JBoss Developer Studio in Eclipse, click <menuchoice><guimenuitem>Help</guimenuitem><guimenuitem>Eclipse Marketplace</guimenuitem></menuchoice>. In the <guilabel>Search</guilabel> tab, in the <guilabel>Find</guilabel> field enter <command>JBoss Developer Studio</command>. Locate <application>JBoss Developer Studio (Juno)</application> and click <guibutton>Install</guibutton>.</para> 
+
+		<figure>
+			<title>Install JBoss Developer Studio from Eclipse Marketplace</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/byoe/byoe1.png" scale="100"/>
+				</imageobject>
+			</mediaobject>
+		</figure>
+
+	<para>
+		After reading and agreeing to the licenses, click <guilabel>I accept the terms of the license agreements</guilabel> and click <guibutton>Finish</guibutton>.
    </para>
 	
    <para>   

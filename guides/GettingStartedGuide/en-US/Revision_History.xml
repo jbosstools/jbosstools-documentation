@@ -6,6 +6,36 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>6.0.0-5</revnumber>
+				<date>Wed May 15 2013</date>
+				<author>
+					<firstname>Michelle</firstname>
+					<surname>Murray</surname>
+					<email>mmurray@redhat.com</email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>TOOLSDOC-320: Adding screen capture</member>
+					</simplelist>
+				</revdescription>
+			</revision>	
+
+			<revision>
+				<revnumber>6.0.0-4</revnumber>
+				<date>Wed May 8 2013</date>
+				<author>
+					<firstname>Michelle</firstname>
+					<surname>Murray</surname>
+					<email>mmurray@redhat.com</email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>Fixing HTML build issues</member>
+					</simplelist>
+				</revdescription>
+			</revision>	
+
+			<revision>
 				<revnumber>6.0.0-3</revnumber>
 				<date>Wed May 8 2013</date>
 				<author>
