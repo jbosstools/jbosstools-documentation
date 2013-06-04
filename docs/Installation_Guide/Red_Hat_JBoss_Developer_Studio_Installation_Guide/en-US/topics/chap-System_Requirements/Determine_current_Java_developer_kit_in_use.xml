@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Red_Hat_JBoss_Developer_Studio_Installation_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="Determine_current_Java_developer_kit_in_use" remap="TID_13336">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</sectioninfo>
+	<title>Determine Default Java Developer Kit of the System</title>
+	<para>
+		To determine if your system has a Java developer kit set up for use and the version, follow the procedure below which is suitable for all operating systems.
+	</para>
+	<!-- Info from http://introcs.cs.princeton.edu/java/15inout/windows-cmd.html -->
+	<procedure>
+		<title>Determine Default Java Developer Kit of the System</title>
+		<step>
+			<para>
+				On the command line, enter <command>javac -version</command>. The output shows the version of the Java compiler being used as the default of the system and indicates that the system has a Java developer kit set up for use.
+			</para>
+			<important>
+				<para>
+					If a message to the effect of <command>javac not found</command> is returned, the system does not have a Java compiler set up for use. This indicates that either the system does not have a Java developer kit installed or that the installed Java developer kit is not set up for use.
+				</para>
+			</important>
+		</step>
+		<step>
+			<para>
+				On the command line, enter <command>java -version</command>. The output preceding <command>Runtime Environment</command> identifies which Java distribution is being used as the default Java runtime environment (JRE) and the output after <command>java version</command> identifies the version number of the JRE.
+			</para>
+			<important>
+				<para>
+					If the version numbers of the Java compiler and JRE are different, the system is using a Java compiler and JRE from different Java distributions as the default. This should be rectified so that the Java compiler and JRE are from the same Java developer kit.
+				</para>
+			</important>
+		</step>
+	</procedure>
+	<para>
+		Sample output for various Java developer kits is displayed below.
+	</para>
+	<example>
+		<title>Sample Output from Identifying the Default Java Developer Kit of the System</title>
+		<para>
+			Output for OpenJDK Java developer kit 1.7.0: 
+			<screen>
+$ javac  -version
+javac 1.7.0_09
+$ java -version
+java version "1.7.0_09-icedtea"
+OpenJDK Runtime Environment (fedora-2.3.5.fc17-x86_64)
+OpenJDK 64-Bit Server VM (build 23.2-b09, mixed mode)
+			</screen> Output for Oracle JDK 1.6.0: 
+			<screen>			
+$ javac -version
+javac 1.6.0_38
+$ java -version
+java version "1.6.0_38"
+Java(TM) SE Runtime Environment (build 1.6.0_38-b05)
+Java HotSpot(TM) 64-Bit Server VM (build 20.13-b02, mixed mode)
+			</screen> Output for OpenJDK JRE 1.7.0 (no Java compiler): 
+			<screen>
+$ javac -version
+bash: /usr/bin/javac: No such file or directory
+$ java -version
+java version "1.7.0_09-icedtea"
+OpenJDK Runtime Environment (fedora-2.3.5.fc17-x86_64)
+OpenJDK Server VM (build 23.2-b09, mixed mode)
+			</screen>
+		</para>
+	</example>
+</section>
