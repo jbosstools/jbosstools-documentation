@@ -1,19 +1,18 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!DOCTYPE bookinfo PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Migration_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "Red_Hat_JBoss_Developer_Studio_Migration_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-<bookinfo id="book-JBoss_Developer_Studio_Migration_Guide-JBoss_Developer_Studio_Migration_Guide">
-	<title>JBoss Developer Studio Migration Guide</title>
-	<subtitle>Information about migrating JBoss Developer Studio 7</subtitle>
-	<productname>JBoss Developer Studio</productname>
-	<productnumber>7.0.0</productnumber>
-	<edition>1</edition>
-    <pubsnumber>1</pubsnumber>
+<bookinfo id="book-Red_Hat_JBoss_Developer_Studio_Migration_Guide-Red_Hat_JBoss_Developer_Studio_Migration_Guide">
+	<title>Red Hat JBoss Developer Studio Migration Guide</title>
+	<subtitle>Information for users upgrading JBoss Developer Studio</subtitle>
+	<productname>Red Hat JBoss Developer Studio</productname>
+	<productnumber>7.0</productnumber>
+	    <pubsnumber>1</pubsnumber>
 	<abstract>
 		<para>
-			This document details how to migrate to JBoss Developer Studio 7.
+			This document details how to upgrade to the most recent release of JBoss Developer Studio.
 		</para>
 	</abstract>
 

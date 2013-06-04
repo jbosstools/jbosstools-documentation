@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Migration_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "Red_Hat_JBoss_Developer_Studio_Migration_Guide.ent">
 %BOOK_ENTITIES;
 ]>
 
@@ -14,7 +14,7 @@
 	</sectioninfo>
 	<title>Use Cases of JBoss Developer Studio</title>
 	<para>
-		JBoss&nbsp;Developer&nbsp;Studio assists JEE developers by integrating JBoss technology and APIs in a single development environment. Here are a few ways that JBoss&nbsp;Developer&nbsp;Studio makes the work of a developer easier.
+		JBoss&nbsp;Developer&nbsp;Studio assists JEE developers by integrating JBoss technology and APIs in a single development environment. Here are a few ways that JBoss&nbsp;Developer&nbsp;Studio makes the work of a developer easier:
 	</para>
 	<variablelist>
 		<title/>
@@ -33,18 +33,7 @@
 			<term>Web applications optimized for mobile devices</term>
 			<listitem>
 				<para>
-					JBoss&nbsp;Developer&nbsp;Studio supports HTML5 and jQuery Mobile to enable you to create web applications optimized across desktop and mobile clients. The HTML5 Project wizard in JBoss Central generates a sample application using HTML5 and jQuery Mobile technologies and, together with HTML5 and jQuery Mobile project file templates, helps you to get up and running with new APIs and technologies quickly. BrowserSim allows you to view your web applications on a variety of simulated mobile devices so that you can ensure they will be correct formatted. The integration of Firebug Lite and Weinre capabilities with BrowserSim assists you to inspect the page source of web pages with familiar tools.
-				</para>
-			</listitem>
-		</varlistentry>
-		<varlistentry>
-			<term>Mobile applications</term>
-			<listitem>
-				<para>
-					<remark>
-						Still to do
-					</remark>
-					<!--JBoss&nbsp;Developer&nbsp;Studio supports the Cordova API, necessary for creating mobile applications. JBoss&nbsp;Developer&nbsp;Studio offers opportunities to test your mobile applications with iOS runtime simulators.-->
+					JBoss&nbsp;Developer&nbsp;Studio supports HTML5 and jQuery Mobile to enable you to create web applications optimized across desktop and mobile clients. The HTML5 Project wizard in JBoss Central generates a sample application using HTML5 and jQuery Mobile technologies and, together with HTML5 and jQuery Mobile project file templates, helps you to get up and running with new APIs and technologies quickly. BrowserSim allows you to view your web applications on a variety of simulated mobile devices so that you can ensure they will be correctly formatted. The integration of Firebug Lite and Weinre capabilities with BrowserSim assists you to inspect the page source of web pages with familiar tools.
 				</para>
 			</listitem>
 		</varlistentry>
