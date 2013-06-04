@@ -1,0 +1,8 @@
+<!ENTITY PRODUCT "Red Hat JBoss Developer Studio">
+<!ENTITY BOOKID "JBoss_Developer_Studio_Getting_Started_Guide">
+<!ENTITY YEAR "2013">
+<!ENTITY TITLE "JBoss Developer Studio Getting Started Guide">
+<!ENTITY HOLDER "Red Hat, Inc">
+<!ENTITY BZURL "https://bugzilla.redhat.com/">
+<!ENTITY BZCOMPONENT "documentation">
+<!ENTITY BZPRODUCT "Red Hat JBoss Developer Studio">

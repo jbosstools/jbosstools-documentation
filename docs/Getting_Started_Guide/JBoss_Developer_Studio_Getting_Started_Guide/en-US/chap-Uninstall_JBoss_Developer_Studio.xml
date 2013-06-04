@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Getting_Started_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<chapter id="chap-Uninstall_JBoss_Developer_Studio">
+	<title>Uninstall JBoss Developer Studio</title>
+	<section id="Uninstall_with_the_Uninstaller" remap="TID_13344">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.0
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Uninstall JBoss Developer Studio</title>
+		<procedure>
+			<title>Uninstall with the Uninstaller</title>
+			<step>
+				<para>
+					Ensure JBoss&nbsp;Developer&nbsp;Studio is not running.
+				</para>
+			</step>
+			<step>
+				<para>
+					On the command line, navigate to the location of the JBoss&nbsp;Developer&nbsp;Studio installation and move into the <filename>Uninstaller</filename> directory.
+				</para>
+			</step>
+			<step>
+				<para>
+					On the command line, enter 
+					<screen>java -jar uninstaller.jar</screen>
+					<note>
+						<para>
+							Alternatively, to start the uninstaller you may be able to double-click the <filename>uninstaller.jar</filename> file.
+						</para>
+					</note>
+				</para>
+			</step>
+			<step>
+				<para>
+					Select <guilabel>Force the deletion</guilabel> if you want to remove the whole of the directory. If this is not selected, JBoss&nbsp;Developer&nbsp;Studio is uninstalled but files are left behind in the installation directory.
+				</para>
+			</step>
+			<step>
+				<para>
+					Click <guibutton>Uninstall</guibutton>.
+				</para>
+			</step>
+			<step>
+				<para>
+					Once the progress bar shows <guilabel>Finished</guilabel>, click <guibutton>Quit</guibutton> to close the <application>Uninstaller</application> window.
+				</para>
+			</step>
+		</procedure>
+	</section>
+</chapter>
