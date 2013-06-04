@@ -1,4 +1,4 @@
-Red_Hat_JBoss_Developer_Studio_Release_Notes
+Release_Notes
 ==================================================
 
 
