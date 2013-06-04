@@ -44,7 +44,7 @@
 			<td valign="top" align="right"><a name="itemname3"
 				id="itemname3"></a><b>Server Mode Support</b></td>
 			<td valign="top">
-        <p>In Addition with the Directory Mode support introduced in 1.0.0.Alpha, the new <strong>Server Mode</strong> brings LiveReload support to resources deployed on a JBoss AS Server (other types of servers will follow). In this mode, the LiveReload commands are sent to the connected browsers once resources have been redeployed on the Application Server. This means that notified browsers will retrieve wait until the latest version of the resources have been deployed to load them.</p>
+        <p>In Addition with the Directory Mode support introduced in 1.0.0.Alpha, the new <strong>Server Mode</strong> brings LiveReload support to resources deployed on a JBoss AS Server (other types of servers will follow). In this mode, the LiveReload commands are sent to the connected browsers once resources have been redeployed on the Application Server. This means that notified browsers will wait until the latest version of the resources have been deployed before loading them.</p>
         <p>As before, users only need to create and start the LiveReload server, connect their browser using the installed extension and then start working on resources in their workspace.</p>
         <p><small>Related JIRA: <a href="https://issues.jboss.org/browse/JBIDE-13950">JBIDE-13950</a> </small></p>
       </td>
@@ -55,8 +55,11 @@
 			<td valign="top" align="right"><a name="itemname3"
 				id="itemname3"></a><b>Directory Mode Support via Proxy</b></td>
 			<td valign="top">
-        <p>The LiveReload server now features an optional embedded proxy mode which enhances the Directory Mode experience. Using this proxy, users can not only access their local files from remote devices, but also have the &lt;script&gt; tag to load the livereload.js script automatically added at the bottom of the &lt;body&gt; element of the returned HTML pages. This means that LiveReload support is now available for tablets and smartphones on that would not allow for browser extension installation !</p>
-        <p>For security reasons, the proxy is disabled by default. Once enabled, it may optionaly accept remote connections if you want to enable LiveReload from remote devices or remote computers. For users wanting to use the BrowserSim with LiveReload, there is no need to allow for remote connections.</p> 
+        <p>The LiveReload server now features an optional embedded proxy mode which enhances the Directory Mode experience. Using this proxy, users can not only access their local files from remote devices, but also have the &lt;script&gt; tag to load the livereload.js script automatically inserted at the bottom of the &lt;body&gt; element of the returned HTML pages. This means that LiveReload support is now available for tablets and smartphones that do not allow for browser extension installation !</p>
+        <p>In the Project Explorer and Package Explorer, the contextual menu has been filled with a new "Open With>Web Browser via LiveReload Proxy" action. This latter one opens the selected file in the Web Browser, but instead of using the file:// protocol, it uses the http:// protocol and connects to the LiveReload embedded proxy.</p>
+        <p><img src="../images/LiveReload_open_in_web_browser_via_proxy.png"></p>
+
+        <p>For security reasons, the proxy is disabled by default. Once enabled, it may optionally accept remote connections if you want to enable LiveReload from remote devices or remote computers. For users wanting to use the BrowserSim with LiveReload, there is no need to allow for remote connections.</p> 
         </p>In any case, only workspace projects files are exposed by this Proxy.</p> 
         <p><img src="../images/LiveReload_server_configuration_with_security.png"></p>
           
