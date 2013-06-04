@@ -1,0 +1,72 @@
+CHECKSUM=cdf41782ecbc9f7797ae9a08aa5a4d53
+ID = 13332
+# Content spec written by
+# Generated on <date>
+
+# Lines that commence with the # symbol are comments
+
+# The fields below are mandatory
+Title = Installation Guide
+Subtitle = Information for users installing JBoss Developer Studio
+Abstract = This document details how to install and set up JBoss Developer Studio.
+Product = Red Hat JBoss Developer Studio
+Version = 7.0
+#Edition =
+DTD = Docbook 4.5
+Copyright Holder = Red Hat, Inc
+
+# The commented fields below are optional
+
+Brand = JBoss
+# publican.cfg = [ custom content to append to publican.cfg can be multiline ]
+# pubsnumber =
+# Debug = [0|1|2]
+
+# Bug Links = On
+# BZProduct =
+# BZComponent =
+# BZVersion =
+# BZURL =
+
+# Output Style =
+
+# Indentation is meaningful. Use 2 spaces.
+
+
+[Writer = mmurray]
+Chapter: Introduction to Red Hat JBoss Developer Studio
+  About Red Hat JBoss Developer Studio [13337]
+  Use Cases of JBoss Developer Studio [13338]
+
+Chapter: System Requirements
+  System Requirements Overview [15789]
+  Supported Operating Systems and Architectures [13331]
+  Computer Memory [13538]
+  Section: Java Developer Kit
+    Compatible Java Developer Kits [13333]
+    Determine Default Java Developer Kit of the System [13336]
+    Install a Java Developer Kit [13334]
+
+Chapter: Install JBoss Developer Studio
+  Install Options [13339]
+  Install JBoss Developer Studio [13342]
+  Install JBoss Developer Studio BYOE [13343]
+
+Chapter: Set Preferences on First Launch after Installing
+  Preferences Options [15790]
+  Select a Workspace Location [13347]
+  Set Usage Reporting [13335]
+  Set the Perspective to JBoss [13346]
+  Set up Automatic Runtime Detection [13345]
+
+#Chapter: Test JBoss Developer Studio
+
+Chapter: Upgrade from Previous Versions of JBoss Developer Studio
+  Upgrade Methods [13419]
+  Upgrade JBoss Developer Studio [13415]
+  Upgrade JBoss Developer Studio BYOE [13417]
+
+Chapter: Uninstall JBoss Developer Studio
+  Uninstall Methods [13463]
+  Uninstall JBoss Developer Studio [13344]
+  Uninstall JBoss Developer Studio BYOE [13341]

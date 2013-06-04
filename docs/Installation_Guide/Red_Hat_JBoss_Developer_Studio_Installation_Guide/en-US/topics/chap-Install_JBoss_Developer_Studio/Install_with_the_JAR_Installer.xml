@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Red_Hat_JBoss_Developer_Studio_Installation_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="Install_with_the_JAR_Installer" remap="TID_13342">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</sectioninfo>
+	<title>Install JBoss Developer Studio</title>
+	<procedure>
+		<title>Install with the Installer</title>
+		<step>
+			<para>
+				Log into the Customer Service Portal at <ulink url="https://access.redhat.com">https://access.redhat.com</ulink>.
+			</para>
+		</step>
+		<step>
+			<para>
+				From the menu bar click <guimenu>Downloads</guimenu> then, under <guimenu>JBOSS ENTEPRISE MIDDLEWARE</guimenu>, click <guimenu>Downloads</guimenu>.
+			</para>
+		</step>
+		<step>
+			<para>
+				From the <guilabel>Product</guilabel> list, select <guilabel>JBoss Developer Studio</guilabel>.
+			</para>
+		</step>
+		<step>
+			<para>
+				For the <filename>JBoss Developer Studio 6.0.1 Stand Alone Universal Binary</filename> file, click <guibutton>Download</guibutton>.
+			</para>
+		</step>
+		<!--<step><para>You may be presented with information about terms of the license agreement. After reading and accepting the terms, select the <guilabel>By proceeding</guilabel> check box and click <guibutton>continue</guibutton>.</para></step> -->
+		<step>
+			<para>
+				On the command line, navigate to the location of the downloaded file and enter 
+				<screen>java -jar jbdevstudio-product_universal-6.0.1.<replaceable>build_version</replaceable>.jar</screen> where <replaceable>build_version</replaceable> is substituted to match the name of the downloaded file. 
+				<note>
+					<itemizedlist>
+						<listitem>
+							<para>
+								To start the installer, you may be able to double-click the <filename>.jar</filename> file.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								To force a 32-bit or 64-bit installation of JBoss&nbsp;Developer&nbsp;Studio, append <command>-d32</command> or <command>-d64</command> to the <command>java</command> command, respectively. For example, 
+								<screen>java -jar -d32 jbdevstudio-product_universal-6.0.1.<replaceable>build_version</replaceable>.jar</screen>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</note>
+			</para>
+		</step>
+		<step>
+			<para>
+				When the <guilabel>Installer</guilabel> window opens, click <guibutton>Next</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				After reading and agreeing to the terms of the End User License Agreement, click <guilabel>I accept the terms of this license agreement</guilabel> and click <guibutton>Next</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				In the <guilabel>Select the installation path</guilabel> field, type the location where you want JBoss&nbsp;Developer&nbsp;Studio to be installed or click <guibutton>Browse</guibutton> to navigate to the desired location. When the <guilabel>Select the installation path</guilabel> field shows the correct location, click <guibutton>Next</guibutton>. When you are prompted about the selected location being created or overwritten, check the message and, if satisfied, click <guibutton>OK</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				<guilabel>Default Java VM</guilabel> is automatically selected. Check that the disabled text field contains the path of the JRE in the Java developer kit you want to use. If it does not, click <guilabel>Specific Java JVM</guilabel> and type the path of the JRE in the text field or use the <guibutton>Browse</guibutton> button to select the correct JRE. When the text field shows the correct JRE path, click <guibutton>Next</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				To make use of automatic runtime detection for finding runtime servers, click <guibutton>Add</guibutton> and type the path of a runtime server in the <guilabel>Location</guilabel> field or click <guibutton>Browse</guibutton> to navigate to the runtime server location. If you want this path to be scanned for new runtime servers each time JBoss&nbsp;Developer&nbsp;Studio starts, select the <guilabel>Scan every start</guilabel> check box. Click <guibutton>OK</guibutton> to close the <guilabel>Add Location</guilabel> window and click <guibutton>Next</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				Check the details in the <application>Summary Information</application> window and, if they are correct, click <guibutton>Next</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				Installation commences. When the <guilabel>Pack installation progress</guilabel> bar shows <guilabel>Finished</guilabel>, click <guibutton>Next</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				If you want shortcuts to be created for starting JBoss&nbsp;Developer&nbsp;Studio, select the <guilabel>Create shortcuts in the Start-Menu</guilabel> and <guilabel>Create additional shortcut on the desktop</guilabel> check boxes and click <guibutton>Next</guibutton>.
+			</para>
+		</step>
+		<step>
+			<para>
+				The installation process is now complete. If you want JBoss&nbsp;Developer&nbsp;Studio to automatically start when the <guilabel>Installer</guilabel> window closes, select the <guilabel>Run JBoss&nbsp;Developer&nbsp;Studio after installation</guilabel> check box. Click <guibutton>Done</guibutton> to close the <guilabel>Installer</guilabel> window.
+			</para>
+		</step>
+	</procedure>
+	<important>
+		<para>
+			Linux distributions have a maximum number of files that a process may have open at one time. If this maximum number of files is set too low, JBoss&nbsp;Developer&nbsp;Studio will not start. You must open the <filename>/etc/security/limits.conf</filename> file and check that the <command>soft nofile</command> and <command>hard nofile</command> variables have values of <command>9216</command> at a minimum. If the variables have smaller values, the values must be increased to <command>9216</command>. If the variables are not specified, the following lines must be added to the file: 
+			<screen>* soft nofile 9216
+* hard nofile 9216</screen>
+		</para>
+	</important>
+</section>

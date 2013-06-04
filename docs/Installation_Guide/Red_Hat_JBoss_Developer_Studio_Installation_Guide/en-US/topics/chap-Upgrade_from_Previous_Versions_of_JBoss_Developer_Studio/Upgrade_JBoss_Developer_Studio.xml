@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Red_Hat_JBoss_Developer_Studio_Installation_Guide.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="Upgrade_JBoss_Developer_Studio" remap="TID_13415">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</sectioninfo>
+	<title>Upgrade JBoss Developer Studio</title>
+	<para>
+		It is not possible to upgrade an existing JBoss&nbsp;Developer&nbsp;Studio installation to JBoss&nbsp;Developer&nbsp;Studio 7 because they are based on different versions of Eclipse. For example, JBoss&nbsp;Developer&nbsp;Studio 6 is based on Eclipse Juno (4.2) but JBoss&nbsp;Developer&nbsp;Studio 7 is based on Eclipse Kepler (4.3).
+	</para>
+	<para>
+		To use JBoss&nbsp;Developer&nbsp;Studio 7, you must download and run the universal installer available from the Customer Service Portal at <ulink url="https://access.redhat.com"/>.
+	</para>
+	<note>
+		<para>
+			You can use different versions of JBoss&nbsp;Developer&nbsp;Studio alongside each other by installing them in different directories.
+		</para>
+	</note>
+</section>
