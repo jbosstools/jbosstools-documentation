@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Developer_Studio_Migration_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "Red_Hat_JBoss_Developer_Studio_Migration_Guide.ent">
 %BOOK_ENTITIES;
 ]>
 
@@ -12,14 +12,14 @@
 			</keyword>
 		</keywordset>
 	</sectioninfo>
-	<title>About JBoss Developer Studio</title>
+	<title>About Red Hat JBoss Developer Studio</title>
 	<!-- Info from http://www.jboss.org/developer/features.html -->
 	<para>
-		JBoss&nbsp;Developer&nbsp;Studio is a set of Eclipse-based development tools. It contains plug-ins that integrate with Eclipse to extend the existing functionality of the integrated development environment (IDE). 
+		Red&nbsp;Hat&nbsp;JBoss&nbsp;Developer&nbsp;Studio is a set of Eclipse-based development tools. It contains plug-ins that integrate with Eclipse to extend the existing functionality of the integrated development environment (IDE). 
 		<!--Specifically, the plug-ins provide support for JSF, RichFaces, EJB, JPA and Hibernate, JAX-RS and RESTEasy, CDI, and HML5, in addition to Maven-based build and deployment. -->
 	</para>
 	<para>
-		JBoss&nbsp;Developer&nbsp;Studio is designed to increase your productivity when developing applications. You can focus on building, testing and deploying your applications because JBoss application development tools are integrated in one IDE. Additionally, each of the tools comprising JBoss&nbsp;Developer&nbsp;Studio has great features to assist your application development: 
+		JBoss&nbsp;Developer&nbsp;Studio is designed to increase your productivity when developing applications. You can focus on building, testing and deploying your applications because JBoss application development tools are integrated in one IDE. Additionally, JBoss&nbsp;Developer&nbsp;Studio has great features to assist your application development: 
 		<itemizedlist>
 			<listitem>
 				<para>
