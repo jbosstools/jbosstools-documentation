@@ -15,4 +15,5 @@ The source for this document is located at https://github.com/jbosstools/jbossto
 Build
 -----
 To build the document with Maven, use the following command:
+	> cd Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide 
 	> mvn compile

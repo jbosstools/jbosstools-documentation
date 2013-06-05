@@ -1,12 +1,12 @@
-CHECKSUM=09354d70775a0f3c1230f36133fb918d
-ID = 13890
+CHECKSUM=2f48e23d9aeefec8b504b7d410169255
+ID = 13782
 # Content spec written by
 # Generated on <date>
 
 # Lines that commence with the # symbol are comments
 
 # The fields below are mandatory
-Title = Red Hat JBoss Developer Studio Getting Started Guide
+Title = Getting Started Guide
 Subtitle = Information for first time users
 Abstract = This document details how to install JBoss Developer Studio and guides you through creating an application using some of JBoss Developer Studio's tools.
 Product = Red Hat JBoss Developer Studio
@@ -17,12 +17,12 @@ Copyright Holder = Red Hat, Inc
 
 # The commented fields below are optional
 
-# Brand = JBoss
+Brand = JBoss
 # publican.cfg = [ custom content to append to publican.cfg can be multiline ]
 # pubsnumber =
 # Debug = [0|1|2]
 
-Bug Links = OFF
+# Bug Links = On
 # BZProduct =
 # BZComponent =
 # BZVersion =
@@ -31,6 +31,7 @@ Bug Links = OFF
 # Output Style =
 
 # Indentation is meaningful. Use 2 spaces.
+
 
 [Writer = mmurray]
 Chapter: Introduction to Red Hat JBoss Developer Studio
