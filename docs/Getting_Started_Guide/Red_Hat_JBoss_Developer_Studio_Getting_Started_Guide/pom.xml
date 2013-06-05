@@ -9,15 +9,15 @@
     <groupId>org.jboss.tools</groupId>
 	<artifactId>${docname}-${translation}</artifactId>
 	<packaging>jdocbook</packaging>
-	<version>1.0</version>
+	<version>7.0.0.Beta1-SNAPSHOT</version>
 	
 	<name>${bookname}-(${translation})</name>
 
 
   <properties>
     <translation>en-US</translation>
-    <docname>JBoss_Developer_Studio_Getting_Started_Guide</docname>
-    <bookname>JBoss Developer Studio Getting Started Guide</bookname>
+    <docname>Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide</docname>
+    <bookname>Red Hat JBoss Developer Studio Getting Started Guide</bookname>
   </properties> 
 
 

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "JBDS_Docs_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "Generic_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-<appendix id="appe-Documentation-JBDS_Docs_Guide-Revision_History">
+<appendix id="appe-Revision_History">
 	<title>Revision History</title>
 	<simpara>
 		<revhistory>
@@ -38,7 +38,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOLSDOC-329 and TOOLSDOC-344
+							TOOLSDOC-329: Product name change; TOOLSDOC-344: Maven install information
 						</member>
 					</simplelist>
 				</revdescription>
