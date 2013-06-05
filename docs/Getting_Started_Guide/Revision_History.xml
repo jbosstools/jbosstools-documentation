@@ -8,6 +8,24 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.0.0-5</revnumber><date>Wed Jun 5 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-355: Brand Change
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>7.0.0-4</revnumber><date>Tue Jun 4 2013</date>
 				<author>
 					<firstname>
