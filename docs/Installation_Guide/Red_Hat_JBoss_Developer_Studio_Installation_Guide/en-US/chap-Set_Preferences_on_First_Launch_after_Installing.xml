@@ -6,9 +6,258 @@
 
 <chapter id="chap-Set_Preferences_on_First_Launch_after_Installing">
 	<title>Set Preferences on First Launch after Installing</title>
-	<xi:include href="topics/chap-Set_Preferences_on_First_Launch_after_Installing/Preferences_Options.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/chap-Set_Preferences_on_First_Launch_after_Installing/Select_a_Workspace_Location.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/chap-Set_Preferences_on_First_Launch_after_Installing/Set_Usage_Reporting.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/chap-Set_Preferences_on_First_Launch_after_Installing/Set_the_Perspective_to_JBoss.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/chap-Set_Preferences_on_First_Launch_after_Installing/Set_up_Automatic_Runtime_Detection.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<section id="Preferences_Options" remap="TID_15790">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.0
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Preferences Options</title>
+		<para>
+			The aim of this section is to guide you in setting preferences for the JBoss&nbsp;Developer&nbsp;Studio features encountered on the first IDE start after installing: 
+			<itemizedlist>
+				<listitem>
+					<para>
+						Set up a workspace that will contain your projects
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Choose whether to enable JBoss&nbsp;Developer&nbsp;Studio to collect usage information for compiling product-wide statistics
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Activate the JBoss perspective to provide easy access to common tabs, menus and toolbars for working with JBoss technologies
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Specify the locations where JBoss&nbsp;Developer&nbsp;Studio should automatically search for new runtime servers and so save you from setting up each one individually
+					</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+	</section>
+	<section id="Select_a_Workspace_Location" remap="TID_13347">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.0
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Select a Workspace Location</title>
+		<para>
+			When the IDE starts, you are asked to choose the workspace folder for the session. The workspace is where your projects are stored.
+		</para>
+		<para>
+			To set the workspace location, follow these steps: 
+			<orderedlist>
+				<listitem>
+					<para>
+						In the <guilabel>Workspace</guilabel> field type the full path of the desired location or use <guibutton>Browse</guibutton> to navigate to the desired location.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						If you do not want to be asked to choose a workspace folder each time the development environment starts, select the <guilabel>Use this as the default and do not ask again</guilabel> check box.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Click <guibutton>OK</guibutton>.
+					</para>
+				</listitem>
+			</orderedlist>
+		</para>
+		<para>
+			The workspace location prompting behavior can be altered at any time by clicking <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>General</guilabel>&rarr;<guilabel>Startup and Shutdown</guilabel> and select <guilabel>Workspaces</guilabel>. Select or clear the <guilabel>Prompt for workspace on startup</guilabel> check box to alter the behavior as appropriate.
+		</para>
+	</section>
+	<section id="Set_Usage_Reporting" remap="TID_13335">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.0
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Set Usage Reporting</title>
+		<para>
+			JBoss&nbsp;Developer&nbsp;Studio has usage reporting. At the first start of the development environment after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio. The information collected enables Red Hat to understand how and where JBoss&nbsp;Developer&nbsp;Studio is being used. Specifically, information about operating systems and displays assists to continually improve JBoss&nbsp;Developer&nbsp;Studio.
+		</para>
+		<para>
+			The following information is collected: 
+			<itemizedlist>
+				<listitem>
+					<para>
+						Version of JBoss&nbsp;Developer&nbsp;Studio
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Installed components of JBoss&nbsp;Developer&nbsp;Studio
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						JBoss Central enabled
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Origin of Eclipse product
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Version of Eclipse
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Operating system
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Operating system version
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Linux distribution and version, if appropriate
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Screen colors
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Screen resolution
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Version of Java
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Internet connection type
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Location (continent, country, city) and language
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						User type (new or returning)
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Number of times JBoss&nbsp;Developer&nbsp;Studio has been started
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Date of first usage reported
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Date of last usage reported
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Date of current usage reported
+					</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+		<para>
+			If enabled, the usage reporting plug-in uses Google Analytics to track data as though you visited a page under <ulink url="https://devstudio.jboss.com/usage"/>.
+		</para>
+		<para>
+			To agree to this anonymous information being collected, click <guibutton>Yes</guibutton> when prompted.
+		</para>
+		<para>
+			The usage reporting behavior can be changed at any time by clicking <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>Usage Reporting</guilabel>. Select or clear the <guilabel>Please allow Red Hat Inc. to receive anonymous usage statistics for this JBoss Developer Studio installation</guilabel> check box to alter the behavior as appropriate.
+		</para>
+	</section>
+	<section id="Set_the_Perspective_to_JBoss" remap="TID_13346">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.0
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Set the Perspective to JBoss</title>
+		<para>
+			JBoss&nbsp;Developer&nbsp;Studio has JBoss perspective. This displays tabs, toolbars and menu items most often used by developers using JBoss. These include Project Explorer, Palette, Servers and OpenShift Explorer.
+		</para>
+		<para>
+			If you start JBoss&nbsp;Developer&nbsp;Studio, this perspective is set as the default and it is automatically displayed.
+		</para>
+		<para>
+			If you start Eclipse, this perspective is not automatically displayed. To show the JBoss perspective, click the <guibutton>JBoss</guibutton> icon. Alternatively, click <guimenu>Window</guimenu>&rarr;<guimenu>Open Perspective</guimenu>&rarr;<guimenu>Other</guimenu> and select <application>JBoss</application>.
+		</para>
+		<para>
+			To set JBoss perspective as the default perspective, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>General</guilabel> and select <guilabel>Perspectives</guilabel>. Select <application>JBoss</application> from the list of available perspectives and click <guibutton>Make Default</guibutton>. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.
+		</para>
+	</section>
+	<section id="Set_up_Automatic_Runtime_Detection" remap="TID_13345">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.0
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Set up Automatic Runtime Detection</title>
+		<para>
+			JBoss&nbsp;Developer&nbsp;Studio has automatic runtime detection for finding runtime servers. This can be set up to scan locations for runtime servers when a new workspace is created or the IDE starts.
+		</para>
+		<para>
+			You may have already set this up during the installation process with the JBoss&nbsp;Developer&nbsp;Studio installer. If you have not set this up or you installed JBoss&nbsp;Developer&nbsp;Studio though Eclipse Marketplace, follow the procedure below to set up automatic runtime detection.
+		</para>
+		<procedure>
+			<title>Set up Automatic Runtime Detection</title>
+			<step>
+				<para>
+					Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Tools Runtime Detection</guilabel>.
+				</para>
+			</step>
+			<step>
+				<para>
+					To add a path for scanning, click <guibutton>Add</guibutton> and select a folder from which recursive scanning should commence. JBoss&nbsp;Developer&nbsp;Studio scans this folder and any subfolders to check for new runtime servers.
+				</para>
+			</step>
+			<step>
+				<para>
+					If new runtime servers are found, you can create instances of them. Select the check boxes of the runtime servers you want to create and click <guibutton>OK</guibutton>. If no runtime servers were found or you do not wish to create any instances click <guibutton>Cancel</guibutton>. In all cases, the path is added to the list of paths for scanning.
+				</para>
+			</step>
+			<step>
+				<para>
+					If you want this path to be scanned for runtime servers each time the IDE starts, select the <guilabel>Every start</guilabel> check box for the new path.
+				</para>
+			</step>
+			<step>
+				<para>
+					Click <guibutton>Apply</guibutton> to save any new paths and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.
+				</para>
+			</step>
+		</procedure>
+	</section>
 </chapter>

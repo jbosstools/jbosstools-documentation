@@ -6,6 +6,90 @@
 
 <chapter id="chap-Resolving_Problems_following_Third_Party_Product_Upgrades">
 	<title>Resolving Problems following Third Party Product Upgrades</title>
-	<xi:include href="topics/chap-Resolving_Problems_following_Third_Party_Product_Upgrades/Upgrade_Eclipse.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="topics/chap-Resolving_Problems_following_Third_Party_Product_Upgrades/Upgrade_or_Migrate_Java_Developer_Kit.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<section id="Upgrade_Eclipse" remap="TID_13416">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.0
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Change the Version of Eclipse Being Used with JBoss Developer Studio BYOE</title>
+		<para>
+			JBoss&nbsp;Developer&nbsp;Studio 7 BYOE supports Eclipse Kepler only. If you upgrade the version of Eclipse you are using, you will not be able to use JBoss&nbsp;Developer&nbsp;Studio 7 BYOE.
+		</para>
+		<para>
+			Information about the supported versions of Eclipse for each JBoss&nbsp;Developer&nbsp;Studio BYOE release is provided in the table below. 
+			<!-- Info from https://community.jboss.org/wiki/MatrixOfSupportedPlatformsRuntimesAndTechnologiesInJBossToolsJBDS -->
+		</para>
+		<table>
+			<title>JBoss&nbsp;Developer&nbsp;Studio BYOE Releases and Supported Eclipse Versions</title>
+			<tgroup align="left" cols="2" colsep="1" rowsep="1">
+				<colspec colwidth="2*"/>
+				<colspec colwidth="1*"/>
+				<thead>
+					<row>
+						<entry>
+							JBoss&nbsp;Developer&nbsp;Studio BYOE Release
+						</entry>
+						<entry>
+							Supported Eclipse Version
+						</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>
+							JBoss&nbsp;Developer&nbsp;Studio 7
+						</entry>
+						<entry>
+							Eclipse Kepler (4.3)
+						</entry>
+					</row>
+					<row>
+						<entry>
+							JBoss&nbsp;Developer&nbsp;Studio 6
+						</entry>
+						<entry>
+							Eclipse Juno (4.2)
+						</entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+	</section>
+	<section id="Upgrade_or_Migrate_Java_Developer_Kit" remap="TID_13420">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.0
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Change the Path of the JRE used to Run JBoss Developer Studio</title>
+		<para>
+			JBoss&nbsp;Developer&nbsp;Studio stores the Java runtime environment (JRE) path selected during the installation process. Each subsequent time JBoss&nbsp;Developer&nbsp;Studio starts it uses the same JRE path to run.
+		</para>
+		<para>
+			You might need to change the JRE path because you move the JRE or because you want to use a new JRE. If you change the JRE path, JBoss&nbsp;Developer&nbsp;Studio will fail to start. To ensure JBoss&nbsp;Developer&nbsp;Studio starts after changing the JRE path, use the procedure below.
+		</para>
+		<procedure>
+			<title>Change the Path of the JRE used to Run JBoss&nbsp;Developer&nbsp;Studio</title>
+			<step>
+				<para>
+					Open the <filename>JBDS_installation_directory/studio/jbdevstudio.ini</filename> file with a text editor.
+				</para>
+			</step>
+			<step>
+				<para>
+					The line after <command>-vm</command> provides the path to the Java virtual machine (JVM) of the JRE. Change the section of the path that provides the JRE location to the new path of the JRE.
+				</para>
+			</step>
+			<step>
+				<para>
+					Save the changes and close the <filename>jbdevstudio.ini</filename> file.
+				</para>
+			</step>
+		</procedure>
+	</section>
 </chapter>
