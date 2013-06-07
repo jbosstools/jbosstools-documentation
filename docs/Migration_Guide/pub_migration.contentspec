@@ -1,4 +1,4 @@
-CHECKSUM=0cf4b8ad374a2b441788125f5dcc63f6
+CHECKSUM=5ac83146c60dfb63b48fa8c90a7b4e32
 ID = 13414
 # Content spec written by
 # Generated on <date>
@@ -18,7 +18,7 @@ Copyright Holder = Red Hat, Inc
 # The commented fields below are optional
 
 Brand = JBoss
-# publican.cfg = [ custom content to append to publican.cfg can be multiline ]
+publican.cfg = [show_remarks: 1]
 # pubsnumber =
 # Debug = [0|1|2]
 

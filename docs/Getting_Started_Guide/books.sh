@@ -29,13 +29,12 @@ function make {
 	cp Revision_History.xml Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide/en-US/.
 	cp -r Common_Content Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide/en-US/.
 	rm Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide/publican.cfg
-	#echo 'Now edit Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide/en-US/Book_Info.xml by hand'
+	sed -i '/<corpauthor>/,/<\/corpauthor>/{s/<corpauthor>//p;d}' Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide/en-US/Book_Info.xml
 
 	#give feeback
 	echo '[INFO] ------------------------------------------------------------------------'
 	echo '[INFO] Making books has FINISHED'
 	echo '[INFO] Now edit Getting_Started_Guide/en-US/Author_Group.xml by hand'
-	echo '[INFO] Now edit Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide/en-US/Book_Info.xml by hand'	
 	echo '[INFO] ------------------------------------------------------------------------'	
 
 }

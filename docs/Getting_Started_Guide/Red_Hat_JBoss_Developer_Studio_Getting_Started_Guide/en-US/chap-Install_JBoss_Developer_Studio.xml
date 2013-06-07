@@ -50,16 +50,21 @@
 			</keywordset>
 		</sectioninfo>
 		<title>Install JBoss Developer Studio</title>
+		<para>
+			<remark>
+				[QE]A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Customer Service Portal. <phrase>The procedure below guides you though obtaining the universal installer and the installion process.</phrase>
+			</remark>
+		</para>
 		<procedure>
-			<title>Install with the Installer</title>
+			<title>Install with the Universal Installer</title>
 			<step>
 				<para>
-					Log into the Customer Service Portal at <ulink url="https://access.redhat.com">https://access.redhat.com</ulink>.
+					Log in to the Customer Service Portal at <ulink url="https://access.redhat.com">https://access.redhat.com</ulink>.
 				</para>
 			</step>
 			<step>
 				<para>
-					From the menu bar click <guimenu>Downloads</guimenu> then, under <guimenu>JBOSS ENTEPRISE MIDDLEWARE</guimenu>, click <guimenu>Downloads</guimenu>.
+					From the menu bar click <guimenu>Downloads</guimenu> then, under <guimenu>JBOSS ENTERPRISE MIDDLEWARE</guimenu>, click <guimenu>Downloads</guimenu>.
 				</para>
 			</step>
 			<step>
@@ -69,14 +74,13 @@
 			</step>
 			<step>
 				<para>
-					For the <filename>JBoss Developer Studio 6.0.1 Stand Alone Universal Binary</filename> file, click <guibutton>Download</guibutton>.
+					From the <guilabel>JBoss Developer Studio 7</guilabel> table, click <guibutton>Download</guibutton> for the <filename>JBoss Developer Studio 7.0.0 Stand Alone Universal Binary</filename> download file.
 				</para>
 			</step>
-			<!--<step><para>You may be presented with information about terms of the license agreement. After reading and accepting the terms, select the <guilabel>By proceeding</guilabel> check box and click <guibutton>continue</guibutton>.</para></step> -->
 			<step>
 				<para>
-					On the command line, navigate to the location of the downloaded file and enter 
-					<screen>java -jar jbdevstudio-product_universal-6.0.1.<replaceable>build_version</replaceable>.jar</screen> where <replaceable>build_version</replaceable> is substituted to match the name of the downloaded file. 
+					On the command line, navigate to the location of the universal installer <filename>.jar</filename> file and enter 
+					<screen>java -jar jbdevstudio-product_universal-7.0.0.<replaceable>build_version</replaceable>.jar</screen> where <replaceable>build_version</replaceable> is substituted to match the name of the <filename>.jar</filename> file. 
 					<note>
 						<itemizedlist>
 							<listitem>
@@ -87,7 +91,7 @@
 							<listitem>
 								<para>
 									To force a 32-bit or 64-bit installation of JBoss&nbsp;Developer&nbsp;Studio, append <command>-d32</command> or <command>-d64</command> to the <command>java</command> command, respectively. For example, 
-									<screen>java -jar -d32 jbdevstudio-product_universal-6.0.1.<replaceable>build_version</replaceable>.jar</screen>
+									<screen>java -jar -d32 jbdevstudio-product_universal-7.0.0.<replaceable>build_version</replaceable>.jar</screen>
 								</para>
 							</listitem>
 						</itemizedlist>

@@ -1,4 +1,4 @@
-CHECKSUM=14e812109f3135d21d6e33ab62b9d635
+CHECKSUM=74037d36e9ac622e6f314593a5c8ffc7
 ID = 13882
 # Content spec written by
 # Generated on <date>
@@ -33,7 +33,7 @@ Bug Links = OFF
 # Indentation is meaningful. Use 2 spaces.
 
 
-[Writer = mmurray]
+[Writer = mmurray, condition = install]
 Chapter: Introduction to Red Hat JBoss Developer Studio
   About Red Hat JBoss Developer Studio [13337]
   Use Cases of JBoss Developer Studio [13338]

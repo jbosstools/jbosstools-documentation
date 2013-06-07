@@ -1,4 +1,4 @@
-CHECKSUM=cdf41782ecbc9f7797ae9a08aa5a4d53
+CHECKSUM=16f6f8784fef6cd91532961cdbbd8275
 ID = 13332
 # Content spec written by
 # Generated on <date>
@@ -18,7 +18,7 @@ Copyright Holder = Red Hat, Inc
 # The commented fields below are optional
 
 Brand = JBoss
-# publican.cfg = [ custom content to append to publican.cfg can be multiline ]
+publican.cfg = [show_remarks: 1]
 # pubsnumber =
 # Debug = [0|1|2]
 
@@ -33,7 +33,7 @@ Brand = JBoss
 # Indentation is meaningful. Use 2 spaces.
 
 
-[Writer = mmurray]
+[Writer = mmurray, condition = install]
 Chapter: Introduction to Red Hat JBoss Developer Studio
   About Red Hat JBoss Developer Studio [13337]
   Use Cases of JBoss Developer Studio [13338]
