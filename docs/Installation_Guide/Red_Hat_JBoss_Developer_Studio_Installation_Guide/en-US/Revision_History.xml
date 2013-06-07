@@ -8,6 +8,42 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.0.0-5</revnumber><date>Fri Jun 7 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-354: Brand change
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>	
+			<revision>
+				<revnumber>7.0.0-4</revnumber><date>Thur Jun 6 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-352: Add build from source
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>	
+			<revision>
 				<revnumber>7.0.0-3</revnumber><date>Tues Jun 4 2013</date>
 				<author>
 					<firstname>

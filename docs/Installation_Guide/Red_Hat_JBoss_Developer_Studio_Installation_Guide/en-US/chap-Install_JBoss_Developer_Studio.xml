@@ -19,10 +19,10 @@
 			JBoss&nbsp;Developer&nbsp;Studio can be installed in a number of different ways.
 		</para>
 		<para>
-			You can install JBoss&nbsp;Developer&nbsp;Studio, packaged with Eclipse and dependent third party plug-ins, with a universal installer for all operating systems. The installer is provided in a <filename>.jar</filename> file and is available from the Customer Service Portal. The source code is available for inspection as a <filename>.zip</filename> file at the same location.
+			You can install JBoss&nbsp;Developer&nbsp;Studio, packaged with Eclipse and dependent third party plug-ins, with a universal installer for all operating systems.
 		</para>
 		<para>
-			Alternatively, if you already have Eclipse on your system you may prefer to use JBoss&nbsp;Developer&nbsp;Studio BYOE. You install JBoss&nbsp;Developer&nbsp;Studio from Eclipse Marketplace with this option.
+			Alternatively, if you already have Eclipse on your system you may prefer to install JBoss&nbsp;Developer&nbsp;Studio BYOE. This option installs JBoss&nbsp;Developer&nbsp;Studio onto Eclipse.
 		</para>
 	</section>
 	<section id="Install_with_the_JAR_Installer" remap="TID_13342">
@@ -34,16 +34,31 @@
 			</keywordset>
 		</sectioninfo>
 		<title>Install JBoss Developer Studio</title>
+		<para>
+			<remark>
+				[QE]A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Customer Service Portal. 
+			</remark>
+		</para>
+		<para>
+			<remark>
+				[QE]Alternatively, the source code is also available as a <filename>.zip</filename> file at the same location. You can use this source code to build the universal installer yourself and then use that to install JBoss&nbsp;Developer&nbsp;Studio. Maven must be installed to build the universal installer from the source code.
+			</remark>
+		</para>
+		<para>
+			<remark>
+				[QE]Both options are detailed in the procedure below.
+			</remark>
+		</para>
 		<procedure>
-			<title>Install with the Installer</title>
+			<title>Install with the Universal Installer</title>
 			<step>
 				<para>
-					Log into the Customer Service Portal at <ulink url="https://access.redhat.com">https://access.redhat.com</ulink>.
+					Log in to the Customer Service Portal at <ulink url="https://access.redhat.com">https://access.redhat.com</ulink>.
 				</para>
 			</step>
 			<step>
 				<para>
-					From the menu bar click <guimenu>Downloads</guimenu> then, under <guimenu>JBOSS ENTEPRISE MIDDLEWARE</guimenu>, click <guimenu>Downloads</guimenu>.
+					From the menu bar click <guimenu>Downloads</guimenu> then, under <guimenu>JBOSS ENTERPRISE MIDDLEWARE</guimenu>, click <guimenu>Downloads</guimenu>.
 				</para>
 			</step>
 			<step>
@@ -53,14 +68,46 @@
 			</step>
 			<step>
 				<para>
-					For the <filename>JBoss Developer Studio 6.0.1 Stand Alone Universal Binary</filename> file, click <guibutton>Download</guibutton>.
+					<remark>
+						[QE, whole new step]
+					</remark> Complete the appropriate step for your chosen install option:
 				</para>
+				<stepalternatives>
+					<step>
+						<para>
+							For installing from the provided universal installer, from the <guilabel>JBoss Developer Studio 7</guilabel> table click <guibutton>Download</guibutton> for the <filename>JBoss Developer Studio 7.0.0 Stand Alone Universal Binary</filename> download file.
+						</para>
+					</step>
+					<step>
+						<para>
+							For installing from a source-built universal installer, follow these steps:
+						</para>
+						<substeps>
+							<step>
+								<para>
+									From the <guilabel>JBoss Developer Studio 7</guilabel> table, click <guibutton>Download</guibutton> for the <filename>JBoss Developer Studio 7.0.0 Source Code</filename> download file.
+								</para>
+							</step>
+							<step>
+								<para>
+									On the command line, navigate to the location of the <filename>.zip</filename> file and enter 
+									<screen>unzip jbdevstudio-product-sources-7.0.0.<replaceable>build_version</replaceable>.zip</screen> where <replaceable>build_version</replaceable> is substituted to match the name of the downloaded file.
+								</para>
+							</step>
+							<step>
+								<para>
+									To build the universal installer, on the command line navigate to <filename>devstudio/product</filename> and enter 
+									<screen>mvn clean install</screen> Building takes some time to complete, after which the universal installer <filename>.jar</filename> file is located in <filename>installer/target/</filename>.
+								</para>
+							</step>
+						</substeps>
+					</step>
+				</stepalternatives>
 			</step>
-			<!--<step><para>You may be presented with information about terms of the license agreement. After reading and accepting the terms, select the <guilabel>By proceeding</guilabel> check box and click <guibutton>continue</guibutton>.</para></step> -->
 			<step>
 				<para>
-					On the command line, navigate to the location of the downloaded file and enter 
-					<screen>java -jar jbdevstudio-product_universal-6.0.1.<replaceable>build_version</replaceable>.jar</screen> where <replaceable>build_version</replaceable> is substituted to match the name of the downloaded file. 
+					On the command line, navigate to the location of the universal installer <filename>.jar</filename> file and enter 
+					<screen>java -jar jbdevstudio-product_universal-7.0.0.<replaceable>build_version</replaceable>.jar</screen> where <replaceable>build_version</replaceable> is substituted to match the name of the <filename>.jar</filename> file. 
 					<note>
 						<itemizedlist>
 							<listitem>
@@ -71,7 +118,7 @@
 							<listitem>
 								<para>
 									To force a 32-bit or 64-bit installation of JBoss&nbsp;Developer&nbsp;Studio, append <command>-d32</command> or <command>-d64</command> to the <command>java</command> command, respectively. For example, 
-									<screen>java -jar -d32 jbdevstudio-product_universal-6.0.1.<replaceable>build_version</replaceable>.jar</screen>
+									<screen>java -jar -d32 jbdevstudio-product_universal-7.0.0.<replaceable>build_version</replaceable>.jar</screen>
 								</para>
 							</listitem>
 						</itemizedlist>
@@ -141,6 +188,28 @@
 			</keywordset>
 		</sectioninfo>
 		<title>Install JBoss Developer Studio BYOE</title>
+		<para>
+			<remark>
+				[QE]You can obtain JBoss&nbsp;Developer&nbsp;Studio BYOE from Eclipse Marketplace or use the universal installer <filename>.jar</filename> file available from the Customer Service Portal.
+			</remark>
+		</para>
+		<para>
+			<remark>
+				[QE]You can also use the source code <filename>.zip</filename> file available from the Customer Service Portal to build the universal installer yourself and then proceed with installing JBoss&nbsp;Developer&nbsp;Studio BYOE. Maven must be installed to build the universal installer from the source code.
+			</remark>
+		</para>
+		<para>
+			<remark>
+				[QE] The procedures below guide you through all of these methods.
+			</remark>
+		</para>
+		<note>
+			<para>
+				<remark>
+					[QE]When using the universal installer, you can conduct the installation process offline once the installer or source code has been downloaded. But, when installing JBoss&nbsp;Developer&nbsp;Studio BYOE from Eclipse Marketplace you must remain connected to the internet for the duration of the installation process.
+				</remark>
+			</para>
+		</note>
 		<procedure>
 			<title>Install from Eclipse Marketplace</title>
 			<step>
@@ -166,6 +235,100 @@
 			<step>
 				<para>
 					Ensure the <guilabel>JBoss Developer Studio (Kepler)</guilabel> check box is selected and click <guibutton>Next</guibutton>.
+				</para>
+			</step>
+			<step>
+				<para>
+					After reading and agreeing to the licenses, click <guilabel>I accept the terms of the license agreements</guilabel> and click <guibutton>Finish</guibutton>.
+				</para>
+			</step>
+			<step>
+				<para>
+					During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.
+				</para>
+			</step>
+			<step>
+				<para>
+					Once installing is complete, you are prompted to restart Eclipse. Click <guibutton>Yes</guibutton> to restart now and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that changes do not take effect until Eclipse is restarted.
+				</para>
+			</step>
+		</procedure>
+		<procedure>
+			<title><remark>[QE], whole procedure</remark>Install with the Universal Installer</title>
+			<step>
+				<para>
+					Log in to the Customer Service Portal at <ulink url="https://access.redhat.com">https://access.redhat.com</ulink>.
+				</para>
+			</step>
+			<step>
+				<para>
+					From the menu bar click <guimenu>Downloads</guimenu> then, under <guimenu>JBOSS ENTERPRISE MIDDLEWARE</guimenu>, click <guimenu>Downloads</guimenu>.
+				</para>
+			</step>
+			<step>
+				<para>
+					From the <guilabel>Product</guilabel> list, select <guilabel>JBoss Developer Studio</guilabel>.
+				</para>
+			</step>
+			<step>
+				<para>
+					Complete the appropriate step for your chosen install option:
+				</para>
+				<stepalternatives>
+					<step>
+						<para>
+							For installing from the provided universal installer, from the <guilabel>JBoss Developer Studio 7</guilabel> table click <guibutton>Download</guibutton> for the <filename>JBoss Developer Studio 7.0.0 Stand Alone Universal Binary</filename> download file.
+						</para>
+					</step>
+					<step>
+						<para>
+							For installing from a source-built universal installer, follow these steps:
+						</para>
+						<substeps>
+							<step>
+								<para>
+									From the <guilabel>JBoss Developer Studio 7</guilabel> table, click <guibutton>Download</guibutton> for the <filename>JBoss Developer Studio 7.0.0 Source Code</filename> download file.
+								</para>
+							</step>
+							<step>
+								<para>
+									On the command line, navigate to the location of the <filename>.zip</filename> file and enter 
+									<screen>unzip jbdevstudio-product-sources-7.0.0.<replaceable>build_version</replaceable>.zip</screen> where <replaceable>build_version</replaceable> is substituted to match the name of the downloaded file.
+								</para>
+							</step>
+							<step>
+								<para>
+									To build the universal installer, on the command line navigate to <filename>devstudio/product</filename> and enter 
+									<screen>mvn clean install</screen> Building takes some time to complete, after which the universal installer <filename>.jar</filename> file is located in <filename>installer/target/</filename>.
+								</para>
+							</step>
+						</substeps>
+					</step>
+				</stepalternatives>
+			</step>
+			<step>
+				<para>
+					Start Eclipse Kepler.
+				</para>
+			</step>
+			<step>
+				<para>
+					Click <guimenu>Help</guimenu>&rarr;<guimenu>Install New Software</guimenu>.
+				</para>
+			</step>
+			<step>
+				<para>
+					In the <guilabel>Work with</guilabel> field, enter the absolute file path of the universal installer <filename>.jar</filename> file. Alternatively, click <guibutton>Add</guibutton> and click <guibutton>Archive</guibutton> to locate the file.
+				</para>
+			</step>
+			<step>
+				<para>
+					From the table of components comprising the universal installer, select the <guilabel>JBoss Developer Studio 7.0 - Bring Your Own Eclipse</guilabel> and click <guibutton>Next</guibutton>.
+				</para>
+			</step>
+			<step>
+				<para>
+					Verify the details of the component to be installed and click <guibutton>Next</guibutton>.
 				</para>
 			</step>
 			<step>
