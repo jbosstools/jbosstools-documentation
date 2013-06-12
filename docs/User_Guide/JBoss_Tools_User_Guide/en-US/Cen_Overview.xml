@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "User_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<section>
+	<title>Overview of JBoss Central and the JBoss Perspective</title>
+	
+	<section>
+		<title>About JBoss Central</title>
+		
+		<para>JBoss Central is a core IDE tab, providing access to JBoss information and assistance in one centralized location.</para>
+		
+		<para>The JBoss Central tab comprises resources and actions for getting started and installing software updates:
+			<itemizedlist>
+				<listitem><para>Project wizards create new projects based on sample applications and different technologies.</para></listitem>
+				<listitem><para>The TicketMonster tutorial, part of JBoss Java Developer Framework, demonstrates how to use the IDE to best advantage in developing a complex web application that utilizes JBoss technologies.</para></listitem>
+				<listitem><para>Links to JBoss blog posts give timely insight into JBoss developments and the links to JBoss resources, such as documentation and forums, provide easy access to key information sources.</para></listitem>
+				<listitem><para>Software installation and update information assist in the easy management of IDE plug-ins.</para></listitem>
+			</itemizedlist>
+		</para>
+		
+	</section>
+	
+	<section>
+		<title>About the JBoss Perspective</title>
+		
+		<para>JBoss is a key IDE perspective, giving easy access to useful tabs and actions when developing applications with JBoss technologies. The perspective consists of a default set of tabs, menus and toolbars.</para> 
+		<variablelist>
+			<title></title>
+			<varlistentry>
+				<term>Tabs</term>
+				<listitem><para>The default tabs of the JBoss perspective are OpenShift Explorer, Outline, Package Explorer, Palette, Problems, Project Explorer, Properties, and Servers. These tabs are vital when developing with JBoss technologies.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Menus</term>
+				<listitem><para>The default menus of the JBoss perspective are File, Edit, Navigate, Search, Project, Run, Window, Help. These are shared with other perspectives but contain unique menu items for actions such as starting project wizards, converting line delimiters, showing items in JBoss perspective tabs, generating Javadoc, building packages, accessing JBoss Central and cheat sheets, and reporting problems with tools.</para></listitem>
+			</varlistentry>									
+			<varlistentry>
+				<term>Toolbars</term>
+				<listitem><para>The default toolbars that compose the global toolbar of the JBoss perspective are BrowserSim, Debug, File, Help, Java EE, Java Element Creation, JBoss Tools WTP Server Actions, JPA Element Creation, Launch, Navigate, Search, Select Maven Profiles, and Web Browser. The global toolbar provides access to frequently used actions.</para></listitem>
+			</varlistentry>	
+		</variablelist>
+	
+	</section>
+
+</section>
+

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "User_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<section>
+	<title>Overview of Forge Tools</title>
+	
+	<section>
+		<title>About Forge</title>
+		
+		<para>Forge is an application for developing Java EE applications, promoting ease in getting started, working efficiently, and integrating technologies. It simplifies development workflow by providing automation at a command line level. Such automation is useful if you are working with new or complex technology or completing repetitive tasks.</para>
+		
+		<para>Forge consists of a command line interface and sets of commands provided through plug-ins. The Forge command line accepts standard Unix commands such as <command>cd</command> for change directory, <command>mkdir</command> to create a new directory and <command>touch</command> to create a new file. But Forge's real power lies in its unique command set, which is extendable through plugins. For example, the <command>scaffold</command> command generates a user interface for an application and the <command>persistence</command> command adds persistence to a project. Furthermore, Forge comprehends a range of file types, with actions for working with their contents.</para>
+
+	</section>
+	
+	<section>
+		<title>About Forge Tools</title>
+
+		<para>Forge Tools is tooling that integrates Forge into the IDE. It enhances your workflow by providing and integrating Forge functionality within the IDE.</para>
+		
+		<para>Forge Tools consists of the Forge Console and background actions. The Forge Console provides a Forge command line on which to execute all of the Forge commands. The background actions result in the outcome of the Forge commands being immediately reflected in the IDE. For example, files are opened in editors and projects and directories expanded in explorer tabs as actions creating and modifying them are executed on the Forge command line.</para>
+		
+	</section>
+
+</section>
+

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "User_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<section>
+	<title>Customizing OpenShift Tools</title>
+
+	<section>
+		<title>Customizing Overview</title>
+	
+		<para>The aim of this section is to guide you in customizing OpenShift Tools:</para>
+		<!-- <itemizedlist>
+			<listitem><para>Make BrowserSim more prominent to use by making it the default browser, by adding its icon to the global toolbar and creating a shortcut key for launching it.</para></listitem>
+			<listitem><para>Extend the functionality of BrowserSim by adding or modify the simulated devices it provides.</para></listitem>
+			<listitem><para>Customize the default settings of BrowserSim for large simulated devices, for screen captures and for Weinre.</para></listitem>
+		</itemizedlist> -->
+
+	</section>
+
+
+</section>
+

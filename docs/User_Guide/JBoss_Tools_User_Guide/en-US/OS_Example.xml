@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "User_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<section>
+	<title>Example</title>
+	<para><remark>Still need to do this section</remark></para>
+	
+	<!--<para>Could do something like:
+		<orderedlist>
+			<listitem><para>create dynamic web project</para></listitem>
+			<listitem><para>add simple index.html page</para></listitem>
+			<listitem><para>deploy to EAP server</para></listitem>			
+			<listitem><para>run browsersim</para></listitem>
+			<listitem><para>rotate device</para></listitem>	
+			<listitem><para>change skin</para></listitem>
+			<listitem><para>generate screen capture</para></listitem>			
+			<listitem><para>view with weinre</para></listitem>			
+			<listitem><para>close browsersim</para></listitem>					
+		</orderedlist>
+	</para> -->
+
+</section>
+
