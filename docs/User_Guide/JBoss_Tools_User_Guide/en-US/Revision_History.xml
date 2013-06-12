@@ -8,7 +8,25 @@
 	<simpara>
 		<revhistory>
 			<revision>
-				<revnumber>7.0.0-3</revnumber><date>Wed May 22 2013</date>
+				<revnumber>7.0.0-7</revnumber><date>Wed Jun 12 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-336: Cheat sheets info added
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>	
+			<revision>
+				<revnumber>7.0.0-6</revnumber><date>Wed May 22 2013</date>
 				<author>
 					<firstname>
 						Michelle
@@ -25,6 +43,60 @@
 					</simplelist>
 				</revdescription>
 			</revision>				
+			<revision>
+				<revnumber>7.0.0-5</revnumber><date>Wed May 15 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLDSDOC-323, 324
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>					
+			<revision>
+				<revnumber>7.0.0-4</revnumber><date>Tue Apr 30 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							Documentation of JBoss Central and JBoss Perspective
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>7.0.0-3</revnumber><date>Tue Apr 23 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							Documentation of Forge Tools
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
 			<revision>
 				<revnumber>7.0.0-2</revnumber><date>Tue Apr 16 2013</date>
 				<author>

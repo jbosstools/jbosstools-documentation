@@ -7,7 +7,7 @@
 	<title>User Guide</title>
 	<subtitle>Information about using the plug-ins comprising JBoss Developer Studio</subtitle>
 	<productname>Red Hat JBoss Developer Studio</productname>
-	<productnumber>7.0.0</productnumber>
+	<productnumber>7.0</productnumber>
 	<abstract>
 		<para>
 			This document details how to use and customize the individual plug-ins comprising JBoss Developer Studio.
