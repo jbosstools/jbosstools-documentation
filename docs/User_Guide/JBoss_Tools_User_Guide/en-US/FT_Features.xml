@@ -15,9 +15,10 @@
 			<listitem><para>Start and stop the Forge runtime server in order to access the command line</para></listitem>
 			<listitem><para>Navigate to project resources in the Forge command line</para></listitem>
 			<listitem><para>Understand how Forge commands affect the IDE through background actions, such as expanding directories in explorer tabs and opening files in editors</para></listitem>
+			<listitem><para>Use wizards for accomplishing common Forge commands as an alternative to the Forge command line</para></listitem>
 		</itemizedlist>
 
-		<para><remark>[DOCS] Watching JBIDE-13486: open a cheat sheet after starting Forge; JBIDE-13573: add debug/run button or preferences action in console; JBIDE-13192: pick-up automatically executed after new-project command; JBIDE-13194: ask user to restart forge after changing VM arguments or changing debug mode; JBDS-2532: forge wizards for top use cases; JBIDE-14123: file selected in Project Explorer tab after entity and field commands; JBIDE-13978: add forge 1 wizards to JBT</remark></para>
+		<para><remark>[DOCS] Watching JBIDE-13486: open a cheat sheet after starting Forge; JBIDE-13573: add debug/run button or preferences action in console; JBIDE-13192: pick-up automatically executed after new-project command; JBIDE-13194: ask user to restart forge after changing VM arguments or changing debug mode; JBDS-2532: forge wizards for top use cases; JBIDE-14123: file selected in Project Explorer tab after entity and field commands; JBIDE-14686: new field created with Forge wizard should be outlined in editor; JBIDE-13978: add forge 1 wizards to JBT; JBIDE-14615: set VERBOSE command opens Error Log tab; JBIDE-14607: forge wizards more visible; JBIDE-14683: setup persistence wizard issue; JBIDE-12443: Add forge tab to JBoss perspective</remark></para>
 
 	</section>
 
@@ -43,10 +44,6 @@
 				<term>Start Forge</term>
 				<listitem><para>In the <guilabel>Forge Console</guilabel> tab, click the <guibutton>Start the default Forge runtime</guibutton> icon. Alternatively, press <keycap>Ctrl+4</keycap> and at the prompt asking if you want to start Forge, click <guibutton>Yes</guibutton>. A progress bar in the IDE window and text in the <guilabel>Forge Console</guilabel> tab indicate the starting status of the Forge runtime server.</para></listitem>
 			</varlistentry>
-			<!-- Own section <varlistentry>
-				<term>View a list of Forge commands</term>
-				<listitem><para>With a running instance of Forge, press <keycap>Crtl+4</keycap>. To insert one of the commands on the Forge command line, in the pop-up window expand the command groups and double-click a command.</para></listitem>
-			</varlistentry> -->
 			<varlistentry>
 				<term>Run Forge in the background</term>
 				<listitem><para>With a running instance of Forge, in the <guilabel>Forge Console</guilabel> tab click the <guibutton>Close tab</guibutton> icon. Despite the <guilabel>Forge Console</guilabel> tab not being open, Forge will continue to run in the background. Reopen the <guilabel>Forge Console</guilabel> tab to access the same Forge command line, identifiable by the existing command line output.</para></listitem>
@@ -81,10 +78,10 @@
 	
 		<variablelist>
 			<title></title>
-			<varlistentry>
+			<!--JBIDE-14615: RFE<varlistentry>
 				<term><command>set VERBOSE true</command></term>
 				<listitem><para>The command results in exceptions being recorded in the IDE error log. To open the <guilabel>Error Log</guilabel> tab, click <guimenu>Window</guimenu>&rarr;<guilabel>Show View</guilabel>&rarr;<guimenu>Other</guimenu> and expand <guilabel>General</guilabel>. Click <guilabel>Error Log</guilabel> and click <guibutton>OK</guibutton>.</para></listitem>
-			</varlistentry>
+			</varlistentry> -->
 			<varlistentry>
 				<term><command>cd</command></term>
 				<listitem><para>The command navigates to the project directory and selects it in the <guilabel>Project Explorer</guilabel> and <guilabel>Package Explorer</guilabel> tabs.</para></listitem>
@@ -126,6 +123,30 @@
 		
 		<para>To view the list of Forge commands, with a running instance of Forge, press <keycap>Ctrl+4</keycap>. To insert one of the commands in to the Forge command line, in the pop-up window expand the command groups and double-click a command.</para>
 		
+	</section>
+	
+	
+	<section>
+		<title>Use Forge Wizards</title>
+
+		<para><remark>[DOCS] Still to do</remark></para>
+
+		<!--<para>You may prefer to work with wizards rather than the command line. Forge Tools provides wizards for some of the most used Forge commands, in addition to supporting command line functionality. As detailed below, wizards are currently available for generating and scaffolding entities.</para>
+		
+		<para>To open a Forge Tools wizard, click <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu>&rarr;<guimenu>Other</guimenu> and expand <guilabel>JBoss Tools</guilabel>. Select one of the wizards listed here and click <guibutton>Next</guibutton>. If Forge is not started, it will be automatically.</para>
+		
+		<variablelist>
+			<title></title>
+			<varlistentry>
+				<term>Generate entities</term>
+				<listitem><para>This wizard generates entities from an existing database. Click <guibutton>Finish</guibutton>.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Scaffold entities</term>
+				<listitem><para>This wizard generates the necessary scaffolding for you to use JPA entities in your JSF project. It creates Facelets pages and Java backing beans. Click <guibutton>Finish</guibutton>.</para></listitem>
+			</varlistentry>			
+		</variablelist>	-->
+					
 	</section>
 	
 </section>

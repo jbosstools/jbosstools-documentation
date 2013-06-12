@@ -17,6 +17,8 @@
 			<listitem><para>Access cheat sheets that assist in project development</para></listitem>
 		</itemizedlist>
 
+		<para><remark>[DOCS] Watching JBDE-2557: cheat sheets for archetypes; JBID-14741: Show In > Cheat Sheets at project level; Also cheat sheets missing for quickstarts; JBIDE-14804: uninstall from central</remark></para>
+
 	</section>
 
 	
@@ -87,7 +89,7 @@
 	<section>
 		<title>Work offline with JBoss Central</title>
 		
-		<para><remark>still to do</remark></para>
+		<para><remark>[DOCS] Still to do</remark></para>
 		
 		<!--<para><remark>JBDS-2556/2552/2543: offline usage of JBoss central, examples/archetypes/;</remark></para> -->
 		
@@ -163,22 +165,19 @@
 	<section>
 		<title>View Cheat Sheets</title>
 
-		<para><remark>still to do</remark></para>
+		<para>Typically, cheat sheets contain detailed information about projects, with step by step guidance and explanations for how to create and deploy applications. JBoss Central and the JBoss perspective provide actions to make the cheat sheets that accompany projects easier to access and view<!--, including the cheat sheets that accompany the <guilabel>Start from scratch</guilabel> and <guilabel>Start from a sample</guilabel> projects available in JBoss Central. -->.</para>
 
-		<!--<para><remark>Eclipse have cheat sheets - don't appear to be any </remark></para>
+		<!-- JBDS-2557: cheat sheets on archetypes and quickstarts -->
+		<!-- <para>When you create a new project with an accompanying cheat sheet, the <guilabel>Cheat Sheets</guilabel> tab automatically opens and displays the cheat sheet.</para> -->
 
-		<para>The JBoss perspective provides cheat sheets for a variety of applications. Each cheat sheet takes you through creating an application, with step by step guidance and explanations.</para>
+		<para>A cheat sheet contained in a project is automatically opened in the <guilabel>Cheat Sheets</guilabel> tab when the project is imported into the workspace with <guimenu>File</guimenu>&rarr;<guimenu>Import</guimenu>.</para>
+
+		<para>To open a cheat sheet manually, in the <guilabel>Project Explorer</guilabel> tab right-click on a cheat sheet file and click <guimenu>Show In</guimenu>&rarr;<guimenu>Cheat Sheets</guimenu>. Alternatively, click <guimenu>Help</guimenu>&rarr;<guimenu>Cheat Sheets</guimenu>, click <guilabel>Select a cheat sheet from a file</guilabel> and type the location of the file in the field or click <guibutton>Browse</guibutton> to navigate to the file. Click <guibutton>OK</guibutton> to close the window. The cheat sheet opens in the <guilabel>Cheat Sheets</guilabel> tab.</para>
 		
-		<para>To view a cheat sheet, click <guimenu>Help</guimenu>&rarr;<guimenu>Cheat Sheets</guimenu>. You may choose to select a cheet sheet from the list, a file or url:
-			<itemizedlist>
-				<listitem><para>For one of the listed cheat sheets, click <guilabel>Select a cheat sheet from the list</guilabel>, expand the categories and select the name of a cheat sheet. Short descriptions of selected cheat sheets are displayed below the list of cheat sheets.</para></listitem>
-				<listitem><para>For one from a file, click <guilabel>Select a cheat sheet from a file</guilabel> and type the location of the file in the field or click <guibutton>Browse</guibutton> to navigate to the file.</para></listitem>
-				<listitem><para>For one from a URL, click <guilabel>Enter the URL of a cheat sheet</guilabel> and type the address in the field.</para></listitem>
-			</itemizedlist>
-		Click <guibutton>OK</guibutton> to close the window. The cheat sheet opens in a new <guilabel>Cheat Sheets</guilabel> tab.	
-		</para> -->
+		<note><para>If the cheat sheet file name begins with <filename>.</filename>, it may not be automatically visable in the <guilabel>Project Explorer</guilabel> tab. To change the viewing preferences of the <guilabel>Project Explorer</guilabel> tab, click the <guibutton>View Menu</guibutton> icon and click <guimenu>Customize View</guimenu>. In the <guilabel>Filters</guilabel> tab, clear the <guilabel>.* resources</guilabel> check box and click <guibutton>OK</guibutton>.</para></note>
 		
-		<!--<para><remark>JBDS-2557: cheat sheets on archetypes; JBDS-2558: project import > open files; JBIDE-14331: make cheat sheets more pervasive</remark></para> -->
+		<!-- API for developing cheat sheets available to all -->
+		
 	</section>
 
 </section>
