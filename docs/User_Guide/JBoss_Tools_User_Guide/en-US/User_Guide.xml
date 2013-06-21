@@ -13,6 +13,7 @@
 	</part>
 	<part>
 		<title>Tools for Creating Mobile Applications</title>
+		<xi:include href="JQueryMobile.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 		<xi:include href="BrowserSim.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	</part>
 	<part>

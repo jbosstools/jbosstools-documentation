@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "User_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<section>
+	<title>Overview of Mobile Web Tools</title>
+
+
+	<section>
+		<title>About Mobile Web Tools</title>
+		
+		<para>Mobile Web Tools provides tooling for developing mobile web applications within the IDE. It simplifies the process of getting started with HTML5 and jQuery Mobile technologies that are used for these types of applications and provides efficient workflows for developing with them on a daily basis.</para>
+
+		<para>Mobile Web Tools consists of project wizards, file templates, the Mobile Web palette, and actions for developing with HTML5 and jQuery Mobile:</para>
+		
+		<itemizedlist>
+			<listitem><para>The HTML5 project wizards  and HTML5 jQuery Mobile file template enable you to quickly generate the foundations of mobile web applications and to view mobile web application programming in action.</para></listitem>
+			<listitem><para>The Mobile Web palette offers a visual reference of the available jQuery Mobile user interface widgets, which can be effortlessly inserted into you project files with drag-and-drop functionality. In conjunction with the Mobile Web palette, widget wizards allow you to easily customize jQuery Mobile widgets when inserting them into your project.</para></listitem>
+			<listitem><para>Code assistance and one-click action for viewing jQuery Mobile pages in browsers enable you to work more efficiently when developing mobile web applications in the IDE.</para></listitem>
+		</itemizedlist>
+
+	</section>
+
+
+</section>
+
