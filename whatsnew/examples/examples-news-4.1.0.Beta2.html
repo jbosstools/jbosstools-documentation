@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../whatsnew.css"/>
+<title>What's New in Project Examples</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17645367-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
+<body>
+<h1>Project Examples 4.1.0.Beta2 What's New</h1>
+<p align="right">
+	<a href="../maven/maven-news-4.1.0.Beta2.html">&lt; Maven Tools</a> 
+	<a href="../cdi/cdi-news-4.1.0.Beta2.html">CDI Tools &gt;</a>  
+</p>
+
+<table border="0" cellpadding="10" cellspacing="0" width="100%">
+  <tr>
+    <td colspan="2">
+      <hr/>
+      <h3>Project Examples</h3>
+	<hr/>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="left">
+       <a name="go-offline" id="go-offline"></a><b>Go offline script</b>
+    </td>
+    <td valign="top">
+    <p>We now provide a <a href="http://groovy.codehaus.org/Installing+Groovy">groovy</a> script that pre-caches all JBoss Tools examples and their dependencies for anyone wanting to be able to work offline (after an initial online session). 
+    For instance, an instructor can download all the required dependencies and then provide a zipped .m2/repository to his students via flash drive, all students can then work offline.
+    </p>
+    <p>
+A groovy command with proper arguments is generated under Preferences > JBoss Tools > Project Examples > Offline Support. 
+    </p>
+    <p>
+Click on the copy to clipboard button and then paste the clipboard in a terminal. An offline/ directory will be created in the directory the script is run under. 
+    </p>
+  
+	<p>
+	<img src="images/examples-offline-support.png" />
+    </p>
+  <p>
+    All Example archives will be downloaded under offline/.jbosstools/cache. They will then be built -if based on Maven- and the Maven dependencies will populate a clean offline/.m2/repository. The whole process takes typically around 30 minutes on a 20MB broadband connection.
+    </p>
+    <p>The generated offline cache should be copied under ${user.home}/.jbosstools/cache (that location can be changed in Preferences > JBoss Tools > Project Examples > Offline Support).
+The maven repository should be copied over to your local repository. 
+    </p>
+    <p>
+Once the "Enable offline mode for project examples" button is checked (after saving the preferences), Examples will be fetched from the offline directory and no remote connection will be attempted to get the example data. Switching Offline mode will also switch m2e's offline mode, if the maven examples feature is installed. 
+	</p>
+	
+    <p><small>Related JIRAs : <a href="https://issues.jboss.org/browse/JBDS-2543">JBDS-2543</a>, <a href="https://issues.jboss.org/browse/JBDS-2552">JBDS-2552</a></small></p>
+    </td>
+  </tr>
+  <tr>
+	<td colspan="2">
+		<hr />
+	</td>
+  </tr>
+</table>
+
+</body>
+
+</html>
