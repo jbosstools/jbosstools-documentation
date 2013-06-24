@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../whatsnew.css" />
+<title>OpenShift Tools 2.5.0.Beta2 What's New</title>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-17645367-5' ]);
+	_gaq.push([ '_trackPageview' ]);
+
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<style type="text/css">
+.border {
+	border-collapse:collapse;
+	border-style:none;
+	border:1px dotted #ccc;
+}
+</style>
+</head>
+<body>
+	<h1>OpenShift 2.5.0.Beta2 What's New</h1>
+
+	<p align="right">
+		<a href="../maven/maven-news-4.1.0.Beta2.html">&lt; Maven Tools</a>
+		<a href="../as/as-news-4.1.0.Beta2.html">Server Tools &gt;</a>
+	</p>
+	<table border="0" cellpadding="10" cellspacing="0" width="80%">
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Application Wizard</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Use your own Source Template</b></td>
+			<td valign="top" align="left">
+				We now allow you to start an application with your very own source code.
+				You give the wizard the url of your git repository and OpenShift will clone it to your application git repository
+				and use it instead of the default template. 
+				<p>
+					<img src="images/advanced-source-code.png"/>
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-14588">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Disable automatic Maven Build</b></td>
+			<td valign="top" align="left">
+				When pushing a maven project to OpenShift, the PaaS will build the source in the git repository that you pushed. 
+				This is very useful when you push source code but it's not when you push an application that you built as war in a prior step 
+				(you publish a war to OpenShift by adding it to the deployments- or webapps-folder and pushing the git repository. 
+				The JBoss AS or Tomcat that is running on OpenShift will then pick the war and deploy the war). 
+				In this specific case you dont want the sources to get built, you want this step to get skipped. <br/>
+				We therefore allow you to tell the application wizard not to trigger the maven build on OpenShift when pushing.
+				If you check this option the wizard will create a marker that gets pushed along with your war and code and tells OpenShift not to launch the maven build.
+				<p>
+					<img src="images/disable-automatic-maven-build.png"/>
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-13882">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Cartridge Command Line Names</b></td>
+			<td valign="top" align="left">
+				In Beta1 we added verbose cartridge labels that better show you what cartridge you are using. 
+				In Beta2 we now added the cartridge id in parenthesis so that you also have the identifier that you 
+				would use on the rhc command line.
+				<p>
+					<img src="images/cartridge-labels-2.png"/>
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-14631">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Jenkins URL and Credentials</b></td>
+			<td valign="top" align="left">
+				When you create an application there are cases where OpenShift will give you additional informations about
+				your new cartridge. This is especially true when you create a jenkins instance on OpenShift.
+				The log that we will then show upon successful creation will show you the url and the credentials that you need to operate it.
+				Prior JBoss Tools only showed you those when you embedded cartridges. With Beta2 we now also show you these when you create applications.  
+				<p>
+					<img src="images/creation-log.png" />
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-14945">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Marker Wizard</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Edit your Markers</b></td>
+			<td valign="top" align="left">
+				OpenShift is using markers to enable or disable features.  
+				The switch to disable the maven build that we discussed above is one of these markers.
+				The markers are files that you add to the &lt;project&gt;/.openshift/markers directory. 
+				In Beta2 we allow you to add and remove these markers by invoking a wizard from the Project- or Package-Explorer.
+				<p>
+					<img src="images/openshift-configure-markers.png" />
+				</p>
+				We show you all markers that already exist in the markers directory and all the ones that you may eventually want to add. 
+				The markers that we currently know about are: <br><br>
+				<table cellpadding="8" class="border">
+					<tr>
+						<th>File</th>
+						<th>Effect</th>
+					</tr>
+  					<tr>
+						<td class="border"><i>disable_auto_scaling</i></td>
+						<td class="border">Will prevent scalable applications from scaling up or down according to application load.</td>
+					</tr>
+  					<tr>
+						<td class="border"><i>enable_jpda</i></td>
+						<td class="border">
+							Will enable the JPDA socket based transport on
+							the java virtual machine running the JBoss AS 7 application
+							server. This enables you to remotely debug code running inside
+							the JBoss AS 7 application server.
+						</td>
+					</tr>
+  					<tr>
+						<td class="border"><i>force_clean_build</i></td>
+						<td>
+							Will start the build process by removing all non essential
+							Maven dependencies. Any current dependencies specified in your
+							pom.xml file will then be re-downloaded.
+						</td>
+					</tr>
+  					<tr>
+						<td class="border"><i>hot_deploy</i></td>
+						<td>
+							Will prevent a JBoss container restart during
+							build/deployment. Newly build archives will be re-deployed
+							automatically by the JBoss HDScanner component.
+						</td>
+					</tr>
+  					<tr>
+						<td class="border"><i>java7</i></td>
+						<td class="border">
+							Will run JBoss AS7 with Java7 if present. If no
+							marker is present then the baseline Java version will be used
+							(currently Java6).
+						</td>
+					</tr>
+				</table> 
+				<p>
+					<img src="images/configre-markers-wizard.png" />
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-14845">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Verbose Cartridge Names</b></td>
+			<td valign="top" align="left">
+				The OpenShift Explorer lists your applications and cartridges. Along with the application and cartridge it shows you the type. 
+				So far we were showing shorthand names and changed this for Beta2: 
+				the Explorer is now using verbose labels for cartridges and decorate them with the shorthand (rhc command line identifier) name.  
+				<p>
+					<img src="images/better-labels-in-explorer.png" />
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-14687">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Application Logs</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Tail Files pattern fixed</b></td>
+			<td valign="top" align="left">
+				In order to inspect your application logs you pick "Tail Files" in the context menu of your application in the OpenShift Explorer 
+				or in the Servers view. JBoss Tools will then prompt you to provide the file pattern and options for the tail command. 
+				So far there was an issue that prevented you from limiting the output. The console was always showing the same number of lines. 
+				We now fixed with Beta2.
+				<p>
+					<img src="images/better-labels-in-explorer.png" />
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-13894">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>
