@@ -49,9 +49,11 @@
 		<tr>
 			<td valign="top" align="left"><b>Use your own Source Template</b></td>
 			<td valign="top" align="left">
-				We now allow you to start an application with your very own source code.
-				You give the wizard the url of your git repository and OpenShift will clone it to your application git repository
-				and use it instead of the default template. 
+
+			  OpenShift online now allow you to start an application with your very own git
+			  repository for the intial applicaiton.
+			  OpenShift tools now allow you to specify a github url in the wizard under "Advanced" and OpenShift will clone it to your application git repository
+			  and use it instead of the default template. 
 				<p>
 					<img src="images/advanced-source-code.png"/>
 				</p>
@@ -70,16 +72,16 @@
 		<tr>
 			<td valign="top" align="left"><b>Disable automatic Maven Build</b></td>
 			<td valign="top" align="left">
-				When pushing a maven project to OpenShift, the PaaS will build the source in the git repository that you pushed. 
-				This is very useful when you push source code but it's not when you push an application that you built as war in a prior step 
-				(you publish a war to OpenShift by adding it to the deployments- or webapps-folder and pushing the git repository. 
-				The JBoss AS or Tomcat that is running on OpenShift will then pick the war and deploy the war). 
-				In this specific case you dont want the sources to get built, you want this step to get skipped. <br/>
+				When pushing a maven project to OpenShift, OpenShift will build the source in the git repository that you pushed. 
+				This is very useful when you push source code but it's not when you push an application that you have already built as an jar,war or ear.
+			        If you rather would publish this artifact directly you no longer need the automatic builds but just need the artifact put into the deployments folder.
 				We therefore allow you to tell the application wizard not to trigger the maven build on OpenShift when pushing.
-				If you check this option the wizard will create a marker that gets pushed along with your war and code and tells OpenShift not to launch the maven build.
+				If you check this option the wizard will create a marker that gets pushed along with your war and code and tells OpenShift not to launch the maven build. 
 				<p>
 					<img src="images/disable-automatic-maven-build.png"/>
 				</p>
+
+			        <p>You can enable the Maven builds again by manually changing the marker files or use the Configure > Configure Marker... menu.</p>
 				<p>
 					<small>
 						<a href="https://issues.jboss.org/browse/JBIDE-13882">Related Jira</a>
@@ -95,8 +97,7 @@
 		<tr>
 			<td valign="top" align="left"><b>Cartridge Command Line Names</b></td>
 			<td valign="top" align="left">
-				In Beta1 we added verbose cartridge labels that better show you what cartridge you are using. 
-				In Beta2 we now added the cartridge id in parenthesis so that you also have the identifier that you 
+				We added the cartridge id in parenthesis nex to the human understandable cartridge names so that you also have the identifier that you 
 				would use on the rhc command line.
 				<p>
 					<img src="images/cartridge-labels-2.png"/>
@@ -116,10 +117,10 @@
 		<tr>
 			<td valign="top" align="left"><b>Jenkins URL and Credentials</b></td>
 			<td valign="top" align="left">
-				When you create an application there are cases where OpenShift will give you additional informations about
-				your new cartridge. This is especially true when you create a jenkins instance on OpenShift.
-				The log that we will then show upon successful creation will show you the url and the credentials that you need to operate it.
-				Prior JBoss Tools only showed you those when you embedded cartridges. With Beta2 we now also show you these when you create applications.  
+				When you create an application there are cases where OpenShift will give you additional information about
+				your new cartridge. For example when you create a jenkins instance on OpenShift.
+				The log that will now be shown upon successful creation and will show you the url and the credentials that you need to operate it.
+				Prior verions only showed this for embedded cartridges. Beta2 will also show these when you create applications.  
 				<p>
 					<img src="images/creation-log.png" />
 				</p>
@@ -236,7 +237,7 @@
 				In order to inspect your application logs you pick "Tail Files" in the context menu of your application in the OpenShift Explorer 
 				or in the Servers view. JBoss Tools will then prompt you to provide the file pattern and options for the tail command. 
 				So far there was an issue that prevented you from limiting the output. The console was always showing the same number of lines. 
-				We now fixed with Beta2.
+			        Fixed with Beta2.
 				<p>
 					<img src="images/better-labels-in-explorer.png" />
 				</p>
