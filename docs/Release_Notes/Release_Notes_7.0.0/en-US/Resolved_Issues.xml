@@ -6,7 +6,9 @@
 <chapter>
 	<title>Resolved Issues</title>
 
-	<para>To view information about issues resolved in this release of JBoss&nbsp;Developer&nbsp;Studio, see <ulink url="https://issues.jboss.org/browse/JBDS"/> and <ulink url="https://issues.jboss.org/browse/JBIDE"/> on the JBoss issue tracking system, JIRA.</para>
+	<para>To view information about issues resolved in this release of JBoss&nbsp;Developer&nbsp;Studio, see <ulink url="https://issues.jboss.org/issues/?jql="/> on the JBoss issue tracking system and enter the following search query as one line:
+		<screen>(project in (JBIDE) AND fixVersion in ("4.1.0.Beta2") OR project = JBDS AND fixversion in ("7.0.0.Beta2")) AND type in (Bug) AND resolution in (Done)</screen>
+	</para>
 
 </chapter>
 

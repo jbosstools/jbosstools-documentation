@@ -6,7 +6,10 @@
 <chapter>
 	<title>Known Issues</title>
 	
-	<para>To view information about known issues in this release of JBoss&nbsp;Developer&nbsp;Studio, see <ulink url="https://issues.jboss.org/browse/JBDS"/> and <ulink url="https://issues.jboss.org/browse/JBIDE"/> on the JBoss issue tracking system, JIRA.</para>
+	<para>To view information about known issues in this release of JBoss&nbsp;Developer&nbsp;Studio, see <ulink url="https://issues.jboss.org/issues/?jql="/> on the JBoss issue tracking system and enter the following search query as one line:
+		<screen>(project in (JBIDE) AND affectedVersion in ("4.1.0.Alpha1", "4.1.0.Alpha2", "4.1.0.Beta1", "4.1.0.Beta2") OR project = JBDS AND affectedVersion in ("7.0.0.Alpha1", "7.0.0.Alpha2", "7.0.0.Beta1", "7.0.0.Beta2")) AND type in (Bug) AND resolution in (Unresolved)</screen>
+	The query results correspond to reported issues but the issues may not yet have been confirmed by the product team. 
+	</para>
 
 </chapter>
 

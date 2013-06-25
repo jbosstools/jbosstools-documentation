@@ -29,7 +29,7 @@
 			</listitem>
 			<listitem>
 				<para>
-					Build web interfaces with ease using the visual editing and drop-and-drag utilities of Visual Web Tools and JBoss Palette.
+					Build web interfaces with ease using the visual editing and drop-and-drag utilities of Visual Web Tools and JBoss Tools Palette.
 				</para>
 			</listitem>
 			<listitem>
@@ -85,12 +85,12 @@
 			<term>Applications for cloud deployment</term>
 			<listitem>
 				<para>
-					OpenShift Tools deploys your application directly to the cloud on the Red Hat OpenShift platform. You can create and manage your OpenShift account and manage the deployment of applications in your OpenShift domain from within the IDE. In addition to using the OpenShift Application wizard to create new applications for deployment to OpenShift, OpenShift Tools can import applications already deployed on OpenShift so that you can further develop them and manage their deployment from the comfort of the IDE.
+					OpenShift Tools deploys your application directly to the cloud on the free Red Hat OpenShift platform. You can create and manage your OpenShift account and manage the deployment of applications in your OpenShift domain from within the IDE. In addition to using the OpenShift Application wizard to create new applications for deployment to OpenShift, OpenShift Tools can import applications already deployed on OpenShift so that you can further develop them and manage their deployment from the comfort of the IDE.
 				</para>
 			</listitem>
 		</varlistentry>
 	</variablelist>
-</section>	
+</section>
 
 </chapter>
 
