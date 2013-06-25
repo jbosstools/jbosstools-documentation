@@ -8,64 +8,8 @@
 	<simpara>
 		<revhistory>
 			<revision>
-				<revnumber>7.0.0-5</revnumber>
-				<date>Wed Jun 5 2013</date>
-				<author>
-					<firstname>Michelle</firstname>
-					<surname>Murray</surname>
-					<email>mmurray@redhat.com</email>
-				</author>
-				<revdescription>
-					<simplelist>
-						<member>TOOLSDOC-354: Brand change</member>
-					</simplelist>
-				</revdescription>
-			</revision>
-			<revision>
-				<revnumber>7.0.0-4</revnumber>
-				<date>Mon Jun 3 2013</date>
-				<author>
-					<firstname>Michelle</firstname>
-					<surname>Murray</surname>
-					<email>mmurray@redhat.com</email>
-				</author>
-				<revdescription>
-					<simplelist>
-						<member>TOOLSDOC-332: Product name change</member>
-					</simplelist>
-				</revdescription>
-			</revision>
-			<revision>
-				<revnumber>7.0.0-3</revnumber>
-				<date>Mon Jun 3 2013</date>
-				<author>
-					<firstname>Michelle</firstname>
-					<surname>Murray</surname>
-					<email>mmurray@redhat.com</email>
-				</author>
-				<revdescription>
-					<simplelist>
-						<member>Removal of explicit resolved and unresolved issues information</member>
-					</simplelist>
-				</revdescription>
-			</revision>
-			<revision>
-				<revnumber>7.0.0-2</revnumber>
-				<date>Thur May 30 2013</date>
-				<author>
-					<firstname>Michelle</firstname>
-					<surname>Murray</surname>
-					<email>mmurray@redhat.com</email>
-				</author>
-				<revdescription>
-					<simplelist>
-						<member>TOOLSDOC-341: QE corrections</member>
-					</simplelist>
-				</revdescription>
-			</revision>
-			<revision>
-				<revnumber>7.0.0-1</revnumber>
-				<date>Mon May 27 2013</date>
+				<revnumber>7.0.0-6</revnumber>
+				<date>Mon Jun 24 2013</date>
 				<author>
 					<firstname>Michelle</firstname>
 					<surname>Murray</surname>
