@@ -196,7 +196,7 @@
 			</step>
 			<step>
 				<para>
-					During project creation, the wizard imports project dependencies. When the <application>Java EE Web Project</application> wizard displays <guilabel>'Java EE Web Project' Project is now ready</guilabel>, click <guibutton>Finish</guibutton> to close the wizard. A readme file for the project will automatically be opened for viewing.
+					During project creation, the wizard imports project dependencies. When the <application>Java EE Web Project</application> wizard displays <guilabel>'Java EE Web Project' Project is now ready</guilabel>, click <guibutton>Finish</guibutton> to close the wizard. A <filename>README.md</filename> file for the project automatically opens for viewing.
 				</para>
 			</step>
 		</procedure>
