@@ -51,7 +51,7 @@
 			<listitem><para>iPad and iPad Mini skins have been added to the ever growing range of available simulated devices. FireBug Lite and Weinre have been integrated so that you can debug the source pages of your web applications with familiar tools. LiveReload is available on simulated devices so that open web pages are automatically updated as you change the source code. You can now take screen captures of simulated devices and their web pages and open multiple synchronized simulated devices showing the same web page but with different skins. LiveReload can be enabled on a per simulated device basis. </para></listitem>
 		</varlistentry>
 		<varlistentry>
-			<term>jQuery Mobile Tools</term>
+			<term>jQuery Mobile Tools</term> <!-- aka Mobile Web Tools -->
 			<listitem><para>jQuery Mobile has been further integrated into the IDE, with drag-and-drop palette capabilities and a code completion feature. When dragging and dropping jQuery Mobile components from JBoss Palette into your HTML and HTML5 source code, corresponding wizards open to assist you in completing the attribute fields of the component and inserting JS and CSS references into source files when missing.</para></listitem>
 		</varlistentry>						
 		<varlistentry>
