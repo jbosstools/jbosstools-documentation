@@ -21,7 +21,7 @@
 			<!--Specifically, the plug-ins provide support for JSF, RichFaces, EJB, JPA and Hibernate, JAX-RS and RESTEasy, CDI, and HML5, in addition to Maven-based build and deployment. -->
 		</para>
 		<para>
-			JBoss&nbsp;Developer&nbsp;Studio is designed to increase your productivity when developing applications. You can focus on building, testing and deploying your applications because JBoss application development tools are integrated in one IDE. Additionally, JBoss&nbsp;Developer&nbsp;Studio has great features to assist your application development: 
+			JBoss&nbsp;Developer&nbsp;Studio is designed to increase your productivity when developing applications. You can focus on building, testing and deploying your applications because JBoss application development tools are integrated in one IDE. Furthermore, JBoss&nbsp;Developer&nbsp;Studio has many unique features to assist your application development: 
 			<itemizedlist>
 				<listitem>
 					<para>
@@ -35,7 +35,12 @@
 				</listitem>
 				<listitem>
 					<para>
-						Build web interfaces with ease using the visual editing and drop-and-drag utilities of Visual Web Tools and JBoss Tools Palette.
+						Build web interfaces with ease using the visual editing and drop-and-drag utilities of Visual Web Tools and Mobile Web Tools.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Experience browsers automatically refreshing in response to modified application resources with LiveReload Tools.
 					</para>
 				</listitem>
 				<listitem>
@@ -80,7 +85,10 @@
 						JBoss Central provides wizards that generate skeleton and sample projects, enabling you to focus on developing the functionality of your applications. The wizards create web applications based on different APIs and technologies, showing the usage and advantages of each. JBoss&nbsp;Developer&nbsp;Studio also offers project file templates in a range of popular programming languages, including HTML, XHTML, and JSF.
 					</para>
 					<para>
-						JBoss Palette gives access to the core elements of the JSF, Richfaces and Seam APIs, for use in developing the user interfaces of your applications. Elements of these APIs can be dragged and dropped directly into your project so that you can create richer user interfaces quickly. Visual Web Tools offers graphical and source viewing of files and defaults to dedicated editors for different file types. JBoss&nbsp;Developer&nbsp;Studio supports the Java EE 6 specification and provides tools for JAX-RS, Hibernate, and CDI APIs so you can develop the server-side components of your application effortlessly.
+						Palettes in JBoss&nbsp;Developer&nbsp;Studio give access to the core elements of the JSF, Richfaces and Seam APIs, for use in developing the user interfaces of your applications. Elements of these APIs can be dragged and dropped directly into your project so that you can create richer user interfaces quickly. Visual Web Tools offers graphical and source viewing of files and defaults to dedicated editors for different file types. JBoss&nbsp;Developer&nbsp;Studio supports the Java EE 6 specification and provides tools for JAX-RS, Hibernate, and CDI APIs so you can develop the server-side components of your application effortlessly.
+					</para>
+					<para>
+						LiveReload Tools automatically refreshes browsers of local or deployed applications as you modify project resources to save you from needing to manually refresh. You can even experience automatic refreshing when viewing applications in browsers on external and mobile devices, with application web addresses easy to navigate to with QR codes.
 					</para>
 				</listitem>
 			</varlistentry>
@@ -88,7 +96,10 @@
 				<term>Web applications optimized for mobile devices</term>
 				<listitem>
 					<para>
-						JBoss&nbsp;Developer&nbsp;Studio supports HTML5 and jQuery Mobile to enable you to create web applications optimized across desktop and mobile clients. The HTML5 Project wizard in JBoss Central generates a sample application using HTML5 and jQuery Mobile technologies and, together with HTML5 and jQuery Mobile project file templates, helps you to get up and running with new APIs and technologies quickly. BrowserSim allows you to view your web applications on a variety of simulated mobile devices so that you can ensure they will be correctly formatted. The integration of Firebug Lite and Weinre capabilities with BrowserSim assists you to inspect the page source of web pages with familiar tools.
+						Mobile Web Tools provides support for HTML5 and jQuery Mobile to enable you to create web applications optimized across desktop and mobile clients. The HTML5 Project wizard in JBoss Central generates a sample application using HTML5 and jQuery Mobile technologies and, together with HTML5 and jQuery Mobile project file templates, helps you to get up and running with new APIs and technologies quickly. HTML5 and jQuery Mobile widgets can be dragged from the Mobile Web palette into your project files and, in conjunction with the widget wizards, enable you to effortlessly develop a customized user interfaces for your mobile web applications.
+					</para>
+					<para>
+						BrowserSim allows you to view your web applications on a variety of simulated mobile devices so that you can ensure they will be correctly formatted. LiveReload also extends to BrowserSim allowing you to experience automatic browser refreshes as you develop your mobile web application. The integration of Firebug Lite and Weinre capabilities with BrowserSim assists you to inspect the page source of web pages with familiar tools.
 					</para>
 				</listitem>
 			</varlistentry>

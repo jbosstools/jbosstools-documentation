@@ -16,86 +16,49 @@
 		</sectioninfo>
 		<title>Configure Maven</title>
 		<para>
-			The Java EE Web Project, on which the TicketMonster application is based, is constructed from a Maven archetype. For this reason, Maven must be correctly configured to be able to use the Java EE Web Project wizard. Maven settings are stored in a <filename>settings.xml</filename> file and this file can be directly edited from within JBoss&nbsp;Developer&nbsp;Studio, as the procedure below demonstrates.
+			The Java EE Web Project, on which the TicketMonster application is based, is constructed from a Maven archetype. Maven is distributed with JBoss&nbsp;Developer&nbsp;Studio so it not necessary to install Maven but, to be able to use the Java EE Web Project wizard with JBoss Enterprise Application Server 6.x, Maven must be correctly configured. The procedure below demonstrates how to configure Maven for use with JBoss Enterprise Application Server 6.x by editing the Maven configuration file from within JBoss&nbsp;Developer&nbsp;Studio.
 		</para>
 		<procedure>
 			<title>Configure Maven</title>
 			<step>
 				<para>
-					Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>Maven</guilabel> and select <guilabel>User Settings</guilabel>.
+					Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss User Integration</guilabel>.
 				</para>
 			</step>
 			<step>
 				<para>
-					To open the <filename>settings.xml</filename> file for editing, click <guilabel>open file</guilabel>. The file will open in an editor tab behind the <application>Preferences</application> window. Click <guibutton>OK</guibutton> to close the window.
+					Click <guibutton>Configure Maven Repositories</guibutton>.
 				</para>
 			</step>
 			<step>
 				<para>
-					In the <filename>settings.xml</filename> file, add the following lines between the <command>&lt;profiles&gt;</command> tags 
-					<screen>
-&lt;profile&gt;
-       &lt;id&gt;jboss-public-repository&lt;/id&gt;
-       &lt;activation&gt;
-          &lt;property&gt;
-             &lt;name&gt;jboss-public-repository&lt;/name&gt;
-             &lt;value&gt;!false&lt;/value&gt;
-          &lt;/property&gt;
-       &lt;/activation&gt;
-       &lt;repositories&gt;
-          &lt;repository&gt;
-             &lt;id&gt;jboss-public-repository-group&lt;/id&gt;
-             &lt;name&gt;JBoss Public Maven Repository Group&lt;/name&gt;
-             &lt;url&gt;http://repository.jboss.org/nexus/content/groups/public&lt;/url&gt;
-             &lt;releases&gt;
-                &lt;enabled&gt;true&lt;/enabled&gt;
-                &lt;updatePolicy&gt;never&lt;/updatePolicy&gt;
-             &lt;/releases&gt;
-             &lt;snapshots&gt;
-                &lt;enabled&gt;false&lt;/enabled&gt;
-                &lt;updatePolicy&gt;never&lt;/updatePolicy&gt;
-             &lt;/snapshots&gt;
-          &lt;/repository&gt;
-       &lt;/repositories&gt;
-       &lt;pluginRepositories&gt;
-          &lt;pluginRepository&gt;
-             &lt;id&gt;jboss-public-repository-group&lt;/id&gt;
-             &lt;name&gt;JBoss Public Maven Repository Group&lt;/name&gt;
-             &lt;url&gt;http://repository.jboss.org/nexus/content/groups/public&lt;/url&gt;
-             &lt;releases&gt;
-                &lt;enabled&gt;true&lt;/enabled&gt;
-                &lt;updatePolicy&gt;never&lt;/updatePolicy&gt;
-             &lt;/releases&gt;
-             &lt;snapshots&gt;
-                &lt;enabled&gt;false&lt;/enabled&gt;
-                &lt;updatePolicy&gt;never&lt;/updatePolicy&gt;
-             &lt;/snapshots&gt;
-          &lt;/pluginRepository&gt;
-       &lt;/pluginRepositories&gt;
-&lt;/profile&gt;	
-			</screen>
+					Click <guibutton>Add Repository</guibutton>.
 				</para>
 			</step>
 			<step>
 				<para>
-					In the <filename>settings.xml</filename> file, add the following line between the <command>&lt;activeProfiles&gt;</command> tags 
-					<screen>&lt;activeProfile&gt;jboss.repository&lt;/activeProfile&gt;</screen>
+					Click <guibutton>Recognize JBoss Maven Enterprise Repositories</guibutton>, navigate to <filename>path/to/jboss-eap-6.x.y-maven-repository</filename> and click <guibutton>OK</guibutton>. JBoss Maven Tools recursively scans the path searching for the Maven repository.
+				</para>
+				<note>
+					<para>
+						If you are using JBoss Application Server 7.1 instead of JBoss Enterprise Application Platform 6.x, you should configure Maven for use with JBoss. Instead of clicking <guibutton>Recognize JBoss Maven Enterprise Repositories</guibutton>, from the <guilabel>Profile ID</guilabel> list select <guilabel>jboss-public-repository</guilabel>.
+					</para>
+				</note>
+			</step>
+			<step>
+				<para>
+					Modify the information in the <guilabel>ID</guilabel> and <guilabel>Name</guilabel> fields as desired, ensure the <guilabel>Active by default</guilabel> check box is selected and click <guibutton>OK</guibutton>.
 				</para>
 			</step>
 			<step>
 				<para>
-					Save the <filename>settings.xml</filename> file.
+					Click <guibutton>Finish</guibutton> and at the prompt asking if you are sure you want to update the Maven configuration file click <guibutton>Yes</guibutton>. If the specified configuration file does not exist, JBoss Maven Tools creates it.
 				</para>
-			</step>
-			<step>
-				<para>
-					Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>Maven</guilabel> and select <guilabel>User Settings</guilabel>.
-				</para>
-			</step>
-			<step>
-				<para>
-					For the changes to the <filename>settings.xml</filename> file to be recognized, click <guibutton>Update Settings</guibutton>.
-				</para>
+				<note>
+					<para>
+						Maven settings, such as the configuration file, are specified in <guilabel>Preferences</guilabel> under <guilabel>Maven</guilabel>&rarr;<guilabel>User Settings</guilabel>. These settings can be customized.
+					</para>
+				</note>
 			</step>
 			<step>
 				<para>
@@ -112,35 +75,40 @@
 				</keyword>
 			</keywordset>
 		</sectioninfo>
-		<title>Set Up a Runtime Server Using Server Manager</title>
+		<title>Set Up a Server Using Runtime Detection</title>
 		<para>
-			Runtime servers can be set up from within the <application>Java EE Web Project</application> wizard. But for the purposes of exploring JBoss&nbsp;Developer&nbsp;Studio the procedure below sets up the runtime server first.
+			Servers can be set up from within the <application>Java EE Web Project</application> wizard. But for the purposes of exploring JBoss&nbsp;Developer&nbsp;Studio the procedure below sets up the server first.
 		</para>
 		<procedure>
-			<title>Set Up a New Runtime Server</title>
+			<title>Set Up a Server Using Runtime Detection</title>
 			<step>
 				<para>
-					Click the <guilabel>Servers</guilabel> tab. If the <guilabel>Servers</guilabel> tab is not visible, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Servers</guimenu>.
+					Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Tools Runtime Detection</guilabel>.
 				</para>
 			</step>
 			<step>
 				<para>
-					To set up a new runtime server, click <guilabel>new server wizard</guilabel>. This opens the <application>Define a New Server</application> wizard.
+					Click <guibutton>Add</guibutton>.
 				</para>
 			</step>
 			<step>
 				<para>
-					From the <guilabel>Select the server type</guilabel> list, expand <guilabel>JBoss Enterprise Middleware</guilabel> and select <guilabel>JBoss Enterprise Application Platform 6.x</guilabel>.
+					Select the directory containing the <guilabel>JBoss Enterprise Application Platform 6.0</guilabel> or <guilabel>JBoss Enterprise Application Platform 6.1</guilabel> installation and click <guibutton>OK</guibutton>. The directory is now scanned for application servers and JBoss Enterprise Application Platform 6.x found.
 				</para>
 			</step>
 			<step>
 				<para>
-					Click <guibutton>Finish</guibutton> to close the <application>Define a New Server</application> wizard. The wizard create a new instance of a JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6 runtime server, which is visible in the <guilabel>Servers</guilabel> tab.
+					To create a server for JBoss Enterprise Application Platform 6.x, ensure the <guilabel>jboss-eap-6.x</guilabel> check box is selected and click <guibutton>OK</guibutton>.
 				</para>
 			</step>
 			<step>
 				<para>
-					The runtime server is initially shown in stopped mode. To start the runtime server, right-click <guilabel>JBoss EAP 6.0 Runtime Server</guilabel> and click <guimenu>Start</guimenu>. After a short pause, the view switches to the <guilabel>Console</guilabel> tab and shows the startup output of the runtime server.
+					Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window. The server is listed in the <guilabel>Servers</guilabel> tab.
+				</para>
+			</step>
+			<step>
+				<para>
+					The server is initially shown in stopped mode. To start the server, right-click <guilabel>jboss-eap-6.x</guilabel> and click <guimenu>Start</guimenu>. After a short pause, the view switches to the <guilabel>Console</guilabel> tab and shows the startup output of the server.
 				</para>
 			</step>
 		</procedure>
@@ -166,12 +134,12 @@
 			</step>
 			<step>
 				<para>
-					Under <guilabel>Create Projects</guilabel>, click <guilabel>Java EE Web Project</guilabel> to open the <application>Java EE Web Project</application> wizard.
+					Under <guilabel>Start from scratch</guilabel>, click <guilabel>Java EE Web Project</guilabel> to open the <application>Java EE Web Project</application> wizard.
 				</para>
 			</step>
 			<step>
 				<para>
-					From the <guilabel>Target Runtime</guilabel> list, select <guilabel>JBoss EAP 6.0 Runtime</guilabel> and click <guibutton>Next</guibutton>.
+					From the <guilabel>Target Runtime</guilabel> list, select <guilabel>jboss-eap-6.x Runtime</guilabel> and click <guibutton>Next</guibutton>.
 				</para>
 			</step>
 			<step>
@@ -211,7 +179,7 @@
 		</sectioninfo>
 		<title>Add an Entity Using Forge Tools</title>
 		<para>
-			A new entity class can be added to the TicketMonster project using Forge Tools. In the procedure below an <filename>Event</filename> entity class is created to hold information about the events for which users can buy tickets. This <filename>Event</filename> entity has id, name, description, major, picture and version fields.
+			A new entity class can be added to the TicketMonster project using Forge Tools. In the procedure below an <filename>Event</filename> entity class is created to hold information about the events for which users can buy tickets. This <filename>Event</filename> entity has id, name, description, major and picture fields.
 		</para>
 		<procedure>
 			<title>Add an Entity Using Forge Tools</title>
@@ -255,7 +223,6 @@
 field string --named description
 field boolean --named major
 field string --named picture
-field int --named version
 			</screen>
 				</para>
 			</step>
@@ -422,7 +389,7 @@ private int capacity;
 		</sectioninfo>
 		<title>Deploy the Application using Server Manager</title>
 		<para>
-			The TicketMonster application can be deployed on the JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6 runtime server instance created earlier in the tutorial. The procedure below guides you through how to so this.
+			The TicketMonster application can be deployed on the JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6 server created earlier in the tutorial. The procedure below guides you through how to do this.
 		</para>
 		<procedure>
 			<title>Deploy the Application Using Server Manager</title>
@@ -438,12 +405,12 @@ private int capacity;
 			</step>
 			<step>
 				<para>
-					In the <guilabel>Select the server that you want to use</guilabel> table, select <guilabel>JBoss EAP 6.0 Runtime Server</guilabel> and click <guibutton>Finish</guibutton>. If not already in view, the <guilabel>Console</guilabel> tab automatically opens and shows the runtime server output.
+					In the <guilabel>Select the server that you want to use</guilabel> table, select <guilabel>jboss-eap-6.x</guilabel> and click <guibutton>Finish</guibutton>. If not already in view, the <guilabel>Console</guilabel> tab automatically opens and shows the runtime server output. Also, a <guilabel>Web Browser</guilabel> tab automatically opens and displays the web page of the running TicketMonster application.
 				</para>
 			</step>
 			<step>
 				<para>
-					A <guilabel>Web Browser</guilabel> tab automatically opens and displays the web page of the running TicketMonster application. In the <guilabel>Web Browser</guilabel> tab, enter sample Member data in the Member Registration pane and click <guibutton>Register</guibutton>. The submitted data is displayed in the <guilabel>Members</guilabel> table, which is visible on the web page.
+					In the <guilabel>Web Browser</guilabel> tab, enter sample Member data in the Member Registration pane and click <guibutton>Register</guibutton>. The submitted data is displayed in the <guilabel>Members</guilabel> table, which is visible on the web page.
 				</para>
 			</step>
 		</procedure>
@@ -474,7 +441,7 @@ private int capacity;
 			</step>
 			<step>
 				<para>
-					To deploy the H2 console web application, extract the contents of the downloaded file and copy the <filename>h2console.war</filename> file from the <filename>h2-console</filename> directory to the <filename>path/to/jboss-eap-6.0/standalone/deployments</filename> directory. The H2 console web application immediately starts running on the JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6 runtime server instance running the TicketMonster application. This can be confirmed by looking at the server output in the <guilabel>Console</guilabel> tab in JBoss&nbsp;Developer&nbsp;Studio.
+					To deploy the H2 console web application, extract the contents of the downloaded file and copy the <filename>h2console.war</filename> file from the <filename>h2-console</filename> directory to the <filename>path/to/jboss-eap-6.x/standalone/deployments</filename> directory. The H2 console web application immediately starts running on the JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6 server running the TicketMonster application. This can be confirmed by looking at the server output in the <guilabel>Console</guilabel> tab in JBoss&nbsp;Developer&nbsp;Studio.
 				</para>
 			</step>
 			<step>

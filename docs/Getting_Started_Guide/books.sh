@@ -111,4 +111,6 @@ then
 elif [ $1 = "gitclean" ]
 then
 	gitclean
+else
+	echo '[INFO] Invalid command, choose from: make, build, clean, gitclean'
 fi
