@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "User_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<section>
+	<title>Customizing JBoss Server Tools</title>
+
+	<section>
+		<title>Customizing Overview</title>
+	
+		<para>The aim of this section is to guide you in customizing JBoss Server Tools:</para>
+		<itemizedlist>
+			<listitem><para>Enable runtime detection to search paths for application servers on IDE start</para></listitem>
+			<listitem><para>Select a default server for IDE actions</para></listitem>
+			<listitem><para>Specify default filesets that are listed in the <guilabel>Servers</guilabel> tab for ease of access</para></listitem>
+			<listitem><para>Customize classpath entries for your projects based on application server type</para></listitem>
+		</itemizedlist>
+
+	</section>
+
+
+	<section>
+		<title>Enable Runtime Detection on IDE Start</title>
+	
+		<para>You can customize runtime detection to automatically search paths for installed application servers when the IDE starts. If any application servers are found, you are prompted about creating corresponding complete server definitions.</para>
+		
+		<para>To enable automated searching on IDE start, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Tools Runtime Detection</guilabel>. In the <guilabel>Paths</guilabel> table, select the <guilabel>Every start</guilabel> check box for all of the paths that you want to be automatically searched on IDE start. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</para>
+		
+	</section>
+
+
+	<section>
+		<title>Set a Default Server</title>
+
+		<para>JBoss Server Tools enables you to select a default server on which to carry out actions such as <guimenu>Run on server</guimenu>. This is useful when you have multiple server instances but use one predominately.</para>
+
+		<para>To set a default server, in the global toolbar of the JBoss perspective click the <guibutton>Select a default server</guibutton> icon. From the list of servers, click the server that you want to set as the default.</para>
+	</section>
+
+
+	<section>
+		<title>Default Filesets</title>
+
+		<para>Filesets are collections of files that are listed under the server in the <guilabel>Servers</guilabel> tab for ease of access. You can open listed files for viewing and modifying in IDE editors by double-clicking them. JBoss Server Tools generates a default fileset for new <phrase condition="jbds">Red Hat JBoss Middleware application servers</phrase><phrase condition="jbt">JBoss community application servers</phrase> that includes the server configuration file. But JBoss Server Tools also provides the ability for you to customize default filesets for individual servers and an application server type.</para>
+
+		<para>To customize the fileset for an individual server, in the <guilabel>Servers</guilabel> tab expand the server. Right-click <guilabel>Filesets</guilabel> and click <guimenu>Create File Filter</guimenu>. In the <guilabel>Name</guilabel> field, type a name for the filter. In the <guilabel>Root Directory</guilabel> field, type the path of the directory in which the filter should be applied or click <guibutton>Browse</guibutton> to navigate to the location. In the <guilabel>Includes</guilabel> and <guilabel>Excludes</guilabel> fields, type the regex patterns for filtering. Click <guibutton>OK</guibutton> to create the filter. The new filter is listed under the server in the <guilabel>Servers</guilabel> tab and expanding it shows all of the files matching the filter.</para>
+		
+		<para>To customize the default fileset for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel> and select <guilabel>Default Filesets</guilabel>. From the list, select a <phrase condition="jbds">Red Hat JBoss Middleware application server</phrase><phrase condition="jbt">JBoss community application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the default filesets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</para>
+		
+	</section>
+
+
+	<section>
+		<title>Default Classpath Entries</title>
+
+		<para>Classpath entries specify the availability of <filename>.jar</filename> files for your projects. JBoss Server Tools generates a default classpath fileset for new <phrase condition="jbds">Red Hat JBoss Middleware application servers</phrase><phrase condition="jbt">JBoss community application servers</phrase> based on the <filename>.jar</filename> files that accompanying each. But JBoss Server Tools also provides the ability for you to customize classpaths for individual servers and an application server type.</para>
+
+		<para>To customize the classpath fileset for an individual server, <remark>HOW?</remark></para>
+		
+		<para>To customize the classpath fileset for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel>&rarr;<guilabel>Runtime Environments</guilabel> and select <guilabel>Default Classpath Entries</guilabel>. From the <guilabel>Select classpath filesets for this runtime type</guilabel> list, select a <phrase condition="jbds">Red Hat JBoss Middleware application server</phrase><phrase condition="jbt">JBoss community application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the classpath filesets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</para>
+	
+	</section>
+
+</section>
+

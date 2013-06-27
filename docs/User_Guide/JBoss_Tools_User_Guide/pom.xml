@@ -116,6 +116,12 @@
               <docbookVersion>1.72.0</docbookVersion>
               <useRelativeImageUris>true</useRelativeImageUris>
             </options>
+            
+			<profiling> 
+				<enabled>true</enabled> 
+				<attributeName>condition</attributeName> 
+				<attributeValue>jbt</attributeValue> 
+			</profiling> 
           </configuration>
           
         </plugin>

@@ -9,6 +9,7 @@
 	<part>
 		<title>Tools for Every Project</title>
 		<xi:include href="Central.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+		<xi:include href="ServerTools.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 		<xi:include href="ForgeTools.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	</part>
 	<part>
