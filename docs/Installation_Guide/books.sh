@@ -103,7 +103,6 @@ then
 elif [ $1 = "build" ]
 then
 	echo '[INFO] Hope you have edited Migration_Guide/en-US/Author.xml first'
-	echo '[INFO] Hope you have edited Red_Hat_JBoss_Developer_Studio_Migration_Guide/en-US/Book_Info.xml first'
 	build	
 elif [ $1 = "clean" ]
 then
@@ -111,4 +110,6 @@ then
 elif [ $1 = "gitclean" ]
 then
 	gitclean
+else
+	echo '[INFO] Invalid command, choose from: make, build, clean, gitclean'	
 fi
