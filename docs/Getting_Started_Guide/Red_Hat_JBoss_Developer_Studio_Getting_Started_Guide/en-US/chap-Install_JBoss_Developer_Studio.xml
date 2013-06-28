@@ -88,19 +88,9 @@
 					On the command line, navigate to the location of the universal installer <filename>.jar</filename> file and enter 
 					<screen>java -jar jbdevstudio-product_universal-7.0.0.<replaceable>build_version</replaceable>.jar</screen> where <replaceable>build_version</replaceable> is substituted to match the name of the <filename>.jar</filename> file. 
 					<note>
-						<itemizedlist>
-							<listitem>
-								<para>
-									To start the installer, you may be able to double-click the <filename>.jar</filename> file.
-								</para>
-							</listitem>
-							<listitem>
-								<para>
-									To force a 32-bit or 64-bit installation of JBoss&nbsp;Developer&nbsp;Studio, append <command>-d32</command> or <command>-d64</command> to the <command>java</command> command, respectively. For example, 
-									<screen>java -jar -d32 jbdevstudio-product_universal-7.0.0.<replaceable>build_version</replaceable>.jar</screen>
-								</para>
-							</listitem>
-						</itemizedlist>
+						<para>
+							To start the installer, you may be able to double-click the <filename>.jar</filename> file.
+						</para>
 					</note>
 				</para>
 			</step>
@@ -121,8 +111,25 @@
 			</step>
 			<step>
 				<para>
-					<guilabel>Default Java VM</guilabel> is automatically selected. Check that the disabled text field contains the path of the JRE in the Java developer kit you want to use. If it does not, click <guilabel>Specific Java JVM</guilabel> and type the path of the JRE in the text field or use the <guibutton>Browse</guibutton> button to select the correct JRE. When the text field shows the correct JRE path, click <guibutton>Next</guibutton>.
+					<guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the JRE in the Java developer kit you want to use. If it does not, click <guilabel>Specific Java JVM</guilabel> and type the path of the JRE in the text field or use the <guibutton>Browse</guibutton> button to select the correct JRE. When the text field shows the correct JRE path, click <guibutton>Next</guibutton>.
 				</para>
+				<important>
+					<para>
+						You must specify a 32-bit JRE to install a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio and a 64-bit JRE to install a 64-bit version of JBoss&nbsp;Developer&nbsp;Studio. To change the bit version of the JRE to be used for installing JBoss&nbsp;Developer&nbsp;Studio, complete the appropriate step for your operating system: 
+						<itemizedlist>
+							<listitem>
+								<para>
+									On OS X operating systems, from the <guilabel>Installation type</guilabel> list click the appropriate bit version.
+								</para>
+							</listitem>
+							<listitem>
+								<para>
+									On Linux distributions and Microsoft Windows operating systems, type the path to the appropriate bit version of the JRE.
+								</para>
+							</listitem>
+						</itemizedlist>
+					</para>
+				</important>
 			</step>
 			<step>
 				<para>
