@@ -8,6 +8,24 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.0.0-7</revnumber><date>Fri Jun 28 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							Addition of Beta2 identifier to title
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>	
+			<revision>
 				<revnumber>7.0.0-6</revnumber><date>Wed Jun 26 2013</date>
 				<author>
 					<firstname>
@@ -24,7 +42,7 @@
 						</member>
 					</simplelist>
 				</revdescription>
-			</revision>	
+			</revision>
 			<revision>
 				<revnumber>7.0.0-5</revnumber><date>Fri Jun 7 2013</date>
 				<author>

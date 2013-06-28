@@ -16,7 +16,15 @@
 		</sectioninfo>
 		<title>Installation Assumptions</title>
 		<para>
-			The installation method described in this guide is for JBoss&nbsp;Developer&nbsp;Studio, built around Eclipse and packaged with all of the necessary dependencies and third party plug-ins. To ensure successful installation, a number of assumptions are made about your system:
+			The installation method described in this guide is for JBoss&nbsp;Developer&nbsp;Studio.
+		</para>
+		<note>
+			<para>
+				If you wish to install JBoss&nbsp;Developer&nbsp;Studio BYOE, you should follow the instructions in JBoss&nbsp;Developer&nbsp;Studio 7 Installation Guide and then continue to work through the TicketMonster tutorial in this guide.
+			</para>
+		</note>
+		<para>
+			To ensure successful installation, a number of assumptions are made about your system:
 		</para>
 		<itemizedlist>
 			<listitem>
@@ -29,17 +37,12 @@
 					You are aware of the Visual Page Editor tool limitations on 64-bit OS X and Microsoft Windows operating systems and will use the workaround detailed in JBoss&nbsp;Developer&nbsp;Studio 7 Installation Guide.
 				</para>
 			</listitem>
-			<listitem>
-				<para>
-					You are aware of the BrowserSim tool limitations on Microsoft Windows operating systems and will use the workaround detailed in JBoss&nbsp;Developer&nbsp;Studio 7 Installation Guide.
-				</para>
-			</listitem>
-		</itemizedlist>
-		<note>
+			<!--<listitem>
 			<para>
-				If you wish to install JBoss&nbsp;Developer&nbsp;Studio BYOE, you may following the instructions in JBoss&nbsp;Developer&nbsp;Studio 7 Installation Guide and then continue to work through the TicketMonster tutorial in this guide.
+				You are aware of the BrowserSim tool limitations on Microsoft Windows operating systems and will use the workaround detailed in JBoss&nbsp;Developer&nbsp;Studio 7 Installation Guide.
 			</para>
-		</note>
+		</listitem>-->
+		</itemizedlist>
 	</section>
 	<section id="Install_with_the_JAR_Installer" remap="TID_13342">
 		<sectioninfo>
@@ -51,9 +54,7 @@
 		</sectioninfo>
 		<title>Install JBoss Developer Studio</title>
 		<para>
-			<remark>
-				[QE]A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Customer Service Portal. <phrase>The procedure below guides you though obtaining the universal installer and the installion process.</phrase>
-			</remark>
+			A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Customer Service Portal. <phrase>The procedure below guides you though obtaining the universal installer and the installion process.</phrase>
 		</para>
 		<procedure>
 			<title>Install with the Universal Installer</title>
@@ -74,6 +75,11 @@
 			</step>
 			<step>
 				<para>
+					From the <guilabel>Version</guilabel> list, select <guilabel>7.0.0</guilabel>.
+				</para>
+			</step>
+			<step>
+				<para>
 					From the <guilabel>JBoss Developer Studio 7</guilabel> table, click <guibutton>Download</guibutton> for the <filename>JBoss Developer Studio 7.0.0 Stand Alone Universal Binary</filename> download file.
 				</para>
 			</step>
@@ -82,19 +88,9 @@
 					On the command line, navigate to the location of the universal installer <filename>.jar</filename> file and enter 
 					<screen>java -jar jbdevstudio-product_universal-7.0.0.<replaceable>build_version</replaceable>.jar</screen> where <replaceable>build_version</replaceable> is substituted to match the name of the <filename>.jar</filename> file. 
 					<note>
-						<itemizedlist>
-							<listitem>
-								<para>
-									To start the installer, you may be able to double-click the <filename>.jar</filename> file.
-								</para>
-							</listitem>
-							<listitem>
-								<para>
-									To force a 32-bit or 64-bit installation of JBoss&nbsp;Developer&nbsp;Studio, append <command>-d32</command> or <command>-d64</command> to the <command>java</command> command, respectively. For example, 
-									<screen>java -jar -d32 jbdevstudio-product_universal-7.0.0.<replaceable>build_version</replaceable>.jar</screen>
-								</para>
-							</listitem>
-						</itemizedlist>
+						<para>
+							To start the installer, you may be able to double-click the <filename>.jar</filename> file.
+						</para>
 					</note>
 				</para>
 			</step>
@@ -115,12 +111,29 @@
 			</step>
 			<step>
 				<para>
-					<guilabel>Default Java VM</guilabel> is automatically selected. Check that the disabled text field contains the path of the JRE in the Java developer kit you want to use. If it does not, click <guilabel>Specific Java JVM</guilabel> and type the path of the JRE in the text field or use the <guibutton>Browse</guibutton> button to select the correct JRE. When the text field shows the correct JRE path, click <guibutton>Next</guibutton>.
+					<guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the JRE in the Java developer kit you want to use. If it does not, click <guilabel>Specific Java JVM</guilabel> and type the path of the JRE in the text field or use the <guibutton>Browse</guibutton> button to select the correct JRE. When the text field shows the correct JRE path, click <guibutton>Next</guibutton>.
 				</para>
+				<important>
+					<para>
+						You must specify a 32-bit JRE to install a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio and a 64-bit JRE to install a 64-bit version of JBoss&nbsp;Developer&nbsp;Studio. To change the bit version of the JRE to be used for installing JBoss&nbsp;Developer&nbsp;Studio, complete the appropriate step for your operating system: 
+						<itemizedlist>
+							<listitem>
+								<para>
+									On OS X operating systems, from the <guilabel>Installation type</guilabel> list click the appropriate bit version.
+								</para>
+							</listitem>
+							<listitem>
+								<para>
+									On Linux distributions and Microsoft Windows operating systems, type the path to the appropriate bit version of the JRE.
+								</para>
+							</listitem>
+						</itemizedlist>
+					</para>
+				</important>
 			</step>
 			<step>
 				<para>
-					To make use of automatic runtime detection for finding runtime servers, click <guibutton>Add</guibutton> and type the path of a runtime server in the <guilabel>Location</guilabel> field or click <guibutton>Browse</guibutton> to navigate to the runtime server location. If you want this path to be scanned for new runtime servers each time JBoss&nbsp;Developer&nbsp;Studio starts, select the <guilabel>Scan every start</guilabel> check box. Click <guibutton>OK</guibutton> to close the <guilabel>Add Location</guilabel> window and click <guibutton>Next</guibutton>.
+					To make use of automatic runtime detection for finding application servers, click <guibutton>Add</guibutton>. Type the path from which recursive scanning for application servers should commence or click <guibutton>Browse</guibutton> to navigate to the path. To detect a specific application server, select the install directory for that application server. To detect multiple application servers, select a directory higher up the directory tree. If you want this path to be scanned for new application servers each time JBoss&nbsp;Developer&nbsp;Studio starts, select the <guilabel>Scan every start</guilabel> check box. Click <guibutton>OK</guibutton> to close the <guilabel>Add Location</guilabel> window and click <guibutton>Next</guibutton>.
 				</para>
 			</step>
 			<step>
@@ -198,7 +211,7 @@
 		</sectioninfo>
 		<title>Set Usage Reporting</title>
 		<para>
-			JBoss&nbsp;Developer&nbsp;Studio has usage reporting. At the first start of the development environment after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio. The information collected enables Red Hat to understand how and where JBoss&nbsp;Developer&nbsp;Studio is being used. Specifically, information about operating systems and displays assists to continually improve JBoss&nbsp;Developer&nbsp;Studio.
+			JBoss&nbsp;Developer&nbsp;Studio has usage reporting. At the first start of the development environment after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio. The information collected enables Red Hat to understand how and where JBoss&nbsp;Developer&nbsp;Studio is being used. Specifically, information about operating systems and system display resolution assists in continually improving JBoss&nbsp;Developer&nbsp;Studio.
 		</para>
 		<para>
 			The following information is collected: 

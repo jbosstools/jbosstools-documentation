@@ -44,7 +44,7 @@
 				</listitem>
 				<listitem>
 					<para>
-						Set up a runtime server using Server Manager
+						Set up a server using JBoss Server Tools runtime detection
 					</para>
 				</listitem>
 				<listitem>
@@ -115,18 +115,18 @@
 			</listitem>
 			<listitem>
 				<para>
-					JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6 is installed.
+					JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x is installed.
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Maven, distributed with JBoss&nbsp;Developer&nbsp;Studio but also available independently, is configured for JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6 but it is not configured for JBoss&nbsp;Developer&nbsp;Studio.
+					JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x Maven repository is installed but Maven is not necessarily configured to use it.
 				</para>
 			</listitem>
 		</itemizedlist>
 		<note>
 			<para>
-				If you wish to use JBoss&nbsp;Application&nbsp;Server 7.1 instead of JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6, you may install it and you should modify all the references to JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6 in this tutorial accordingly.
+				If you want to use JBoss&nbsp;Application&nbsp;Server 7.1 instead of JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x, you can install it and you should modify all the references to JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x in this tutorial accordingly.
 			</para>
 		</note>
 	</section>
