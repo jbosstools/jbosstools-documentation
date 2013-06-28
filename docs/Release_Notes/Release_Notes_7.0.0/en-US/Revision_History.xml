@@ -8,7 +8,21 @@
 	<simpara>
 		<revhistory>
 			<revision>
-				<revnumber>7.0.0-7</revnumber>
+				<revnumber>7.0.0-9</revnumber>
+				<date>Fri Jun 28 2013</date>
+				<author>
+					<firstname>Michelle</firstname>
+					<surname>Murray</surname>
+					<email>mmurray@redhat.com</email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>Removal of Project Examples new features</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>7.0.0-8</revnumber>
 				<date>Wed Jun 26 2013</date>
 				<author>
 					<firstname>Michelle</firstname>

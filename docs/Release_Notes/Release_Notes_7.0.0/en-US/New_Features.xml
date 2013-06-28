@@ -10,10 +10,10 @@
 
 	<variablelist>
 		<title></title>			
-		<varlistentry>
+		<!--<varlistentry>
 			<term>Project Examples</term>
 			<listitem><para>The project examples offered in JBoss Central can be used when offline. The examples and their dependencies can be pre-cached during an online session and then an offline mode can be enabled. Pre-caching and offline mode can be accessed in the IDE <guimenu>Preferences</guimenu>, under <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Project Examples</guilabel>.</para></listitem>
-		</varlistentry>
+		</varlistentry> -->
 		<varlistentry>
 			<term>Forge Tools</term>
 			<listitem><para>The Forge wizards have been relocated and can be found by clicking <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu>&rarr;<guimenu>Other</guimenu> and expanding <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Forge</guilabel>. The <guilabel>Entities From Tables</guilabel> wizard provides options to create a project if one does not already exist and browse for the driver JAR file and the driver classes. The <guilabel>Scaffold UI From Entities</guilabel> wizard has been simplified and provides the option to choose between JavaServer Faces and AngularJS implementations. A new wizard has been introduced that generates REST endpoints for entities. Progress bars have been added to all of the wizards to indicate their progress.</para></listitem>
