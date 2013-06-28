@@ -25,7 +25,7 @@
 				</listitem>
 				<listitem>
 					<para>
-						A minimum about of RAM and hard disk space are required to install and run JBoss&nbsp;Developer&nbsp;Studio.
+						A minimum amount of RAM and hard disk space are required to install and run JBoss&nbsp;Developer&nbsp;Studio.
 					</para>
 				</listitem>
 				<listitem>
@@ -98,9 +98,7 @@
 					</row>
 					<row>
 						<entry>
-							<remark>
-								[QE]Ubuntu 12.04.2 LTS and Ubuntu 13.04
-							</remark>
+							Ubuntu 12.04.2 LTS and Ubuntu 13.04
 						</entry>
 						<entry>
 							x86, x86_64
@@ -113,16 +111,11 @@
 			As JBoss&nbsp;Developer&nbsp;Studio 7 is based on Eclipse Kepler (4.3), the system requirements of Eclipse Kepler also apply to JBoss&nbsp;Developer&nbsp;Studio 7. For example, GTK is required as the windowing system on Linux distributions, Win32 on Microsoft Windows operating systems and Cocoa on OS X operating systems. For more information about Eclipse system requirements see <ulink url="http://www.eclipse.org/"/> on the Eclipse website.
 		</para>
 		<para>
-			The Visual Page Editor and BrowserSim tools of JBoss&nbsp;Developer&nbsp;Studio 7 have additional system requirements and restrictions: 
+			The Visual Page Editor of JBoss&nbsp;Developer&nbsp;Studio 7 has additional system requirements and restrictions: 
 			<itemizedlist>
 				<listitem>
 					<para>
-						The visual component of the Visual Page Editor, which depends on XULRunner, does not operate in the 64-bit version of JBoss&nbsp;Developer&nbsp;Studio on OS X and Microsoft Windows operating systems. To work around this restriction, you must install a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio on 64-bit OS X and Microsoft Windows operating systems.
-					</para>
-				</listitem>
-				<listitem>
-					<para>
-						BrowserSim, which depends on WebKit, requires Apple Safari to be installed on Microsoft Windows operating systems. Only a 32-bit version of Apple Safari is available for Microsoft Windows operating systems. To work around this restriction, you must install a 32-bit version of Apple Safari and a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio on 32-bit and 64-bit Microsoft Windows operating systems.
+						The visual component of the Visual Page Editor, which depends on XULRunner, does not operate in the 64-bit version of JBoss&nbsp;Developer&nbsp;Studio on OS X and Microsoft Windows operating systems. To work around this restriction, you must install a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio with a 32-bit Java developer kit on 64-bit OS X and Microsoft Windows operating systems.
 					</para>
 				</listitem>
 			</itemizedlist>
@@ -168,13 +161,13 @@
 			</sectioninfo>
 			<title>Compatible Java Developer Kits</title>
 			<para>
-				JBoss&nbsp;Developer&nbsp;Studio 7 requires a Java developer kit of version 1.6 at a minimum. This release of JBoss&nbsp;Developer&nbsp;Studio is supported on the operating system and Java developer kit combinations listed in the table below. Although Oracle JDK 1.7 is available for OS X operating systems, this combination is incompatible with JBoss&nbsp;Developer&nbsp;Studio.
+				JBoss&nbsp;Developer&nbsp;Studio 7 requires a Java developer kit of version 1.6 or newer. This release of JBoss&nbsp;Developer&nbsp;Studio is supported on the operating system and Java developer kit combinations listed in the table below.
 			</para>
 			<table>
 				<title>Supported Combinations of Operating Systems and Java Developer Kits</title>
 				<tgroup align="left" cols="2" colsep="1" rowsep="1">
-					<colspec colwidth="1*"/>
-					<colspec colwidth="1*"/>
+					<colspec colwidth="3*"/>
+					<colspec colwidth="4*"/>
 					<thead>
 						<row>
 							<entry>
@@ -191,10 +184,7 @@
 								Red Hat Enterprise Linux 6
 							</entry>
 							<entry>
-								OpenJDK 1.6, OpenJDK 1.7, 
-								<remark>
-									[QE]Oracle JDK 1.6 and Oracle JDK 1.7
-								</remark>
+								OpenJDK 1.6, OpenJDK 1.7, Oracle JDK 1.6 and Oracle JDK 1.7
 							</entry>
 						</row>
 						<row>
@@ -218,17 +208,12 @@
 								OS X Lion (10.7) and OS X Mountain Lion (10.8)
 							</entry>
 							<entry>
-								Apple JDK 1.6 
-								<remark>
-									[QE]and Oracle JDK 1.7 (64-bit only)
-								</remark>
+								Apple JDK 1.6 and Oracle JDK 1.7 (64-bit only)
 							</entry>
 						</row>
 						<row>
 							<entry>
-								<remark>
-									[QE]Fedora 18 and Fedora 19
-								</remark>
+								Fedora 18 and Fedora 19
 							</entry>
 							<entry>
 								OpenJDK 1.6 and OpenJDK 1.7
@@ -236,9 +221,7 @@
 						</row>
 						<row>
 							<entry>
-								<remark>
-									[QE]Ubuntu 12.04.2 LTS and Ubuntu 13.04
-								</remark>
+								Ubuntu 12.04.2 LTS and Ubuntu 13.04
 							</entry>
 							<entry>
 								OpenJDK 1.6 and OpenJDK 1.7

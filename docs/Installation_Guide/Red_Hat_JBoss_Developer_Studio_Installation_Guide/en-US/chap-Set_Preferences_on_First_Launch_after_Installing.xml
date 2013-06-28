@@ -87,7 +87,7 @@
 		</sectioninfo>
 		<title>Set Usage Reporting</title>
 		<para>
-			JBoss&nbsp;Developer&nbsp;Studio has usage reporting. At the first start of the development environment after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio. The information collected enables Red Hat to understand how and where JBoss&nbsp;Developer&nbsp;Studio is being used. Specifically, information about operating systems and displays assists to continually improve JBoss&nbsp;Developer&nbsp;Studio.
+			JBoss&nbsp;Developer&nbsp;Studio has usage reporting. At the first start of the development environment after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio. The information collected enables Red Hat to understand how and where JBoss&nbsp;Developer&nbsp;Studio is being used. Specifically, information about operating systems and system display resolution assists in continually improving JBoss&nbsp;Developer&nbsp;Studio.
 		</para>
 		<para>
 			The following information is collected: 
@@ -224,15 +224,15 @@
 				</keyword>
 			</keywordset>
 		</sectioninfo>
-		<title>Set up Automatic Runtime Detection</title>
+		<title>Set up Runtime Detection</title>
 		<para>
-			JBoss&nbsp;Developer&nbsp;Studio has automatic runtime detection for finding runtime servers. This can be set up to scan locations for runtime servers when a new workspace is created or the IDE starts.
+			JBoss&nbsp;Developer&nbsp;Studio provides runtime detection for assisting in defining servers for use in the IDE. Runtime detection automatically generates a complete server definition for any installed application servers found in a given search path. Furthermore, runtime detection can be configured to scan locations for application servers when a new workspace is created or the IDE starts.
 		</para>
 		<para>
-			You may have already set this up during the installation process with the JBoss&nbsp;Developer&nbsp;Studio installer. If you have not set this up or you installed JBoss&nbsp;Developer&nbsp;Studio though Eclipse Marketplace, follow the procedure below to set up automatic runtime detection.
+			You may have already set up runtime detection up during the installation process with the JBoss&nbsp;Developer&nbsp;Studio installer. If you have not set this up or you installed JBoss&nbsp;Developer&nbsp;Studio BYOE, follow the procedure below to set up runtime detection.
 		</para>
 		<procedure>
-			<title>Set up Automatic Runtime Detection</title>
+			<title>Set up Runtime Detection</title>
 			<step>
 				<para>
 					Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Tools Runtime Detection</guilabel>.
@@ -240,24 +240,47 @@
 			</step>
 			<step>
 				<para>
-					To add a path for scanning, click <guibutton>Add</guibutton> and select a folder from which recursive scanning should commence. JBoss&nbsp;Developer&nbsp;Studio scans this folder and any subfolders to check for new runtime servers.
+					Click <guibutton>Add</guibutton>.
 				</para>
 			</step>
 			<step>
 				<para>
-					If new runtime servers are found, you can create instances of them. Select the check boxes of the runtime servers you want to create and click <guibutton>OK</guibutton>. If no runtime servers were found or you do not wish to create any instances click <guibutton>Cancel</guibutton>. In all cases, the path is added to the list of paths for scanning.
+					Select a path from which recursive scanning for application servers should commence. To detect a specific application server, select the install directory for that application server. To detect multiple application servers, select a directory higher up the directory tree.
 				</para>
 			</step>
 			<step>
 				<para>
-					If you want this path to be scanned for runtime servers each time the IDE starts, select the <guilabel>Every start</guilabel> check box for the new path.
+					Depending on the outcome of the scan, follow the appropriate step:
+				</para>
+				<stepalternatives>
+					<step>
+						<para>
+							If no new application servers are found or you do not wish to create any server runtime environments for them, click <guibutton>Cancel</guibutton>.
+						</para>
+					</step>
+					<step>
+						<para>
+							If new application servers are found, you can generate server runtime environments for them. Select the check boxes of the application servers for which you want to generate server runtime environments and click <guibutton>OK</guibutton>.
+						</para>
+					</step>
+				</stepalternatives>
+				<para>
+					In all cases, the path is added to the <guilabel>Paths</guilabel> table.
 				</para>
 			</step>
 			<step>
 				<para>
-					Click <guibutton>Apply</guibutton> to save any new paths and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.
+					In the <guilabel>Paths</guilabel> table, select the <guilabel>Every start</guilabel> check box for all of the paths that you want to be automatically searched on IDE start.
+				</para>
+			</step>
+			<step>
+				<para>
+					Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.
 				</para>
 			</step>
 		</procedure>
+		<para>
+			Generated server runtime environments are listed in <guimenu>Preferences</guimenu> under <guilabel>Server</guilabel>&rarr;<guilabel>Runtime Environments</guilabel>. A default server adapter is automatically created for each generated server runtime environment to complete the server definition. Server adapters are listed in the <guilabel>Servers</guilabel> tab.
+		</para>
 	</section>
 </chapter>
