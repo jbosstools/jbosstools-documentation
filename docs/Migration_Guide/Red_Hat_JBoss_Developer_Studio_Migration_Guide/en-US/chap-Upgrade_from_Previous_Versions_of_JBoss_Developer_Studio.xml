@@ -37,7 +37,7 @@
 			It is not possible to upgrade an existing JBoss&nbsp;Developer&nbsp;Studio installation to JBoss&nbsp;Developer&nbsp;Studio 7 because they are based on different versions of Eclipse. For example, JBoss&nbsp;Developer&nbsp;Studio 6 is based on Eclipse Juno (4.2) but JBoss&nbsp;Developer&nbsp;Studio 7 is based on Eclipse Kepler (4.3).
 		</para>
 		<para>
-			To use JBoss&nbsp;Developer&nbsp;Studio 7, you must download and run the universal installer available from the Customer Service Portal at <ulink url="https://access.redhat.com"/>.
+			To use JBoss&nbsp;Developer&nbsp;Studio 7, you must download and run the universal installer available from the Customer Portal at <ulink url="https://access.redhat.com"/>.
 		</para>
 		<note>
 			<para>
