@@ -115,7 +115,7 @@
 			<itemizedlist>
 				<listitem>
 					<para>
-						The visual component of the Visual Page Editor, which depends on XULRunner, does not operate in the 64-bit version of JBoss&nbsp;Developer&nbsp;Studio on OS X and Microsoft Windows operating systems. To work around this restriction, you must install a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio on 64-bit OS X and Microsoft Windows operating systems.
+						The visual component of the Visual Page Editor, which depends on XULRunner, does not operate in the 64-bit version of JBoss&nbsp;Developer&nbsp;Studio on OS X and Microsoft Windows operating systems. To work around this restriction, you must install a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio with a 32-bit Java developer kit on 64-bit OS X and Microsoft Windows operating systems.
 					</para>
 				</listitem>
 			</itemizedlist>
