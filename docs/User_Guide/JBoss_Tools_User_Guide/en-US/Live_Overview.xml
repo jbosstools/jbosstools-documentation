@@ -9,9 +9,9 @@
 	<section>
 		<title>About LiveReload</title>
 	
-		<para>LiveReload is an application that refreshes web pages open in browsers as their source is edited. Immediate and automatic web page refreshing, without the need to manually refresh, simplifies the workflow of web developers.</para>
+		<para>LiveReload is an open source tool that refreshes web pages open in browsers as their source is edited. Immediate and automatic web page refreshing, without the need to manually refresh, simplifies the workflow of web developers.</para>
 		
-		<para>LiveReload consists of server-side and client-side components. The server-side application monitors the source and sends notification as the source is changed. On the client-side, a browser extension intercepts the notifications and inserts a JavaScript snippet into the source code, which envokes the browser to refresh the web page. Alternatively, the JavaScript snippet can be inserted manually. Depending upon the changes to the source, the web page is either reloaded or the browser updated instantly without reloading.</para>
+		<para>LiveReload consists of server-side and client-side components. The server-side application monitors the source and sends notification as the source is changed. On the client-side, a JavaScript snippet receives the notification invokes the browser to refresh the web page. The JavaScript snippet can be installed and activated via a Browser Extension. Alternatively, it can be inserted manually in the HTML pages. Depending upon the changes to the source, the web page is either reloaded or the browser updated instantly without reloading. The server-side and client-side components communicate using the WebSocket protocol, which allows the server-side application to send notifications to the client-side JavaScript snippet.</para>
 		
 		<para>The LiveReload application is available for OS X and Microsoft Window operating systems and through a third-party provider for Linux-based operating systems. LiveReload browser extensions are available for Safari, Chrome and Firefox.</para>
 
@@ -23,7 +23,7 @@
 	
 		<para>LiveReload Tools is tooling that implements LiveReload in the IDE. It enables you to take advantage of LiveReload browser refreshing while editing files within the IDE. The capabilities of LiveReload Tools also removes the need to install the LiveReload standalone application or browser extensions.</para>
 
-		<para>Like LiveReload, LiveReload Tools consists of server-side and client-side components that implement the LiveReload functionality. A LiveReload server achieves the server-side actions, listening to the IDE for resource changes and sending notifications for refreshes as appropriate. The server can also be configured to achieve the client-side actions, acting on the LiveReload server notifications and injecting JavaScript snippet into the source code, causes the browser to apply or refresh resources. This removes the need to install LiveReload browser extensions.</para>
+		<para>LiveReload Tools is the implementation of server-side component described above. A LiveReload server achieves the server-side actions, listening to the IDE for resource changes and sending notifications for refreshes as appropriate. The server can also be configured to inject the livereload.js JavaScript snippet into the source code, which remove the need to install LiveReload browser extensions.</para>
 		
 		<para>Unique features of LiveReload tools include LiveReload for both workspace and deployed resources due to the use of HTTP protocol for all resources and LiveReload on external devices with access and ease of use for remote connections to LiveReload servers. The LiveReload server can also be used in conjunction with BrowserSim, extending LiveReload to simulated devices.</para>
 		

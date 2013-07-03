@@ -24,7 +24,7 @@
 	<section>
 		<title>Create a LiveReload Server</title>
 	
-		<para>The LiveReload server is integral to the LiveReload integration with the IDE. In its default configuration, the server receives information from the IDE when resources change and sends notifications for refresh actions to be taken. The server must be further configured to complete the LiveReload client-side actions, such as acting on its own notifications and injecting the necessary JavaScript code snippets into resource files. The procedure below guides you through creating a default LiveReload server.</para>
+		<para>The LiveReload server is integral to the LiveReload integration with the IDE. In its default configuration, the server receives information from the IDE when resources change and sends notifications for refresh actions to be taken. The server may also be further configured to inject the necessary JavaScript code snippets into HTML files or enable remote connections. The procedure below guides you through creating a default LiveReload server.</para>
 		
 		<procedure>
 			<title>Create a LiveReload Server</title>
@@ -42,7 +42,7 @@
 	<section>
 		<title>Configure the LiveReload Server</title>
 
-		<para>On interception of the LiveReload server notifications about changed resources, a LiveReload client must insert a JavaScript code snippet into resource files. LiveReload Tools provides additional configuration options so that the LiveReload server itself can be the client and complete this task without the need for LiveReload browser extensions. Furthermore, the LiveReload server can be configured to allow access from external devices, enabling LiveReload to function in browsers of remote devices.</para> 
+		<para>To receive the LiveReload server notifications about changed resources, a LiveReload client must be inserted into HTML resources. LiveReload Tools provides additional configuration options so that the LiveReload server can inject the &lt;script&gt; element into the HTML resources, which removes the need for LiveReload browser extensions. Furthermore, the LiveReload server can be configured to allow access from external devices, enabling LiveReload to function in browsers of remote devices.</para> 
 		
 		<para>The details below outline how to set the configuration options using the Server Editor. To open the Server Editor for a LiveReload server, in the <guilabel>Servers</guilabel> tab double-click the LiveReload server. Alternatively, right-click the LiveReload server and click <guimenu>Open</guimenu> or press <keycap>F3</keycap>.</para>
 		
