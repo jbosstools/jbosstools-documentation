@@ -4,7 +4,7 @@
 %BOOK_ENTITIES;
 ]>
 <bookinfo id="book-Documentation-Release_Notes-Release_Notes">
-	<title>Release Notes 7.0.0.Beta2</title>
+	<title>Release Notes 7.0.0</title>
 	<subtitle>Information about changes to JBoss Developer Studio</subtitle>
 	<productname>Red Hat JBoss Developer Studio</productname>
 	<productnumber>7.0</productnumber>
