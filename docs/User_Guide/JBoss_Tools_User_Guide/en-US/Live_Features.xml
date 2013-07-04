@@ -42,7 +42,7 @@
 	<section>
 		<title>Configure the LiveReload Server</title>
 
-		<para>To receive the LiveReload server notifications about changed resources, a LiveReload client must be inserted into HTML resources. LiveReload Tools provides additional configuration options so that the LiveReload server can inject the &lt;script&gt; element into the HTML resources, which removes the need for LiveReload browser extensions. Furthermore, the LiveReload server can be configured to allow access from external devices, enabling LiveReload to function in browsers of remote devices.</para> 
+		<para>A LiveReload client must be inserted into HTML files in order for it to receive the LiveReload server notifications about changed resources. LiveReload Tools provides additional configuration options so that the LiveReload server can inject the necessary <command>&lt;script&gt;</command> element into the HTML resources. Furthermore, the LiveReload server can be configured to allow access from external devices, enabling LiveReload to function in browsers of remote devices.</para> 
 		
 		<para>The details below outline how to set the configuration options using the Server Editor. To open the Server Editor for a LiveReload server, in the <guilabel>Servers</guilabel> tab double-click the LiveReload server. Alternatively, right-click the LiveReload server and click <guimenu>Open</guimenu> or press <keycap>F3</keycap>.</para>
 		
