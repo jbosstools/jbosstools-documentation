@@ -8,6 +8,20 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.0.0-10</revnumber>
+				<date>Thu Jul 04 2013</date>
+				<author>
+					<firstname>Michelle</firstname>
+					<surname>Murray</surname>
+					<email>mmurray@redhat.com</email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>First draft</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+<!--			<revision>
 				<revnumber>7.0.0-9</revnumber>
 				<date>Fri Jun 28 2013</date>
 				<author>
@@ -48,7 +62,7 @@
 						<member>First draft</member>
 					</simplelist>
 				</revdescription>
-			</revision>
+			</revision> -->
 		</revhistory>
 	</simpara>
 </appendix>
