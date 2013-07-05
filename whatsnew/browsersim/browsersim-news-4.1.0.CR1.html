@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Language" content="en-us" />
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" href="../whatsnew.css" />
-<title>BrowserSim/CordovaSim 4.1.0.Beta1 What's New</title>
+<title>BrowserSim/CordovaSim 4.1.0.CR1 What's New</title>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -21,13 +21,10 @@
 
 </script></head>
 <body>
-<h1 style="text-align:left">BrowserSim/CordovaSim 4.1.0.Beta2 What's&nbsp;New</h1>
+<h1 style="text-align:left">BrowserSim/CordovaSim 4.1.0.CR1 What's&nbsp;New</h1>
 
 <p align="right">
-	<a
-	href="../livereload/livereload-news-1.0.0.Beta2.html">&lt;
-	Live Reload </a>
-	<a href="../maven/maven-news-4.1.0.Beta2.html">Maven Tools &gt;</a>
+	<a href="../index.html">&lt; Main Index</a>
 </p>
 
 <table border="0" cellpadding="10" cellspacing="0">
@@ -41,20 +38,34 @@
 	<tr>
 		<td valign="top" align="left">
 		<b><p>
-		  JVM selection and 64-bit Eclipse support on Windows
+		 	Configurable Live Reload port
 		<p></b>
 		</td>
 		<td valign="top">
 		  <p>
-			Now you can specify which JVM is used to launch BrowserSim/CordovaSim.
-			This allows to run BrowserSim/CordovaSim from 64-bit Eclipse on Windows.
-            To specify JVM go to <b>Window > Preferences > BrowserSim/CordovaSim</b> and choose a suitable JVM
-			(32-bit JRE/JDK 6 or JDK 7 (but not JRE 7) on Windows):
+			Now you can specify the port for the Live Reload server.
+            To specify the port go to <b>Menu > Preferences > Settings</b> and enter the desired value into the "LiveReload Port" input field.
 		  </p>
-		  <p><img src="images/4.1.0.Beta2/BrowserSim-preferences.png"  width='718' height='811' alt='Preferences'></p>
+		  <p><img src="images/4.1.0.CR1/BrowserSim-livereloadPort.png"  width='451' height='555' alt='Configurable Live Reload port'></p>
 		<p><small>
 		Related JIRA:
-			<a href="https://issues.jboss.org/browse/JBIDE-13988">JBIDE-13988</a>.
+			<a href="https://issues.jboss.org/browse/JBIDE-14361">JBIDE-14361</a>.
+		</small></p>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" align="left">
+		<b><p>
+		  Weinre UI enhancements
+		<p></b>
+		</td>
+		<td valign="top">
+			<p>
+				Now Weinre is more informative and user-friendly. There are several UI enhancements, such as progress monitor and address bar. Weinre can be opened via <b>Menu > Debug > Weinre</b>
+			</p>
+			<p><img src="images/4.1.0.CR1/weinre-ui-enhancements.png"  width='700' height='492' alt='Weinre UI enhancements'></p>
+		<p><small>
+			Related JIRA:<a href="https://issues.jboss.org/browse/JBIDE-14079">JBIDE-14079</a>.
 		</small></p>
 		</td>
 	</tr>
