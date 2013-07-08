@@ -9,9 +9,9 @@
 	<section>
 		<title>About JBoss Central</title>
 		
-		<para>JBoss Central is a core IDE tab, providing access to JBoss information and assistance in one centralized location.</para>
+		<para>JBoss Central is a core IDE tab, providing access to JBoss information and assistance in one centralized location. It offers features for first time users of <phrase condition="jbds">JBoss Developer Studio</phrase><phrase condition="jbt">JBoss Tools</phrase>, as well as those with more experience.</para>
 		
-		<para>The JBoss Central tab comprises resources and actions for getting started and installing software updates:
+		<para>The JBoss Central tab comprises resources and actions for creating new projects, learning about the tools and installing software updates:
 			<itemizedlist>
 				<listitem><para>Project wizards create new projects based on sample applications and different technologies.</para></listitem>
 				<listitem><para>The TicketMonster tutorial, part of JBoss Java Developer Framework, demonstrates how to use the IDE to best advantage in developing a complex web application that utilizes JBoss technologies.</para></listitem>
