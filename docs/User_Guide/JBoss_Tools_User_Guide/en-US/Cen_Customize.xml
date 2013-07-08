@@ -11,7 +11,7 @@
 	
 		<para>The aim of this section is to guide you in customizing JBoss Central and the JBoss perspective:</para>
 		<itemizedlist>
-			<listitem><para>Make JBoss Central and the JBoss perspective visible and active when the IDE starts</para></listitem>
+			<listitem><para>Make JBoss Central visible when the IDE starts</para></listitem>
 			<listitem><para>Customize the menu and toolbar items of the JBoss perspective</para></listitem>
 		</itemizedlist>
 
@@ -31,22 +31,13 @@
 
 	
 	<section>
-		<title>Set JBoss as the Default Perspective</title>
-	
-		<para>There are a number of perspectives available in the IDE. When the IDE starts, the default perspective is used as the current perspective. If you use the tabs, menus or toolbars of the JBoss perspective frequently, you may want to make it the default perspective. </para>
-		
-		<para>To set JBoss as the default perspective of the IDE, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>General</guilabel> and select <guilabel>Perspectives</guilabel>. From the <guilabel>Available Perspectives</guilabel> list, select <guilabel>JBoss</guilabel> and click <guibutton>Make Default</guibutton>. Click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</para>
-		
-	</section>
-	
-	<section>
 		<title>Customize the Default Tabs, Menus and Toolbars of the JBoss Perspective</title>
 		
 		<para>You can customize the menus and toolbars displayed by the JBoss perspective, as with any perspective.</para>
 		
 		<para>To customize the JBoss perspective, ensure it is the current perspective and click <guibutton>Window</guibutton>&rarr;<guimenu>Customize Perspective</guimenu>. In the <guilabel>Tool Bar Visibility</guilabel> tab, select or clear the check boxes corresponding to the individual toolbars and icons visible in the global toolbar of the JBoss perspective as appropriate. In the <guilabel>Menu Visibility</guilabel> tab, select or clear the check boxes corresponding to the menus and menu items visible in the JBoss perspective as appropriate. Disabled items in the <guilabel>Tool Bar Visibility</guilabel> or <guilabel>Menu Visibility</guilabel> tab can be activated in the <guilabel>Command Groups Availability</guilabel> tab. Click <guibutton>OK</guibutton> to close the window.</para>
 
-		<!--Seems to have been disabled <para>You can reorder the individual toolbars comprising the global toolbar in the JBoss perspective. To reorder, click the line indicating the beginning of a toolbar and drag the toolbar to its new location in the global toolbar.</para> -->
+		<para>You can reorder the individual toolbars comprising the global toolbar in the JBoss perspective. To reorder, click the vertical line indicating the beginning of a toolbar and drag the toolbar to its new location in the global toolbar.</para>
 		
 		<para>Additionally, you can customize which tabs are part of the JBoss perspective. To customize the tabs, ensure the JBoss perspective is the current perspective. Open or close tabs as desired and click <guimenu>Window</guimenu>&rarr;<guimenu>Save Perspective As</guimenu>. From the <guilabel>Existing Perspectives</guilabel> list, select <guilabel>JBoss</guilabel> and click <guibutton>OK</guibutton>. At the prompt asking if you want to overwrite the existing JBoss perspective, click <guibutton>Yes</guibutton>.</para>
 		
