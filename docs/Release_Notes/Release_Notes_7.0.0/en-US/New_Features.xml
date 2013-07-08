@@ -55,7 +55,7 @@
 			<term>Forge Tools</term>
 			<listitem>
 				<itemizedlist>
-					<listitem><para>The embedded Forge runtime server is version 1.3.0.Final.</para></listitem>
+					<listitem><para>The embedded Forge runtime server is version 1.3.2.Final.</para></listitem>
 					<listitem><para>Wizards have been implemented for common Forge commands as a visual and guided alternative to the command line. The Forge wizards can be found by clicking <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu>&rarr;<guimenu>Other</guimenu> and expanding <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Forge</guilabel>. All of the wizards have progress bars to indicate their progress.</para></listitem>
 					<listitem><para>The current wizards enable the generation of entities from existing databases, the creation of a scaffolding user interface based on JPA project entities, and the generation of REST endpoints for entities. More wizards are to be added in future releases.</para></listitem>
 				</itemizedlist>
@@ -69,6 +69,7 @@
 					<listitem><para>While you could already add and remove the Maven repositories defined under profiles in your <filename>settings.xml</filename> file, you can now also edit existing profiles.</para></listitem>
 					<listitem><para>Automatic downloading of missing JAR dependencies for Maven projects has been extended to all types of projects. As such, you are informed when a compatible source is found, downloaded sources are stored in your local Maven repository and you can automate source associations with the <guilabel>Remember my decision</guilabel> feature.</para></listitem>
 					<listitem><para>More information is provided about dependencies when a project is converted into a Maven project. After double-clicking a dependency to change the scope, non-default scopes and optional attributes for compile and runtime scopes are explicitly displayed in the "Maven Dependency" column of the dependency identification page.</para></listitem>
+					<listitem><para>The automatic source lookup feature has been extended for Maven projects. Rather than solely checking that a sourcePath file is set and exists, it now checks whether the attached source contains matching source files and it can download sources when they are incorrect or missing. </para></listitem>
 				</itemizedlist>
 			</listitem>
 		</varlistentry>
@@ -116,7 +117,7 @@
 				<itemizedlist>
 					<listitem><para>iPad and iPad Mini skins have been added to the ever growing range of available simulated devices.</para></listitem>
 					<listitem><para>FireBug Lite and Weinre have been integrated so that you can debug the source pages of your web applications with familiar tools.</para></listitem>
-					<listitem><para>LiveReload is available on simulated devices so that open web pages are automatically updated as you change the source code. This feature can be enabled on a per simulated device basis.</para></listitem>
+					<listitem><para>LiveReload is available on simulated devices so that open web pages are automatically updated as you change the source code. This feature can be enabled on a per simulated device basis and the port used to communicate with the LiveReload server can be customized.</para></listitem>
 					<listitem><para>You can take screen captures of simulated devices and their web pages and open multiple synchronized simulated devices showing the same web page but with different skins.</para></listitem>
 					<listitem><para>The BrowserSim restriction requiring 64-bit Microsoft Windows operating systems to use 32-bit JBoss Developer Studio installations is lifted because the JVM with which to launch BrowserSim can be specified independently in the IDE <guimenu>Preferences</guimenu>, under <guilabel>BrowserSim/CordovaSim</guilabel>. This enables BrowserSim to be run with 32-bit JVMs from within 64-bit JBoss Developer Studio installations on 64-bit Microsoft Windows operating systems. Note that 32-bit JVM choice is limited to Oracle 32-bit JRE 1.6, JDK 1.6, or JDK 1.7 on Microsoft Windows operating systems because Oracle 32-bit JRE 1.7 is incompatible with Apple Safari.</para></listitem>
 				</itemizedlist>
