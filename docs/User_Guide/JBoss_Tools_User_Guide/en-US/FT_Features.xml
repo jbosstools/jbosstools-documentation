@@ -18,7 +18,7 @@
 			<listitem><para>Use wizards for accomplishing common Forge commands as an alternative to the Forge command line</para></listitem>
 		</itemizedlist>
 
-		<para><remark>[DOCS] Watching JBIDE-13486: open a cheat sheet after starting Forge; JBIDE-13573: add debug/run button or preferences action in console; JBIDE-13192: pick-up automatically executed after new-project command; JBIDE-13194: ask user to restart forge after changing VM arguments or changing debug mode; JBDS-2532: forge wizards for top use cases; JBIDE-14123: file selected in Project Explorer tab after entity and field commands; JBIDE-14686: new field created with Forge wizard should be outlined in editor; JBIDE-13978: add forge 1 wizards to JBT; JBIDE-14615: set VERBOSE command opens Error Log tab; JBIDE-14607: forge wizards more visible; JBIDE-14683: setup persistence wizard issue; JBIDE-12443: Add forge tab to JBoss perspective</remark></para>
+		<!--<para><remark>[DOCS] Watching JBIDE-13486: open a cheat sheet after starting Forge; JBIDE-13573: add debug/run button or preferences action in console; JBIDE-13192: pick-up automatically executed after new-project command; JBIDE-13194: ask user to restart forge after changing VM arguments or changing debug mode; JBIDE-14615: set VERBOSE command opens Error Log tab; JBIDE-12443: Add forge tab to JBoss perspective</remark></para> -->
 
 	</section>
 
@@ -104,15 +104,14 @@
 			</varlistentry>
 			<varlistentry>
 				<term><command>entity</command></term>
-				<listitem><para>The command creates a new entity and associated Java file. This file is automatically opened in the Java editor within the IDE.</para></listitem>
+				<listitem><para>The command creates a new entity and associated Java file. This file is selected in the <guilabel>Project Explorer</guilabel> and <guilabel>Package Explorer</guilabel> tabs and it is automatically opened in the Java editor within the IDE.</para></listitem>
 			</varlistentry>
 			<varlistentry>
 				<term><command>field</command></term>
-				<listitem><para>The command creates a new field for an entity. The Java file associated with the entity is automatically opened in an editor within the IDE and the field selected. The field is also selected in the <guilabel>Outline</guilabel> tab.</para></listitem>
+				<listitem><para>The command creates a new field for an entity. The Java file associated with the entity is selected in the <guilabel>Project Explorer</guilabel> and <guilabel>Package Explorer</guilabel> tabs and it is automatically opened in an editor within the IDE and the field selected. The field is also selected in the <guilabel>Outline</guilabel> tab.</para></listitem>
 			</varlistentry>			
 		</variablelist>	
-
-		
+	
 	</section>
 	
 	
@@ -129,23 +128,26 @@
 	<section>
 		<title>Use Forge Wizards</title>
 
-		<para><remark>[DOCS] Still to do</remark></para>
-
-		<!--<para>You may prefer to work with wizards rather than the command line. Forge Tools provides wizards for some of the most used Forge commands, in addition to supporting command line functionality. As detailed below, wizards are currently available for generating and scaffolding entities.</para>
-		
-		<para>To open a Forge Tools wizard, click <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu>&rarr;<guimenu>Other</guimenu> and expand <guilabel>JBoss Tools</guilabel>. Select one of the wizards listed here and click <guibutton>Next</guibutton>. If Forge is not started, it will be automatically.</para>
-		
+		<para>You may prefer to work with wizards rather than the command line. Forge Tools provides wizards for some of the most used Forge commands, in addition to supporting command line functionality. There are three wizards currently available relating to entities, as detailed below.</para>
 		<variablelist>
 			<title></title>
 			<varlistentry>
-				<term>Generate entities</term>
-				<listitem><para>This wizard generates entities from an existing database. Click <guibutton>Finish</guibutton>.</para></listitem>
+				<term>Entities from Tables</term>
+				<listitem><para>This wizard generates entities from an existing database. There are options for creating a new project if one does not already exist and browsing for the driver.jar and driver classes.</para></listitem>
 			</varlistentry>
 			<varlistentry>
-				<term>Scaffold entities</term>
-				<listitem><para>This wizard generates the necessary scaffolding for you to use JPA entities in your JSF project. It creates Facelets pages and Java backing beans. Click <guibutton>Finish</guibutton>.</para></listitem>
+				<term>REST Endpoints from Entities</term>
+				<listitem><para>This wizard generates REST endpoint for entities.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Scaffold UI from Entities</term>
+				<listitem><para>This wizard generates the necessary scaffolding for you to use JPA entities in your project. There are options for JavaServer Faces and AngularJS implementations, with the wizard creating the associated pages and Java backing beans.</para></listitem>
 			</varlistentry>			
-		</variablelist>	-->
+		</variablelist>	
+		
+		<para>To open a Forge Tools wizard, click <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu>&rarr;<guimenu>Other</guimenu> and expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Forge</guilabel>. Select one of the listed wizards, click <guibutton>Next</guibutton> and follow the instructions. If Forge is not already started, this automatically occurs.</para>
+		
+
 					
 	</section>
 	
