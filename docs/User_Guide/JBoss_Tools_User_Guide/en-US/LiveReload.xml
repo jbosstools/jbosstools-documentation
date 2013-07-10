@@ -4,7 +4,7 @@
 %BOOK_ENTITIES;
 ]>
 <chapter>
-	<title>Live Reload Tools</title>
+	<title>LiveReload Tools</title>
 	<para></para>
 
 	<xi:include href="Live_Overview.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />

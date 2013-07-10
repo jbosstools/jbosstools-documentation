@@ -59,8 +59,8 @@
 		<variablelist>
 			<title></title>
 			<varlistentry>
-				<term>View JBoss Developer Studio website</term>
-				<listitem><para>In the <guilabel>JBoss Central</guilabel> tab, click the <guibutton>JBoss Developer Studio Home</guibutton> icon.</para></listitem>
+				<term>View JBoss <phrase condition="jbds">Developer Studio</phrase><phrase condition="jbt">Tools</phrase> website</term>
+				<listitem><para>In the <guilabel>JBoss Central</guilabel> tab, click the <phrase condition="jbds"><guibutton>JBoss Developer Studio Home</guibutton></phrase><phrase condition="jbt"><guibutton>JBoss Tools Home</guibutton></phrase> icon.</para></listitem>
 			</varlistentry>
 			<varlistentry>
 				<term>View the latest JBoss developments</term>

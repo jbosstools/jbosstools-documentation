@@ -210,7 +210,7 @@
 			<step><para>In the <guilabel>Name</guilabel> field, type a name for the new OpenShift application.</para>
 				<note><para>There are restrictions on the name you can use for an application. Names must consist only of letters and digits.</para></note>
 			</step>
-			<step><para>From the <guilabel>Type</guilabel> list, select a runtime server. This will ensure the necessary foundational programming or technology cartridge is added to your application.</para></step>
+			<step><para>From the <guilabel>Type</guilabel> list, select a runtime server. This will ensure the necessary core programming or technology cartridge is added to your application.</para></step>
 			<step><para>From the <guilabel>Gear profile</guilabel> list, select the gear size. This is RAM and disk space required by your applications and its cartridges. If you are using OpenShift Online with Free Plan, you have access to small gears only.</para></step>
 			<step><para>If you want OpenShift to automatically increase the instances of your application and enable clustering as usage increases, select the <guilabel>Enable scaling</guilabel> check box.</para></step>
 			<step><para>From the <guilabel>Embedded Cartridges</guilabel> list, select the functionality you want to enable in your application. This will add associated capabilities and support to your application.</para></step>
@@ -248,7 +248,7 @@
 			<step><para>In the <guilabel>Name</guilabel> field, type a name for the new OpenShift application. For simplicity, you may choose this to be the same as the name of the workspace project.</para>
 				<note><para>There are restrictions on the name you can use for an application. Names must consist only of letters and digits.</para></note>
 			</step>
-			<step><para>From the <guilabel>Type</guilabel> list, select a runtime server. This will ensure the necessary foundational programming or technology cartridge is added to your application.</para></step>
+			<step><para>From the <guilabel>Type</guilabel> list, select a runtime server. This will ensure the necessary core programming or technology cartridge is added to your application.</para></step>
 			<step><para>From the <guilabel>Gear profile</guilabel> list, select the gear size. This is RAM and disk space required by your applications and its cartridges. If you are using OpenShift Online with Free Plan, you have access to small gears only.</para></step>
 			<step><para>If you want OpenShift to automatically increase the instances of your application and enable clustering as usage increases, select the <guilabel>Enable scaling</guilabel> check box.</para></step>
 			<step><para>From the <guilabel>Embedded Cartridges</guilabel> list, select the functionality you want to enable in your application. This will add associated capabilities and support to your application.</para></step>
