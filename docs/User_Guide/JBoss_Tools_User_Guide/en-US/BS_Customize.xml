@@ -101,7 +101,7 @@
 	
 		<para>By default, when a device window is too large to fit the display of the system, you are prompted about which action should be taken. Rather than prompting, the default behavior can be set to always truncate or never truncate.</para>
 		
-		<para>To change the default behavior, right-click the simulated device and click <guimenu>Preferences</guimenu>. <remark>[QE]Under <guilabel>Truncate the device window when it does not fit display</guilabel>, click <guilabel>Always truncate</guilabel> or <guilabel>Never truncate</guilabel></remark> to change the behavior as appropriate and click <guibutton>OK</guibutton> to close the window.</para>
+		<para>To change the default behavior, right-click the simulated device and click <guimenu>Preferences</guimenu>. Under <guilabel>Truncate the device window when it does not fit display</guilabel>, click <guilabel>Always truncate</guilabel> or <guilabel>Never truncate</guilabel> to change the behavior as appropriate and click <guibutton>OK</guibutton> to close the window.</para>
 	</section>
 
 

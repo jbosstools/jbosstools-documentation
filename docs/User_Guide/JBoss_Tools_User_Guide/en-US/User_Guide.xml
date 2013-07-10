@@ -6,6 +6,7 @@
 <book>
 	<xi:include href="Book_Info.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Preface.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="About_DeveloperStudio.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<part>
 		<title>Tools for Every Project</title>
 		<xi:include href="Central.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />

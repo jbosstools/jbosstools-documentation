@@ -25,7 +25,7 @@
 	
 		<para>You can customize runtime detection to automatically search paths for installed application servers when the IDE starts. If any application servers are found, you are prompted about creating corresponding complete server definitions.</para>
 		
-		<para>To enable automated searching on IDE start, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Tools Runtime Detection</guilabel>. In the <guilabel>Paths</guilabel> table, select the <guilabel>Every start</guilabel> check box for all of the paths that you want to be automatically searched on IDE start. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</para>
+		<para>To enable automated searching on IDE start, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>. In the <guilabel>Paths</guilabel> table, select the <guilabel>Every start</guilabel> check box for all of the paths that you want to be automatically searched on IDE start. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</para>
 		
 	</section>
 
@@ -56,7 +56,7 @@
 
 		<para>Classpath entries specify the availability of <filename>.jar</filename> files for your projects. JBoss Server Tools generates a default classpath fileset for new <phrase condition="jbds">Red Hat JBoss Middleware application servers</phrase><phrase condition="jbt">JBoss community application servers</phrase> based on the <filename>.jar</filename> files that accompanying each. But JBoss Server Tools also provides the ability for you to customize classpaths for individual servers and an application server type.</para>
 
-		<para>To customize the classpath fileset for an individual server, <remark>HOW?</remark></para>
+		<!-- Add text later <para>To customize the classpath fileset for an individual server, <remark>HOW?</remark></para> -->
 		
 		<para>To customize the classpath fileset for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel>&rarr;<guilabel>Runtime Environments</guilabel> and select <guilabel>Default Classpath Entries</guilabel>. From the <guilabel>Select classpath filesets for this runtime type</guilabel> list, select a <phrase condition="jbds">Red Hat JBoss Middleware application server</phrase><phrase condition="jbt">JBoss community application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the classpath filesets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</para>
 	

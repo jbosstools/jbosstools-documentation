@@ -16,8 +16,6 @@
 			<listitem><para>View resources in LiveReload-enabled web browsers, including system and external device browsers and BrowserSim</para></listitem>
 		</itemizedlist>
 
-		<para><remark>[DOCS] Watching JBIDE-15113: view workspace resources in BrowserSim</remark></para>
-
 	</section>
 
 
@@ -93,14 +91,20 @@
 	<section>
 		<title>View Resources in LiveReload-enabled BrowserSim</title>
 	
-		<para>The LiveReload server can be used in conjunction with BrowserSim. In this case, the server sends notifications about changed resources and BrowserSim inserts the JavaScript code, which invokes the simulated device browser window to refresh. The procedure below outlines how to enable LiveReload in BrowserSim.</para>
+		<para>The LiveReload server can be used in conjunction with BrowserSim. In this case, the server sends notifications about changed resources and BrowserSim inserts the JavaScript code, which invokes the simulated device browser window to refresh. The procedure below outlines how to enable LiveReload in BrowserSim for workspace and deployed resources.</para>
 
 		<procedure>
 			<title>View Resources in LiveReload-enabled BrowserSim</title>
-			<important><para>Ensure the server and application of the deployed resources are started before attempting to view the resources in LiveReload-enabled BrowserSim. To start the server and the application, in the <guilabel>Servers</guilabel> tab right-click each and click <guimenu>Start</guimenu>.</para></important>
-			<step><para>In the <guilabel>Servers</guilabel> tab, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.</para></step>
 			<step><para>Ensure the LiveReload server is started. If it is not started, in the <guilabel>Servers</guilabel> tab right-click the LiveReload server and click <guimenu>Start</guimenu>.</para></step>
-			<step><para>Right-click the simulated device and select <guilabel>Enable LiveReload</guilabel>.</para></step>
+			<step><para>Complete the appropriate step depending on the location of your resources:</para>
+				<stepalternatives>
+					<step><para>For workspace resources, in the <guilabel>Project Explorer</guilabel> tab right-click the <filename>.html</filename> file and click <guimenu>Open With</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.</para></step>
+					<step><para>For deployed resources, in the <guilabel>Servers</guilabel> tab right-click the application and click <guimenu>Show In</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.</para>
+						<important><para>Ensure the server and application of the deployed resources are started before attempting to view the resources in LiveReload-enabled BrowserSim. To start the server and the application, in the <guilabel>Servers</guilabel> tab right-click each and click <guimenu>Start</guimenu>.</para></important>
+					</step>
+				</stepalternatives>
+			</step>
+			<step><para>Right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected.</para></step>
 		</procedure>
 
 	</section>

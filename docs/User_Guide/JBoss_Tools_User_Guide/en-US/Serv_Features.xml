@@ -17,8 +17,6 @@
 			<listitem><para>Manage server configuration and specify IDE-server interaction with the JBoss Server Editor, including settings such as launch options, publishing frequency and port forwarding</para></listitem>
 		</itemizedlist>
 		
-		<para><remark>[DOCS] Watching JBIDE-14704: JBT runtime detection neutral name</remark></para>
-		
 	</section>
 
 
@@ -29,7 +27,7 @@
 
 		<procedure>
 			<title>Download a JBoss Community Application Server</title>
-			<step><para>Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Tools Runtime Detection</guilabel>.</para></step>
+			<step><para>Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>.</para></step>
 			<step><para>Click <guibutton>Download</guibutton>.</para></step>
 			<step><para>From the table, select an application server and click <guibutton>Next</guibutton>.</para></step>
 			<step><para>After reading and agreeing to the terms of the license, click <guilabel>I accept the terms of this license agreement</guilabel> and click <guibutton>Next</guibutton>.</para></step>
@@ -131,7 +129,7 @@
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
 			<step><para>The server behavior options displayed vary depending on the selected application server type. Complete the options as appropriate:
 				<itemizedlist>
-					<listitem><para>To specify that the server lifecycle will be managed from outside the IDE, select the <guilabel>Server is externally managed</guilabel> check box.</para></listitem>
+					<listitem><para>To specify that the server life cycle will be managed from outside the IDE, select the <guilabel>Server is externally managed</guilabel> check box.</para></listitem>
 					<listitem><para>To specify that the server should be launched to respond to requests on all hostnames, select the <guilabel>Listen on all interfaces to allow remote web connections</guilabel> check box. This option is most useful for remote servers and adds the <command>-b 0.0.0.0</command> argument to the server launch command.</para></listitem>
 					<listitem><para>To enable management commands sent by the IDE to be successfully received by the server, select the <guilabel>Expose your management port as the server's hostname</guilabel> check box. This option is useful for remote servers but bypassed for local servers.</para></listitem>
 				</itemizedlist>
@@ -171,7 +169,7 @@
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
 			<step><para>The server behavior options displayed vary depending on the selected application server type. Complete the options as appropriate:
 				<itemizedlist>
-					<listitem><para>To specify that the server lifecycle will be managed from outside the IDE, select the <guilabel>Server is externally managed</guilabel> check box.</para></listitem>
+					<listitem><para>To specify that the server life cycle will be managed from outside the IDE, select the <guilabel>Server is externally managed</guilabel> check box.</para></listitem>
 					<listitem><para>To specify that the server should be launched to respond to requests on all hostnames, select the <guilabel>Listen on all interfaces to allow remote web connections</guilabel> check box. This option is most useful for remote servers and adds the <command>-b 0.0.0.0</command> argument to the server launch command.</para></listitem>
 					<listitem><para>To enable management commands sent by the IDE to be successfully received by the server, select the <guilabel>Expose your management port as the server's hostname</guilabel> check box. This option is useful for remote servers.</para></listitem>
 				</itemizedlist>
@@ -223,7 +221,7 @@
 			<varlistentry>			
 				<term>Server behavior</term>
 				<listitem><para>This section enables you to customize server behavior that encompasses how the IDE communicates with the server.</para>
-				<para>To specify that the server lifecycle will be managed from outside the IDE, select the <guilabel>Server is externally managed</guilabel> check box.</para>
+				<para>To specify that the server life cycle will be managed from outside the IDE, select the <guilabel>Server is externally managed</guilabel> check box.</para>
 				<para>To specify that the server should be launched to respond to requests on all hostnames, select the <guilabel>Listen on all interfaces to allow remote web connections</guilabel> check box. This option is most useful for remote servers and adds the <command>-b 0.0.0.0</command> argument to the server launch command.</para>
 				<para>To enable management commands sent by the IDE to be successfully received by the server, select the <guilabel>Expose your management port as the server's hostname</guilabel> check box. This option is useful for remote servers and unnecessary for local servers.</para>
 				<warning><para>The <guilabel>Expose your management port as the server's hostname</guilabel> feature should be used carefully for servers on production as it leaves the server open for anyone to access.</para></warning>
@@ -270,7 +268,6 @@
 		</variablelist>
 
 	</section>
-
 
 
 	<section>
