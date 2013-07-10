@@ -22,9 +22,9 @@
 					<listitem><para>Small - 512MB of RAM, 100MB of swap space, and 1GB of disk space</para></listitem>
 					<listitem><para>Medium - 1GB of RAM, 100MB of swap space, and 1GB of disk space</para></listitem>
 				</itemizedlist>
-			You can use up to three small gears as part of FreeShift, a free OpenShift user account, and extend to more gears and bigger gears with OpenShift Enterprise. OpenShift offers flexibility by letting you choose the number of gears to assign to your application.</para></listitem>
+			You can use up to three small gears as part of OpenShift Online with Free Plan, a free OpenShift user account, and extend to more gears and bigger gears with OpenShift Online with Silver Plan or OpenShift Enterprise. OpenShift offers flexibility by letting you choose the number of gears to assign to your application.</para></listitem>
 			
-			<listitem><para><remark>[QE] Built-in</remark> administrative and stack management frees you up to focus on code development. OpenShift manages the intricate details of deploying your application to the stack and interfacing with middleware technologies for you.</para></listitem>
+			<listitem><para>Built-in administrative and stack management frees you up to focus on code development. OpenShift manages the intricate details of deploying your application to the stack and interfacing with middleware technologies for you.</para></listitem>
 			
 			<listitem><para>Automatic or manual scaling of the resources supporting your applications ensure that application performance does not suffer as usage increases. OpenShift can create additional instances of your application and enable clustering.</para></listitem>
 		</itemizedlist>

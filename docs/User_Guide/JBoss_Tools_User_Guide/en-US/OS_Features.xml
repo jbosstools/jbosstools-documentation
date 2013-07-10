@@ -19,7 +19,7 @@
 			<listitem><para>Manage deployed OpenShift applications and view information about them</para></listitem>
 		</itemizedlist>
 
-		<para><remark>[DOCS]Watching JBDS-2562: start/stop actions; JBIDE-13281: server adapter Show In > Server Log does nothing; JBIDE-14018: git commit message; JBIDE-14394: support adding cartridge via github url; JBIDE-13963: port fowarding UI under review; JBIDE-10512: deleted application still shown in servers tab; JBIDE-14395: in new app wizard enable scaling by default; JBIDE-13659: server adapter has wrong name;</remark></para>
+		<!--<para><remark>[DOCS] JBIDE-13281: server adapter Show In > Server Log does nothing; JBIDE-14018: git commit message; JBIDE-14394: support adding cartridge via github url; JBIDE-13963: port fowarding UI under review; JBIDE-10512: deleted application still shown in servers tab; JBIDE-14395: in new app wizard enable scaling by default;</remark></para> -->
 
 	</section>
 
@@ -49,9 +49,9 @@
 				<note><para>
 					There are a number of OpenShift servers from which you can choose:
 						<itemizedlist>
-							<listitem><para>OpenShift Origin is the public cloud offering and it is hosted at <ulink url="https://openshift.redhat.com" />.</para></listitem>
+							<listitem><para>OpenShift Online is the public cloud offering and it is hosted at <ulink url="https://openshift.redhat.com" />.</para></listitem>
 							<listitem><para>OpenShift Enterprise is a private cloud, obtained through a subscription and hosted in a private data center.</para></listitem>
-							<listitem><para>OpenShift Origin LiveCD is a local cloud, available to download and install locally for development and testing purposes.</para></listitem>							
+							<listitem><para>OpenShift Origin is a local cloud, available to download and install locally for development and testing purposes.</para></listitem>							
 						</itemizedlist>
 				</para></note>
 				</step>
@@ -118,7 +118,7 @@
 				<note><para>The default location for creating SSH key files is determined by the SSH information for the IDE. The default location can be altered by clicking <guimenu>Windows</guimenu>&rarr;<guimenu>Preferences</guimenu>, expanding <guilabel>General</guilabel>&rarr;<guilabel>Network Connections</guilabel>, selecting <guilabel>SSH2</guilabel> and changing the location in the <guilabel>SSH2 home</guilabel> field of the <guilabel>General</guilabel> tab.</para></note>
 			</step>
 			<step><para>In the <guilabel>Private Key File Name</guilabel> field, type a name for the private key file.</para></step>
-			<step><para>In the <guilabel>Private Key Passphrase</guilabel> field, type a passphrase for use in accessing the private key.</para></step>
+			<step><para>In the <guilabel>Private Key Passphrase</guilabel> field, type a passphrase for use in accessing the private key. This field is not mandatory and can be left empty if you want.</para></step>
 			<step><para>In the <guilabel>Public Key File Name</guilabel> field, type a name for the public key file. Typically the file name of the public key is that of the private key with <filename>.pub</filename> appended.</para></step>
 			<step><para>Click <guibutton>Finish</guibutton>. The SSH key pair will be generated and the public key automatically uploaded to OpenShift.</para></step>
 			<step><para>Click <guibutton>OK</guibutton> to close the <application>Manage SSH Keys</application> window.</para></step>
@@ -207,11 +207,11 @@
 		<procedure>
 			<title>Create and Deploy an Application on OpenShift</title>
 			<step><para>In the <guilabel>OpenShift Explorer</guilabel> tab, right-click the connection and click <guimenu>New OpenShift Application</guimenu>. Alternatively, in <guilabel>JBoss Central</guilabel> click <guilabel>OpenShift Application</guilabel>, after which you are prompted to select an OpenShift connection and provide your user authentication information.</para></step>
-			<step><para>In the <guilabel>Name</guilabel> field, type a name for the new application.</para>
+			<step><para>In the <guilabel>Name</guilabel> field, type a name for the new OpenShift application.</para>
 				<note><para>There are restrictions on the name you can use for an application. Names must consist only of letters and digits.</para></note>
 			</step>
 			<step><para>From the <guilabel>Type</guilabel> list, select a runtime server. This will ensure the necessary foundational programming or technology cartridge is added to your application.</para></step>
-			<step><para>From the <guilabel>Gear profile</guilabel> list, select the gear size. This is RAM and disk space required by your applications and its cartridges. If you are using FreeShift, you have access to small gears only.</para></step>
+			<step><para>From the <guilabel>Gear profile</guilabel> list, select the gear size. This is RAM and disk space required by your applications and its cartridges. If you are using OpenShift Online with Free Plan, you have access to small gears only.</para></step>
 			<step><para>If you want OpenShift to automatically increase the instances of your application and enable clustering as usage increases, select the <guilabel>Enable scaling</guilabel> check box.</para></step>
 			<step><para>From the <guilabel>Embedded Cartridges</guilabel> list, select the functionality you want to enable in your application. This will add associated capabilities and support to your application.</para></step>
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
@@ -220,10 +220,8 @@
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
 			<step><para>The <guilabel>Location</guilabel> field shows the location that will be used for the local Git repository. The location must already exist to be able to proceed with the wizard. To change the location, clear the <guilabel>Use default location</guilabel> check box and type the location in the <guilabel>Location</guilabel> field or click <guibutton>Browse</guibutton> to navigate to the desired location.</para></step>
 			<step><para>Click <guibutton>Finish</guibutton>. If you are prompted that the authenticity of the host cannot be established and asked whether you want to continue connecting, check that the host name matches that of your application and domain and click <guibutton>Yes</guibutton>.</para></step>
-			<step><para><remark>[QE]At the prompt asking if you want to publish committed changes to OpenShift, click <guibutton>Yes</guibutton>. The progress of the application creation process is visible in the <guilabel>Console</guilabel> tab.</remark></para></step>
+			<step><para>At the prompt asking if you want to publish committed changes to OpenShift, click <guibutton>Yes</guibutton>. The progress of the application creation process is visible in the <guilabel>Console</guilabel> tab.</para></step>
 		</procedure>
-
-		<!--<para>The <application>OpenShift Application</application> wizard creates app, add cart, clone, import maven objects, configure java project, install facets, connect to server adapter.</para> -->
 			
 		<para>Once created, the application is listed under the connection in the <guilabel>OpenShift Explorer</guilabel> tab. The application type proceeds the application name. The project is also listed in the <guilabel>Project Explorer</guilabel> and <guilabel>Git Repositories</guilabel> tabs, where the details proceeding the application name indicate the current Git branch and status compared to the remote repository. Additionally, the server adapter for the application is visible in the <guilabel>Servers</guilabel> tab.</para>
 		
@@ -234,40 +232,35 @@
 
 	<section>
 		<title>Deploy an Existing Application on OpenShift</title>
-	
-		<para><remark>[DOCS]Still need to do this part - had trouble getting it to work!</remark></para>
-	
-		<!--<procedure>
+
+		<para>OpenShift Tools can assist you to deploy existing workspace applications to OpenShift, as detailed in the procedure below. The procedure uses the <application>OpenShift Application</application> wizard, with the latter merging the existing project contents with the key metadata files from a new OpenShift application so that the application can be deployed on OpenShift. The wizard also enables git for the existing project, so that you can push project changes to OpenShift via git or allow the OpenShift Server Adapter do it for you.</para>
+		
+		<!--<para>There are a number of actions and features of the new application wizard that are specific to existing Maven projects:
+			<itemizedlist>
+				<listitem><para>You need a Maven OpenShift profile that is used when the project is built on OpenShift. The profile configures the Maven build to generate a ROOT.war archive in the deployments folder of your project. If a profile is not already present, OpenShift Tools adds the necessary information to the <filename>pom.xml</filename> file as one of the actions of the wizard.</para></listitem>
+				<listitem><para>Existing multimodule Maven projects can be deployed to OpenShift.</para></listitem>
+			</itemizedlist>
+		</para> -->
+
+		<procedure>
 			<title>Deploy an Existing Application on OpenShift</title>
-			<step><para>In the <guilabel>OpenShift Explorer</guilabel> tab, right-click the connection and click <guimenu>New OpenShift Application</guimenu>. Alternatively, in <guilabel>JBoss Central</guilabel> click <guilabel>OpenShift Application</guilabel>, after which you are prompted for your OpenShift user account authentication information.</para></step>
-			<step><para>In the <guilabel>Name</guilabel> field, type a name for the new application.</para>
+			<step><para>In the <guilabel>OpenShift Explorer</guilabel> tab, right-click the connection and click <guimenu>New OpenShift Application</guimenu>. Alternatively, in <guilabel>JBoss Central</guilabel> click <guilabel>OpenShift Application</guilabel>, after which you are prompted to select an OpenShift connection and provide your user authentication information.</para></step>
+			<step><para>In the <guilabel>Name</guilabel> field, type a name for the new OpenShift application. For simplicity, you may choose this to be the same as the name of the workspace project.</para>
 				<note><para>There are restrictions on the name you can use for an application. Names must consist only of letters and digits.</para></note>
 			</step>
-			<step><para>From the <guilabel>Type</guilabel> list, select a web programming language or runtime quickstart. This will ensure the necessary foundational programming or technology cartridge is added to your application.</para></step>
-			<step><para>From the <guilabel>Gear profile</guilabel> list, select the gear size. This is the amount of physical space required by your application. If you are using FreeShift, or a free account, you have access to small gears only.</para></step>
+			<step><para>From the <guilabel>Type</guilabel> list, select a runtime server. This will ensure the necessary foundational programming or technology cartridge is added to your application.</para></step>
+			<step><para>From the <guilabel>Gear profile</guilabel> list, select the gear size. This is RAM and disk space required by your applications and its cartridges. If you are using OpenShift Online with Free Plan, you have access to small gears only.</para></step>
 			<step><para>If you want OpenShift to automatically increase the instances of your application and enable clustering as usage increases, select the <guilabel>Enable scaling</guilabel> check box.</para></step>
 			<step><para>From the <guilabel>Embedded Cartridges</guilabel> list, select the functionality you want to enable in your application. This will add associated capabilities and support to your application.</para></step>
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
-			<step><para>Ensure the <guilabel>Create a new project</guilabel> and <guilabel>Create and set up a server for easy publishing</guilabel> check boxes are selected. The latter will automatically create an OpenShift server adapter ready for you to use.</para>
-				<para><remark>Why do you need an OS server adapter?</remark></para>
-			</step>
+			<step><para>Clear the <guilabel>Create a new project</guilabel> check box and in the <guilabel>Use existing project</guilabel> field type the name of the project or click <guibutton>Browse</guibutton> to locate the project.</para></step>
+			<step><para>Ensure the <guilabel>Create and set up a server for easy publishing</guilabel> check box is selected. This option automatically creates an OpenShift server adapter for the application, enabling you to easily upload changes to the OpenShift server.</para></step>
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
 			<step><para>The <guilabel>Location</guilabel> field shows the location that will be used for the local Git repository. The location must already exist to be able to proceed with the wizard. To change the location, clear the <guilabel>Use default location</guilabel> check box and type the location in the <guilabel>Location</guilabel> field or click <guibutton>Browse</guibutton> to navigate to the desired location.</para></step>
-			<step><para>Click <guibutton>Finish</guibutton>.</para></step>
-			<step><para>If you are prompted that the authenticity of the host cannot be established and asked whether you are sure you want to continue connecting, check that the host name matches that of your application and domain and click <guibutton>Yes</guibutton>.</para></step>
+			<step><para>Click <guibutton>Finish</guibutton>. If you are prompted that the authenticity of the host cannot be established and asked whether you want to continue connecting, check that the host name matches that of your application and domain and click <guibutton>Yes</guibutton>.</para></step>
+			<step><para>At the prompt asking if you want to publish committed changes to OpenShift, click <guibutton>Yes</guibutton>. The progress of the application creation process is visible in the <guilabel>Console</guilabel> tab.</para></step>
 		</procedure>
-	
-		<para>http://docs.jboss.org/tools/whatsnew/openshift/openshift-news-2.3.0.Beta1.html</para>
-		
-		<para>have projecta already in IDE, click new OpenShift application, select use existing project -> project contents get merged with the key metadata files from the OpenShift application so can deploy local app into OpenShift.</para>
-		
-		<para>The wizard will then copy OpenShift configurations and enable git on the project. You'll then be able to push it to OpenShift via git or let the OpenShift Server Adapter do that job for you.</para>
-		
-		<para>When you enable OpenShift for an existing maven project in your workspace, we'll make sure it has a maven openshift profile which is used when the project is built on OpenShift. Note: We only add it to the pom if it's not present yet.</para>
-		
-		<para>If you want to deploy your Web application to OpenShift Express, you will need to define an openshift maven profile. It basically configures the maven build to generate a ROOT.war archive in the deployments folder of your project. http://docs.jboss.org/tools/whatsnew/openshift/openshift-news-2.3.0.M5.html</para>
-		
-		<para>OpenShift applications can now be multimodule maven projects and is handled both by the import wizard and server adapter.</para> -->
+
 	</section>
 	
 	<section>
@@ -277,8 +270,8 @@
 		
 		<procedure>
 			<title>Import an OpenShift Application</title>
-			<step><para>In the <guilabel>OpenShift Explorer</guilabel> tab, right-click the application and click <guimenu>Import Application</guimenu>. Alternatively, right-click the connection and click <guimenu>New OpenShift Application</guimenu>.</para></step>
-			<step><para>Select the <guilabel>Use existing application</guilabel> check box and type the name of the application in the text field. This field has an auto-completion feature to assist you in typing the application name or click <guibutton>Browse</guibutton> to see a list of all of your applications associated with the connection.</para>
+			<step><para>Click <guimenu>File</guimenu>&rarr;<guimenu>Import</guimenu>, expand <guilabel>OpenShift</guilabel>, select <guilabel>Existing OpenShift Application</guilabel> and click <guibutton>Next</guibutton>. Alternatively, in the <guilabel>OpenShift Explorer</guilabel> tab, right-click the application and click <guimenu>Import Application</guimenu>.</para></step>
+			<step><para>Ensure the <guilabel>Use existing application</guilabel> check box is selected and type the name of the application in the text field. This field has an auto-completion feature to assist you in typing the application name or click <guibutton>Browse</guibutton> to see a list of all of your applications associated with the connection.</para>
 				<important><para>Project names in the IDE workspace must be unique. If the name of the application you want to import is identical to an existing project in the workspace, the OpenShift Tools will not complete the import. To work around this constraint, you can import the OpenShift application to another workspace or change the name of one of the conflicting projects and applications.</para></important>
 			</step>	
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
@@ -287,10 +280,10 @@
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
 			<step><para>The <guilabel>Location</guilabel> field shows the location that will be used for the local Git repository. The location must already exist to be able to proceed with the wizard. To change the location, clear the <guilabel>Use default location</guilabel> check box and type the location in the <guilabel>Location</guilabel> field or click <guibutton>Browse</guibutton> to navigate to the desired location.</para></step>
 			<step><para>Click <guibutton>Finish</guibutton>. If you are prompted that the authenticity of the host cannot be established and asked whether you want to continue connecting, check that the host name matches that of your application and domain and click <guibutton>Yes</guibutton>.</para></step>
-			<step><para><remark>[QE]OpenShift Tools modified the .gitignore file on importing the application. At the prompt asking if you want to publish committed changes to OpenShift, click <guibutton>Yes</guibutton>. The progress of the import process is visible in the <guilabel>Console</guilabel> tab.</remark></para></step>
+			<step><para>OpenShift Tools modified the .gitignore file on importing the application. At the prompt asking if you want to publish committed changes to OpenShift, click <guibutton>Yes</guibutton>. The progress of the import process is visible in the <guilabel>Console</guilabel> tab.</para></step>
 		</procedure>
 
-		<para><remark>[QE]Once imported, the project is listed in the <guilabel>Project Explorer</guilabel> and <guilabel>Git Repositories</guilabel> tabs, where the details proceeding the application name indicate the current Git branch and status compared to the remote repository. Additionally, the server adapter for the application is visible in the <guilabel>Servers</guilabel> tab.</remark></para>
+		<para>Once imported, the project is listed in the <guilabel>Project Explorer</guilabel> and <guilabel>Git Repositories</guilabel> tabs, where the details proceeding the application name indicate the current Git branch and status compared to the remote repository. Additionally, the server adapter for the application is visible in the <guilabel>Servers</guilabel> tab.</para>
 		
 	</section>
 		
@@ -304,7 +297,7 @@
 			<title>Generate a server adapter for an application</title>
 			<step><para>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection.</para></step>
 			<step><para>Right-click the application name and click <guimenu>Create a Server Adapter</guimenu>.</para></step>
-			<step><para>From the list of server types, expand <remark>[QE]<guilabel>OpenShift</guilabel></remark> and select <guilabel>OpenShift Server</guilabel>.</para></step>
+			<step><para>From the list of server types, expand <guilabel>OpenShift</guilabel> and select <guilabel>OpenShift Server</guilabel>.</para></step>
 			<step><para>The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> field are automatically completed but you can change the contents of both as you need. The <guilabel>Server's host name</guilabel> field contains the host name of the server and the <guilabel>Server name</guilabel> field contains the name by which the server adapter is know in the <guilabel>Servers</guilabel> tab.</para></step>
 			<step><para>Once the fields are complete, click <guibutton>Next</guibutton>.</para></step>
 			<step><para>Ensure the <guilabel>Connection</guilabel>, <guilabel>Application Name</guilabel> and <guilabel>Deploy Project</guilabel> fields contain the correct information relating to the application for which you want to generate the server adapter.</para></step>
@@ -343,7 +336,7 @@
 			</varlistentry>
 			<varlistentry>
 				<term>View information about the server of an application</term>
-				<listitem><para>In the <guilabel>Servers</guilabel> tab, double-click the server adapter for the application. A <guilabel>Server Editor</guilabel> tab opens, enabling viewing and editing of server details. <remark>[QE]To save any changes, press <keycap>Ctrl+S</keycap> or click <guimenu>File</guimenu>&rarr;<guimenu>Save</guimenu> or click the <guibutton>Save</guibutton> icon.</remark></para></listitem>
+				<listitem><para>In the <guilabel>Servers</guilabel> tab, double-click the server adapter for the application. A <guilabel>Server Editor</guilabel> tab opens, enabling viewing and editing of server details. To save any changes, press <keycap>Ctrl+S</keycap> or click <guimenu>File</guimenu>&rarr;<guimenu>Save</guimenu> or click the <guibutton>Save</guibutton> icon.</para></listitem>
 			</varlistentry>		
 			<varlistentry>
 				<term>Refresh information about an application</term>
@@ -373,7 +366,7 @@
 			</varlistentry>
 			<varlistentry>
 				<term>View properties of cartridges associated with an application</term>
-				<listitem><para>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection and the application. Right-click the cartridge and click <guimenu>properties</guimenu>. <remark>[QE]The <guilabel>Properties</guilabel> tab opens and lists information about the cartridge.</remark></para></listitem>
+				<listitem><para>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection and the application. Right-click the cartridge and click <guimenu>properties</guimenu>. The <guilabel>Properties</guilabel> tab opens and lists information about the cartridge.</para></listitem>
 			</varlistentry>
 			<varlistentry>
 				<term>Restart an application</term>
@@ -396,7 +389,7 @@
 			
 			<varlistentry>
 				<term>Delete a server adapter for an OpenShift application</term>
-				<listitem><para>In the <guilabel>Servers</guilabel> tab, right-click the server adapter for the application and click <guimenu>Delete</guimenu>. At the prompt asking if you are sure you want to delete the server adapter, click <guibutton>OK</guibutton>. <remark>[QE]The progress of the deleting process is shown in the activity bar in the lower right of the IDE window. To open the <guilabel>Progress</guilabel> tab and view more detailed progress information or cancel the deleting process, double-click on the activity bar.</remark></para></listitem>
+				<listitem><para>In the <guilabel>Servers</guilabel> tab, right-click the server adapter for the application and click <guimenu>Delete</guimenu>. At the prompt asking if you are sure you want to delete the server adapter, click <guibutton>OK</guibutton>. The progress of the deleting process is shown in the activity bar in the lower right of the IDE window. To open the <guilabel>Progress</guilabel> tab and view more detailed progress information or cancel the deleting process, double-click on the activity bar.</para></listitem>
 			</varlistentry>				
 			<varlistentry>
 				<term>Delete an application</term>
