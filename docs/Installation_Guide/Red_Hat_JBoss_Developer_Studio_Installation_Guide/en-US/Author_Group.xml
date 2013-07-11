@@ -3,7 +3,6 @@
 <!ENTITY % BOOK_ENTITIES SYSTEM "Red_Hat_JBoss_Developer_Studio_Installation_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-
 <authorgroup>
 	<author>
 		<firstname>Michelle</firstname><surname>Murray</surname>

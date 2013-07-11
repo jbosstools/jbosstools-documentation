@@ -22,7 +22,7 @@ function make {
 
 	#make maven version
 	echo '[INFO] Making maven version'
-	csprocessor build 13890 --server
+	csprocessor build 13890 --flatten
 	unzip Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide.zip
 	rm Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide.zip
 	cp pom.xml Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide/.

@@ -3,7 +3,6 @@
 <!ENTITY % BOOK_ENTITIES SYSTEM "Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-
 <chapter id="chap-Creating_the_TicketMonster_Application">
 	<title>Creating the TicketMonster Application</title>
 	<section id="Configure_Maven" remap="TID_13798">

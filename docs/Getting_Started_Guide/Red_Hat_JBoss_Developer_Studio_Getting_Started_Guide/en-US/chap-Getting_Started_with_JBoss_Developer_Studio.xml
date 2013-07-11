@@ -3,7 +3,6 @@
 <!ENTITY % BOOK_ENTITIES SYSTEM "Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-
 <chapter id="chap-Getting_Started_with_JBoss_Developer_Studio">
 	<title>Getting Started with JBoss Developer Studio</title>
 	<section id="About_Getting_Started" remap="TID_13787">

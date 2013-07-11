@@ -8,6 +8,24 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.0.0-6</revnumber><date>Thu Jul 11 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-368: Removal of QE remark tags and Beta2 identifier
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>				
+			<revision>
 				<revnumber>7.0.0-5</revnumber><date>Fri Jun 28 2013</date>
 				<author>
 					<firstname>
