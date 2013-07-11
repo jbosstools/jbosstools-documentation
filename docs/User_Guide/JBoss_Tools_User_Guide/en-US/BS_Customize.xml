@@ -71,7 +71,7 @@
 		<procedure>
 			<title>Add Devices to BrowserSim</title>
 			<step><para>Right-click the simulated device and click <guimenu>Preferences</guimenu>.</para></step>
-			<step><para>In the <guilabel>Devices</guilabel> window, click <guibutton>Add</guibutton>.</para></step>
+			<step><para>In the <guilabel>Devices</guilabel> section of the <guilabel>Devices</guilabel> tab, click <guibutton>Add</guibutton>.</para></step>
 			<step><para>In the <guilabel>Name</guilabel> field, type the name you want to give the device.</para></step>
 			<step><para>In the <guilabel>Width</guilabel> and <guilabel>Height</guilabel> fields, type the dimensions of the device window in pixels.</para></step>
 			<step><para>In the <guilabel>Pixel Ratio</guilabel> field, type a value for the ratio of CSS pixels to device pixels.</para></step>
@@ -84,14 +84,6 @@
 		</procedure>
 
 		<para>To modify existing devices in BrowserSim, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Devices</guilabel> table, select a device and click <guibutton>Edit</guibutton>. Once you have finished editing the fields, click <guibutton>OK</guibutton>. Click <guibutton>OK</guibutton> to close the <guilabel>Devices</guilabel> window.</para>
-
-		<!--<procedure>
-			<title>Modify Devices in BrowserSim</title>
-			<step><para>Right-click the browser window and click <guimenu>Preferences</guimenu>.</para></step>
-			<step><para>In the <guilabel>Devices</guilabel> table, select a device and click <guibutton>Edit</guibutton>.</para></step>
-			<step><para>Once you have finished editing the fields, click <guibutton>OK</guibutton>.</para></step>
-			<step><para>Click <guibutton>OK</guibutton> to close the <guilabel>Devices</guilabel> window.</para></step>
-		</procedure> -->
 		
 	</section>
 
@@ -101,7 +93,7 @@
 	
 		<para>By default, when a device window is too large to fit the display of the system, you are prompted about which action should be taken. Rather than prompting, the default behavior can be set to always truncate or never truncate.</para>
 		
-		<para>To change the default behavior, right-click the simulated device and click <guimenu>Preferences</guimenu>. Under <guilabel>Truncate the device window when it does not fit display</guilabel>, click <guilabel>Always truncate</guilabel> or <guilabel>Never truncate</guilabel> to change the behavior as appropriate and click <guibutton>OK</guibutton> to close the window.</para>
+		<para>To change the default behavior, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Truncate the device window when it does not fit display</guilabel> section of the <guilabel>Devices</guilabel> tab, click <guilabel>Always truncate</guilabel> or <guilabel>Never truncate</guilabel> to change the behavior as appropriate and click <guibutton>OK</guibutton> to close the window.</para>
 	</section>
 
 
@@ -110,7 +102,7 @@
 		
 		<para>The <guimenu>Save</guimenu> option for screen captures saves graphics files to a set location. The default location can be changed.</para>
 		
-		<para>To change the default location, right-click the simulated device and click <guimenu>Preferences</guimenu>. Under <guilabel>Screenshots</guilabel>, in the <guilabel>Location</guilabel> field type the location where you want graphics files to be saved or click <guibutton>Browse</guibutton> to navigate to the desired location. Click <guibutton>OK</guibutton> to close the window.</para>
+		<para>To change the default location, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Screenshots</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Location</guilabel> field type the location where you want graphics files to be saved or click <guibutton>Browse</guibutton> to navigate to the desired location. Click <guibutton>OK</guibutton> to close the window.</para>
 		
 	</section>
 
@@ -120,7 +112,7 @@
 		
 		<para>By default, the <guimenu>Weinre</guimenu> option for viewing the source of a web page uses the Weiner server provided by PhoneGap. If you have a different Weiner server available, the default Weinre settings can be changed.</para>
 		
-		<para>To change the default settings for Weinre, right-click the simulated device and click <guimenu>Preferences</guimenu>. Under <guilabel>Weinre</guilabel>, in the <guilabel>Script URL</guilabel> field type the address of the <filename>.js</filename> file provided by the Weinre server and in the <guilabel>Client URL</guilabel> field type the address of the web page showing the Weinre Inspector interface. Click <guibutton>OK</guibutton> to close the window.</para>
+		<para>To change the default settings for Weinre, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Weinre</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Script URL</guilabel> field type the address of the <filename>.js</filename> file provided by the Weinre server and in the <guilabel>Client URL</guilabel> field type the address of the web page showing the Weinre Inspector interface. Click <guibutton>OK</guibutton> to close the window.</para>
 		
 	</section>
 
