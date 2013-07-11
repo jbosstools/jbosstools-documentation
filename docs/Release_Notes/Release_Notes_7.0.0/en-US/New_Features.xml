@@ -48,6 +48,7 @@
 					<listitem><para>You can customize the behavior governing the addition and removal of deployment scanners to a server through the Server editor.</para></listitem>
 					<listitem><para>Start and stop actions for deployed modules have been implemented such that stopped modules will be undeployed by the server but continue to reside in the deployment folder of the server. This behavior aligns with that of the administrative consoles of servers such as Red&nbsp;Hat&nbsp;JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform.</para></listitem>
 					<listitem><para>Runtime detection is extended to Tomcat servers.</para></listitem>
+					<listitem><para>A new server type for WildFly 8 has been added to the IDE. Server runtime evironments and server definitions can now be made for this server type. Note that WildFly is a community project and that the WildFly server functions in the IDE are not supported by Red Hat.</para></listitem>
 				</itemizedlist>
 			</listitem>
 		</varlistentry>		
