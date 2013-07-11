@@ -8,6 +8,24 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.0.0-9</revnumber><date>Thu Jul 11 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-364: Install in offline mode with .zip file
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>	
+			<revision>
 				<revnumber>7.0.0-8</revnumber><date>Thu Jul 11 2013</date>
 				<author>
 					<firstname>

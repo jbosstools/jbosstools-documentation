@@ -192,8 +192,7 @@
 		</sectioninfo>
 		<title>Install JBoss Developer Studio BYOE</title>
 		<para>
-			You can obtain JBoss&nbsp;Developer&nbsp;Studio BYOE from Eclipse Marketplace or use the <filename>.zip</filename> file available from the Red Hat JBoss Developer Studio Update website. 
-			<!-- The latter option provisions for online and offline installation modes; Eclipse can install directly from the online <filename>.zip</filename> file or you can download the <filename>.zip</filename> file first and then Eclipse can install from this local copy.-->
+			You can obtain JBoss&nbsp;Developer&nbsp;Studio BYOE from Eclipse Marketplace or use the <filename>.zip</filename> file available from the Red Hat JBoss Developer Studio Update website. The latter option provisions for online and offline installation modes; Eclipse can install directly from the online <filename>.zip</filename> file or you can download the <filename>.zip</filename> file first and then Eclipse can install from this local copy.
 		</para>
 		<para>
 			Select one of the procedures below, which will guide you through the JBoss&nbsp;Developer&nbsp;Studio BYOE installation process.
@@ -243,7 +242,11 @@
 		</procedure>
 		<procedure>
 			<title>Install from Update ZIP File</title>
-			<!--<note><para>If you want to install JBoss&nbsp;Developer&nbsp;Studio BYOE offline mode, you must go to <ulink url="https://devstudio.jboss.com/updates/7.0/"/> and download the update <filename>.zip</filename> file before proceeding.</para></note> -->
+			<note>
+				<para>
+					To install JBoss&nbsp;Developer&nbsp;Studio BYOE in offline mode, you must go to <ulink url="https://devstudio.jboss.com/updates/7.0/"/> and download the update <filename>.zip</filename> file before proceeding.
+				</para>
+			</note>
 			<step>
 				<para>
 					Start Eclipse Kepler.
@@ -256,15 +259,21 @@
 			</step>
 			<step>
 				<para>
-					In the <guilabel>Work with</guilabel> field, enter <command>https://devstudio.jboss.com/updates/7.0-development/</command>.
+					Complete the appropriate step for your chosen install mode:
 				</para>
+				<stepalternatives>
+					<step>
+						<para>
+							For online mode, in the <guilabel>Work with</guilabel> field, enter <command>https://devstudio.jboss.com/updates/7.0/</command>.
+						</para>
+					</step>
+					<step>
+						<para>
+							For offline mode, in the <guilabel>Work with</guilabel> field, enter the absolute file path of the update <filename>.zip</filename> file. Alternatively, click <guibutton>Add</guibutton> and click <guibutton>Archive</guibutton> to locate the file.
+						</para>
+					</step>
+				</stepalternatives>
 			</step>
-			<!--<step><para>Complete the appropriate step for your chosen install mode:</para>
-			<stepalternatives>
-				<step><para>For online mode, in the <guilabel>Work with</guilabel> field, enter <command>https://devstudio.jboss.com/updates/7.0/</command>.</para></step>
-				<step><para>For offline mode, in the <guilabel>Work with</guilabel> field, enter the absolute file path of the update <filename>.zip</filename> file. Alternatively, click <guibutton>Add</guibutton> and click <guibutton>Archive</guibutton> to locate the file.</para></step>
-			</stepalternatives>
-		</step> -->
 			<step>
 				<para>
 					From the table of components comprising the update <filename>.zip</filename> file, select <guilabel>JBoss Developer Studio 7.0 - Bring Your Own Eclipse</guilabel> and click <guibutton>Next</guibutton>.
