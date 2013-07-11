@@ -3,7 +3,6 @@
 <!ENTITY % BOOK_ENTITIES SYSTEM "Red_Hat_JBoss_Developer_Studio_Installation_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-
 <chapter id="chap-System_Requirements">
 	<title>System Requirements</title>
 	<section id="About_System_Requirements" remap="TID_15789">

@@ -3,7 +3,6 @@
 <!ENTITY % BOOK_ENTITIES SYSTEM "Red_Hat_JBoss_Developer_Studio_Migration_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-
 <chapter id="chap-Resolving_Problems_following_Third_Party_Product_Upgrades">
 	<title>Resolving Problems following Third Party Product Upgrades</title>
 	<section id="Upgrade_Eclipse" remap="TID_13416">

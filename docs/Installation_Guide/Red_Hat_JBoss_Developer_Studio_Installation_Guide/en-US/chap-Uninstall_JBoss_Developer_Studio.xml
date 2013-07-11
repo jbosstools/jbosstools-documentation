@@ -3,7 +3,6 @@
 <!ENTITY % BOOK_ENTITIES SYSTEM "Red_Hat_JBoss_Developer_Studio_Installation_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-
 <chapter id="chap-Uninstall_JBoss_Developer_Studio">
 	<title>Uninstall JBoss Developer Studio</title>
 	<section id="Uninstall_Methods" remap="TID_13463">

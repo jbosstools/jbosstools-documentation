@@ -3,7 +3,6 @@
 <!ENTITY % BOOK_ENTITIES SYSTEM "Red_Hat_JBoss_Developer_Studio_Installation_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-
 <chapter id="chap-Set_Preferences_on_First_Launch_after_Installing">
 	<title>Set Preferences on First Launch after Installing</title>
 	<section id="Preferences_Options" remap="TID_15790">
