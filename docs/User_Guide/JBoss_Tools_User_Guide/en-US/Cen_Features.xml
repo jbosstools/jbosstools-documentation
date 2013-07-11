@@ -39,7 +39,7 @@
 
 		<para>JBoss Central provides access to wizards for generating projects. There are two types of project wizards available in JBoss Central:
 			<itemizedlist>
-				<listitem><para>The <guilabel>Start from scratch</guilabel> wizards create the same project using different underlying technology, as started in the project name. To view a project summary, hover the cursor over a project wizard. If you do not have the necessary plug-in installed to use a wizard, you will be prompted to install it when you click the wizard. </para></listitem>
+				<listitem><para>The <guilabel>Start from scratch</guilabel> wizards create the same project using different underlying technology, as started in the project name. To view a project summary, hover the cursor over a project wizard. If you do not have the necessary plug-in installed to use a wizard, you will be prompted to install it when you select the wizard.</para></listitem>
 				<listitem><para>The <guilabel>Start from a sample</guilabel> wizards create  sample web, mobile, back-end and portal applications.</para></listitem>
 			</itemizedlist>
 		</para>

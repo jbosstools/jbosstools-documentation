@@ -238,7 +238,7 @@
 			</varlistentry>
 			<varlistentry>
 				<term>Deployment scanner</term>
-				<listitem><para>This section enables you to customize the behavior of deployment scanners, which detect the applications deployed to a server. You can management deployment scanners or allow the IDE to do it for you.The management options available are <guilabel>Add missing deployment scanners after server startup</guilabel> and <guilabel>Remove added deployment scanners before shutdown</guilabel>.</para></listitem>
+				<listitem><para>This section enables you to customize the behavior of deployment scanners, which detect the applications deployed to a server. You can management deployment scanners or allow the IDE to do it for you. The management options available are <guilabel>Add missing deployment scanners after server startup</guilabel> and <guilabel>Remove added deployment scanners before shutdown</guilabel>.</para></listitem>
 			</varlistentry>			
 			<varlistentry>
 				<term>Application reload behavior</term>

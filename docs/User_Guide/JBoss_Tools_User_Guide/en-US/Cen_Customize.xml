@@ -13,6 +13,7 @@
 		<itemizedlist>
 			<listitem><para>Make JBoss Central visible when the IDE starts</para></listitem>
 			<listitem><para>Customize the menu and toolbar items of the JBoss perspective</para></listitem>
+			<listitem><para>Specify the default IDE behavior for cheat sheets</para></listitem>
 		</itemizedlist>
 
 	</section>
@@ -45,6 +46,14 @@
 		
 	</section>
 
+
+	<section>
+		<title>Set Cheat Sheet Behavior</title>
+		
+		<para>You can specify the default action the IDE should take when finding cheat sheets in projects that it is importing. The available options include always or never showing cheat sheets or the IDE prompting for which action to take for each import.</para>
+		
+		<para>To customize the action, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>Project Examples</guilabel>. From the <guilabel>Show included cheat sheet(s) when importing a project</guilabel> list, click one of the options. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</para>
+	</section>
 
 </section>
 

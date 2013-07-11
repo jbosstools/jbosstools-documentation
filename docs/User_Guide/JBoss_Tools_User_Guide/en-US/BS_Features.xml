@@ -140,7 +140,7 @@
 
 	<section>
 		<title>Activate LiveReload for BrowserSim</title>
-		<para>LiveReload for BrowserSim refreshes web pages open in simulated device browser windows as the source is edited. A LiveReload server sends notifications as resources are changed in the IDE and BrowserSim inserts the JavaScript code, which invokes the simulated device browser window to refresh. The procedures below outline how to create a LiveReload server and how to enable LiveReload in BrowserSim for workspace and deployed resources. </para>
+		<para>LiveReload for BrowserSim refreshes web pages open in simulated device browser windows as the source is edited. A LiveReload server sends notifications as resources are changed in the IDE and BrowserSim inserts the JavaScript code, which invokes the simulated device browser window to refresh. The procedures below outline how to create a LiveReload server and how to enable LiveReload in BrowserSim for workspace and deployed resources.</para>
 
 		<procedure>
 			<title>Create a LiveReload Server</title>

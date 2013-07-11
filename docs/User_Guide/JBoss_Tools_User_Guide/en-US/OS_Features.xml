@@ -356,7 +356,7 @@
 			<title></title>		
 			<varlistentry>
 				<term>Upload modifications to a deployed application</term>
-				<listitem><para>In the <guilabel>Severs</guilabel> tab, right-click the server adapter for the application and click <guimenu>Publish</guimenu>. At the prompt asking if you want to publish to OpenShift by committing changes to Git, click <guibutton>OK</guibutton>. The commit message <command>Commit from JBoss Tools</command> is automatically generated and changes are pushed to the remote Git repository. Additionally, the application is automatically updated on the OpenShift server.</para>				
+				<listitem><para>In the <guilabel>Severs</guilabel> tab, right-click the server adapter for the application and click <guimenu>Publish</guimenu>. At the prompt asking if you want to publish to OpenShift by committing changes to Git, click <guibutton>OK</guibutton>. The commit message <command>Commit from JBoss Tools</command> is automatically generated and changes are pushed to the remote Git repository. Additionally, the application is automatically updated on the OpenShift server and the <guilabel>Console</guilabel> tab displays OpenShift server output.</para>				
 					<note><para>To view a log of changes to the local git repository, in the <guilabel>Git Repositories</guilabel> tab, right-click a repository and click <guimenu>Show In</guimenu>&rarr;<guimenu>History</guimenu>. The <guilabel>History</guilabel> tab opens, showing a log of commits for the local Git repository.</para></note>				
 				</listitem>
 			</varlistentry>
