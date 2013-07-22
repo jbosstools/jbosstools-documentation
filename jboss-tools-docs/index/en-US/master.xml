@@ -13,6 +13,14 @@
     <index>
 		<title>JBoss Tools - Core</title>
         <indexentry>
+            <primaryie>User Guide for JBoss Tools<ulink
+                    url="en/User_Guide/html/index.html">(html)</ulink>
+                <ulink url="en/User_Guide/html_single/index.html">(html single)</ulink>
+                <ulink url="en/User_Guide/pdf/Getting_Started_Guide.pdf"
+                >(pdf)</ulink>
+            </primaryie>
+        </indexentry>
+	<indexentry>
             <primaryie>Getting Started with JBoss Developer Studio Guide <ulink
                     url="en/GettingStartedGuide/html/index.html">(html)</ulink>
                 <ulink url="en/GettingStartedGuide/html_single/index.html">(html single)</ulink>
