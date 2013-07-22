@@ -14,7 +14,7 @@
 			<listitem condition="jbt"><para>Download JBoss community application servers from with the IDE</para></listitem>
 			<listitem><para>Use runtime detection to locate installed application servers and generate complete server definitions, making them ready for IDE use</para></listitem>
 			<listitem><para>Define custom configured servers, both local and remote, by creating additional runtime environments and server adapters</para></listitem>
-			<listitem><para>Manage server configuration and specify IDE-server interaction with the JBoss Server Editor, including settings such as launch options, publishing frequency and port forwarding</para></listitem>
+			<listitem><para>Manage server configuration and specify IDE-server interaction with the JBoss Server Editor, including settings such as launch options, publishing frequency and communication ports</para></listitem>
 		</itemizedlist>
 		
 	</section>
@@ -62,7 +62,7 @@
 
 		<procedure>
 			<title>Define a Local Server with Runtime Detection</title>
-			<step><para>Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Tools Runtime Detection</guilabel>.</para></step>
+			<step><para>Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>.</para></step>
 			<step><para>Click <guibutton>Add</guibutton>.</para></step>
 			<step><para>Select a path from which recursive scanning for application servers should commence. To detect a specific application server, select the install directory for that application server. To detect multiple application servers, select a directory higher up the directory tree.</para></step>
 			<step><para>Depending on the outcome of the scan, follow the appropriate step:</para>
@@ -90,13 +90,13 @@
 			<title>Create a Server Runtime Environment</title>
 			<step><para>Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>Server</guilabel> and select <guilabel>Runtime Environments</guilabel>.</para></step>
 			<step><para>Click <guibutton>Add</guibutton>.</para></step>
-			<step><para>From the <guilabel>Select the type of runtime environment</guilabel> list, select a <phrase condition="jbds">Red Hat JBoss Middleware application server</phrase><phrase condition="jbt">JBoss community application server</phrase>.</para></step>
+			<step><para>From the <guilabel>Select the type of runtime environment</guilabel> list, select a <phrase condition="jbds">JBoss Enterprise Middleware application server</phrase><phrase condition="jbt">JBoss community application server</phrase>.</para></step>
 			<step><para>To create a complete local server definition, select the <guilabel>Create a new local server</guilabel> check box.</para></step>
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
 			<step><para>In the <guilabel>Name</guilabel> field, type a name by which to identify the server runtime environment within the IDE.</para></step>
 			<step><para>In the <guilabel>Home Directory</guilabel> field, type the path of the installed application server or click <guibutton>Browse</guibutton> to navigate to the location.<phrase condition="jbt"> Alternatively, to use a JBoss community application server that is not already installed on the system, click <guilabel>Download and install runtime</guilabel> and follow the instructions.</phrase></para></step>
 			<step><para>From the <guilabel>JRE</guilabel> list, select the JRE to use with the application server.</para></step>
-			<step><para>In the <guilabel>Configuration file</guilabel> field, type the path of the application server configuration file or click <guibutton>Browse</guibutton> to navigate to the location.</para>
+			<step><para>In the <guilabel>Configuration file</guilabel> field, type the path of the application server configuration file or click <guibutton>Browse</guibutton> to navigate to the location. Note that the path of the application server configuration file is relative to <filename>Home Directory/standalone/configuration/</filename>, where <filename>Home Directory</filename> is specified in the <guilabel>Home Directory</guilabel> field.</para>
 				<note><para>For older application servers, the <guilabel>Configuration file</guilabel> field is replaced with the <guilabel>Directory</guilabel> field. In this field, type the path where the application server configurations are installed and then select a listed configuration. To clone from an existing server runtime environment, after selecting a listed configuration click <guibutton>Copy</guibutton>. Complete the name for the new configuration and the location where the configuration should be stored and click <guibutton>OK</guibutton>.</para></note>
 			</step>
 			<step><para>Click <guibutton>Next</guibutton> if the button is enabled, otherwise click <guibutton>Finish</guibutton>. The <guibutton>Next</guibutton> button is only enabled if you selected the <guilabel>Create a new local server</guilabel> check box earlier. On the presented page, complete the appropriate information and click <guibutton>Finish</guibutton>.</para></step>
@@ -121,7 +121,7 @@
 					<step><para>If there are one or more existing servers, right-click an existing server and click <guimenu>New</guimenu>&rarr;<guimenu>Server</guimenu>.</para></step>
 				</stepalternatives>
 			</step>
-			<step><para>From the <guilabel>Select the server type</guilabel> list, select a <phrase condition="jbds">Red Hat JBoss Middleware application server</phrase><phrase condition="jbt">JBoss community application server</phrase>.</para></step>
+			<step><para>From the <guilabel>Select the server type</guilabel> list, select a <phrase condition="jbds">JBoss Enterprise Middleware application server</phrase><phrase condition="jbt">JBoss community application server</phrase>.</para></step>
 			<step><para>The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are completed by default. In the <guilabel>Server name</guilabel> field, type a name by which to identify the server definition.</para></step>
 			<step><para>From the <guilabel>Server runtime environment</guilabel> list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields as appropriate.</para>
 				<note><para>If the <guilabel>Server runtime environment</guilabel> field is not shown, no server runtime environments exist for the selected application server type. A server runtime environment must be selected before you can successfully create a server adapter and complete the server definition. To create a new server runtime environment without canceling the wizard, click <guibutton>Next</guibutton> and complete the fields as appropriate.</para></note>
@@ -131,7 +131,9 @@
 				<itemizedlist>
 					<listitem><para>To specify that the server life cycle will be managed from outside the IDE, select the <guilabel>Server is externally managed</guilabel> check box.</para></listitem>
 					<listitem><para>To specify that the server should be launched to respond to requests on all hostnames, select the <guilabel>Listen on all interfaces to allow remote web connections</guilabel> check box. This option is most useful for remote servers and adds the <command>-b 0.0.0.0</command> argument to the server launch command.</para></listitem>
-					<listitem><para>To enable management commands sent by the IDE to be successfully received by the server, select the <guilabel>Expose your management port as the server's hostname</guilabel> check box. This option is useful for remote servers but bypassed for local servers.</para></listitem>
+					<listitem><para>To enable management commands sent by the IDE to be successfully received by the server, select the <guilabel>Expose your management port as the server's hostname</guilabel> check box. This option is useful for remote servers but bypassed for local servers.</para>
+						<note><para>To make use of this facility, a management user must exist for the remote server and you must provide the management user credentials to the IDE.</para></note>
+					</listitem>
 				</itemizedlist>
 			</para></step>
 			<step><para>From the location list, select <guilabel>Local</guilabel>.</para></step>
@@ -148,7 +150,7 @@
 	<section>
 		<title>Define a Remote Server</title>
 		
-		<para>You can define remote servers for <phrase condition="jbds">Red Hat JBoss Middleware application servers</phrase><phrase condition="jbt">JBoss community application servers</phrase>. To complete a server definition, you must create a server adapter, or server, that informs the IDE how to communicate and manage the remote server, as detailed in the procedure below.</para>
+		<para>You can define remote servers for <phrase condition="jbds">JBoss Enterprise Middleware application servers</phrase><phrase condition="jbt">JBoss community application servers</phrase>. To complete a server definition, you must create a server adapter, or server, that informs the IDE how to communicate and manage the remote server, as detailed in the procedure below.</para>
 		
 		<important><para>A complete server definition requires a server runtime environment and a server adapter. Ideally the server runtime environment would be created by specifying the remote application server and remote Java developer kit but server runtime environments can only be created using local components. To work around this issue, you must have a version of the remote application server and remote Java developer kit installed locally and create a server runtime environment based on these.</para></important>
 
@@ -161,7 +163,7 @@
 					<step><para>If there are one or more existing servers, right-click an existing server and click <guimenu>New</guimenu>&rarr;<guimenu>Server</guimenu>.</para></step>
 				</stepalternatives>
 			</step>
-			<step><para>From the <guilabel>Select the server type</guilabel> list, select a <phrase condition="jbds">Red Hat JBoss Middleware application server</phrase><phrase condition="jbt">JBoss community application server</phrase>.</para></step>
+			<step><para>From the <guilabel>Select the server type</guilabel> list, select a <phrase condition="jbds">JBoss Enterprise Middleware application server</phrase><phrase condition="jbt">JBoss community application server</phrase>.</para></step>
 			<step><para>The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are completed by default. In the <guilabel>Server name</guilabel> field, type a name by which to identify the server definition.</para></step>
 			<step><para>From the <guilabel>Server runtime environment</guilabel> list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields as appropriate.</para>
 				<note><para>If the <guilabel>Server runtime environment</guilabel> field is not shown, no server runtime environments exist for the selected application server type. A server runtime environment must be selected before you can successfully create a server adapter and complete the server definition. To create a new server runtime environment without canceling the wizard, click <guibutton>Next</guibutton> and complete the fields as appropriate.</para></note>
@@ -171,7 +173,9 @@
 				<itemizedlist>
 					<listitem><para>To specify that the server life cycle will be managed from outside the IDE, select the <guilabel>Server is externally managed</guilabel> check box.</para></listitem>
 					<listitem><para>To specify that the server should be launched to respond to requests on all hostnames, select the <guilabel>Listen on all interfaces to allow remote web connections</guilabel> check box. This option is most useful for remote servers and adds the <command>-b 0.0.0.0</command> argument to the server launch command.</para></listitem>
-					<listitem><para>To enable management commands sent by the IDE to be successfully received by the server, select the <guilabel>Expose your management port as the server's hostname</guilabel> check box. This option is useful for remote servers.</para></listitem>
+					<listitem><para>To enable management commands sent by the IDE to be successfully received by the server, select the <guilabel>Expose your management port as the server's hostname</guilabel> check box. This option is useful for remote servers.</para>
+						<note><para>To make use of this facility, a management user must exist for the remote server and you must provide the management user credentials to the IDE.</para></note>
+					</listitem>
 				</itemizedlist>
 			</para></step>
 			<step><para>From the location list, select <guilabel>Remote System Deployment</guilabel>.</para></step>

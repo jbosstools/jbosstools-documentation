@@ -8,6 +8,24 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.0.0-12</revnumber><date>Mon Jul 22 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							JBQA-8152: Incorporating QE feedback for JBoss Server Tool
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>7.0.0-11</revnumber><date>Mon Jul 08 2013</date>
 				<author>
 					<firstname>
@@ -38,7 +56,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOLSDOC-366: Documentation of LiveReload Tools and SME feedback
+							TOOLSDOC-366: Documenting LiveReload Tools and SME feedback
 						</member>
 					</simplelist>
 				</revdescription>
@@ -56,7 +74,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							Documentation of JBoss Server Tools
+							Documenting of JBoss Server Tools
 						</member>
 					</simplelist>
 				</revdescription>
@@ -74,7 +92,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							Documentation of Mobile Web Tools
+							Documenting Mobile Web Tools
 						</member>
 					</simplelist>
 				</revdescription>
@@ -146,7 +164,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							Documentation of JBoss Central and JBoss Perspective
+							Documenting JBoss Central and JBoss Perspective
 						</member>
 					</simplelist>
 				</revdescription>
@@ -164,7 +182,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							Documentation of Forge Tools
+							Documenting Forge Tools
 						</member>
 					</simplelist>
 				</revdescription>
@@ -182,7 +200,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							Documentation of OpenShift Tools
+							Documenting OpenShift Tools
 						</member>
 					</simplelist>
 				</revdescription>
@@ -200,7 +218,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							Documentation of BrowserSim
+							Documenting BrowserSim
 						</member>
 					</simplelist>
 				</revdescription>
