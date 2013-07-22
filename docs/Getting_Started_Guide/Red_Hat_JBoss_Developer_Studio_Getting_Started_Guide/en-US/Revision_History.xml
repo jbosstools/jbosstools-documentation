@@ -8,6 +8,24 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.0.0-12</revnumber><date>Mon Jul 22 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-373: Fixing typos
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>	
+			<revision>
 				<revnumber>7.0.0-11</revnumber><date>Thu Jul 11 2013</date>
 				<author>
 					<firstname>
