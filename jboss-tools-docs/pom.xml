@@ -18,6 +18,8 @@
 
 		<!-- JBT Core Doc -->
 
+		<module>../docs/User_Guide/JBoss_Tools_User_Guide</module>
+		
 		<module>../guides/GettingStartedGuide</module>
 		<module>../guides/Beginners_Guide</module>
 
