@@ -8,6 +8,34 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.0.0-13</revnumber>
+				<date>Mon Jul 22 2013</date>
+				<author>
+					<firstname>Michelle</firstname>
+					<surname>Murray</surname>
+					<email>mmurray@redhat.com</email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>Simplified duplicate Forge Wizards information</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>7.0.0-12</revnumber>
+				<date>Wed Jul 17 2013</date>
+				<author>
+					<firstname>Misty</firstname>
+					<surname>Stanley-Jones</surname>
+					<email>misty@redhat.com</email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>Added Forge Wizards information</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>7.0.0-11</revnumber>
 				<date>Thu Jul 11 2013</date>
 				<author>

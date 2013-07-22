@@ -57,20 +57,14 @@
 			<listitem>
 				<itemizedlist>
 					<listitem><para>The embedded Forge runtime server is version 1.3.2.Final.</para></listitem>
-					<listitem><para>Wizards have been implemented for common Forge commands as a visual and guided alternative to the command line. The Forge wizards can be found by clicking <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu>&rarr;<guimenu>Other</guimenu> and expanding <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Forge</guilabel>. All of the wizards have progress bars to indicate their progress.</para></listitem>
-					<listitem><para>The current wizards enable the generation of entities from existing databases, the creation of a scaffolding user interface based on JPA project entities, and the generation of REST endpoints for entities. More wizards are to be added in future releases.</para></listitem>
+					<listitem><para><application>Forge Wizards -- Technology Preview</application></para>
+						<itemizedlist>
+							<listitem><para>Wizards have been implemented for common Forge commands as a visual and guided alternative to the command line. The Forge wizards can be found by clicking <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu>&rarr;<guimenu>Other</guimenu> and expanding <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Forge</guilabel>. All of the wizards have progress bars to indicate their progress.</para></listitem>
+							<listitem><para>The current wizards enable the generation of entities from existing databases, the creation of a scaffolding user interface based on JPA project entities, and the generation of REST endpoints for entities. More wizards are to be added in future releases.</para></listitem>
+						</itemizedlist>
+						<warning><para>Forge wizards are provided as a Technology Preview in this release. This means that they are provided as-is, without support or guarantees. Your feedback is appreciated.</para></warning>
+					</listitem>
 				</itemizedlist>
-			</listitem>
-		</varlistentry>
-		<varlistentry>
-			<term>Forge Wizards -- Technology Preview</term>
-			<listitem>
-				<para>
-					JBoss Forge allows you to build applications quickly. JBoss Developer Studio includes several wizards that streamline use of JBoss Forge from within the IDE.
-				</para>
-				<para>
-					Forge Wizards are provided as a Technology Preview in this release. This means that they are provided as-is, without support or guarantees. Your feedback is appreciated.
-				</para>
 			</listitem>
 		</varlistentry>
 		<varlistentry>
