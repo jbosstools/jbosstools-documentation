@@ -79,7 +79,7 @@
 			</varlistentry>
 			<varlistentry>
 				<term>View deployed resources on an external device</term>
-				<listitem><para>Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> tab, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser on External Device</guimenu>. This requires the server to be configured to <guilabel>Inject the livereload.js script in HTML pages</guilabel> and <guilabel>Allow Remote Connections</guilabel> and, if the server is not correctly configured, you are prompted to enable these options. A QR code and web address corresponding to the deployed application are displayed and these can be input into external device browsers.</para></listitem>
+				<listitem><para>Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> tab, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser on External Device</guimenu>. This requires the server to be configured to <guilabel>Inject the livereload.js script in HTML pages</guilabel> and <guilabel>Allow Remote Connections</guilabel> and, if the server is not correctly configured, you are prompted to enable these options. A QR code and LiveReload server port URL corresponding to the deployed application are displayed and these can be input into external device browsers.</para></listitem>
 			</varlistentry>
 		</variablelist>
 
@@ -106,6 +106,8 @@
 			</step>
 			<step><para>Right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected.</para></step>
 		</procedure>
+
+		<important><para>The <guilabel>Enable LiveReload</guilabel> check box has no effect when the LiveReload server is set to insert the JavaScript code and the web resource is viewed in BrowserSim via the LiveReload server port URL. LiveReload is always enabled in this case.</para></important>
 
 	</section>
 	

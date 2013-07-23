@@ -164,6 +164,8 @@
 			<step><para>Right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected.</para></step>
 		</procedure>
 
+		<important><para>The <guilabel>Enable LiveReload</guilabel> check box has no effect when the LiveReload server is set to insert the JavaScript code and the web resource is viewed in BrowserSim via the LiveReload server port URL. LiveReload is always enabled in this case.</para></important>
+
 	</section>
 
 
