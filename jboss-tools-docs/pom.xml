@@ -17,56 +17,29 @@
 	<modules>
 
 		<!-- JBT Core Doc -->
-
 		<module>../docs/User_Guide/JBoss_Tools_User_Guide</module>
-		
-		<module>../guides/GettingStartedGuide</module>
-		<module>../guides/Beginners_Guide</module>
 
 		<module>../../jbosstools-birt/docs</module>
-
-		<module>../../jbosstools-central/maven/docs/reference</module>
-
-		<module>../../jbosstools-forge/docs/reference</module>
-
-		<module>../../jbosstools-hibernate/docs/reference</module>
-
 		<module>../../jbosstools-javaee/cdi/docs/reference</module>
+		<module>../../jbosstools-esb/docs/esb_ref_guide</module>
+		<module>../../jbosstools-hibernate/docs/reference</module>
+		<module>../../jbosstools-portlet/docs/reference</module>
+		<module>../../jbosstools-server/jmx/docs/reference</module>
 		<module>../../jbosstools-javaee/jsf/docs/jsf_tools_ref_guide</module>
 		<module>../../jbosstools-javaee/jsf/docs/jsf_tools_tutorial</module>
-		<module>../../jbosstools-javaee/jsf/docs/userguide</module>
+		<module>../../jbosstools-central/maven/docs/reference</module>
 		<module>../../jbosstools-javaee/seam/docs/reference</module>
 		<module>../../jbosstools-javaee/seam/docs/tutorial</module>
-
-
-		<module>../../jbosstools-openshift/docs/reference</module>
-		
-		<module>../../jbosstools-portlet/docs/reference</module>
-
-		<module>../../jbosstools-server/as/docs/reference</module>
-		<module>../../jbosstools-server/jmx/docs/reference</module>
-
+		<module>../../jbosstools-javaee/jsf/docs/userguide</module>
 		<module>../../jbosstools-webservices/docs/restful_reference</module>
 		<module>../../jbosstools-webservices/docs/soap_reference</module>
 
-		<!-- JBT SOA DOC -->
 
+		<!-- JBT SOA DOC -->
 		<module>../../jbosstools-bpel/docs/reference</module>
 
-		<module>../../jbosstools-esb/docs/esb_ref_guide</module>
 
-		<!-- Drools doc have moved to http://docs.jboss.org/drools/release/ -->
-		<!--
-		<module>../../drools/docs/reference</module>
-		<module>../../drools/docs/guvnor_ref</module>
-		-->
-
-		<module>../../jbosstools-jbpm/docs/reference</module>
-		<module>../../jbosstools-jbpm/docs/converter_ref</module>
-
-		<!-- Modeshape doc has moved to https://github.com/ModeShape/modeshape-tools/ -->
-		<module>../../modeshape-tools/docs/ModeShape_Tools_Reference_Guide</module>
-
+		<!-- HTML page listing docs-->
 		<module>index</module>
 	</modules>
 
