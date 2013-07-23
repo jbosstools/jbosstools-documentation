@@ -130,7 +130,7 @@
 			<step><para>The server behavior options displayed vary depending on the selected application server type. Complete the options as appropriate:
 				<itemizedlist>
 					<listitem><para>To specify that the server life cycle will be managed from outside the IDE, select the <guilabel>Server is externally managed</guilabel> check box.</para></listitem>
-					<listitem><para>To specify that the server should be launched to respond to requests on all hostnames, select the <guilabel>Listen on all interfaces to allow remote web connections</guilabel> check box. This option is most useful for remote servers and adds the <command>-b 0.0.0.0</command> argument to the server launch command.</para></listitem>
+					<listitem><para>To specify that the server should be launched to respond to requests on all hostnames, select the <guilabel>Listen on all interfaces to allow remote web connections</guilabel> check box. This option adds the <command>-b 0.0.0.0</command> argument to the server launch command.</para></listitem>
 					<listitem><para>To enable management commands sent by the IDE to be successfully received by the server, select the <guilabel>Expose your management port as the server's hostname</guilabel> check box. This option is useful for remote servers but bypassed for local servers.</para>
 						<note><para>To make use of this facility, a management user must exist for the remote server and you must provide the management user credentials to the IDE.</para></note>
 					</listitem>
@@ -172,7 +172,7 @@
 			<step><para>The server behavior options displayed vary depending on the selected application server type. Complete the options as appropriate:
 				<itemizedlist>
 					<listitem><para>To specify that the server life cycle will be managed from outside the IDE, select the <guilabel>Server is externally managed</guilabel> check box.</para></listitem>
-					<listitem><para>To specify that the server should be launched to respond to requests on all hostnames, select the <guilabel>Listen on all interfaces to allow remote web connections</guilabel> check box. This option is most useful for remote servers and adds the <command>-b 0.0.0.0</command> argument to the server launch command.</para></listitem>
+					<listitem><para>To specify that the server should be launched to respond to requests on all hostnames, select the <guilabel>Listen on all interfaces to allow remote web connections</guilabel> check box. This option adds the <command>-b 0.0.0.0</command> argument to the server launch command.</para></listitem>
 					<listitem><para>To enable management commands sent by the IDE to be successfully received by the server, select the <guilabel>Expose your management port as the server's hostname</guilabel> check box. This option is useful for remote servers.</para>
 						<note><para>To make use of this facility, a management user must exist for the remote server and you must provide the management user credentials to the IDE.</para></note>
 					</listitem>
@@ -242,7 +242,7 @@
 			</varlistentry>
 			<varlistentry>
 				<term>Deployment scanner</term>
-				<listitem><para>This section enables you to customize the behavior of deployment scanners, which detect the applications deployed to a server. You can management deployment scanners or allow the IDE to do it for you. The management options available are <guilabel>Add missing deployment scanners after server startup</guilabel> and <guilabel>Remove added deployment scanners before shutdown</guilabel>.</para></listitem>
+				<listitem><para>This section enables you to customize the behavior of deployment scanners, which detect the applications deployed to a server. You can manage deployment scanners or allow the IDE to do it for you. The management options available are <guilabel>Add missing deployment scanners after server startup</guilabel> and <guilabel>Remove added deployment scanners before shutdown</guilabel>.</para></listitem>
 			</varlistentry>			
 			<varlistentry>
 				<term>Application reload behavior</term>
