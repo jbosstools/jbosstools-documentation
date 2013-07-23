@@ -20,22 +20,6 @@
                 >(pdf)</ulink>
             </primaryie>
         </indexentry>
-	<indexentry>
-            <primaryie>Getting Started with JBoss Developer Studio Guide <ulink
-                    url="en/GettingStartedGuide/html/index.html">(html)</ulink>
-                <ulink url="en/GettingStartedGuide/html_single/index.html">(html single)</ulink>
-                <ulink url="en/GettingStartedGuide/pdf/Getting_Started_Guide.pdf"
-                >(pdf)</ulink>
-            </primaryie>
-        </indexentry>
-        <indexentry>
-            <primaryie>Beginners Guide <ulink
-                    url="en/beginners_guide/html/index.html">(html)</ulink>
-                <ulink url="en/beginners_guide/html_single/index.html">(html single)</ulink>
-                <ulink url="en/beginners_guide/pdf/Beginners_Guide.pdf"
-                >(pdf)</ulink>
-            </primaryie>
-        </indexentry>
 		
 		<indexentry>
 			<primaryie>Birt Plugin Integration Reference Guide <ulink
@@ -43,10 +27,10 @@
 				<ulink url="en/jboss_birt_plugin_ref_guide/html_single/index.html">(html single)</ulink>
 				<ulink url="en/jboss_birt_plugin_ref_guide/pdf/Birt_Reference_Guide.pdf"
 					>(pdf)</ulink>
-				</primaryie>
-			</indexentry>
+			</primaryie>
+		</indexentry>
 		
-	<indexentry>
+		<indexentry>
             <primaryie>CDI Tools Reference Guide <ulink
                     url="en/cdi_tools_reference_guide/html/index.html">(html)</ulink>
                 <ulink url="en/cdi_tools_reference_guide/html_single/index.html">(html single)</ulink>
@@ -61,44 +45,27 @@
 				<ulink url="en/esb_ref_guide/html_single/index.html">(html single)</ulink>
 				<ulink url="en/esb_ref_guide/pdf/ESB_Reference_Guide.pdf"
 					>(pdf)</ulink>
-				</primaryie>
-			</indexentry>
-			
-			<indexentry>
-				<primaryie>Forge Reference Guide <ulink
+			</primaryie>
+		</indexentry>
 
-					url="en/forge_reference/html/index.html">(html)</ulink>
-					<ulink url="en/forge_reference/html_single/index.html">(html single)</ulink>
-					<ulink url="en/forge_reference/pdf/Forge_Reference_Guide.pdf">(pdf)</ulink>
-				</primaryie>
-			</indexentry>
-
-			<indexentry>
-				<primaryie>Hibernate Tools Reference Guide 
-					<ulink url="en/hibernatetools/html/index.html">(html)</ulink>
-					<ulink url="en/hibernatetools/html_single/index.html">(html single)</ulink>
-					<ulink url="en/hibernatetools/pdf/Hibernatetools_Reference_Guide.pdf"
-						>(pdf)</ulink>
-					</primaryie>
-			</indexentry>
-			
-			<indexentry>
-				<primaryie>JBoss Portal Tools Reference Guide <ulink
-					url="en/jboss_portal_tools_ref_guide/html/index.html">(html)</ulink>
-					<ulink url="en/jboss_portal_tools_ref_guide/html_single/index.html">(html single)</ulink>
-					<ulink url="en/jboss_portal_tools_ref_guide/pdf/JBoss_Portal_Tools_Reference_Guide.pdf"
-						>(pdf)</ulink>
-					</primaryie>
-				</indexentry>
-
-        <indexentry>
-            <primaryie>JBoss Server Manager Reference Guide <ulink url="en/as/html/index.html"
-                    >(html)</ulink>
-                <ulink url="en/as/html_single/index.html">(html single)</ulink>
-                <ulink url="en/as/pdf/AS_Reference_Guide.pdf">(pdf)</ulink>
-            </primaryie>
-        </indexentry>
+		<indexentry>
+			<primaryie>Hibernate Tools Reference Guide 
+				<ulink url="en/hibernatetools/html/index.html">(html)</ulink>
+				<ulink url="en/hibernatetools/html_single/index.html">(html single)</ulink>
+				<ulink url="en/hibernatetools/pdf/Hibernatetools_Reference_Guide.pdf"
+					>(pdf)</ulink>
+			</primaryie>
+		</indexentry>
 		
+		<indexentry>
+			<primaryie>JBoss Portal Tools Reference Guide <ulink
+				url="en/jboss_portal_tools_ref_guide/html/index.html">(html)</ulink>
+				<ulink url="en/jboss_portal_tools_ref_guide/html_single/index.html">(html single)</ulink>
+				<ulink url="en/jboss_portal_tools_ref_guide/pdf/JBoss_Portal_Tools_Reference_Guide.pdf"
+					>(pdf)</ulink>
+			</primaryie>
+		</indexentry>
+	
 		<indexentry>
 			<primaryie>JMX Reference Guide <ulink
 				url="en/jmx_ref_guide/html/index.html">(html)</ulink>
@@ -113,36 +80,27 @@
 				<ulink url="en/jsf_tools_ref_guide/html_single/index.html">(html single)</ulink>
 				<ulink url="en/jsf_tools_ref_guide/pdf/JSF_Tools_Reference_Guide.pdf"
 					>(pdf)</ulink>
-				</primaryie>
-			</indexentry>
-			
-			<indexentry>
-				<primaryie>JSF Tools Tutorial <ulink url="en/jsf_tools_tutorial/html/index.html"
-					>(html)</ulink>
-					<ulink url="en/jsf_tools_tutorial/html_single/index.html">(html single)</ulink>
-					<ulink url="en/jsf_tools_tutorial/pdf/JSF_Tools_Tutorial.pdf">(pdf)</ulink>
-				</primaryie>
-			</indexentry>
-			
-			<indexentry>
-				<primaryie>Maven Reference Guide <ulink
-					url="en/maven_reference/html/index.html">(html)</ulink>
-					<ulink url="en/maven_reference/html_single/index.html">(html single)</ulink>
-					<ulink url="en/maven_reference/pdf/Maven_Tools_Reference_Guide.pdf">(pdf)</ulink>
-				</primaryie>
-			</indexentry>
-			
-			<indexentry>
-				<primaryie>OpenShift Tools Reference Guide <ulink
-					url="en/openshift_tools_reference_guide/html/index.html">(html)</ulink>
-					<ulink url="en/openshift_tools_reference_guide/html_single/index.html">(html single)</ulink>
-					<ulink url="en/openshift_tools_reference_guide/pdf/OpenShift_Tools_Reference_Guide.pdf"
-						>(pdf)</ulink>
-					</primaryie>
-				</indexentry> 
+			</primaryie>
+		</indexentry>
 		
 		<indexentry>
-			<primaryie>Seam Dev Tools Reference Guide <ulink url="en/seam/html/index.html"
+			<primaryie>JSF Tools Tutorial <ulink url="en/jsf_tools_tutorial/html/index.html"
+				>(html)</ulink>
+				<ulink url="en/jsf_tools_tutorial/html_single/index.html">(html single)</ulink>
+				<ulink url="en/jsf_tools_tutorial/pdf/JSF_Tools_Tutorial.pdf">(pdf)</ulink>
+			</primaryie>
+		</indexentry>
+		
+		<indexentry>
+			<primaryie>Maven Reference Guide <ulink
+				url="en/maven_reference/html/index.html">(html)</ulink>
+				<ulink url="en/maven_reference/html_single/index.html">(html single)</ulink>
+				<ulink url="en/maven_reference/pdf/Maven_Tools_Reference_Guide.pdf">(pdf)</ulink>
+			</primaryie>
+		</indexentry>
+		
+		<indexentry>
+			<primaryie>Seam Tools Reference Guide <ulink url="en/seam/html/index.html"
 				>(html)</ulink>
 				<ulink url="en/seam/html_single/index.html">(html single)</ulink>
 				<ulink url="en/seam/pdf/Seam_Reference_Guide.pdf">(pdf)</ulink>
@@ -171,17 +129,17 @@
 				<ulink url="en/ws_restful_reference/html_single/index.html">(html single)</ulink>
 				<ulink url="en/ws_restful_reference/pdf/RESTful_WS_Reference_Guide.pdf"
 					>(pdf)</ulink>
-				</primaryie>
-			</indexentry>
-			
-			<indexentry>
-				<primaryie>WS SOAP Reference Guide <ulink
-					url="en/ws_soap_reference/html/index.html">(html)</ulink>
-					<ulink url="en/ws_soap_reference/html_single/index.html">(html single)</ulink>
-					<ulink url="en/ws_soap_reference/pdf/SOAP_WS_Reference_Guide.pdf"
-						>(pdf)</ulink>
-					</primaryie>
-				</indexentry>
+			</primaryie>
+		</indexentry>
+		
+		<indexentry>
+			<primaryie>WS SOAP Reference Guide <ulink
+				url="en/ws_soap_reference/html/index.html">(html)</ulink>
+				<ulink url="en/ws_soap_reference/html_single/index.html">(html single)</ulink>
+				<ulink url="en/ws_soap_reference/pdf/SOAP_WS_Reference_Guide.pdf"
+					>(pdf)</ulink>
+			</primaryie>
+		</indexentry>
 
     </index>
     
@@ -222,5 +180,5 @@
 			</primaryie>
 		</indexentry> 
 		
-</index>
+	</index>
 </book>

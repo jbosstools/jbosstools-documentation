@@ -20,9 +20,12 @@
 				<fileMode>0644</fileMode>
 				<directoryMode>0755</directoryMode>
 			</fileSet>
+
 			<fileSet>
-				<directory>../guides/GettingStartedGuide/target/docbook/publish/en-US</directory>
-				<outputDirectory>/GettingStartedGuide</outputDirectory>
+				<!-- <directory>../../birt/docs/target/docbook/publish/en-US</directory> -->
+				<!-- Birt doc has moved to https://github.com/jbosstools/jbosstools-birt/-->				
+				<directory>../../jbosstools-birt/docs/target/docbook/publish/en-US</directory>				
+				<outputDirectory>/jboss_birt_plugin_ref_guide</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
 				<includes>
@@ -33,19 +36,7 @@
 				<fileMode>0644</fileMode>
 				<directoryMode>0755</directoryMode>
 			</fileSet>
-			<fileSet>
-				<directory>../guides/Beginners_Guide/target/docbook/publish/en-US</directory>
-				<outputDirectory>/beginners_guide</outputDirectory>
-				<filtered>false</filtered>
-				<lineEnding>keep</lineEnding>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<useStrictFiltering>false</useStrictFiltering>
-				<useDefaultExcludes>true</useDefaultExcludes>
-				<fileMode>0644</fileMode>
-				<directoryMode>0755</directoryMode>
-			</fileSet>
+		
 			<fileSet>
 				<!-- <directory>../../cdi/docs/reference/target/docbook/publish/en-US</directory> -->
 				<!-- CDI doc has moved to https://github.com/jbosstools/jbosstools-javaee/-->
@@ -61,9 +52,12 @@
 				<fileMode>0644</fileMode>
 				<directoryMode>0755</directoryMode>
 			</fileSet>
-			<fileSet>
-				<directory>../guides/Legacy-jsf/target/docbook/publish/en-US</directory>
-				<outputDirectory>/Legacy-jsf</outputDirectory>
+			
+            <fileSet>
+				<!-- <directory>../../esb/docs/esb_ref_guide/target/docbook/publish/en-US</directory> -->
+				<!-- ESB doc has moved to https://github.com/jbosstools/jbosstools-esb/-->
+				<directory>../../jbosstools-esb/docs/esb_ref_guide/target/docbook/publish/en-US</directory>
+				<outputDirectory>/esb_ref_guide</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
 				<includes>
@@ -74,36 +68,7 @@
 				<fileMode>0644</fileMode>
 				<directoryMode>0755</directoryMode>
 			</fileSet>
-			<fileSet>
-				<!-- <directory>../../as/docs/reference/target/docbook/publish/en-US</directory> -->
-				<!-- Server Manager doc has moved to https://github.com/jbosstools/jbosstools-server/-->
-				<directory>../../jbosstools-server/as/docs/reference/target/docbook/publish/en-US</directory>
-				<outputDirectory>/as</outputDirectory>
-				<filtered>false</filtered>
-				<lineEnding>keep</lineEnding>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<useStrictFiltering>false</useStrictFiltering>
-				<useDefaultExcludes>true</useDefaultExcludes>
-				<fileMode>0644</fileMode>
-				<directoryMode>0755</directoryMode>
-			</fileSet>
-			<fileSet>
-				<!-- <directory>../../openshift/docs/reference/target/docbook/publish/en-US</directory> -->
-				<!-- OpenShift doc has moved to https://github.com/jbosstools/jbosstools-openshift/-->
-				<directory>../../jbosstools-openshift/docs/reference/target/docbook/publish/en-US</directory>				
-				<outputDirectory>/openshift_tools_reference_guide</outputDirectory>
-				<filtered>false</filtered>
-				<lineEnding>keep</lineEnding>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<useStrictFiltering>false</useStrictFiltering>
-				<useDefaultExcludes>true</useDefaultExcludes>
-				<fileMode>0644</fileMode>
-				<directoryMode>0755</directoryMode>
-			</fileSet> 
+
 			<fileSet>
 				<!-- <directory>../../hibernatetools/docs/reference/target/docbook/publish/en-US</directory> -->
 				<!-- Hibernate doc has moved to https://github.com/jbosstools/jbosstools-hibernate/-->
@@ -119,11 +84,28 @@
 				<fileMode>0644</fileMode>
 				<directoryMode>0755</directoryMode>
 			</fileSet>
+			
 			<fileSet>
-				<!-- <directory>../../jbpm/docs/reference/target/docbook/publish/en-US</directory> -->
-				<!-- jBPM doc has moved to https://github.com/jbosstools/jbosstools-jbpm/-->
-				<directory>../../jbosstools-jbpm/docs/reference/target/docbook/publish/en-US</directory>				
-				<outputDirectory>/jboss_jbpm_ref_guide</outputDirectory>
+				<!-- <directory>../../portlet/docs/reference/target/docbook/publish/en-US</directory> -->
+				<!-- Portal doc has moved to https://github.com/jbosstools/jbosstools-portlet/-->
+				<directory>../../jbosstools-portlet/docs/reference/target/docbook/publish/en-US</directory>
+				<outputDirectory>/jboss_portal_tools_ref_guide</outputDirectory>
+				<filtered>false</filtered>
+				<lineEnding>keep</lineEnding>
+				<includes>
+					<include>**/*.*</include>
+				</includes>
+				<useStrictFiltering>false</useStrictFiltering>
+				<useDefaultExcludes>true</useDefaultExcludes>
+				<fileMode>0644</fileMode>
+				<directoryMode>0755</directoryMode>
+			</fileSet>	
+	
+			<fileSet>
+				<!-- <directory>../../jmx/docs/reference/target/docbook/publish/en-US</directory> -->
+				<!-- JMX doc has moved to https://github.com/jbosstools/jbosstools-server/-->
+				<directory>../../jbosstools-server/jmx/docs/reference/target/docbook/publish/en-US</directory>
+				<outputDirectory>/jmx_ref_guide</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
 				<includes>
@@ -134,66 +116,7 @@
 				<fileMode>0644</fileMode>
 				<directoryMode>0755</directoryMode>
 			</fileSet>
-			<fileSet>
-				<!-- <directory>../../jbpm/docs/converter_ref/target/docbook/publish/en-US</directory> -->
-				<!-- BPMN doc has moved to https://github.com/jbosstools/jbosstools-jbpm/-->
-				<directory>../../jbosstools-jbpm/docs/converter_ref/target/docbook/publish/en-US</directory>
-				<outputDirectory>/jboss_bpmn_convert_ref_guide</outputDirectory>
-				<filtered>false</filtered>
-				<lineEnding>keep</lineEnding>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<useStrictFiltering>false</useStrictFiltering>
-				<useDefaultExcludes>true</useDefaultExcludes>
-				<fileMode>0644</fileMode>
-				<directoryMode>0755</directoryMode>
-			</fileSet>
-			<fileSet>
-				<!-- <directory>../../jsf/docs/userguide/target/docbook/publish/en-US</directory> -->
-				<!-- Visual Web doc has moved to https://github.com/jbosstools/jbosstools-javaee/-->
-				<directory>../../jbosstools-javaee/jsf/docs/userguide/target/docbook/publish/en-US</directory>
-				<outputDirectory>/jsf</outputDirectory>
-				<filtered>false</filtered>
-				<lineEnding>keep</lineEnding>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<useStrictFiltering>false</useStrictFiltering>
-				<useDefaultExcludes>true</useDefaultExcludes>
-				<fileMode>0644</fileMode>
-				<directoryMode>0755</directoryMode>
-			</fileSet>
-			<fileSet>
-				<!-- <directory>../../seam/docs/reference/target/docbook/publish/en-US</directory> -->
-				<!-- Seam doc has moved to https://github.com/jbosstools/jbosstools-javaee/-->
-				<directory>../../jbosstools-javaee/seam/docs/reference/target/docbook/publish/en-US</directory>
-				<outputDirectory>/seam</outputDirectory>
-				<filtered>false</filtered>
-				<lineEnding>keep</lineEnding>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<useStrictFiltering>false</useStrictFiltering>
-				<useDefaultExcludes>true</useDefaultExcludes>
-				<fileMode>0644</fileMode>
-				<directoryMode>0755</directoryMode>
-			</fileSet>
-			<fileSet>
-				<!-- <directory>../../seam/docs/tutorial/target/docbook/publish/en-US</directory> -->
-				<!-- Seam tut has moved to https://github.com/jbosstools/jbosstools-/-->
-				<directory>../../jbosstools-javaee/seam/docs/tutorial/target/docbook/publish/en-US</directory>
-				<outputDirectory>/seam_tutorial</outputDirectory>
-				<filtered>false</filtered>
-				<lineEnding>keep</lineEnding>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<useStrictFiltering>false</useStrictFiltering>
-				<useDefaultExcludes>true</useDefaultExcludes>
-				<fileMode>0644</fileMode>
-				<directoryMode>0755</directoryMode>
-			</fileSet>
+
 			<fileSet>
 				<!-- <directory>../../jsf/docs/jsf_tools_ref_guide/target/docbook/publish/en-US</directory> -->
 				<!-- JSF doc has moved to https://github.com/jbosstools/jbosstools-javaee/-->
@@ -226,11 +149,59 @@
 				<directoryMode>0755</directoryMode>
 			</fileSet>
 
-            <fileSet>
-				<!-- <directory>../../esb/docs/esb_ref_guide/target/docbook/publish/en-US</directory> -->
-				<!-- ESB doc has moved to https://github.com/jbosstools/jbosstools-esb/-->
-				<directory>../../jbosstools-esb/docs/esb_ref_guide/target/docbook/publish/en-US</directory>				
-				<outputDirectory>/esb_ref_guide</outputDirectory>
+			<fileSet>
+				<!-- <directory>../../maven/docs/reference/target/docbook/publish/en-US</directory> -->
+				<!-- Maven doc has moved to https://github.com/jbosstools/jbosstools-central/-->
+				<directory>../../jbosstools-central/maven/docs/reference/target/docbook/publish/en-US</directory>
+				<outputDirectory>/maven_reference</outputDirectory>
+				<filtered>false</filtered>
+				<lineEnding>keep</lineEnding>
+				<includes>
+					<include>**/*.*</include>
+				</includes>
+				<useStrictFiltering>false</useStrictFiltering>
+				<useDefaultExcludes>true</useDefaultExcludes>
+				<fileMode>0644</fileMode>
+				<directoryMode>0755</directoryMode>
+			</fileSet>
+
+			<fileSet>
+				<!-- <directory>../../seam/docs/reference/target/docbook/publish/en-US</directory> -->
+				<!-- Seam doc has moved to https://github.com/jbosstools/jbosstools-javaee/-->
+				<directory>../../jbosstools-javaee/seam/docs/reference/target/docbook/publish/en-US</directory>
+				<outputDirectory>/seam</outputDirectory>
+				<filtered>false</filtered>
+				<lineEnding>keep</lineEnding>
+				<includes>
+					<include>**/*.*</include>
+				</includes>
+				<useStrictFiltering>false</useStrictFiltering>
+				<useDefaultExcludes>true</useDefaultExcludes>
+				<fileMode>0644</fileMode>
+				<directoryMode>0755</directoryMode>
+			</fileSet>
+			
+			<fileSet>
+				<!-- <directory>../../seam/docs/tutorial/target/docbook/publish/en-US</directory> -->
+				<!-- Seam tut has moved to https://github.com/jbosstools/jbosstools-/-->
+				<directory>../../jbosstools-javaee/seam/docs/tutorial/target/docbook/publish/en-US</directory>
+				<outputDirectory>/seam_tutorial</outputDirectory>
+				<filtered>false</filtered>
+				<lineEnding>keep</lineEnding>
+				<includes>
+					<include>**/*.*</include>
+				</includes>
+				<useStrictFiltering>false</useStrictFiltering>
+				<useDefaultExcludes>true</useDefaultExcludes>
+				<fileMode>0644</fileMode>
+				<directoryMode>0755</directoryMode>
+			</fileSet>
+
+			<fileSet>
+				<!-- <directory>../../jsf/docs/userguide/target/docbook/publish/en-US</directory> -->
+				<!-- Visual Web doc has moved to https://github.com/jbosstools/jbosstools-javaee/-->
+				<directory>../../jbosstools-javaee/jsf/docs/userguide/target/docbook/publish/en-US</directory>
+				<outputDirectory>/jsf</outputDirectory>
 				<filtered>false</filtered>
 				<lineEnding>keep</lineEnding>
 				<includes>
@@ -275,116 +246,6 @@
 			</fileSet>
 
 			<fileSet>
-				<!-- <directory>../../portlet/docs/reference/target/docbook/publish/en-US</directory> -->
-				<!-- Portal doc has moved to https://github.com/jbosstools/jbosstools-portlet/-->
-				<directory>../../jbosstools-portlet/docs/reference/target/docbook/publish/en-US</directory>
-				<outputDirectory>/jboss_portal_tools_ref_guide</outputDirectory>
-				<filtered>false</filtered>
-				<lineEnding>keep</lineEnding>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<useStrictFiltering>false</useStrictFiltering>
-				<useDefaultExcludes>true</useDefaultExcludes>
-				<fileMode>0644</fileMode>
-				<directoryMode>0755</directoryMode>
-			</fileSet>
-
-			<fileSet>
-				<!-- <directory>../../birt/docs/target/docbook/publish/en-US</directory> -->
-				<!-- Birt doc has moved to https://github.com/jbosstools/jbosstools-birt/-->				
-				<directory>../../jbosstools-birt/docs/target/docbook/publish/en-US</directory>				
-				<outputDirectory>/jboss_birt_plugin_ref_guide</outputDirectory>
-				<filtered>false</filtered>
-				<lineEnding>keep</lineEnding>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<useStrictFiltering>false</useStrictFiltering>
-				<useDefaultExcludes>true</useDefaultExcludes>
-				<fileMode>0644</fileMode>
-				<directoryMode>0755</directoryMode>
-			</fileSet>
-
-			<!-- These docs are now hosted at http://docs.jboss.org/drools/release/
-			<fileSet>
-				<directory>../../drools/docs/reference/target/docbook/publish/en-US</directory>
-				<outputDirectory>/drools_tools_ref_guide</outputDirectory>
-				<filtered>false</filtered>
-				<lineEnding>keep</lineEnding>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<useStrictFiltering>false</useStrictFiltering>
-				<useDefaultExcludes>true</useDefaultExcludes>
-				<fileMode>0644</fileMode>
-				<directoryMode>0755</directoryMode>
-			</fileSet>
-
-			<fileSet>
-				<directory>../../drools/docs/guvnor_ref/target/docbook/publish/en-US</directory>
-				<outputDirectory>/guvnor_tools_ref_guide</outputDirectory>
-				<filtered>false</filtered>
-				<lineEnding>keep</lineEnding>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<useStrictFiltering>false</useStrictFiltering>
-				<useDefaultExcludes>true</useDefaultExcludes>
-				<fileMode>0644</fileMode>
-				<directoryMode>0755</directoryMode>
-			</fileSet> -->
-
-			<fileSet>
-				<!-- <directory>../../maven/docs/reference/target/docbook/publish/en-US</directory> -->
-				<!-- Maven doc has moved to https://github.com/jbosstools/jbosstools-central/-->
-				<directory>../../jbosstools-central/maven/docs/reference/target/docbook/publish/en-US</directory>
-				<outputDirectory>/maven_reference</outputDirectory>
-				<filtered>false</filtered>
-				<lineEnding>keep</lineEnding>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<useStrictFiltering>false</useStrictFiltering>
-				<useDefaultExcludes>true</useDefaultExcludes>
-				<fileMode>0644</fileMode>
-				<directoryMode>0755</directoryMode>
-			</fileSet>
-
-			<fileSet>
-				<!-- <directory>../../forge/docs/reference/target/docbook/publish/en-US</directory> -->
-				<!-- Forge doc has moved to https://github.com/jbosstools/jbosstools-forge/-->
-				<directory>../../jbosstools-forge/docs/reference/target/docbook/publish/en-US</directory>
-				<outputDirectory>/forge_reference</outputDirectory>
-				<filtered>false</filtered>
-				<lineEnding>keep</lineEnding>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<useStrictFiltering>false</useStrictFiltering>
-				<useDefaultExcludes>true</useDefaultExcludes>
-				<fileMode>0644</fileMode>
-				<directoryMode>0755</directoryMode>
-			</fileSet>
-
-			<fileSet>
-				<!-- <directory>../../jmx/docs/reference/target/docbook/publish/en-US</directory> -->
-				<!-- JMX doc has moved to https://github.com/jbosstools/jbosstools-server/-->
-				<directory>../../jbosstools-server/jmx/docs/reference/target/docbook/publish/en-US</directory>
-				<outputDirectory>/jmx_ref_guide</outputDirectory>
-				<filtered>false</filtered>
-				<lineEnding>keep</lineEnding>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<useStrictFiltering>false</useStrictFiltering>
-				<useDefaultExcludes>true</useDefaultExcludes>
-				<fileMode>0644</fileMode>
-				<directoryMode>0755</directoryMode>
-			</fileSet>
-
-
-			<fileSet>
 				<!-- <directory>../../bpel/docs/reference/target/docbook/publish/en-US</directory> -->
 				<!-- BPEL doc has moved to https://github.com/jbosstools/jbosstools-bpel/-->
 				<directory>../../jbosstools-bpel/docs/reference/target/docbook/publish/en-US</directory>
@@ -399,21 +260,7 @@
 				<fileMode>0644</fileMode>
 				<directoryMode>0755</directoryMode>
 			</fileSet>
-			<fileSet>
-				<!-- <directory>../../modeshape/docs/ModeShape_Tools_Reference_Guide/target/docbook/publish/en-US</directory> -->
-				<!-- ModeShape doc has moved to https://github.com/ModeShape/modeshape-tools/-->
-				<directory>../../../ModeShape/modeshape-tools/docs/ModeShape_Tools_Reference_Guide/target/docbook/publish/en-US</directory>
-				<outputDirectory>/modeshape</outputDirectory>
-				<filtered>false</filtered>
-				<lineEnding>keep</lineEnding>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<useStrictFiltering>false</useStrictFiltering>
-				<useDefaultExcludes>true</useDefaultExcludes>
-				<fileMode>0644</fileMode>
-				<directoryMode>0755</directoryMode>
-			</fileSet> 
+
 	</fileSets>
 
 </assembly>
