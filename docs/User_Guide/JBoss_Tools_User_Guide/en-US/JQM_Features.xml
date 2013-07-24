@@ -103,7 +103,7 @@
 
 		<para>To insert a palette widget into a file open in the <guilabel>JBoss Tools HTML Editor</guilabel>, drag the widget icon to the appropriate place in the file. Alternatively, ensure the text cursor is located at the desired insertion point in the file and click the widget icon. For widgets with no attributes that can be customized, such as <guilabel>JS/CSS</guilabel> and <guilabel>Field Container</guilabel>, the code snippets are immediately inserted into the file. For widgets with attributes that can be customized, a widget wizard opens allowing you to input attribute information. Once complete, click <guibutton>Finish</guibutton> and the code snippet is inserted into the file.</para>
 		
-		<para>The wizard widgets have three common aspects:</para>
+		<para>The widget wizards have three common aspects:</para>
 		<variablelist>
 			<title></title>
 			<varlistentry>
