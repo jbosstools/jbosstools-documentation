@@ -8,6 +8,24 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.0.0-10</revnumber><date>Wed Jul 24 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-377: Added Java developer kit appendix
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>	
+			<revision>
 				<revnumber>7.0.0-9</revnumber><date>Thu Jul 11 2013</date>
 				<author>
 					<firstname>
@@ -20,7 +38,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOLSDOC-364: Install in offline mode with .zip file
+							TOOLSDOC-364: Added install in offline mode with .zip file
 						</member>
 					</simplelist>
 				</revdescription>
@@ -38,7 +56,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOLSDOC-368: Removal of QE remark tags and Beta2 identifier
+							TOOLSDOC-368: Removed QE remark tags and Beta2 identifier
 						</member>
 					</simplelist>
 				</revdescription>
@@ -56,7 +74,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							Addition of Beta2 identifier to title
+							Added Beta2 identifier to title
 						</member>
 					</simplelist>
 				</revdescription>
@@ -74,7 +92,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							JBQA-8087: incorporating QE feedback for Beta2
+							JBQA-8087: Incorporated QE feedback for Beta2
 						</member>
 					</simplelist>
 				</revdescription>
@@ -92,7 +110,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOLSDOC-354: Brand change
+							TOOLSDOC-354: Implemented brand change
 						</member>
 					</simplelist>
 				</revdescription>
@@ -110,7 +128,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOLSDOC-352: Add build from source
+							TOOLSDOC-352: Added build from source
 						</member>
 					</simplelist>
 				</revdescription>
@@ -128,7 +146,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOLSDOC-328: Product name change
+							TOOLSDOC-328: Implemented product name change
 						</member>
 					</simplelist>
 				</revdescription>
@@ -146,7 +164,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOLSDOC-314: Immediate launch after install
+							TOOLSDOC-314: Added immediate launch after install
 						</member>
 					</simplelist>
 				</revdescription>
