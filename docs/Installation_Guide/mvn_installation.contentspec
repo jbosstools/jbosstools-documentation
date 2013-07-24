@@ -1,4 +1,4 @@
-CHECKSUM=74037d36e9ac622e6f314593a5c8ffc7
+CHECKSUM=45d0657f3b0755c374a1a7be3996a9b8
 ID = 13882
 # Content spec written by
 # Generated on <date>
@@ -42,10 +42,7 @@ Chapter: System Requirements
   System Requirements Overview [15789]
   Supported Operating Systems and Architectures [13331]
   Computer Memory [13538]
-  Section: Java Developer Kit
-    Compatible Java Developer Kits [13333]
-    Determine Default Java Developer Kit of the System [13336]
-    Install a Java Developer Kit [13334]
+  Compatible Java Developer Kits [13333] [R: T-Appendix-JDKs]
 
 Chapter: Install JBoss Developer Studio
   Install Options [13339]
@@ -57,7 +54,7 @@ Chapter: Set Preferences on First Launch after Installing
   Select a Workspace Location [13347]
   Set Usage Reporting [13335]
   Set the Perspective to JBoss [13346]
-  Set up Automatic Runtime Detection [13345]
+  Set up Runtime Detection [13345]
 
 #Chapter: Test JBoss Developer Studio
 
@@ -70,3 +67,7 @@ Chapter: Uninstall JBoss Developer Studio
   Uninstall Methods [13463]
   Uninstall JBoss Developer Studio [13344]
   Uninstall JBoss Developer Studio BYOE [13341]
+
+Appendix: Java Developer Kits [T-Appendix-JDKs]
+  Determine Default Java Developer Kit of the System [13336]
+  Install a Java Developer Kit [13334]
