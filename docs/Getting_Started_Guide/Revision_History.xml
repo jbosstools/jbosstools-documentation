@@ -7,7 +7,25 @@
 	<title>Revision History</title>
 	<simpara>
 		<revhistory>
+
 			<revision>
+				<revnumber>7.0.0-13</revnumber><date>Mon Jul 29 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-349: Added screen captures
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>			<revision>
 				<revnumber>7.0.0-12</revnumber><date>Mon Jul 22 2013</date>
 				<author>
 					<firstname>
@@ -20,7 +38,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOLSDOC-373: Fixing typos
+							TOOLSDOC-373: Fixed typos
 						</member>
 					</simplelist>
 				</revdescription>
@@ -38,7 +56,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOLSDOC-368: Removal of QE remark tags and Beta2 identifier
+							TOOLSDOC-368: Removed QE remark tags and Beta2 identifier
 						</member>
 					</simplelist>
 				</revdescription>
@@ -56,7 +74,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							Addition of Beta2 identifier to title
+							Added Beta2 identifier to title
 						</member>
 					</simplelist>
 				</revdescription>
@@ -74,7 +92,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							JBQA-8089: Incorporating QE feedback for Beta2
+							JBQA-8089: Incorporated QE feedback for Beta2
 						</member>
 					</simplelist>
 				</revdescription>
@@ -92,7 +110,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOLSDOC-363: Incorporate QE feedback
+							TOOLSDOC-363: Incorporated QE feedback
 						</member>
 					</simplelist>
 				</revdescription>
@@ -128,7 +146,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOLSDOC-352: Add condition flag for build from source
+							TOOLSDOC-352: Added condition flag for build from source
 						</member>
 					</simplelist>
 				</revdescription>
@@ -200,7 +218,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							Addition of use case text
+							Added use case text
 						</member>
 					</simplelist>
 				</revdescription>
