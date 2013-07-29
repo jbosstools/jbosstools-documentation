@@ -51,6 +51,17 @@
 				<para>
 					Once the progress bar shows <guilabel>Finished</guilabel>, click <guibutton>Quit</guibutton> to close the <application>Uninstaller</application> window.
 				</para>
+				<figure>
+					<title>Uninstaller shows Finished</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/3355.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>Once the progress bar shows <guilabel>Finished</guilabel>, click <guibutton>Quit</guibutton> to close the <application>Uninstaller</application> window.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>
 			</step>
 		</procedure>
 	</section>
