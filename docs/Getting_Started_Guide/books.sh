@@ -18,7 +18,7 @@ function make {
 	unzip Getting_Started_Guide.zip
 	rm Getting_Started_Guide.zip
 	cp Revision_History.xml Getting_Started_Guide/en-US/.	
-	#echo 'Now edit Getting_Started_Guide/en-US/Author.xml by hand'
+	sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Getting_Started_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Getting_Started_Guide/en-US/Author_Group.xml
 
 	#make maven version
 	echo '[INFO] Making maven version'
@@ -30,11 +30,11 @@ function make {
 	cp -r Common_Content Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide/en-US/.
 	rm Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide/publican.cfg
 	sed -i '/<corpauthor>/,/<\/corpauthor>/{s/<corpauthor>//p;d}' Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide/en-US/Book_Info.xml
+	sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide/en-US/Author_Group.xml
 
 	#give feeback
 	echo '[INFO] ------------------------------------------------------------------------'
 	echo '[INFO] Making books has FINISHED'
-	echo '[INFO] Now edit Getting_Started_Guide/en-US/Author_Group.xml by hand'
 	echo '[INFO] ------------------------------------------------------------------------'	
 
 }
@@ -102,7 +102,6 @@ then
 	make
 elif [ $1 = "build" ]
 then
-	echo '[INFO] Hope you have edited Migration_Guide/en-US/Author.xml first'
 	build	
 elif [ $1 = "clean" ]
 then
