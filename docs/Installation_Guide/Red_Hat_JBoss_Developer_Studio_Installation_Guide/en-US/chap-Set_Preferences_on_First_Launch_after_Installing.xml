@@ -52,6 +52,17 @@
 		<para>
 			When the IDE starts, you are asked to choose the workspace folder for the session. The workspace is where your projects are stored.
 		</para>
+		<figure>
+			<title>Select a Workspace Window</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/3353.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>When the IDE starts, you are asked to choose the workspace folder for the session. In the <guilabel>Workspace</guilabel> field type the full path of the desired location or use <guibutton>Browse</guibutton> to navigate to the desired location. If you do not want to be asked to choose a workspace folder each time the development environment starts, select the <guilabel>Use this as the default and do not ask again</guilabel> check box.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
 		<para>
 			To set the workspace location, follow these steps: 
 			<orderedlist>
@@ -86,7 +97,21 @@
 		</sectioninfo>
 		<title>Set Usage Reporting</title>
 		<para>
-			JBoss&nbsp;Developer&nbsp;Studio has usage reporting. At the first start of the development environment after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio. The information collected enables Red Hat to understand how and where JBoss&nbsp;Developer&nbsp;Studio is being used. Specifically, information about operating systems and system display resolution assists in continually improving JBoss&nbsp;Developer&nbsp;Studio.
+			JBoss&nbsp;Developer&nbsp;Studio has usage reporting. At the first start of the development environment after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio.
+		</para>
+		<figure>
+			<title>Usage Statistics Prompt</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/3354.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>At the first start of the development environment after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio. To agree to this anonymous information being collected, click <guibutton>Yes</guibutton> when prompted.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
+		<para>
+			The information collected enables Red Hat to understand how and where JBoss&nbsp;Developer&nbsp;Studio is being used. Specifically, information about operating systems and system display resolution assists in continually improving JBoss&nbsp;Developer&nbsp;Studio.
 		</para>
 		<para>
 			The following information is collected: 
@@ -209,11 +234,27 @@
 			If you start JBoss&nbsp;Developer&nbsp;Studio, this perspective is set as the default and it is automatically displayed.
 		</para>
 		<para>
-			If you start Eclipse, this perspective is not automatically displayed. To show the JBoss perspective, click the <guibutton>JBoss</guibutton> icon. Alternatively, click <guimenu>Window</guimenu>&rarr;<guimenu>Open Perspective</guimenu>&rarr;<guimenu>Other</guimenu> and select <application>JBoss</application>.
+			If you start Eclipse, this perspective is not automatically displayed. To show the JBoss perspective, click the <guibutton>JBoss</guibutton> icon 
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata fileref="images/3377.png"/>
+				</imageobject>
+			</inlinemediaobject>. Alternatively, click <guimenu>Window</guimenu>&rarr;<guimenu>Open Perspective</guimenu>&rarr;<guimenu>Other</guimenu> and select <application>JBoss</application>.
 		</para>
 		<para>
 			To set JBoss perspective as the default perspective, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>General</guilabel> and select <guilabel>Perspectives</guilabel>. Select <application>JBoss</application> from the list of available perspectives and click <guibutton>Make Default</guibutton>. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.
 		</para>
+		<figure>
+			<title>Make JBoss the Default Perspective within Preferences</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/3376.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To set JBoss perspective as the default perspective, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>General</guilabel> and select <guilabel>Perspectives</guilabel>. Select <application>JBoss</application> from the list of available perspectives and click <guibutton>Make Default</guibutton>. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
 	</section>
 	<section id="Set_up_Automatic_Runtime_Detection" remap="TID_13345">
 		<sectioninfo>
@@ -234,13 +275,24 @@
 			<title>Set up Runtime Detection</title>
 			<step>
 				<para>
-					Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Tools Runtime Detection</guilabel>.
+					Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>.
 				</para>
 			</step>
 			<step>
 				<para>
 					Click <guibutton>Add</guibutton>.
 				</para>
+				<figure>
+					<title>Set up Runtime Detection within Preferences</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/3337.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>. Click <guibutton>Add</guibutton>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>
 			</step>
 			<step>
 				<para>
@@ -256,11 +308,33 @@
 						<para>
 							If no new application servers are found or you do not wish to create any server runtime environments for them, click <guibutton>Cancel</guibutton>.
 						</para>
+						<figure>
+							<title>No New Application Servers are Found by Runtime Detection</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3378.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>If no new application servers are found, click <guibutton>Cancel</guibutton>.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
 					</step>
 					<step>
 						<para>
 							If new application servers are found, you can generate server runtime environments for them. Select the check boxes of the application servers for which you want to generate server runtime environments and click <guibutton>OK</guibutton>.
 						</para>
+						<figure>
+							<title>One New Application Server is Found by Runtime Detection</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3336.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>If new application servers are found, you can generate server runtime environments for them. Select the check boxes of the application servers for which you want to generate server runtime environments and click <guibutton>OK</guibutton>.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
 					</step>
 				</stepalternatives>
 				<para>
@@ -271,6 +345,17 @@
 				<para>
 					In the <guilabel>Paths</guilabel> table, select the <guilabel>Every start</guilabel> check box for all of the paths that you want to be automatically searched on IDE start.
 				</para>
+				<figure>
+					<title>Selecting Paths to Search on IDE Start</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/3379.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In the <guilabel>Paths</guilabel> table, select the <guilabel>Every start</guilabel> check box for all of the paths that you want to be automatically searched on IDE start.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>
 			</step>
 			<step>
 				<para>
