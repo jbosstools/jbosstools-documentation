@@ -18,7 +18,7 @@ function make {
 	unzip Installation_Guide.zip
 	rm Installation_Guide.zip
 	cp Revision_History.xml Installation_Guide/en-US/.	
-	#echo 'Now edit Installation_Guide/en-US/Author.xml by hand'
+	sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Installation_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Installation_Guide/en-US/Author_Group.xml
 
 	#make maven version
 	echo '[INFO] Making maven version'
@@ -33,8 +33,7 @@ function make {
 
 	#give feeback
 	echo '[INFO] ------------------------------------------------------------------------'
-	echo '[INFO] Making books has FINISHED'
-	echo '[INFO] Now edit Installation_Guide/en-US/Author_Group.xml by hand'	
+	echo '[INFO] Making books has FINISHED'	
 	echo '[INFO] ------------------------------------------------------------------------'	
 
 }
@@ -102,7 +101,6 @@ then
 	make
 elif [ $1 = "build" ]
 then
-	echo '[INFO] Hope you have edited Migration_Guide/en-US/Author.xml first'
 	build	
 elif [ $1 = "clean" ]
 then
