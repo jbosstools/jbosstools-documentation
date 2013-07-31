@@ -4,7 +4,29 @@
 %BOOK_ENTITIES;
 ]>
 <appendix id="appe-Java_Developer_Kits">
+	<appendixinfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.0.0
+			</keyword>
+		</keywordset>
+	</appendixinfo>
 	<title>Java Developer Kits</title>
+	<para>
+		It is important to use a Java developer kit that is supported by this release of JBoss&nbsp;Developer&nbsp;Studio. The aim of this section is to assist you to do the following: 
+		<itemizedlist>
+			<listitem>
+				<para>
+					Determine the Java developer kit used by your system
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Install a supported Java developer kit
+				</para>
+			</listitem>
+		</itemizedlist>
+	</para>
 	<section id="Determine_current_Java_developer_kit_in_use" remap="TID_13336">
 		<sectioninfo>
 			<keywordset>
