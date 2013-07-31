@@ -36,7 +36,7 @@
 			</step>
 			<step>
 				<para>
-					On the command line, navigate to the location of the JBoss&nbsp;Developer&nbsp;Studio installation and move into the <filename>Uninstaller</filename> directory.
+					On the command line, navigate to <filename>path/to/JBoss&nbsp;Developer&nbsp;Studio/Uninstaller</filename>.
 				</para>
 			</step>
 			<step>
@@ -52,7 +52,7 @@
 			</step>
 			<step>
 				<para>
-					Select <guilabel>Force the deletion</guilabel> if you want to remove the whole of the directory. If this is not selected, JBoss&nbsp;Developer&nbsp;Studio is uninstalled but files are left behind in the installation directory.
+					To remove the entire JBoss&nbsp;Developer&nbsp;Studio installation directory, select the <guilabel>Force the deletion</guilabel> check box. If this is not selected, JBoss&nbsp;Developer&nbsp;Studio is uninstalled but some files are left behind in the installation directory.
 				</para>
 			</step>
 			<step>
@@ -65,7 +65,7 @@
 					Once the progress bar shows <guilabel>Finished</guilabel>, click <guibutton>Quit</guibutton> to close the <application>Uninstaller</application> window.
 				</para>
 				<figure>
-					<title>Uninstaller shows Finished</title>
+					<title>Uninstaller in <guilabel>Finished</guilabel> State</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3355.png"/>
@@ -87,6 +87,9 @@
 			</keywordset>
 		</sectioninfo>
 		<title>Uninstall JBoss Developer Studio BYOE</title>
+		<para>
+			JBoss&nbsp;Developer&nbsp;Studio BYOE can be uninstalled with the procedure below regardless of whether it was installed via Eclipse Marketplace or the update <filename>.zip</filename> file.
+		</para>
 		<procedure>
 			<title>Uninstall via Eclipse Marketplace</title>
 			<step>

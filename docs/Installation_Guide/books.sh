@@ -17,7 +17,7 @@ function make {
 	csprocessor build 13332
 	unzip Installation_Guide.zip
 	rm Installation_Guide.zip
-	cp Revision_History.xml Installation_Guide/en-US/.	
+	#cp Revision_History.xml Installation_Guide/en-US/.	
 	sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Installation_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Installation_Guide/en-US/Author_Group.xml
 
 	#make maven version
@@ -26,7 +26,7 @@ function make {
 	unzip Red_Hat_JBoss_Developer_Studio_Installation_Guide.zip
 	rm Red_Hat_JBoss_Developer_Studio_Installation_Guide.zip
 	cp pom.xml Red_Hat_JBoss_Developer_Studio_Installation_Guide/.
-	cp Revision_History.xml Red_Hat_JBoss_Developer_Studio_Installation_Guide/en-US/.
+	#cp Revision_History.xml Red_Hat_JBoss_Developer_Studio_Installation_Guide/en-US/.
 	cp -r Common_Content Red_Hat_JBoss_Developer_Studio_Installation_Guide/en-US/.
 	rm Red_Hat_JBoss_Developer_Studio_Installation_Guide/publican.cfg
 	sed -i '/<corpauthor>/,/<\/corpauthor>/{s/<corpauthor>//p;d}' Red_Hat_JBoss_Developer_Studio_Installation_Guide/en-US/Book_Info.xml
@@ -73,7 +73,7 @@ function clean {
 
 	#give feeback
 	echo '[INFO] ------------------------------------------------------------------------'
-	echo '[INFO] Clearing books has FINISHED'
+	echo '[INFO] Cleaning books has FINISHED'
 	echo '[INFO] ------------------------------------------------------------------------'	
 		
 }	
@@ -86,7 +86,35 @@ function gitclean {
 
 	#give feeback
 	echo '[INFO] ------------------------------------------------------------------------'
-	echo '[INFO] Clearing books for GIT has FINISHED'
+	echo '[INFO] Cleaning books for GIT has FINISHED'
+	echo '[INFO] ------------------------------------------------------------------------'	
+		
+}
+
+
+function puball {
+	#clean publican version
+	echo '[INFO] Cleaning publican version'	
+	rm -rf Installation_Guide
+	
+	#make publican version
+	echo '[INFO] Making publican version'
+	csprocessor build 13332
+	unzip Installation_Guide.zip
+	rm Installation_Guide.zip
+	#cp Revision_History.xml Installation_Guide/en-US/.	
+	sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Installation_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Installation_Guide/en-US/Author_Group.xml
+	
+	#build publican version
+	echo '[INFO] Building publican version'
+	cd Installation_Guide
+	publican build
+	google-chrome tmp/en-US/html-single/index.html
+	cd ..			
+
+	#give feeback
+	echo '[INFO] ------------------------------------------------------------------------'
+	echo '[INFO] Cleaning, making and building the publican version has FINISHED'
 	echo '[INFO] ------------------------------------------------------------------------'	
 		
 }
@@ -108,6 +136,9 @@ then
 elif [ $1 = "gitclean" ]
 then
 	gitclean
+elif [ $1 = "puball" ]
+then
+	puball	
 else
-	echo '[INFO] Invalid command, choose from: make, build, clean, gitclean'	
+	echo '[INFO] Invalid command, choose from: make, build, clean, gitclean, puball'	
 fi

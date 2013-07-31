@@ -1,4 +1,4 @@
-CHECKSUM=dcca8fb2ba3492734463530cfe6f8b3b
+CHECKSUM=e5a30dac32ab134120085c1430f57c90
 ID = 13332
 # Content spec written by
 # Generated on <date>
@@ -30,6 +30,8 @@ publican.cfg = [show_remarks: 1]
 
 # Output Style =
 
+Revision History = [21657]
+
 # Indentation is meaningful. Use 2 spaces.
 
 
@@ -54,10 +56,11 @@ Chapter: Set Preferences on First Launch after Installing
   Preferences Options [15790]
   Select a Workspace Location [13347]
   Set Usage Reporting [13335]
+  Define Servers from Runtimes Found by Runtime Detection [21662]
   Set the Perspective to JBoss [13346]
-  Set up Runtime Detection [13345]
 
 #Chapter: Test JBoss Developer Studio
+#  Set Up Runtime Detection [13345]
 
 Chapter: Upgrade from Previous Versions of JBoss Developer Studio
   Upgrade Methods [13419]
@@ -69,6 +72,6 @@ Chapter: Uninstall JBoss Developer Studio
   Uninstall JBoss Developer Studio [13344]
   Uninstall JBoss Developer Studio BYOE [13341]
 
-Appendix: Java Developer Kits [T-Appendix-JDKs]
+Appendix: Java Developer Kits [21656] [T-Appendix-JDKs]
   Determine Default Java Developer Kit of the System [13336]
   Install a Java Developer Kit [13334]
