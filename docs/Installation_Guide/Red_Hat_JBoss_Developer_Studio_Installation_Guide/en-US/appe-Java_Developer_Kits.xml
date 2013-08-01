@@ -27,7 +27,7 @@
 			</listitem>
 		</itemizedlist>
 	</para>
-	<section id="Determine_current_Java_developer_kit_in_use" remap="TID_13336">
+	<section id="Determine_Default_Java_Developer_Kit_of_the_System" remap="TID_13336">
 		<sectioninfo>
 			<keywordset>
 				<keyword>
@@ -78,7 +78,7 @@ java version "1.7.0_09-icedtea"
 OpenJDK Runtime Environment (fedora-2.3.5.fc17-x86_64)
 OpenJDK 64-Bit Server VM (build 23.2-b09, mixed mode)
 			</screen> Output for Oracle JDK 1.6.0: 
-				<screen>			
+				<screen>
 $ javac -version
 javac 1.6.0_38
 $ java -version
@@ -107,31 +107,14 @@ OpenJDK Server VM (build 23.2-b09, mixed mode)
 		</sectioninfo>
 		<title>Install a Java Developer Kit</title>
 		<para>
-			Three procedures are given here to guide you through how to install a new Java developer kit (OpenJDK or Oracle) and set it to be the default of the system: 
-			<itemizedlist>
-				<listitem>
-					<para>
-						<xref linkend="Install_OpenJDK"/>
-					</para>
-				</listitem>
-				<listitem>
-					<para>
-						<xref linkend="Install_JDK"/>
-					</para>
-				</listitem>
-				<listitem>
-					<para>
-						<xref linkend="Set_JDK"/>
-					</para>
-				</listitem>
-			</itemizedlist>
+			The procedures given here guide you through how to install a new Java developer kit, either OpenJDK or Oracle.
 		</para>
 		<important>
 			<para>
-				Each Java developer kit has its own system requirements and these should be checked before starting to install it.
+				Each Java developer kit has its own system requirements and these must be checked before starting the installation process.
 			</para>
 		</important>
-		<procedure id="Install_OpenJDK">
+		<procedure>
 			<title>Install a OpenJDK Java developer kit</title>
 			<step>
 				<para>
@@ -152,15 +135,15 @@ OpenJDK Server VM (build 23.2-b09, mixed mode)
 					</step>
 				</stepalternatives>
 			</step>
-			<step>
-				<para>
-					To check whether the defaults of the system has been automatically updated, on the command line enter 
-					<screen>java -version
+			<!--<step>
+			<para>
+				To check whether the defaults of the system has been automatically updated, on the command line enter 
+				<screen>java -version
 javac -version</screen>If the output does not correspond to the newly installed Java developer kit, continue with <xref linkend="Set_JDK"/>.
-				</para>
-			</step>
+			</para>
+		</step> -->
 		</procedure>
-		<procedure id="Install_JDK">
+		<procedure>
 			<title>Install a Oracle JDK</title>
 			<step>
 				<para>
@@ -261,104 +244,104 @@ javac -version</screen>If the output does not correspond to the newly installed 
 					</step>
 				</stepalternatives>
 			</step>
-			<step>
-				<para>
-					To check whether the defaults of the system have been automatically updated, on the command line enter 
-					<screen>java -version
-javac -version</screen>If the output does not correspond to the newly installed Java developer kit, continue with <xref linkend="Set_JDK"/>.
-				</para>
-			</step>
-		</procedure>
-		<procedure id="Set_JDK">
-			<title>Set Up the Default Java Developer Kit of the System</title>
-			<step>
-				<para>
-					Complete the appropriate steps for your operating system:
-				</para>
-				<stepalternatives>
-					<step>
-						<para>
-							For Red Hat Enterprise Linux, Fedora and Ubuntu:
-						</para>
-						<substeps>
-							<step>
-								<para>
-									To specify which Java virtual machine (JVM) to use, on the command line enter 
-									<screen>sudo alternatives --config java</screen> and select the number corresponding to the JVM of the desired Java developer kit.
-								</para>
-							</step>
-							<step>
-								<para>
-									To specify which Java compiler to use, on the command line enter 
-									<screen>sudo alternatives --config javac</screen> and select the number corresponding to the Java compiler of the desired Java developer kit.
-								</para>
-							</step>
-							<step>
-								<para>
-									To set the <command>JAVA_HOME</command> variable and add it to the <command>PATH</command> variable, open the behavior file for your interactive shell. For example, if you are using a bash shell then the behavior file is <filename>.bashrc</filename>, which can be found in your home directory. Add the following two lines to the file: 
-									<screen>export JAVA_HOME=<replaceable>/usr/java/jdk1.6.0_38</replaceable>
-export PATH=$PATH:$JAVA_HOME/bin</screen> replacing <replaceable>/usr/java/jdk1.6.0_38</replaceable> with the location of your Java developer kit installation. Any changes to the file take effect when a new command line window is opened.
-								</para>
-							</step>
-						</substeps>
-					</step>
-					<step>
-						<para>
-							For OS X:
-						</para>
-						<!-- Info from http://java.about.com/od/gettingstarted/a/javamacosx.htm -->
-						<substeps>
-							<step>
-								<para>
-									Click <guimenu>Finder</guimenu>&rarr;<guimenu>Applications</guimenu>&rarr;<guimenu>Utilities</guimenu>&rarr;<guimenu>Java</guimenu>&rarr;<guimenu>Java Preferences</guimenu>.
-								</para>
-							</step>
-							<step>
-								<para>
-									Under the <guilabel>General</guilabel> tab, drag the Java version you want to the top of the list.
-								</para>
-							</step>
-						</substeps>
-					</step>
-					<step>
-						<para>
-							For Microsoft Windows operating systems:
-						</para>
-						<!-- Info from http://docs.oracle.com/javase/7/docs/webnotes/install/windows/jdk-installation-windows.html -->
-						<substeps>
-							<step>
-								<para>
-									Click <guimenu>Start</guimenu>&rarr;<guimenu>Control Panel</guimenu>&rarr;<guimenu>System</guimenu>.
-								</para>
-							</step>
-							<step>
-								<para>
-									Click <guimenu>Advanced</guimenu>&rarr;<guimenu>Environment Variables</guimenu>.
-								</para>
-							</step>
-							<step>
-								<para>
-									Add the location of the <filename>bin</filename> folder of the JDK installation to the <command>PATH</command> variable in <guilabel>System Variables</guilabel>. For example, <filename>C:\Program File\Java\jdk1.7.0\bin</filename>.
-								</para>
-							</step>
-						</substeps>
-					</step>
-				</stepalternatives>
-			</step>
-			<step>
-				<para>
-					To check that the defaults of the system have been automatically updated, on the command line enter 
-					<screen>java -version
-javac -version</screen>
-				</para>
-			</step>
-		</procedure>
-		<note>
+			<!--		<step>
 			<para>
-				When setting the java and javac locations on Linux distributions, the alternatives command may not show the newly installed Java developer kit. If this is the case, you need to add the locations of the JVM and Java compiler individually and run the <command>alternatives --config</command> command again. To add the location of the JVM, on the command line enter the following on one line 
-				<screen>sudo alternatives --install /usr/bin/java java /usr/java/jdk1.7.0_11/bin/java 1000</screen> and to add the location of the Java compiler enter 
-				<screen>sudo alternatives --install /usr/bin/javac javac /usr/java/jdk1.7.0_11/bin/javac 1000</screen>
+				To check whether the defaults of the system have been automatically updated, on the command line enter 
+				<screen>java -version
+javac -version</screen>If the output does not correspond to the newly installed Java developer kit, continue with <xref linkend="Set_JDK"/>.
 			</para>
-		</note>
+		</step> -->
+		</procedure>
+		<!--<procedure id="Set_JDK">
+		<title>Set Up the Default Java Developer Kit of the System</title>
+		<step>
+			<para>
+				Complete the appropriate steps for your operating system:
+			</para>
+			<stepalternatives>
+				<step>
+					<para>
+						For Red Hat Enterprise Linux, Fedora and Ubuntu:
+					</para>
+					<substeps>
+						<step>
+							<para>
+								To specify which Java virtual machine (JVM) to use, on the command line enter 
+								<screen>sudo alternatives -config java</screen> and select the number corresponding to the JVM of the desired Java developer kit.
+							</para>
+						</step>
+						<step>
+							<para>
+								To specify which Java compiler to use, on the command line enter 
+								<screen>sudo alternatives -config javac</screen> and select the number corresponding to the Java compiler of the desired Java developer kit.
+							</para>
+						</step>
+						<step>
+							<para>
+								To set the <command>JAVA_HOME</command> variable and add it to the <command>PATH</command> variable, open the behavior file for your interactive shell. For example, if you are using a bash shell then the behavior file is <filename>.bashrc</filename>, which can be found in your home directory. Add the following two lines to the file: 
+								<screen>export JAVA_HOME=<replaceable>/usr/java/jdk1.6.0_38</replaceable>
+export PATH=$PATH:$JAVA_HOME/bin</screen> replacing <replaceable>/usr/java/jdk1.6.0_38</replaceable> with the location of your Java developer kit installation. Any changes to the file take effect when a new command line window is opened.
+							</para>
+						</step>
+					</substeps>
+				</step>
+				<step>
+					<para>
+						For OS X:
+					</para> -->
+		<!-- Info from http://java.about.com/od/gettingstarted/a/javamacosx.htm -->
+		<!--					<substeps>
+						<step>
+							<para>
+								Click <guimenu>Finder</guimenu>&rarr;<guimenu>Applications</guimenu>&rarr;<guimenu>Utilities</guimenu>&rarr;<guimenu>Java</guimenu>&rarr;<guimenu>Java Preferences</guimenu>.
+							</para>
+						</step>
+						<step>
+							<para>
+								Under the <guilabel>General</guilabel> tab, drag the Java version you want to the top of the list.
+							</para>
+						</step>
+					</substeps>
+				</step>
+				<step>
+					<para>
+						For Microsoft Windows operating systems:
+					</para> -->
+		<!-- Info from http://docs.oracle.com/javase/7/docs/webnotes/install/windows/jdk-installation-windows.html -->
+		<!--<substeps>
+						<step>
+							<para>
+								Click <guimenu>Start</guimenu>&rarr;<guimenu>Control Panel</guimenu>&rarr;<guimenu>System</guimenu>.
+							</para>
+						</step>
+						<step>
+							<para>
+								Click <guimenu>Advanced</guimenu>&rarr;<guimenu>Environment Variables</guimenu>.
+							</para>
+						</step>
+						<step>
+							<para>
+								Add the location of the <filename>bin</filename> folder of the JDK installation to the <command>PATH</command> variable in <guilabel>System Variables</guilabel>. For example, <filename>C:\Program File\Java\jdk1.7.0\bin</filename>.
+							</para>
+						</step>
+					</substeps>
+				</step>
+			</stepalternatives>
+		</step>
+		<step>
+			<para>
+				To check that the defaults of the system have been automatically updated, on the command line enter 
+				<screen>java -version
+javac -version</screen>
+			</para>
+		</step>
+	</procedure>
+	<note>
+		<para>
+			When setting the java and javac locations on Linux distributions, the alternatives command may not show the newly installed Java developer kit. If this is the case, you need to add the locations of the JVM and Java compiler individually and run the <command>alternatives -config</command> command again. To add the location of the JVM, on the command line enter the following on one line 
+			<screen>sudo alternatives -install /usr/bin/java java /usr/java/jdk1.7.0_11/bin/java 1000</screen> and to add the location of the Java compiler enter 
+			<screen>sudo alternatives -install /usr/bin/javac javac /usr/java/jdk1.7.0_11/bin/javac 1000</screen>
+		</para>
+	</note> -->
 	</section>
 </appendix>

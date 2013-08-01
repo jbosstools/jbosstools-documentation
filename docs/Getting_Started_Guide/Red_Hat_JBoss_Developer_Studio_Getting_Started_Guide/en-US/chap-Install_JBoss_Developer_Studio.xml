@@ -19,7 +19,7 @@
 		</para>
 		<note>
 			<para>
-				If you wish to install JBoss&nbsp;Developer&nbsp;Studio BYOE, you should follow the instructions in JBoss&nbsp;Developer&nbsp;Studio 7 Installation Guide and then continue to work through the TicketMonster tutorial in this guide.
+				If you want to install JBoss&nbsp;Developer&nbsp;Studio BYOE, follow the instructions in Red&nbsp;Hat JBoss&nbsp;Developer&nbsp;Studio 7.0 Installation Guide and then continue to work through the TicketMonster tutorial in this guide.
 			</para>
 		</note>
 		<para>
@@ -28,22 +28,17 @@
 		<itemizedlist>
 			<listitem>
 				<para>
-					Your system meets the system requirements for installing JBoss&nbsp;Developer&nbsp;Studio 7, as set out in JBoss&nbsp;Developer&nbsp;Studio 7 Installation Guide. The system requirements concern having a compatible operating system, sufficient computer memory and a compatible Java developer kit.
+					Your system meets the system requirements for installing JBoss&nbsp;Developer&nbsp;Studio 7.0, as set out in Red&nbsp;Hat JBoss&nbsp;Developer&nbsp;Studio 7.0 Installation Guide. The system requirements concern having a compatible operating system, sufficient computer memory and a compatible Java developer kit.
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					You are aware of the Visual Page Editor tool limitations on 64-bit OS X and Microsoft Windows operating systems and will use the workaround detailed in JBoss&nbsp;Developer&nbsp;Studio 7 Installation Guide.
+					You are aware of the Visual Page Editor tool limitations on 64-bit OS X and Microsoft Windows operating systems and will use the workaround detailed in Red&nbsp;Hat JBoss&nbsp;Developer&nbsp;Studio 7.0 Installation Guide.
 				</para>
 			</listitem>
-			<!--<listitem>
-			<para>
-				You are aware of the BrowserSim tool limitations on Microsoft Windows operating systems and will use the workaround detailed in JBoss&nbsp;Developer&nbsp;Studio 7 Installation Guide.
-			</para>
-		</listitem>-->
 		</itemizedlist>
 	</section>
-	<section id="Install_with_the_JAR_Installer" remap="TID_13342">
+	<section id="Install_JBoss_Developer_Studio" remap="TID_13342">
 		<sectioninfo>
 			<keywordset>
 				<keyword>
@@ -53,18 +48,18 @@
 		</sectioninfo>
 		<title>Install JBoss Developer Studio</title>
 		<para>
-			A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Customer Service Portal. <phrase>The procedure below guides you though obtaining the universal installer and the installion process.</phrase>
+			A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Customer Service Portal. <phrase>The procedure below guides you though obtaining the universal installer and the installation process.</phrase>
 		</para>
 		<procedure>
 			<title>Install with the Universal Installer</title>
 			<step>
 				<para>
-					Log in to the Customer Service Portal at <ulink url="https://access.redhat.com">https://access.redhat.com</ulink>.
+					Log in to the Customer Portal at <ulink url="https://access.redhat.com">https://access.redhat.com</ulink>.
 				</para>
 			</step>
 			<step>
 				<para>
-					From the menu bar click <guimenu>Downloads</guimenu> then, under <guimenu>JBOSS ENTERPRISE MIDDLEWARE</guimenu>, click <guimenu>Downloads</guimenu>.
+					From the menu bar click <guimenu>Downloads</guimenu> then, under <guimenu>RED HAT JBOSS MIDDLEWARE</guimenu>, click <guimenu>Downloads</guimenu>.
 				</para>
 			</step>
 			<step>
@@ -74,18 +69,29 @@
 			</step>
 			<step>
 				<para>
-					From the <guilabel>Version</guilabel> list, select <guilabel>7.0.0</guilabel>.
+					From the <guilabel>Version</guilabel> list, select <guilabel>7.0.x</guilabel>.
+				</para>
+				<figure>
+					<title>JBoss Developer Studio Downloads Listed on the Customer Portal</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/3358.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>Log in to the Customer Portal at <ulink url="https://access.redhat.com">https://access.redhat.com</ulink>. From the menu bar click <guimenu>Downloads</guimenu> then, under <guimenu>RED HAT JBOSS MIDDLEWARE</guimenu>, click <guimenu>Downloads</guimenu>. From the <guilabel>Product</guilabel> list, select <guilabel>JBoss Developer Studio</guilabel>. From the <guilabel>Version</guilabel> list, select <guilabel>7.0.x</guilabel>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>
+			</step>
+			<step>
+				<para>
+					From the table, click <guibutton>Download</guibutton> for the <filename>Red Hat JBoss Developer Studio 7.0.x Stand Alone Universal Binary</filename> download file. This downloads the universal installer <filename>.jar</filename> file.
 				</para>
 			</step>
 			<step>
 				<para>
-					From the <guilabel>JBoss Developer Studio 7</guilabel> table, click <guibutton>Download</guibutton> for the <filename>JBoss Developer Studio 7.0.0 Stand Alone Universal Binary</filename> download file.
-				</para>
-			</step>
-			<step>
-				<para>
-					On the command line, navigate to the location of the universal installer <filename>.jar</filename> file and enter 
-					<screen>java -jar jbdevstudio-product_universal-7.0.0.<replaceable>build_version</replaceable>.jar</screen> where <replaceable>build_version</replaceable> is substituted to match the name of the <filename>.jar</filename> file. 
+					On the command line, navigate to <filename>path/to/.jar</filename> and enter 
+					<screen>java -jar jbdevstudio-product-universal-7.0.<replaceable>x.build_version</replaceable>.jar</screen> where <replaceable>x.build_version</replaceable> is substituted to match the name of the <filename>.jar</filename> file. 
 					<note>
 						<para>
 							To start the installer, you may be able to double-click the <filename>.jar</filename> file.
@@ -105,7 +111,7 @@
 			</step>
 			<step>
 				<para>
-					In the <guilabel>Select the installation path</guilabel> field, type the location where you want JBoss&nbsp;Developer&nbsp;Studio to be installed or click <guibutton>Browse</guibutton> to navigate to the desired location. When the <guilabel>Select the installation path</guilabel> field shows the correct location, click <guibutton>Next</guibutton>. When you are prompted about the selected location being created or overwritten, check the message and, if satisfied, click <guibutton>OK</guibutton>.
+					In the <guilabel>Select the installation path</guilabel> field, type the path where you want JBoss&nbsp;Developer&nbsp;Studio to be installed or click <guibutton>Browse</guibutton> to navigate to the desired location. When the <guilabel>Select the installation path</guilabel> field shows the correct path, click <guibutton>Next</guibutton>. When you are prompted about the specified location being created or overwritten, review the message and, if satisfied, click <guibutton>OK</guibutton>.
 				</para>
 				<figure>
 					<title>Installation Step 3: Select Target Folder</title>
@@ -114,29 +120,29 @@
 							<imagedata fileref="images/3342.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>In the <guilabel>Select the installation path</guilabel> field, type the location where you want JBoss&nbsp;Developer&nbsp;Studio to be installed or click <guibutton>Browse</guibutton> to navigate to the desired location. When the <guilabel>Select the installation path</guilabel> field shows the correct location, click <guibutton>Next</guibutton>.</phrase>
+							<phrase>In the <guilabel>Select the installation path</guilabel> field, type the path where you want JBoss&nbsp;Developer&nbsp;Studio to be installed or click <guibutton>Browse</guibutton> to navigate to the desired location. When the <guilabel>Select the installation path</guilabel> field shows the correct path, click <guibutton>Next</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
 			</step>
 			<step>
 				<para>
-					<guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the JRE in the Java developer kit you want to use. If it does not, click <guilabel>Specific Java JVM</guilabel> and type the path of the JRE in the text field or use the <guibutton>Browse</guibutton> button to select the correct JRE. When the text field shows the correct JRE path, click <guibutton>Next</guibutton>.
+					In the <guilabel>Select Java VM</guilabel> step, <guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the Java developer kit you want to use. This is based on the default Java developer kit of your system. To change the specified Java developer kit, click <guilabel>Specific Java VM</guilabel> and type the path of the Java developer kit in the text field or use the <guibutton>Browse</guibutton> button to locate the Java developer kit. When the text field shows the correct Java developer kit path, click <guibutton>Next</guibutton>.
 				</para>
 				<figure>
-					<title>Installation Step 4: Select Java JM</title>
+					<title>Installation Step 4: Select Java VM</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3343.png"/>
 						</imageobject>
 						<textobject>
-							<phrase><guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the JRE in the Java developer kit you want to use. If it does not, click <guilabel>Specific Java JVM</guilabel> and type the path of the JRE in the text field or use the <guibutton>Browse</guibutton> button to select the correct JRE. When the text field shows the correct JRE path, click <guibutton>Next</guibutton>.</phrase>
+							<phrase>In the <guilabel>Select Java VM</guilabel> step, <guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the Java developer kit you want to use. This is based on the default Java developer kit of your system. To change the specified Java developer kit, click <guilabel>Specific Java VM</guilabel> and type the path of the Java developer kit in the text field or use the <guibutton>Browse</guibutton> button to locate the Java developer kit. When the text field shows the correct Java developer kit path, click <guibutton>Next</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
 				<important>
 					<para>
-						You must specify a 32-bit JRE to install a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio and a 64-bit JRE to install a 64-bit version of JBoss&nbsp;Developer&nbsp;Studio. To change the bit version of the JRE to be used for installing JBoss&nbsp;Developer&nbsp;Studio, complete the appropriate step for your operating system: 
+						You must specify a Java developer kit with a 32-bit JRE to install a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio and a 64-bit JRE to install a 64-bit version of JBoss&nbsp;Developer&nbsp;Studio. To change the bit version of the Java developer kit to be used for installing JBoss&nbsp;Developer&nbsp;Studio, complete the appropriate step for your operating system: 
 						<itemizedlist>
 							<listitem>
 								<para>
@@ -145,7 +151,7 @@
 							</listitem>
 							<listitem>
 								<para>
-									On Linux distributions and Microsoft Windows operating systems, type the path to the appropriate bit version of the JRE.
+									On Linux distributions and Microsoft Windows operating systems, in the text field type the path to the appropriate bit version of the Java developer kit.
 								</para>
 							</listitem>
 						</itemizedlist>
@@ -154,23 +160,12 @@
 			</step>
 			<step>
 				<para>
-					To make use of automatic runtime detection for finding application servers, click <guibutton>Add</guibutton>. Type the path from which recursive scanning for application servers is to commence or click <guibutton>Browse</guibutton> to navigate to the path. To detect a specific application server, select the install directory for that application server. To detect multiple application servers, select a directory higher up the directory tree. For this path to be scanned for new application servers each time JBoss&nbsp;Developer&nbsp;Studio starts, select the <guilabel>Scan every start</guilabel> check box. Click <guibutton>OK</guibutton> to close the <guilabel>Add Location</guilabel> window and click <guibutton>Next</guibutton>.
+					Automatic runtime detection for finding application servers is set up using an alternative method later in the TicketMonster tutorial. Click <guibutton>Next</guibutton> to skip over this step in the installation process.
 				</para>
-				<figure>
-					<title>Add Location for Runtime Detection Scanning</title>
-					<mediaobject>
-						<imageobject>
-							<imagedata fileref="images/3351.png"/>
-						</imageobject>
-						<textobject>
-							<phrase>Type the path from which recursive scanning for application servers is to commence or click <guibutton>Browse</guibutton> to navigate to the path. For this path to be scanned for new application servers each time JBoss&nbsp;Developer&nbsp;Studio starts, select the <guilabel>Scan every start</guilabel> check box. Click <guibutton>OK</guibutton> to close the <guilabel>Add Location</guilabel> window.</phrase>
-						</textobject>
-					</mediaobject>
-				</figure>
 			</step>
 			<step>
 				<para>
-					Check the details in the <application>Summary Information</application> window and, if they are correct, click <guibutton>Next</guibutton>.
+					Review the details in the <application>Summary Information</application> window and, if they are correct, click <guibutton>Next</guibutton>.
 				</para>
 			</step>
 			<step>
@@ -178,7 +173,7 @@
 					Installation commences. When the <guilabel>Pack installation progress</guilabel> bar shows <guilabel>Finished</guilabel>, click <guibutton>Next</guibutton>.
 				</para>
 				<figure>
-					<title>Installation Step 7: Installation Progress shows <guilabel>Finished</guilabel></title>
+					<title>Installation Step 7: Installation Progress in Finished State</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3347.png"/>
@@ -191,18 +186,18 @@
 			</step>
 			<step>
 				<para>
-					If you want shortcuts to be created for starting JBoss&nbsp;Developer&nbsp;Studio, select the <guilabel>Create shortcuts in the Start-Menu</guilabel> and <guilabel>Create additional shortcut on the desktop</guilabel> check boxes and click <guibutton>Next</guibutton>.
+					To create shortcuts for starting JBoss&nbsp;Developer&nbsp;Studio, select the <guilabel>Create shortcuts in the Start-Menu</guilabel> and <guilabel>Create additional shortcut on the desktop</guilabel> check boxes and click <guibutton>Next</guibutton>.
 				</para>
 			</step>
 			<step>
 				<para>
-					The installation process is now complete. If you want JBoss&nbsp;Developer&nbsp;Studio to automatically start when the <guilabel>Installer</guilabel> window closes, select the <guilabel>Run JBoss&nbsp;Developer&nbsp;Studio after installation</guilabel> check box. Click <guibutton>Done</guibutton> to close the <guilabel>Installer</guilabel> window.
+					The installation process is now complete. To automatically start JBoss&nbsp;Developer&nbsp;Studio when the <guilabel>Installer</guilabel> window closes, select the <guilabel>Run JBoss&nbsp;Developer&nbsp;Studio after installation</guilabel> check box. Click <guibutton>Done</guibutton> to close the <guilabel>Installer</guilabel> window.
 				</para>
 			</step>
 		</procedure>
 		<important>
 			<para>
-				Linux distributions have a maximum number of files that a process may have open at one time. If this maximum number of files is set too low, JBoss&nbsp;Developer&nbsp;Studio will not start. You must open the <filename>/etc/security/limits.conf</filename> file and check that the <command>soft nofile</command> and <command>hard nofile</command> variables have values of <command>9216</command> at a minimum. If the variables have smaller values, the values must be increased to <command>9216</command>. If the variables are not specified, the following lines must be added to the file: 
+				Linux distributions have a maximum number of files that a process can have open at one time. If this maximum number of files is set too low, JBoss&nbsp;Developer&nbsp;Studio will not start. You must open the <filename>/etc/security/limits.conf</filename> file and ensure that the <command>soft nofile</command> and <command>hard nofile</command> variables have values of <command>9216</command> at a minimum. If the variables have smaller values, the values must be increased to <command>9216</command>. If the variables are not specified, the following lines must be added to the file: 
 				<screen>* soft nofile 9216
 * hard nofile 9216</screen>
 			</para>
@@ -227,7 +222,7 @@
 					<imagedata fileref="images/3353.png"/>
 				</imageobject>
 				<textobject>
-					<phrase>When the IDE starts, you are asked to choose the workspace folder for the session. In the <guilabel>Workspace</guilabel> field type the full path of the desired location or use <guibutton>Browse</guibutton> to navigate to the desired location. If you do not want to be asked to choose a workspace folder each time the development environment starts, select the <guilabel>Use this as the default and do not ask again</guilabel> check box.</phrase>
+					<phrase>When the IDE starts, you are asked to choose the workspace folder for the session. In the <guilabel>Workspace</guilabel> field, type the path for a new or existing workspace or use <guibutton>Browse</guibutton> to navigate to the workspace location. If you do not want to be asked to choose a workspace folder each time the development environment starts, select the <guilabel>Use this as the default and do not ask again</guilabel> check box.</phrase>
 				</textobject>
 			</mediaobject>
 		</figure>
@@ -236,12 +231,12 @@
 			<orderedlist>
 				<listitem>
 					<para>
-						In the <guilabel>Workspace</guilabel> field type the full path of the desired location or use <guibutton>Browse</guibutton> to navigate to the desired location.
+						In the <guilabel>Workspace</guilabel> field, type the path for a new or existing workspace or use <guibutton>Browse</guibutton> to navigate to the workspace location.
 					</para>
 				</listitem>
 				<listitem>
 					<para>
-						If you do not want to be asked to choose a workspace folder each time the development environment starts, select the <guilabel>Use this as the default and do not ask again</guilabel> check box.
+						If you do not want to be asked to choose a workspace folder each time the IDE starts, select the <guilabel>Use this as the default and do not ask again</guilabel> check box.
 					</para>
 				</listitem>
 				<listitem>
@@ -265,16 +260,16 @@
 		</sectioninfo>
 		<title>Set Usage Reporting</title>
 		<para>
-			JBoss&nbsp;Developer&nbsp;Studio has usage reporting. At the first start of the development environment after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio.
+			JBoss&nbsp;Developer&nbsp;Studio has usage reporting. At the first start of the IDE after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio.
 		</para>
 		<figure>
-			<title>Usage Statistics Prompt</title>
+			<title>Prompt for Anonymous Usage Statistics</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/3354.png"/>
 				</imageobject>
 				<textobject>
-					<phrase>At the first start of the development environment after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio. To agree to this anonymous information being collected, click <guibutton>Yes</guibutton> when prompted.</phrase>
+					<phrase>At the first start of the IDE after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio. To agree to this anonymous information being collected, click <guibutton>Yes</guibutton> when prompted.</phrase>
 				</textobject>
 			</mediaobject>
 		</figure>

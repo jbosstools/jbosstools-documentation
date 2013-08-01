@@ -1,4 +1,4 @@
-CHECKSUM=1f8dfb940d4b9184dda1b63425b363fb
+CHECKSUM=85fb227171db60e476be42206e60cf2f
 ID = 13782
 # Content spec written by
 # Generated on <date>
@@ -30,6 +30,8 @@ publican.cfg = [show_remarks: 1]
 
 # Output Style =
 
+Revision History = [21694]
+
 # Indentation is meaningful. Use 2 spaces.
 
 
@@ -55,7 +57,7 @@ Chapter: Introduction to the TicketMonster Application
 
 Chapter: Creating the TicketMonster Application
   Configure Maven [13798]
-  Set Up a Runtime Server Using Server Manager [13796]
+  Set Up a Server Using Runtime Detection [13796]
   Create a Java EE Web Project Using JBoss Central [13786]
 #  Exploring the Project Files
   Add an Entity Using Forge Tools [13791]

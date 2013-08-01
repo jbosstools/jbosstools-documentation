@@ -5,7 +5,7 @@
 ]>
 <chapter id="chap-System_Requirements">
 	<title>System Requirements</title>
-	<section id="About_System_Requirements" remap="TID_15789">
+	<section id="System_Requirements_Overview" remap="TID_15789">
 		<sectioninfo>
 			<keywordset>
 				<keyword>
@@ -148,7 +148,7 @@
 			The minimum memory requirements are 2 GB RAM and 750 MB of hard disk space.
 		</para>
 	</section>
-	<section id="Compatible_Java_developer_kits" remap="TID_13333">
+	<section id="Compatible_Java_Developer_Kits" remap="TID_13333">
 		<sectioninfo>
 			<keywordset>
 				<keyword>
