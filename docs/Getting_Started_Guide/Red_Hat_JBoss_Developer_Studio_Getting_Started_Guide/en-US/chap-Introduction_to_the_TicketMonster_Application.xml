@@ -78,7 +78,7 @@
 				</listitem>
 				<listitem>
 					<para>
-						Add a user interface to the application that is optimized for mobile devices
+						Add a user interface to the application that is optimized for mobile devices using Mobile Web Tools
 					</para>
 				</listitem>
 				<listitem>
@@ -86,11 +86,11 @@
 						Test the mobile user interface using BrowserSim
 					</para>
 				</listitem>
-			</itemizedlist> You should work through these tasks in the order they are presented because many are prerequisites for the later tutorial tasks.
+			</itemizedlist> You must work through these tasks in the order they are presented because the earlier tasks are prerequisites for the later tutorial tasks.
 		</para>
 		<note>
 			<para>
-				Information about building the complete TicketMonster application using JBoss&nbsp;Developer&nbsp;Studio can be seen at <ulink url="http://www.jboss.org/jdf/examples/get-started/"/> on the JBoss&nbsp;Developer&nbsp;Framework website.
+				For information about building the complete TicketMonster application using JBoss&nbsp;Developer&nbsp;Studio see <ulink url="http://www.jboss.org/jdf/examples/get-started/"/> on the JBoss&nbsp;Developer&nbsp;Framework website.
 			</para>
 		</note>
 	</section>
@@ -109,24 +109,24 @@
 		<itemizedlist>
 			<listitem>
 				<para>
-					JBoss&nbsp;Developer&nbsp;Studio 7 is installed.
+					JBoss&nbsp;Developer&nbsp;Studio 7.0 is installed
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x is installed.
+					JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x is installed
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x Maven repository is installed but Maven is not necessarily configured to use it.
+					JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x Maven repository is installed but Maven is not necessarily configured to use it
 				</para>
 			</listitem>
 		</itemizedlist>
-		<note>
-			<para>
-				If you want to use JBoss&nbsp;Application&nbsp;Server 7.1 instead of JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x, you can install it and you should modify all the references to JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x in this tutorial accordingly.
-			</para>
-		</note>
+		<!--	<note>
+		<para>
+			If you want to use JBoss&nbsp;Application&nbsp;Server 7.1 instead of JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x, you can install it and you must modify all the references to JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x in this tutorial accordingly.
+		</para>
+	</note> -->
 	</section>
 </chapter>

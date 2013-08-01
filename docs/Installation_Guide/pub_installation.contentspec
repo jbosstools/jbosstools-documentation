@@ -1,4 +1,4 @@
-CHECKSUM=e5a30dac32ab134120085c1430f57c90
+CHECKSUM=0adecbd311bde91d737c3bd4fd3de8c5
 ID = 13332
 # Content spec written by
 # Generated on <date>
@@ -35,7 +35,6 @@ Revision History = [21657]
 # Indentation is meaningful. Use 2 spaces.
 
 
-
 [Writer = mmurray, condition = install]
 Chapter: Introduction to Red Hat JBoss Developer Studio
   About Red Hat JBoss Developer Studio [13337]
@@ -56,7 +55,7 @@ Chapter: Set Preferences on First Launch after Installing
   Preferences Options [15790]
   Select a Workspace Location [13347]
   Set Usage Reporting [13335]
-  Define Servers from Runtimes Found by Runtime Detection [21662]
+  Define Servers for Application Servers Found by Runtime Detection [21662]
   Set the Perspective to JBoss [13346]
 
 #Chapter: Test JBoss Developer Studio
