@@ -18,7 +18,7 @@
 			There are two uninstall methods for JBoss&nbsp;Developer&nbsp;Studio. The method you use depends on whether you are using JBoss&nbsp;Developer&nbsp;Studio or JBoss&nbsp;Developer&nbsp;Studio BYOE.
 		</para>
 	</section>
-	<section id="Uninstall_with_the_Uninstaller" remap="TID_13344">
+	<section id="Uninstall_JBoss_Developer_Studio" remap="TID_13344">
 		<sectioninfo>
 			<keywordset>
 				<keyword>
@@ -65,7 +65,7 @@
 					Once the progress bar shows <guilabel>Finished</guilabel>, click <guibutton>Quit</guibutton> to close the <application>Uninstaller</application> window.
 				</para>
 				<figure>
-					<title>Uninstaller in <guilabel>Finished</guilabel> State</title>
+					<title>Uninstaller in Finished State</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3355.png"/>
@@ -78,7 +78,7 @@
 			</step>
 		</procedure>
 	</section>
-	<section id="Uninstall_from_Eclipse_Marketplace" remap="TID_13341">
+	<section id="Uninstall_JBoss_Developer_Studio_BYOE" remap="TID_13341">
 		<sectioninfo>
 			<keywordset>
 				<keyword>
@@ -104,7 +104,7 @@
 			</step>
 			<step>
 				<para>
-					In the <guilabel>Find</guilabel> field of the <guilabel>Search</guilabel> tab, type <command>JBoss Developer Studio</command> and press <keycap>Enter</keycap>.
+					In the <guilabel>Find</guilabel> field of the <guilabel>Search</guilabel> tab, enter <command>JBoss Developer Studio</command>.
 				</para>
 			</step>
 			<step>
@@ -118,7 +118,7 @@
 							<imagedata fileref="images/3371.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>Click <guimenu>Help</guimenu>&rarr;<guimenu>Eclipse Marketplace</guimenu>. In the <guilabel>Find</guilabel> field of the <guilabel>Search</guilabel> tab, type <command>JBoss Developer Studio</command> and press <keycap>Enter</keycap>. Locate <application>Red Hat JBoss Developer Studio (Kepler)</application> and click <guibutton>Uninstall</guibutton>.</phrase>
+							<phrase>Click <guimenu>Help</guimenu>&rarr;<guimenu>Eclipse Marketplace</guimenu>. In the <guilabel>Find</guilabel> field of the <guilabel>Search</guilabel> tab, enter <command>JBoss Developer Studio</command>. Locate <application>Red Hat JBoss Developer Studio (Kepler)</application> and click <guibutton>Uninstall</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
@@ -133,7 +133,7 @@
 					Ensure the <guilabel>Red Hat JBoss Developer Studio (Kepler)</guilabel> check box is selected and click <guibutton>Finish</guibutton>.
 				</para>
 				<figure>
-					<title>Click <guibutton>Finish</guibutton> to Uninstall JBoss Developer Studio BYOE</title>
+					<title>Confirm Selected Features Window</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3370.png"/>
@@ -146,7 +146,7 @@
 			</step>
 			<step>
 				<para>
-					Once installing is complete, you are prompted to restart Eclipse. Click <guibutton>Yes</guibutton> to restart immediately and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that changes do not take effect until Eclipse is restarted.
+					Once installing is complete, you are prompted to restart Eclipse. Click <guibutton>Yes</guibutton> to restart immediately and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that IDE changes do not take effect until Eclipse is restarted.
 				</para>
 			</step>
 		</procedure>

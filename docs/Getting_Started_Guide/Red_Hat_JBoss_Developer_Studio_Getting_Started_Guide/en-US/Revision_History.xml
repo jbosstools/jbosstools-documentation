@@ -1,22 +1,29 @@
-<?xml version='1.0' encoding='utf-8' ?>
+<?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "Generic_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-<appendix id="appe-Revision_History">
+<appendix id="appe-Red_Hat_JBoss_Developer_Studio_Getting_Started_Guide-Revision_History">
 	<title>Revision History</title>
 	<simpara>
 		<revhistory>
-
+			<revision>
+				<revnumber>7.0.0-14</revnumber><date>Thu Aug 01 2013</date>
+				<author>
+					<firstname> Michelle</firstname><surname> Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-381: Applied edits for technical review
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
 			<revision>
 				<revnumber>7.0.0-13</revnumber><date>Mon Jul 29 2013</date>
 				<author>
-					<firstname>
-						Michelle
-					</firstname>
-					<surname>
-						Murray
-					</surname><email></email>
+					<firstname> Michelle</firstname><surname> Murray</surname><email/>
 				</author>
 				<revdescription>
 					<simplelist>
@@ -25,15 +32,11 @@
 						</member>
 					</simplelist>
 				</revdescription>
-			</revision>			<revision>
+			</revision>
+			<revision>
 				<revnumber>7.0.0-12</revnumber><date>Mon Jul 22 2013</date>
 				<author>
-					<firstname>
-						Michelle
-					</firstname>
-					<surname>
-						Murray
-					</surname><email></email>
+					<firstname> Michelle</firstname><surname> Murray</surname><email/>
 				</author>
 				<revdescription>
 					<simplelist>
@@ -42,16 +45,11 @@
 						</member>
 					</simplelist>
 				</revdescription>
-			</revision>	
+			</revision>
 			<revision>
 				<revnumber>7.0.0-11</revnumber><date>Thu Jul 11 2013</date>
 				<author>
-					<firstname>
-						Michelle
-					</firstname>
-					<surname>
-						Murray
-					</surname><email></email>
+					<firstname> Michelle</firstname><surname> Murray</surname><email/>
 				</author>
 				<revdescription>
 					<simplelist>
@@ -60,16 +58,11 @@
 						</member>
 					</simplelist>
 				</revdescription>
-			</revision>				
+			</revision>
 			<revision>
 				<revnumber>7.0.0-10</revnumber><date>Fri Jun 28 2013</date>
 				<author>
-					<firstname>
-						Michelle
-					</firstname>
-					<surname>
-						Murray
-					</surname><email></email>
+					<firstname> Michelle</firstname><surname> Murray</surname><email/>
 				</author>
 				<revdescription>
 					<simplelist>
@@ -78,16 +71,11 @@
 						</member>
 					</simplelist>
 				</revdescription>
-			</revision>	
+			</revision>
 			<revision>
 				<revnumber>7.0.0-9</revnumber><date>Wed Jun 26 2013</date>
 				<author>
-					<firstname>
-						Michelle
-					</firstname>
-					<surname>
-						Murray
-					</surname><email></email>
+					<firstname> Michelle</firstname><surname> Murray</surname><email/>
 				</author>
 				<revdescription>
 					<simplelist>
@@ -96,16 +84,11 @@
 						</member>
 					</simplelist>
 				</revdescription>
-			</revision>	
+			</revision>
 			<revision>
 				<revnumber>7.0.0-8</revnumber><date>Tue Jun 25 2013</date>
 				<author>
-					<firstname>
-						Michelle
-					</firstname>
-					<surname>
-						Murray
-					</surname><email></email>
+					<firstname> Michelle</firstname><surname> Murray</surname><email/>
 				</author>
 				<revdescription>
 					<simplelist>
@@ -114,34 +97,24 @@
 						</member>
 					</simplelist>
 				</revdescription>
-			</revision>	
+			</revision>
 			<revision>
 				<revnumber>7.0.0-7</revnumber><date>Fri Jun 7 2013</date>
 				<author>
-					<firstname>
-						Michelle
-					</firstname>
-					<surname>
-						Murray
-					</surname><email></email>
+					<firstname> Michelle</firstname><surname> Murray</surname><email/>
 				</author>
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOLSDOC-354: Brand change
+							TOOLSDOC-354: Implemented brand change
 						</member>
 					</simplelist>
 				</revdescription>
-			</revision>				
+			</revision>
 			<revision>
-				<revnumber>7.0.0-6</revnumber><date>Thur Jun 6 2013</date>
+				<revnumber>7.0.0-6</revnumber><date>Thu Jun 6 2013</date>
 				<author>
-					<firstname>
-						Michelle
-					</firstname>
-					<surname>
-						Murray
-					</surname><email></email>
+					<firstname> Michelle</firstname><surname> Murray</surname><email/>
 				</author>
 				<revdescription>
 					<simplelist>
@@ -150,21 +123,16 @@
 						</member>
 					</simplelist>
 				</revdescription>
-			</revision>			
+			</revision>
 			<revision>
 				<revnumber>7.0.0-5</revnumber><date>Wed Jun 5 2013</date>
 				<author>
-					<firstname>
-						Michelle
-					</firstname>
-					<surname>
-						Murray
-					</surname><email></email>
+					<firstname> Michelle</firstname><surname> Murray</surname><email/>
 				</author>
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOLSDOC-355: Brand Change
+							TOOLSDOC-355: Implemented brand Change
 						</member>
 					</simplelist>
 				</revdescription>
@@ -172,12 +140,7 @@
 			<revision>
 				<revnumber>7.0.0-4</revnumber><date>Tue Jun 4 2013</date>
 				<author>
-					<firstname>
-						Michelle
-					</firstname>
-					<surname>
-						Murray
-					</surname><email></email>
+					<firstname> Michelle</firstname><surname> Murray</surname><email/>
 				</author>
 				<revdescription>
 					<simplelist>
@@ -190,12 +153,7 @@
 			<revision>
 				<revnumber>7.0.0-3</revnumber><date>Mon Jun 3 2013</date>
 				<author>
-					<firstname>
-						Michelle
-					</firstname>
-					<surname>
-						Murray
-					</surname><email></email>
+					<firstname> Michelle</firstname><surname> Murray</surname><email/>
 				</author>
 				<revdescription>
 					<simplelist>
@@ -206,14 +164,9 @@
 				</revdescription>
 			</revision>
 			<revision>
-				<revnumber>7.0.0-2</revnumber><date>Thur May 02 2013</date>
+				<revnumber>7.0.0-2</revnumber><date>Thu May 02 2013</date>
 				<author>
-					<firstname>
-						Michelle
-					</firstname>
-					<surname>
-						Murray
-					</surname><email></email>
+					<firstname> Michelle</firstname><surname> Murray</surname><email/>
 				</author>
 				<revdescription>
 					<simplelist>
@@ -226,12 +179,7 @@
 			<revision>
 				<revnumber>7.0.0-1</revnumber><date>Tue Mar 05 2013</date>
 				<author>
-					<firstname>
-						Michelle
-					</firstname>
-					<surname>
-						Murray
-					</surname><email></email>
+					<firstname> Michelle</firstname><surname> Murray</surname><email/>
 				</author>
 				<revdescription>
 					<simplelist>
@@ -244,4 +192,3 @@
 		</revhistory>
 	</simpara>
 </appendix>
-

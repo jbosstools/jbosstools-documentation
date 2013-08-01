@@ -1,4 +1,4 @@
-CHECKSUM=72e40196c6774d10f38fdf62f318db5c
+CHECKSUM=b45414dbcc7209a2f0eeda3f4628c552
 ID = 13882
 # Content spec written by
 # Generated on <date>
@@ -55,10 +55,11 @@ Chapter: Set Preferences on First Launch after Installing
   Preferences Options [15790]
   Select a Workspace Location [13347]
   Set Usage Reporting [13335]
+  Define Servers for Application Servers Found by Runtime Detection [21662]
   Set the Perspective to JBoss [13346]
-  Set up Runtime Detection [13345]
 
 #Chapter: Test JBoss Developer Studio
+#  Set Up Runtime Detection [13345]
 
 Chapter: Upgrade from Previous Versions of JBoss Developer Studio
   Upgrade Methods [13419]

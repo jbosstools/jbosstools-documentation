@@ -24,7 +24,7 @@
 					Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Maven Integration</guilabel>.
 				</para>
 				<figure>
-					<title>JBoss Maven Integration Pane</title>
+					<title>JBoss Maven Integration Pane in the Preferences Window</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3313.png"/>
@@ -47,13 +47,16 @@
 			</step>
 			<step>
 				<para>
-					Click <guibutton>Recognize JBoss Maven Enterprise Repositories</guibutton>, navigate to <filename>path/to/jboss-eap-6.x.y-maven-repository</filename> and click <guibutton>OK</guibutton>. JBoss Maven Tools recursively scans the path searching for the Maven repository.
+					Click <guibutton>Recognize JBoss Maven Enterprise Repositories</guibutton>.
 				</para>
-				<note>
-					<para>
-						If you are using JBoss Application Server 7.1 instead of JBoss Enterprise Application Platform 6.x, you must configure Maven for use with JBoss. Instead of clicking <guibutton>Recognize JBoss Maven Enterprise Repositories</guibutton>, from the <guilabel>Profile ID</guilabel> list select <guilabel>jboss-public-repository</guilabel>.
-					</para>
-				</note>
+				<para>
+					Navigate to <filename>path/to/jboss-eap-6.x.y-maven-repository</filename> and click <guibutton>OK</guibutton>. JBoss Maven Tools recursively scans the path searching for the Maven repository.
+				</para>
+				<!--<note>
+				<para>
+					If you are using JBoss Application Server 7.1 instead of JBoss Enterprise Application Platform 6.x, you must configure Maven for use with JBoss. Instead of clicking <guibutton>Recognize JBoss Maven Enterprise Repositories</guibutton>, from the <guilabel>Profile ID</guilabel> list select <guilabel>jboss-public-repository</guilabel>.
+				</para>
+			</note> -->
 			</step>
 			<step>
 				<para>
@@ -88,7 +91,7 @@
 			</step>
 		</procedure>
 	</section>
-	<section id="Set_Up_a_Runtime_Server_Using_Server_Manager" remap="TID_13796">
+	<section id="Set_Up_a_Server_Using_Runtime_Detection" remap="TID_13796">
 		<sectioninfo>
 			<keywordset>
 				<keyword>
@@ -98,10 +101,10 @@
 		</sectioninfo>
 		<title>Set Up a Server Using Runtime Detection</title>
 		<para>
-			Servers can be set up from within the <application>Java EE Web Project</application> wizard. But for the purposes of exploring JBoss&nbsp;Developer&nbsp;Studio the procedure below sets up the server first.
+			Servers can be defined from within the <application>Java EE Web Project</application> wizard. But for the purposes of exploring JBoss&nbsp;Developer&nbsp;Studio the procedure below defines the server first.
 		</para>
 		<procedure>
-			<title>Set Up a Server Using Runtime Detection</title>
+			<title>Define a Server Using Runtime Detection</title>
 			<step>
 				<para>
 					Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>.
@@ -128,7 +131,7 @@
 					Select the directory containing the <guilabel>JBoss Enterprise Application Platform 6.0</guilabel> or <guilabel>JBoss Enterprise Application Platform 6.1</guilabel> installation and click <guibutton>OK</guibutton>. The directory is now scanned for application servers and JBoss Enterprise Application Platform 6.x found.
 				</para>
 				<figure>
-					<title>JBoss Enterprise Application Platform 6.x found by Runtime Detection</title>
+					<title>JBoss Enterprise Application Platform 6.x Found by Runtime Detection</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3336.png"/>
@@ -149,7 +152,7 @@
 					Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window. The server is listed in the <guilabel>Servers</guilabel> tab.
 				</para>
 				<figure>
-					<title>JBoss Enterprise Application Platform 6.x Server listed in Servers Tab</title>
+					<title>JBoss Enterprise Application Platform 6.x Server Listed in Servers Tab</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3338.png"/>
@@ -207,7 +210,7 @@
 					From the <guilabel>Target Runtime</guilabel> list, select <guilabel>jboss-eap-6.x Runtime</guilabel> and click <guibutton>Next</guibutton>.
 				</para>
 				<figure>
-					<title>JBoss Enterprise Application Platform 6.x selected for Target Runtime</title>
+					<title>JBoss Enterprise Application Platform 6.x Selected as Target Runtime in Java EE Web Project Wizard</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3311.png"/>
@@ -228,7 +231,7 @@
 					In the <guilabel>Package</guilabel> field, type <command>org.jboss.jdf.example.ticketmonster</command> and click <guibutton>Finish</guibutton> to create the project.
 				</para>
 				<figure>
-					<title>Completed Project Name and Package Fields</title>
+					<title>Completed Project Name and Package Fields in Java EE Web Project Wizard</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3310.png"/>
@@ -241,10 +244,10 @@
 			</step>
 			<step>
 				<para>
-					During project creation, the wizard imports project dependencies. When the <application>Java EE Web Project</application> wizard displays <guilabel>'Java EE Web Project' Project is now ready</guilabel>, click <guibutton>Finish</guibutton> to close the wizard. A <filename>README.md</filename> file for the project automatically opens for viewing.
+					During project creation, the wizard imports project dependencies. When the <application>Java EE Web Project</application> wizard displays <guilabel>'Java EE Web Project' Project is now ready</guilabel>, click <guibutton>Finish</guibutton> to close the wizard. A <filename>README.md</filename> file for the project automatically opens for viewing and the project is listed in the <guilabel>Project Explorer</guilabel> tab.
 				</para>
 				<figure>
-					<title>'Project is now ready' Message</title>
+					<title>'Project is now ready' Message in Java EE Web Project Wizard</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3307.png"/>
@@ -311,7 +314,7 @@
 			<step>
 				<para>
 					To create the <filename>Event</filename> entity class, on the Forge command line enter 
-					<screen>entity --named Event --package org.jboss.jdf.example.ticketmonster.model</screen>
+					<screen>entity --named Event --package org.jboss.jdf.example.ticketmonster.model</screen> This creates a <filename>Event.java</filename> file that is automatically opened in a Java editor tab.
 				</para>
 				<note>
 					<para>
@@ -356,11 +359,6 @@ constraint Size --onProperty description --min 20 --max 1000 --message "Must be 
 					</mediaobject>
 				</figure>
 			</step>
-			<step>
-				<para>
-					Save the <filename>Event.java</filename> file.
-				</para>
-			</step>
 		</procedure>
 	</section>
 	<section id="Add_an_Entity_Using_Hibernate_Tools" remap="TID_13784">
@@ -400,10 +398,10 @@ constraint Size --onProperty description --min 20 --max 1000 --message "Must be 
 			</step>
 			<step>
 				<para>
-					In the <guilabel>Name</guilabel> field, type <command>Venue</command> and click <guibutton>Finish</guibutton>.
+					In the <guilabel>Name</guilabel> field, type <command>Venue</command> and click <guibutton>Finish</guibutton>. This creates a <filename>Venue.java</filename> file that is automatically opened in a Java editor tab.
 				</para>
 				<figure>
-					<title>Completed Java Class Window</title>
+					<title>Completed Name Field in Java Class Wizard</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3300.png"/>
@@ -416,7 +414,7 @@ constraint Size --onProperty description --min 20 --max 1000 --message "Must be 
 			</step>
 			<step>
 				<para>
-					The <filename>Venue.java</filename> file will be automatically opened in the editor. Add the following lines in between the braces of the <filename>Venue</filename> class 
+					Add fields to the entity by adding the following lines in between the braces of the <filename>Venue</filename> class 
 					<screen>private Long id;
 private String name;
 private String description;
@@ -426,7 +424,7 @@ private int capacity;
 			</step>
 			<step>
 				<para>
-					Save the <filename>Venue.java</filename> file.
+					To save the <filename>Venue.java</filename> file, press <keycap>Ctrl+S</keycap>.
 				</para>
 			</step>
 			<step>
@@ -440,7 +438,7 @@ private int capacity;
 							<imagedata fileref="images/3303.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>right-click a new line after <command>private int capacity;</command> and click <guimenu>Source</guimenu>&rarr;<guimenu>Generate Getters and Setters</guimenu>.</phrase>
+							<phrase>Right-click a new line after <command>private int capacity;</command> and click <guimenu>Source</guimenu>&rarr;<guimenu>Generate Getters and Setters</guimenu>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
@@ -448,6 +446,11 @@ private int capacity;
 			<step>
 				<para>
 					Click <guibutton>Select All</guibutton> and click <guibutton>OK</guibutton>.
+				</para>
+			</step>
+			<step>
+				<para>
+					Save the <filename>Venue.java</filename> file.
 				</para>
 			</step>
 			<step>
@@ -488,11 +491,11 @@ private int capacity;
 		</sectioninfo>
 		<title>Prepare Event Records to Populate the Database</title>
 		<para>
-			By default this web project uses H2 for data storage. H2 is a Java database integrated with the application servers of JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6. It is an in-memory database which means that the data does not persist once the application using the database stops running. For this reason, seed data must be stored in a file within the project and added to the database each time the application starts. While it might not seem practical to have to construct the database each time the application starts, this type of data storage is useful during development for testing purposes.
+			This web project uses H2 for data storage by default. H2 is a Java database integrated with the application servers of JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6. It is an in-memory database which means that the data does not persist once the application using the database stops running. For this reason, seed data must be stored in a file within the project and added to the database each time the application starts. While it might not seem practical to have to construct the database each time the application starts, this type of data storage is useful during development for testing purposes.
 		</para>
 		<warning>
 			<para>
-				The use of H2 for data storage is for testing purposes only and should not be used during production.
+				The use of H2 for data storage is for testing purposes only and must not be used during production.
 			</para>
 		</warning>
 		<para>
@@ -507,7 +510,7 @@ private int capacity;
 			</step>
 			<step>
 				<para>
-					Double-click the <filename>import.sql</filename> file to open it in the editor.
+					To open the <filename>import.sql</filename> file for editing, double-click the file name.
 				</para>
 				<figure>
 					<title><filename>import.sql</filename> File Location</title>
@@ -551,17 +554,17 @@ private int capacity;
 			</step>
 			<step>
 				<para>
-					Save the <filename>import.sql</filename> file.
+					To save the <filename>import.sql</filename> file, press <keycap>Ctrl+S</keycap>.
 				</para>
 			</step>
 			<step>
 				<para>
-					Double-click the <guilabel>import.sql</guilabel> tab to make the editor return to its previous size.
+					To make the editor return to its previous size, double-click the <guilabel>import.sql</guilabel> tab.
 				</para>
 			</step>
 		</procedure>
 	</section>
-	<section id="Deploy_the_Application_using_Server_Manager" remap="TID_13795">
+	<section id="Deploy_the_Application_using_JBoss_Server_Tools" remap="TID_13795">
 		<sectioninfo>
 			<keywordset>
 				<keyword>
@@ -569,12 +572,12 @@ private int capacity;
 				</keyword>
 			</keywordset>
 		</sectioninfo>
-		<title>Deploy the Application using Server Manager</title>
+		<title>Deploy the Application using JBoss Server Tools</title>
 		<para>
-			The TicketMonster application can be deployed on the JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6 server created earlier in the tutorial. The procedure below guides you through how to do this.
+			The TicketMonster application can be deployed on the JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x server created earlier in the tutorial. The procedure below guides you through how to do this.
 		</para>
 		<procedure>
-			<title>Deploy the Application Using Server Manager</title>
+			<title>Deploy the Application Using JBoss Server Tools</title>
 			<step>
 				<para>
 					In the <guilabel>Project Explorer</guilabel> tab, right-click on <guilabel>ticket-monster</guilabel> and click <guimenu>Run As</guimenu>&rarr;<guimenu>Run on Server</guimenu>.
@@ -598,10 +601,10 @@ private int capacity;
 			</step>
 			<step>
 				<para>
-					In the <guilabel>Select the server that you want to use</guilabel> table, select <guilabel>jboss-eap-6.x</guilabel> and click <guibutton>Finish</guibutton>. If not already in view, the <guilabel>Console</guilabel> tab automatically opens and shows the runtime server output. Also, a <guilabel>Web Browser</guilabel> tab automatically opens and displays the web page of the running TicketMonster application.
+					From the <guilabel>Select the server that you want to use</guilabel> table, select <guilabel>jboss-eap-6.x</guilabel> and click <guibutton>Finish</guibutton>. If not already in view, the <guilabel>Console</guilabel> tab automatically opens and shows the runtime server output. Also, a <guilabel>Web Browser</guilabel> tab automatically opens and displays the web page of the running TicketMonster application.
 				</para>
 				<figure>
-					<title>Completed Run on Server Window</title>
+					<title>JBoss Enterprise Application Platform 6.x Selected in Run on Server Wizard</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3293.png"/>
@@ -683,7 +686,7 @@ private int capacity;
 			</step>
 			<step>
 				<para>
-					In JBoss&nbsp;Developer&nbsp;Studio, open a new <guilabel>Web Browser</guilabel> tab by clicking <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>, expand <guilabel>General</guilabel> and double-click <guilabel>Internal Web Browser</guilabel>.
+					In the IDE open a new <guilabel>Web Browser</guilabel> tab by clicking <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>, expand <guilabel>General</guilabel> and double-click <guilabel>Internal Web Browser</guilabel>.
 				</para>
 			</step>
 			<step>
@@ -693,7 +696,7 @@ private int capacity;
 			</step>
 			<step>
 				<para>
-					In the <guilabel>Login</guilabel> area, type <command>jdbc:h2:mem:ticket-monster</command> in the <guilabel>JDBC URL</guilabel> field and type <command>sa</command> in both the <guilabel>User Name</guilabel> and <guilabel>Password</guilabel> fields. These settings are defined in the <filename>ticket-monster-ds.xml</filename> file in the <filename>ticket-monster/src/main/webapp/WEB-INF</filename> directory.
+					In the <guilabel>Login</guilabel> area, in the <guilabel>JDBC URL</guilabel> field type <command>jdbc:h2:mem:ticket-monster</command> and in both the <guilabel>User Name</guilabel> and <guilabel>Password</guilabel> fields type <command>sa</command>. These settings are defined in the <filename>ticket-monster-ds.xml</filename> file in the <filename>ticket-monster/src/main/webapp/WEB-INF</filename> directory.
 				</para>
 				<figure>
 					<title>Completed H2 Login Web Page</title>
@@ -767,10 +770,10 @@ private int capacity;
 			</step>
 			<step>
 				<para>
-					In the <guilabel>Name</guilabel> field, type <command>EventService</command> and click <guibutton>Finish</guibutton>.
+					In the <guilabel>Name</guilabel> field, type <command>EventService</command> and click <guibutton>Finish</guibutton>. This creates a <filename>EventService.java</filename> file that is automatically opened in a Java editor tab.
 				</para>
 				<figure>
-					<title>Completed Java Class Window</title>
+					<title>Completed Name Field in Java Class Wizard</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3332.png"/>
@@ -783,7 +786,7 @@ private int capacity;
 			</step>
 			<step>
 				<para>
-					The <filename>EventService.java</filename> file will be automatically opened in the editor. Add the following lines immediately above <command>public class EventService {</command>
+					Add the following lines immediately above <command>public class EventService {</command>
 					<screen>
 @Path("/events")
 @RequestScoped			
@@ -802,21 +805,21 @@ public List&lt;Event&gt; getAllEvents() {
 			</step>
 			<step>
 				<para>
-					Save the <filename>EventService.java</filename> file.
+					To save the <filename>EventService.java</filename> file, press <keycap>Ctrl+S</keycap>
 				</para>
 			</step>
 			<step>
 				<para>
-					To resolve the errors relating to missing imports, right-click anywhere in the <filename>EventService</filename> class and click <guimenu>Source</guimenu>&rarr;<guimenu>Organise Imports</guimenu>.
+					To resolve the errors relating to missing imports, right-click anywhere in the <filename>EventService</filename> class and click <guimenu>Source</guimenu>&rarr;<guimenu>Organize Imports</guimenu>.
 				</para>
 				<figure>
-					<title><guimenu>Source</guimenu>&rarr;<guimenu>Organise Imports</guimenu> Menu Option</title>
+					<title><guimenu>Source</guimenu>&rarr;<guimenu>Organize Imports</guimenu> Menu Option</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3334.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>Right-click anywhere in the <filename>EventService</filename> class and click <guimenu>Source</guimenu>&rarr;<guimenu>Organise Imports</guimenu>.</phrase>
+							<phrase>Right-click anywhere in the <filename>EventService</filename> class and click <guimenu>Source</guimenu>&rarr;<guimenu>Organize Imports</guimenu>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
@@ -858,13 +861,13 @@ public List&lt;Event&gt; getAllEvents() {
 					</itemizedlist>
 				</para>
 				<figure>
-					<title>Select <guilabel>javax.ws.rs.core.MediaType</guilabel> for <filename>MediaType</filename> Class</title>
+					<title>For <filename>MediaType</filename> Class Select <guilabel>javax.ws.rs.core.MediaType</guilabel></title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3330.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>For each class name that is not unique, select the class to use as follows and click <guibutton>Next</guibutton></phrase>
+							<phrase>For each class name that is not unique, select the class to use as described here and click <guibutton>Next</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
@@ -902,7 +905,7 @@ public List&lt;Event&gt; getAllEvents() {
 			</step>
 			<step>
 				<para>
-					In the address bar of the <guilabel>Web Browser</guilabel> tab, enter <ulink url="http://localhost:8080/ticket-monster/rest/events"/>. In the opened file browser window, select a directory and enter a file name in which to save the JSON output. The file contains details of the two event records created earlier in the tutorial and can be viewed with a text editor.
+					In the address bar of the <guilabel>Web Browser</guilabel> tab, enter <ulink url="http://localhost:8080/ticket-monster/rest/events"/>. In the opened file browser window, select a directory and enter a file name in which to save the JSON output. The file can be viewed with a text editor and it contains details of the two event records created earlier in the tutorial.
 				</para>
 			</step>
 		</procedure>
@@ -952,7 +955,7 @@ public List&lt;Event&gt; getAllEvents() {
 					In the <guilabel>File name</guilabel> field, type <filename>mobile.html</filename> and click <guibutton>Next</guibutton>.
 				</para>
 				<figure>
-					<title>Completed New HTML File Window</title>
+					<title>Completed File Name Field in New HTML File Wizard</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3323.png"/>
@@ -965,10 +968,10 @@ public List&lt;Event&gt; getAllEvents() {
 			</step>
 			<step>
 				<para>
-					From the <guilabel>Templates</guilabel> list, select <guilabel>HTML5 jQuery Mobile Page</guilabel> and click <guibutton>Finish</guibutton>.
+					From the <guilabel>Templates</guilabel> list, select <guilabel>HTML5 jQuery Mobile Page</guilabel> and click <guibutton>Finish</guibutton>. This creates a <filename>mobile.html</filename> file that is automatically opened in the <guilabel>Visual/Source</guilabel> tab of the Visual Page Editor.
 				</para>
 				<figure>
-					<title>Select <guilabel>HTML5 jQuery Mobile Page</guilabel> Template</title>
+					<title>Selected <guilabel>HTML5 jQuery Mobile Page</guilabel> Template in New HTML File Wizard</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3326.png"/>
@@ -981,7 +984,7 @@ public List&lt;Event&gt; getAllEvents() {
 			</step>
 			<step>
 				<para>
-					The <filename>mobile.html</filename> file will be automatically opened in the <guilabel>Visual/Source</guilabel> tab of the Visual Page Editor. To list the events returned by the web service in the mobile user interface, add the following lines immediately after the <command>alert("Ready To Go");</command> line 
+					To list the events returned by the web service in the mobile user interface, add the following lines immediately after the <command>alert("Ready To Go");</command> line 
 					<screen>$.getJSON("rest/events", function(events) {
 	// console.log("returned are " + events);
 	var listOfEvents = $("#listOfItems");
@@ -1008,7 +1011,7 @@ public List&lt;Event&gt; getAllEvents() {
 			</step>
 			<step>
 				<para>
-					Save the <filename>mobile.html</filename> file.
+					To save the <filename>mobile.html</filename> file, press <keycap>Ctrl+S</keycap>.
 				</para>
 			</step>
 			<step>
@@ -1021,7 +1024,7 @@ public List&lt;Event&gt; getAllEvents() {
 					</note>
 				</para>
 				<figure>
-					<title>Event Displayed in Mobile Interface</title>
+					<title>Events Displayed via Mobile Interface in External Web Browser</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3325.png"/>
@@ -1078,7 +1081,7 @@ public List&lt;Event&gt; getAllEvents() {
 					To change the type of simulated device displayed, right-click anywhere on the simulated device, click <guimenu>Skin</guimenu> and select from the different skins listed.
 				</para>
 				<figure>
-					<title>Skins Menu Option</title>
+					<title>Skin Menu Option</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3322.png"/>

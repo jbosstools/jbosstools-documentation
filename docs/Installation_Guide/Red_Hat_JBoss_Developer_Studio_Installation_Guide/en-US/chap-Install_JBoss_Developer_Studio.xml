@@ -24,7 +24,7 @@
 			Alternatively, if you already have Eclipse on your system you may prefer to install JBoss&nbsp;Developer&nbsp;Studio BYOE. This option installs JBoss&nbsp;Developer&nbsp;Studio in Eclipse.
 		</para>
 	</section>
-	<section id="Install_with_the_JAR_Installer" remap="TID_13342">
+	<section id="Install_JBoss_Developer_Studio" remap="TID_13342">
 		<sectioninfo>
 			<keywordset>
 				<keyword>
@@ -64,7 +64,7 @@
 					From the <guilabel>Version</guilabel> list, select <guilabel>7.0.x</guilabel>.
 				</para>
 				<figure>
-					<title>JBoss Developer Studio Downloads on the Customer Portal</title>
+					<title>JBoss Developer Studio Downloads Listed on the Customer Portal</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3358.png"/>
@@ -82,7 +82,7 @@
 				<stepalternatives>
 					<step>
 						<para>
-							For installing from the provided universal installer, from the table click <guibutton>Download</guibutton> for the <filename>Red Hat JBoss Developer Studio 7.0.x Stand Alone Universal Binary</filename> download file.
+							For installing from the provided universal installer, from the table click <guibutton>Download</guibutton> for the <filename>Red Hat JBoss Developer Studio 7.0.x Stand Alone Universal Binary</filename> download file. This downloads the universal installer <filename>.jar</filename> file.
 						</para>
 					</step>
 					<step>
@@ -92,13 +92,13 @@
 						<substeps>
 							<step>
 								<para>
-									From the table, click <guibutton>Download</guibutton> for the <filename>Red Hat JBoss Developer Studio 7.0.x Source Code</filename> download file.
+									From the table, click <guibutton>Download</guibutton> for the <filename>Red Hat JBoss Developer Studio 7.0.x Source Code</filename> download file. This downloads the sources <filename>.zip</filename> file.
 								</para>
 							</step>
 							<step>
 								<para>
 									On the command line, navigate to <filename>path/to/.zip</filename> and enter 
-									<screen>unzip jbdevstudio-product-sources-7.0.<replaceable>x.build_version</replaceable>.zip</screen> where <replaceable>x.build_version</replaceable> is substituted to match the name of the downloaded file. The archive is extracted into a <filename>devstudio</filename> directory.
+									<screen>unzip jbdevstudio-product-sources-7.0.<replaceable>x.build_version</replaceable>.zip</screen> where <replaceable>x.build_version</replaceable> is substituted to match the name of the downloaded file. The archive is extracted to a <filename>devstudio</filename> directory.
 								</para>
 							</step>
 							<step>
@@ -113,8 +113,8 @@
 			</step>
 			<step>
 				<para>
-					On the command line, navigate to the location of the universal installer <filename>.jar</filename> file and enter 
-					<screen>java -jar jbdevstudio-product_universal-7.0.<replaceable>x.build_version</replaceable>.jar</screen> where <replaceable>x.build_version</replaceable> is substituted to match the name of the <filename>.jar</filename> file. 
+					On the command line, navigate to <filename>path/to/.jar</filename> and enter 
+					<screen>java -jar jbdevstudio-product-universal-7.0.<replaceable>x.build_version</replaceable>.jar</screen> where <replaceable>x.build_version</replaceable> is substituted to match the name of the <filename>.jar</filename> file. 
 					<note>
 						<para>
 							To start the installer, you may be able to double-click the <filename>.jar</filename> file.
@@ -134,7 +134,7 @@
 			</step>
 			<step>
 				<para>
-					In the <guilabel>Select the installation path</guilabel> field, type the location where you want JBoss&nbsp;Developer&nbsp;Studio to be installed or click <guibutton>Browse</guibutton> to navigate to the desired location. When the <guilabel>Select the installation path</guilabel> field shows the correct location, click <guibutton>Next</guibutton>. When you are prompted about the selected location being created or overwritten, review the message and, if satisfied, click <guibutton>OK</guibutton>.
+					In the <guilabel>Select the installation path</guilabel> field, type the path where you want JBoss&nbsp;Developer&nbsp;Studio to be installed or click <guibutton>Browse</guibutton> to navigate to the desired location. When the <guilabel>Select the installation path</guilabel> field shows the correct path, click <guibutton>Next</guibutton>. When you are prompted about the specified location being created or overwritten, review the message and, if satisfied, click <guibutton>OK</guibutton>.
 				</para>
 				<figure>
 					<title>Installation Step 3: Select Target Folder</title>
@@ -143,29 +143,29 @@
 							<imagedata fileref="images/3342.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>In the <guilabel>Select the installation path</guilabel> field, type the location where you want JBoss&nbsp;Developer&nbsp;Studio to be installed or click <guibutton>Browse</guibutton> to navigate to the desired location. When the <guilabel>Select the installation path</guilabel> field shows the correct location, click <guibutton>Next</guibutton>.</phrase>
+							<phrase>In the <guilabel>Select the installation path</guilabel> field, type the path where you want JBoss&nbsp;Developer&nbsp;Studio to be installed or click <guibutton>Browse</guibutton> to navigate to the desired location. When the <guilabel>Select the installation path</guilabel> field shows the correct path, click <guibutton>Next</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
 			</step>
 			<step>
 				<para>
-					<guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the JRE in the Java developer kit you want to use. If it does not, click <guilabel>Specific Java JVM</guilabel> and type the path of the JRE in the text field or use the <guibutton>Browse</guibutton> button to select the correct JRE. When the text field shows the correct JRE path, click <guibutton>Next</guibutton>.
+					In the <guilabel>Select Java VM</guilabel> step, <guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the Java developer kit you want to use. This is based on the default Java developer kit of your system. To change the specified Java developer kit, click <guilabel>Specific Java VM</guilabel> and type the path of the Java developer kit in the text field or use the <guibutton>Browse</guibutton> button to locate the Java developer kit. When the text field shows the correct Java developer kit path, click <guibutton>Next</guibutton>.
 				</para>
 				<figure>
-					<title>Installation Step 4: Select Java JM</title>
+					<title>Installation Step 4: Select Java VM</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3343.png"/>
 						</imageobject>
 						<textobject>
-							<phrase><guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the JRE in the Java developer kit you want to use. If it does not, click <guilabel>Specific Java JVM</guilabel> and type the path of the JRE in the text field or use the <guibutton>Browse</guibutton> button to select the correct JRE. When the text field shows the correct JRE path, click <guibutton>Next</guibutton>.</phrase>
+							<phrase>In the <guilabel>Select Java VM</guilabel> step, <guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the Java developer kit you want to use. This is based on the default Java developer kit of your system. To change the specified Java developer kit, click <guilabel>Specific Java VM</guilabel> and type the path of the Java developer kit in the text field or use the <guibutton>Browse</guibutton> button to locate the Java developer kit. When the text field shows the correct Java developer kit path, click <guibutton>Next</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
 				<important>
 					<para>
-						You must specify a 32-bit JRE to install a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio and a 64-bit JRE to install a 64-bit version of JBoss&nbsp;Developer&nbsp;Studio. To change the bit version of the JRE to be used for installing JBoss&nbsp;Developer&nbsp;Studio, complete the appropriate step for your operating system: 
+						You must specify a Java developer kit with a 32-bit JRE to install a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio and a 64-bit JRE to install a 64-bit version of JBoss&nbsp;Developer&nbsp;Studio. To change the bit version of the Java developer kit to be used for installing JBoss&nbsp;Developer&nbsp;Studio, complete the appropriate step for your operating system: 
 						<itemizedlist>
 							<listitem>
 								<para>
@@ -174,7 +174,7 @@
 							</listitem>
 							<listitem>
 								<para>
-									On Linux distributions and Microsoft Windows operating systems, type the path to the appropriate bit version of the JRE.
+									On Linux distributions and Microsoft Windows operating systems, in the text field type the path to the appropriate bit version of the Java developer kit.
 								</para>
 							</listitem>
 						</itemizedlist>
@@ -183,10 +183,22 @@
 			</step>
 			<step>
 				<para>
-					To make use of automatic runtime detection for finding application servers, click <guibutton>Add</guibutton>. Type the path from which recursive scanning for application servers is to commence or click <guibutton>Browse</guibutton> to navigate to the path. To detect a specific application server, select the install directory for that application server. To detect multiple application servers, select a directory higher up the directory tree. For this path to be scanned for new application servers each time JBoss&nbsp;Developer&nbsp;Studio starts, select the <guilabel>Scan every start</guilabel> check box. Click <guibutton>OK</guibutton> to close the <guilabel>Add Location</guilabel> window and click <guibutton>Next</guibutton>.
+					To make use of automatic runtime detection for finding application servers, click <guibutton>Add</guibutton>. In the <guilabel>Location</guilabel> field, type the path from which recursive scanning for application servers is to commence or click <guibutton>Browse</guibutton> to navigate to the location: 
+					<itemizedlist>
+						<listitem>
+							<para>
+								To detect a specific application server, select the install directory for that application server.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								To detect multiple application servers, select a directory higher up the directory tree. Alternatively, this can be achieved by adding multiple locations for scanning.
+							</para>
+						</listitem>
+					</itemizedlist> To scan the specified path for new application servers each time JBoss&nbsp;Developer&nbsp;Studio starts, select the <guilabel>Scan every start</guilabel> check box. Click <guibutton>OK</guibutton> to close the <guilabel>Add Location</guilabel> window and click <guibutton>Next</guibutton>.
 				</para>
 				<figure>
-					<title>Add Location for Runtime Detection Scanning</title>
+					<title>Add Location Window for Runtime Detection</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3351.png"/>
@@ -207,7 +219,7 @@
 					Installation commences. When the <guilabel>Pack installation progress</guilabel> bar shows <guilabel>Finished</guilabel>, click <guibutton>Next</guibutton>.
 				</para>
 				<figure>
-					<title>Installation Step 7: Installation Progress shows <guilabel>Finished</guilabel></title>
+					<title>Installation Step 7: Installation Progress in Finished State</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3347.png"/>
@@ -231,13 +243,13 @@
 		</procedure>
 		<important>
 			<para>
-				Linux distributions have a maximum number of files that a process may have open at one time. If this maximum number of files is set too low, JBoss&nbsp;Developer&nbsp;Studio will not start. You must open the <filename>/etc/security/limits.conf</filename> file and ensure that the <command>soft nofile</command> and <command>hard nofile</command> variables have values of <command>9216</command> at a minimum. If the variables have smaller values, the values must be increased to <command>9216</command>. If the variables are not specified, the following lines must be added to the file: 
+				Linux distributions have a maximum number of files that a process can have open at one time. If this maximum number of files is set too low, JBoss&nbsp;Developer&nbsp;Studio will not start. You must open the <filename>/etc/security/limits.conf</filename> file and ensure that the <command>soft nofile</command> and <command>hard nofile</command> variables have values of <command>9216</command> at a minimum. If the variables have smaller values, the values must be increased to <command>9216</command>. If the variables are not specified, the following lines must be added to the file: 
 				<screen>* soft nofile 9216
 * hard nofile 9216</screen>
 			</para>
 		</important>
 	</section>
-	<section id="Install_from_Eclipse_Marketplace" remap="TID_13343">
+	<section id="Install_JBoss_Developer_Studio_BYOE" remap="TID_13343">
 		<sectioninfo>
 			<keywordset>
 				<keyword>
@@ -266,7 +278,7 @@
 			</step>
 			<step>
 				<para>
-					In the <guilabel>Find</guilabel> field of the <guilabel>Search</guilabel> tab, type <command>JBoss Developer Studio</command> and press <keycap>Enter</keycap>.
+					In the <guilabel>Find</guilabel> field of the <guilabel>Search</guilabel> tab, enter <command>JBoss Developer Studio</command>.
 				</para>
 			</step>
 			<step>
@@ -274,13 +286,13 @@
 					Locate <application>Red Hat JBoss Developer Studio (Kepler)</application> and click <guibutton>Install</guibutton>.
 				</para>
 				<figure>
-					<title>Install JBoss Developer Studio BYOE from Eclipse Marketplace</title>
+					<title>Install JBoss Developer Studio BYOE via Eclipse Marketplace</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3361.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>Click <guimenu>Help</guimenu>&rarr;<guimenu>Eclipse Marketplace</guimenu>. In the <guilabel>Find</guilabel> field of the <guilabel>Search</guilabel> tab, type <command>JBoss Developer Studio</command> and press <keycap>Enter</keycap>. Locate <application>Red Hat JBoss Developer Studio (Kepler)</application> and click <guibutton>Install</guibutton>.</phrase>
+							<phrase>Click <guimenu>Help</guimenu>&rarr;<guimenu>Eclipse Marketplace</guimenu>. In the <guilabel>Find</guilabel> field of the <guilabel>Search</guilabel> tab, enter <command>JBoss Developer Studio</command>. Locate <application>Red Hat JBoss Developer Studio (Kepler)</application> and click <guibutton>Install</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
@@ -290,13 +302,13 @@
 					Ensure the <guilabel>Red Hat JBoss Developer Studio (Kepler)</guilabel> check box is selected and click <guibutton>Confirm &gt;</guibutton>.
 				</para>
 				<figure>
-					<title>Verify the Software to be Installed</title>
+					<title>Confirm Selected Features Window</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3359.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>Verify the details of the component to be installed and click <guibutton>Confirm &gt;</guibutton>.</phrase>
+							<phrase>Ensure the <guilabel>Red Hat JBoss Developer Studio (Kepler)</guilabel> check box is selected and click <guibutton>Confirm &gt;</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
@@ -306,7 +318,7 @@
 					After reading and agreeing to the licenses, click <guilabel>I accept the terms of the license agreements</guilabel> and click <guibutton>Finish</guibutton>.
 				</para>
 				<figure>
-					<title>Review Licenses for Software to be Installed</title>
+					<title>Review Licenses Window</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3360.png"/>
@@ -319,23 +331,23 @@
 			</step>
 			<step>
 				<para>
-					During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.
+					During the installation process you may receive warnings about installing unsigned content. If this is the case, review the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.
 				</para>
 				<figure>
-					<title>Warning about Installing Unsigned Content</title>
+					<title>Warning Prompt for Installing Unsigned Content</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3363.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.</phrase>
+							<phrase>During the installation process you may receive warnings about installing unsigned content. If this is the case, review the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
 			</step>
 			<step>
 				<para>
-					Once installing is complete, you are prompted to restart Eclipse. Click <guibutton>Yes</guibutton> to restart now and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that changes do not take effect until Eclipse is restarted.
+					Once installing is complete, you are prompted to restart Eclipse. Click <guibutton>Yes</guibutton> to restart now and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that IDE changes do not take effect until Eclipse is restarted.
 				</para>
 			</step>
 		</procedure>
@@ -363,32 +375,32 @@
 				<stepalternatives>
 					<step>
 						<para>
-							For online mode, in the <guilabel>Work with</guilabel> field, enter <command>https://devstudio.jboss.com/updates/7.0/</command>.
+							For online mode, in the <guilabel>Work with</guilabel> field enter <command>https://devstudio.jboss.com/updates/7.0/</command>.
 						</para>
 						<figure>
-							<title>Access the Update <filename>.zip</filename> File Online</title>
+							<title>Work from an Online Website</title>
 							<mediaobject>
 								<imageobject>
 									<imagedata fileref="images/3365.png"/>
 								</imageobject>
 								<textobject>
-									<phrase>For online mode, in the <guilabel>Work with</guilabel> field, enter <command>https://devstudio.jboss.com/updates/7.0/</command>.</phrase>
+									<phrase>For online mode, in the <guilabel>Work with</guilabel> field enter <command>https://devstudio.jboss.com/updates/7.0/</command>.</phrase>
 								</textobject>
 							</mediaobject>
 						</figure>
 					</step>
 					<step>
 						<para>
-							For offline mode, in the <guilabel>Work with</guilabel> field, enter the absolute file path of the update <filename>.zip</filename> file. Alternatively, click <guibutton>Add</guibutton> and click <guibutton>Archive</guibutton> to locate the file.
+							For offline mode, in the <guilabel>Work with</guilabel> field enter the path of the update <filename>.zip</filename> file. Alternatively, click <guibutton>Add</guibutton> and click <guibutton>Archive</guibutton> to locate the file.
 						</para>
 						<figure>
-							<title>Access a Local Copy of the Update <filename>.zip</filename> File</title>
+							<title>work from a Local Copy of the Update <filename>.zip</filename> File</title>
 							<mediaobject>
 								<imageobject>
 									<imagedata fileref="images/3366.png"/>
 								</imageobject>
 								<textobject>
-									<phrase>For offline mode, in the <guilabel>Work with</guilabel> field, enter the absolute file path of the update <filename>.zip</filename> file.</phrase>
+									<phrase>For offline mode, in the <guilabel>Work with</guilabel> field enter the absolute file path of the update <filename>.zip</filename> file.</phrase>
 								</textobject>
 							</mediaobject>
 						</figure>
@@ -397,10 +409,10 @@
 			</step>
 			<step>
 				<para>
-					From the table of components comprising the update <filename>.zip</filename> file, select <guilabel>JBoss Developer Studio 7.0 - Bring Your Own Eclipse</guilabel> and click <guibutton>Next</guibutton>.
+					From the table of components, select <guilabel>JBoss Developer Studio 7.0 - Bring Your Own Eclipse</guilabel> and click <guibutton>Next</guibutton>.
 				</para>
 				<figure>
-					<title>select <guilabel>JBoss Developer Studio 7.0 - Bring Your Own Eclipse</guilabel></title>
+					<title>Available Software Window Listing JBoss Developer Studio 7.0 - Bring Your Own Eclipse</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3367.png"/>
@@ -413,7 +425,7 @@
 			</step>
 			<step>
 				<para>
-					Verify the details of the component to be installed and click <guibutton>Next</guibutton>.
+					Review the details of the component to be installed and click <guibutton>Next</guibutton>.
 				</para>
 			</step>
 			<step>
@@ -421,7 +433,7 @@
 					After reading and agreeing to the licenses, click <guilabel>I accept the terms of the license agreements</guilabel> and click <guibutton>Finish</guibutton>.
 				</para>
 				<figure>
-					<title>Review Licenses for Software to be Installed</title>
+					<title>Review Licenses Window</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3360.png"/>
@@ -434,23 +446,23 @@
 			</step>
 			<step>
 				<para>
-					During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.
+					During the installation process you may receive warnings about installing unsigned content. If this is the case, review the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.
 				</para>
 				<figure>
-					<title>Warning about Installing Unsigned Content</title>
+					<title>Warning Prompt for Installing Unsigned Content</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3363.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.</phrase>
+							<phrase>During the installation process you may receive warnings about installing unsigned content. If this is the case, review the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
 			</step>
 			<step>
 				<para>
-					Once installing is complete, you are prompted to restart Eclipse. Click <guibutton>Yes</guibutton> to restart now and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that changes do not take effect until Eclipse is restarted.
+					Once installing is complete, you are prompted to restart Eclipse. Click <guibutton>Yes</guibutton> to restart now and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that IDE changes do not take effect until Eclipse is restarted.
 				</para>
 			</step>
 		</procedure>
