@@ -5,7 +5,7 @@
 ]>
 <chapter id="chap-Resolving_Problems_following_Third_Party_Product_Upgrades">
 	<title>Resolving Problems following Third Party Product Upgrades</title>
-	<section id="Upgrade_Eclipse" remap="TID_13416">
+	<section id="Change_the_Version_of_Eclipse" remap="TID_13416">
 		<sectioninfo>
 			<keywordset>
 				<keyword>
@@ -15,7 +15,7 @@
 		</sectioninfo>
 		<title>Change the Version of Eclipse Being Used with JBoss Developer Studio BYOE</title>
 		<para>
-			JBoss&nbsp;Developer&nbsp;Studio 7 BYOE supports Eclipse Kepler only. If you upgrade the version of Eclipse you are using, you will not be able to use JBoss&nbsp;Developer&nbsp;Studio 7 BYOE.
+			JBoss&nbsp;Developer&nbsp;Studio 7.0 BYOE supports Eclipse Kepler only. If you upgrade the version of Eclipse you are using, you will not be able to use JBoss&nbsp;Developer&nbsp;Studio 7.0 BYOE.
 		</para>
 		<para>
 			Information about the supported versions of Eclipse for each JBoss&nbsp;Developer&nbsp;Studio BYOE release is provided in the table below. 
@@ -39,7 +39,7 @@
 				<tbody>
 					<row>
 						<entry>
-							JBoss&nbsp;Developer&nbsp;Studio 7
+							JBoss&nbsp;Developer&nbsp;Studio 7.0
 						</entry>
 						<entry>
 							Eclipse Kepler (4.3)
@@ -57,7 +57,7 @@
 			</tgroup>
 		</table>
 	</section>
-	<section id="Upgrade_or_Migrate_Java_Developer_Kit" remap="TID_13420">
+	<section id="Change_the_Path_of_the_JVM" remap="TID_13420">
 		<sectioninfo>
 			<keywordset>
 				<keyword>
@@ -65,28 +65,39 @@
 				</keyword>
 			</keywordset>
 		</sectioninfo>
-		<title>Change the Path of the JRE used to Run JBoss Developer Studio</title>
+		<title>Change the Path of the JVM used to Run JBoss Developer Studio</title>
 		<para>
-			JBoss&nbsp;Developer&nbsp;Studio stores the Java runtime environment (JRE) path selected during the installation process. Each subsequent time JBoss&nbsp;Developer&nbsp;Studio starts it uses the same JRE path to run.
+			JBoss&nbsp;Developer&nbsp;Studio stores the Java virtual machine (JVM) path of the Java developer kit selected during the installation process. Each subsequent time JBoss&nbsp;Developer&nbsp;Studio starts it uses the same JVM path to run.
 		</para>
 		<para>
-			You might need to change the JRE path because you move the JRE or because you want to use a new JRE. If you change the JRE path, JBoss&nbsp;Developer&nbsp;Studio will fail to start. To ensure JBoss&nbsp;Developer&nbsp;Studio starts after changing the JRE path, use the procedure below.
+			You might need to change the JVM path because you move the Java developer kit or because you want to use a different Java developer kit. If you change the JVM path, JBoss&nbsp;Developer&nbsp;Studio fails to start. To ensure JBoss&nbsp;Developer&nbsp;Studio starts after changing the JVM path, use the procedure below.
 		</para>
 		<procedure>
-			<title>Change the Path of the JRE used to Run JBoss&nbsp;Developer&nbsp;Studio</title>
+			<title>Change the Path of the JVM used to Run JBoss&nbsp;Developer&nbsp;Studio</title>
 			<step>
 				<para>
-					Open the <filename>JBDS_installation_directory/studio/jbdevstudio.ini</filename> file with a text editor.
+					Open the <filename>path/to/JBoss Developer Studio/studio/jbdevstudio.ini</filename> file with a text editor.
 				</para>
 			</step>
 			<step>
 				<para>
-					The line after <command>-vm</command> provides the path to the Java virtual machine (JVM) of the JRE. Change the section of the path that provides the JRE location to the new path of the JRE.
+					The line after <command>-vm</command> provides the path to the JVM of the Java developer kit. Change the path to give the new JVM location.
 				</para>
+				<figure>
+					<title><filename>jbdevstudio.ini</filename> File Open in a Text Editor</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/3388.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>Open the <filename>path/to/JBoss Developer Studio/studio/jbdevstudio.ini</filename> file with a text editor. The line after <command>-vm</command> provides the path to the JVM of the Java developer kit. Change the path to give the new JVM location.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>
 			</step>
 			<step>
 				<para>
-					Save the changes and close the <filename>jbdevstudio.ini</filename> file.
+					Save the <filename>jbdevstudio.ini</filename> file and close the text editor.
 				</para>
 			</step>
 		</procedure>
