@@ -8,6 +8,24 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.0.0-15</revnumber><date>Mon Aug 12 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-351: Added screen captures
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>7.0.0-14</revnumber><date>Wed Jul 24 2013</date>
 				<author>
 					<firstname>
