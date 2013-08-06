@@ -25,8 +25,34 @@
 		<para>JBoss Central is set by default to show when the IDE starts but you can customize this behavior.</para>
 		
 		<para>To change the behavior, in the <guilabel>JBoss Central</guilabel> tab select or clear the <guilabel>Show on Startup</guilabel> check box as appropriate.</para> 
+		<figure>
+			<title>Show on Startup Check Box</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/Central/Cen_startup.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>JBoss Central is set by default to show when the IDE starts but you can customize this behavior. To change the behavior, in the <guilabel>JBoss Central</guilabel> tab select or clear the <guilabel>Show on Startup</guilabel> check box as appropriate.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
 		
-		<para>Alternatively, in the <guilabel>JBoss Central</guilabel> tab click the <guibutton>Preferences</guibutton> icon or click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. In both cases, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Central</guilabel>. Select or clear the <guilabel>Show JBoss Central on Startup</guilabel> check box as appropriate. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</para>
+		<para>Alternatively, in the <guilabel>JBoss Central</guilabel> tab click the <guibutton>Preferences</guibutton> icon <inlinemediaobject>
+			<imageobject>
+				<imagedata fileref="images/Central/Cen_preficon.png"/>
+			</imageobject>
+		</inlinemediaobject> or click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. In both cases, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Central</guilabel>. Select or clear the <guilabel>Show JBoss Central on Startup</guilabel> check box as appropriate. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</para>
+		<figure>
+			<title>JBoss Central Pane in the Preferences Window</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/Central/Cen_prefstartup.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>In the <guilabel>JBoss Central</guilabel> tab click the <guibutton>Preferences</guibutton> icon or click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. In both cases, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Central</guilabel>. Select or clear the <guilabel>Show JBoss Central on Startup</guilabel> check box as appropriate. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>		
 		
 	</section>
 
@@ -37,12 +63,68 @@
 		<para>You can customize the menus and toolbars displayed by the JBoss perspective, as with any perspective.</para>
 		
 		<para>To customize the JBoss perspective, ensure it is the current perspective and click <guibutton>Window</guibutton>&rarr;<guimenu>Customize Perspective</guimenu>. In the <guilabel>Tool Bar Visibility</guilabel> tab, select or clear the check boxes corresponding to the individual toolbars and icons visible in the global toolbar of the JBoss perspective as appropriate. In the <guilabel>Menu Visibility</guilabel> tab, select or clear the check boxes corresponding to the menus and menu items visible in the JBoss perspective as appropriate. Disabled items in the <guilabel>Tool Bar Visibility</guilabel> or <guilabel>Menu Visibility</guilabel> tab can be activated in the <guilabel>Command Groups Availability</guilabel> tab. Click <guibutton>OK</guibutton> to close the window.</para>
-
+		<figure>
+			<title>Tool Bar Visibility Tab in Customize Perspective Window</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/Central/Cen_custtool.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To customize the JBoss perspective, ensure it is the current perspective and click <guibutton>Window</guibutton>&rarr;<guimenu>Customize Perspective</guimenu>. In the <guilabel>Tool Bar Visibility</guilabel> tab, select or clear the check boxes corresponding to the individual toolbars and icons visible in the global toolbar of the JBoss perspective as appropriate. Click <guibutton>OK</guibutton> to close the window.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
+		<figure>
+			<title>Menu Visibility Tab in Customize Perspective Window</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/Central/Cen_custmenu.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To customize the JBoss perspective, ensure it is the current perspective and click <guibutton>Window</guibutton>&rarr;<guimenu>Customize Perspective</guimenu>. In the <guilabel>Menu Visibility</guilabel> tab, select or clear the check boxes corresponding to the menus and menu items visible in the JBoss perspective as appropriate. Click <guibutton>OK</guibutton> to close the window.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
+		
 		<para>You can reorder the individual toolbars comprising the global toolbar in the JBoss perspective. To reorder, click the vertical line indicating the beginning of a toolbar and drag the toolbar to its new location in the global toolbar.</para>
+		<figure>
+			<title>Select and Drag a Toolbar to Reorder the Global Toolbar</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/Central/Cen_reorder.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>You can reorder the individual toolbars comprising the global toolbar in the JBoss perspective. To reorder, click the vertical line indicating the beginning of a toolbar and drag the toolbar to its new location in the global toolbar.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>	
 		
 		<para>Additionally, you can customize which tabs are part of the JBoss perspective. To customize the tabs, ensure the JBoss perspective is the current perspective. Open or close tabs as desired and click <guimenu>Window</guimenu>&rarr;<guimenu>Save Perspective As</guimenu>. From the <guilabel>Existing Perspectives</guilabel> list, select <guilabel>JBoss</guilabel> and click <guibutton>OK</guibutton>. At the prompt asking if you want to overwrite the existing JBoss perspective, click <guibutton>Yes</guibutton>.</para>
+		<figure>
+			<title>Save Perspective As Window</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/Central/Cen_savepersp.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>you can customize which tabs are part of the JBoss perspective. To customize the tabs, ensure the JBoss perspective is the current perspective. Open or close tabs as desired and click <guimenu>Window</guimenu>&rarr;<guimenu>Save Perspective As</guimenu>. From the <guilabel>Existing Perspectives</guilabel> list, select <guilabel>JBoss</guilabel> and click <guibutton>OK</guibutton>.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>	
+		
 		
 		<para>To revert all customization of the JBoss perspective,  ensure it is the current perspective and click <guimenu>Window</guimenu>&rarr;<guimenu>Reset Perspective</guimenu>. At the prompt asking if you want to reset the JBoss perspective to its saved state, select the <guilabel>Also discard perspective's customization</guilabel> check box and click <guibutton>Yes</guibutton>.</para>
+		<figure>
+			<title>Revert Perspective Window</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/Central/Cen_reset.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To revert all customization of the JBoss perspective,  ensure it is the current perspective and click <guimenu>Window</guimenu>&rarr;<guimenu>Reset Perspective</guimenu>. At the prompt asking if you want to reset the JBoss perspective to its saved state, select the <guilabel>Also discard perspective's customization</guilabel> check box and click <guibutton>Yes</guibutton>.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
 		
 	</section>
 
@@ -53,6 +135,18 @@
 		<para>You can specify the default action the IDE should take when finding cheat sheets in projects that it is importing. The available options include always or never showing cheat sheets or the IDE prompting for which action to take for each import.</para>
 		
 		<para>To customize the action, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>Project Examples</guilabel>. From the <guilabel>Show included cheat sheet(s) when importing a project</guilabel> list, click one of the options. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</para>
+		<figure>
+			<title>Set Cheat Sheet Behavior in Project Examples Pane of Preferences Window</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/Central/Cen_prefcheat.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To customize the action, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>Project Examples</guilabel>. From the <guilabel>Show included cheat sheet(s) when importing a project</guilabel> list, click one of the options. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>		
+		
 	</section>
 
 </section>
