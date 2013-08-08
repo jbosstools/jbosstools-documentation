@@ -88,7 +88,7 @@
             <imageResource>
               <directory>${project.basedir}/en-US</directory>
               <includes>
-                <include>images/*/*.png</include>
+                <include>images/**/*.png</include>
               </includes>
             </imageResource>
 

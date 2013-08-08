@@ -27,6 +27,19 @@
 		
 		<para>To enable automated searching on IDE start, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>. In the <guilabel>Paths</guilabel> table, select the <guilabel>Every start</guilabel> check box for all of the paths that you want to be automatically searched on IDE start. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</para>
 		
+		<figure>
+			<title>Every Start Check Box Selected for <phrase condition="jbds">EAP</phrase><phrase condition="jbt">JBossAS</phrase> Path</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata condition="jbds" fileref="images/ServerTools/JBDS/Serv_rdeverystart.png"/>
+					<imagedata condition="jbt" fileref="images/ServerTools/JBT/Serv_rdeverystart.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To enable automated searching on IDE start, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>. In the <guilabel>Paths</guilabel> table, select the <guilabel>Every start</guilabel> check box for all of the paths that you want to be automatically searched on IDE start. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>			
+		
 	</section>
 
 
@@ -35,7 +48,26 @@
 
 		<para>JBoss Server Tools enables you to select a default server on which to carry out actions such as <guimenu>Run on server</guimenu>. This is useful when you have multiple server instances but use one predominately.</para>
 
-		<para>To set a default server, in the global toolbar of the JBoss perspective click the <guibutton>Select a default server</guibutton> icon. From the list of servers, click the server that you want to set as the default.</para>
+		<para>To set a default server, in the global toolbar of the JBoss perspective click the <guibutton>Select a default server</guibutton> icon <inlinemediaobject>
+	<imageobject>
+		<imagedata condition="jbds" fileref="images/ServerTools/JBDS/Serv_defaulticon.png"/>
+		<imagedata condition="jbt" fileref="images/ServerTools/JBT/Serv_defaulticon.png"/>
+	</imageobject>
+</inlinemediaobject>. From the list of servers, click the server that you want to set as the default.</para>
+
+		<figure>
+			<title>Default Server Menu Option</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata condition="jbds" fileref="images/ServerTools/JBDS/Serv_setdefault.png"/>
+					<imagedata condition="jbt" fileref="images/ServerTools/JBT/Serv_setdefault.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To set a default server, in the global toolbar of the JBoss perspective click the <guibutton>Select a default server</guibutton> icon. From the list of servers, click the server that you want to set as the default.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
+		
 	</section>
 
 
@@ -46,7 +78,44 @@
 
 		<para>To customize the fileset for an individual server, in the <guilabel>Servers</guilabel> tab expand the server. Right-click <guilabel>Filesets</guilabel> and click <guimenu>Create File Filter</guimenu>. In the <guilabel>Name</guilabel> field, type a name for the filter. In the <guilabel>Root Directory</guilabel> field, type the path of the directory in which the filter should be applied or click <guibutton>Browse</guibutton> to navigate to the location. In the <guilabel>Includes</guilabel> and <guilabel>Excludes</guilabel> fields, type the regex patterns for filtering. Click <guibutton>OK</guibutton> to create the filter. The new filter is listed under the server in the <guilabel>Servers</guilabel> tab and expanding it shows all of the files matching the filter.</para>
 		
+		<figure>
+			<title>Create File Filter Menu Option</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata condition="jbds" fileref="images/ServerTools/JBDS/Serv_fileset1.png"/>
+					<imagedata condition="jbt" fileref="images/ServerTools/JBT/Serv_fileset1.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To customize the fileset for an individual server, in the <guilabel>Servers</guilabel> tab expand the server. Right-click <guilabel>Filesets</guilabel> and click <guimenu>Create File Filter</guimenu>.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>		
+		<figure>
+			<title>New File Filter Window</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata condition="jbds" fileref="images/ServerTools/JBDS/Serv_fileset2.png"/>
+					<imagedata condition="jbt" fileref="images/ServerTools/JBT/Serv_fileset2.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>In the <guilabel>Name</guilabel> field, type a name for the filter. In the <guilabel>Root Directory</guilabel> field, type the path of the directory in which the filter should be applied or click <guibutton>Browse</guibutton> to navigate to the location. In the <guilabel>Includes</guilabel> and <guilabel>Excludes</guilabel> fields, type the regex patterns for filtering. Click <guibutton>OK</guibutton> to create the filter.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
+				
 		<para>To customize the default fileset for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel> and select <guilabel>Default Filesets</guilabel>. From the list, select a <phrase condition="jbds">JBoss Enterprise Middleware application server</phrase><phrase condition="jbt">JBoss community application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the default filesets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</para>
+		<figure>
+			<title>Default Filesets Pane</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata condition="jbds" fileref="images/ServerTools/JBDS/Serv_fileset3.png"/>
+					<imagedata condition="jbt" fileref="images/ServerTools/JBT/Serv_fileset3.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To customize the default fileset for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel> and select <guilabel>Default Filesets</guilabel>. From the list, select a <phrase condition="jbds">JBoss Enterprise Middleware application server</phrase><phrase condition="jbt">JBoss community application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the default filesets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
 		
 	</section>
 
@@ -59,6 +128,19 @@
 		<!-- Add text later <para>To customize the classpath fileset for an individual server, <remark>HOW?</remark></para> -->
 		
 		<para>To customize the classpath fileset for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel>&rarr;<guilabel>Runtime Environments</guilabel> and select <guilabel>Default Classpath Entries</guilabel>. From the <guilabel>Select classpath filesets for this runtime type</guilabel> list, select a <phrase condition="jbds">JBoss Enterprise Middleware application server</phrase><phrase condition="jbt">JBoss community application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the classpath filesets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</para>
+
+		<figure>
+			<title>Default Classpath Entries Pane</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata condition="jbds" fileref="images/ServerTools/JBDS/Serv_classpath.png"/>
+					<imagedata condition="jbt" fileref="images/ServerTools/JBT/Serv_classpath.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To customize the classpath fileset for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel>&rarr;<guilabel>Runtime Environments</guilabel> and select <guilabel>Default Classpath Entries</guilabel>. From the <guilabel>Select classpath filesets for this runtime type</guilabel> list, select a <phrase condition="jbds">JBoss Enterprise Middleware application server</phrase><phrase condition="jbt">JBoss community application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the classpath filesets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
 	
 	</section>
 
