@@ -27,11 +27,47 @@
 
 		<procedure>
 			<title>Download a JBoss Community Application Server</title>
-			<step><para>Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>.</para></step>
+			<step><para>Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>.</para>
+				<figure>
+					<title>JBoss Runtime Detection Pane</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/ServerTools/JBT/Serv_download.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>			
+			</step>
 			<step><para>Click <guibutton>Download</guibutton>.</para></step>
-			<step><para>From the table, select an application server and click <guibutton>Next</guibutton>.</para></step>
+			<step><para>From the table, select an application server and click <guibutton>Next</guibutton>.</para>
+				<figure>
+					<title>Application Server Options in Download Runtimes Wizard</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/ServerTools/JBT/Serv_dlselect.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>From the table, select an application server and click <guibutton>Next</guibutton>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>			
+			</step>
 			<step><para>After reading and agreeing to the terms of the license, click <guilabel>I accept the terms of this license agreement</guilabel> and click <guibutton>Next</guibutton>.</para></step>
-			<step><para>In the <guilabel>Install folder</guilabel> field, type the path in which the downloaded application server should be installed or click <guibutton>Browse</guibutton> to navigate to the location.</para></step>
+			<step><para>In the <guilabel>Install folder</guilabel> field, type the path in which the downloaded application server should be installed or click <guibutton>Browse</guibutton> to navigate to the location.</para>
+				<figure>
+					<title>Location Options in Download Runtimes Wizard</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/ServerTools/JBT/Serv_dllocation.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In the <guilabel>Install folder</guilabel> field, type the path in which the downloaded application server should be installed or click <guibutton>Browse</guibutton> to navigate to the location. In the <guilabel>Download folder</guilabel> field, type the path to which the application server should be downloaded or click <guibutton>Browse</guibutton> to navigate to the location. To automatically remove the downloaded archive after installing, select the <guilabel>Delete archive after installing</guilabel> check box.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>		
+			</step>
 			<step><para>In the <guilabel>Download folder</guilabel> field, type the path to which the application server should be downloaded or click <guibutton>Browse</guibutton> to navigate to the location.</para></step>
 			<step><para>To automatically remove the downloaded archive after installing, select the <guilabel>Delete archive after installing</guilabel> check box.</para></step>
 			<step><para>Click <guibutton>Finish</guibutton> to commence downloading and installing. The IDE progress bar and <guilabel>Download</guilabel> window show the progress of the download process. You can click <guibutton>Run in Background</guibutton> to close the download window and continue the download process.</para></step>
