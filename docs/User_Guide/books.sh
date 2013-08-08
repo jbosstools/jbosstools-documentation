@@ -50,6 +50,7 @@ function makepub {
 	rm -rf User_Guide/en-US/Common_Content
 	rm -rf User_Guide/en-US/Book_info.xml
 	rm -rf User_Guide/en-US/Author_Group.xml
+	rm -rf User_Guide/en-US/images/ServerTools/JBT
 	cp pub/publican.cfg User_Guide/.
 	cp pub/Author_Group.xml User_Guide/en-US/.
 	cp pub/Book_Info.xml User_Guide/en-US/.	
@@ -117,6 +118,26 @@ function gitclean {
 }
 
 
+function puball {
+	
+	gitclean
+	
+	makepub
+	
+	#build publican version
+	echo '[INFO] Building publican version'
+	cd User_Guide
+	publican build
+	google-chrome tmp/en-US/html-single/index.html
+	cd ..
+	
+	#give feeback
+	echo '[INFO] ------------------------------------------------------------------------'
+	echo '[INFO] Cleaning, making and building the publican book has FINISHED'
+	echo '[INFO] ------------------------------------------------------------------------'	
+		
+}
+
 
 #############################################################
 #Main function
@@ -134,6 +155,9 @@ then
 elif [ $1 = "gitclean" ]
 then
 	gitclean
+elif [ $1 = "puball" ]
+then
+	puball	
 else
-	echo '[INFO] Invalid command, choose from: makepub, build, gitclean'
+	echo '[INFO] Invalid command, choose from: makepub, build, gitclean, puball'
 fi
