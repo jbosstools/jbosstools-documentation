@@ -22,6 +22,17 @@
 		<title>Customize the Forge Start</title>
 	
 		<para>Forge Tools provides a number of customization options for starting Forge.</para>
+		<figure>
+			<title>Forge Pane in Preferences Window</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/ForgeTools/FT_pref1.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To open the the Forge Pane, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu> and select <guilabel>Forge</guilabel>.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>		
 	
 		<variablelist>
 			<title></title>
@@ -50,6 +61,17 @@
 		<para>Forge Tools is distributed with a Forge runtime server but you may want to use different versions of Forge runtime servers. Forge Tools provides the ability to manage the Forge runtime servers that are available in the IDE, as detailed below.</para>
 		
 		<para>To manage the available Forge runtime servers, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>Forge</guilabel> and select <guilabel>Installed Forge Runtimes</guilabel>.
+		<figure>
+			<title>Installed Forge Runtimes Pane in Preferences Window</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/ForgeTools/FT_pref2.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To manage the available Forge runtime servers, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>Forge</guilabel> and select <guilabel>Installed Forge Runtimes</guilabel>.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>		
 			<itemizedlist>
 				<listitem><para>To add a Forge runtime server, click <guibutton>Add</guibutton>. In the <guilabel>Name</guilabel> field, type a name to distinguish the Forge runtime server in the IDE. In the <guilabel>Location</guilabel> field, type the location of the runtime server or click <guibutton>Browse</guibutton> to navigate to the location. Click <guibutton>OK</guibutton> to close the window.</para></listitem>
 				<listitem><para>To change the name or the location of a Forge runtime server, from the <guilabel>Installed Forge Runtimes</guilabel> list select a runtime and click <guibutton>Edit</guibutton>. Modify the <guilabel>Name</guilabel> and <guilabel>Location</guilabel> fields as appropriate. Click <guibutton>OK</guibutton> to close the window.</para></listitem>
