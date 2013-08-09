@@ -27,6 +27,17 @@
 		<title>Manage the Forge Console</title>
 	
 		<para>A key element for working with Forge is the Forge command line. In order to view this, you need to open the <guilabel>Forge Console</guilabel> tab.</para>
+		<figure>
+			<title>Stopped Console in Forge Tab</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/ForgeTools/FT_stopped.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To open the <guilabel>Forge Console</guilabel> tab, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>. Expand <guilabel>Forge</guilabel>, select <guilabel>Forge Console</guilabel> and click <guibutton>OK</guibutton>. Alternatively, press <keycap>Ctrl+4</keycap>, at which you are prompted whether you also want to start Forge. Irrespective of your response to starting Forge, the <guilabel>Forge Console</guilabel> tab opens.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>		
 
 		<para>To open the <guilabel>Forge Console</guilabel> tab, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>. Expand <guilabel>Forge</guilabel>, select <guilabel>Forge Console</guilabel> and click <guibutton>OK</guibutton>. Alternatively, press <keycap>Ctrl+4</keycap>, at which you are prompted whether you also want to start Forge. Irrespective of your response to starting Forge, the <guilabel>Forge Console</guilabel> tab opens.</para>
 
@@ -42,16 +53,51 @@
 			<title></title>
 			<varlistentry>
 				<term>Start Forge</term>
-				<listitem><para>In the <guilabel>Forge Console</guilabel> tab, click the <guibutton>Start the default Forge runtime</guibutton> icon. Alternatively, press <keycap>Ctrl+4</keycap> and at the prompt asking if you want to start Forge, click <guibutton>Yes</guibutton>. A progress bar in the IDE window and text in the <guilabel>Forge Console</guilabel> tab indicate the starting status of the Forge runtime server.</para></listitem>
+				<listitem><para>In the <guilabel>Forge Console</guilabel> tab, click the <guibutton>Start the default Forge runtime</guibutton> icon <inlinemediaobject>
+	<imageobject>
+		<imagedata fileref="images/ForgeTools/FT_starticon.png"/>
+	</imageobject>
+</inlinemediaobject>. Alternatively, press <keycap>Ctrl+4</keycap> and at the prompt asking if you want to start Forge, click <guibutton>Yes</guibutton>. A progress bar in the IDE window and text in the <guilabel>Forge Console</guilabel> tab indicate the starting status of the Forge runtime server.</para>
+					<figure>
+						<title>Started Console in Forge Tab</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/ForgeTools/FT_started.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>In the <guilabel>Forge Console</guilabel> tab, click the <guibutton>Start the default Forge runtime</guibutton> icon. Alternatively, press <keycap>Ctrl+4</keycap> and at the prompt asking if you want to start Forge, click <guibutton>Yes</guibutton>.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</listitem>
 			</varlistentry>
 			<varlistentry>
 				<term>Run Forge in the background</term>
-				<listitem><para>With a running instance of Forge, in the <guilabel>Forge Console</guilabel> tab click the <guibutton>Close tab</guibutton> icon. Despite the <guilabel>Forge Console</guilabel> tab not being open, Forge will continue to run in the background. Reopen the <guilabel>Forge Console</guilabel> tab to access the same Forge command line, identifiable by the existing command line output.</para></listitem>
+				<listitem><para>With a running instance of Forge, in the <guilabel>Forge Console</guilabel> tab click the <guibutton>Close tab</guibutton> icon <inlinemediaobject>
+	<imageobject>
+		<imagedata fileref="images/ForgeTools/FT_closeicon.png"/>
+	</imageobject>
+</inlinemediaobject>. Despite the <guilabel>Forge Console</guilabel> tab not being open, Forge will continue to run in the background. Reopen the <guilabel>Forge Console</guilabel> tab to access the same Forge command line, identifiable by the existing command line output.</para></listitem>
 			</varlistentry>			
 			<varlistentry>
 				<term>Stop Forge</term>
 				<listitem>
-					<para>In the <guilabel>Forge Console</guilabel> tab, click the <guibutton>Stop the running Forge runtime</guibutton> icon. Alternatively, on the Forge command line, enter <command>exit</command>.</para>
+					<para>In the <guilabel>Forge Console</guilabel> tab, click the <guibutton>Stop the running Forge runtime</guibutton> icon <inlinemediaobject>
+	<imageobject>
+		<imagedata fileref="images/ForgeTools/FT_stopicon.png"/>
+	</imageobject>
+</inlinemediaobject>. Alternatively, on the Forge command line, enter <command>exit</command>.</para>
+					<figure>
+						<title><command>exit</command> Command in Forge Console</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/ForgeTools/FT_exit.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>To stop the Forge, on the Forge command line enter <command>exit</command>.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
 				</listitem>
 			</varlistentry>
 		</variablelist>
@@ -64,9 +110,37 @@
 
 		<para>Forge Tools enables you to efficiently navigate to project resources, such as directories and files, on the Forge command line.</para>
 
-		<para>To navigate to a project resource on the Forge command line, in the <guilabel>Project Explorer</guilabel> tab right-click any project resource and click <guimenu>Show In</guimenu>&rarr;<guimenu>Forge Console</guimenu>. If the Forge runtime server is not started, you are prompted to start it. At the prompt, click <guibutton>OK</guibutton>. Alternatively, in the <guilabel>Project Explorer</guilabel> tab, select a project resource and click the <guibutton>Go to Selection</guibutton> icon in the <guilabel>Forge Console</guilabel> tab.</para>
+		<para>To navigate to a project resource on the Forge command line, in the <guilabel>Project Explorer</guilabel> tab right-click any project resource and click <guimenu>Show In</guimenu>&rarr;<guimenu>Forge Console</guimenu>. If the Forge runtime server is not started, you are prompted to start it. At the prompt, click <guibutton>OK</guibutton>.</para> 	
+		<figure>
+			<title><guimenu>Show In</guimenu>&rarr;<guimenu>Forge Console</guimenu> Menu Option</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/ForgeTools/FT_showin.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To navigate to a project resource on the Forge command line, in the <guilabel>Project Explorer</guilabel> tab right-click any project resource and click <guimenu>Show In</guimenu>&rarr;<guimenu>Forge Console</guimenu>.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>		
+
+		<para>Alternatively, in the <guilabel>Project Explorer</guilabel> tab, select a project resource and click the <guibutton>Go to Selection</guibutton> icon <inlinemediaobject>
+	<imageobject>
+		<imagedata fileref="images/ForgeTools/FT_gotoicon.png"/>
+	</imageobject>
+</inlinemediaobject> in the <guilabel>Forge Console</guilabel> tab.</para>
 		
 		<para>Both of these actions result in the Forge command line automatically executing the <command>pick-up</command> command for the project resource. Following this, the command line navigates to the project resource, the command prompt indicates the selected resource, and the resource opens in an editor if it is a file.</para>
+		<figure>
+			<title><command>pick-up</command> Command Executed in Forge Console</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/ForgeTools/FT_pickup.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>The Forge command line automatically executing the <command>pick-up</command> command for the project resource.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
 				
 	</section>
 
@@ -121,6 +195,17 @@
 		<para>Forge Tools provides access to a readily available list of Forge commands. Additionally, the commands can be easily inserted in to the Forge command line, as detailed below.</para>
 		
 		<para>To view the list of Forge commands, with a running instance of Forge, press <keycap>Ctrl+4</keycap>. To insert one of the commands in to the Forge command line, in the pop-up window expand the command groups and double-click a command.</para>
+		<figure>
+			<title>Forge Commands Window</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/ForgeTools/FT_commands.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To view the list of Forge commands, with a running instance of Forge, press <keycap>Ctrl+4</keycap>. To insert one of the commands in to the Forge command line, in the pop-up window expand the command groups and double-click a command.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
 		
 	</section>
 	
@@ -146,7 +231,17 @@
 		</variablelist>	
 		
 		<para>To open a Forge Tools wizard, click <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu>&rarr;<guimenu>Other</guimenu> and expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Forge</guilabel>. Select one of the listed wizards, click <guibutton>Next</guibutton> and follow the instructions. If Forge is not already started, this automatically occurs.</para>
-		
+		<figure>
+			<title>Forge Wizards Listed in New Window</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/ForgeTools/FT_wizards.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To open a Forge Tools wizard, click <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu>&rarr;<guimenu>Other</guimenu> and expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Forge</guilabel>. Select one of the listed wizards, click <guibutton>Next</guibutton> and follow the instructions.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>		
 
 					
 	</section>
