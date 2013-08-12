@@ -6,6 +6,20 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>6.0.1-1</revnumber>
+				<date>Mon Aug 12 2013</date>
+				<author>
+					<firstname>Michelle</firstname>
+					<surname>Murray</surname>
+					<email>mmurray@redhat.com</email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>TOOLSDOC-382: Rebuilt for Customre Portal, content unchanged</member>
+					</simplelist>
+				</revdescription>
+			</revision>			
+			<revision>
 				<revnumber>1-0</revnumber>
 				<date>Tue Apr 17 2012</date>
 				<author>
