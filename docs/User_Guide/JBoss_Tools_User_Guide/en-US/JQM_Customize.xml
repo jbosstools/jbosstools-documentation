@@ -22,8 +22,20 @@
 
 		<para>The <guilabel>HTML5 jQuery Mobile Page</guilabel> template for new HTML files is provided by Mobile Tools. You can customize this template and add more jQuery Mobile templates to the IDE.</para>
 	
-		<para>To customize the jQuery Mobile templates available in the IDE, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Web</guilabel>&rarr;<guilabel>HTML Files</guilabel>&rarr;<guilabel>Editor</guilabel> and select <guilabel>Templates</guilabel>. There are a number of available actions:</para>
-
+		<para>To customize the jQuery Mobile templates available in the IDE, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Web</guilabel>&rarr;<guilabel>HTML Files</guilabel>&rarr;<guilabel>Editor</guilabel> and select <guilabel>Templates</guilabel>.</para>
+		<figure>
+			<title>Templates Pane within Preferences Window</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/JQueryMobile/JQM_pref.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To customize the jQuery Mobile templates available in the IDE, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Web</guilabel>&rarr;<guilabel>HTML Files</guilabel>&rarr;<guilabel>Editor</guilabel> and select <guilabel>Templates</guilabel>.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>		 
+		
+		<para>There are a number of available actions:</para>
 		<variablelist>
 			<title></title>
 			<varlistentry>

@@ -37,12 +37,36 @@
 		
 		<procedure>
 			<title>Create a HTML5 Project with the HTML5 Project Wizard</title>
-			<step><para>In the <guilabel>JBoss Central</guilabel> tab under <guilabel>Start from scratch</guilabel>, click <guilabel>HTML5 Project</guilabel>.</para></step>
+			<step><para>In the <guilabel>JBoss Central</guilabel> tab under <guilabel>Start from scratch</guilabel>, click <guilabel>HTML5 Project</guilabel>.</para>
+				<figure>
+					<title>HTML5 Project Wizard in JBoss Central</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/JQueryMobile/JQM_scratch.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In the <guilabel>JBoss Central</guilabel> tab under <guilabel>Start from scratch</guilabel>, click <guilabel>HTML5 Project</guilabel>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>			
+			</step>
 			<step><para>From the <guilabel>Target Runtime</guilabel> list, select an existing <phrase condition="jbds">Red Hat JBoss Enterprise Application Platform 6</phrase><phrase condition="jbt">JBoss Application Server 7.1</phrase> server runtime environment or select <guilabel>&lt;none&gt;</guilabel>. When <guilabel>&lt;none&gt;</guilabel> is selected, a non-enterprise server runtime environment is assumed.</para>
 				<important condition="jbds"><para>The Web Framework Kit Maven Repository must be installed on your system when building and deploying the application with Red Hat JBoss Enterprise Application Platform. This repository is available to download from the Red Hat Customer Portal.</para></important>
 			</step>
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
-			<step><para>In the <guilabel>Project name</guilabel> field, type a name for the project.</para></step>
+			<step><para>In the <guilabel>Project name</guilabel> field, type a name for the project.</para>
+				<figure>
+					<title>HTML5 Project Wizard</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/JQueryMobile/JQM_newproj2.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In the <guilabel>Project name</guilabel> field, type a name for the project. In the <guilabel>Package</guilabel> field, type a package name for the project resources.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>			
+			</step>
 			<step><para>In the <guilabel>Package</guilabel> field, type a package name for the project resources.</para></step>
 			<step><para>To create the project in a different location to the Workspace default, clear the <guilabel>Use default Workspace location</guilabel> and type the path in the field or click <guibutton>Browse</guibutton> to navigate to the location.</para></step>
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
@@ -52,9 +76,33 @@
 
 		<procedure>
 			<title>Create a HTML5 Project with the kitchensink-html5-mobile Wizard</title>
-			<step><para>In the <guilabel>JBoss Central</guilabel> tab under <guilabel>Start from a sample</guilabel>, hover the mouse over <guilabel>Mobile Applications</guilabel> and click <guilabel>kitchensink-html5-mobile</guilabel>.</para></step>
+			<step><para>In the <guilabel>JBoss Central</guilabel> tab under <guilabel>Start from a sample</guilabel>, hover the mouse over <guilabel>Mobile Applications</guilabel> and click <guilabel>kitchensink-html5-mobile</guilabel>.</para>
+				<figure>
+					<title>kitchensink-html5-mobile Wizard in JBoss Central</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/JQueryMobile/JQM_sample.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In the <guilabel>JBoss Central</guilabel> tab under <guilabel>Start from a sample</guilabel>, hover the mouse over <guilabel>Mobile Applications</guilabel> and click <guilabel>kitchensink-html5-mobile</guilabel>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>				
+			</step>
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
-			<step><para>To create the project in a different location to the Workspace default, clear the <guilabel>Use default Workspace location</guilabel> and type the path in the field or click <guibutton>Browse</guibutton> to navigate to the location.</para></step>			
+			<step><para>To create the project in a different location to the Workspace default, clear the <guilabel>Use default Workspace location</guilabel> and type the path in the field or click <guibutton>Browse</guibutton> to navigate to the location.</para>
+		<figure>
+			<title>kitchensink-html5-mobile Wizard</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/JQueryMobile/JQM_kitchen2.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To create the project in a different location to the Workspace default, clear the <guilabel>Use default Workspace location</guilabel> and type the path in the field or click <guibutton>Browse</guibutton> to navigate to the location.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>			
+			</step>			
 			<step><para>Click <guibutton>Finish</guibutton>.</para></step>
 			<step><para>During project creation, the wizard imports project dependencies. When the <application>kitchensink-html5-mobile</application> wizard displays <guilabel>'kitchensink-html5-mobile' Project is now ready</guilabel>, click <guibutton>Finish</guibutton> to close the wizard. A <filename>README.md</filename> file for the project automatically opens for viewing.</para></step>			
 		</procedure>
@@ -65,15 +113,39 @@
 	<section>
 		<title>Use a HTML5 jQuery Mobile File Template</title>
 		
-		<para>Mobile Web Tools provides a HTML5 jQuery Mobile file template to assist in creating mobile web applications. The template inserts the necessary JavaScript and CSS library references into the HTML header and includes skeleton jQuery Mobile page and listview widgets in the HTML body. The procedure below details how to insert the template into your project.</para>
+		<para>Mobile Web Tools provides a HTML5 jQuery Mobile file template to assist in creating mobile web applications. The template inserts the necessary JavaScript and CSS library references into the HTML header and includes skeleton jQuery Mobile page and listview widgets in the HTML body. The procedure below details how to insert the template into your project.</para>			
 
 		<procedure>
 			<title>Use a HTML5 jQuery Mobile File Template</title>
 			<step><para>In the <guilabel>Project Explorer</guilabel> tab, right-click a project and click <guimenu>New</guimenu>&rarr;<guimenu>HTML File</guimenu>.</para></step>
-			<step><para>In the <guilabel>Enter or select the parent folder</guilabel> field, type a project path or expand the project folder tree and select the parent folder for the new file.</para></step>
+			<step><para>In the <guilabel>Enter or select the parent folder</guilabel> field, type a project path or expand the project folder tree and select the parent folder for the new file.</para>
+				<figure>
+					<title>New HTML File Wizard</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/JQueryMobile/JQM_newhtml2.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In the <guilabel>Enter or select the parent folder</guilabel> field, type a project path or expand the project folder tree and select the parent folder for the new file. In the <guilabel>File name</guilabel> field, type the name for the new file. It is not essential to include the file extension in the name as this is automatically appended if it is found to be missing.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>				
+			</step>
 			<step><para>In the <guilabel>File name</guilabel> field, type the name for the new file. It is not essential to include the file extension in the name as this is automatically appended if it is found to be missing.</para></step>
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
-			<step><para>Ensure the <guilabel>Use HTML Template</guilabel> check box is selected.</para></step>
+			<step><para>Ensure the <guilabel>Use HTML Template</guilabel> check box is selected.</para>
+				<figure>
+					<title>HTML5 jQuery Mobile Page Template for New HTML Files</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/JQueryMobile/JQM_htmltemp.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>Ensure the <guilabel>Use HTML Template</guilabel> check box is selected. From the <guilabel>Templates</guilabel> table, select <guilabel>HTML5 jQuery Mobile Page</guilabel>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>			
+			</step>
 			<step><para>From the <guilabel>Templates</guilabel> table, select <guilabel>HTML5 jQuery Mobile Page</guilabel>.</para></step>
 			<step><para>Click <guibutton>Finish</guibutton>. The new HTML5 file is listed in the <guilabel>Project Explorer</guilabel> tab and automatically opened in the JBoss Tools HTML Editor.</para></step>
 		</procedure>
@@ -85,6 +157,17 @@
 		<title>Access the jQuery Mobile Palette</title>
 	
 		<para>Mobile Web Tools offers a jQuery Mobile palette, with wizards for adding jQuery Mobile and HTML5 widgets to your project. It is available for use with HTML5 files in the JBoss Tools HTML Editor. The jQuery Mobile palette is available in the <guilabel>Palette</guilabel> tab, which is part of the JBoss perspective.</para> 
+		<figure>
+			<title>jQuery Mobile Palette in the Palette Tab</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/JQueryMobile/JQM_palette.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>The jQuery Mobile palette is available in the <guilabel>Palette</guilabel> tab, which is part of the JBoss perspective.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>		
 
 		<para>The jQuery Mobile palette is automatically displayed in the <guilabel>Palette</guilabel> tab when a HTML5 file is opened in the JBoss Tools HTML Editor. To open a file in this editor, in the <guilabel>Project Explorer</guilabel> tab right-click a HTML5 file and click <guimenu>Open With</guimenu>&rarr;<guilabel>JBoss Tools HTML Editor</guilabel>. Alternatively, if <guilabel>JBoss Tools HTML Editor</guilabel> is the default option for <guilabel>Open With</guilabel>, double-click the HTML5 file to open it in the editor. The file opens in the editor and the Mobile Web palette is displayed in the <guilabel>Palette</guilabel> tab.</para>
 
@@ -102,6 +185,17 @@
 		<para>The jQuery Mobile palette contains wizards for the HTML5 and jQuery Mobile user interface widgets commonly used in mobile web applications. The widgets are grouped in the palette by functionality, with tooltips providing widget descriptions.</para>
 
 		<para>To insert a palette widget into a file open in the <guilabel>JBoss Tools HTML Editor</guilabel>, drag the widget icon to the appropriate place in the file. Alternatively, ensure the text cursor is located at the desired insertion point in the file and click the widget icon. For widgets with no attributes that can be customized, such as <guilabel>JS/CSS</guilabel> and <guilabel>Field Container</guilabel>, the code snippets are immediately inserted into the file. For widgets with attributes that can be customized, a widget wizard opens allowing you to input attribute information. Once complete, click <guibutton>Finish</guibutton> and the code snippet is inserted into the file.</para>
+		<figure>
+			<title>Page Widget Wizard</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/JQueryMobile/JQM_newpage.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>For widgets with attributes that can be customized, a widget wizard opens allowing you to input attribute information. Once complete, click <guibutton>Finish</guibutton> and the code snippet is inserted into the file.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>			
 		
 		<para>The widget wizards have three common aspects:</para>
 		<variablelist>
@@ -129,9 +223,31 @@
 		<para>Mobile Web Tools offers code assist to help you when working with jQuery Mobile. Code assist lists available options for attributes and attribute values. Code assist is available for use in files and in the <guilabel>URL (href)</guilabel> field of widget wizards.</para>
 		
 		<para>To view code assist in a file, ensure the text cursor is located at the desired insertion point in the file and press <keycap>Ctrl+Space</keycap>. Repeatedly press <keycap>Ctrl+Space</keycap> to cycle through HTML and JSF EL completion options. To view more information about a listed item, select the item. To insert a listed item into the code, double-click the item.</para>
+		<figure>
+			<title>Code Assist for File Contents</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/JQueryMobile/JQM_assist1.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To view code assist in a file, ensure the text cursor is located at the desired insertion point in the file and press <keycap>Ctrl+Space</keycap>. Repeatedly press <keycap>Ctrl+Space</keycap> to cycle through HTML and JSF EL completion options. To view more information about a listed item, select the item. To insert a listed item into the code, double-click the item.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>		
 		
 		<para>To view code assist in a widget wizard, ensure the text cursor is located in the <guilabel>URL (href)</guilabel> field and press <keycap>Ctrl+Space</keycap>. To view more information about a listed item, select the item. To insert a listed item into the code, double-click the item.</para>
-
+		<figure>
+			<title>Code Assist for Widget Wizards</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/JQueryMobile/JQM_assist2.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To view code assist in a widget wizard, ensure the text cursor is located in the <guilabel>URL (href)</guilabel> field and press <keycap>Ctrl+Space</keycap>. To view more information about a listed item, select the item. To insert a listed item into the code, double-click the item.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
+		
 	</section>
 
 
@@ -145,6 +261,17 @@
 			<listitem><para><guimenu>Open With Browser</guimenu>, which shows the page in the default browser of the IDE</para></listitem>
 			<listitem><para><guimenu>Open With BrowserSim</guimenu>, which shows the page in BrowserSim</para></listitem>
 		</itemizedlist>
+		<figure>
+			<title>Open With Menu Option</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/JQueryMobile/JQM_openwith.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To open a jQuery Mobile page from a file open in the <guilabel>JBoss Tools HTML Editor</guilabel>, press <keycap>Ctrl</keycap> and move the mouse over the <command>&lt;div&gt;</command> tag corresponding to the page widget. Continue to press <keycap>Ctrl</keycap> and from the menu select one of the options.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
 			
 	</section>
 
