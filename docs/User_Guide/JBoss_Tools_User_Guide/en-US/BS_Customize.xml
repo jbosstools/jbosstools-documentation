@@ -39,8 +39,24 @@
 			<step><para>Ensure you are using the perspective in which you would like to add the BrowserSim toolbar. If you need to change the perspective, click <guimenu>Window</guimenu>&rarr;<guimenu>Open Perspective</guimenu>&rarr;<guimenu>Other</guimenu> and search for the appropriate perspective.</para></step>
 			<step><para>Click <guimenu>Window</guimenu>&rarr;<guimenu>Customize Perspective</guimenu>.</para></step>
 			<step><para>On the <guilabel>Command Groups Availability</guilabel> tab, select the <guilabel>BrowserSim</guilabel> check box to add this command group to the current perspective.</para></step>
-			<step><para>On the <guilabel>Tool Bar Visibility</guilabel> tab, ensure the <guilabel>BrowserSim</guilabel> check box is selected as this makes the BrowserSim toolbar visible.</para></step>
-			<step><para>Click <guibutton>OK</guibutton> to close the window. The <guibutton>Run BrowserSim</guibutton> icon is now visible in the global toolbar of the perspective.</para></step>
+			<step><para>On the <guilabel>Tool Bar Visibility</guilabel> tab, ensure the <guilabel>BrowserSim</guilabel> check box is selected as this makes the BrowserSim toolbar visible.</para>
+				<figure>
+					<title><guilabel>BrowserSim</guilabel> Check Box Selected in <guilabel>Tool Bar Visibility</guilabel> tab of <guimenu>Customize Perspective</guimenu> Window</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/BrowserSim/BS_addicon.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>On the <guilabel>Tool Bar Visibility</guilabel> tab, ensure the <guilabel>BrowserSim</guilabel> check box is selected as this makes the BrowserSim toolbar visible</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>					
+			</step>
+			<step><para>Click <guibutton>OK</guibutton> to close the window. The <guibutton>Run BrowserSim</guibutton> icon <inlinemediaobject>
+	<imageobject>
+		<imagedata fileref="images/BrowserSim/BS_bsicon.png"/>
+	</imageobject>
+</inlinemediaobject> is now visible in the global toolbar of the perspective.</para></step>
 		</procedure>
 		
 	</section>
@@ -57,7 +73,19 @@
 			<step><para>To find the Run BrowserSim action, in the <guilabel>type filter text</guilabel> field enter <command>BrowserSim</command>.</para></step>
 			<step><para>In the table, select <guilabel>Run BrowserSim</guilabel>.</para></step>
 			<step><para>In the <guilabel>Binding</guilabel> field, type the key combination you want to use as a shortcut. Check the <guilabel>Conflicts</guilabel> table to ensure the key binding you have chosen does not conflict with existing shortcuts.</para></step>
-			<step><para>Once a unique key binding is selected, click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</para></step>
+			<step><para>Once a unique key binding is selected, click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</para>
+				<figure>
+					<title>Keys Pane in Preferences Window</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/BrowserSim/BS_keybind.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>Once a unique key binding is selected, click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>				
+			</step>
 		</procedure>
 			
 	</section>
@@ -71,7 +99,19 @@
 		<procedure>
 			<title>Add Devices to BrowserSim</title>
 			<step><para>Right-click the simulated device and click <guimenu>Preferences</guimenu>.</para></step>
-			<step><para>In the <guilabel>Devices</guilabel> section of the <guilabel>Devices</guilabel> tab, click <guibutton>Add</guibutton>.</para></step>
+			<step><para>In the <guilabel>Devices</guilabel> section of the <guilabel>Devices</guilabel> tab, click <guibutton>Add</guibutton>.</para>
+				<figure>
+					<title>Add Device Window</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/BrowserSim/BS_adddevice.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In the <guilabel>Devices</guilabel> section of the <guilabel>Devices</guilabel> tab, click <guibutton>Add</guibutton>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>			
+			</step>
 			<step><para>In the <guilabel>Name</guilabel> field, type the name you want to give the device.</para></step>
 			<step><para>In the <guilabel>Width</guilabel> and <guilabel>Height</guilabel> fields, type the dimensions of the device window in pixels.</para></step>
 			<step><para>In the <guilabel>Pixel Ratio</guilabel> field, type a value for the ratio of CSS pixels to device pixels.</para></step>
@@ -94,6 +134,19 @@
 		<para>By default, when a device window is too large to fit the display of the system, you are prompted about which action should be taken. Rather than prompting, the default behavior can be set to always truncate or never truncate.</para>
 		
 		<para>To change the default behavior, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Truncate the device window when it does not fit display</guilabel> section of the <guilabel>Devices</guilabel> tab, click <guilabel>Always truncate</guilabel> or <guilabel>Never truncate</guilabel> to change the behavior as appropriate and click <guibutton>OK</guibutton> to close the window.</para>
+		
+		<figure>
+			<title>Truncate Preferences</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/BrowserSim/BS_preffit.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To change the default behavior, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Truncate the device window when it does not fit display</guilabel> section of the <guilabel>Devices</guilabel> tab, click <guilabel>Always truncate</guilabel> or <guilabel>Never truncate</guilabel> to change the behavior as appropriate and click <guibutton>OK</guibutton> to close the window.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
+						
 	</section>
 
 
@@ -103,6 +156,18 @@
 		<para>The <guimenu>Save</guimenu> option for screen captures saves graphics files to a set location. The default location can be changed.</para>
 		
 		<para>To change the default location, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Screenshots</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Location</guilabel> field type the location where you want graphics files to be saved or click <guibutton>Browse</guibutton> to navigate to the desired location. Click <guibutton>OK</guibutton> to close the window.</para>
+
+		<figure>
+			<title>Screen Capture Preferences</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/BrowserSim/BS_prefss.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To change the default location, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Screenshots</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Location</guilabel> field type the location where you want graphics files to be saved or click <guibutton>Browse</guibutton> to navigate to the desired location. Click <guibutton>OK</guibutton> to close the window.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
 		
 	</section>
 
@@ -113,6 +178,18 @@
 		<para>By default, the <guimenu>Weinre</guimenu> option for viewing the source of a web page uses the Weiner server provided by PhoneGap. If you have a different Weiner server available, the default Weinre settings can be changed.</para>
 		
 		<para>To change the default settings for Weinre, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Weinre</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Script URL</guilabel> field type the address of the <filename>.js</filename> file provided by the Weinre server and in the <guilabel>Client URL</guilabel> field type the address of the web page showing the Weinre Inspector interface. Click <guibutton>OK</guibutton> to close the window.</para>
+
+		<figure>
+			<title>Weinre Preferences</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/BrowserSim/BS_prefweinre.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To change the default settings for Weinre, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Weinre</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Script URL</guilabel> field type the address of the <filename>.js</filename> file provided by the Weinre server and in the <guilabel>Client URL</guilabel> field type the address of the web page showing the Weinre Inspector interface. Click <guibutton>OK</guibutton> to close the window.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
 		
 	</section>
 
