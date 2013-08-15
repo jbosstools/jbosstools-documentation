@@ -32,7 +32,11 @@
 			<title></title>
 			<varlistentry>
 				<term>To view web applications in local file systems</term>
-				<listitem><para>In the <guilabel>Project Explorer</guilabel> tab, select a <filename>.html</filename> file and click the <guibutton>Run BrowserSim</guibutton> icon. Alternatively, right-click a <filename>.html</filename> file and click <guimenu>Open With</guimenu>&rarr;<guimenu>BrowserSim</guimenu>.</para></listitem>
+				<listitem><para>In the <guilabel>Project Explorer</guilabel> tab, select a <filename>.html</filename> file and click the <guibutton>Run BrowserSim</guibutton> icon <inlinemediaobject>
+	<imageobject>
+		<imagedata fileref="images/BrowserSim/BS_bsicon.png"/>
+	</imageobject>
+</inlinemediaobject>. Alternatively, right-click a <filename>.html</filename> file and click <guimenu>Open With</guimenu>&rarr;<guimenu>BrowserSim</guimenu>.</para></listitem>
 			</varlistentry>
 			<varlistentry>
 				<term>To view deployed web applications</term>
@@ -43,6 +47,18 @@
 		</variablelist>
 		
 		<para>BrowserSim employs intelligent loading when selecting which web page to open in the browser window. If a web page is already open in a standard browser window, this is the web page that is loaded in BrowserSim.</para>
+
+		<figure>
+			<title>Web Page Open on Simulated Device</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/BrowserSim/BS_basic.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Web Page Open on Simulated Device.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>	
 
 	</section>
 
@@ -64,11 +80,19 @@
 			</varlistentry>	
 			<varlistentry>
 				<term>Reload a web page</term>
-				<listitem><para>Click the <guilabel>Reload</guilabel> icon at the end of the address bar.</para></listitem>
+				<listitem><para>Click the <guilabel>Reload</guilabel> icon <inlinemediaobject>
+	<imageobject>
+		<imagedata fileref="images/BrowserSim/BS_reloadicon.png"/>
+	</imageobject>
+</inlinemediaobject> at the end of the address bar.</para></listitem>
 			</varlistentry>	
 			<varlistentry>
 				<term>Stop loading a web page</term>
-				<listitem><para>Click the <guilabel>Stop</guilabel> icon at the end of the address bar.</para></listitem>
+				<listitem><para>Click the <guilabel>Stop</guilabel> icon <inlinemediaobject>
+	<imageobject>
+		<imagedata fileref="images/BrowserSim/BS_stopicon.png"/>
+	</imageobject>
+</inlinemediaobject> at the end of the address bar.</para></listitem>
 			</varlistentry>		
 			<varlistentry>
 				<term>Close BrowserSim</term>
@@ -88,11 +112,35 @@
 			<title></title>
 			<varlistentry>
 				<term>Rotate the view between portrait and landscape modes</term>
-				<listitem><para>Click any corner of the simulated device. Alternatively, right-click the simulated device and click <guimenu>Rotate Left</guimenu> or <guimenu>Rotate Right</guimenu>.</para></listitem>
+				<listitem><para>Click any corner of the simulated device. Alternatively, right-click the simulated device and click <guimenu>Rotate Left</guimenu> or <guimenu>Rotate Right</guimenu>.</para>
+					<figure>
+						<title>Rotate Mouse Pointer in Upper-right Corner of Simulated Device</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/BrowserSim/BS_rotate2.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>To rotate the view between portrait and landscape modes, click any corner of the simulated device.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>				
+				</listitem>
 			</varlistentry>
 			<varlistentry>
 				<term>Change the simulated device</term>
-				<listitem><para>Right-click the simulated device, click <guimenu>Skins</guimenu> and select from the listed devices.</para></listitem>
+				<listitem><para>Right-click the simulated device, click <guimenu>Skins</guimenu> and select from the listed devices.</para>
+					<figure>
+						<title>Skins Menu Option</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/BrowserSim/BS_skins.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>Right-click the simulated device, click <guimenu>Skins</guimenu> and select from the listed devices.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>				
+				</listitem>
 			</varlistentry>
 			<varlistentry>
 				<term>Remove or use skins</term>
@@ -115,7 +163,19 @@
 			</varlistentry>
 			<varlistentry>
 				<term>View simultaneously on synchronized simulated devices</term>
-				<listitem><para>Right-click the simulated device and click <guimenu>Open Synchronized Window</guimenu>. Select from the list of available skins for the additional simulated device. An additional simulated device opens and displays the same web page as that of the synchronized simulated device. Opening a web page in one synchronized simulated device results in the web page opening in all the synchronized simulated devices.</para></listitem>
+				<listitem><para>Right-click the simulated device and click <guimenu>Open Synchronized Window</guimenu>. Select from the list of available skins for the additional simulated device. An additional simulated device opens and displays the same web page as that of the synchronized simulated device. Opening a web page in one synchronized simulated device results in the web page opening in all the synchronized simulated devices.</para>
+					<figure>
+						<title>Synchronized Simulated Devices</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/BrowserSim/BS_synch.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>Right-click the simulated device and click <guimenu>Open Synchronized Window</guimenu>. Select from the list of available skins for the additional simulated device. An additional simulated device opens and displays the same web page as that of the synchronized simulated device. Opening a web page in one synchronized simulated device results in the web page opening in all the synchronized simulated devices.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>				
+				</listitem>
 			</varlistentry>					
 		</variablelist>
 		
@@ -127,7 +187,20 @@
 
 		<para>BrowserSim provides the ability to generate screen captures of a simulated device and the web pages it shows.</para>
 		
-		<para>To generate a screen capture of a simulated device, right-click the simulated device and click <guimenu>Screenshot</guimenu>. Select the output for the screen capture from the list of options:
+		<para>To generate a screen capture of a simulated device, right-click the simulated device and click <guimenu>Screenshot</guimenu>.</para>
+		<figure>
+			<title>Screenshot Menu Option</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/BrowserSim/BS_screenshot.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To generate a screen capture of a simulated device, right-click the simulated device and click <guimenu>Screenshot</guimenu>.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
+		
+		<para>Select the output for the screen capture from the list of options:
 			<itemizedlist>
 				<listitem><para><guimenu>Save</guimenu> to save as a <filename>.png</filename> file in the default location. The default location is your home directory.</para></listitem>
 				<listitem><para><guimenu>Save as</guimenu> to save as a <filename>.png</filename> file in a location you specify.</para></listitem>
@@ -145,9 +218,33 @@
 		<procedure>
 			<title>Create a LiveReload Server</title>
 			<step><para>In the <guilabel>Servers</guilabel> tab, click <guilabel>create a new server</guilabel> or right-click an existing server and click <guimenu>New</guimenu>&rarr;<guimenu>Server</guimenu>.</para></step>
-			<step><para>From the list of server types, expand <guilabel>Basic</guilabel> and select <guilabel>LiveReload Server</guilabel>.</para></step>
+			<step><para>From the list of server types, expand <guilabel>Basic</guilabel> and select <guilabel>LiveReload Server</guilabel>.</para>
+				<figure>
+					<title>LiveReload Server Selected in New Server Wizard</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/BrowserSim/BS_newserv.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>From the list of server types, expand <guilabel>Basic</guilabel> and select <guilabel>LiveReload Server</guilabel>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>			
+			</step>
 			<step><para>The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are automatically populated. The <command>localhost</command> value in the <guilabel>Server's host name</guilabel> field indicates that the server is to be run on the local system and the value in the <guilabel>Server name</guilabel> field is the name by which the LiveReload server is identified in the <guilabel>Servers</guilabel> tab. You can edit these values as appropriate by typing in the fields.</para></step>
-			<step><para>Click <guibutton>Finish</guibutton> to close the window. The LiveReload server is listed in the <guilabel>Servers</guilabel> tab.</para></step>
+			<step><para>Click <guibutton>Finish</guibutton> to close the window. The LiveReload server is listed in the <guilabel>Servers</guilabel> tab.</para>
+				<figure>
+					<title>LiveReload Server Listed in the Server Tab</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/BrowserSim/BS_listed.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>The LiveReload server is listed in the <guilabel>Servers</guilabel> tab.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>	
+			</step>
 		</procedure>
 
 		<procedure>
@@ -161,7 +258,19 @@
 					</step>
 				</stepalternatives>
 			</step>
-			<step><para>Right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected.</para></step>
+			<step><para>Right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected.</para>
+				<figure>
+					<title><guilabel>Enable LiveReload</guilabel> Check Box for BrowserSim</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/BrowserSim/BS_livereload.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>Right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>				
+			</step>
 		</procedure>
 
 		<important><para>The <guilabel>Enable LiveReload</guilabel> check box has no effect when the LiveReload server is set to insert the JavaScript code and the web resource is viewed in BrowserSim via the LiveReload server port URL. LiveReload is always enabled in this case.</para></important>
