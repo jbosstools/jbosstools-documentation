@@ -29,7 +29,36 @@
 
 		<para>To begin using OpenShift, you need to create an OpenShift user account. OpenShift Tools provides the ability to create a user account from within the IDE.</para>
 
-		<para>To create a user account, click the <guilabel>OpenShift Explorer</guilabel> tab. If the <guilabel>OpenShift Explorer</guilabel> tab is not visible, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Servers</guimenu>. Click the <guibutton>Connect to OpenShift</guibutton> icon and click the link to sign up for an account. This opens <ulink url="https://openshift.redhat.com/app/account/new"/> in a browser tab. Follow the instructions on the OpenShift web page to create an account. Once created, you can close the browser tab.</para>
+		<para>To create a user account, click the <guilabel>OpenShift Explorer</guilabel> tab. If the <guilabel>OpenShift Explorer</guilabel> tab is not visible, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Servers</guimenu>.</para>
+		<figure>
+			<title>OpenShift Explorer Tab</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/OpenShift/OS_ostab.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>click the <guilabel>OpenShift Explorer</guilabel> tab.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>		 
+		
+		<para>Click the <guibutton>Connect to OpenShift</guibutton> icon <inlinemediaobject>
+	<imageobject>
+		<imagedata fileref="images/OpenShift/OS_connecticon.png"/>
+	</imageobject>
+</inlinemediaobject> and click the link to sign up for an account. This opens <ulink url="https://openshift.redhat.com/app/account/new"/> in a browser tab. Follow the instructions on the OpenShift web page to create an account. Once created, you can close the browser tab.</para>
+
+		<figure>
+			<title>Sign Up Link in Sign in to OpenShift Wizard</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/OpenShift/OS_signup.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Click the link to sign up for an account.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
 		
 		<para>Management of your user account, such as changing or resetting your password, must be carried out through the OpenShift management console at <ulink url="https://openshift.redhat.com/app/login?redirectUrl=%2Fapp%2Fconsole"/>.</para>
 
@@ -43,8 +72,24 @@
 	
 		<procedure>
 			<title>Connect to OpenShift</title>
-			<step><para>Click the <guilabel>OpenShift Explorer</guilabel> tab and click the <guibutton>Connect to OpenShift</guibutton> icon.</para></step>
-			<step><para>From the <guilabel>Connection</guilabel> list, select <guilabel>New Connection</guilabel>.</para></step>
+			<step><para>Click the <guilabel>OpenShift Explorer</guilabel> tab and click the <guibutton>Connect to OpenShift</guibutton> icon <inlinemediaobject>
+	<imageobject>
+		<imagedata fileref="images/OpenShift/OS_connecticon.png"/>
+	</imageobject>
+</inlinemediaobject>.</para></step>
+			<step><para>From the <guilabel>Connection</guilabel> list, select <guilabel>New Connection</guilabel>.</para>
+					<figure>
+						<title>Sign in to OpenShift Wizard</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/OpenShift/OS_signin.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>From the <guilabel>Connection</guilabel> list, select <guilabel>New Connection</guilabel>.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>			
+			</step>
 			<step><para>If you want to use a server other than the default at https://openshift.redhat.com, clear the <guilabel>Use default server</guilabel> check box and in the <guilabel>Server</guilabel> field type the address of the server.</para>			
 				<note><para>
 					There are a number of OpenShift servers from which you can choose:
@@ -64,7 +109,19 @@
 					<step><para>If your credentials are incorrect, the <application>Sign in to OpenShift</application> wizard remains open for you to change your authentication information.</para></step>
 					<step><para>If you selected for your password to be saved, you are prompted to enter your secure storage password or, if this is your first use of secure storage, you are prompted to set a secure storage password.</para></step>				
 				</substeps>
-			  <para>Once your credentials are verified as correct, the wizard closes and a live OpenShift connection is listed in the <guilabel>OpenShift Explorer</guilabel> tab.</para></step>
+			  <para>Once your credentials are verified as correct, the wizard closes and a live OpenShift connection is listed in the <guilabel>OpenShift Explorer</guilabel> tab.</para>
+					<figure>
+						<title>OpenShift Connection Listed in OpenShift Explorer Tab</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/OpenShift/OS_listed.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>Once your credentials are verified as correct, the wizard closes and a live OpenShift connection is listed in the <guilabel>OpenShift Explorer</guilabel> tab.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>			  
+			  </step>
 		</procedure>
 
 		<para>When you close the IDE, any live OpenShift connections will be disconnected but they can be easily reestablished. OpenShift Tools lists previous connections in the <guilabel>OpenShift Explorer</guilabel> tab until cleared by you. In the <guilabel>OpenShift Explorer</guilabel> tab, double-click or expand the appropriate connection to open an automatically completed connection wizard. Type your password or the master password, if using the saved password facility, and click <guibutton>Finish</guibutton>.</para>
@@ -87,7 +144,19 @@
 			<title></title>
 			<varlistentry>
 				<term>View information about a connection</term>
-				<listitem><para>In the <guilabel>OpenShift Explorer</guilabel> tab, right-click the connection and click <guimenu>Properties</guimenu>. The <guilabel>Properties</guilabel> tab opens and shows information about the associated domain, key and user account. The <guilabel>Key</guilabel> parameter is unique to the connection and it is used by the IDE for identification purposes.</para></listitem>
+				<listitem><para>In the <guilabel>OpenShift Explorer</guilabel> tab, right-click the connection and click <guimenu>Properties</guimenu>. The <guilabel>Properties</guilabel> tab opens and shows information about the associated domain, key and user account. The <guilabel>Key</guilabel> parameter is unique to the connection and it is used by the IDE for identification purposes.</para>
+					<figure>
+						<title>Properties Tab</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/OpenShift/OS_proptab.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>In the <guilabel>OpenShift Explorer</guilabel> tab, right-click the connection and click <guimenu>Properties</guimenu>. The <guilabel>Properties</guilabel> tab opens and shows information about the associated domain, key and user account. The <guilabel>Key</guilabel> parameter is unique to the connection and it is used by the IDE for identification purposes.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>				
+				</listitem>
 			</varlistentry>
 			<varlistentry>
 				<term>Refresh information about a connection</term>
@@ -111,7 +180,19 @@
 			<title>Generate and Upload SSH Keys to OpenShift</title>
 			<step><para>In the <guilabel>OpenShift Explorer</guilabel> tab, right-click the connection and click <guimenu>Manage SSH Keys</guimenu>.</para></step>
 			<step><para>To create a new SSH private-public key pair, click <guibutton>New</guibutton>.</para></step>
-			<step><para>In the <guilabel>Name</guilabel> field, type a name for the key pair that will be used by OpenShift to distinguish the key pair from others associated with your account.</para></step>
+			<step><para>In the <guilabel>Name</guilabel> field, type a name for the key pair that will be used by OpenShift to distinguish the key pair from others associated with your account.</para>
+					<figure>
+						<title>New SSH Key Wizard</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/OpenShift/OS_newkey.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>To create a new SSH private-public key pair, click <guibutton>New</guibutton>.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>			
+			</step>
 			<step><para>From the <guilabel>Key Type</guilabel> list, select <guilabel>SSH_RSA</guilabel>.</para></step>
 			
 			<step><para>Ensure the <guilabel>SSH2 Home</guilabel> field contains the location where you want to create the files associated with the key pair. To change the location, clear the <guilabel>Default</guilabel> check box and type the location in the <guilabel>SSH2 Home</guilabel> field or click <guibutton>Browse</guibutton> to navigate to the desired location.</para>
@@ -161,7 +242,19 @@
 		<procedure>
 			<title>Create a Domain</title>
 			<step><para>In the <guilabel>OpenShift Explorer</guilabel> tab, right-click the connection and click <guimenu>Create or Edit Domain</guimenu>.</para></step>
-			<step><para>In the <guilabel>Domain Name</guilabel> field, type the name of the domain you would like to use and click <guibutton>Finish</guibutton>. The name you provide will be appended with <command>.rhcloud.com</command>. Domain names must be unique so if the name you have chosen is already in use you will see a warning. In this case, choose another name and try again until you have a unique one.</para></step>
+			<step><para>In the <guilabel>Domain Name</guilabel> field, type the name of the domain you would like to use and click <guibutton>Finish</guibutton>. The name you provide will be appended with <command>.rhcloud.com</command>. Domain names must be unique so if the name you have chosen is already in use you will see a warning. In this case, choose another name and try again until you have a unique one.</para>
+				<figure>
+					<title>Create Domain Wizard</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/OpenShift/OS_createdom.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In the <guilabel>Domain Name</guilabel> field, type the name of the domain you would like to use and click <guibutton>Finish</guibutton>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>				
+			</step>
 		</procedure>
 		
 		<note><para>There are restrictions on the name you can use for a domain. Names must consist only of letters and digits and can have a maximum length of 16 characters.</para></note>
@@ -206,9 +299,32 @@
 		
 		<procedure>
 			<title>Create and Deploy an Application on OpenShift</title>
-			<step><para>In the <guilabel>OpenShift Explorer</guilabel> tab, right-click the connection and click <guimenu>New OpenShift Application</guimenu>. Alternatively, in <guilabel>JBoss Central</guilabel> click <guilabel>OpenShift Application</guilabel>, after which you are prompted to select an OpenShift connection and provide your user authentication information.</para></step>
+			<step><para>In the <guilabel>OpenShift Explorer</guilabel> tab, right-click the connection and click <guimenu>New OpenShift Application</guimenu>. Alternatively, in <guilabel>JBoss Central</guilabel> click <guilabel>OpenShift Application</guilabel>, after which you are prompted to select an OpenShift connection and provide your user authentication information.</para>
+				<figure>
+					<title>OpenShift Application Wizard in JBoss Central Tab</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/OpenShift/OS_scratchproj.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In <guilabel>JBoss Central</guilabel> click <guilabel>OpenShift Application</guilabel>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>			
+			</step>
 			<step><para>In the <guilabel>Name</guilabel> field, type a name for the new OpenShift application.</para>
 				<note><para>There are restrictions on the name you can use for an application. Names must consist only of letters and digits.</para></note>
+				<figure>
+					<title>Specify Application Details in the New OpenShift Application Wizard</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/OpenShift/OS_newapp1.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In the <guilabel>Name</guilabel> field, type a name for the new OpenShift application.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>				
 			</step>
 			<step><para>From the <guilabel>Type</guilabel> list, select a runtime server. This will ensure the necessary core programming or technology cartridge is added to your application.</para></step>
 			<step><para>From the <guilabel>Gear profile</guilabel> list, select the gear size. This is RAM and disk space required by your applications and its cartridges. If you are using OpenShift Online with Free Plan, you have access to small gears only.</para></step>
@@ -218,7 +334,19 @@
 			<step><para>Ensure the <guilabel>Create a new project</guilabel> and <guilabel>Create and set up a server for easy publishing</guilabel> check boxes are selected. The latter will automatically create an OpenShift server adapter for the application, enabling you to easily upload changes to the OpenShift server.</para>
 			</step>
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
-			<step><para>The <guilabel>Location</guilabel> field shows the location that will be used for the local Git repository. The location must already exist to be able to proceed with the wizard. To change the location, clear the <guilabel>Use default location</guilabel> check box and type the location in the <guilabel>Location</guilabel> field or click <guibutton>Browse</guibutton> to navigate to the desired location.</para></step>
+			<step><para>The <guilabel>Location</guilabel> field shows the location that will be used for the local Git repository. The location must already exist to be able to proceed with the wizard. To change the location, clear the <guilabel>Use default location</guilabel> check box and type the location in the <guilabel>Location</guilabel> field or click <guibutton>Browse</guibutton> to navigate to the desired location.</para>
+				<figure>
+					<title>Specify Repository Details in the New OpenShift Application Wizard</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/OpenShift/OS_newapp2.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>The <guilabel>Location</guilabel> field shows the location that will be used for the local Git repository. The location must already exist to be able to proceed with the wizard. To change the location, clear the <guilabel>Use default location</guilabel> check box and type the location in the <guilabel>Location</guilabel> field or click <guibutton>Browse</guibutton> to navigate to the desired location.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>			
+			</step>
 			<step><para>Click <guibutton>Finish</guibutton>. If you are prompted that the authenticity of the host cannot be established and asked whether you want to continue connecting, check that the host name matches that of your application and domain and click <guibutton>Yes</guibutton>.</para></step>
 			<step><para>At the prompt asking if you want to publish committed changes to OpenShift, click <guibutton>Yes</guibutton>. The progress of the application creation process is visible in the <guilabel>Console</guilabel> tab.</para></step>
 		</procedure>
@@ -273,6 +401,17 @@
 			<step><para>Click <guimenu>File</guimenu>&rarr;<guimenu>Import</guimenu>, expand <guilabel>OpenShift</guilabel>, select <guilabel>Existing OpenShift Application</guilabel> and click <guibutton>Next</guibutton>. Alternatively, in the <guilabel>OpenShift Explorer</guilabel> tab, right-click the application and click <guimenu>Import Application</guimenu>.</para></step>
 			<step><para>Ensure the <guilabel>Use existing application</guilabel> check box is selected and type the name of the application in the text field. This field has an auto-completion feature to assist you in typing the application name or click <guibutton>Browse</guibutton> to see a list of all of your applications associated with the connection.</para>
 				<important><para>Project names in the IDE workspace must be unique. If the name of the application you want to import is identical to an existing project in the workspace, the OpenShift Tools will not complete the import. To work around this constraint, you can import the OpenShift application to another workspace or change the name of one of the conflicting projects and applications.</para></important>
+				<figure>
+					<title>Import OpenShift Application Wizard</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/OpenShift/OS_importapp.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>Ensure the <guilabel>Use existing application</guilabel> check box is selected and type the name of the application in the text field. This field has an auto-completion feature to assist you in typing the application name or click <guibutton>Browse</guibutton> to see a list of all of your applications associated with the connection.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>					
 			</step>	
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
 			<step><para>Ensure the <guilabel>Create a new project</guilabel> and <guilabel>Create and set up a server for easy publishing</guilabel> check boxes are selected. The latter will automatically create an OpenShift server adapter for the application, enabling you to easily upload changes to the OpenShift server.</para>
@@ -297,15 +436,51 @@
 			<title>Generate a server adapter for an application</title>
 			<step><para>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection.</para></step>
 			<step><para>Right-click the application name and click <guimenu>Create a Server Adapter</guimenu>.</para></step>
-			<step><para>From the list of server types, expand <guilabel>OpenShift</guilabel> and select <guilabel>OpenShift Server</guilabel>.</para></step>
+			<step><para>From the list of server types, expand <guilabel>OpenShift</guilabel> and select <guilabel>OpenShift Server</guilabel>.</para>
+				<figure>
+					<title>OpenShift Server Selected in New Server Wizard</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/OpenShift/OS_servadap1.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>From the list of server types, expand <guilabel>OpenShift</guilabel> and select <guilabel>OpenShift Server</guilabel>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>			
+			</step>
 			<step><para>The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> field are automatically completed but you can change the contents of both as you need. The <guilabel>Server's host name</guilabel> field contains the host name of the server and the <guilabel>Server name</guilabel> field contains the name by which the server adapter is know in the <guilabel>Servers</guilabel> tab.</para></step>
 			<step><para>Once the fields are complete, click <guibutton>Next</guibutton>.</para></step>
-			<step><para>Ensure the <guilabel>Connection</guilabel>, <guilabel>Application Name</guilabel> and <guilabel>Deploy Project</guilabel> fields contain the correct information relating to the application for which you want to generate the server adapter.</para></step>
+			<step><para>Ensure the <guilabel>Connection</guilabel>, <guilabel>Application Name</guilabel> and <guilabel>Deploy Project</guilabel> fields contain the correct information relating to the application for which you want to generate the server adapter.</para>
+				<figure>
+					<title>Server Details in New Server Wizard</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/OpenShift/OS_servadap2.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>Ensure the <guilabel>Use existing application</guilabel> check box is selected and type the name of the application in the text field. This field has an auto-completion feature to assist you in typing the application name or click <guibutton>Browse</guibutton> to see a list of all of your applications associated with the connection.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>			
+			</step>
 			<step><para>In the <guilabel>Remote</guilabel> field, type the alias for the remote Git repository. For OpenShift applications created and imported by OpenShift Tools this is <command>origin</command>.</para></step>
 			<step><para>In the <guilabel>Output Directory</guilabel> field, type the location where archived projects for deployment should be stored or click <guibutton>Browse</guibutton> to navigate to the desired location.</para></step>
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
 			<step><para>From the <guilabel>Available</guilabel> list, select the project for which the server adapter is being generated and click <guibutton>Add</guibutton>. The application is now listed under <guilabel>Configured</guilabel>.</para></step>
-			<step><para>Click <guibutton>Finish</guibutton> for OpenShift Tools to generate the server adapter. Once generated, the server adapter is listed in the <guilabel>Servers</guilabel> tab.</para></step>
+			<step><para>Click <guibutton>Finish</guibutton> for OpenShift Tools to generate the server adapter. Once generated, the server adapter is listed in the <guilabel>Servers</guilabel> tab.</para>
+				<figure>
+					<title>OpenShift Server Adapter Listed in Servers Tab</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/OpenShift/OS_adaplisted.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>Click <guibutton>Finish</guibutton> for OpenShift Tools to generate the server adapter. Once generated, the server adapter is listed in the <guilabel>Servers</guilabel> tab.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>			
+			</step>
 		</procedure>
 		
 	</section>
@@ -324,15 +499,51 @@
 			</varlistentry>
 			<varlistentry>
 				<term>View information about an application</term>
-				<listitem><para>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Details</guimenu>. The displayed information includes the public URL of the application, application type, and remote Git repository location. Click <guibutton>OK</guibutton> to close the <application>Details</application> window.</para></listitem>
+				<listitem><para>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Details</guimenu>. The displayed information includes the public URL of the application, application type, and remote Git repository location. Click <guibutton>OK</guibutton> to close the <application>Details</application> window.</para>
+				<figure>
+					<title>Application Details Window</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/OpenShift/OS_details.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Details</guimenu>. The displayed information includes the public URL of the application, application type, and remote Git repository location. Click <guibutton>OK</guibutton> to close the <application>Details</application> window.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>				
+				</listitem>
 			</varlistentry>		
 			<varlistentry>
 				<term>View output from the OpenShift server</term>
-				<listitem><para>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Tail files</guimenu>. Alternatively, right-click the server adapter of the application in the <guilabel>Servers</guilabel> tab and click <guimenu>OpenShift</guimenu>&rarr;<guimenu>Tail files</guimenu>. The <application>Tail Log Files</application> window opens, with the default retrieval syntax in the <guilabel>Tail options</guilabel> field. To change the retrieval command, in the <guilabel>Tail options</guilabel> field type the appropriate syntax. Click <guibutton>Finish</guibutton> for OpenShift to retrieve the output, which is displayed in the <guilabel>Console</guilabel> tab.</para></listitem>
+				<listitem><para>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Tail files</guimenu>. Alternatively, right-click the server adapter of the application in the <guilabel>Servers</guilabel> tab and click <guimenu>OpenShift</guimenu>&rarr;<guimenu>Tail files</guimenu>. The <application>Tail Log Files</application> window opens, with the default retrieval syntax in the <guilabel>Tail options</guilabel> field. To change the retrieval command, in the <guilabel>Tail options</guilabel> field type the appropriate syntax. Click <guibutton>Finish</guibutton> for OpenShift to retrieve the output, which is displayed in the <guilabel>Console</guilabel> tab.</para>
+				<figure>
+					<title>Default Retrieval Syntax in Tail Options Field</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/OpenShift/OS_tailfiles.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Tail files</guimenu>. Alternatively, right-click the server adapter of the application in the <guilabel>Servers</guilabel> tab and click <guimenu>OpenShift</guimenu>&rarr;<guimenu>Tail files</guimenu>. The <application>Tail Log Files</application> window opens, with the default retrieval syntax in the <guilabel>Tail options</guilabel> field. To change the retrieval command, in the <guilabel>Tail options</guilabel> field type the appropriate syntax. Click <guibutton>Finish</guibutton> for OpenShift to retrieve the output, which is displayed in the <guilabel>Console</guilabel> tab.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>				
+				</listitem>
 			</varlistentry>
 			<varlistentry>
 				<term>View values of variables associated with an application</term>
-				<listitem><para>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Environment Variables</guimenu>. Variable names and values are listed in the <guilabel>Console</guilabel> tab. Alternatively, in the <guilabel>Servers</guilabel> tab, right-click the server adapter of the application and click <guimenu>OpenShift</guimenu>&rarr;<guimenu>Environment Variables</guimenu>.</para></listitem>
+				<listitem><para>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Environment Variables</guimenu>. Variable names and values are listed in the <guilabel>Console</guilabel> tab. Alternatively, in the <guilabel>Servers</guilabel> tab, right-click the server adapter of the application and click <guimenu>OpenShift</guimenu>&rarr;<guimenu>Environment Variables</guimenu>.</para>
+				<figure>
+					<title>Environment Variables Listed in Console Tab</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/OpenShift/OS_envvar.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Environment Variables</guimenu>. Variable names and values are listed in the <guilabel>Console</guilabel> tab. Alternatively, in the <guilabel>Servers</guilabel> tab, right-click the server adapter of the application and click <guimenu>OpenShift</guimenu>&rarr;<guimenu>Environment Variables</guimenu>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>				
+				</listitem>
 			</varlistentry>
 			<varlistentry>
 				<term>View information about the server of an application</term>
@@ -362,7 +573,19 @@
 			</varlistentry>
 			<varlistentry>
 				<term>Add or remove cartridges associated with an application</term>
-				<listitem><para>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Edit Embedded Cartridges</guimenu>. Select or clear the check boxes of cartridges as desired. Click <guibutton>Finish</guibutton> for your cartridge choice to be applied to the application. You are prompted if the cartridges you have chosen to add or remove require further action, such as the addition of prerequisite cartridges or removal of conflicting cartridges. You can choose to ignore or apply the suggestions of the prompt.</para></listitem>
+				<listitem><para>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Edit Embedded Cartridges</guimenu>. Select or clear the check boxes of cartridges as desired. Click <guibutton>Finish</guibutton> for your cartridge choice to be applied to the application. You are prompted if the cartridges you have chosen to add or remove require further action, such as the addition of prerequisite cartridges or removal of conflicting cartridges. You can choose to ignore or apply the suggestions of the prompt.</para>
+				<figure>
+					<title>Edit Embedded Cartridges Window</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/OpenShift/OS_embedcart.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>Right-click the application name and click <guimenu>Edit Embedded Cartridges</guimenu>. Select or clear the check boxes of cartridges as desired. Click <guibutton>Finish</guibutton> for your cartridge choice to be applied to the application.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>				
+				</listitem>
 			</varlistentry>
 			<varlistentry>
 				<term>View properties of cartridges associated with an application</term>
@@ -378,6 +601,17 @@
 				<listitem><para>You can forward the remote ports of the OpenShift server to your workstation to enable access to various services, such as MySQL.
 				<important><para>Your application must be running before attempting to configure port forwarding.</para></important>
 				In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Port forwarding</guimenu>. Alternatively, right-click the server adapter of the application in the <guilabel>Servers</guilabel> tab and click <guimenu>OpenShift</guimenu>&rarr;<guimenu>Port forwarding</guimenu>.</para>
+				<figure>
+					<title>Application Port Foward Window</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/OpenShift/OS_ports.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Port forwarding</guimenu>. Alternatively, right-click the server adapter of the application in the <guilabel>Servers</guilabel> tab and click <guimenu>OpenShift</guimenu>&rarr;<guimenu>Port forwarding</guimenu>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>				
 				<para>After checking the authenticity of SSH keys, the <application>Application port forward</application> window opens. Before commencing port forwarding, there are a number of options you can set:
 					<itemizedlist>
 						<listitem><para>By default, the local address is 127.0.0.1. If this is unavailable, a random available address will be allocated. To set the local address to be the same as the remote address, clear the <guilabel>Use '127.0.0.1' as the local address for all Services</guilabel> check box.</para></listitem>
