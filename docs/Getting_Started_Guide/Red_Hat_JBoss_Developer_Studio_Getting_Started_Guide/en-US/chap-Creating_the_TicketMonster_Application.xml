@@ -717,7 +717,7 @@ private int capacity;
 			</step>
 			<step>
 				<para>
-					The <filename>Event</filename>, <filename>Member</filename> and <filename>Venue</filename> entites created in the TicketMonster project are displayed under <guilabel>jbdc:h2:mem:ticket-monster</guilabel>. Expanding the entities shows the fields associated with each. The records stored in the database are viewed using SQL search statements. For example, to display all the Event records stored in the database, click <guilabel>Event</guilabel>, which creates a SQL search statement based on Event in the <guilabel>SQL statement</guilabel> field, and click <guibutton>Run</guibutton>. The details of the Event sample records you added to <filename>import.sql</filename> earlier in the tutorial are visible in the table below the <guilabel>SQL statement</guilabel> field.
+					The <filename>Event</filename>, <filename>Member</filename> and <filename>Venue</filename> entities created in the TicketMonster project are displayed under <guilabel>jbdc:h2:mem:ticket-monster</guilabel>. Expanding the entities shows the fields associated with each. The records stored in the database are viewed using SQL search statements. For example, to display all the Event records stored in the database, click <guilabel>Event</guilabel>, which creates a SQL search statement based on Event in the <guilabel>SQL statement</guilabel> field, and click <guibutton>Run</guibutton>. The details of the Event sample records you added to <filename>import.sql</filename> earlier in the tutorial are visible in the table below the <guilabel>SQL statement</guilabel> field.
 				</para>
 				<figure>
 					<title>Event Records Stored in the H2 Database</title>
@@ -1067,7 +1067,7 @@ public List&lt;Event&gt; getAllEvents() {
 				</para>
 				<note>
 					<para>
-						If the names of the events in the database are not displayed, check the address bar of the simulated device. The address bar should contain <ulink url="http://localhost:8080/ticket-monster/mobile.html"/>.
+						If the names of the events in the database are not displayed, check the address bar of the simulated device. The address bar must state <ulink url="http://localhost:8080/ticket-monster/mobile.html"/>.
 					</para>
 				</note>
 			</step>
