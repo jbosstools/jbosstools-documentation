@@ -8,6 +8,60 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.0.0-22</revnumber><date>Wed Aug 21 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-371: Added LiveReload port preference info for BrowserSim
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>			
+			<revision>
+				<revnumber>7.0.0-21</revnumber><date>Tue Aug 20 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							Tested Publican web_version_label tag
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>			
+			<revision>
+				<revnumber>7.0.0-17</revnumber><date>Fri Aug 16 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							Tested Publican web_product_label tag
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>7.0.0-16</revnumber><date>Thu Aug 15 2013</date>
 				<author>
 					<firstname>
