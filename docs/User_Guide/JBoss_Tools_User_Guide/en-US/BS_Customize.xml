@@ -13,7 +13,7 @@
 		<itemizedlist>
 			<listitem><para>Make BrowserSim more prominent to use by making it the default browser, by adding its icon to the global toolbar and creating a shortcut key for launching it</para></listitem>
 			<listitem><para>Extend the functionality of BrowserSim by adding or modify the simulated devices it provides</para></listitem>
-			<listitem><para>Customize the default settings of BrowserSim for large simulated devices, for screen captures and for Weinre</para></listitem>
+			<listitem><para>Customize the default settings of BrowserSim for large simulated devices, for LiveReload, for screen captures and for Weinre</para></listitem>
 		</itemizedlist>
 
 	</section>
@@ -147,6 +147,30 @@
 			</mediaobject>
 		</figure>
 						
+	</section>
+
+
+	<section>
+		<title>Change the Default LiveReload Port</title>
+		
+		<para>The LiveReload server uses a port to communicate resource changes to BrowserSim. The default port can be changed.</para>
+		
+		<para>To change the default LiveReload port, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>LiveReload options</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>LiveReload Port</guilabel> field type the port number you want to use. Click <guibutton>OK</guibutton> to close the window.</para>
+
+		<figure>
+			<title>LiveReload Port Preferences</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/BrowserSim/BS_prefport.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>To change the default LiveReload port, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>LiveReload options</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>LiveReload Port</guilabel> field type the port number you want to use. Click <guibutton>OK</guibutton> to close the window.</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
+
+		<note><para>You must enable LiveReload for BrowserSim in order to specify the LiveReload port. To enable LiveReload, right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected. Alternatively, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>LiveReload options</guilabel> section of the <guilabel>Settings</guilabel> tab, select the <guilabel>Enable LiveReload </guilabel> check box and click <guibutton>OK</guibutton> to close the window.</para></note>
+		
 	</section>
 
 
