@@ -330,9 +330,11 @@
 			<step><para>From the <guilabel>Gear profile</guilabel> list, select the gear size. This is RAM and disk space required by your applications and its cartridges. If you are using OpenShift Online with Free Plan, you have access to small gears only.</para></step>
 			<step><para>If you want OpenShift to automatically increase the instances of your application and enable clustering as usage increases, select the <guilabel>Enable scaling</guilabel> check box.</para></step>
 			<step><para>From the <guilabel>Embedded Cartridges</guilabel> list, select the functionality you want to enable in your application. This will add associated capabilities and support to your application.</para></step>
+			<step><para>To specify that the new application is to be based on source code from an existing Git repository, click <guibutton>Advanced</guibutton> and clear the <guilabel>Use default source code</guilabel> check box. In the <guilabel>Source code</guilabel> field, type the URL of the source code location. OpenShift clones the source code to the OpenShift git repository for your application, instead of using the default template.</para></step>
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
 			<step><para>Ensure the <guilabel>Create a new project</guilabel> and <guilabel>Create and set up a server for easy publishing</guilabel> check boxes are selected. The latter will automatically create an OpenShift server adapter for the application, enabling you to easily upload changes to the OpenShift server.</para>
 			</step>
+			<step><para>To disable Maven builds, check the <guilabel>Disable automatic Maven builds when pushing to OpenShift</guilabel> check box. This informs OpenShift not to launch the Maven build process when the Maven project is pushed to OpenShift but to put the deployment straight into the deployments folder. It is useful when you want to push applications already built for deployment rather than source code.</para></step>
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
 			<step><para>The <guilabel>Location</guilabel> field shows the location that will be used for the local Git repository. The location must already exist to be able to proceed with the wizard. To change the location, clear the <guilabel>Use default location</guilabel> check box and type the location in the <guilabel>Location</guilabel> field or click <guibutton>Browse</guibutton> to navigate to the desired location.</para>
 				<figure>
@@ -380,9 +382,11 @@
 			<step><para>From the <guilabel>Gear profile</guilabel> list, select the gear size. This is RAM and disk space required by your applications and its cartridges. If you are using OpenShift Online with Free Plan, you have access to small gears only.</para></step>
 			<step><para>If you want OpenShift to automatically increase the instances of your application and enable clustering as usage increases, select the <guilabel>Enable scaling</guilabel> check box.</para></step>
 			<step><para>From the <guilabel>Embedded Cartridges</guilabel> list, select the functionality you want to enable in your application. This will add associated capabilities and support to your application.</para></step>
+			<step><para>To specify that the new application is to be based on source code from an existing Git repository, click <guibutton>Advanced</guibutton> and clear the <guilabel>Use default source code</guilabel> check box. In the <guilabel>Source code</guilabel> field, type the URL of the source code location. OpenShift clones the source code to the OpenShift git repository for your application, instead of using the default template.</para></step>
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
 			<step><para>Clear the <guilabel>Create a new project</guilabel> check box and in the <guilabel>Use existing project</guilabel> field type the name of the project or click <guibutton>Browse</guibutton> to locate the project.</para></step>
 			<step><para>Ensure the <guilabel>Create and set up a server for easy publishing</guilabel> check box is selected. This option automatically creates an OpenShift server adapter for the application, enabling you to easily upload changes to the OpenShift server.</para></step>
+			<step><para>To disable Maven builds, check the <guilabel>Disable automatic Maven builds when pushing to OpenShift</guilabel> check box. This informs OpenShift not to launch the Maven build process when the Maven project is pushed to OpenShift but to put the deployment straight into the deployments folder. It is useful when you want to push applications already built for deployment rather than source code.</para></step>
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
 			<step><para>The <guilabel>Location</guilabel> field shows the location that will be used for the local Git repository. The location must already exist to be able to proceed with the wizard. To change the location, clear the <guilabel>Use default location</guilabel> check box and type the location in the <guilabel>Location</guilabel> field or click <guibutton>Browse</guibutton> to navigate to the desired location.</para></step>
 			<step><para>Click <guibutton>Finish</guibutton>. If you are prompted that the authenticity of the host cannot be established and asked whether you want to continue connecting, check that the host name matches that of your application and domain and click <guibutton>Yes</guibutton>.</para></step>
@@ -416,6 +420,7 @@
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
 			<step><para>Ensure the <guilabel>Create a new project</guilabel> and <guilabel>Create and set up a server for easy publishing</guilabel> check boxes are selected. The latter will automatically create an OpenShift server adapter for the application, enabling you to easily upload changes to the OpenShift server.</para>
 			</step>
+			<step><para>To disable Maven builds, check the <guilabel>Disable automatic Maven builds when pushing to OpenShift</guilabel> check box. This informs OpenShift not to launch the Maven build process when the Maven project is pushed to OpenShift but to put the deployment straight into the deployments folder. It is useful when you want to push applications already built for deployment rather than source code.</para></step>
 			<step><para>Click <guibutton>Next</guibutton>.</para></step>
 			<step><para>The <guilabel>Location</guilabel> field shows the location that will be used for the local Git repository. The location must already exist to be able to proceed with the wizard. To change the location, clear the <guilabel>Use default location</guilabel> check box and type the location in the <guilabel>Location</guilabel> field or click <guibutton>Browse</guibutton> to navigate to the desired location.</para></step>
 			<step><para>Click <guibutton>Finish</guibutton>. If you are prompted that the authenticity of the host cannot be established and asked whether you want to continue connecting, check that the host name matches that of your application and domain and click <guibutton>Yes</guibutton>.</para></step>
@@ -572,6 +577,22 @@
 				</listitem>
 			</varlistentry>
 			<varlistentry>
+				<term>Add or remove markers associated with an application</term>
+				<listitem><para>In the <guilabel>Project Explorer</guilabel> tab, right-click the application and click <guimenu>OpenShift</guimenu>&rarr;<guimenu>Configure Markers</guimenu>. Select or clear the check boxes of markers as desired. Information about markers is given in the <guilabel>Marker Description</guilabel> section of the <guilabel>Configure OpenShift Markers Window</guilabel>. Click <guibutton>OK</guibutton> for your marker choice to be applied to the application.</para>
+				<figure>
+					<title>Configure OpenShift Markers Window</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/OpenShift/OS_markers.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In the <guilabel>Project Explorer</guilabel> tab, right-click the application and click <guimenu>OpenShift</guimenu>&rarr;<guimenu>Configure Markers</guimenu>. Select or clear the check boxes of markers as desired. Information about markers is given in the <guilabel>Marker Description</guilabel> section of the <guilabel>Configure OpenShift Markers Window</guilabel>. Click <guibutton>OK</guibutton> for your marker choice to be applied to the application.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>				
+				</listitem>
+			</varlistentry>
+			<varlistentry>
 				<term>Add or remove cartridges associated with an application</term>
 				<listitem><para>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Edit Embedded Cartridges</guimenu>. Select or clear the check boxes of cartridges as desired. Click <guibutton>Finish</guibutton> for your cartridge choice to be applied to the application. You are prompted if the cartridges you have chosen to add or remove require further action, such as the addition of prerequisite cartridges or removal of conflicting cartridges. You can choose to ignore or apply the suggestions of the prompt.</para>
 				<figure>
@@ -593,12 +614,12 @@
 			</varlistentry>
 			<varlistentry>
 				<term>Restart an application</term>
-				<listitem><para>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Restart</guimenu>.</para>
+				<listitem><para>In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Restart</guimenu>. Alternatively, right-click the server adapter of the application in the <guilabel>Servers</guilabel> tab and click <guimenu>OpenShift</guimenu>&rarr;<guimenu>Restart Application</guimenu>.</para>
 				</listitem>
 			</varlistentry>		
 			<varlistentry>
 				<term>Forward remote ports</term>
-				<listitem><para>You can forward the remote ports of the OpenShift server to your workstation to enable access to various services, such as MySQL.
+				<listitem><para>You can forward the remote ports of the OpenShift server to your workstation to enable access to various services, such as MySQL. Port forwarding is available for all OpenShift applications, including scalable ones.
 				<important><para>Your application must be running before attempting to configure port forwarding.</para></important>
 				In the <guilabel>OpenShift Explorer</guilabel> tab, expand the connection. Right-click the application name and click <guimenu>Port forwarding</guimenu>. Alternatively, right-click the server adapter of the application in the <guilabel>Servers</guilabel> tab and click <guimenu>OpenShift</guimenu>&rarr;<guimenu>Port forwarding</guimenu>.</para>
 				<figure>

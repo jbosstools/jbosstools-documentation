@@ -8,6 +8,24 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.0.0-23</revnumber><date>Thu Aug 22 2013</date>
+				<author>
+					<firstname>
+						Michelle
+					</firstname>
+					<surname>
+						Murray
+					</surname><email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-370: Added OpenShift Tools Beta1, Beta2, and CR1 features
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>7.0.0-22</revnumber><date>Wed Aug 21 2013</date>
 				<author>
 					<firstname>
