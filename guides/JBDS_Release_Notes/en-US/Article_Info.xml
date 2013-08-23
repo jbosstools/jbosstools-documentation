@@ -3,12 +3,12 @@
 <!-- Modify the title tag to change which book will be built -->
 
 <articleinfo>
-	<title>4.1.1 Release Notes</title>
+	<title>4.1.2 Release Notes</title>
 	<subtitle>Information about the changes made for this release of the JBoss Developer Studio.</subtitle>
 	<productname>JBoss Developer Studio</productname>
 	<productnumber>4.1</productnumber>
-	<edition>4.1.1</edition>
-	<pubsnumber>29</pubsnumber>
+	<edition>4.1.2</edition>
+	<pubsnumber>35</pubsnumber>
 	<abstract>
 		<para>
 			These release notes contain important information related to the JBoss Developer Studio. New features, known issues, resources, and other current issues are addressed here.
