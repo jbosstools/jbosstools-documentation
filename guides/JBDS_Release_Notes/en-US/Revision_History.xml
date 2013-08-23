@@ -5,7 +5,7 @@
 	<simpara>
 		<revhistory>
 			<revision>
-				<revnumber>4.1.0-1</revnumber>
+				<revnumber>4.1.2-36</revnumber>
 				<date>Fri Aug 23 2013</date>
 				<author>
 					<firstname>Michelle</firstname>
@@ -17,10 +17,24 @@
 						<member>TOOLSDOC-382: Rebuilt for Customer Portal, content unchanged</member>
 					</simplelist>
 				</revdescription>
-			</revision>					
+			</revision>	
+			<revision>
+				<revnumber>4.1.2-35</revnumber>
+				<date>Wed Jul 18 2012</date>
+				<author>
+					<firstname>Anthony</firstname>
+					<surname>Towns</surname>
+					<email></email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>Rebuild for Publican 3.0</member>
+					</simplelist>
+				</revdescription>
+			</revision>							
 			<revision>
 				<revnumber>0-0</revnumber>
-				<date>Fri Aug 26 2011</date>
+				<date>Mon Jan 30 2012</date>
 				<author>
 					<firstname>Isaac</firstname>
 					<surname>Rooskov</surname>
