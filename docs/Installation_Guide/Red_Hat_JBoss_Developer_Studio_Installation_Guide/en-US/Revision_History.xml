@@ -8,6 +8,19 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.0.0-15</revnumber><date>Wed Sep 04 2013</date>
+				<author>
+					<firstname> Michelle</firstname><surname> Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-358: Updated product download instructions following Customer Portal change
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>7.0.0-14</revnumber><date>Thu Aug 15 2013</date>
 				<author>
 					<firstname> Michelle</firstname><surname> Murray</surname><email/>
