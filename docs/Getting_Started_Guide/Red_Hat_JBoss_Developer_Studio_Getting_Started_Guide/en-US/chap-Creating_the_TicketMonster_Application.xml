@@ -52,11 +52,6 @@
 				<para>
 					Navigate to <filename>path/to/jboss-eap-6.x.y-maven-repository</filename> and click <guibutton>OK</guibutton>. JBoss Maven Tools recursively scans the path searching for the Maven repository.
 				</para>
-				<!--<note>
-				<para>
-					If you are using JBoss Application Server 7.1 instead of JBoss Enterprise Application Platform 6.x, you must configure Maven for use with JBoss. Instead of clicking <guibutton>Recognize JBoss Maven Enterprise Repositories</guibutton>, from the <guilabel>Profile ID</guilabel> list select <guilabel>jboss-public-repository</guilabel>.
-				</para>
-			</note> -->
 			</step>
 			<step>
 				<para>
