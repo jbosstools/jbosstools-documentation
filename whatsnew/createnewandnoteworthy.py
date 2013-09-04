@@ -39,6 +39,7 @@ rootnn_dict = {
     'components' : [{ "name" : "website" }]
     }
 
+    #pp.pprint(rootnn_dict)
 rootnn = jira.create_issue(fields=rootnn_dict)
 
 print("created " + rootnn.key)
@@ -49,15 +50,15 @@ components = {
     "BrowserSim" : { "browsersim"},
     "Live Reload" : { "livereload" },
     "Usage Analytics" : { "usage"},
-    "GWT" : { "GWT"},
-    "CDI" : { "CDI"},
+    "GWT" : { "gwt"},
+    "CDI" : { "cdi"},
     "hibernate" : { "hibernate"}, 
     "JBoss ESB" : { "esb"},
     "server" : {  "server", "archives", "jmx" },
-    "jst/jsf": { "jsp/jsf/xml/html source editing", "JSF"},
-    "Seam" : { "Seam 2"},
-    "Visual Editor": { "Visual Page Editor core", "Visual Page Editor Templates"},
-    "Webservices and Rest": { "Webservices"},
+    "jst/jsf": { "jsp/jsf/xml/html source editing", "jsf"},
+    "Seam" : { "seam2"},
+    "Visual Editor": { "visual-page-editor-core", "visual-page-editor-templates"},
+    "Webservices and Rest": { "webservices"},
     "Project Examples": { "project-examples"},
     "Maven": { "maven"},
     "Forge": { "forge"},
@@ -92,6 +93,7 @@ for name, comps in components.iteritems():
         'components' : cms,
     }
 
+    #pp.pprint(cms)
     child = jira.create_issue(fields=rootnn_dict)
     print("created child for " + name +  "->" + child.key)
 
