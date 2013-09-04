@@ -59,17 +59,40 @@
 			</step>
 			<step>
 				<para>
-					From the menu bar click <guimenu>Downloads</guimenu> then, under <guimenu>RED HAT JBOSS MIDDLEWARE</guimenu>, click <guimenu>Downloads</guimenu>.
+					From the menu bar click <guimenu>Downloads</guimenu>.
 				</para>
 			</step>
 			<step>
 				<para>
-					From the <guilabel>Product</guilabel> list, select <guilabel>JBoss Developer Studio</guilabel>.
+					Under <guimenu>Red Hat JBoss Middleware</guimenu>, click <guimenu>Download Software</guimenu>.
 				</para>
+				<figure>
+					<title>Download Red Hat JBoss Middleware Software on the Customer Portal</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/3846.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>Log in to the Customer Portal at <ulink url="https://access.redhat.com">https://access.redhat.com</ulink>. From the menu bar click <guimenu>Downloads</guimenu>. Under <guimenu>Red Hat JBoss Middleware</guimenu>, click <guimenu>Download Software</guimenu>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>
 			</step>
 			<step>
 				<para>
-					From the <guilabel>Version</guilabel> list, select <guilabel>7.0.x</guilabel>.
+					Under <guilabel>Software Downloads</guilabel>, select the following options: 
+					<itemizedlist>
+						<listitem>
+							<para>
+								From the <guilabel>Product</guilabel> list, select <guilabel>JBoss Developer Studio</guilabel>.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								From the <guilabel>Version</guilabel> list, select <guilabel>7.0.x</guilabel>.
+							</para>
+						</listitem>
+					</itemizedlist>
 				</para>
 				<figure>
 					<title>JBoss Developer Studio Downloads Listed on the Customer Portal</title>
@@ -78,7 +101,7 @@
 							<imagedata fileref="images/3358.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>Log in to the Customer Portal at <ulink url="https://access.redhat.com">https://access.redhat.com</ulink>. From the menu bar click <guimenu>Downloads</guimenu> then, under <guimenu>RED HAT JBOSS MIDDLEWARE</guimenu>, click <guimenu>Downloads</guimenu>. From the <guilabel>Product</guilabel> list, select <guilabel>JBoss Developer Studio</guilabel>. From the <guilabel>Version</guilabel> list, select <guilabel>7.0.x</guilabel>.</phrase>
+							<phrase>Under <guilabel>Software Downloads</guilabel>, select the following options: From the <guilabel>Product</guilabel> list, select <guilabel>JBoss Developer Studio</guilabel>. From the <guilabel>Version</guilabel> list, select <guilabel>7.0.x</guilabel>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
