@@ -1,0 +1,76 @@
+CHECKSUM=08af8108f19ab9d2e734c243dafa9f29
+ID = 13882
+# Content spec written by
+# Generated on <date>
+
+# Lines that commence with the # symbol are comments
+
+# The fields below are mandatory
+Title = Red Hat JBoss Developer Studio Installation Guide
+Subtitle = Information for users installing JBoss Developer Studio
+Abstract = This document details how to install and set up JBoss Developer Studio.
+Product = Red Hat JBoss Developer Studio
+Version = 7.0
+#Edition =
+DTD = Docbook 4.5
+Copyright Holder = Red Hat, Inc
+
+# The commented fields below are optional
+
+# Brand = JBoss
+# publican.cfg = [ custom content to append to publican.cfg can be multiline ]
+# pubsnumber =
+# Debug = [0|1|2]
+
+Bug Links = OFF
+# BZProduct =
+# BZComponent =
+# BZVersion =
+# BZURL =
+
+# Output Style =
+
+Revision History = [21657, rev: 506114]
+
+# Indentation is meaningful. Use 2 spaces.
+
+
+[Writer = mmurray, condition = install]
+Chapter: Introduction to Red Hat JBoss Developer Studio
+  About Red Hat JBoss Developer Studio [13337, rev: 489658]
+  Use Cases of JBoss Developer Studio [13338, rev: 489900]
+
+Chapter: System Requirements
+  System Requirements Overview [15789, rev: 489659]
+  Supported Operating Systems and Architectures [13331, rev: 489325]
+  Computer Memory [13538, rev: 489327]
+  Compatible Java Developer Kits [13333, rev: 489660] [R: T-Appendix-JDKs]
+
+Chapter: Install JBoss Developer Studio
+  Install Options [13339, rev: 489395]
+  Install JBoss Developer Studio [13342, rev: 506113]
+  Install JBoss Developer Studio BYOE [13343, rev: 489662]
+
+Chapter: Set Preferences on First Launch after Installing
+  Preferences Options [15790, rev: 489903]
+  Select a Workspace Location [13347, rev: 489482]
+  Set Usage Reporting [13335, rev: 489621]
+  Define Servers for Application Servers Found by Runtime Detection [21662, rev: 489663]
+  Set the Perspective to JBoss [13346, rev: 489622]
+
+#Chapter: Test JBoss Developer Studio
+#  Set Up Runtime Detection [13345]
+
+Chapter: Upgrade from Previous Versions of JBoss Developer Studio
+  Upgrade Methods [13419, rev: 489664]
+  Upgrade JBoss Developer Studio [13415, rev: 489556]
+  Upgrade JBoss Developer Studio BYOE [13417, rev: 489665]
+
+Chapter: Uninstall JBoss Developer Studio
+  Uninstall Methods [13463, rev: 374204]
+  Uninstall JBoss Developer Studio [13344, rev: 489666]
+  Uninstall JBoss Developer Studio BYOE [13341, rev: 489667]
+
+Appendix: Java Developer Kits [21656, rev: 489337] [T-Appendix-JDKs]
+  Determine Default Java Developer Kit of the System [13336, rev: 489668]
+  Install a Java Developer Kit [13334, rev: 489651]

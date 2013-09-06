@@ -1,0 +1,55 @@
+CHECKSUM=779293ee81fdd301c747ca5ebb0e47dd
+ID = 13889
+# Content spec written by
+# Generated on <date>
+
+# Lines that commence with the # symbol are comments
+
+# The fields below are mandatory
+Title = Red Hat JBoss Developer Studio Migration Guide
+Subtitle = Information for users upgrading JBoss Developer Studio
+Abstract = This document details how to upgrade to the most recent release of JBoss Developer Studio.
+Product = Red Hat JBoss Developer Studio
+Version = 7.0
+#Edition =
+DTD = Docbook 4.5
+Copyright Holder = Red Hat, Inc
+
+# The commented fields below are optional
+
+#Brand = JBoss
+# publican.cfg = [ custom content to append to publican.cfg can be multiline ]
+# pubsnumber =
+# Debug = [0|1|2]
+
+Bug Links = OFF
+# BZProduct =
+# BZComponent =
+# BZVersion =
+# BZURL =
+
+# Output Style =
+
+Revision History = [21704, rev: 495345]
+
+# Indentation is meaningful. Use 2 spaces.
+
+
+[Writer = mmurray]
+Chapter: Introduction to Red Hat JBoss Developer Studio
+  About Red Hat JBoss Developer Studio [13337, rev: 489658]
+  Use Cases of JBoss Developer Studio [13338, rev: 489900]
+
+Chapter: Upgrade from Previous Versions of JBoss Developer Studio
+#  Automate Installing [13418]
+  Upgrade Methods [13419, rev: 489664]
+  Upgrade JBoss Developer Studio [13415, rev: 489556]
+  Upgrade JBoss Developer Studio BYOE [13417, rev: 489665]
+#  Section: Install JBoss Developer Studio
+#    Install Options [13339]
+#    Install JBoss Developer Studio [13342]
+#    Install JBoss Developer Studio BYOE [13343]
+
+Chapter: Resolving Problems following Third Party Product Upgrades
+  Change the Version of Eclipse Being Used with JBoss Developer Studio BYOE [13416, rev: 490521]
+  Change the Path of the JVM used to Run JBoss Developer Studio [13420, rev: 490528]
