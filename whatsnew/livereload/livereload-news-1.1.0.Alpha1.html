@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../whatsnew.css" />
+<title>JBoss Tools LiveReload 1.1.0.Alpha1 What's New</title>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-17645367-5' ]);
+	_gaq.push([ '_trackPageview' ]);
+
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+<body>
+	<h1>JBoss Tools LiveReload 1.1.0.Alpha What's New</h1>
+
+    
+	<table border="0" cellpadding="10" cellspacing="0" width="80%">
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>General</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="right"><a name="itemname3"
+				id="itemname3"></a><b>Bug fixes</b></td>
+			<td valign="top">
+				<p>
+					This release of JBoss Tools LiveReload fixes 2 issues reported and fixed with the help of a community member, <a href="https://issues.jboss.org/secure/ViewProfile.jspa?name=tangtheone">Pei-Tang Huang</a>:
+				</p>
+        <ul>
+          <li>When using LiveReload embedded proxy to preview local files with non UTF-8 characters (such as <a href="http://en.wikipedia.org/wiki/CJK_characters">CJK characters</a>), the returned content would contain '?' characters instead of the expected ones. From now, the embedded LiveReload proxy relies on the Eclipse settings applied on the file (or at the project or workspace level) to read the content.</li>
+          <li>As a side effect, when accessing workspace files with special characters, the value of the "Content-Length" header in the HTTP response was not correctly calculated and Chrome would simply not process the response body, eventually leaving the user with a blank page.
+        </ul>
+        <p><small>Related JIRA: <a href="https://issues.jboss.org/browse/JBIDE-15317">JBIDE-15317</a> and
+           <a href="https://issues.jboss.org/browse/JBIDE-15430">JBIDE-15430</a></small></p>
+      
+			</td>
+
+		</tr>
+	</table>
+
+</body>
+
+</html>
+
+
