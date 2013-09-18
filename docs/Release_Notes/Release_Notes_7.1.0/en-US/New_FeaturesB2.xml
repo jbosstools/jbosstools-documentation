@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes_7.0.0.ent">
+%BOOK_ENTITIES;
+]>
+<chapter>
+	<title>New Features</title>
+
+	<para><remark>WILL NEED UPDATING CLOSER TO RELEASE</remark></para>
+
+	<para>This release of JBoss Developer Studio includes new features to enhance and extend its functionality:</para>
+
+	<variablelist>
+		<title></title>			
+		<!--<varlistentry>
+			<term>Project Examples</term>
+			<listitem><para>The project examples offered in JBoss Central can be used when offline. The examples and their dependencies can be pre-cached during an online session and then an offline mode can be enabled. Pre-caching and offline mode can be accessed in the IDE <guimenu>Preferences</guimenu>, under <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Project Examples</guilabel>.</para></listitem>
+		</varlistentry> -->
+		<varlistentry>
+			<term>Forge Tools</term>
+			<listitem><para>The Forge wizards have been relocated and can be found by clicking <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu>&rarr;<guimenu>Other</guimenu> and expanding <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Forge</guilabel>. The <guilabel>Entities From Tables</guilabel> wizard provides options to create a project if one does not already exist and browse for the driver JAR file and the driver classes. The <guilabel>Scaffold UI From Entities</guilabel> wizard has been simplified and provides the option to choose between JavaServer Faces and AngularJS implementations. A new wizard has been introduced that generates REST endpoints for entities. Progress bars have been added to all of the wizards to indicate their progress.</para></listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>Maven Tools</term>
+			<listitem><para>More information is provided about dependencies when a project is converted into a Maven project. After double-clicking a dependency to change the scope, non-default scopes and optional attributes for compile and runtime scopes are explicitly displayed in the "Maven Dependency" column of the dependency identification page.</para></listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>LiveReload Tools</term>
+			<listitem><para>This feature is available for deployed resources, as well as those in the workspace. Prompts have been introduced to assist in automatically creating and starting LiveReload servers as needed. The <filename>livereload.js</filename> script can be automatically injected into HTML pages, negating the need for LiveReload browser extensions. Additionally, you can experience applications using LiveReload on external devices with the <guilabel>Allow Remote Connections</guilabel> feature. In conjunction with this, LiveReload Tools has introduced QR codes that can be scanned in order to simplify viewing on external devices.</para></listitem>
+		</varlistentry>		
+		<varlistentry>
+			<term>Web Service Tools</term>
+			<listitem><para>The WS Tester has <guimenu>GET</guimenu> as the default test type, where previously it was JAX-WS. This is in alignment with the continuing promotion of RESTful services.</para></listitem>
+		</varlistentry>			
+		<varlistentry>
+			<term>BrowserSim</term>
+			<listitem><para>The BrowserSim restriction requiring 64-bit Microsoft Windows operating systems to use 32-bit JBoss Developer Studio installations is lifted because the JVM with which to launch BrowserSim can be specified independently in the IDE <guimenu>Preferences</guimenu>, under <guilabel>BrowserSim/CordovaSim</guilabel>. This enables BrowserSim to be run with 32-bit JVMs from within 64-bit JBoss Developer Studio installations on 64-bit Microsoft Windows operating systems. Note that 32-bit JVM choice is limited to Oracle 32-bit JRE 1.6, JDK 1.6, or JDK 1.7 on Microsoft Windows operating systems because Oracle 32-bit JRE 1.7 is incompatible with Apple Safari.</para></listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>jQuery Mobile Tools</term>
+			<listitem><para>Five additional widgets, and their associated wizards, have been added to the jQuery Mobile palette: form, image, video, audio, and label.</para></listitem>
+		</varlistentry>						
+		<varlistentry>
+			<term>OpenShift Tools</term>
+			<listitem><para>The OpenShift Application wizard has been extended in line with OpenShift: new applications can be created using existing git repositories hosted at GitHub, the behavior of automatic Maven builds when resources are pushed to OpenShift can be specified, and necessary information relating to the application type is displayed upon wizard completion. OpenShift uses markers to enable and disable features, such as automatic Maven builds, and actions to view and set markers have been introduced by OpenShift Tools. Cartridge identifiers are shown in addition to verbose cartridge names in IDE items such as the OpenShift Application wizard and the OpenShift Explorer tab.</para></listitem>
+		</varlistentry>						
+	</variablelist>
+
+</chapter>
+

@@ -1,0 +1,8 @@
+<!ENTITY PRODUCT "Red Hat JBoss Developer Studio">
+<!ENTITY BOOKID "Release_Notes_7.1.0">
+<!ENTITY YEAR "2013">
+<!ENTITY TITLE "Release Notes 7.1.0">
+<!ENTITY HOLDER "Red Hat, Inc">
+<!ENTITY BZURL "https://bugzilla.redhat.com/">
+<!ENTITY BZCOMPONENT "documentation">
+<!ENTITY BZPRODUCT "Red Hat JBoss Developer Studio">
