@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Installation_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<appendix id="appe-Java_Developer_Kits">
+	<appendixinfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.1.z
+			</keyword>
+		</keywordset>
+	</appendixinfo>
+	<title>Java Developer Kits</title>
+	<para>
+		It is important to use a Java developer kit that is supported by this release of JBoss&nbsp;Developer&nbsp;Studio. The aim of this section is to assist you to do the following: 
+		<itemizedlist>
+			<listitem>
+				<para>
+					Determine the Java developer kit used by your system
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Install a supported Java developer kit
+				</para>
+			</listitem>
+		</itemizedlist>
+	</para>
+	<para role="RoleCreateBugPara">
+		<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22586-537638+%5BLatest%5D&amp;cf_build_id=22586-537638+17+Sep+2013+10%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+Java+Developer+Kits%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+	</para>
+	<section id="Determine_Default_Java_Developer_Kit_of_the_System1" remap="TID_22585">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.1.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Determine Default Java Developer Kit of the System</title>
+		<para>
+			To determine if your system has a Java developer kit set up for use and the version, follow the procedure below which is suitable for all operating systems.
+		</para>
+		<!-- Info from http://introcs.cs.princeton.edu/java/15inout/windows-cmd.html -->
+		<procedure>
+			<title>Determine Default Java Developer Kit of the System</title>
+			<step>
+				<para>
+					On the command line, enter <command>javac -version</command>. The output shows the version of the Java compiler being used as the default of the system and indicates that the system has a Java developer kit set up for use.
+				</para>
+				<important>
+					<para>
+						If a message to the effect of <command>javac not found</command> is returned, the system does not have a Java compiler set up for use. This indicates that either the system does not have a Java developer kit installed or that the installed Java developer kit is not set up for use.
+					</para>
+				</important>
+			</step>
+			<step>
+				<para>
+					On the command line, enter <command>java -version</command>. The output preceding <command>Runtime Environment</command> identifies which Java distribution is being used as the default Java runtime environment (JRE) and the output after <command>java version</command> identifies the version number of the JRE.
+				</para>
+				<important>
+					<para>
+						If the version numbers of the Java compiler and JRE are different, the system is using a Java compiler and JRE from different Java distributions as the default. This should be rectified so that the Java compiler and JRE are from the same Java developer kit.
+					</para>
+				</important>
+			</step>
+		</procedure>
+		<para>
+			Sample output for various Java developer kits is displayed below.
+		</para>
+		<example>
+			<title>Sample Output from Identifying the Default Java Developer Kit of the System</title>
+			<para>
+				Output for OpenJDK Java developer kit 1.7.0: 
+				<screen>
+$ javac  -version
+javac 1.7.0_09
+$ java -version
+java version "1.7.0_09-icedtea"
+OpenJDK Runtime Environment (fedora-2.3.5.fc17-x86_64)
+OpenJDK 64-Bit Server VM (build 23.2-b09, mixed mode)
+			</screen> Output for Oracle JDK 1.6.0: 
+				<screen>
+$ javac -version
+javac 1.6.0_38
+$ java -version
+java version "1.6.0_38"
+Java(TM) SE Runtime Environment (build 1.6.0_38-b05)
+Java HotSpot(TM) 64-Bit Server VM (build 20.13-b02, mixed mode)
+			</screen> Output for OpenJDK JRE 1.7.0 (no Java compiler): 
+				<screen>
+$ javac -version
+bash: /usr/bin/javac: No such file or directory
+$ java -version
+java version "1.7.0_09-icedtea"
+OpenJDK Runtime Environment (fedora-2.3.5.fc17-x86_64)
+OpenJDK Server VM (build 23.2-b09, mixed mode)
+			</screen>
+			</para>
+		</example>
+		<para role="RoleCreateBugPara">
+			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22585-537638+%5BLatest%5D&amp;cf_build_id=22585-537638+17+Sep+2013+10%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+Determine+Default+Java+Developer+Kit+of+the+System%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+		</para>
+	</section>
+	<section id="Install_a_Java_Developer_Kit1" remap="TID_22587">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.1.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Install a Java Developer Kit</title>
+		<para>
+			The procedures given here guide you through how to install a new Java developer kit, either OpenJDK or Oracle.
+		</para>
+		<important>
+			<para>
+				Each Java developer kit has its own system requirements and these must be checked before starting the installation process.
+			</para>
+		</important>
+		<procedure>
+			<title>Install a OpenJDK Java developer kit</title>
+			<step>
+				<para>
+					Complete the appropriate step for your operating system:
+				</para>
+				<stepalternatives>
+					<step>
+						<para>
+							For Red Hat Enterprise Linux and Fedora, on the command line enter 
+							<screen>sudo yum install java-1.7.0-openjdk-devel</screen>
+						</para>
+					</step>
+					<step>
+						<para>
+							For Ubuntu, on the command line enter 
+							<screen>sudo apt-get install openjdk-7-jdk</screen>
+						</para>
+					</step>
+				</stepalternatives>
+			</step>
+			<!--<step>
+			<para>
+				To check whether the defaults of the system has been automatically updated, on the command line enter 
+				<screen>java -version
+javac -version</screen>If the output does not correspond to the newly installed Java developer kit, continue with <xref linkend="Set_JDK"/>.
+			</para>
+		</step> -->
+		</procedure>
+		<procedure>
+			<title>Install a Oracle JDK</title>
+			<step>
+				<para>
+					To download a JDK, go to <ulink url="http://www.oracle.com/technetwork/java/javase/downloads/index.html">http://www.oracle.com/technetwork/java/javase/downloads/index.html</ulink> on the Oracle website. Identify the Java SE version you want and follow the instructions to download the appropriate file for your operating system and architecture.
+				</para>
+				<note>
+					<para>
+						For Linux distributions, both a <filename>.rpm</filename> and a <filename>.tar.gz</filename> file will be available for download. Installing with an RPM binary (<filename>.rpm</filename>) file requires root access but the archive binary (<filename>tar.gz</filename>) file can be installed by all users.
+					</para>
+				</note>
+			</step>
+			<step>
+				<para>
+					To install the JDK from the downloaded file, complete the appropriate steps for your operating system:
+				</para>
+				<stepalternatives>
+					<step>
+						<para>
+							For Linux distributions and the <filename>.tar.gz</filename> file:
+						</para>
+						<substeps>
+							<step>
+								<para>
+									Move the <filename>.tar.gz</filename> file to the directory where you want to install the JDK. For example, Java distributions are typically stored in <filename>/usr/java/</filename>.
+								</para>
+							</step>
+							<step>
+								<para>
+									On the command line, navigate to the location of the <filename>.tar.gz</filename> file and enter 
+									<screen>tar zxvf jdk-<replaceable>&lt;version&gt;</replaceable>-linux-<replaceable>&lt;architecture&gt;</replaceable>.tar.gz</screen> replacing <replaceable>&lt;version&gt;</replaceable> and <replaceable>&lt;architecture&gt;</replaceable> as appropriate.
+								</para>
+							</step>
+							<step>
+								<para>
+									Once complete, the <filename>.tar.gz</filename> file can be deleted to save disk space.
+								</para>
+							</step>
+						</substeps>
+					</step>
+					<step>
+						<para>
+							For Linux distributions and the <filename>.rpm</filename> file:
+						</para>
+						<substeps>
+							<!--<step><para>Navigate to the directory containing the <filename>.rpm</filename>.</para></step>-->
+							<step>
+								<para>
+									On the command line, navigate to the location of the <filename>.rpm</filename> file and enter 
+									<screen>sudo rpm -ivh jdk-<replaceable>&lt;version&gt;</replaceable>-linux-<replaceable>&lt;architecture&gt;</replaceable>.rpm</screen> replacing <replaceable>&lt;version&gt;</replaceable> and <replaceable>&lt;architecture&gt;</replaceable> as appropriate.
+								</para>
+							</step>
+							<step>
+								<para>
+									Once complete, the <filename>.rpm</filename> file can be deleted to save disk space.
+								</para>
+							</step>
+						</substeps>
+					</step>
+					<step>
+						<para>
+							For OS X operating systems:
+						</para>
+						<!-- Info from http://docs.oracle.com/javase/7/docs/webnotes/install/mac/mac-jdk.html -->
+						<substeps>
+							<step>
+								<para>
+									Double-click the <filename>.dmg</filename> file.
+								</para>
+							</step>
+							<step>
+								<para>
+									In the open Finder window, double-click the package icon and follow the installer instructions.
+								</para>
+							</step>
+							<step>
+								<para>
+									Once complete, the <filename>.dmg</filename> file can be deleted to save disk space.
+								</para>
+							</step>
+						</substeps>
+					</step>
+					<step>
+						<para>
+							For Microsoft Windows operating systems:
+						</para>
+						<substeps>
+							<step>
+								<para>
+									Double-click the <filename>.exe</filename> and follow the installer instructions.
+								</para>
+							</step>
+							<step>
+								<para>
+									Once complete, the <filename>.exe</filename> file can be deleted to save disk space.
+								</para>
+							</step>
+						</substeps>
+					</step>
+				</stepalternatives>
+			</step>
+			<!--		<step>
+			<para>
+				To check whether the defaults of the system have been automatically updated, on the command line enter 
+				<screen>java -version
+javac -version</screen>If the output does not correspond to the newly installed Java developer kit, continue with <xref linkend="Set_JDK"/>.
+			</para>
+		</step> -->
+		</procedure>
+		<!--<procedure id="Set_JDK">
+		<title>Set Up the Default Java Developer Kit of the System</title>
+		<step>
+			<para>
+				Complete the appropriate steps for your operating system:
+			</para>
+			<stepalternatives>
+				<step>
+					<para>
+						For Red Hat Enterprise Linux, Fedora and Ubuntu:
+					</para>
+					<substeps>
+						<step>
+							<para>
+								To specify which Java virtual machine (JVM) to use, on the command line enter 
+								<screen>sudo alternatives -config java</screen> and select the number corresponding to the JVM of the desired Java developer kit.
+							</para>
+						</step>
+						<step>
+							<para>
+								To specify which Java compiler to use, on the command line enter 
+								<screen>sudo alternatives -config javac</screen> and select the number corresponding to the Java compiler of the desired Java developer kit.
+							</para>
+						</step>
+						<step>
+							<para>
+								To set the <command>JAVA_HOME</command> variable and add it to the <command>PATH</command> variable, open the behavior file for your interactive shell. For example, if you are using a bash shell then the behavior file is <filename>.bashrc</filename>, which can be found in your home directory. Add the following two lines to the file: 
+								<screen>export JAVA_HOME=<replaceable>/usr/java/jdk1.6.0_38</replaceable>
+export PATH=$PATH:$JAVA_HOME/bin</screen> replacing <replaceable>/usr/java/jdk1.6.0_38</replaceable> with the location of your Java developer kit installation. Any changes to the file take effect when a new command line window is opened.
+							</para>
+						</step>
+					</substeps>
+				</step>
+				<step>
+					<para>
+						For OS X:
+					</para> -->
+		<!-- Info from http://java.about.com/od/gettingstarted/a/javamacosx.htm -->
+		<!--					<substeps>
+						<step>
+							<para>
+								Click <guimenu>Finder</guimenu>&rarr;<guimenu>Applications</guimenu>&rarr;<guimenu>Utilities</guimenu>&rarr;<guimenu>Java</guimenu>&rarr;<guimenu>Java Preferences</guimenu>.
+							</para>
+						</step>
+						<step>
+							<para>
+								Under the <guilabel>General</guilabel> tab, drag the Java version you want to the top of the list.
+							</para>
+						</step>
+					</substeps>
+				</step>
+				<step>
+					<para>
+						For Microsoft Windows operating systems:
+					</para> -->
+		<!-- Info from http://docs.oracle.com/javase/7/docs/webnotes/install/windows/jdk-installation-windows.html -->
+		<!--<substeps>
+						<step>
+							<para>
+								Click <guimenu>Start</guimenu>&rarr;<guimenu>Control Panel</guimenu>&rarr;<guimenu>System</guimenu>.
+							</para>
+						</step>
+						<step>
+							<para>
+								Click <guimenu>Advanced</guimenu>&rarr;<guimenu>Environment Variables</guimenu>.
+							</para>
+						</step>
+						<step>
+							<para>
+								Add the location of the <filename>bin</filename> folder of the JDK installation to the <command>PATH</command> variable in <guilabel>System Variables</guilabel>. For example, <filename>C:\Program File\Java\jdk1.7.0\bin</filename>.
+							</para>
+						</step>
+					</substeps>
+				</step>
+			</stepalternatives>
+		</step>
+		<step>
+			<para>
+				To check that the defaults of the system have been automatically updated, on the command line enter 
+				<screen>java -version
+javac -version</screen>
+			</para>
+		</step>
+	</procedure>
+	<note>
+		<para>
+			When setting the java and javac locations on Linux distributions, the alternatives command may not show the newly installed Java developer kit. If this is the case, you need to add the locations of the JVM and Java compiler individually and run the <command>alternatives -config</command> command again. To add the location of the JVM, on the command line enter the following on one line 
+			<screen>sudo alternatives -install /usr/bin/java java /usr/java/jdk1.7.0_11/bin/java 1000</screen> and to add the location of the Java compiler enter 
+			<screen>sudo alternatives -install /usr/bin/javac javac /usr/java/jdk1.7.0_11/bin/javac 1000</screen>
+		</para>
+	</note> -->
+		<para role="RoleCreateBugPara">
+			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22587-537638+%5BLatest%5D&amp;cf_build_id=22587-537638+17+Sep+2013+10%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+Install+a+Java+Developer+Kit%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+		</para>
+	</section>
+</appendix>

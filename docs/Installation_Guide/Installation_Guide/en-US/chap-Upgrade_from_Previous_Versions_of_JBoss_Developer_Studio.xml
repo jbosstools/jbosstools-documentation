@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Installation_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Upgrade_from_Previous_Versions_of_JBoss_Developer_Studio">
+	<title>Upgrade from Previous Versions of JBoss Developer Studio</title>
+	<section id="Upgrade_Methods1" remap="TID_22593">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.1.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Upgrade Methods</title>
+		<para>
+			The method for upgrading JBoss&nbsp;Developer&nbsp;Studio depends on whether you are using JBoss&nbsp;Developer&nbsp;Studio or JBoss&nbsp;Developer&nbsp;Studio BYOE.
+		</para>
+		<warning>
+			<para>
+				Before upgrading, you are advised to back up your workspace. In addition to your project files, your workspace contains meta-data about customized setting and preferences for JBoss&nbsp;Developer&nbsp;Studio or Eclipse. To back up your workspace, either copy the workspace directory to a backup location or save it as a compressed file.
+			</para>
+		</warning>
+		<para role="RoleCreateBugPara">
+			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22593-537650+%5BLatest%5D&amp;cf_build_id=22593-537650+17+Sep+2013+10%3A33+en-US+%5BLatest%5D&amp;comment=Title%3A+Upgrade+Methods%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+		</para>
+	</section>
+	<section id="Upgrade_JBoss_Developer_Studio1" remap="TID_22604">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.1.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Upgrade JBoss Developer Studio</title>
+		<para>
+			It is not possible to upgrade an existing JBoss&nbsp;Developer&nbsp;Studio BYOE to JBoss&nbsp;Developer&nbsp;Studio 7.0 BYOE because they support different versions of Eclipse. For example, JBoss&nbsp;Developer&nbsp;Studio 6.0 BYOE supports Eclipse Juno (4.2) but JBoss&nbsp;Developer&nbsp;Studio 7.0 BYOE supports Eclipse Kepler (4.3).
+		</para>
+		<para>
+			To use JBoss&nbsp;Developer&nbsp;Studio 7.0 BYOE, you must upgrade to Eclipse Kepler and install JBoss&nbsp;Developer&nbsp;Studio 7.0 BYOE from Eclipse Marketplace.
+		</para>
+		<para role="RoleCreateBugPara">
+			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22604-537650+%5BLatest%5D&amp;cf_build_id=22604-537650+17+Sep+2013+10%3A33+en-US+%5BLatest%5D&amp;comment=Title%3A+Upgrade+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+		</para>
+	</section>
+	<section id="Upgrade_JBoss_Developer_Studio_BYOE1" remap="TID_22601">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.1.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Upgrade JBoss Developer Studio BYOE</title>
+		<para>
+			It is not possible to upgrade an existing JBoss&nbsp;Developer&nbsp;Studio installation to JBoss&nbsp;Developer&nbsp;Studio 7.0 because they are based on different versions of Eclipse. For example, JBoss&nbsp;Developer&nbsp;Studio 6.0 is based on Eclipse Juno (4.2) but JBoss&nbsp;Developer&nbsp;Studio 7.0 is based on Eclipse Kepler (4.3).
+		</para>
+		<para>
+			To use JBoss&nbsp;Developer&nbsp;Studio 7.0, you must download and run the universal installer available from the Customer Portal at <ulink url="https://access.redhat.com"/>.
+		</para>
+		<note>
+			<para>
+				You can use different versions of JBoss&nbsp;Developer&nbsp;Studio alongside each other by installing them in different directories.
+			</para>
+		</note>
+		<para role="RoleCreateBugPara">
+			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22601-537650+%5BLatest%5D&amp;cf_build_id=22601-537650+17+Sep+2013+10%3A33+en-US+%5BLatest%5D&amp;comment=Title%3A+Upgrade+JBoss+Developer+Studio+BYOE%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+		</para>
+	</section>
+</chapter>

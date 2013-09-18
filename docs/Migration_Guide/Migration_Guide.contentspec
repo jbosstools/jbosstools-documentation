@@ -1,0 +1,39 @@
+ID = 22436
+# Content spec written by
+# Generated on <date>
+# Lines that commence with the # symbol are comments
+# The fields below are mandatory
+Title = Migration Guide
+Subtitle = Information for users upgrading JBoss Developer Studio
+Abstract = This document details how to upgrade to the most recent release of JBoss Developer Studio.
+Product = Red Hat JBoss Developer Studio
+Version = 7.1
+#Edition =
+DTD = Docbook 4.5
+Copyright Holder = Red Hat, Inc
+# The commented fields below are optional
+Brand = JBoss
+publican.cfg = [show_remarks: 1]
+# pubsnumber =
+# Debug = [0|1|2]
+# Bug Links = On
+# BZProduct =
+# BZComponent =
+# BZVersion =
+# BZURL =
+# Output Style =
+Revision History = [22614]
+# Indentation is meaningful. Use 2 spaces.
+
+Chapter: Introduction to Red Hat JBoss Developer Studio
+  About Red Hat JBoss Developer Studio [22589]
+  Use Cases of JBoss Developer Studio [22588]
+
+Chapter: Upgrade from Previous Versions of JBoss Developer Studio
+  Upgrade Methods [22593]
+  Upgrade JBoss Developer Studio [22604]
+  Upgrade JBoss Developer Studio BYOE [22601]
+
+Chapter: Resolving Problems following Third Party Product Upgrades
+  Change the Version of Eclipse Being Used with JBoss Developer Studio BYOE [22615]
+  Change the Path of the JVM used to Run JBoss Developer Studio [22616]

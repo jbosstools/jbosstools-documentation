@@ -1,0 +1,67 @@
+ID = 22435
+# Content spec written by mmurray
+# Generated on Thu 12 Sep 2013
+# Lines that commence with the # symbol are comments
+# The fields below are mandatory
+Title = Installation Guide
+Subtitle = Information for users installing JBoss Developer Studio
+Abstract = This document details how to install and set up JBoss Developer Studio.
+Product = Red Hat JBoss Developer Studio
+Version = 7.1
+#Edition =
+DTD = Docbook 4.5
+Copyright Holder = Red Hat, Inc
+# The commented fields below are optional
+Brand = JBoss
+publican.cfg = [show_remarks: 1]
+# pubsnumber =
+# Debug = [0|1|2]
+# Bug Links = On
+# BZProduct =
+# BZComponent =
+# BZVersion =
+# BZURL =
+# Output Style =
+Revision History = [22583]
+# Indentation is meaningful. Use 2 spaces.
+
+[condition = install]
+Chapter: Introduction to Red Hat JBoss Developer Studio
+  About Red Hat JBoss Developer Studio [22589]
+  Use Cases of JBoss Developer Studio [22588]
+
+Chapter: System Requirements
+  System Requirements Overview [22590]
+  Supported Operating Systems and Architectures [22598]
+  Computer Memory [22597]
+  Compatible Java Developer Kits [22591]
+    [Refer-to:
+      Java Developer Kits [T-Appendix-JDKs]]
+
+Chapter: Install JBoss Developer Studio
+  Install Options [22599]
+  Install JBoss Developer Studio [22602]
+  Install JBoss Developer Studio BYOE [22605]
+
+Chapter: Set Preferences on First Launch after Installing
+  Preferences Options [22596]
+  Select a Workspace Location [22582]
+  Set Usage Reporting [22584]
+  Define Servers for Application Servers Found by Runtime Detection [22592]
+  Set the Perspective to JBoss [22603]
+#Chapter: Test JBoss Developer Studio
+#  Set Up Runtime Detection [N, Task]
+
+Chapter: Upgrade from Previous Versions of JBoss Developer Studio
+  Upgrade Methods [22593]
+  Upgrade JBoss Developer Studio [22604]
+  Upgrade JBoss Developer Studio BYOE [22601]
+
+Chapter: Uninstall JBoss Developer Studio
+  Uninstall Methods [22600]
+  Uninstall JBoss Developer Studio [22594]
+  Uninstall JBoss Developer Studio BYOE [22595]
+
+Appendix: Java Developer Kits [22586] [T-Appendix-JDKs]
+  Determine Default Java Developer Kit of the System [22585]
+  Install a Java Developer Kit [22587]
