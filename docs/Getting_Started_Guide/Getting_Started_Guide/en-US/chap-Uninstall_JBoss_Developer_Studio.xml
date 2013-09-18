@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Getting_Started_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Uninstall_JBoss_Developer_Studio">
+	<title>Uninstall JBoss Developer Studio</title>
+	<section id="Uninstall_JBoss_Developer_Studio1" remap="TID_22594">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.1.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Uninstall JBoss Developer Studio</title>
+		<procedure>
+			<title>Uninstall with the Uninstaller</title>
+			<step>
+				<para>
+					Ensure JBoss&nbsp;Developer&nbsp;Studio is not running.
+				</para>
+			</step>
+			<step>
+				<para>
+					On the command line, navigate to <filename>path/to/JBoss&nbsp;Developer&nbsp;Studio/Uninstaller</filename>.
+				</para>
+			</step>
+			<step>
+				<para>
+					On the command line, enter 
+					<screen>java -jar uninstaller.jar</screen>
+					<note>
+						<para>
+							Alternatively, to start the uninstaller you may be able to double-click the <filename>uninstaller.jar</filename> file.
+						</para>
+					</note>
+				</para>
+			</step>
+			<step>
+				<para>
+					To remove the entire JBoss&nbsp;Developer&nbsp;Studio installation directory, select the <guilabel>Force the deletion</guilabel> check box. If this is not selected, JBoss&nbsp;Developer&nbsp;Studio is uninstalled but some files are left behind in the installation directory.
+				</para>
+			</step>
+			<step>
+				<para>
+					Click <guibutton>Uninstall</guibutton>.
+				</para>
+			</step>
+			<step>
+				<para>
+					Once the progress bar shows <guilabel>Finished</guilabel>, click <guibutton>Quit</guibutton> to close the <application>Uninstaller</application> window.
+				</para>
+				<figure>
+					<title>Uninstaller in Finished State</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/3355.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>Once the progress bar shows <guilabel>Finished</guilabel>, click <guibutton>Quit</guibutton> to close the <application>Uninstaller</application> window.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>
+			</step>
+		</procedure>
+		<para role="RoleCreateBugPara">
+			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22594-537662+%5BLatest%5D&amp;cf_build_id=22594-537662+17+Sep+2013+10%3A51+en-US+%5BLatest%5D&amp;comment=Title%3A+Uninstall+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+		</para>
+	</section>
+</chapter>

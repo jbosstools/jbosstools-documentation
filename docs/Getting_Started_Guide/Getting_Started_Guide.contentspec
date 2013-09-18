@@ -1,0 +1,62 @@
+ID = 22437
+# Content spec written by
+# Generated on <date>
+# Lines that commence with the # symbol are comments
+# The fields below are mandatory
+Title = Getting Started Guide
+Subtitle = Information for first time users
+Abstract = This document details how to install JBoss Developer Studio and guides you through creating an application using some of JBoss Developer Studio's tools.
+Product = Red Hat JBoss Developer Studio
+Version = 7.1
+#Edition = 7.1.0 Beta1
+DTD = Docbook 4.5
+Copyright Holder = Red Hat, Inc
+# The commented fields below are optional
+Brand = JBoss
+publican.cfg = [show_remarks: 1]
+# pubsnumber =
+# Debug = [0|1|2]
+# Bug Links = On
+# BZProduct =
+# BZComponent =
+# BZVersion =
+# BZURL =
+# Output Style =
+Revision History = [22621]
+# Indentation is meaningful. Use 2 spaces.
+
+[condition = gsg]
+Chapter: Introduction to Red Hat JBoss Developer Studio
+  About Red Hat JBoss Developer Studio [22589]
+  Use Cases of JBoss Developer Studio [22588]
+
+Chapter: Getting Started with JBoss Developer Studio
+  About Getting Started [22633]
+
+Chapter: Install JBoss Developer Studio
+  Installation Assumptions [22631]
+  Install JBoss Developer Studio [22602]
+  Select a Workspace Location [22582]
+  Set Usage Reporting [22584]
+
+Chapter: Introduction to the TicketMonster Application
+  About the TicketMonster Application [22620]
+  Tutorial Outline [22632]
+  Tutorial Assumptions [22619]
+
+Chapter: Creating the TicketMonster Application
+  Configure Maven [22623]
+  Set Up a Server Using Runtime Detection [22624]
+  Create a Java EE Web Project Using JBoss Central [22626]
+#  Exploring the Project Files
+  Add an Entity Using Forge Tools [22628]
+  Add an Entity Using Hibernate Tools [22617]
+  Prepare Event Records to Populate the Database [22630]
+  Deploy the Application using JBoss Server Tools [22625]
+  Access and Query the Database [22627]
+  Add a RESTful Web Service [22622]
+  Add a User Interface Optimized for Mobile Devices [22618]
+  Test the Mobile User Interface Using BrowserSim [22629]
+
+Chapter: Uninstall JBoss Developer Studio
+  Uninstall JBoss Developer Studio [22594]

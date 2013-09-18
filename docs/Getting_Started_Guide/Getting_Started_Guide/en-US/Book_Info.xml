@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE bookinfo PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Getting_Started_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<bookinfo id="book-Getting_Started_Guide-Getting_Started_Guide">
+	<title>Getting Started Guide</title>
+	<subtitle>Information for first time users</subtitle>
+	<productname>Red Hat JBoss Developer Studio</productname>
+	<productnumber>7.1</productnumber>
+		<pubsnumber>1</pubsnumber>
+	<abstract>
+		<para>
+			This document details how to install JBoss Developer Studio and guides you through creating an application using some of JBoss Developer Studio's tools.
+		</para>
+	</abstract>
+
+	
+	<xi:include href="Legal_Notice.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<xi:fallback xmlns:xi="http://www.w3.org/2001/XInclude">
+		<xi:include href="Common_Content/Legal_Notice.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	</xi:fallback>
+</xi:include>
+	<xi:include href="Author_Group.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+</bookinfo>
