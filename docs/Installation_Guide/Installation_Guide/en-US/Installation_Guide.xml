@@ -13,5 +13,6 @@
 	<xi:include href="chap-Upgrade_from_Previous_Versions_of_JBoss_Developer_Studio.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="chap-Uninstall_JBoss_Developer_Studio.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="appe-Java_Developer_Kits.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="appe-Supplementary_Installation_Procedures.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="Revision_History.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </book>

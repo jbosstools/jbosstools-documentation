@@ -55,7 +55,7 @@ function mvnmake {
 	
 	#make maven version
 	echo '[INFO] Making maven version'
-	csprocessor build 22436 --flatten --format jDocBook
+	csprocessor build 22436 --flatten --format jDocBook --hide-bug-links
 	unzip Migration_Guide.zip
 	rm Migration_Guide.zip
 	sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Migration_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Migration_Guide/en-US/Author_Group.xml

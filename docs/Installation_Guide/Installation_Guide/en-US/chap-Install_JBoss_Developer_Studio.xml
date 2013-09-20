@@ -23,6 +23,9 @@
 		<para>
 			Alternatively, if you already have Eclipse on your system you may prefer to install JBoss&nbsp;Developer&nbsp;Studio BYOE. This option installs JBoss&nbsp;Developer&nbsp;Studio in Eclipse.
 		</para>
+		<para>
+			The primary installation method for JBoss Developer Studio and JBoss Developer Studio BYOE is via the interactive user interfaces of the universal installer and Eclipse, respectively. For information about the secondary installation method via scripts see <xref linkend="Install_JBoss_Developer_Studio_via_Script"/>.
+		</para>
 	</section>
 	<section id="Install_JBoss_Developer_Studio1" remap="TID_22602">
 		<sectioninfo>
@@ -34,19 +37,16 @@
 		</sectioninfo>
 		<title>Install JBoss Developer Studio</title>
 		<para>
-			A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Customer Service Portal. 
+			A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Customer Portal. 
 		</para>
 		<para>
-			Alternatively, the source code is also available as a <filename>.zip</filename> file at the same location. You can use this source code to build the universal installer yourself and then use that to install JBoss&nbsp;Developer&nbsp;Studio. Maven must be installed to build the universal installer from the source code.
-		</para>
-		<para>
-			Both options are detailed in the procedure below.
+			Alternatively, the source code is also available as a <filename>.zip</filename> file at the same location. You can use this source code to build the universal installer yourself and then use that to install JBoss&nbsp;Developer&nbsp;Studio. For instructions for building the universal installer see <xref linkend="Build_the_Universal_Installer_from_Source"/>.
 		</para>
 		<procedure>
 			<title>Install with the Universal Installer</title>
 			<step>
 				<para>
-					Log in to the Customer Portal at <ulink url="https://access.redhat.com">https://access.redhat.com</ulink>.
+					Log into the Customer Portal at <ulink url="https://access.redhat.com">https://access.redhat.com</ulink>.
 				</para>
 			</step>
 			<step>
@@ -100,39 +100,8 @@
 			</step>
 			<step>
 				<para>
-					Complete the appropriate step for your chosen install option:
+					From the table click <guibutton>Download</guibutton> for the <filename>Red Hat JBoss Developer Studio 7.0.x Stand Alone Universal Binary</filename> download file. This downloads the universal installer <filename>.jar</filename> file.
 				</para>
-				<stepalternatives>
-					<step>
-						<para>
-							For installing from the provided universal installer, from the table click <guibutton>Download</guibutton> for the <filename>Red Hat JBoss Developer Studio 7.0.x Stand Alone Universal Binary</filename> download file. This downloads the universal installer <filename>.jar</filename> file.
-						</para>
-					</step>
-					<step>
-						<para>
-							For installing from a source-built universal installer, follow these steps:
-						</para>
-						<substeps>
-							<step>
-								<para>
-									From the table, click <guibutton>Download</guibutton> for the <filename>Red Hat JBoss Developer Studio 7.0.x Source Code</filename> download file. This downloads the sources <filename>.zip</filename> file.
-								</para>
-							</step>
-							<step>
-								<para>
-									On the command line, navigate to <filename>path/to/.zip</filename> and enter 
-									<screen>unzip jbdevstudio-product-sources-7.0.<replaceable>x.build_version</replaceable>.zip</screen> where <replaceable>x.build_version</replaceable> is substituted to match the name of the downloaded file. The archive is extracted to a <filename>devstudio</filename> directory.
-								</para>
-							</step>
-							<step>
-								<para>
-									To build the universal installer, on the command line navigate to <filename>devstudio/product</filename> and enter 
-									<screen>mvn clean install</screen> Building takes some time to complete, after which the universal installer <filename>.jar</filename> file is located in <filename>installer/target/</filename>.
-								</para>
-							</step>
-						</substeps>
-					</step>
-				</stepalternatives>
 			</step>
 			<step>
 				<para>
