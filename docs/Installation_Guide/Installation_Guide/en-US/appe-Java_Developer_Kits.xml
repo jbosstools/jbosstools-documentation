@@ -27,9 +27,6 @@
 			</listitem>
 		</itemizedlist>
 	</para>
-	<para role="RoleCreateBugPara">
-		<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22586-537638+%5BLatest%5D&amp;cf_build_id=22586-537638+17+Sep+2013+10%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+Java+Developer+Kits%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-	</para>
 	<section id="Determine_Default_Java_Developer_Kit_of_the_System1" remap="TID_22585">
 		<sectioninfo>
 			<keywordset>
@@ -99,9 +96,6 @@ OpenJDK Server VM (build 23.2-b09, mixed mode)
 			</screen>
 			</para>
 		</example>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22585-537638+%5BLatest%5D&amp;cf_build_id=22585-537638+17+Sep+2013+10%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+Determine+Default+Java+Developer+Kit+of+the+System%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Install_a_Java_Developer_Kit1" remap="TID_22587">
 		<sectioninfo>
@@ -349,8 +343,5 @@ javac -version</screen>
 			<screen>sudo alternatives -install /usr/bin/javac javac /usr/java/jdk1.7.0_11/bin/javac 1000</screen>
 		</para>
 	</note> -->
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22587-537638+%5BLatest%5D&amp;cf_build_id=22587-537638+17+Sep+2013+10%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+Install+a+Java+Developer+Kit%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 </appendix>
