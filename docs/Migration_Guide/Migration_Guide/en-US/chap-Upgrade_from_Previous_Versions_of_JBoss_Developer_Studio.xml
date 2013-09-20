@@ -22,9 +22,6 @@
 				Before upgrading, you are advised to back up your workspace. In addition to your project files, your workspace contains meta-data about customized setting and preferences for JBoss&nbsp;Developer&nbsp;Studio or Eclipse. To back up your workspace, either copy the workspace directory to a backup location or save it as a compressed file.
 			</para>
 		</warning>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22436%2C+Migration+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A29%3A22%0ATopic+ID%3A+22593-537650+%5BLatest%5D&amp;cf_build_id=22593-537650+17+Sep+2013+10%3A33+en-US+%5BLatest%5D&amp;comment=Title%3A+Upgrade+Methods%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Upgrade_JBoss_Developer_Studio1" remap="TID_22604">
 		<sectioninfo>
@@ -40,9 +37,6 @@
 		</para>
 		<para>
 			To use JBoss&nbsp;Developer&nbsp;Studio 7.0 BYOE, you must upgrade to Eclipse Kepler and install JBoss&nbsp;Developer&nbsp;Studio 7.0 BYOE from Eclipse Marketplace.
-		</para>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22436%2C+Migration+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A29%3A22%0ATopic+ID%3A+22604-537650+%5BLatest%5D&amp;cf_build_id=22604-537650+17+Sep+2013+10%3A33+en-US+%5BLatest%5D&amp;comment=Title%3A+Upgrade+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 		</para>
 	</section>
 	<section id="Upgrade_JBoss_Developer_Studio_BYOE1" remap="TID_22601">
@@ -65,8 +59,5 @@
 				You can use different versions of JBoss&nbsp;Developer&nbsp;Studio alongside each other by installing them in different directories.
 			</para>
 		</note>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22436%2C+Migration+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A29%3A22%0ATopic+ID%3A+22601-537650+%5BLatest%5D&amp;cf_build_id=22601-537650+17+Sep+2013+10%3A33+en-US+%5BLatest%5D&amp;comment=Title%3A+Upgrade+JBoss+Developer+Studio+BYOE%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 </chapter>

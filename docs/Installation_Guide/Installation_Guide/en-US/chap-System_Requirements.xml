@@ -45,7 +45,7 @@
 		</sectioninfo>
 		<title>Supported Operating Systems and Architectures</title>
 		<para>
-			JBoss&nbsp;Developer&nbsp;Studio 7.0 is supported on the operating systems listed in the table below.
+			JBoss&nbsp;Developer&nbsp;Studio 7.1 is supported on the operating systems listed in the table below.
 		</para>
 		<table id="Supported_OS">
 			<title>Supported Operating Systems</title>
@@ -107,10 +107,10 @@
 			</tgroup>
 		</table>
 		<para>
-			As JBoss&nbsp;Developer&nbsp;Studio 7.0 is based on Eclipse Kepler (4.3), the system requirements of Eclipse Kepler also apply to JBoss&nbsp;Developer&nbsp;Studio 7.0. For example, GTK is required as the windowing system on Linux distributions, Win32 on Microsoft Windows operating systems and Cocoa on OS X operating systems. For more information about Eclipse Kepler system requirements see <ulink url="http://www.eclipse.org/eclipse/development/readme_eclipse_4.3.html"/> on the Eclipse website.
+			As JBoss&nbsp;Developer&nbsp;Studio 7.1 is based on Eclipse Kepler (4.3), the system requirements of Eclipse Kepler also apply to JBoss&nbsp;Developer&nbsp;Studio 7.1. For example, GTK is required as the windowing system on Linux distributions, Win32 on Microsoft Windows operating systems and Cocoa on OS X operating systems. For more information about Eclipse Kepler system requirements see <ulink url="http://www.eclipse.org/eclipse/development/readme_eclipse_4.3.html"/> on the Eclipse website.
 		</para>
 		<para>
-			The Visual Page Editor of JBoss&nbsp;Developer&nbsp;Studio 7.0 has additional system requirements and restrictions: 
+			The Visual Page Editor of JBoss&nbsp;Developer&nbsp;Studio 7.1 has additional system requirements and restrictions: 
 			<itemizedlist>
 				<listitem>
 					<para>
@@ -130,7 +130,7 @@
 		</sectioninfo>
 		<title>Computer Memory</title>
 		<para>
-			To install and run JBoss&nbsp;Developer&nbsp;Studio 7.0, the following memory requirements are recommended: 
+			To install and run JBoss&nbsp;Developer&nbsp;Studio 7.1, the following memory requirements are recommended: 
 			<itemizedlist>
 				<listitem>
 					<para>
@@ -158,7 +158,7 @@
 		</sectioninfo>
 		<title>Compatible Java Developer Kits</title>
 		<para>
-			JBoss&nbsp;Developer&nbsp;Studio 7.0 requires a Java developer kit of version 1.6 or newer. This release of JBoss&nbsp;Developer&nbsp;Studio is supported on the operating system and Java developer kit combinations listed in the table below.
+			JBoss&nbsp;Developer&nbsp;Studio 7.1 requires a Java developer kit of version 1.6 or newer. This release of JBoss&nbsp;Developer&nbsp;Studio is supported on the operating system and Java developer kit combinations listed in the table below.
 		</para>
 		<table>
 			<title>Supported Combinations of Operating Systems and Java Developer Kits</title>
