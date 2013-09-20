@@ -39,9 +39,6 @@
 				</listitem>
 			</itemizedlist>
 		</para>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22596-537638+%5BLatest%5D&amp;cf_build_id=22596-537638+17+Sep+2013+10%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+Preferences+Options%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Select_a_Workspace_Location1" remap="TID_22582">
 		<sectioninfo>
@@ -88,9 +85,6 @@
 		</para>
 		<para>
 			The workspace location prompting behavior can be altered at any time by clicking <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>General</guilabel>&rarr;<guilabel>Startup and Shutdown</guilabel> and select <guilabel>Workspaces</guilabel>. Select or clear the <guilabel>Prompt for workspace on startup</guilabel> check box to alter the behavior as appropriate.
-		</para>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22582-537662+%5BLatest%5D&amp;cf_build_id=22582-537662+17+Sep+2013+10%3A51+en-US+%5BLatest%5D&amp;comment=Title%3A+Select+a+Workspace+Location%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 		</para>
 	</section>
 	<section id="Set_Usage_Reporting1" remap="TID_22584">
@@ -223,9 +217,6 @@
 		<para>
 			The usage reporting behavior can be changed at any time by clicking <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>Usage Reporting</guilabel>. Select or clear the <guilabel>Please allow Red Hat Inc. to receive anonymous usage statistics for this JBoss Developer Studio installation</guilabel> check box to alter the behavior as appropriate.
 		</para>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22584-537662+%5BLatest%5D&amp;cf_build_id=22584-537662+17+Sep+2013+10%3A51+en-US+%5BLatest%5D&amp;comment=Title%3A+Set+Usage+Reporting%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Define_Servers_for_Application_Servers_Found_by_Runtime_Detection1" remap="TID_22592">
 		<sectioninfo>
@@ -278,9 +269,6 @@
 				If you have not set up runtime detection during the installation process or you installed JBoss Developer Studio BYOE, you can set up runtime detection in <guimenu>Preferences</guimenu> under <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>JBoss Runtime Detection</guilabel>.
 			</para>
 		</note>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22592-537638+%5BLatest%5D&amp;cf_build_id=22592-537638+17+Sep+2013+10%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+Define+Servers+for+Application+Servers+Found+by+Runtime+Detection%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Set_the_Perspective_to_JBoss1" remap="TID_22603">
 		<sectioninfo>
@@ -319,8 +307,5 @@
 				</textobject>
 			</mediaobject>
 		</figure>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22603-537638+%5BLatest%5D&amp;cf_build_id=22603-537638+17+Sep+2013+10%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+Set+the+Perspective+to+JBoss%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 </chapter>
