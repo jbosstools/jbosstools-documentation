@@ -38,10 +38,7 @@
 			</itemizedlist> In guiding you through these topics, a number of assumptions are made about your system. The assumptions are associated with installing JBoss&nbsp;Developer&nbsp;Studio and working through the TicketMonster tutorial and they are detailed in the appropriate sections of the guide.
 		</para>
 		<para>
-			Additionally, the information in the guide is minimal. It describes one method of installing JBoss&nbsp;Developer&nbsp;Studio and one way of completing each step in the TicketMonster tutorial. In fact, there is more than one method to install JBoss&nbsp;Developer&nbsp;Studio and there may be several alternatives for each step in the TicketMonster tutorial. For more information about the alternative installation methods and alternative ways to complete tasks, see Red&nbsp;Hat JBoss&nbsp;Developer&nbsp;Studio 7.0 Installation Guide and User Guide. These are available at <ulink url="https://access.redhat.com/site/documentation/Red_Hat_JBoss_Developer_Studio/"/> on the Red&nbsp;Hat JBoss&nbsp;Developer&nbsp;Studio documentation website.
-		</para>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22633-537685+%5BLatest%5D&amp;cf_build_id=22633-537685+17+Sep+2013+11%3A04+en-US+%5BLatest%5D&amp;comment=Title%3A+About+Getting+Started%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			Additionally, the information in the guide is minimal. It describes one method of installing JBoss&nbsp;Developer&nbsp;Studio and one way of completing each step in the TicketMonster tutorial. In fact, there is more than one method to install JBoss&nbsp;Developer&nbsp;Studio and there may be several alternatives for each step in the TicketMonster tutorial. For more information about the alternative installation methods and alternative ways to complete tasks, see Red&nbsp;Hat JBoss&nbsp;Developer&nbsp;Studio 7.1 Installation Guide and User Guide. These are available at <ulink url="https://access.redhat.com/site/documentation/Red_Hat_JBoss_Developer_Studio/"/> on the Red&nbsp;Hat JBoss&nbsp;Developer&nbsp;Studio documentation website.
 		</para>
 	</section>
 </chapter>

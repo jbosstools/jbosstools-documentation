@@ -23,9 +23,6 @@
 		<para>
 			TicketMonster demonstrates the combining of Red Hat and JBoss technologies and frameworks to build, test and deploy applications. For example, the running instance of TicketMonster at <ulink url="https://ticketmonster-jdf.rhcloud.com/"/> is hosted in the cloud on the OpenShift platform.
 		</para>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22620-537685+%5BLatest%5D&amp;cf_build_id=22620-537685+17+Sep+2013+11%3A04+en-US+%5BLatest%5D&amp;comment=Title%3A+About+the+TicketMonster+Application%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Tutorial_Outline1" remap="TID_22632">
 		<sectioninfo>
@@ -96,9 +93,6 @@
 				For information about building the complete TicketMonster application using JBoss&nbsp;Developer&nbsp;Studio see <ulink url="http://www.jboss.org/jdf/examples/get-started/"/> on the JBoss&nbsp;Developer&nbsp;Framework website.
 			</para>
 		</note>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22632-537685+%5BLatest%5D&amp;cf_build_id=22632-537685+17+Sep+2013+11%3A04+en-US+%5BLatest%5D&amp;comment=Title%3A+Tutorial+Outline%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Tutorial_Assumptions1" remap="TID_22619">
 		<sectioninfo>
@@ -115,7 +109,7 @@
 		<itemizedlist>
 			<listitem>
 				<para>
-					JBoss&nbsp;Developer&nbsp;Studio 7.0 is installed
+					JBoss&nbsp;Developer&nbsp;Studio 7.1 is installed
 				</para>
 			</listitem>
 			<listitem>
@@ -134,8 +128,5 @@
 			If you want to use JBoss&nbsp;Application&nbsp;Server 7.1 instead of JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x, you can install it and you must modify all the references to JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x in this tutorial accordingly.
 		</para>
 	</note> -->
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22619-537685+%5BLatest%5D&amp;cf_build_id=22619-537685+17+Sep+2013+11%3A04+en-US+%5BLatest%5D&amp;comment=Title%3A+Tutorial+Assumptions%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 </chapter>

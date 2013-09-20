@@ -62,7 +62,7 @@
 						</listitem>
 						<listitem>
 							<para>
-								From the <guilabel>Version</guilabel> list, select <guilabel>7.0.x</guilabel>.
+								From the <guilabel>Version</guilabel> list, select <guilabel>7.1.x</guilabel>.
 							</para>
 						</listitem>
 					</itemizedlist>
@@ -74,20 +74,20 @@
 							<imagedata fileref="images/3358.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>Under <guilabel>Software Downloads</guilabel>, select the following options: From the <guilabel>Product</guilabel> list, select <guilabel>JBoss Developer Studio</guilabel>. From the <guilabel>Version</guilabel> list, select <guilabel>7.0.x</guilabel>.</phrase>
+							<phrase>Under <guilabel>Software Downloads</guilabel>, select the following options: From the <guilabel>Product</guilabel> list, select <guilabel>JBoss Developer Studio</guilabel>. From the <guilabel>Version</guilabel> list, select <guilabel>7.1.x</guilabel>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
 			</step>
 			<step>
 				<para>
-					From the table, click <guibutton>Download</guibutton> for the <filename>Red Hat JBoss Developer Studio 7.0.x Source Code</filename> download file. This downloads the sources <filename>.zip</filename> file.
+					From the table, click <guibutton>Download</guibutton> for the <filename>Red Hat JBoss Developer Studio 7.1.x Source Code</filename> download file. This downloads the sources <filename>.zip</filename> file.
 				</para>
 			</step>
 			<step>
 				<para>
 					On the command line, navigate to <filename>path/to/.zip</filename> and enter 
-					<screen>unzip jbdevstudio-product-sources-7.0.<replaceable>x.build_version</replaceable>.zip</screen> where <replaceable>x.build_version</replaceable> is substituted to match the name of the downloaded file. The archive is extracted to a <filename>devstudio</filename> directory.
+					<screen>unzip jbdevstudio-product-sources-7.1.<replaceable>x.build_version</replaceable>.zip</screen> where <replaceable>x.build_version</replaceable> is substituted to match the name of the downloaded file. The archive is extracted to a <filename>devstudio</filename> directory.
 				</para>
 			</step>
 			<step>
