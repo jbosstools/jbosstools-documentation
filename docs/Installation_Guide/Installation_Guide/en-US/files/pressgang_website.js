@@ -9,6 +9,8 @@ pressgang_website_callback([
 	{"topicId":22587,"target":"Install_a_Java_Developer_Kit1","title":"Install a Java Developer Kit","newSince":""},
 	{"topicId":22584,"target":"Set_Usage_Reporting1","title":"Set Usage Reporting","newSince":""},
 	{"topicId":22585,"target":"Determine_Default_Java_Developer_Kit_of_the_System1","title":"Determine Default Java Developer Kit of the System","newSince":""},
+	{"topicId":22679,"target":"Install_JBoss_Developer_Studio_via_Script","title":"Install JBoss Developer Studio via Script","newSince":""},
+	{"topicId":22678,"target":"Build_the_Universal_Installer_from_Source","title":"Build the Universal Installer from Source","newSince":""},
 	{"topicId":22593,"target":"Upgrade_Methods1","title":"Upgrade Methods","newSince":""},
 	{"topicId":22592,"target":"Define_Servers_for_Application_Servers_Found_by_Runtime_Detection1","title":"Define Servers for Application Servers Found by Runtime Detection","newSince":""},
 	{"topicId":22595,"target":"Uninstall_JBoss_Developer_Studio_BYOE1","title":"Uninstall JBoss Developer Studio BYOE","newSince":""},

@@ -65,3 +65,7 @@ Chapter: Uninstall JBoss Developer Studio
 Appendix: Java Developer Kits [22586] [T-Appendix-JDKs]
   Determine Default Java Developer Kit of the System [22585]
   Install a Java Developer Kit [22587]
+
+Appendix: Supplementary Installation Procedures
+  Build the Universal Installer from Source [22678]
+  Install JBoss Developer Studio via Script [22679]
