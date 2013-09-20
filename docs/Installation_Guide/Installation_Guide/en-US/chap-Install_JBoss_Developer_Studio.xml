@@ -23,9 +23,6 @@
 		<para>
 			Alternatively, if you already have Eclipse on your system you may prefer to install JBoss&nbsp;Developer&nbsp;Studio BYOE. This option installs JBoss&nbsp;Developer&nbsp;Studio in Eclipse.
 		</para>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22599-537638+%5BLatest%5D&amp;cf_build_id=22599-537638+17+Sep+2013+10%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+Install+Options%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Install_JBoss_Developer_Studio1" remap="TID_22602">
 		<sectioninfo>
@@ -274,9 +271,6 @@
 * hard nofile 9216</screen>
 			</para>
 		</important>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22602-537662+%5BLatest%5D&amp;cf_build_id=22602-537662+17+Sep+2013+10%3A51+en-US+%5BLatest%5D&amp;comment=Title%3A+Install+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Install_JBoss_Developer_Studio_BYOE1" remap="TID_22605">
 		<sectioninfo>
@@ -423,7 +417,7 @@
 							For offline mode, in the <guilabel>Work with</guilabel> field enter the path of the update <filename>.zip</filename> file. Alternatively, click <guibutton>Add</guibutton> and click <guibutton>Archive</guibutton> to locate the file.
 						</para>
 						<figure>
-							<title>work from a Local Copy of the Update <filename>.zip</filename> File</title>
+							<title>Work from a Local Copy of the Update <filename>.zip</filename> File</title>
 							<mediaobject>
 								<imageobject>
 									<imagedata fileref="images/3366.png"/>
@@ -495,8 +489,5 @@
 				</para>
 			</step>
 		</procedure>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22605-537638+%5BLatest%5D&amp;cf_build_id=22605-537638+17+Sep+2013+10%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+Install+JBoss+Developer+Studio+BYOE%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 </chapter>

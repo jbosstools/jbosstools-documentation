@@ -34,9 +34,6 @@
 				</listitem>
 			</itemizedlist>
 		</para>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22590-537638+%5BLatest%5D&amp;cf_build_id=22590-537638+17+Sep+2013+10%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+System+Requirements+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Supported_Operating_Systems_and_Architectures1" remap="TID_22598">
 		<sectioninfo>
@@ -122,9 +119,6 @@
 				</listitem>
 			</itemizedlist>
 		</para>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22598-537638+%5BLatest%5D&amp;cf_build_id=22598-537638+17+Sep+2013+10%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+Supported+Operating+Systems+and+Architectures%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Computer_Memory1" remap="TID_22597">
 		<sectioninfo>
@@ -152,9 +146,6 @@
 		</para>
 		<para>
 			The minimum memory requirements are 2 GB RAM and 750 MB of hard disk space.
-		</para>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22597-537638+%5BLatest%5D&amp;cf_build_id=22597-537638+17+Sep+2013+10%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+Computer+Memory%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 		</para>
 	</section>
 	<section id="Compatible_Java_Developer_Kits1" remap="TID_22591">
@@ -252,8 +243,5 @@
 				</para>
 			</listitem>
 		</itemizedlist>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22435%2C+Installation+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A43%3A06%0ATopic+ID%3A+22591-537638+%5BLatest%5D&amp;cf_build_id=22591-537638+17+Sep+2013+10%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+Compatible+Java+Developer+Kits%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 </chapter>
