@@ -64,8 +64,5 @@
 				</figure>
 			</step>
 		</procedure>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22594-537662+%5BLatest%5D&amp;cf_build_id=22594-537662+17+Sep+2013+10%3A51+en-US+%5BLatest%5D&amp;comment=Title%3A+Uninstall+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 </chapter>

@@ -15,7 +15,7 @@
 		</sectioninfo>
 		<title>Change the Version of Eclipse Being Used with JBoss Developer Studio BYOE</title>
 		<para>
-			JBoss&nbsp;Developer&nbsp;Studio 7.0 BYOE supports Eclipse Kepler only. If you upgrade the version of Eclipse you are using, you will not be able to use JBoss&nbsp;Developer&nbsp;Studio 7.0 BYOE.
+			JBoss&nbsp;Developer&nbsp;Studio 7.1 BYOE supports Eclipse Kepler only. If you upgrade the version of Eclipse you are using, you will not be able to use JBoss&nbsp;Developer&nbsp;Studio 7.1 BYOE.
 		</para>
 		<para>
 			Information about the supported versions of Eclipse for each JBoss&nbsp;Developer&nbsp;Studio BYOE release is provided in the table below. <!-- Info from https://community.jboss.org/wiki/MatrixOfSupportedPlatformsRuntimesAndTechnologiesInJBossToolsJBDS -->
@@ -38,7 +38,7 @@
 				<tbody>
 					<row>
 						<entry>
-							JBoss&nbsp;Developer&nbsp;Studio 7.0
+							JBoss&nbsp;Developer&nbsp;Studio 7.0 and 7.1
 						</entry>
 						<entry>
 							Eclipse Kepler (4.3)
@@ -55,9 +55,6 @@
 				</tbody>
 			</tgroup>
 		</table>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22436%2C+Migration+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A29%3A22%0ATopic+ID%3A+22615-537657+%5BLatest%5D&amp;cf_build_id=22615-537657+17+Sep+2013+10%3A40+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Version+of+Eclipse+Being+Used+with+JBoss+Developer+Studio+BYOE%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Change_the_Path_of_the_JVM_used_to_Run_JBoss_Developer_Studio" remap="TID_22616">
 		<sectioninfo>
@@ -103,8 +100,5 @@
 				</para>
 			</step>
 		</procedure>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22436%2C+Migration+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A29%3A22%0ATopic+ID%3A+22616-537657+%5BLatest%5D&amp;cf_build_id=22616-537657+17+Sep+2013+10%3A40+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Path+of+the+JVM+used+to+Run+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 </chapter>

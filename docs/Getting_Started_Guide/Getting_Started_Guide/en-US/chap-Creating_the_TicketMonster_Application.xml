@@ -85,9 +85,6 @@
 				</para>
 			</step>
 		</procedure>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22623-537685+%5BLatest%5D&amp;cf_build_id=22623-537685+17+Sep+2013+11%3A04+en-US+%5BLatest%5D&amp;comment=Title%3A+Configure+Maven%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Set_Up_a_Server_Using_Runtime_Detection1" remap="TID_22624">
 		<sectioninfo>
@@ -167,9 +164,6 @@
 				</para>
 			</step>
 		</procedure>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22624-537685+%5BLatest%5D&amp;cf_build_id=22624-537685+17+Sep+2013+11%3A04+en-US+%5BLatest%5D&amp;comment=Title%3A+Set+Up+a+Server+Using+Runtime+Detection%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Create_a_Java_EE_Web_Project_Using_JBoss_Central1" remap="TID_22626">
 		<sectioninfo>
@@ -260,9 +254,6 @@
 				</figure>
 			</step>
 		</procedure>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22626-537685+%5BLatest%5D&amp;cf_build_id=22626-537685+17+Sep+2013+11%3A04+en-US+%5BLatest%5D&amp;comment=Title%3A+Create+a+Java+EE+Web+Project+Using+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Add_an_Entity_Using_Forge_Tools1" remap="TID_22628">
 		<sectioninfo>
@@ -364,9 +355,6 @@ constraint Size --onProperty description --min 20 --max 1000 --message "Must be 
 				</figure>
 			</step>
 		</procedure>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22628-537685+%5BLatest%5D&amp;cf_build_id=22628-537685+17+Sep+2013+11%3A04+en-US+%5BLatest%5D&amp;comment=Title%3A+Add+an+Entity+Using+Forge+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Add_an_Entity_Using_Hibernate_Tools1" remap="TID_22617">
 		<sectioninfo>
@@ -487,9 +475,6 @@ private int capacity;
 				</para>
 			</step>
 		</procedure>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22617-537685+%5BLatest%5D&amp;cf_build_id=22617-537685+17+Sep+2013+11%3A04+en-US+%5BLatest%5D&amp;comment=Title%3A+Add+an+Entity+Using+Hibernate+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Prepare_Event_Records_to_Populate_the_Database1" remap="TID_22630">
 		<sectioninfo>
@@ -573,9 +558,6 @@ private int capacity;
 				</para>
 			</step>
 		</procedure>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22630-537685+%5BLatest%5D&amp;cf_build_id=22630-537685+17+Sep+2013+11%3A04+en-US+%5BLatest%5D&amp;comment=Title%3A+Prepare+Event+Records+to+Populate+the+Database%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Deploy_the_Application_using_JBoss_Server_Tools1" remap="TID_22625">
 		<sectioninfo>
@@ -645,9 +627,6 @@ private int capacity;
 				</figure>
 			</step>
 		</procedure>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22625-537685+%5BLatest%5D&amp;cf_build_id=22625-537685+17+Sep+2013+11%3A04+en-US+%5BLatest%5D&amp;comment=Title%3A+Deploy+the+Application+using+JBoss+Server+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Access_and_Query_the_Database1" remap="TID_22627">
 		<sectioninfo>
@@ -748,9 +727,6 @@ private int capacity;
 				</figure>
 			</step>
 		</procedure>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22627-537685+%5BLatest%5D&amp;cf_build_id=22627-537685+17+Sep+2013+11%3A04+en-US+%5BLatest%5D&amp;comment=Title%3A+Access+and+Query+the+Database%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Add_a_RESTful_Web_Service1" remap="TID_22622">
 		<sectioninfo>
@@ -928,9 +904,6 @@ public List&lt;Event&gt; getAllEvents() {
 				</para>
 			</step>
 		</procedure>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22622-537685+%5BLatest%5D&amp;cf_build_id=22622-537685+17+Sep+2013+11%3A04+en-US+%5BLatest%5D&amp;comment=Title%3A+Add+a+RESTful+Web+Service%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Add_a_User_Interface_Optimized_for_Mobile_Devices1" remap="TID_22618">
 		<sectioninfo>
@@ -1058,9 +1031,6 @@ public List&lt;Event&gt; getAllEvents() {
 				</figure>
 			</step>
 		</procedure>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22618-537685+%5BLatest%5D&amp;cf_build_id=22618-537685+17+Sep+2013+11%3A04+en-US+%5BLatest%5D&amp;comment=Title%3A+Add+a+User+Interface+Optimized+for+Mobile+Devices%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Test_the_Mobile_User_Interface_Using_BrowserSim1" remap="TID_22629">
 		<sectioninfo>
@@ -1134,8 +1104,5 @@ public List&lt;Event&gt; getAllEvents() {
 				</figure>
 			</step>
 		</procedure>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22437%2C+Getting+Started+Guide-7.1%0ABuild+Date%3A+18-09-2013+11%3A28%3A44%0ATopic+ID%3A+22629-537685+%5BLatest%5D&amp;cf_build_id=22629-537685+17+Sep+2013+11%3A04+en-US+%5BLatest%5D&amp;comment=Title%3A+Test+the+Mobile+User+Interface+Using+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 </chapter>
