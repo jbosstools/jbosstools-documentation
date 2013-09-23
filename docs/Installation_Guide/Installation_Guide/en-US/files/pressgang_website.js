@@ -8,6 +8,7 @@ pressgang_website_callback([
 	{"topicId":22586,"target":"appe-Java_Developer_Kits","title":"Java Developer Kits","newSince":""},
 	{"topicId":22587,"target":"Install_a_Java_Developer_Kit1","title":"Install a Java Developer Kit","newSince":""},
 	{"topicId":22584,"target":"Set_Usage_Reporting1","title":"Set Usage Reporting","newSince":""},
+	{"topicId":22704,"target":"Upgrade_from_JBoss_Developer_Studio_7.0","title":"Upgrade from JBoss Developer Studio 7.0","newSince":""},
 	{"topicId":22585,"target":"Determine_Default_Java_Developer_Kit_of_the_System1","title":"Determine Default Java Developer Kit of the System","newSince":""},
 	{"topicId":22679,"target":"Install_JBoss_Developer_Studio_via_Script","title":"Install JBoss Developer Studio via Script","newSince":""},
 	{"topicId":22678,"target":"Build_the_Universal_Installer_from_Source","title":"Build the Universal Installer from Source","newSince":""},
@@ -19,9 +20,8 @@ pressgang_website_callback([
 	{"topicId":22596,"target":"Preferences_Options1","title":"Preferences Options","newSince":""},
 	{"topicId":22599,"target":"Install_Options1","title":"Install Options","newSince":""},
 	{"topicId":22598,"target":"Supported_Operating_Systems_and_Architectures1","title":"Supported Operating Systems and Architectures","newSince":""},
-	{"topicId":22601,"target":"Upgrade_JBoss_Developer_Studio_BYOE1","title":"Upgrade JBoss Developer Studio BYOE","newSince":""},
 	{"topicId":22600,"target":"Uninstall_Methods1","title":"Uninstall Methods","newSince":""},
 	{"topicId":22603,"target":"Set_the_Perspective_to_JBoss1","title":"Set the Perspective to JBoss","newSince":""},
 	{"topicId":22602,"target":"Install_JBoss_Developer_Studio1","title":"Install JBoss Developer Studio","newSince":""},
 	{"topicId":22605,"target":"Install_JBoss_Developer_Studio_BYOE1","title":"Install JBoss Developer Studio BYOE","newSince":""},
-	{"topicId":22604,"target":"Upgrade_JBoss_Developer_Studio1","title":"Upgrade JBoss Developer Studio","newSince":""}]);
+	{"topicId":22604,"target":"Upgrade_from_JBoss_Developer_Studio_6.x_and_Earlier","title":"Upgrade from JBoss Developer Studio 6.x and Earlier","newSince":""}]);

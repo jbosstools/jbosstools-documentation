@@ -31,8 +31,8 @@ Chapter: Introduction to Red Hat JBoss Developer Studio
 
 Chapter: Upgrade from Previous Versions of JBoss Developer Studio
   Upgrade Methods [22593]
-  Upgrade JBoss Developer Studio [22604]
-  Upgrade JBoss Developer Studio BYOE [22601]
+  Upgrade from JBoss Developer Studio 6.x and Earlier [22604]
+  Upgrade from JBoss Developer Studio 7.0 [22704]
 
 Chapter: Resolving Problems following Third Party Product Upgrades
   Change the Version of Eclipse Being Used with JBoss Developer Studio BYOE [22615]
