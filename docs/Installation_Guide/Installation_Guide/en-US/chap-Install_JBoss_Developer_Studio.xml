@@ -291,7 +291,7 @@
 			</step>
 			<step>
 				<para>
-					Ensure the <guilabel>Red Hat JBoss Developer Studio (Kepler)</guilabel> check box is selected and click <guibutton>Confirm &gt;</guibutton>.
+					Ensure the <guilabel>Red Hat JBoss Developer Studio (Kepler)</guilabel> check box is selected and click <guibutton>Confirm</guibutton>.
 				</para>
 				<figure>
 					<title>Confirm Selected Features Window</title>
@@ -300,7 +300,7 @@
 							<imagedata fileref="images/3359.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>Ensure the <guilabel>Red Hat JBoss Developer Studio (Kepler)</guilabel> check box is selected and click <guibutton>Confirm &gt;</guibutton>.</phrase>
+							<phrase>Ensure the <guilabel>Red Hat JBoss Developer Studio (Kepler)</guilabel> check box is selected and click <guibutton>Confirm</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>

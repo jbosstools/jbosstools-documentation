@@ -15,7 +15,7 @@
 		</sectioninfo>
 		<title>Upgrade Methods</title>
 		<para>
-			The method for upgrading JBoss&nbsp;Developer&nbsp;Studio depends on whether you are using JBoss&nbsp;Developer&nbsp;Studio or JBoss&nbsp;Developer&nbsp;Studio BYOE.
+			The method for upgrading JBoss&nbsp;Developer&nbsp;Studio depends on the version of JBoss&nbsp;Developer&nbsp;Studio from which you are upgrading.
 		</para>
 		<warning>
 			<para>
@@ -23,7 +23,7 @@
 			</para>
 		</warning>
 	</section>
-	<section id="Upgrade_JBoss_Developer_Studio1" remap="TID_22604">
+	<section id="Upgrade_from_JBoss_Developer_Studio_6.x_and_Earlier" remap="TID_22604">
 		<sectioninfo>
 			<keywordset>
 				<keyword>
@@ -31,32 +31,55 @@
 				</keyword>
 			</keywordset>
 		</sectioninfo>
-		<title>Upgrade JBoss Developer Studio</title>
+		<title>Upgrade from JBoss Developer Studio 6.x and Earlier</title>
 		<para>
-			It is not possible to upgrade an existing JBoss&nbsp;Developer&nbsp;Studio BYOE to JBoss&nbsp;Developer&nbsp;Studio 7.0 BYOE because they support different versions of Eclipse. For example, JBoss&nbsp;Developer&nbsp;Studio 6.0 BYOE supports Eclipse Juno (4.2) but JBoss&nbsp;Developer&nbsp;Studio 7.0 BYOE supports Eclipse Kepler (4.3).
+			It is not possible to upgrade an existing JBoss&nbsp;Developer&nbsp;Studio 6.x or earlier installation to JBoss&nbsp;Developer&nbsp;Studio 7.1 because they are based on different versions of Eclipse. For example, JBoss&nbsp;Developer&nbsp;Studio 6.0 is based on Eclipse Juno (4.2) but JBoss&nbsp;Developer&nbsp;Studio 7.1 is based on Eclipse Kepler (4.3).
 		</para>
 		<para>
-			To use JBoss&nbsp;Developer&nbsp;Studio 7.0 BYOE, you must upgrade to Eclipse Kepler and install JBoss&nbsp;Developer&nbsp;Studio 7.0 BYOE from Eclipse Marketplace.
-		</para>
-	</section>
-	<section id="Upgrade_JBoss_Developer_Studio_BYOE1" remap="TID_22601">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
-		<title>Upgrade JBoss Developer Studio BYOE</title>
-		<para>
-			It is not possible to upgrade an existing JBoss&nbsp;Developer&nbsp;Studio installation to JBoss&nbsp;Developer&nbsp;Studio 7.0 because they are based on different versions of Eclipse. For example, JBoss&nbsp;Developer&nbsp;Studio 6.0 is based on Eclipse Juno (4.2) but JBoss&nbsp;Developer&nbsp;Studio 7.0 is based on Eclipse Kepler (4.3).
-		</para>
-		<para>
-			To use JBoss&nbsp;Developer&nbsp;Studio 7.0, you must download and run the universal installer available from the Customer Portal at <ulink url="https://access.redhat.com"/>.
+			To use JBoss&nbsp;Developer&nbsp;Studio 7.1, you must do one of the following: 
+			<itemizedlist>
+				<listitem>
+					<para>
+						For JBoss&nbsp;Developer&nbsp;Studio, download and run the JBoss&nbsp;Developer&nbsp;Studio 7.1 universal installer available from the Customer Portal at <ulink url="https://access.redhat.com"/>.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						For JBoss&nbsp;Developer&nbsp;Studio BYOE, upgrade to Eclipse Kepler (4.3) and install JBoss&nbsp;Developer&nbsp;Studio 7.1 BYOE from Eclipse Marketplace.
+					</para>
+				</listitem>
+			</itemizedlist>
 		</para>
 		<note>
 			<para>
-				You can use different versions of JBoss&nbsp;Developer&nbsp;Studio alongside each other by installing them in different directories.
+				You can use different versions of JBoss&nbsp;Developer&nbsp;Studio or JBoss&nbsp;Developer&nbsp;Studio BYOE alongside each other by installing them in different directories or installing them onto different Eclipse installations, respectively.
+			</para>
+		</note>
+	</section>
+	<section id="Upgrade_from_JBoss_Developer_Studio_7.0" remap="TID_22704">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.1.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Upgrade from JBoss Developer Studio 7.0</title>
+		<para>
+			It is possible to upgrade an existing JBoss&nbsp;Developer&nbsp;Studio 7.0 installation to JBoss&nbsp;Developer&nbsp;Studio 7.1 because they are based on the same version of Eclipse, namely Kepler (4.3).
+		</para>
+		<para>
+			You may be automatically notified by the IDE when the JBoss&nbsp;Developer&nbsp;Studio 7.1 upgrade is available, depending on your IDE settings for automatic updates. Alternatively, the upgrade method stated here is applicable to JBoss&nbsp;Developer&nbsp;Studio and JBoss&nbsp;Developer&nbsp;Studio BYOE.
+		</para>
+		<para>
+			To upgrade to JBoss&nbsp;Developer&nbsp;Studio 7.1, in the IDE click <guimenu>Help</guimenu>&rarr;<guimenu>Check for Updates</guimenu>. The <guilabel>Contacting Software Sites</guilabel> window opens and searches for updates to apply. If any updates are found they are listed in the <guilabel>Available Updates</guilabel> window. Ensure the check box for JBoss Developer Studio 7.1.0 is selected and click <guibutton>Next</guibutton>. After reading and agreeing to the licenses, click <guilabel>I accept the terms of the license agreements</guilabel> and click <guibutton>Finish</guibutton>.
+		</para>
+		<para>
+			During the installation process you may receive warnings about installing unsigned content. If this is the case, review the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation. Once installing is complete, you are prompted to restart the IDE. Click <guibutton>Yes</guibutton> to restart now and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that IDE changes do not take effect until the IDE is restarted.
+		</para>
+		<note>
+			<para>
+				If you are expecting updates but none are found, check that the IDE is aware of the URL where JBoss Developer Studio updates are located. Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>Install/Update</guilabel> and click <guilabel>Available Software Sites</guilabel>. In the table of <guilabel>Available Software Sites</guilabel> the URL <ulink url="https://devstudio.jboss.com/updates/7.0/"/> must be listed. If it is not listed, click <guibutton>Add</guibutton> and in the <guilabel>Location</guilabel> field type the URL. Click <guibutton>OK</guibutton> to close the <guilabel>Add Site</guilabel> window and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.
 			</para>
 		</note>
 	</section>
