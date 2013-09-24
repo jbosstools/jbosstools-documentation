@@ -7,8 +7,8 @@
 	<title>JBoss Tools User Guide</title>
 	<subtitle>Information about using the plug-ins of JBoss Tools</subtitle>
 	<productname>JBoss Tools</productname>
-	<productnumber>4.1.0</productnumber>
-	<edition>Beta 1</edition>
+	<productnumber>4.1.1</productnumber>
+	<edition>Alpha 1</edition>
 	<abstract>
 		<para>
 			This document details how to use and customize the individual plug-ins of JBoss Tools.
