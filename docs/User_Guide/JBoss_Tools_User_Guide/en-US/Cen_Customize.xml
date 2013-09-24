@@ -13,6 +13,7 @@
 		<itemizedlist>
 			<listitem><para>Make JBoss Central visible when the IDE starts</para></listitem>
 			<listitem><para>Customize the menu and toolbar items of the JBoss perspective</para></listitem>
+			<listitem><para>Enable project examples for use when you are offline</para></listitem>			
 			<listitem><para>Specify the default IDE behavior for cheat sheets</para></listitem>
 		</itemizedlist>
 
@@ -126,6 +127,22 @@
 			</mediaobject>
 		</figure>
 		
+	</section>
+
+
+	<section>
+		<title>Use Project Examples when Working Offline</title>
+		<para>When a project wizard in JBoss Central is used, the IDE searches online respositories for the most recent versions of project dependencies. JBoss Central provides a feature that enables you to create a cache of the necessary project dependencies when you are online so that you can still use the project wizards offline. As detailed below, this is achieved by first creating the cache and then informing the IDE to use that cache.</para>
+
+		<important><para>Groovy must be installed and configured as stated in the Groovy documentation. For more information, see <ulink url="http://groovy.codehaus.org/Installing+Groovy"/> at the Groovy website.</para></important>
+		
+		<important><para>Maven must be correctly configured for all of the project wizards before the cache script is run. Red Hat JBoss Enterprise Application Platform and Red Hat JBoss Web Framework Kit Maven repositories must be specified in <filename>settings.xml</filename>.</para></important>
+		
+		<para>To create the cache, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Project Examples</guilabel> and select <guilabel>Offline Support</guilabel>. To run the cache generating script, click <guibutton>Copy to Clipboard</guibutton> and paste the selected text on a command line outside the IDE. The script will download and build all of the project examples in a new directory <filename>offline</filename>. The script may take some time to complete.</para>
+
+		<para>Once the cache is generated, copy <filename>offline/.jbosstools/cache</filename> to the directory where you want to keep the project examples. Copy the contents of <filename>offline/.m2/repository</filename> to your local maven repository.</para>
+		
+		<para>To inform the IDE to use the cache for the project example wizards, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Project Examples</guilabel> and select <guilabel>Offline Support</guilabel>. Select the <guilabel>Enable offline mode for project examples</guilabel> check box. Ensure the correct cache location is specified in the <guilabel>Offline directory</guilabel> field. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.</para>
 	</section>
 
 
