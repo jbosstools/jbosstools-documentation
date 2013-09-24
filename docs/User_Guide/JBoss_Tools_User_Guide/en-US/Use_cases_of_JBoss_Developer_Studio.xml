@@ -1,17 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "Installation_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "User_Guide.ent">
 %BOOK_ENTITIES;
 ]>
 
 <section id="Use_cases_of_JBoss_Developer_Studio" remap="TID_13338">
-	<sectioninfo>
-		<keywordset>
-			<keyword>
-				JBDS 7.0.0
-			</keyword>
-		</keywordset>
-	</sectioninfo>
 	<title>Use Cases of JBoss Developer Studio</title>
 	<para>
 		JBoss&nbsp;Developer&nbsp;Studio assists JEE developers by integrating JBoss technology and APIs in a single development environment. Here are a few ways that JBoss&nbsp;Developer&nbsp;Studio makes the work of a developer easier:
