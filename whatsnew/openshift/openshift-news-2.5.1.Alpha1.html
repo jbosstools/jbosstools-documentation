@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../whatsnew.css" />
+<title>OpenShift Tools 2.5.1.Alpha1 What's New</title>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-17645367-5' ]);
+	_gaq.push([ '_trackPageview' ]);
+
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<style type="text/css">
+.border {
+	border-collapse:collapse;
+	border-style:none;
+	border:1px dotted #ccc;
+}
+</style>
+</head>
+<body>
+	<h1>OpenShift 2.5.1.Alpha1 What's New</h1>
+
+	<p align="right">
+		<a href="../maven/maven-news-4.1.1.Alpha1.html">&lt; Maven Tools</a>
+		<a href="../as/as-news-4.1.1.Alpha1.html">Server Tools &gt;</a>
+	</p>
+	<table border="0" cellpadding="10" cellspacing="0" width="80%">
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Application Wizard</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Create applications with your own source</b></td>
+			<td valign="top" align="left">
+				You can create a new application with your very own source code since JBoss Tools 4.0.
+				<p>
+					<img src="images/advanced-source-code.png" alt="use your own source code"/>
+				</p>
+				There are openshift quickstarts that require long timeouts because the size of the source code being checked out is very large.
+				Another frequent requirement is that embedded (add-on) cartridges have to be present when the application is created. 
+				Adding the cartridges in a 2nd step wont help; the initial application build fails.
+				It was not possible, for example, to create the OpenShift wordpress quickstart at 
+				<a href="https://github.com/openshift/wordpress-example">https://github.com/openshift/wordpress-example</a> within JBoss Tools. 
+				The update to 4.1.1.Alpha1 fixed this.
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-15261">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>OpenShift java client</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Embeddables cartridges at application creation time</b></td>
+			<td valign="top" align="left">
+				The openshift-java-client now allows you to provide embeddable cartridges when you create an application.
+				Previously these could only get added once the application was ready.
+				This might be required when you use your own application template source.  
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-15262">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Specific timeouts</b></td>
+			<td valign="top" align="left">
+				The openshift-java-client now allows you to use a specific timeout in your operation. 
+				This is useful if you know that it takes much longer to create your application with your custom source than it takes
+				for the default. Previously you had to increase the global timeout.  
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-14366">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>
