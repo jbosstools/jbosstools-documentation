@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes_7.0.1.ent">
+%BOOK_ENTITIES;
+]>
+<chapter>
+	<title>About this Release</title>
+
+	<para>JBoss Developer Studio 7.0.1 is an update to JBoss Developer Studio 7.0.0. The update has two purposes:</para>
+	<itemizedlist>
+		<listitem><para>It resolves issues identified in JBoss Developer Studio 7.0.0.</para></listitem>
+		<listitem><para>It contains an Eclipse Kepler update, SR1.</para></listitem>
+	</itemizedlist>
+
+</chapter>
+
