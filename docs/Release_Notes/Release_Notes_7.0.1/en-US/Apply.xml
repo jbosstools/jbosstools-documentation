@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes_7.0.1.ent">
+%BOOK_ENTITIES;
+]>
+<chapter>
+	<title>Apply this Release</title>
+	
+	<para>
+		JBoss&nbsp;Developer&nbsp;Studio 7.0.1 is available from the JBoss&nbsp;Developer&nbsp;Studio update site and must be applied via the IDE. You may be automatically prompted by the IDE to apply the 7.0.1 update, depending on your IDE settings for automatic updates. In the event that you are not prompted by the IDE, the upgrade method stated here is applicable to JBoss&nbsp;Developer&nbsp;Studio and JBoss&nbsp;Developer&nbsp;Studio BYOE.
+	</para>
+	<para>
+		To upgrade to JBoss&nbsp;Developer&nbsp;Studio 7.0.1, in the IDE click <guimenu>Help</guimenu>&rarr;<guimenu>Check for Updates</guimenu>. The <guilabel>Contacting Software Sites</guilabel> window opens and searches for updates to apply. If any updates are found they are listed in the <guilabel>Available Updates</guilabel> window. Ensure the check box for JBoss&nbsp;Developer&nbsp;Studio 7.0.1 is selected and click <guibutton>Next</guibutton>. After reading and agreeing to the licenses, click <guilabel>I accept the terms of the license agreements</guilabel> and click <guibutton>Finish</guibutton>.
+	</para>
+	<para>
+		During the installation process you may receive warnings about installing unsigned content. If this is the case, review the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation. Once installing is complete, you are prompted to restart the IDE. Click <guibutton>Yes</guibutton> to restart now and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that IDE changes do not take effect until the IDE is restarted.
+	</para>
+	<note>
+		<para>
+			If you are not automatically prompted by the IDE about the JBoss&nbsp;Developer&nbsp;Studio 7.0.1 update or the IDE cannot find the update, check that the IDE is aware of the URL where JBoss&nbsp;Developer&nbsp;Studio updates are located. Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>Install/Update</guilabel> and click <guilabel>Available Software Sites</guilabel>. In the table of <guilabel>Available Software Sites</guilabel> the URL <ulink url="https://devstudio.jboss.com/updates/7.0/"/> must be listed. If it is not listed, click <guibutton>Add</guibutton> and in the <guilabel>Location</guilabel> field type the URL. Click <guibutton>OK</guibutton> to close the <guilabel>Add Site</guilabel> window and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.
+		</para>
+	</note>
+
+
+</chapter>
