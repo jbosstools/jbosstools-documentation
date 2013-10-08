@@ -1,0 +1,827 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "User_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-JBoss_Central_and_the_JBoss_Perspective">
+	<title>JBoss Central and the JBoss Perspective</title>
+	<section id="sect-Overview_of_JBoss_Central_and_the_JBoss_Perspective">
+		<title>Overview of JBoss Central and the JBoss Perspective</title>
+		<section id="About_JBoss_Central" remap="TID_22788">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>About JBoss Central</title>
+			<para>
+				JBoss Central is a core IDE tab, providing access to JBoss information and assistance in one centralized location. It offers features for first time users of <phrase>JBoss Developer Studio</phrase>, as well as those with more experience.
+			</para>
+			<para>
+				The JBoss Central tab comprises resources and actions for creating new projects, learning about the tools and installing software updates: 
+				<itemizedlist>
+					<listitem>
+						<para>
+							Project wizards create new projects based on sample applications and different technologies.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							The TicketMonster tutorial, part of JBoss Java Developer Framework, demonstrates how to use the IDE to best advantage in developing a complex web application that utilizes JBoss technologies.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Links to JBoss blog posts give timely insight into JBoss developments and the links to JBoss resources, such as documentation and forums, provide easy access to key information sources.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Software installation and update information assist in the easy management of IDE plug-ins.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22788-542941+%5BLatest%5D&amp;cf_build_id=22788-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="About_the_JBoss_Perspective" remap="TID_22790">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>About the JBoss Perspective</title>
+			<para>
+				JBoss is a key IDE perspective, giving easy access to useful tabs and actions when developing applications with JBoss technologies. The perspective consists of a default set of tabs, menus and toolbars.
+			</para>
+			<variablelist>
+				<title/>
+				<varlistentry>
+					<term>Tabs</term>
+					<listitem>
+						<para>
+							The default tabs of the JBoss perspective are OpenShift Explorer, Outline, Package Explorer, Palette, Problems, Project Explorer, Properties, and Servers. These tabs are vital when developing with JBoss technologies.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Menus</term>
+					<listitem>
+						<para>
+							The default menus of the JBoss perspective are File, Edit, Navigate, Search, Project, Run, Window, Help. These are shared with other perspectives but contain unique menu items for actions such as starting project wizards, converting line delimiters, showing items in JBoss perspective tabs, generating Javadoc, building packages, accessing JBoss Central and cheat sheets, and reporting problems with tools.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Toolbars</term>
+					<listitem>
+						<para>
+							The default toolbars that compose the global toolbar of the JBoss perspective are BrowserSim, Debug, File, Help, Java EE, Java Element Creation, JBoss Tools WTP Server Actions, JPA Element Creation, Launch, Navigate, Search, Select Maven Profiles, and Web Browser. The global toolbar provides access to frequently used actions.
+						</para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22790-542941+%5BLatest%5D&amp;cf_build_id=22790-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+the+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+	</section>
+	<section id="sect-Features_of_JBoss_Central_and_the_JBoss_Perspective">
+		<title>Features of JBoss Central and the JBoss Perspective</title>
+		<section id="Features_Overview" remap="TID_22795">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Features Overview</title>
+			<para>
+				The aim of this section is to guide you in using JBoss Central and the JBoss perspective:
+			</para>
+			<itemizedlist>
+				<listitem>
+					<para>
+						View JBoss Central to access project wizards and information resources
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Install and update software with JBoss Central
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Open the JBoss perspective for easy access to key tabs, menus and toolbars
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Access cheat sheets that assist in project development
+					</para>
+				</listitem>
+			</itemizedlist>
+			<!--<para><remark>[DOCS] Watching JBIDE-2557: cheat sheets for archetypes; Also cheat sheets missing for quickstarts; JBIDE-14804: uninstall from central</remark></para>-->
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22795-542941+%5BLatest%5D&amp;cf_build_id=22795-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="View_JBoss_Central" remap="TID_22794">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>View JBoss Central</title>
+			<para>
+				The <guilabel>JBoss Central</guilabel> tab provides resources for getting started and updating software.
+			</para>
+			<para>
+				To open the <guilabel>JBoss Central</guilabel> tab, click the <guibutton>JBoss Central</guibutton> icon 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata fileref="images/3989.png"/>
+					</imageobject>
+				</inlinemediaobject>. Alternatively, click <guimenu>Help</guimenu>&rarr;<guimenu>JBoss Central</guimenu>.
+			</para>
+			<para>
+				To maximize the <guilabel>JBoss Central</guilabel> tab, double-click the name of the <guibutton>JBoss Central</guibutton> tab. The <guilabel>JBoss Central</guilabel> tab fills the whole IDE window. Double-click the name of the <guibutton>JBoss Central</guibutton> tab to reduce the size of the tab again. These actions work for all IDE tabs.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22794-542984+%5BLatest%5D&amp;cf_build_id=22794-542984+03+Oct+2013+12%3A20+en-US+%5BLatest%5D&amp;comment=Title%3A+View+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Access_Project_Wizards_in_JBoss_Central" remap="TID_22800">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Access Project Wizards in JBoss Central</title>
+			<para>
+				JBoss Central provides access to wizards for generating projects. There are two types of project wizards available in JBoss Central: 
+				<itemizedlist>
+					<listitem>
+						<para>
+							The <guilabel>Start from scratch</guilabel> wizards create the same project using different underlying technology, as started in the project name. To view a project summary, hover the cursor over a project wizard. If you do not have the necessary plug-in installed to use a wizard, you will be prompted to install it when you select the wizard.
+						</para>
+						<figure>
+							<title>Start from Scratch Wizards</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3963.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>The <guilabel>Start from scratch</guilabel> wizards create the same project using different underlying technology, as started in the project name. To view a project summary, hover the cursor over a project wizard.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+					<listitem>
+						<para>
+							The <guilabel>Start from a sample</guilabel> wizards create sample web, mobile, back-end and portal applications. To view a project summary, hover the cursor over a project wizard.
+						</para>
+						<figure>
+							<title>Start from Sample Wizards</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3965.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>The <guilabel>Start from a sample</guilabel> wizards create sample web, mobile, back-end and portal applications. To view a project summary, hover the cursor over a project wizard.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+				</itemizedlist>
+			</para>
+			<para>
+				To create a project from one of the wizards, in the <guilabel>JBoss Central</guilabel> tab select the <guilabel>Getting Started</guilabel> page. Click on one of the links below <guilabel>Start from scratch</guilabel> or <guilabel>Start from a sample</guilabel>. Alternatively, click <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu> and select a project from the list. A wizard opens to guide you through the process of creating the project.
+			</para>
+			<para>
+				Additionally, access is provided to the comprehensive TicketMonster tutorial, part of JBoss Developer Framework, that guides you through developing a complex web application utilizing JBoss technologies from within the IDE. To view the tutorial, in the <guilabel>JBoss Central</guilabel> tab select the <guilabel>Getting Started</guilabel> page and click the <guibutton>Open the Ticket Monster tutorial</guibutton> button. The JBoss Developer Framework website will open in the default browser of the IDE.
+			</para>
+			<figure>
+				<title>Access the TicketMonster Tutorial</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/3958.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>Access is provided to the comprehensive TicketMonster tutorial, part of JBoss Developer Framework, that guides you through developing a complex web application utilizing JBoss technologies from within the IDE. To view the tutorial, in the <guilabel>JBoss Central</guilabel> tab select the <guilabel>Getting Started</guilabel> page and click the <guibutton>Open the Ticket Monster tutorial</guibutton> button.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22800-543006+%5BLatest%5D&amp;cf_build_id=22800-543006+03+Oct+2013+12%3A54+en-US+%5BLatest%5D&amp;comment=Title%3A+Access+Project+Wizards+in+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Access_Information_in_JBoss_Central" remap="TID_22801">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Access Information in JBoss Central</title>
+			<para>
+				JBoss Central provides easy access to JBoss and developer information. Each of the information sources listed below are web-based and, depending on the web browser preferences you have set for the IDE, clicking on links results in an internal or external browser window opening.
+			</para>
+			<variablelist>
+				<title/>
+				<varlistentry>
+					<term>View JBoss <phrase>Developer Studio</phrase> website</term>
+					<listitem>
+						<para>
+							In the <guilabel>JBoss Central</guilabel> tab, click the <phrase><guibutton>JBoss Developer Studio Home</guibutton></phrase> icon 
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="images/3978.png"/>
+								</imageobject>
+							</inlinemediaobject>.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>View the latest JBoss developments</term>
+					<listitem>
+						<para>
+							In the <guilabel>JBoss Central</guilabel> tab, select the <guilabel>Getting Started</guilabel> page and click the links under <guilabel>JBoss Buzz</guilabel>. To see previews of the blog posts, hover the cursor over these links. To view a complete list of JBoss blog posts, click the <guibutton>JBoss Buzz</guibutton> button. JBoss blog posts are available to follow as RSS feeds or with Twitter. To review these options, click the <guibutton>News</guibutton> or <guibutton>Twitter</guibutton> icons.
+						</para>
+						<figure>
+							<title>JBoss Buzz</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3977.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>In the <guilabel>JBoss Central</guilabel> tab, select the <guilabel>Getting Started</guilabel> page and click the links under <guilabel>JBoss Buzz</guilabel>. To see previews of the blog posts, hover the cursor over these links. To view a complete list of JBoss blog posts, click the <guibutton>JBoss Buzz</guibutton> button.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>View JBoss developer information sources</term>
+					<listitem>
+						<para>
+							In the <guilabel>JBoss Central</guilabel> tab, select the <guilabel>Getting Started</guilabel> page and click the links under <guilabel>Other resources</guilabel>. These links provide access to videos, documentation and forums.
+						</para>
+						<figure>
+							<title>Other Resources</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3966.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>In the <guilabel>JBoss Central</guilabel> tab, select the <guilabel>Getting Started</guilabel> page and click the links under <guilabel>Other resources</guilabel>.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Search Red Hat Customer Portal website</term>
+					<listitem>
+						<para>
+							In the <guilabel>JBoss Central</guilabel> tab, click the arrow next to the search box and select <guilabel>Search Red Hat Customer Portal</guilabel>. In the search field, enter the search terms.
+						</para>
+						<figure>
+							<title>Search Red Hat Customer Portal Website</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3962.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>n the <guilabel>JBoss Central</guilabel> tab, click the arrow next to the search box and select <guilabel>Search Red Hat Customer Portal</guilabel>. In the search field, enter the search terms.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22801-542990+%5BLatest%5D&amp;cf_build_id=22801-542990+03+Oct+2013+12%3A26+en-US+%5BLatest%5D&amp;comment=Title%3A+Access+Information+in+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Update_Software_in_JBoss_Central" remap="TID_22798">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Update Software in JBoss Central</title>
+			<para>
+				JBoss Central enables you to install and update a range of IDE plug-ins. The available plug-ins comprise JBoss and third party plug-ins that have been specifically tested for use with the IDE. These plug-ins include ones for web and mobile development, source control management, testing and Maven.
+			</para>
+			<para>
+				For all actions listed below, open the <guilabel>JBoss Central</guilabel> tab and select the <guilabel>Software/Update</guilabel> page.
+			</para>
+			<variablelist>
+				<title/>
+				<varlistentry>
+					<term>View available software</term>
+					<listitem>
+						<para>
+							The available software is listed in the table. To refresh the list of available plug-ins, click the <guibutton>Refresh</guibutton> icon 
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="images/3969.png"/>
+								</imageobject>
+							</inlinemediaobject>.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>View installed plug-ins</term>
+					<listitem>
+						<para>
+							Select the <guilabel>Show Installed</guilabel> check box. The installed plug-ins are listed in the table as disabled.
+						</para>
+						<figure>
+							<title>Show Installed Check Box Selected and Installed Plug-ins Listed as Disabled</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3980.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>To view installed plug-ins, select the <guilabel>Show Installed</guilabel> check box. The installed plug-ins are listed in the table as disabled.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Install available software</term>
+					<listitem>
+						<para>
+							In the <guilabel>Find</guilabel> field, type the name of the software or scroll through the list to locate it. Select the check box corresponding to the software you want to install and click <guibutton>Install</guibutton> or click the <guibutton>Install</guibutton> icon 
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="images/3979.png"/>
+								</imageobject>
+							</inlinemediaobject>.
+						</para>
+						<figure>
+							<title>Find and Install Software in Software/Update Page of JBoss Central Tab</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3985.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>In the <guilabel>Find</guilabel> field, type the name of the software or scroll through the list to locate it. Select the check box corresponding to the software you want to install and click <guibutton>Install</guibutton> or click the <guibutton>Install</guibutton> icon.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+						<para>
+							In the <application>Install</application> wizard, ensure the check boxes are selected for the software you want to install and click <guibutton>Next</guibutton>.
+						</para>
+						<figure>
+							<title>Install Window</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3984.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>In the <application>Install</application> wizard, ensure the check boxes are selected for the software you want to install and click <guibutton>Next</guibutton>.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+						<para>
+							Review the details of the items listed for install and click <guibutton>Next</guibutton>. After reading and agreeing to the license(s), click <guilabel>I accept the terms of the license agreement(s)</guilabel> and click <guibutton>Finish</guibutton>. The <guilabel>Installing Software</guilabel> window opens and reports the progress of the installation.
+						</para>
+						<para>
+							During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.
+						</para>
+						<figure>
+							<title>Warning Prompt for Installing Unsigned Content</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3981.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+						<para>
+							Once installing is complete, you are prompted to restart the IDE. Click <guibutton>Yes</guibutton> to restart now and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that changes do not take effect until the IDE is restarted.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Check for software updates</term>
+					<listitem>
+						<para>
+							Click the <guibutton>Check for Updates</guibutton> icon 
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="images/3957.png"/>
+								</imageobject>
+							</inlinemediaobject>. The <guilabel>Contacting Software Sites</guilabel> window opens and reports the progress of checking. Once checking is complete, a prompt informs you of any new software found. Click <guibutton>OK</guibutton> to close the prompt.
+						</para>
+						<figure>
+							<title>Information Window Showing No Updates Found</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3974.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>The <guilabel>Contacting Software Sites</guilabel> window opens and reports the progress of checking. Once checking is complete, a prompt informs you of any new software found. Click <guibutton>OK</guibutton> to close the prompt.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22798-542991+%5BLatest%5D&amp;cf_build_id=22798-542991+03+Oct+2013+12%3A29+en-US+%5BLatest%5D&amp;comment=Title%3A+Update+Software+in+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Open_the_JBoss_Perspective" remap="TID_22791">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Open the JBoss Perspective</title>
+			<para>
+				The JBoss perspective provides a default set of tabs, menus and toolbars to assist with common tasks associated with developing applications that use JBoss technologies.
+			</para>
+			<para>
+				To open the JBoss perspective, click <guimenu>Window</guimenu>&rarr;<guimenu>Open Perspective</guimenu>&rarr;<guimenu>Other</guimenu>. From the list of available perspectives, select <guilabel>JBoss</guilabel> and click <guibutton>OK</guibutton>. The tabs associated with the JBoss perspective open and menus and toolbars change as appropriate.
+			</para>
+			<figure>
+				<title>Select JBoss in the Open Perspective Window</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/3973.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To open the JBoss perspective, click <guimenu>Window</guimenu>&rarr;<guimenu>Open Perspective</guimenu>&rarr;<guimenu>Other</guimenu>. From the list of available perspectives, select <guilabel>JBoss</guilabel> and click <guibutton>OK</guibutton>.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22791-542993+%5BLatest%5D&amp;cf_build_id=22791-542993+03+Oct+2013+12%3A30+en-US+%5BLatest%5D&amp;comment=Title%3A+Open+the+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Manage_JBoss_Perspective" remap="TID_22796">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Manage JBoss Perspective</title>
+			<para>
+				There are a number of actions provided by the IDE for managing perspectives, including the JBoss perspective.
+			</para>
+			<variablelist>
+				<title/>
+				<varlistentry>
+					<term>Reset the JBoss perspective</term>
+					<listitem>
+						<para>
+							You may want to reset the JBoss perspective to its default settings after opening and closing tabs. Click <guimenu>Window</guimenu>&rarr;<guimenu>Reset Perspective</guimenu>. At the prompt asking if you want to reset the current JBoss perspective to its default settings, click <guibutton>Yes</guibutton>.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Switch to the JBoss perspective</term>
+					<listitem>
+						<para>
+							You can have multiple perspectives open at one time. To switch to the JBoss perspective, click the <guibutton>JBoss</guibutton> icon 
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="images/3976.png"/>
+								</imageobject>
+							</inlinemediaobject>. Alternatively, click <guimenu>Window</guimenu>&rarr;<guimenu>Navigation</guimenu>&rarr;<guimenu>Next Perspective</guimenu> or press <keycap>Ctrl+F8</keycap> and repeat until the JBoss perspective is the current perspective.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Close the JBoss perspective</term>
+					<listitem>
+						<para>
+							Click <guimenu>Window</guimenu>&rarr;<guimenu>Close Perspective</guimenu>.
+						</para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22796-542994+%5BLatest%5D&amp;cf_build_id=22796-542994+03+Oct+2013+12%3A31+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="View_Cheat_Sheets" remap="TID_22793">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>View Cheat Sheets</title>
+			<para>
+				Typically, cheat sheets contain detailed information about projects, with step by step guidance and explanations for how to create and deploy applications. JBoss Central and the JBoss perspective provide actions to make the cheat sheets that accompany projects easier to access and view<!--, including the cheat sheets that accompany the <guilabel>Start from scratch</guilabel> and <guilabel>Start from a sample</guilabel> projects available in JBoss Central. -->.
+			</para>
+			<!-- JBDS-2557: cheat sheets on archetypes and quickstarts -->
+			<!-- <para>When you create a new project with an accompanying cheat sheet, the <guilabel>Cheat Sheets</guilabel> tab automatically opens and displays the cheat sheet.</para> -->
+			<para>
+				A cheat sheet contained in a project is automatically opened in the <guilabel>Cheat Sheets</guilabel> tab when the project is imported into the workspace with <guimenu>File</guimenu>&rarr;<guimenu>Import</guimenu>.
+			</para>
+			<figure>
+				<title>Cheat Sheet Open in Cheat Sheets Tab</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/3988.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>A cheat sheet contained in a project is automatically opened in the <guilabel>Cheat Sheets</guilabel> tab when the project is imported into the workspace with <guimenu>File</guimenu>&rarr;<guimenu>Import</guimenu>.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para>
+				To open a cheat sheet manually, in the <guilabel>Project Explorer</guilabel> tab right-click the project name or a cheat sheet file and click <guimenu>Open In Cheat Sheets View</guimenu>.
+			</para>
+			<figure>
+				<title><guimenu>Open In Cheat Sheets View</guimenu> Menu Option</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/3960.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To open a cheat sheet manually, in the <guilabel>Project Explorer</guilabel> tab right-click the project name or a cheat sheet file and click <guimenu>Open In Cheat Sheets View</guimenu>.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para>
+				Alternatively, click <guimenu>Help</guimenu>&rarr;<guimenu>Cheat Sheets</guimenu>, click <guilabel>Select a cheat sheet from a file</guilabel> and type the location of the file in the field or click <guibutton>Browse</guibutton> to navigate to the file. Click <guibutton>OK</guibutton> to close the window. The cheat sheet opens in the <guilabel>Cheat Sheets</guilabel> tab.
+			</para>
+			<note>
+				<para>
+					If the cheat sheet file name begins with dot, it may not be automatically visible in the <guilabel>Project Explorer</guilabel> tab. To change the viewing preferences of the <guilabel>Project Explorer</guilabel> tab, click the <guibutton>View Menu</guibutton> icon and click <guimenu>Customize View</guimenu>. In the <guilabel>Filters</guilabel> tab, clear the <guilabel>.* resources</guilabel> check box and click <guibutton>OK</guibutton>.
+				</para>
+			</note>
+			<!-- API for developing cheat sheets available to all -->
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22793-542996+%5BLatest%5D&amp;cf_build_id=22793-542996+03+Oct+2013+12%3A32+en-US+%5BLatest%5D&amp;comment=Title%3A+View+Cheat+Sheets%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+	</section>
+	<section id="sect-Customizing_JBoss_Central_and_the_JBoss_Perspective">
+		<title>Customizing JBoss Central and the JBoss Perspective</title>
+		<section id="Customizing_Overview" remap="TID_22792">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Customizing Overview</title>
+			<para>
+				The aim of this section is to guide you in customizing JBoss Central and the JBoss perspective:
+			</para>
+			<itemizedlist>
+				<listitem>
+					<para>
+						Make JBoss Central visible when the IDE starts
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Customize the menu and toolbar items of the JBoss perspective
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Enable project examples for use when you are offline
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Specify the default IDE behavior for cheat sheets
+					</para>
+				</listitem>
+			</itemizedlist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22792-542941+%5BLatest%5D&amp;cf_build_id=22792-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Change_the_Behavior_of_JBoss_Central_on_IDE_Start" remap="TID_22799">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Change the Behavior of JBoss Central on IDE Start</title>
+			<para>
+				JBoss Central is set by default to show when the IDE starts but you can customize this behavior.
+			</para>
+			<para>
+				To change the behavior, in the <guilabel>JBoss Central</guilabel> tab select or clear the <guilabel>Show on Startup</guilabel> check box as appropriate.
+			</para>
+			<figure>
+				<title>Show on Startup Check Box</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/3959.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>JBoss Central is set by default to show when the IDE starts but you can customize this behavior. To change the behavior, in the <guilabel>JBoss Central</guilabel> tab select or clear the <guilabel>Show on Startup</guilabel> check box as appropriate.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para>
+				Alternatively, in the <guilabel>JBoss Central</guilabel> tab click the <guibutton>Preferences</guibutton> icon 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata fileref="images/3971.png"/>
+					</imageobject>
+				</inlinemediaobject> or click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. In both cases, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Central</guilabel>. Select or clear the <guilabel>Show JBoss Central on Startup</guilabel> check box as appropriate. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
+			</para>
+			<figure>
+				<title>JBoss Central Pane in the Preferences Window</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/3970.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>In the <guilabel>JBoss Central</guilabel> tab click the <guibutton>Preferences</guibutton> icon or click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. In both cases, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Central</guilabel>. Select or clear the <guilabel>Show JBoss Central on Startup</guilabel> check box as appropriate. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22799-542997+%5BLatest%5D&amp;cf_build_id=22799-542997+03+Oct+2013+12%3A34+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Behavior+of+JBoss+Central+on+IDE+Start%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Customize_the_Default_Tabs_Menus_and_Toolbars_of_the_JBoss_Perspective" remap="TID_22797">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Customize the Default Tabs, Menus and Toolbars of the JBoss Perspective</title>
+			<para>
+				You can customize the menus and toolbars displayed by the JBoss perspective, as with any perspective.
+			</para>
+			<para>
+				To customize the JBoss perspective, ensure it is the current perspective and click <guibutton>Window</guibutton>&rarr;<guimenu>Customize Perspective</guimenu>. In the <guilabel>Tool Bar Visibility</guilabel> tab, select or clear the check boxes corresponding to the individual toolbars and icons visible in the global toolbar of the JBoss perspective as appropriate. In the <guilabel>Menu Visibility</guilabel> tab, select or clear the check boxes corresponding to the menus and menu items visible in the JBoss perspective as appropriate. Disabled items in the <guilabel>Tool Bar Visibility</guilabel> or <guilabel>Menu Visibility</guilabel> tab can be activated in the <guilabel>Command Groups Availability</guilabel> tab. Click <guibutton>OK</guibutton> to close the window.
+			</para>
+			<figure>
+				<title>Tool Bar Visibility Tab in Customize Perspective Window</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/3986.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To customize the JBoss perspective, ensure it is the current perspective and click <guibutton>Window</guibutton>&rarr;<guimenu>Customize Perspective</guimenu>. In the <guilabel>Tool Bar Visibility</guilabel> tab, select or clear the check boxes corresponding to the individual toolbars and icons visible in the global toolbar of the JBoss perspective as appropriate. Click <guibutton>OK</guibutton> to close the window.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<figure>
+				<title>Menu Visibility Tab in Customize Perspective Window</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/3987.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To customize the JBoss perspective, ensure it is the current perspective and click <guibutton>Window</guibutton>&rarr;<guimenu>Customize Perspective</guimenu>. In the <guilabel>Menu Visibility</guilabel> tab, select or clear the check boxes corresponding to the menus and menu items visible in the JBoss perspective as appropriate. Click <guibutton>OK</guibutton> to close the window.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para>
+				You can reorder the individual toolbars comprising the global toolbar in the JBoss perspective. To reorder, click the vertical line indicating the beginning of a toolbar and drag the toolbar to its new location in the global toolbar.
+			</para>
+			<figure>
+				<title>Select and Drag a Toolbar to Reorder the Global Toolbar</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/3968.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>You can reorder the individual toolbars comprising the global toolbar in the JBoss perspective. To reorder, click the vertical line indicating the beginning of a toolbar and drag the toolbar to its new location in the global toolbar.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para>
+				Additionally, you can customize which tabs are part of the JBoss perspective. To customize the tabs, ensure the JBoss perspective is the current perspective. Open or close tabs as desired and click <guimenu>Window</guimenu>&rarr;<guimenu>Save Perspective As</guimenu>. From the <guilabel>Existing Perspectives</guilabel> list, select <guilabel>JBoss</guilabel> and click <guibutton>OK</guibutton>. At the prompt asking if you want to overwrite the existing JBoss perspective, click <guibutton>Yes</guibutton>.
+			</para>
+			<figure>
+				<title>Save Perspective As Window</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/3964.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>you can customize which tabs are part of the JBoss perspective. To customize the tabs, ensure the JBoss perspective is the current perspective. Open or close tabs as desired and click <guimenu>Window</guimenu>&rarr;<guimenu>Save Perspective As</guimenu>. From the <guilabel>Existing Perspectives</guilabel> list, select <guilabel>JBoss</guilabel> and click <guibutton>OK</guibutton>.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para>
+				To revert all customization of the JBoss perspective, ensure it is the current perspective and click <guimenu>Window</guimenu>&rarr;<guimenu>Reset Perspective</guimenu>. At the prompt asking if you want to reset the JBoss perspective to its saved state, select the <guilabel>Also discard perspective's customization</guilabel> check box and click <guibutton>Yes</guibutton>.
+			</para>
+			<figure>
+				<title>Revert Perspective Window</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/3967.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To revert all customization of the JBoss perspective, ensure it is the current perspective and click <guimenu>Window</guimenu>&rarr;<guimenu>Reset Perspective</guimenu>. At the prompt asking if you want to reset the JBoss perspective to its saved state, select the <guilabel>Also discard perspective's customization</guilabel> check box and click <guibutton>Yes</guibutton>.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22797-542999+%5BLatest%5D&amp;cf_build_id=22797-542999+03+Oct+2013+12%3A36+en-US+%5BLatest%5D&amp;comment=Title%3A+Customize+the+Default+Tabs%2C+Menus+and+Toolbars+of+the+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Use_Project_Examples_when_Working_Offline" remap="TID_22802">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Use Project Examples when Working Offline</title>
+			<para>
+				When a project wizard in JBoss Central is used, the IDE searches online respositories for the most recent versions of project dependencies. JBoss Central provides a feature that enables you to create a cache of the necessary project dependencies when you are online so that you can still use the project wizards offline. As detailed below, this is achieved by first creating the cache and then informing the IDE to use that cache.
+			</para>
+			<important>
+				<para>
+					Groovy must be installed and configured as stated in the Groovy documentation. For more information, see <ulink url="http://groovy.codehaus.org/Installing+Groovy"/> at the Groovy website.
+				</para>
+			</important>
+			<important>
+				<para>
+					Maven must be correctly configured for all of the project wizards before the cache script is run. Red Hat JBoss Enterprise Application Platform and Red Hat JBoss Web Framework Kit Maven repositories must be specified in <filename>settings.xml</filename>.
+				</para>
+			</important>
+			<para>
+				To create the cache, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Project Examples</guilabel> and select <guilabel>Offline Support</guilabel>. To run the cache generating script, click <guibutton>Copy to Clipboard</guibutton> and paste the selected text on a command line outside the IDE. The script will download and build all of the project examples in a new directory <filename>offline</filename>. The script may take some time to complete.
+			</para>
+			<para>
+				Once the cache is generated, copy <filename>offline/.jbosstools/cache</filename> to the directory where you want to keep the project examples. Copy the contents of <filename>offline/.m2/repository</filename> to your local maven repository.
+			</para>
+			<para>
+				To inform the IDE to use the cache for the project example wizards, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Project Examples</guilabel> and select <guilabel>Offline Support</guilabel>. Select the <guilabel>Enable offline mode for project examples</guilabel> check box. Ensure the correct cache location is specified in the <guilabel>Offline directory</guilabel> field. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22802-542941+%5BLatest%5D&amp;cf_build_id=22802-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Use+Project+Examples+when+Working+Offline%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Set_Cheat_Sheet_Behavior" remap="TID_22803">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Set Cheat Sheet Behavior</title>
+			<para>
+				You can specify the default action the IDE should take when finding cheat sheets in projects that it is importing. The available options include always or never showing cheat sheets or the IDE prompting for which action to take for each import.
+			</para>
+			<para>
+				To customize the action, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>Project Examples</guilabel>. From the <guilabel>Show included cheat sheet(s) when importing a project</guilabel> list, click one of the options. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.
+			</para>
+			<figure>
+				<title>Set Cheat Sheet Behavior in Project Examples Pane of Preferences Window</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/3972.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To customize the action, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>Project Examples</guilabel>. From the <guilabel>Show included cheat sheet(s) when importing a project</guilabel> list, click one of the options. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22803-543000+%5BLatest%5D&amp;cf_build_id=22803-543000+03+Oct+2013+12%3A37+en-US+%5BLatest%5D&amp;comment=Title%3A+Set+Cheat+Sheet+Behavior%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+	</section>
+</chapter>

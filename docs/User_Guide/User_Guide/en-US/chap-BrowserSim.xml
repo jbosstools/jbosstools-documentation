@@ -1,0 +1,914 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "User_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-BrowserSim">
+	<title>BrowserSim</title>
+	<section id="sect-Overview_of_BrowserSim">
+		<title>Overview of BrowserSim</title>
+		<section id="About_BrowserSim" remap="TID_22866">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>About BrowserSim</title>
+			<para>
+				BrowserSim is a mobile web browser simulator. It enables you to view and interact with web pages as they would appear on mobile devices.
+			</para>
+			<para>
+				BrowserSim consists of an external web browser window. This browser window is different from standard browsers in that it can be transformed to simulate browsers on a variety of mobile devices. The browser window can also be rotated to demonstrate the changes that would occur to a web application as a result of rotating a mobile device. Additionally, BrowserSim provides access to tools for inspecting and editing the source of web pages.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22866-542941+%5BLatest%5D&amp;cf_build_id=22866-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="System_Requirements3" remap="TID_22864">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>System Requirements</title>
+			<para>
+				<phrase>The overall system requirements of JBoss Developer Studio are applicable for BrowserSim and can be viewed in the JBoss Developer Studio Installation Guide at <ulink url="https://access.redhat.com"/> on the Red Hat Customer Portal.</phrase> But, as reiterated below, there are additional system requirements and restrictions when using BrowserSim on Microsoft Windows operating systems.
+			</para>
+			<para>
+				BrowserSim depends on WebKit and, consequently, requires Apple Safari to be installed on Microsoft Windows operating systems. Only a 32-bit version of Apple Safari is available for Microsoft Windows operating systems. To work around this restriction for 64-bit Microsoft Windows operating systems, you must set BrowserSim to use a 32-bit JVM when running in 64-bit versions of <phrase>JBoss Developer Studio</phrase>. Note that 32-bit JVM choice is limited to Oracle 32-bit JRE 1.6, JDK 1.6, or JDK 1.7 on Microsoft Windows operating systems because Oracle 32-bit JRE 1.7 is incompatible with Apple Safari.
+			</para>
+			<para>
+				To set BrowserSim to use a 32-bit JVM, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>BrowserSim/CordovaSim</guilabel>. Under <guilabel>Select JRE to run BrowserSim</guilabel>, click <guilabel>Select</guilabel> and from the list select a 32-bit JRE or Java developer kit. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22864-542941+%5BLatest%5D&amp;cf_build_id=22864-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+System+Requirements%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+	</section>
+	<section id="sect-Features_of_BrowserSim">
+		<title>Features of BrowserSim</title>
+		<section id="Features_Overview5" remap="TID_22865">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Features Overview</title>
+			<para>
+				The aim of this section is to guide you in using BrowserSim:
+			</para>
+			<itemizedlist>
+				<listitem>
+					<para>
+						View local and remote web applications in BrowserSim
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Change the appearance of simulated devices, by rotating them and changing or removing their skins
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Check the look and functionality of web pages in different browsers, such as the default browser or additional synchronized simulated devices
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Generate screen captures of simulated devices and their web pages
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						View the page source of web pages with editors, Firebug Lite and Weinre
+					</para>
+				</listitem>
+			</itemizedlist>
+			<!--<para><remark>[DOCS] Watching ERD JBDS70_0028/JBDS-2522 click on any browser makes all others come to top too</remark></para> -->
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22865-542941+%5BLatest%5D&amp;cf_build_id=22865-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="View_a_Web_Application_on_BrowserSim" remap="TID_22856">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>View a Web Application on BrowserSim</title>
+			<para>
+				You can use BrowserSim to view web applications on local file systems or deployed on runtime servers.
+			</para>
+			<variablelist>
+				<title/>
+				<varlistentry>
+					<term>To view web applications in local file systems</term>
+					<listitem>
+						<para>
+							In the <guilabel>Project Explorer</guilabel> tab, select a <filename>.html</filename> file and click the <guibutton>Run BrowserSim</guibutton> icon 
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="images/4115.png"/>
+								</imageobject>
+							</inlinemediaobject>. Alternatively, right-click a <filename>.html</filename> file and click <guimenu>Open With</guimenu>&rarr;<guimenu>BrowserSim</guimenu>.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>To view deployed web applications</term>
+					<listitem>
+						<para>
+							In the <guilabel>Servers</guilabel> tab, expand the server on which the application is deployed. Right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>BrowserSim</guimenu>. Alternatively, select the application and click the <guibutton>Run BrowserSim</guibutton> icon. If BrowserSim is the IDE browser preferences, you can also right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser</guimenu>.
+						</para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para>
+				BrowserSim employs intelligent loading when selecting which web page to open in the browser window. If a web page is already open in a standard browser window, this is the web page that is loaded in BrowserSim.
+			</para>
+			<figure>
+				<title>Web Page Open on Simulated Device</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4116.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>Web Page Open on Simulated Device.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22856-543239+%5BLatest%5D&amp;cf_build_id=22856-543239+03+Oct+2013+16%3A31+en-US+%5BLatest%5D&amp;comment=Title%3A+View+a+Web+Application+on+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Manage_Web_Applications_on_BrowserSim" remap="TID_22859">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Manage Web Applications on BrowserSim</title>
+			<para>
+				BrowserSim provides actions to assist with viewing web applications on its simulated devices.
+			</para>
+			<variablelist>
+				<title/>
+				<varlistentry>
+					<term>Open a web link</term>
+					<listitem>
+						<para>
+							In the browser window, click the web link. The link opens in the browser windows of the simulated device.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Show or hide the address bar</term>
+					<listitem>
+						<para>
+							Click the notification bar, where the connectivity, time and battery are displayed, to show or hide the address bar.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Reload a web page</term>
+					<listitem>
+						<para>
+							Click the <guilabel>Reload</guilabel> icon 
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="images/4106.png"/>
+								</imageobject>
+							</inlinemediaobject> at the end of the address bar.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Stop loading a web page</term>
+					<listitem>
+						<para>
+							Click the <guilabel>Stop</guilabel> icon 
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="images/4101.png"/>
+								</imageobject>
+							</inlinemediaobject> at the end of the address bar.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Close BrowserSim</term>
+					<listitem>
+						<para>
+							Right-click the simulated device and click <guimenu>Close</guimenu>. Open BrowserSim windows automatically close when the IDE closes.
+						</para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22859-543240+%5BLatest%5D&amp;cf_build_id=22859-543240+03+Oct+2013+16%3A33+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+Web+Applications+on+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Change_the_Appearance_of_a_Simulated_Device" remap="TID_22860">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Change the Appearance of a Simulated Device</title>
+			<para>
+				BrowserSim provides a number of ways to change the appearance of simulated devices. Changes made to the appearance of simulated devices are retained by BrowserSim and they are automatically applied when it starts in future.
+			</para>
+			<variablelist>
+				<title/>
+				<varlistentry>
+					<term>Rotate the view between portrait and landscape modes</term>
+					<listitem>
+						<para>
+							Click any corner of the simulated device. Alternatively, right-click the simulated device and click <guimenu>Rotate Left</guimenu> or <guimenu>Rotate Right</guimenu>.
+						</para>
+						<figure>
+							<title>Rotate Mouse Pointer in Upper-right Corner of Simulated Device</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/4104.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>To rotate the view between portrait and landscape modes, click any corner of the simulated device.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Change the simulated device</term>
+					<listitem>
+						<para>
+							Right-click the simulated device, click <guimenu>Skins</guimenu> and select from the listed devices.
+						</para>
+						<figure>
+							<title>Skins Menu Option</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/4102.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>Right-click the simulated device, click <guimenu>Skins</guimenu> and select from the listed devices.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Remove or use skins</term>
+					<listitem>
+						<para>
+							To view a plain browser window without the mobile device skin, right-click the simulated device and clear the <guilabel>Use Skins</guilabel> check box. To reapply the skin, click <guimenu>Devices</guimenu> and select the <guilabel>Use Skins</guilabel> check box.
+						</para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22860-543241+%5BLatest%5D&amp;cf_build_id=22860-543241+03+Oct+2013+16%3A34+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Appearance+of+a+Simulated+Device%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="View_a_Web_Page_in_Different_Browsers_and_Simulated_Devices" remap="TID_22857">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>View a Web Page in Different Browsers and Simulated Devices</title>
+			<para>
+				From within BrowserSim, web pages can be viewed in different browsers and simulated devices.
+			</para>
+			<variablelist>
+				<title/>
+				<varlistentry>
+					<term>View in the default browser of the system</term>
+					<listitem>
+						<para>
+							Right-click the simulated device and click <guimenu>Open in default browser</guimenu>. An external browser window opens and displays the web page.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>View simultaneously on synchronized simulated devices</term>
+					<listitem>
+						<para>
+							Right-click the simulated device and click <guimenu>Open Synchronized Window</guimenu>. Select from the list of available skins for the additional simulated device. An additional simulated device opens and displays the same web page as that of the synchronized simulated device. Opening a web page in one synchronized simulated device results in the web page opening in all the synchronized simulated devices.
+						</para>
+						<figure>
+							<title>Synchronized Simulated Devices</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/4100.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>Right-click the simulated device and click <guimenu>Open Synchronized Window</guimenu>. Select from the list of available skins for the additional simulated device. An additional simulated device opens and displays the same web page as that of the synchronized simulated device. Opening a web page in one synchronized simulated device results in the web page opening in all the synchronized simulated devices.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22857-543242+%5BLatest%5D&amp;cf_build_id=22857-543242+03+Oct+2013+16%3A35+en-US+%5BLatest%5D&amp;comment=Title%3A+View+a+Web+Page+in+Different+Browsers+and+Simulated+Devices%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Generate_a_Screen_Capture_of_a_Simulated_Device" remap="TID_22852">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Generate a Screen Capture of a Simulated Device</title>
+			<para>
+				BrowserSim provides the ability to generate screen captures of a simulated device and the web pages it shows.
+			</para>
+			<para>
+				To generate a screen capture of a simulated device, right-click the simulated device and click <guimenu>Screenshot</guimenu>.
+			</para>
+			<figure>
+				<title>Screenshot Menu Option</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4103.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To generate a screen capture of a simulated device, right-click the simulated device and click <guimenu>Screenshot</guimenu>.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para>
+				Select the output for the screen capture from the list of options: 
+				<itemizedlist>
+					<listitem>
+						<para>
+							<guimenu>Save</guimenu> to save as a <filename>.png</filename> file in the default location. The default location is your home directory.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							<guimenu>Save as</guimenu> to save as a <filename>.png</filename> file in a location you specify.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							<guimenu>Copy to clipboard</guimenu> to copy the graphic for immediate use.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22852-543244+%5BLatest%5D&amp;cf_build_id=22852-543244+03+Oct+2013+16%3A35+en-US+%5BLatest%5D&amp;comment=Title%3A+Generate+a+Screen+Capture+of+a+Simulated+Device%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Activate_LiveReload_for_BrowserSim" remap="TID_22851">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Activate LiveReload for BrowserSim</title>
+			<para>
+				LiveReload for BrowserSim refreshes web pages open in simulated device browser windows as the source is edited. A LiveReload server sends notifications as resources are changed in the IDE and BrowserSim inserts the JavaScript code, which invokes the simulated device browser window to refresh. The procedures below outline how to create a LiveReload server and how to enable LiveReload in BrowserSim for workspace and deployed resources.
+			</para>
+			<procedure>
+				<title>Create a LiveReload Server</title>
+				<step>
+					<para>
+						In the <guilabel>Servers</guilabel> tab, click <guilabel>create a new server</guilabel> or right-click an existing server and click <guimenu>New</guimenu>&rarr;<guimenu>Server</guimenu>.
+					</para>
+				</step>
+				<step>
+					<para>
+						From the list of server types, expand <guilabel>Basic</guilabel> and select <guilabel>LiveReload Server</guilabel>.
+					</para>
+					<figure>
+						<title>LiveReload Server Selected in New Server Wizard</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4111.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>From the list of server types, expand <guilabel>Basic</guilabel> and select <guilabel>LiveReload Server</guilabel>.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</step>
+				<step>
+					<para>
+						The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are automatically populated. The <command>localhost</command> value in the <guilabel>Server's host name</guilabel> field indicates that the server is to be run on the local system and the value in the <guilabel>Server name</guilabel> field is the name by which the LiveReload server is identified in the <guilabel>Servers</guilabel> tab. You can edit these values as appropriate by typing in the fields.
+					</para>
+				</step>
+				<step>
+					<para>
+						Click <guibutton>Finish</guibutton> to close the window. The LiveReload server is listed in the <guilabel>Servers</guilabel> tab.
+					</para>
+					<figure>
+						<title>LiveReload Server Listed in the Server Tab</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4113.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>The LiveReload server is listed in the <guilabel>Servers</guilabel> tab.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</step>
+			</procedure>
+			<procedure>
+				<title>Activate LiveReload for BrowserSim</title>
+				<step>
+					<para>
+						Ensure the LiveReload server is started. If it is not started, in the <guilabel>Servers</guilabel> tab right-click the LiveReload server and click <guimenu>Start</guimenu>.
+					</para>
+				</step>
+				<step>
+					<para>
+						Complete the appropriate step depending on the location of your resources:
+					</para>
+					<stepalternatives>
+						<step>
+							<para>
+								For workspace resources, in the <guilabel>Project Explorer</guilabel> tab right-click the <filename>.html</filename> file and click <guimenu>Open With</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.
+							</para>
+						</step>
+						<step>
+							<para>
+								For deployed resources, in the <guilabel>Servers</guilabel> tab right-click the application and click <guimenu>Show In</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.
+							</para>
+							<important>
+								<para>
+									Ensure the server and application of the deployed resources are started before attempting to view the resources in LiveReload-enabled BrowserSim. To start the server and the application, in the <guilabel>Servers</guilabel> tab right-click each and click <guimenu>Start</guimenu>.
+								</para>
+							</important>
+						</step>
+					</stepalternatives>
+				</step>
+				<step>
+					<para>
+						Right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected.
+					</para>
+					<figure>
+						<title><guilabel>Enable LiveReload</guilabel> Check Box for BrowserSim</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4112.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>Right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</step>
+			</procedure>
+			<important>
+				<para>
+					The <guilabel>Enable LiveReload</guilabel> check box has no effect when the LiveReload server is set to insert the JavaScript code and the web resource is viewed in BrowserSim via the LiveReload server port URL. LiveReload is always enabled in this case.
+				</para>
+			</important>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22851-543248+%5BLatest%5D&amp;cf_build_id=22851-543248+03+Oct+2013+16%3A37+en-US+%5BLatest%5D&amp;comment=Title%3A+Activate+LiveReload+for+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="View_the_Source_of_a_Web_Page" remap="TID_22855">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>View the Source of a Web Page</title>
+			<para>
+				From within BrowserSim, the source of web pages can be viewed with a variety of applications.
+			</para>
+			<variablelist>
+				<title/>
+				<varlistentry>
+					<term>Open the page source in an editor</term>
+					<listitem>
+						<para>
+							Right-click the simulated device and click <guimenu>View Page Source</guimenu>. The file containing the page source opens in an editor tab.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Inspect the page source with Firebug Lite</term>
+					<listitem>
+						<para>
+							Right-click the simulated device and click <guimenu>Debug</guimenu>&rarr;<guimenu>Firebug Lite</guimenu>. The Firebug Lite application is displayed in an external window.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Inspect and edit the page source with Weinre</term>
+					<listitem>
+						<para>
+							Right-click the simulated device and click <guimenu>Debug</guimenu>&rarr;<guimenu>Weinre</guimenu>. The Weinre Inspector is displayed in an external window. Weinre supports remote debugging, enabling you to debug an application running on a mobile device from your desktop browser.
+						</para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22855-542941+%5BLatest%5D&amp;cf_build_id=22855-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+View+the+Source+of+a+Web+Page%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+	</section>
+	<section id="sect-Customizing_BrowserSim">
+		<title>Customizing BrowserSim</title>
+		<section id="Customizing_Overview4" remap="TID_22850">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Customizing Overview</title>
+			<para>
+				The aim of this section is to guide you in customizing BrowserSim:
+			</para>
+			<itemizedlist>
+				<listitem>
+					<para>
+						Make BrowserSim more prominent to use by making it the default browser, by adding its icon to the global toolbar and creating a shortcut key for launching it
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Extend the functionality of BrowserSim by adding or modify the simulated devices it provides
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Customize the default settings of BrowserSim for large simulated devices, for LiveReload, for screen captures and for Weinre
+					</para>
+				</listitem>
+			</itemizedlist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22850-542941+%5BLatest%5D&amp;cf_build_id=22850-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Make_BrowserSim_the_Default_Browser" remap="TID_22862">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Make BrowserSim the Default Browser</title>
+			<para>
+				<!--A variety of web browsers can be used to view web pages in the IDE.--> You can set BrowserSim to be the default browser used in actions such as <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser</guimenu> and <guimenu>Run on Server</guimenu>.
+			</para>
+			<para>
+				To set BrowserSim as the default browser, click <guimenu>Window</guimenu>&rarr;<guimenu>Web Browser</guimenu> and click <guimenu>BrowserSim</guimenu>.
+			</para>
+			<para>
+				Alternatively, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>General</guilabel> and select <guilabel>Web Browser</guilabel>. Select the <guilabel>BrowserSim</guilabel> check box. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22862-542941+%5BLatest%5D&amp;cf_build_id=22862-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Make+BrowserSim+the+Default+Browser%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Add_BrowserSim_to_the_Global_Toolbar" remap="TID_22849">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Add BrowserSim to the Global Toolbar</title>
+			<para>
+				The BrowserSim icon is part of the BrowserSim toolbar and, by default, this toolbar is included in the global toolbar of the JBoss perspective. But the BrowserSim icon might not be visible in other perspectives because the icons in the global toolbar change depending on the perspective you are using. As detailed in the procedure below, you can add the BrowserSim toolbar to other perspectives.
+			</para>
+			<procedure>
+				<title>Add BrowserSim to the Global Toolbar in the Current Perspective</title>
+				<step>
+					<para>
+						Ensure you are using the perspective in which you would like to add the BrowserSim toolbar. If you need to change the perspective, click <guimenu>Window</guimenu>&rarr;<guimenu>Open Perspective</guimenu>&rarr;<guimenu>Other</guimenu> and search for the appropriate perspective.
+					</para>
+				</step>
+				<step>
+					<para>
+						Click <guimenu>Window</guimenu>&rarr;<guimenu>Customize Perspective</guimenu>.
+					</para>
+				</step>
+				<step>
+					<para>
+						On the <guilabel>Command Groups Availability</guilabel> tab, select the <guilabel>BrowserSim</guilabel> check box to add this command group to the current perspective.
+					</para>
+				</step>
+				<step>
+					<para>
+						On the <guilabel>Tool Bar Visibility</guilabel> tab, ensure the <guilabel>BrowserSim</guilabel> check box is selected as this makes the BrowserSim toolbar visible.
+					</para>
+					<figure>
+						<title><guilabel>BrowserSim</guilabel> Check Box Selected in <guilabel>Tool Bar Visibility</guilabel> tab of <guimenu>Customize Perspective</guimenu> Window</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4117.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>On the <guilabel>Tool Bar Visibility</guilabel> tab, ensure the <guilabel>BrowserSim</guilabel> check box is selected as this makes the BrowserSim toolbar visible</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</step>
+				<step>
+					<para>
+						Click <guibutton>OK</guibutton> to close the window. The <guibutton>Run BrowserSim</guibutton> icon 
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata fileref="images/4115.png"/>
+							</imageobject>
+						</inlinemediaobject> is now visible in the global toolbar of the perspective.
+					</para>
+				</step>
+			</procedure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22849-543250+%5BLatest%5D&amp;cf_build_id=22849-543250+03+Oct+2013+16%3A38+en-US+%5BLatest%5D&amp;comment=Title%3A+Add+BrowserSim+to+the+Global+Toolbar%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Set_a_Shortcut_for_the_Run_BrowserSim_Action" remap="TID_22848">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Set a Shortcut for the Run BrowserSim Action</title>
+			<para>
+				If you use BrowserSim frequently but do not want to set it as the default browser, you can set a shortcut for the <guibutton>Run BrowserSim</guibutton> action, as described in the procedure below.
+			</para>
+			<procedure>
+				<title>Set a Shortcut for BrowserSim</title>
+				<step>
+					<para>
+						Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>General</guilabel> and select <guilabel>Keys</guilabel>.
+					</para>
+				</step>
+				<step>
+					<para>
+						To find the Run BrowserSim action, in the <guilabel>type filter text</guilabel> field enter <command>BrowserSim</command>.
+					</para>
+				</step>
+				<step>
+					<para>
+						In the table, select <guilabel>Run BrowserSim</guilabel>.
+					</para>
+				</step>
+				<step>
+					<para>
+						In the <guilabel>Binding</guilabel> field, type the key combination you want to use as a shortcut. Check the <guilabel>Conflicts</guilabel> table to ensure the key binding you have chosen does not conflict with existing shortcuts.
+					</para>
+				</step>
+				<step>
+					<para>
+						Once a unique key binding is selected, click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
+					</para>
+					<figure>
+						<title>Keys Pane in Preferences Window</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4114.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>Once a unique key binding is selected, click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</step>
+			</procedure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22848-543251+%5BLatest%5D&amp;cf_build_id=22848-543251+03+Oct+2013+16%3A39+en-US+%5BLatest%5D&amp;comment=Title%3A+Set+a+Shortcut+for+the+Run+BrowserSim+Action%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Add_or_Modify_Devices_in_BrowserSim" remap="TID_22863">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Add or Modify Devices in BrowserSim</title>
+			<para>
+				You may wish to preview a web application on a simulated mobile device that is not predefined in BrowserSim. You can add more devices to BrowserSim and modify the existing devices, as detailed below.
+			</para>
+			<procedure>
+				<title>Add Devices to BrowserSim</title>
+				<step>
+					<para>
+						Right-click the simulated device and click <guimenu>Preferences</guimenu>.
+					</para>
+				</step>
+				<step>
+					<para>
+						In the <guilabel>Devices</guilabel> section of the <guilabel>Devices</guilabel> tab, click <guibutton>Add</guibutton>.
+					</para>
+					<figure>
+						<title>Add Device Window</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4118.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>In the <guilabel>Devices</guilabel> section of the <guilabel>Devices</guilabel> tab, click <guibutton>Add</guibutton>.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</step>
+				<step>
+					<para>
+						In the <guilabel>Name</guilabel> field, type the name you want to give the device.
+					</para>
+				</step>
+				<step>
+					<para>
+						In the <guilabel>Width</guilabel> and <guilabel>Height</guilabel> fields, type the dimensions of the device window in pixels.
+					</para>
+				</step>
+				<step>
+					<para>
+						In the <guilabel>Pixel Ratio</guilabel> field, type a value for the ratio of CSS pixels to device pixels.
+					</para>
+				</step>
+				<step>
+					<para>
+						In the <guilabel>User Agent</guilabel> field, type the User Agent string of your device. Clearing the <guilabel>User Agent</guilabel> check box results in the default User Agent for the BrowserSim browser being used.
+					</para>
+					<note>
+						<para>
+							User Agent is a string denoting the device, operating system and browser combination. This string may be used by websites to provide content tailored for devices, operating systems and browsers. Information is widely available on the Internet to assist you in identifying the User Agent associated with a particular device.
+						</para>
+					</note>
+				</step>
+				<step>
+					<para>
+						From the <guilabel>Skin</guilabel> list, select the skin to be used or select <guilabel>None</guilabel>.
+					</para>
+				</step>
+				<step>
+					<para>
+						Click <guibutton>OK</guibutton> to add the new device and click <guibutton>OK</guibutton> to close the <guilabel>Devices</guilabel> window.
+					</para>
+				</step>
+			</procedure>
+			<para>
+				To modify existing devices in BrowserSim, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Devices</guilabel> table, select a device and click <guibutton>Edit</guibutton>. Once you have finished editing the fields, click <guibutton>OK</guibutton>. Click <guibutton>OK</guibutton> to close the <guilabel>Devices</guilabel> window.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22863-543252+%5BLatest%5D&amp;cf_build_id=22863-543252+03+Oct+2013+16%3A40+en-US+%5BLatest%5D&amp;comment=Title%3A+Add+or+Modify+Devices+in+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Change_the_Default_Behavior_when_a_Device_does_not_Fit_the_Display" remap="TID_22858">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Change the Default Behavior when a Device does not Fit the Display</title>
+			<para>
+				By default, when a device window is too large to fit the display of the system, you are prompted about which action should be taken. Rather than prompting, the default behavior can be set to always truncate or never truncate.
+			</para>
+			<para>
+				To change the default behavior, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Truncate the device window when it does not fit display</guilabel> section of the <guilabel>Devices</guilabel> tab, click <guilabel>Always truncate</guilabel> or <guilabel>Never truncate</guilabel> to change the behavior as appropriate and click <guibutton>OK</guibutton> to close the window.
+			</para>
+			<figure>
+				<title>Truncate Preferences</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4110.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To change the default behavior, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Truncate the device window when it does not fit display</guilabel> section of the <guilabel>Devices</guilabel> tab, click <guilabel>Always truncate</guilabel> or <guilabel>Never truncate</guilabel> to change the behavior as appropriate and click <guibutton>OK</guibutton> to close the window.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22858-543253+%5BLatest%5D&amp;cf_build_id=22858-543253+03+Oct+2013+16%3A41+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Default+Behavior+when+a+Device+does+not+Fit+the+Display%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Change_the_Default_LiveReload_Port" remap="TID_22854">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Change the Default LiveReload Port</title>
+			<para>
+				The LiveReload server uses a port to communicate resource changes to BrowserSim. The default port can be changed.
+			</para>
+			<para>
+				To change the default LiveReload port, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>LiveReload options</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>LiveReload Port</guilabel> field type the port number you want to use. Click <guibutton>OK</guibutton> to close the window.
+			</para>
+			<figure>
+				<title>LiveReload Port Preferences</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4109.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To change the default LiveReload port, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>LiveReload options</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>LiveReload Port</guilabel> field type the port number you want to use. Click <guibutton>OK</guibutton> to close the window.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<note>
+				<para>
+					You must enable LiveReload for BrowserSim in order to specify the LiveReload port. To enable LiveReload, right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected. Alternatively, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>LiveReload options</guilabel> section of the <guilabel>Settings</guilabel> tab, select the <guilabel>Enable LiveReload</guilabel> check box and click <guibutton>OK</guibutton> to close the window.
+				</para>
+			</note>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22854-543255+%5BLatest%5D&amp;cf_build_id=22854-543255+03+Oct+2013+16%3A41+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Default+LiveReload+Port%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Change_the_Default_Location_for_Saved_Screen_Captures" remap="TID_22861">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Change the Default Location for Saved Screen Captures</title>
+			<para>
+				The <guimenu>Save</guimenu> option for screen captures saves graphics files to a set location. The default location can be changed.
+			</para>
+			<para>
+				To change the default location, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Screenshots</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Location</guilabel> field type the location where you want graphics files to be saved or click <guibutton>Browse</guibutton> to navigate to the desired location. Click <guibutton>OK</guibutton> to close the window.
+			</para>
+			<figure>
+				<title>Screen Capture Preferences</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4108.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To change the default location, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Screenshots</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Location</guilabel> field type the location where you want graphics files to be saved or click <guibutton>Browse</guibutton> to navigate to the desired location. Click <guibutton>OK</guibutton> to close the window.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22861-543256+%5BLatest%5D&amp;cf_build_id=22861-543256+03+Oct+2013+16%3A42+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Default+Location+for+Saved+Screen+Captures%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Change_the_Default_Settings_for_Weinre" remap="TID_22853">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Change the Default Settings for Weinre</title>
+			<para>
+				By default, the <guimenu>Weinre</guimenu> option for viewing the source of a web page uses the Weiner server provided by PhoneGap. If you have a different Weiner server available, the default Weinre settings can be changed.
+			</para>
+			<para>
+				To change the default settings for Weinre, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Weinre</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Script URL</guilabel> field type the address of the <filename>.js</filename> file provided by the Weinre server and in the <guilabel>Client URL</guilabel> field type the address of the web page showing the Weinre Inspector interface. Click <guibutton>OK</guibutton> to close the window.
+			</para>
+			<figure>
+				<title>Weinre Preferences</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4107.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To change the default settings for Weinre, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Weinre</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Script URL</guilabel> field type the address of the <filename>.js</filename> file provided by the Weinre server and in the <guilabel>Client URL</guilabel> field type the address of the web page showing the Weinre Inspector interface. Click <guibutton>OK</guibutton> to close the window.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22853-543258+%5BLatest%5D&amp;cf_build_id=22853-543258+03+Oct+2013+16%3A43+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Default+Settings+for+Weinre%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+	</section>
+</chapter>

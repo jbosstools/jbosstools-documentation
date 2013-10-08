@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "User_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-LiveReload_Tools">
+	<title>LiveReload Tools</title>
+	<section id="sect-Overview_of_LiveReload_Tools">
+		<title>Overview of LiveReload Tools</title>
+		<section id="About_LiveReload" remap="TID_22831">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>About LiveReload</title>
+			<para>
+				LiveReload is an open source tool that refreshes web pages open in browsers as their source is edited. Immediate and automatic web page refreshing, without the need to manually refresh, simplifies the workflow of web developers.
+			</para>
+			<para>
+				LiveReload consists of server-side and client-side components. The server-side application monitors the source and sends notifications as the source is changed. On the client-side, a JavaScript snippet receives the notifications and invokes the browser to refresh the web page. The server-side and client-side components communicate using the WebSocket protocol, which allows the server-side application to send notifications to the client-side JavaScript snippet.
+			</para>
+			<para>
+				The JavaScript snippet can be installed and activated using a LiveReload browser extension. Alternatively, it can be inserted manually in the HTML pages. Depending upon the changes to the source, the web page is either reloaded or the browser updated instantly without reloading.
+			</para>
+			<para>
+				The LiveReload application is available for OS X and Microsoft Window operating systems and through a third-party provider for Linux-based operating systems. LiveReload browser extensions are available for Safari, Chrome and Firefox.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22831-542941+%5BLatest%5D&amp;cf_build_id=22831-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+LiveReload%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="About_LiveReload_Tools" remap="TID_22832">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>About LiveReload Tools</title>
+			<para>
+				LiveReload Tools is tooling that implements LiveReload in the IDE. It enables you to take advantage of LiveReload browser refreshing while editing files within the IDE. The capabilities of LiveReload Tools also removes the need to install the LiveReload standalone application or browser extensions.
+			</para>
+			<para>
+				LiveReload Tools is the implementation of the LiveReload server-side component, which listens to the IDE for resource changes and sends notifications for refreshes as appropriate. The server can also be configured to inject the livereload.js JavaScript snippet into the source code, which removes the need to install LiveReload browser extensions.
+			</para>
+			<para>
+				Unique features of LiveReload tools include LiveReload for both workspace and deployed resources due to the use of HTTP protocol for all resources and LiveReload on external devices with access and ease of use for remote connections to LiveReload servers. The LiveReload server can also be used in conjunction with BrowserSim, extending LiveReload to simulated devices.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22832-542941+%5BLatest%5D&amp;cf_build_id=22832-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+LiveReload+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+	</section>
+	<section id="sect-Features_of_LiveReload_Tools">
+		<title>Features of LiveReload Tools</title>
+		<section id="Features_Overview3" remap="TID_22833">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Features Overview</title>
+			<para>
+				The aim of this section is to guide you in using LiveReload Tools:
+			</para>
+			<itemizedlist>
+				<listitem>
+					<para>
+						Create a LiveReload server to receive information from the IDE on resource changes
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Configure LiveReload for use with system web browsers and external devices
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						View resources in LiveReload-enabled web browsers, including system and external device browsers and BrowserSim
+					</para>
+				</listitem>
+			</itemizedlist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22833-542941+%5BLatest%5D&amp;cf_build_id=22833-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Create_a_LiveReload_Server" remap="TID_22836">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Create a LiveReload Server</title>
+			<para>
+				The LiveReload server is integral to the LiveReload integration with the IDE. In its default configuration, the server receives information from the IDE when resources change and sends notifications for refresh actions to be taken. The server may also be further configured to inject the necessary JavaScript code snippets into HTML files or enable remote connections. The procedure below guides you through creating a default LiveReload server.
+			</para>
+			<procedure>
+				<title>Create a LiveReload Server</title>
+				<step>
+					<para>
+						In the <guilabel>Servers</guilabel> tab, click <guilabel>create a new server</guilabel> or right-click an existing server and click <guimenu>New</guimenu>&rarr;<guimenu>Server</guimenu>.
+					</para>
+				</step>
+				<step>
+					<para>
+						From the list of server types, expand <guilabel>Basic</guilabel> and select <guilabel>LiveReload Server</guilabel>.
+					</para>
+					<figure>
+						<title>LiveReload Server Selected in New Server Wizard</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4079.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>From the list of server types, expand <guilabel>Basic</guilabel> and select <guilabel>LiveReload Server</guilabel>.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</step>
+				<step>
+					<para>
+						The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are automatically populated. The <command>localhost</command> value in the <guilabel>Server's host name</guilabel> field indicates that the server is to be run on the local system and the value in the <guilabel>Server name</guilabel> field is the name by which the LiveReload server is identified in the <guilabel>Servers</guilabel> tab. You can edit these values as appropriate by typing in the fields.
+					</para>
+				</step>
+				<step>
+					<para>
+						Click <guibutton>Finish</guibutton> to close the window. The LiveReload server is listed in the <guilabel>Servers</guilabel> tab.
+					</para>
+					<figure>
+						<title>LiveReload Server Listed in the Servers Tab</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4080.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>The LiveReload server is listed in the <guilabel>Servers</guilabel> tab.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</step>
+			</procedure>
+			<note>
+				<para>
+					Alternatively, LiveReload servers can be automatically created when you select to view workspace and deployed resources in web browsers using the actions provided by LiveReload Tools.
+				</para>
+			</note>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22836-543179+%5BLatest%5D&amp;cf_build_id=22836-543179+03+Oct+2013+16%3A07+en-US+%5BLatest%5D&amp;comment=Title%3A+Create+a+LiveReload+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Configure_the_LiveReload_Server" remap="TID_22835">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Configure the LiveReload Server</title>
+			<para>
+				A LiveReload client must be inserted into HTML files in order for it to receive the LiveReload server notifications about changed resources. LiveReload Tools provides additional configuration options so that the LiveReload server can inject the necessary <command>&lt;script&gt;</command> element into the HTML resources. Furthermore, the LiveReload server can be configured to allow access from external devices, enabling LiveReload to function in browsers of remote devices.
+			</para>
+			<para>
+				The details below outline how to set the configuration options using the Server Editor. To open the Server Editor for a LiveReload server, in the <guilabel>Servers</guilabel> tab double-click the LiveReload server. Alternatively, right-click the LiveReload server and click <guimenu>Open</guimenu> or press <keycap>F3</keycap>.
+			</para>
+			<figure>
+				<title>LiveReload Server Options in the Server Editor</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4078.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>The details below outline how to set the configuration options using the Server Editor. To open the Server Editor for a LiveReload server, in the <guilabel>Servers</guilabel> tab double-click the LiveReload server. Alternatively, right-click the LiveReload server and click <guimenu>Open</guimenu> or press <keycap>F3</keycap>.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<variablelist>
+				<varlistentry>
+					<term>Insert JavaScript code snippet to resources</term>
+					<listitem>
+						<para>
+							In the <guilabel>Server Editor</guilabel> under <guilabel>LiveReload Server Configuration</guilabel>, select the <guilabel>Inject the livereload.js script in HTML pages</guilabel> check box.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Enable LiveReload in external device browsers</term>
+					<listitem>
+						<para>
+							In the <guilabel>Server Editor</guilabel> under <guilabel>LiveReload Server Configuration</guilabel>, select the <guilabel>Allow Remote Connections</guilabel> check box. This option is disabled by default when a LiveReload server is created as it exposes your workspace files, which may not always be desirable.
+						</para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para>
+				All changes to the settings of a LiveReload server must be saved and the server restarted before the results will take effect. To save setting changes, press <keycap>Ctrl+S</keycap> or click <guimenu>File</guimenu>&rarr;<guimenu>Save</guimenu> or click the <guibutton>Save</guibutton> icon. To restart the server, in the <guilabel>Servers</guilabel> tab right-click the LiveReload server and click <guimenu>Restart</guimenu>.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22835-543182+%5BLatest%5D&amp;cf_build_id=22835-543182+03+Oct+2013+16%3A09+en-US+%5BLatest%5D&amp;comment=Title%3A+Configure+the+LiveReload+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="View_Resources_in_LiveReload-enabled_Browsers" remap="TID_22837">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>View Resources in LiveReload-enabled Browsers</title>
+			<para>
+				You can use the actions of LiveReload Tools to open resources in browsers with LiveReload enabled, as detailed below. Note that if the requisite LiveReload server does not exist or is not correctly configured, you are prompted by LiveReload Tools, which can complete the necessary requirements for you.
+			</para>
+			<variablelist>
+				<title/>
+				<varlistentry>
+					<term>View workspace resources on an external device</term>
+					<listitem>
+						<para>
+							In the <guilabel>Project Explorer</guilabel> tab, right-click the HTML file and click <guimenu>Open With</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu>.
+						</para>
+						<figure>
+							<title><guimenu>Open With</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu> Menu Option</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/4077.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>In the <guilabel>Project Explorer</guilabel> tab, right-click the HTML file and click <guimenu>Open With</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu>.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+						<para>
+							This requires the server to be configured to <guilabel>Inject the livereload.js script in HTML pages</guilabel> and, if the server is not correctly configured, you are prompted to enable this option.
+						</para>
+						<figure>
+							<title>Live Reload Settings Prompt</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/4081.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>This requires the server to be configured to <guilabel>Inject the livereload.js script in HTML pages</guilabel> and, if the server is not correctly configured, you are prompted to enable this option.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+						<para>
+							The IDE-specified external web browser opens, with LiveReload activated, and displays the workspace resource.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>View deployed resources in a system browser</term>
+					<listitem>
+						<para>
+							Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> tab, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu>.
+						</para>
+						<figure>
+							<title><guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu> Menu Option</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/4074.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> tab, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu>.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+						<para>
+							This requires the server to be configured to <guilabel>Inject the livereload.js script in HTML pages</guilabel> and, if the server is not correctly configured, you are prompted to enable this option.
+						</para>
+						<figure>
+							<title>Live Reload Settings Prompt</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/4081.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>This requires the server to be configured to <guilabel>Inject the livereload.js script in HTML pages</guilabel> and, if the server is not correctly configured, you are prompted to enable this option.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+						<para>
+							The IDE-specified external web browser opens, with LiveReload activated, and displays the deployed resource.
+						</para>
+						<note>
+							<para>
+								To change the IDE-specified external web browser, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu> and expand <guilabel>General</guilabel>&rarr;<guilabel>Web Browser</guilabel>. From the <guilabel>External web browsers</guilabel> list, select the browser to use for actions involving external web browsers. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.
+							</para>
+						</note>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>View deployed resources on an external device</term>
+					<listitem>
+						<para>
+							Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> tab, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser on External Device</guimenu>.
+						</para>
+						<figure>
+							<title><guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser on External Device</guimenu> Menu Option</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/4073.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> tab, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser on External Device</guimenu>.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+						<para>
+							This requires the server to be configured to <guilabel>Inject the livereload.js script in HTML pages</guilabel> and <guilabel>Allow Remote Connections</guilabel> and, if the server is not correctly configured, you are prompted to enable these options.
+						</para>
+						<figure>
+							<title>Live Reload Settings Prompt</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/4075.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>This requires the server to be configured to <guilabel>Inject the livereload.js script in HTML pages</guilabel> and <guilabel>Allow Remote Connections</guilabel> and, if the server is not correctly configured, you are prompted to enable these options.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+						<para>
+							A QR code and LiveReload server port URL corresponding to the deployed application are displayed and these can be input into external device browsers.
+						</para>
+						<figure>
+							<title>URL and QR Code for LiveReload in External Devices</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/4076.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>A QR code and LiveReload server port URL corresponding to the deployed application are displayed and these can be input into external device browsers.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<note>
+				<para>
+					The configuration of a LiveReload server can be viewed and manually set in the <guilabel>Server Editor</guilabel> tab.
+				</para>
+			</note>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22837-543183+%5BLatest%5D&amp;cf_build_id=22837-543183+03+Oct+2013+16%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+View+Resources+in+LiveReload-enabled+Browsers%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="View_Resources_in_LiveReload-enabled_BrowserSim" remap="TID_22834">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>View Resources in LiveReload-enabled BrowserSim</title>
+			<para>
+				The LiveReload server can be used in conjunction with BrowserSim. In this case, the server sends notifications about changed resources and BrowserSim inserts the JavaScript code, which invokes the simulated device browser window to refresh. The procedure below outlines how to enable LiveReload in BrowserSim for workspace and deployed resources.
+			</para>
+			<procedure>
+				<title>View Resources in LiveReload-enabled BrowserSim</title>
+				<step>
+					<para>
+						Ensure the LiveReload server is started. If it is not started, in the <guilabel>Servers</guilabel> tab right-click the LiveReload server and click <guimenu>Start</guimenu>.
+					</para>
+				</step>
+				<step>
+					<para>
+						Complete the appropriate step depending on the location of your resources:
+					</para>
+					<stepalternatives>
+						<step>
+							<para>
+								For workspace resources, in the <guilabel>Project Explorer</guilabel> tab right-click the <filename>.html</filename> file and click <guimenu>Open With</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.
+							</para>
+						</step>
+						<step>
+							<para>
+								For deployed resources, in the <guilabel>Servers</guilabel> tab right-click the application and click <guimenu>Show In</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.
+							</para>
+							<figure>
+								<title><guimenu>Show In</guimenu>&rarr;<guilabel>BrowserSim</guilabel> Menu Option</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4072.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>For deployed resources, in the <guilabel>Servers</guilabel> tab right-click the application and click <guimenu>Show In</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+							<important>
+								<para>
+									Ensure the server and application of the deployed resources are started before attempting to view the resources in LiveReload-enabled BrowserSim. To start the server and the application, in the <guilabel>Servers</guilabel> tab right-click each and click <guimenu>Start</guimenu>.
+								</para>
+							</important>
+						</step>
+					</stepalternatives>
+				</step>
+				<step>
+					<para>
+						Right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected.
+					</para>
+					<figure>
+						<title><guilabel>Enable LiveReload</guilabel> Check Box for BrowserSim</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4082.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>Right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</step>
+			</procedure>
+			<important>
+				<para>
+					The <guilabel>Enable LiveReload</guilabel> check box has no effect when the LiveReload server is set to insert the JavaScript code and the web resource is viewed in BrowserSim via the LiveReload server port URL. LiveReload is always enabled in this case.
+				</para>
+			</important>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22834-543184+%5BLatest%5D&amp;cf_build_id=22834-543184+03+Oct+2013+16%3A13+en-US+%5BLatest%5D&amp;comment=Title%3A+View+Resources+in+LiveReload-enabled+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+	</section>
+</chapter>

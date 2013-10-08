@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE part PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_User_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<part id="part-Tools_for_Every_Project">
+	<title>Tools for Every Project</title>
+	<xi:include href="chap-JBoss_Central_and_the_JBoss_Perspective.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="chap-JBoss_Server_Tools.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="chap-Forge_Tools.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</part>
