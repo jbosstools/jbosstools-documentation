@@ -1,0 +1,8 @@
+<!ENTITY PRODUCT "JBoss Tools">
+<!ENTITY BOOKID "JBoss_Tools_User_Guide">
+<!ENTITY YEAR "2013">
+<!ENTITY TITLE "JBoss Tools User Guide">
+<!ENTITY HOLDER "Red Hat, Inc">
+<!ENTITY BZURL "<ulink url='https://bugzilla.redhat.com/enter_bug.cgi'>https://bugzilla.redhat.com/</ulink>">
+<!ENTITY BZCOMPONENT "documentation">
+<!ENTITY BZPRODUCT "JBoss Tools">

@@ -1,0 +1,614 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "User_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Mobile_Web_Tools">
+	<title>Mobile Web Tools</title>
+	<section id="sect-Overview_of_Mobile_Web_Tools">
+		<title>Overview of Mobile Web Tools</title>
+		<section id="About_Mobile_Web_Tools" remap="TID_22839">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>About Mobile Web Tools</title>
+			<para>
+				Mobile Web Tools provides tooling for developing mobile web applications within the IDE. It simplifies the process of getting started with HTML5 and jQuery Mobile technologies that are used for these types of applications and provides efficient workflows for developing with them on a daily basis.
+			</para>
+			<para>
+				Mobile Web Tools consists of project wizards, file templates, the jQuery Mobile palette, and actions for developing with HTML5 and jQuery Mobile:
+			</para>
+			<itemizedlist>
+				<listitem>
+					<para>
+						The HTML5 project wizards and HTML5 jQuery Mobile file template enable you to quickly generate the foundations of mobile web applications and to view mobile web application programming in action.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						The jQuery Mobile palette offers a visual reference of the available HTML5 and jQuery Mobile user interface widgets, which can be effortlessly inserted into your project files with drag-and-drop functionality. In conjunction with the jQuery Mobile palette, widget wizards allow you to easily customize HTML5 and jQuery Mobile widgets when inserting them into your project.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Code assistance and one-click action for viewing jQuery Mobile pages in browsers enable you to work more efficiently when developing mobile web applications in the IDE.
+					</para>
+				</listitem>
+			</itemizedlist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22839-542941+%5BLatest%5D&amp;cf_build_id=22839-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+Mobile+Web+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+	</section>
+	<section id="sect-Features_of_Mobile_Web_Tools">
+		<title>Features of Mobile Web Tools</title>
+		<section id="Features_Overview4" remap="TID_22841">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Features Overview</title>
+			<para>
+				The aim of this section is to guide you in using Mobile Web Tools:
+			</para>
+			<itemizedlist>
+				<listitem>
+					<para>
+						Generate the foundations of web applications with the project wizards and file templates
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Access the jQuery Mobile palette and add customized widgets to your mobile web application with the aid of the widget wizards
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Use code completion to assist in programming
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						View pages of the application in various browsers
+					</para>
+				</listitem>
+			</itemizedlist>
+			<!--<para><remark>[DOCS] Watching JBIDE-14732: show/hide preview in widget wizard; JBIDE-14591: properties tab; JBIDE-14758: Help button action in widget wizards; JBIDE-15153: duplicate wizards in JBoss central; JBIDE-14909: warning when WFK maven repo required; JBIDE-15152: rename or split jQuery Mobile palette</remark></para> -->
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22841-542941+%5BLatest%5D&amp;cf_build_id=22841-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Create_a_Mobile_Web_Project" remap="TID_22840">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Create a Mobile Web Project</title>
+			<para>
+				Project wizards are available to assist you in generating new mobile web applications. The project wizards are listed in the <guilabel>JBoss Central</guilabel> tab: 
+				<itemizedlist>
+					<listitem>
+						<para>
+							<guilabel>HTML5 Project</guilabel>, under <guilabel>Start from scratch</guilabel>
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							<guilabel>kitchensink-html5-mobile</guilabel>, under <guilabel>Start from a sample</guilabel>
+						</para>
+					</listitem>
+				</itemizedlist>
+				<!--These project wizards generate the same mobile web application but have differences in the information required from users, as detailed in the procedures below. -->
+			</para>
+			<important>
+				<para>
+					In order to deploy the applications created by these wizards, <phrase>Red Hat JBoss Enterprise Application Platform 6</phrase> must be defined for use in the IDE. You can define a server using runtime detection from within a project wizard. From the <guilabel>Requirements</guilabel> table on the first page of the project wizard, select <guilabel>server/runtime</guilabel> and click <guibutton>Install</guibutton> or <guibutton>Download and Install</guibutton> and follow the instructions. Alternatively, before starting a wizard click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>. Click <guibutton>Add</guibutton> and follow the instructions.
+				</para>
+			</important>
+			<procedure>
+				<title>Create a HTML5 Project with the HTML5 Project Wizard</title>
+				<step>
+					<para>
+						In the <guilabel>JBoss Central</guilabel> tab under <guilabel>Start from scratch</guilabel>, click <guilabel>HTML5 Project</guilabel>.
+					</para>
+					<figure>
+						<title>HTML5 Project Wizard in JBoss Central</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4083.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>In the <guilabel>JBoss Central</guilabel> tab under <guilabel>Start from scratch</guilabel>, click <guilabel>HTML5 Project</guilabel>.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</step>
+				<step>
+					<para>
+						From the <guilabel>Target Runtime</guilabel> list, select an existing <phrase>Red Hat JBoss Enterprise Application Platform 6</phrase> server runtime environment or select <guilabel>&lt;none&gt;</guilabel>. When <guilabel>&lt;none&gt;</guilabel> is selected, a non-enterprise server runtime environment is assumed.
+					</para>
+					<important>
+						<para>
+							The Web Framework Kit Maven Repository must be installed on your system when building and deploying the application with Red Hat JBoss Enterprise Application Platform. This repository is available to download from the Red Hat Customer Portal.
+						</para>
+					</important>
+				</step>
+				<step>
+					<para>
+						Click <guibutton>Next</guibutton>.
+					</para>
+				</step>
+				<step>
+					<para>
+						In the <guilabel>Project name</guilabel> field, type a name for the project.
+					</para>
+					<figure>
+						<title>HTML5 Project Wizard</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4090.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>In the <guilabel>Project name</guilabel> field, type a name for the project. In the <guilabel>Package</guilabel> field, type a package name for the project resources.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</step>
+				<step>
+					<para>
+						In the <guilabel>Package</guilabel> field, type a package name for the project resources.
+					</para>
+				</step>
+				<step>
+					<para>
+						To create the project in a different location to the Workspace default, clear the <guilabel>Use default Workspace location</guilabel> and type the path in the field or click <guibutton>Browse</guibutton> to navigate to the location.
+					</para>
+				</step>
+				<step>
+					<para>
+						Click <guibutton>Next</guibutton>.
+					</para>
+				</step>
+				<step>
+					<para>
+						Check the Maven details for the project to be created and click <guibutton>Finish</guibutton>.
+					</para>
+				</step>
+				<step>
+					<para>
+						During project creation, the wizard imports project dependencies. When the <application>HTML5 Project</application> wizard displays <guilabel>'HTML5 Project' Project is now ready</guilabel>, click <guibutton>Finish</guibutton> to close the wizard. A <filename>README.md</filename> file for the project automatically opens for viewing.
+					</para>
+				</step>
+			</procedure>
+			<procedure>
+				<title>Create a HTML5 Project with the kitchensink-html5-mobile Wizard</title>
+				<step>
+					<para>
+						In the <guilabel>JBoss Central</guilabel> tab under <guilabel>Start from a sample</guilabel>, hover the mouse over <guilabel>Mobile Applications</guilabel> and click <guilabel>kitchensink-html5-mobile</guilabel>.
+					</para>
+					<figure>
+						<title>kitchensink-html5-mobile Wizard in JBoss Central</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4084.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>In the <guilabel>JBoss Central</guilabel> tab under <guilabel>Start from a sample</guilabel>, hover the mouse over <guilabel>Mobile Applications</guilabel> and click <guilabel>kitchensink-html5-mobile</guilabel>.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</step>
+				<step>
+					<para>
+						Click <guibutton>Next</guibutton>.
+					</para>
+				</step>
+				<step>
+					<para>
+						To create the project in a different location to the Workspace default, clear the <guilabel>Use default Workspace location</guilabel> and type the path in the field or click <guibutton>Browse</guibutton> to navigate to the location.
+					</para>
+					<figure>
+						<title>kitchensink-html5-mobile Wizard</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4095.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>To create the project in a different location to the Workspace default, clear the <guilabel>Use default Workspace location</guilabel> and type the path in the field or click <guibutton>Browse</guibutton> to navigate to the location.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</step>
+				<step>
+					<para>
+						Click <guibutton>Finish</guibutton>.
+					</para>
+				</step>
+				<step>
+					<para>
+						During project creation, the wizard imports project dependencies. When the <application>kitchensink-html5-mobile</application> wizard displays <guilabel>'kitchensink-html5-mobile' Project is now ready</guilabel>, click <guibutton>Finish</guibutton> to close the wizard. A <filename>README.md</filename> file for the project automatically opens for viewing.
+					</para>
+				</step>
+			</procedure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22840-543206+%5BLatest%5D&amp;cf_build_id=22840-543206+03+Oct+2013+16%3A19+en-US+%5BLatest%5D&amp;comment=Title%3A+Create+a+Mobile+Web+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Use_a_HTML5_jQuery_Mobile_File_Template" remap="TID_22843">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Use a HTML5 jQuery Mobile File Template</title>
+			<para>
+				Mobile Web Tools provides a HTML5 jQuery Mobile file template to assist in creating mobile web applications. The template inserts the necessary JavaScript and CSS library references into the HTML header and includes skeleton jQuery Mobile page and listview widgets in the HTML body. The procedure below details how to insert the template into your project.
+			</para>
+			<procedure>
+				<title>Use a HTML5 jQuery Mobile File Template</title>
+				<step>
+					<para>
+						In the <guilabel>Project Explorer</guilabel> tab, right-click a project and click <guimenu>New</guimenu>&rarr;<guimenu>HTML File</guimenu>.
+					</para>
+				</step>
+				<step>
+					<para>
+						In the <guilabel>Enter or select the parent folder</guilabel> field, type a project path or expand the project folder tree and select the parent folder for the new file.
+					</para>
+					<figure>
+						<title>New HTML File Wizard</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4093.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>In the <guilabel>Enter or select the parent folder</guilabel> field, type a project path or expand the project folder tree and select the parent folder for the new file. In the <guilabel>File name</guilabel> field, type the name for the new file. It is not essential to include the file extension in the name as this is automatically appended if it is found to be missing.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</step>
+				<step>
+					<para>
+						In the <guilabel>File name</guilabel> field, type the name for the new file. It is not essential to include the file extension in the name as this is automatically appended if it is found to be missing.
+					</para>
+				</step>
+				<step>
+					<para>
+						Click <guibutton>Next</guibutton>.
+					</para>
+				</step>
+				<step>
+					<para>
+						Ensure the <guilabel>Use HTML Template</guilabel> check box is selected.
+					</para>
+					<figure>
+						<title>HTML5 jQuery Mobile Page Template for New HTML Files</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4097.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>Ensure the <guilabel>Use HTML Template</guilabel> check box is selected. From the <guilabel>Templates</guilabel> table, select <guilabel>HTML5 jQuery Mobile Page</guilabel>.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</step>
+				<step>
+					<para>
+						From the <guilabel>Templates</guilabel> table, select <guilabel>HTML5 jQuery Mobile Page</guilabel>.
+					</para>
+				</step>
+				<step>
+					<para>
+						Click <guibutton>Finish</guibutton>. The new HTML5 file is listed in the <guilabel>Project Explorer</guilabel> tab and automatically opened in the JBoss Tools HTML Editor.
+					</para>
+				</step>
+			</procedure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22843-543207+%5BLatest%5D&amp;cf_build_id=22843-543207+03+Oct+2013+16%3A20+en-US+%5BLatest%5D&amp;comment=Title%3A+Use+a+HTML5+jQuery+Mobile+File+Template%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Access_the_jQuery_Mobile_Palette" remap="TID_22847">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Access the jQuery Mobile Palette</title>
+			<para>
+				Mobile Web Tools offers a jQuery Mobile palette, with wizards for adding jQuery Mobile and HTML5 widgets to your project. It is available for use with HTML5 files in the JBoss Tools HTML Editor. The jQuery Mobile palette is available in the <guilabel>Palette</guilabel> tab, which is part of the JBoss perspective.
+			</para>
+			<figure>
+				<title>jQuery Mobile Palette in the Palette Tab</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4086.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>The jQuery Mobile palette is available in the <guilabel>Palette</guilabel> tab, which is part of the JBoss perspective.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para>
+				The jQuery Mobile palette is automatically displayed in the <guilabel>Palette</guilabel> tab when a HTML5 file is opened in the JBoss Tools HTML Editor. To open a file in this editor, in the <guilabel>Project Explorer</guilabel> tab right-click a HTML5 file and click <guimenu>Open With</guimenu>&rarr;<guilabel>JBoss Tools HTML Editor</guilabel>. Alternatively, if <guilabel>JBoss Tools HTML Editor</guilabel> is the default option for <guilabel>Open With</guilabel>, double-click the HTML5 file to open it in the editor. The file opens in the editor and the Mobile Web palette is displayed in the <guilabel>Palette</guilabel> tab.
+			</para>
+			<note>
+				<para>
+					The <guilabel>Palette</guilabel> tab must be visible in order to see the jQuery Mobile palette. To open the tab, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>, expand <guilabel>General</guilabel> and select <guilabel>Palette</guilabel>.
+				</para>
+			</note>
+			<para>
+				To show or hide an individual palette in the <guilabel>Palette</guilabel> tab, click the name of the individual palette.
+			</para>
+			<para>
+				To search for a palette element within the jQuery Mobile palette, in the search field type a search term or phrase. The elements displayed in the jQuery Mobile palette are filtered as you type in the search field.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22847-543208+%5BLatest%5D&amp;cf_build_id=22847-543208+03+Oct+2013+16%3A20+en-US+%5BLatest%5D&amp;comment=Title%3A+Access+the+jQuery+Mobile+Palette%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Insert_a_jQuery_Mobile_Palette_Widget_into_a_HTML5_File" remap="TID_22845">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Insert a jQuery Mobile Palette Widget into a HTML5 File</title>
+			<para>
+				The jQuery Mobile palette contains wizards for the HTML5 and jQuery Mobile user interface widgets commonly used in mobile web applications. The widgets are grouped in the palette by functionality, with tooltips providing widget descriptions.
+			</para>
+			<para>
+				To insert a palette widget into a file open in the <guilabel>JBoss Tools HTML Editor</guilabel>, drag the widget icon to the appropriate place in the file. Alternatively, ensure the text cursor is located at the desired insertion point in the file and click the widget icon. For widgets with no attributes that can be customized, such as <guilabel>JS/CSS</guilabel> and <guilabel>Field Container</guilabel>, the code snippets are immediately inserted into the file. For widgets with attributes that can be customized, a widget wizard opens allowing you to input attribute information. Once complete, click <guibutton>Finish</guibutton> and the code snippet is inserted into the file.
+			</para>
+			<figure>
+				<title>Page Widget Wizard</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4092.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>For widgets with attributes that can be customized, a widget wizard opens allowing you to input attribute information. Once complete, click <guibutton>Finish</guibutton> and the code snippet is inserted into the file.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para>
+				The widget wizards have three common aspects:
+			</para>
+			<variablelist>
+				<title/>
+				<varlistentry>
+					<term>Design fields</term>
+					<listitem>
+						<para>
+							These fields are unique to each widget. They allow you to customize the attributes of the widget by providing names, actions, numbers of elements, and styling themes. All widget wizards assign automatically generated values to the <guilabel>ID</guilabel> attribute in the case that you do not specify a value. Content assist is available for the <guilabel>URL (href)</guilabel> field by placing the text cursor in the field and pressing <keycap>Ctrl+Space</keycap>.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Add references to JS/CSS</term>
+					<listitem>
+						<para>
+							This check box provides the ability to automatically add any missing library references to the HTML5 file that are required by the widget.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Preview Panes</term>
+					<listitem>
+						<para>
+							These panes show previews of the code snippet for the widget and of the rendered widget. The preview panes can be shown and hidden by clicking the <guibutton>Show Preview</guibutton> and <guibutton>Hide Preview</guibutton> button, respectively.
+						</para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22845-543210+%5BLatest%5D&amp;cf_build_id=22845-543210+03+Oct+2013+16%3A21+en-US+%5BLatest%5D&amp;comment=Title%3A+Insert+a+jQuery+Mobile+Palette+Widget+into+a+HTML5+File%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Get_Assistance_with_jQuery_Mobile_Programming" remap="TID_22838">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Get Assistance with jQuery Mobile Programming</title>
+			<para>
+				Mobile Web Tools offers code assist to help you when working with jQuery Mobile. Code assist lists available options for attributes and attribute values. Code assist is available for use in files and in the <guilabel>URL (href)</guilabel> field of widget wizards.
+			</para>
+			<para>
+				To view code assist in a file, ensure the text cursor is located at the desired insertion point in the file and press <keycap>Ctrl+Space</keycap>. Repeatedly press <keycap>Ctrl+Space</keycap> to cycle through HTML and JSF EL completion options. To view more information about a listed item, select the item. To insert a listed item into the code, double-click the item.
+			</para>
+			<figure>
+				<title>Code Assist for File Contents</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4099.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To view code assist in a file, ensure the text cursor is located at the desired insertion point in the file and press <keycap>Ctrl+Space</keycap>. Repeatedly press <keycap>Ctrl+Space</keycap> to cycle through HTML and JSF EL completion options. To view more information about a listed item, select the item. To insert a listed item into the code, double-click the item.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para>
+				To view code assist in a widget wizard, ensure the text cursor is located in the <guilabel>URL (href)</guilabel> field and press <keycap>Ctrl+Space</keycap>. To view more information about a listed item, select the item. To insert a listed item into the code, double-click the item.
+			</para>
+			<figure>
+				<title>Code Assist for Widget Wizards</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4098.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To view code assist in a widget wizard, ensure the text cursor is located in the <guilabel>URL (href)</guilabel> field and press <keycap>Ctrl+Space</keycap>. To view more information about a listed item, select the item. To insert a listed item into the code, double-click the item.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22838-543213+%5BLatest%5D&amp;cf_build_id=22838-543213+03+Oct+2013+16%3A22+en-US+%5BLatest%5D&amp;comment=Title%3A+Get+Assistance+with+jQuery+Mobile+Programming%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="View_jQuery_Mobile_Pages_in_a_Browser" remap="TID_22844">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>View jQuery Mobile Pages in a Browser</title>
+			<para>
+				Mobile Web Tools provides an action to easily and quickly open jQuery Mobile pages in web browsers for viewing.
+			</para>
+			<para>
+				To open a jQuery Mobile page from a file open in the <guilabel>JBoss Tools HTML Editor</guilabel>, press <keycap>Ctrl</keycap> and move the mouse over the <command>&lt;div&gt;</command> tag corresponding to the page widget. Continue to press <keycap>Ctrl</keycap> and from the menu select one of the options:
+			</para>
+			<itemizedlist>
+				<listitem>
+					<para>
+						<guimenu>Open With Browser</guimenu>, which shows the page in the default browser of the IDE
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						<guimenu>Open With BrowserSim</guimenu>, which shows the page in BrowserSim
+					</para>
+				</listitem>
+			</itemizedlist>
+			<figure>
+				<title>Open With Menu Option</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4087.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To open a jQuery Mobile page from a file open in the <guilabel>JBoss Tools HTML Editor</guilabel>, press <keycap>Ctrl</keycap> and move the mouse over the <command>&lt;div&gt;</command> tag corresponding to the page widget. Continue to press <keycap>Ctrl</keycap> and from the menu select one of the options.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22844-543215+%5BLatest%5D&amp;cf_build_id=22844-543215+03+Oct+2013+16%3A23+en-US+%5BLatest%5D&amp;comment=Title%3A+View+jQuery+Mobile+Pages+in+a+Browser%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+	</section>
+	<section id="sect-Customizing_Mobile_Web_Tools">
+		<title>Customizing Mobile Web Tools</title>
+		<section id="Customizing_Overview3" remap="TID_22842">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Customizing Overview</title>
+			<para>
+				The aim of this section is to guide you in customizing Mobile Web Tools:
+			</para>
+			<itemizedlist>
+				<listitem>
+					<para>
+						Customize the HTML5 jQuery Mobile templates available in the IDE
+					</para>
+				</listitem>
+			</itemizedlist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22842-542941+%5BLatest%5D&amp;cf_build_id=22842-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Customize_jQuery_Mobile_File_Templates" remap="TID_22846">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Customize jQuery Mobile File Templates</title>
+			<para>
+				The <guilabel>HTML5 jQuery Mobile Page</guilabel> template for new HTML files is provided by Mobile Tools. You can customize this template and add more jQuery Mobile templates to the IDE.
+			</para>
+			<para>
+				To customize the jQuery Mobile templates available in the IDE, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Web</guilabel>&rarr;<guilabel>HTML Files</guilabel>&rarr;<guilabel>Editor</guilabel> and select <guilabel>Templates</guilabel>.
+			</para>
+			<figure>
+				<title>Templates Pane within Preferences Window</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4085.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To customize the jQuery Mobile templates available in the IDE, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Web</guilabel>&rarr;<guilabel>HTML Files</guilabel>&rarr;<guilabel>Editor</guilabel> and select <guilabel>Templates</guilabel>.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para>
+				There are a number of available actions:
+			</para>
+			<variablelist>
+				<title/>
+				<varlistentry>
+					<term>Add a template</term>
+					<listitem>
+						<para>
+							There are several options for adding templates: 
+							<itemizedlist>
+								<listitem>
+									<para>
+										To create a new template, click <guibutton>New</guibutton>. In the <guilabel>Name</guilabel> and <guilabel>Description</guilabel> fields, type a name and description of the template, respectively. In the <guilabel>Pattern</guilabel> field, type the code for the template. From the <guilabel>Context</guilabel> list, select the instance in which the IDE should make the template available. Click <guibutton>OK</guibutton> to close the window.
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										To restore all templates that have been deleted, click <guibutton>Restore</guibutton>.
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										To load an existing template into the IDE, click <guibutton>Import</guibutton> and select the file. The file must be an XML file, with appropriate file headers and the HTML5 and jQuery Mobile content written in XML syntax and contained between XML <command>template</command> and <command>templates</command> tags.
+									</para>
+								</listitem>
+							</itemizedlist>
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Edit a template</term>
+					<listitem>
+						<para>
+							From the table, select a template and click <guibutton>Edit</guibutton>. You can modify the name, description, code content and context in which the IDE makes the template available. Click <guibutton>OK</guibutton> to close the window.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Remove a template</term>
+					<listitem>
+						<para>
+							From the table, select a template and click <guibutton>Remove</guibutton>.
+						</para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22846-543217+%5BLatest%5D&amp;cf_build_id=22846-543217+03+Oct+2013+16%3A24+en-US+%5BLatest%5D&amp;comment=Title%3A+Customize+jQuery+Mobile+File+Templates%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+	</section>
+</chapter>

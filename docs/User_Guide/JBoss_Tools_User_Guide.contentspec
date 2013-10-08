@@ -1,0 +1,160 @@
+ID = 22477
+Title = JBoss Tools User Guide
+Subtitle = Information about using the plug-ins comprising JBoss Tools
+Abstract = This document details how to use and customize the individual plug-ins comprising JBoss Tools.
+Product = JBoss Tools
+Version = 4.1
+#Edition =
+DTD = Docbook 4.5
+Copyright Holder = Red Hat, Inc
+# The commented fields below are optional
+# Brand = JBoss
+# publican.cfg = [show_remarks: 1]
+# pubsnumber =
+# Debug = [0|1|2]
+# Bug Links = On
+# BZProduct =
+# BZComponent =
+# BZVersion =
+# BZURL =
+# Output Style =
+Legal Notice = [23596]
+Feedback = [23618]
+# Revision History = [22789]
+# Indentation is meaningful. Use 2 spaces.
+
+[JBDS 7.1.z, JBDS User Guide, condition = jbt]
+Chapter: Introduction to Red Hat JBoss Developer Studio
+  About Red Hat JBoss Developer Studio [22589]
+  Use Cases of JBoss Developer Studio [22588]
+
+Part: Tools for Every Project
+  Chapter: JBoss Central and the JBoss Perspective
+    Section: Overview of JBoss Central and the JBoss Perspective
+      About JBoss Central [22788]
+      About the JBoss Perspective [22790]
+    Section: Features of JBoss Central and the JBoss Perspective
+      Features Overview [22795]
+      View JBoss Central [22794]
+      Access Project Wizards in JBoss Central [22800]
+      Access Information in JBoss Central [22801]
+      Update Software in JBoss Central [22798]
+      Open the JBoss Perspective [22791]
+      Manage JBoss Perspective [22796]
+      View Cheat Sheets [22793]
+    Section: Customizing JBoss Central and the JBoss Perspective
+      Customizing Overview [22792]
+      Change the Behavior of JBoss Central on IDE Start [22799]
+      Customize the Default Tabs, Menus and Toolbars of the JBoss Perspective [22797]
+      Use Project Examples when Working Offline [22802]
+      Set Cheat Sheet Behavior [22803]
+
+  Chapter: JBoss Server Tools
+    Section: Overview of JBoss Server Tools
+      About JBoss Server Tools [22806]
+    Section: Features of JBoss Server Tools
+      Features Overview [22815]
+      Download a JBoss Community Application Server [23487]
+      Define a Local Server with Runtime Detection [22808]
+      Create an Additional Server Runtime Environment [22810]
+      Define an Additional Local Server [22813]
+      Define a Remote Server [22817]
+      Manage Server Settings [22809]
+      Manage Server Settings in Overview Mode [22807]
+      Manage Server Settings in Deployment Mode [22812]
+    Section: Customizing JBoss Server Tools
+      Customizing Overview [22814]
+      Enable Runtime Detection on IDE Start [22816]
+      Set a Default Server [22811]
+      Default Filesets [22805]
+      Default Classpath Entries [22804]
+
+  Chapter: Forge Tools
+    Section: Overview of Forge Tools
+      About Forge [22826]
+      About Forge Tools [22824]
+    Section: Features of Forge Tools
+      Features Overview [22821]
+      Manage the Forge Console [22829]
+      Manage the Forge Runtime Server [22819]
+      Navigate to Project Resources on the Forge Command Line [22822]
+      Background Actions Invoked by Forge Commands [22827]
+      Access a List of Forge Commands [22825]
+      Use Forge Wizards [22823]
+    Section: Customizing Forge Tools
+      Customizing Overview [22818]
+      Customize the Forge Start [22820]
+      Manage Forge Runtime Servers [22828]
+
+Part: Tools for Creating Web Interfaces
+  Chapter: LiveReload Tools
+    Section: Overview of LiveReload Tools
+      About LiveReload [22831]
+      About LiveReload Tools [22832]
+    Section: Features of LiveReload Tools
+      Features Overview [22833]
+      Create a LiveReload Server [22836]
+      Configure the LiveReload Server [22835]
+      View Resources in LiveReload-enabled Browsers [22837]
+      View Resources in LiveReload-enabled BrowserSim [22834]
+
+Part: Tools for Creating Mobile Applications
+  Chapter: Mobile Web Tools
+    Section: Overview of Mobile Web Tools
+      About Mobile Web Tools [22839]
+    Section: Features of Mobile Web Tools
+      Features Overview [22841]
+      Create a Mobile Web Project [22840]
+      Use a HTML5 jQuery Mobile File Template [22843]
+      Access the jQuery Mobile Palette [22847]
+      Insert a jQuery Mobile Palette Widget into a HTML5 File [22845]
+      Get Assistance with jQuery Mobile Programming [22838]
+      View jQuery Mobile Pages in a Browser [22844]
+    Section: Customizing Mobile Web Tools
+      Customizing Overview [22842]
+      Customize jQuery Mobile File Templates [22846]
+
+  Chapter: BrowserSim
+    Section: Overview of BrowserSim
+      About BrowserSim [22866]
+      System Requirements [22864]
+    Section: Features of BrowserSim
+      Features Overview [22865]
+      View a Web Application on BrowserSim [22856]
+      Manage Web Applications on BrowserSim [22859]
+      Change the Appearance of a Simulated Device [22860]
+      View a Web Page in Different Browsers and Simulated Devices [22857]
+      Generate a Screen Capture of a Simulated Device [22852]
+      Activate LiveReload for BrowserSim [22851]
+      View the Source of a Web Page [22855]
+    Section: Customizing BrowserSim
+      Customizing Overview [22850]
+      Make BrowserSim the Default Browser [22862]
+      Add BrowserSim to the Global Toolbar [22849]
+      Set a Shortcut for the Run BrowserSim Action [22848]
+      Add or Modify Devices in BrowserSim [22863]
+      Change the Default Behavior when a Device does not Fit the Display [22858]
+      Change the Default LiveReload Port [22854]
+      Change the Default Location for Saved Screen Captures [22861]
+      Change the Default Settings for Weinre [22853]
+
+Part: Tools for Deployment and Maintenance
+  Chapter: OpenShift Tools
+    Section: Overview of OpenShift Tools
+      About OpenShift [22877]
+      About OpenShift Tools [22881]
+    Section: Features of OpenShift Tools
+      Features Overview [22870]
+      Create an OpenShift User Account [22879]
+      Connect to OpenShift [22869]
+      Manage a Connection [22878]
+      Generate and Upload SSH keys to OpenShift [22872]
+      Manage SSH Keys [22876]
+      Create a Domain [22880]
+      Manage a Domain [22867]
+      Create and Deploy an Application on OpenShift [22871]
+      Deploy an Existing Application on OpenShift [22868]
+      Import a Deployed OpenShift Application into the IDE [22874]
+      Generate a server adapter for an application [22882]
+      View a Deployed Application and Associated Information [22875]
+      Manage a Deployed Application [22873]

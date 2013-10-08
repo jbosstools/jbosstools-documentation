@@ -4,7 +4,7 @@ User_Guide
 
 About
 -----
-This User Guide is for Red Hat JBoss Developer Studio and JBoss Tools. It documents information about using the products plug-ins.
+This User Guide is for Red Hat JBoss Developer Studio and JBoss Tools. It documents information about using the plug-ins of the product.
 
 
 Source
