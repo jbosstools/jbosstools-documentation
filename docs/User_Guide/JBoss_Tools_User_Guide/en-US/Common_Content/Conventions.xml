@@ -1,13 +1,17 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "../JBoss_Tools_User_Guide.ent">
+%BOOK_ENTITIES;
 ]>
+
+
 <section>
 	<title>Document Conventions</title>
 	 <para>
 		This manual uses several conventions to highlight certain words and phrases and draw attention to specific pieces of information.
 	</para>
 	 <para>
-		In PDF and paper editions, this manual uses typefaces drawn from the <ulink url="https://fedorahosted.org/liberation-fonts/">Liberation Fonts</ulink> set. The Liberation Fonts set is also used in HTML editions if the set is installed on your system. If not, alternative but equivalent typefaces are displayed. Note: Red Hat Enterprise Linux 5 and later includes the Liberation Fonts set by default.
+		In PDF and paper editions, this manual uses typefaces drawn from the <ulink url="https://fedorahosted.org/liberation-fonts/">Liberation Fonts</ulink> set. The Liberation Fonts set is also used in HTML editions if the set is installed on your system. If not, alternative but equivalent typefaces are displayed. Note: Red Hat Enterprise Linux 5 and later include the Liberation Fonts set by default.
 	</para>
 	 <section>
 		<title>Typographic Conventions</title>
@@ -18,7 +22,7 @@
 			<literal>Mono-spaced Bold</literal>
 		</para>
 		 <para>
-			Used to highlight system input, including shell commands, file names and paths. Also used to highlight keycaps and key combinations. For example:
+			Used to highlight system input, including shell commands, file names and paths. Also used to highlight keys and key combinations. For example:
 		</para>
 		 <blockquote>
 			<para>
@@ -27,10 +31,10 @@
 
 		</blockquote>
 		 <para>
-			The above includes a file name, a shell command and a keycap, all presented in mono-spaced bold and all distinguishable thanks to context.
+			The above includes a file name, a shell command and a key, all presented in mono-spaced bold and all distinguishable thanks to context.
 		</para>
 		 <para>
-			Key combinations can be distinguished from keycaps by the plus sign that connects each part of a key combination. For example:
+			Key combinations can be distinguished from an individual key by the plus sign that connects each part of a key combination. For example:
 		</para>
 		 <blockquote>
 			<para>
@@ -42,7 +46,7 @@
 
 		</blockquote>
 		 <para>
-			The first paragraph highlights the particular keycap to press. The second highlights two key combinations (each a set of three keycaps with each set pressed simultaneously).
+			The first example highlights a particular key to press. The second example highlights a key combination: a set of three keys pressed simultaneously.
 		</para>
 		 <para>
 			If source code is discussed, class names, methods, functions, variable names and returned values mentioned within a paragraph will be presented as above, in <literal>mono-spaced bold</literal>. For example:
@@ -61,7 +65,7 @@
 		</para>
 		 <blockquote>
 			<para>
-				Choose <menuchoice><guimenu>System</guimenu><guisubmenu>Preferences</guisubmenu><guimenuitem>Mouse</guimenuitem></menuchoice> from the main menu bar to launch <application>Mouse Preferences</application>. In the <guilabel>Buttons</guilabel> tab, click the <guilabel>Left-handed mouse</guilabel> check box and click <guibutton>Close</guibutton> to switch the primary mouse button from the left to the right (making the mouse suitable for use in the left hand).
+				Choose <menuchoice><guimenu>System</guimenu><guisubmenu>Preferences</guisubmenu><guimenuitem>Mouse</guimenuitem></menuchoice> from the main menu bar to launch <application>Mouse Preferences</application>. In the <guilabel>Buttons</guilabel> tab, select the <guilabel>Left-handed mouse</guilabel> check box and click <guibutton>Close</guibutton> to switch the primary mouse button from the left to the right (making the mouse suitable for use in the left hand).
 			</para>
 			 <para>
 				To insert a special character into a <application>gedit</application> file, choose <menuchoice><guimenu>Applications</guimenu><guisubmenu>Accessories</guisubmenu><guimenuitem>Character Map</guimenuitem></menuchoice> from the main menu bar. Next, choose <menuchoice><guimenu>Search</guimenu><guimenuitem>Find…</guimenuitem></menuchoice> from the <application>Character Map</application> menu bar, type the name of the character in the <guilabel>Search</guilabel> field and click <guibutton>Next</guibutton>. The character you sought will be highlighted in the <guilabel>Character Table</guilabel>. Double-click this highlighted character to place it in the <guilabel>Text to copy</guilabel> field and then click the <guibutton>Copy</guibutton> button. Now switch back to your document and choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Paste</guimenuitem></menuchoice> from the <application>gedit</application> menu bar.

@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" 
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  
-  
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>org.jboss.tools</groupId>
-	<artifactId>${docname}-${translation}</artifactId>
-	<packaging>jdocbook</packaging>
-	<version>4.1.0-SNAPSHOT</version>
-	
-	<name>${bookname}-(${translation})</name>
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">  
 
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jboss-tools</groupId>
+  <artifactId>jboss-tools-user-guide-en-US</artifactId>
+  <packaging>jdocbook</packaging>
+  <version>4.1-SNAPSHOT</version>
+  <name>${bookname}-${translation}</name>
 
   <properties>
     <translation>en-US</translation>
-    <docname>User_Guide</docname>
-    <bookname>User Guide</bookname>
+    <docname>JBoss_Tools_User_Guide</docname>
+    <docproduct>JBoss_Tools</docproduct>
+    <bookname>JBoss Tools User Guide</bookname>
+    <bookproduct>JBoss Tools</bookproduct>
   </properties> 
-
 
   <repositories>
     <!-- Conventions are described in http://community.jboss.org/wiki/MavenGettingStarted-Developers -->
@@ -38,7 +35,6 @@
     </repository>
   </repositories>
 
-
   <pluginRepositories>
     <pluginRepository>
       <id>jboss-public-repository-group</id>
@@ -53,7 +49,6 @@
     </pluginRepository>
   </pluginRepositories>
 
-
   <build>
     <pluginManagement>
       <plugins>
@@ -62,7 +57,6 @@
           <artifactId>maven-jdocbook-plugin</artifactId>
           <version>2.3.5</version>
           <extensions>true</extensions>
-
           <dependencies>
             <dependency>
               <groupId>org.jboss.pressgang</groupId>
@@ -70,33 +64,31 @@
               <artifactId>pressgang-xslt</artifactId>
               <version>2.0.0</version>
             </dependency>
-            
             <dependency>
               <groupId>org.jboss.pressgang</groupId>
               <artifactId>pressgang-jdocbook-style</artifactId>
               <type>jdocbook-style</type>
               <version>2.0.0</version>
             </dependency>
-
           </dependencies>
-
           <configuration>
             <sourceDirectory>${project.basedir}</sourceDirectory>
             <sourceDocumentName>${docname}.xml</sourceDocumentName>
             <masterTranslation>en-US</masterTranslation>
-
             <imageResource>
               <directory>${project.basedir}/en-US</directory>
               <includes>
-                <include>images/**/*.png</include>
+                <include>images/*.png</include>
+                <include>images/*.svg</include>
+                <include>images/*.jpeg</include>
+                <include>images/*.gif</include>
               </includes>
             </imageResource>
-
             <formats>
               <format>
                 <formatName>pdf</formatName>
                 <stylesheetResource>classpath:/xslt/org/jboss/pdf.xsl</stylesheetResource>
-                <finalName>${docname}.pdf</finalName>
+                <finalName>${docname}-${translation}.pdf</finalName>
               </format>
               <format>
                 <formatName>html</formatName>
@@ -109,35 +101,22 @@
                 <finalName>index.html</finalName>
               </format>
             </formats>
-
             <options>
               <xmlTransformerType>saxon</xmlTransformerType>
               <xincludeSupported>true</xincludeSupported>
               <docbookVersion>1.72.0</docbookVersion>
               <useRelativeImageUris>true</useRelativeImageUris>
             </options>
-            
-			<profiling> 
-				<enabled>true</enabled> 
-				<attributeName>condition</attributeName> 
-				<attributeValue>jbt</attributeValue> 
-			</profiling> 
           </configuration>
-          
         </plugin>
       </plugins>
     </pluginManagement>
-
-
     <plugins>
       <plugin>
         <!-- Entry needed to enable jdocbook packaging -->
         <groupId>org.jboss.maven.plugins</groupId>
         <artifactId>maven-jdocbook-plugin</artifactId>
-      </plugin>   
+      </plugin>
     </plugins>
   </build>
-
-
-
 </project>

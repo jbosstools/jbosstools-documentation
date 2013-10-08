@@ -1,0 +1,571 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "User_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Forge_Tools">
+	<title>Forge Tools</title>
+	<section id="sect-Overview_of_Forge_Tools">
+		<title>Overview of Forge Tools</title>
+		<section id="About_Forge" remap="TID_22826">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>About Forge</title>
+			<para>
+				Forge is an application for developing Java EE applications, promoting ease in getting started, working efficiently, and integrating technologies. It simplifies development workflow by providing automation at a command line level. Such automation is useful if you are working with new or complex technology or completing repetitive tasks.
+			</para>
+			<para>
+				Forge consists of a command line interface and sets of commands provided through plug-ins. The Forge command line accepts standard Unix commands such as <command>cd</command> for change directory, <command>mkdir</command> to create a new directory and <command>touch</command> to create a new file. But Forge's real power lies in its unique command set, which is extendable through plugins. For example, the <command>scaffold</command> command generates a user interface for an application and the <command>persistence</command> command adds persistence to a project. Furthermore, Forge comprehends a range of file types, with actions for working with their contents.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22826-542941+%5BLatest%5D&amp;cf_build_id=22826-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+Forge%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="About_Forge_Tools" remap="TID_22824">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>About Forge Tools</title>
+			<para>
+				Forge Tools is tooling that integrates Forge into the IDE. It enhances your workflow by providing and integrating Forge functionality within the IDE.
+			</para>
+			<para>
+				Forge Tools consists of the Forge Console and background actions. The Forge Console provides a Forge command line on which to execute all of the Forge commands. The background actions result in the outcome of the Forge commands being immediately reflected in the IDE. For example, files are opened in editors and projects and directories expanded in explorer tabs as actions creating and modifying them are executed on the Forge command line.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22824-542941+%5BLatest%5D&amp;cf_build_id=22824-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+Forge+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+	</section>
+	<section id="sect-Features_of_Forge_Tools">
+		<title>Features of Forge Tools</title>
+		<section id="Features_Overview2" remap="TID_22821">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Features Overview</title>
+			<para>
+				The aim of this section is to guide you in using Forge Tools:
+			</para>
+			<itemizedlist>
+				<listitem>
+					<para>
+						View and manage the Forge Console tab, from which the Forge command line is accessible
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Start and stop the Forge runtime server in order to access the command line
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Navigate to project resources in the Forge command line
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Understand how Forge commands affect the IDE through background actions, such as expanding directories in explorer tabs and opening files in editors
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Use wizards for accomplishing common Forge commands as an alternative to the Forge command line
+					</para>
+				</listitem>
+			</itemizedlist>
+			<!--<para><remark>[DOCS] Watching JBIDE-13486: open a cheat sheet after starting Forge; JBIDE-13573: add debug/run button or preferences action in console; JBIDE-13192: pick-up automatically executed after new-project command; JBIDE-13194: ask user to restart forge after changing VM arguments or changing debug mode; JBIDE-14615: set VERBOSE command opens Error Log tab; JBIDE-12443: Add forge tab to JBoss perspective</remark></para> -->
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22821-542941+%5BLatest%5D&amp;cf_build_id=22821-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Manage_the_Forge_Console" remap="TID_22829">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Manage the Forge Console</title>
+			<para>
+				A key element for working with Forge is the Forge command line. In order to view this, you need to open the <guilabel>Forge Console</guilabel> tab.
+			</para>
+			<figure>
+				<title>Stopped Console in Forge Tab</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4060.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To open the <guilabel>Forge Console</guilabel> tab, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>. Expand <guilabel>Forge</guilabel>, select <guilabel>Forge Console</guilabel> and click <guibutton>OK</guibutton>. Alternatively, press <keycap>Ctrl+4</keycap>, at which you are prompted whether you also want to start Forge. Irrespective of your response to starting Forge, the <guilabel>Forge Console</guilabel> tab opens.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para>
+				To open the <guilabel>Forge Console</guilabel> tab, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>. Expand <guilabel>Forge</guilabel>, select <guilabel>Forge Console</guilabel> and click <guibutton>OK</guibutton>. Alternatively, press <keycap>Ctrl+4</keycap>, at which you are prompted whether you also want to start Forge. Irrespective of your response to starting Forge, the <guilabel>Forge Console</guilabel> tab opens.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22829-543145+%5BLatest%5D&amp;cf_build_id=22829-543145+03+Oct+2013+15%3A53+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+the+Forge+Console%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Manage_the_Forge_Runtime_Server" remap="TID_22819">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Manage the Forge Runtime Server</title>
+			<para>
+				You must start a Forge runtime server in order to access the Forge command line. Forge Tools provides actions for starting and managing the Forge runtime server.
+			</para>
+			<variablelist>
+				<title/>
+				<varlistentry>
+					<term>Start Forge</term>
+					<listitem>
+						<para>
+							In the <guilabel>Forge Console</guilabel> tab, click the <guibutton>Start the default Forge runtime</guibutton> icon 
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="images/4062.png"/>
+								</imageobject>
+							</inlinemediaobject>. Alternatively, press <keycap>Ctrl+4</keycap> and at the prompt asking if you want to start Forge, click <guibutton>Yes</guibutton>. A progress bar in the IDE window and text in the <guilabel>Forge Console</guilabel> tab indicate the starting status of the Forge runtime server.
+						</para>
+						<figure>
+							<title>Started Console in Forge Tab</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/4063.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>In the <guilabel>Forge Console</guilabel> tab, click the <guibutton>Start the default Forge runtime</guibutton> icon. Alternatively, press <keycap>Ctrl+4</keycap> and at the prompt asking if you want to start Forge, click <guibutton>Yes</guibutton>.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Run Forge in the background</term>
+					<listitem>
+						<para>
+							With a running instance of Forge, in the <guilabel>Forge Console</guilabel> tab click the <guibutton>Close tab</guibutton> icon 
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="images/4071.png"/>
+								</imageobject>
+							</inlinemediaobject>. Despite the <guilabel>Forge Console</guilabel> tab not being open, Forge will continue to run in the background. Reopen the <guilabel>Forge Console</guilabel> tab to access the same Forge command line, identifiable by the existing command line output.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Stop Forge</term>
+					<listitem>
+						<para>
+							In the <guilabel>Forge Console</guilabel> tab, click the <guibutton>Stop the running Forge runtime</guibutton> icon 
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="images/4061.png"/>
+								</imageobject>
+							</inlinemediaobject>. Alternatively, on the Forge command line, enter <command>exit</command>.
+						</para>
+						<figure>
+							<title><command>exit</command> Command in Forge Console</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/4069.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>To stop the Forge, on the Forge command line enter <command>exit</command>.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22819-543147+%5BLatest%5D&amp;cf_build_id=22819-543147+03+Oct+2013+15%3A55+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+the+Forge+Runtime+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Navigate_to_Project_Resources_on_the_Forge_Command_Line" remap="TID_22822">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Navigate to Project Resources on the Forge Command Line</title>
+			<para>
+				Forge Tools enables you to efficiently navigate to project resources, such as directories and files, on the Forge command line.
+			</para>
+			<para>
+				To navigate to a project resource on the Forge command line, in the <guilabel>Project Explorer</guilabel> tab right-click any project resource and click <guimenu>Show In</guimenu>&rarr;<guimenu>Forge Console</guimenu>. If the Forge runtime server is not started, you are prompted to start it. At the prompt, click <guibutton>OK</guibutton>.
+			</para>
+			<figure>
+				<title><guimenu>Show In</guimenu>&rarr;<guimenu>Forge Console</guimenu> Menu Option</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4064.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To navigate to a project resource on the Forge command line, in the <guilabel>Project Explorer</guilabel> tab right-click any project resource and click <guimenu>Show In</guimenu>&rarr;<guimenu>Forge Console</guimenu>.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para>
+				Alternatively, in the <guilabel>Project Explorer</guilabel> tab, select a project resource and click the <guibutton>Go to Selection</guibutton> icon 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata fileref="images/4068.png"/>
+					</imageobject>
+				</inlinemediaobject> in the <guilabel>Forge Console</guilabel> tab.
+			</para>
+			<para>
+				Both of these actions result in the Forge command line automatically executing the <command>pick-up</command> command for the project resource. Following this, the command line navigates to the project resource, the command prompt indicates the selected resource, and the resource opens in an editor if it is a file.
+			</para>
+			<figure>
+				<title><command>pick-up</command> Command Executed in Forge Console</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4067.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>The Forge command line automatically executing the <command>pick-up</command> command for the project resource.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22822-543149+%5BLatest%5D&amp;cf_build_id=22822-543149+03+Oct+2013+15%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Navigate+to+Project+Resources+on+the+Forge+Command+Line%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Background_Actions_Invoked_by_Forge_Commands" remap="TID_22827">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Background Actions Invoked by Forge Commands</title>
+			<para>
+				Forge Tools invokes background actions in the IDE in response to commands issued on the command line in the <guilabel>Forge Console</guilabel>. For example, if you create a project file or directory on the Forge command line, the <guilabel>Project Explorer</guilabel> tab is automatically refreshed to show the newly created project resource. A list of Forge commands that result in additional background actions is given below.
+			</para>
+			<variablelist>
+				<title/>
+				<!--JBIDE-14615: RFE<varlistentry>
+				<term><command>set VERBOSE true</command></term>
+				<listitem><para>The command results in exceptions being recorded in the IDE error log. To open the <guilabel>Error Log</guilabel> tab, click <guimenu>Window</guimenu>&rarr;<guilabel>Show View</guilabel>&rarr;<guimenu>Other</guimenu> and expand <guilabel>General</guilabel>. Click <guilabel>Error Log</guilabel> and click <guibutton>OK</guibutton>.</para></listitem>
+			</varlistentry> -->
+				<varlistentry>
+					<term><command>cd</command></term>
+					<listitem>
+						<para>
+							The command navigates to the project directory and selects it in the <guilabel>Project Explorer</guilabel> and <guilabel>Package Explorer</guilabel> tabs.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term><command>pick-up</command></term>
+					<listitem>
+						<para>
+							The command navigates to the project resource and in the case that the resource is a file it is opened in an editor within the IDE. The project resource is selected and expanded in the <guilabel>Project Explorer</guilabel> and <guilabel>Package Explorer</guilabel> tabs. If the resource resides outside the workspace, it is selected and expanded in the <guilabel>Remote Systems Explorer</guilabel> tab, providing this is installed.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term><command>open</command></term>
+					<listitem>
+						<para>
+							The command opens a file in an editor within the IDE. The project resource is selected and expanded in the <guilabel>Project Explorer</guilabel> and <guilabel>Package Explorer</guilabel> tabs. If the resource resides outside the workspace, it is selected and expanded in the <guilabel>Remote Systems Explorer</guilabel> tab, providing this is installed.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term><command>new-project</command></term>
+					<listitem>
+						<para>
+							The command creates a new project. The project is automatically imported into the workspace and it is visible in the <guilabel>Project Explorer</guilabel> and <guilabel>Package Explorer</guilabel> tabs.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term><command>persistence setup</command></term>
+					<listitem>
+						<para>
+							The command creates a <filename>persistence.xml</filename> file. This file is selected in the <guilabel>Project Explorer</guilabel> and <guilabel>Package Explorer</guilabel> tabs and it is automatically opened in an editor within the IDE.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term><command>entity</command></term>
+					<listitem>
+						<para>
+							The command creates a new entity and associated Java file. This file is selected in the <guilabel>Project Explorer</guilabel> and <guilabel>Package Explorer</guilabel> tabs and it is automatically opened in the Java editor within the IDE.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term><command>field</command></term>
+					<listitem>
+						<para>
+							The command creates a new field for an entity. The Java file associated with the entity is selected in the <guilabel>Project Explorer</guilabel> and <guilabel>Package Explorer</guilabel> tabs and it is automatically opened in an editor within the IDE and the field selected. The field is also selected in the <guilabel>Outline</guilabel> tab.
+						</para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22827-542941+%5BLatest%5D&amp;cf_build_id=22827-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Background+Actions+Invoked+by+Forge+Commands%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Access_a_List_of_Forge_Commands" remap="TID_22825">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Access a List of Forge Commands</title>
+			<para>
+				Forge Tools provides access to a readily available list of Forge commands. Additionally, the commands can be easily inserted in to the Forge command line, as detailed below.
+			</para>
+			<para>
+				To view the list of Forge commands, with a running instance of Forge, press <keycap>Ctrl+4</keycap>. To insert one of the commands in to the Forge command line, in the pop-up window expand the command groups and double-click a command.
+			</para>
+			<figure>
+				<title>Forge Commands Window</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4070.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To view the list of Forge commands, with a running instance of Forge, press <keycap>Ctrl+4</keycap>. To insert one of the commands in to the Forge command line, in the pop-up window expand the command groups and double-click a command.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22825-543150+%5BLatest%5D&amp;cf_build_id=22825-543150+03+Oct+2013+15%3A57+en-US+%5BLatest%5D&amp;comment=Title%3A+Access+a+List+of+Forge+Commands%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Use_Forge_Wizards" remap="TID_22823">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Use Forge Wizards</title>
+			<para>
+				You may prefer to work with wizards rather than the command line. Forge Tools provides wizards for some of the most used Forge commands, in addition to supporting command line functionality. There are three wizards currently available relating to entities, as detailed below.
+			</para>
+			<variablelist>
+				<title/>
+				<varlistentry>
+					<term>Entities from Tables</term>
+					<listitem>
+						<para>
+							This wizard generates entities from an existing database. There are options for creating a new project if one does not already exist and browsing for the driver.jar and driver classes.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>REST Endpoints from Entities</term>
+					<listitem>
+						<para>
+							This wizard generates REST endpoint for entities.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Scaffold UI from Entities</term>
+					<listitem>
+						<para>
+							This wizard generates the necessary scaffolding for you to use JPA entities in your project. There are options for JavaServer Faces and AngularJS implementations, with the wizard creating the associated pages and Java backing beans.
+						</para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para>
+				To open a Forge Tools wizard, click <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu>&rarr;<guimenu>Other</guimenu> and expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Forge</guilabel>. Select one of the listed wizards, click <guibutton>Next</guibutton> and follow the instructions. If Forge is not already started, this automatically occurs.
+			</para>
+			<figure>
+				<title>Forge Wizards Listed in New Window</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4059.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To open a Forge Tools wizard, click <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu>&rarr;<guimenu>Other</guimenu> and expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Forge</guilabel>. Select one of the listed wizards, click <guibutton>Next</guibutton> and follow the instructions.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22823-543151+%5BLatest%5D&amp;cf_build_id=22823-543151+03+Oct+2013+15%3A58+en-US+%5BLatest%5D&amp;comment=Title%3A+Use+Forge+Wizards%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+	</section>
+	<section id="sect-Customizing_Forge_Tools">
+		<title>Customizing Forge Tools</title>
+		<section id="Customizing_Overview2" remap="TID_22818">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Customizing Overview</title>
+			<para>
+				The aim of this section is to guide you in customizing Forge Tools:
+			</para>
+			<itemizedlist>
+				<listitem>
+					<para>
+						Customize when and how Forge starts
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Manage available Forge runtime servers
+					</para>
+				</listitem>
+			</itemizedlist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22818-542941+%5BLatest%5D&amp;cf_build_id=22818-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Customize_the_Forge_Start" remap="TID_22820">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Customize the Forge Start</title>
+			<para>
+				Forge Tools provides a number of customization options for starting Forge.
+			</para>
+			<figure>
+				<title>Forge Pane in Preferences Window</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4066.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To open the the Forge Pane, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu> and select <guilabel>Forge</guilabel>.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<variablelist>
+				<title/>
+				<varlistentry>
+					<term>Start Forge on IDE start</term>
+					<listitem>
+						<para>
+							Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu> and select <guilabel>Forge</guilabel>. Select the <guilabel>Start Forge when workbench starts</guilabel> check box. Click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Start Forge in debug mode</term>
+					<listitem>
+						<para>
+							The debug mode enables you to view the progress of processes executed on the Forge command line in the <guilabel>Debug</guilabel> tab. Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu> and select <guilabel>Forge</guilabel>. Select the <guilabel>Start Forge in Debug Mode</guilabel> check box. Click <guibutton>OK</guibutton> to close the <application>Preferences</application> window. This mode is most useful if you are developing plug-ins to extend the functionality of Forge.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Specify arguments for Forge start</term>
+					<listitem>
+						<para>
+							Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu> and select <guilabel>Forge</guilabel>. In the <guilabel>Forge Startup VM Arguments</guilabel> field, type the arguments you want Forge to use when it starts. Click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
+						</para>
+						<note>
+							<para>
+								The standard Java VM arguments can be used when starting Forge. Additionally, Forge specific commands include <command>--debug</command> to start Forge in debug mode and <command>-pluginDir</command> to specify the directory where Forge should look for plug-ins to install rather than the default <filename>.forge/plugins</filename> directory.
+							</para>
+						</note>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22820-543152+%5BLatest%5D&amp;cf_build_id=22820-543152+03+Oct+2013+15%3A59+en-US+%5BLatest%5D&amp;comment=Title%3A+Customize+the+Forge+Start%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Manage_Forge_Runtime_Servers" remap="TID_22828">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Manage Forge Runtime Servers</title>
+			<para>
+				Forge Tools is distributed with a Forge runtime server but you may want to use different versions of Forge runtime servers. Forge Tools provides the ability to manage the Forge runtime servers that are available in the IDE, as detailed below.
+			</para>
+			<para>
+				To manage the available Forge runtime servers, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>Forge</guilabel> and select <guilabel>Installed Forge Runtimes</guilabel>. 
+				<figure>
+					<title>Installed Forge Runtimes Pane in Preferences Window</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/4065.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>To manage the available Forge runtime servers, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>Forge</guilabel> and select <guilabel>Installed Forge Runtimes</guilabel>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>
+				<itemizedlist>
+					<listitem>
+						<para>
+							To add a Forge runtime server, click <guibutton>Add</guibutton>. In the <guilabel>Name</guilabel> field, type a name to distinguish the Forge runtime server in the IDE. In the <guilabel>Location</guilabel> field, type the location of the runtime server or click <guibutton>Browse</guibutton> to navigate to the location. Click <guibutton>OK</guibutton> to close the window.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							To change the name or the location of a Forge runtime server, from the <guilabel>Installed Forge Runtimes</guilabel> list select a runtime and click <guibutton>Edit</guibutton>. Modify the <guilabel>Name</guilabel> and <guilabel>Location</guilabel> fields as appropriate. Click <guibutton>OK</guibutton> to close the window.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							To delete a Forge runtime server, from the <guilabel>Installed Forge Runtimes</guilabel> list select the runtime and click <guibutton>Remove</guibutton>.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							To set a runtime server as the default, select the check box corresponding to the Forge runtime server. This runtime server will be used when Forge starts.
+						</para>
+					</listitem>
+				</itemizedlist> Click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
+			</para>
+			<important>
+				<para>
+					It is not possible to edit or delete the Forge runtime server that is distributed with Forge Tools. Additionally, it is not possible to delete a Forge runtime server that is selected as the default. You must first select a different runtime server as the default.
+				</para>
+			</important>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22828-543156+%5BLatest%5D&amp;cf_build_id=22828-543156+03+Oct+2013+16%3A00+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+Forge+Runtime+Servers%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+			</para>
+		</section>
+	</section>
+</chapter>
