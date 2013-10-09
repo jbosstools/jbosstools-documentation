@@ -58,7 +58,6 @@
 				JBoss is a key IDE perspective, giving easy access to useful tabs and actions when developing applications with JBoss technologies. The perspective consists of a default set of tabs, menus and toolbars.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>Tabs</term>
 					<listitem>
@@ -225,7 +224,6 @@
 				JBoss Central provides easy access to JBoss and developer information. Each of the information sources listed below are web-based and, depending on the web browser preferences you have set for the IDE, clicking on links results in an internal or external browser window opening.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>View JBoss <phrase>Tools</phrase> website</term>
 					<listitem>
@@ -314,7 +312,6 @@
 				For all actions listed below, open the <guilabel>JBoss Central</guilabel> tab and select the <guilabel>Software/Update</guilabel> page.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>View available software</term>
 					<listitem>
@@ -471,7 +468,6 @@
 				There are a number of actions provided by the IDE for managing perspectives, including the JBoss perspective.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>Reset the JBoss perspective</term>
 					<listitem>

@@ -337,7 +337,6 @@
 				Using OpenShift Tools, you can view and manage live OpenShift connections.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>View information about a connection</term>
 					<listitem>
@@ -470,7 +469,6 @@
 				OpenShift Tools provides actions for managing the SSH keys of your OpenShift account.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>Upload an existing public SSH key to OpenShift</term>
 					<listitem>
@@ -557,7 +555,6 @@
 				OpenShift Tools provides actions for managing the domain of your OpenShift account.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>View the name of the current domain</term>
 					<listitem>
@@ -1030,7 +1027,6 @@
 				OpenShift Tools provides actions for viewing deployed OpenShift applications and information about them.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>View a deployed application</term>
 					<listitem>
@@ -1127,7 +1123,6 @@
 				OpenShift Tools provides actions for developing and managing deployed OpenShift applications.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>Upload modifications to a deployed application</term>
 					<listitem>
