@@ -123,7 +123,6 @@
 				You must start a Forge runtime server in order to access the Forge command line. Forge Tools provides actions for starting and managing the Forge runtime server.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>Start Forge</term>
 					<listitem>
@@ -249,7 +248,6 @@
 				Forge Tools invokes background actions in the IDE in response to commands issued on the command line in the <guilabel>Forge Console</guilabel>. For example, if you create a project file or directory on the Forge command line, the <guilabel>Project Explorer</guilabel> tab is automatically refreshed to show the newly created project resource. A list of Forge commands that result in additional background actions is given below.
 			</para>
 			<variablelist>
-				<title/>
 				<!--JBIDE-14615: RFE<varlistentry>
 				<term><command>set VERBOSE true</command></term>
 				<listitem><para>The command results in exceptions being recorded in the IDE error log. To open the <guilabel>Error Log</guilabel> tab, click <guimenu>Window</guimenu>&rarr;<guilabel>Show View</guilabel>&rarr;<guimenu>Other</guimenu> and expand <guilabel>General</guilabel>. Click <guilabel>Error Log</guilabel> and click <guibutton>OK</guibutton>.</para></listitem>
@@ -352,7 +350,6 @@
 				You may prefer to work with wizards rather than the command line. Forge Tools provides wizards for some of the most used Forge commands, in addition to supporting command line functionality. There are three wizards currently available relating to entities, as detailed below.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>Entities from Tables</term>
 					<listitem>
@@ -445,7 +442,6 @@
 				</mediaobject>
 			</figure>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>Start Forge on IDE start</term>
 					<listitem>

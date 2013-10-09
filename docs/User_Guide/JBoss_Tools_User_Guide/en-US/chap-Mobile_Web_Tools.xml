@@ -371,7 +371,6 @@
 				The widget wizards have three common aspects:
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>Design fields</term>
 					<listitem>
@@ -531,7 +530,6 @@
 				There are a number of available actions:
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>Add a template</term>
 					<listitem>
