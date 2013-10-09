@@ -347,7 +347,7 @@
 			<title>Install from Update ZIP File</title>
 			<note>
 				<para>
-					To install JBoss&nbsp;Developer&nbsp;Studio BYOE in offline mode, you must go to <ulink url="https://devstudio.jboss.com/updates/7.0/"/> and download the update <filename>.zip</filename> file before proceeding.
+					To install JBoss&nbsp;Developer&nbsp;Studio BYOE in offline mode, you must first download the update <filename>.zip</filename> file. You can download the update <filename>.zip</filename> from <ulink url="https://access.redhat.com"/> on the Customer Portal website or <ulink url="https://devstudio.jboss.com/updates/7.0/"/> on the Red Hat JBoss Developer update website.
 				</para>
 			</note>
 			<step>
@@ -401,16 +401,16 @@
 			</step>
 			<step>
 				<para>
-					From the table of components, select <guilabel>JBoss Developer Studio 7.0 - Bring Your Own Eclipse</guilabel> and click <guibutton>Next</guibutton>.
+					From the table of components, select <guilabel>JBoss Developer Studio 7.x - Bring Your Own Eclipse</guilabel> and click <guibutton>Next</guibutton>.
 				</para>
 				<figure>
-					<title>Available Software Window Listing JBoss Developer Studio 7.0 - Bring Your Own Eclipse</title>
+					<title>Available Software Window Listing JBoss Developer Studio 7.x - Bring Your Own Eclipse</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3367.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>From the table of components comprising the update <filename>.zip</filename> file, select <guilabel>JBoss Developer Studio 7.0 - Bring Your Own Eclipse</guilabel> and click <guibutton>Next</guibutton>.</phrase>
+							<phrase>From the table of components comprising the update <filename>.zip</filename> file, select <guilabel>JBoss Developer Studio 7.x - Bring Your Own Eclipse</guilabel> and click <guibutton>Next</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
