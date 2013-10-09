@@ -99,7 +99,6 @@
 				You can use BrowserSim to view web applications on local file systems or deployed on runtime servers.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>To view web applications in local file systems</term>
 					<listitem>
@@ -150,7 +149,6 @@
 				BrowserSim provides actions to assist with viewing web applications on its simulated devices.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>Open a web link</term>
 					<listitem>
@@ -216,7 +214,6 @@
 				BrowserSim provides a number of ways to change the appearance of simulated devices. Changes made to the appearance of simulated devices are retained by BrowserSim and they are automatically applied when it starts in future.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>Rotate the view between portrait and landscape modes</term>
 					<listitem>
@@ -278,7 +275,6 @@
 				From within BrowserSim, web pages can be viewed in different browsers and simulated devices.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>View in the default browser of the system</term>
 					<listitem>
@@ -477,7 +473,6 @@
 				From within BrowserSim, the source of web pages can be viewed with a variety of applications.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>Open the page source in an editor</term>
 					<listitem>

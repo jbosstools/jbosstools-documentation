@@ -23,7 +23,7 @@
 				BrowserSim consists of an external web browser window. This browser window is different from standard browsers in that it can be transformed to simulate browsers on a variety of mobile devices. The browser window can also be rotated to demonstrate the changes that would occur to a web application as a result of rotating a mobile device. Additionally, BrowserSim provides access to tools for inspecting and editing the source of web pages.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22866-542941+%5BLatest%5D&amp;cf_build_id=22866-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22866-542941+%5BLatest%5D&amp;cf_build_id=22866-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="System_Requirements3" remap="TID_22864">
@@ -45,7 +45,7 @@
 				To set BrowserSim to use a 32-bit JVM, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>BrowserSim/CordovaSim</guilabel>. Under <guilabel>Select JRE to run BrowserSim</guilabel>, click <guilabel>Select</guilabel> and from the list select a 32-bit JRE or Java developer kit. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22864-542941+%5BLatest%5D&amp;cf_build_id=22864-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+System+Requirements%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22864-542941+%5BLatest%5D&amp;cf_build_id=22864-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+System+Requirements%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -92,7 +92,7 @@
 			</itemizedlist>
 			<!--<para><remark>[DOCS] Watching ERD JBDS70_0028/JBDS-2522 click on any browser makes all others come to top too</remark></para> -->
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22865-542941+%5BLatest%5D&amp;cf_build_id=22865-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22865-542941+%5BLatest%5D&amp;cf_build_id=22865-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_a_Web_Application_on_BrowserSim" remap="TID_22856">
@@ -108,7 +108,6 @@
 				You can use BrowserSim to view web applications on local file systems or deployed on runtime servers.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>To view web applications in local file systems</term>
 					<listitem>
@@ -146,7 +145,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22856-543239+%5BLatest%5D&amp;cf_build_id=22856-543239+03+Oct+2013+16%3A31+en-US+%5BLatest%5D&amp;comment=Title%3A+View+a+Web+Application+on+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22856-544569+%5BLatest%5D&amp;cf_build_id=22856-544569+09+Oct+2013+10%3A30+en-US+%5BLatest%5D&amp;comment=Title%3A+View+a+Web+Application+on+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Manage_Web_Applications_on_BrowserSim" remap="TID_22859">
@@ -162,7 +161,6 @@
 				BrowserSim provides actions to assist with viewing web applications on its simulated devices.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>Open a web link</term>
 					<listitem>
@@ -215,7 +213,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22859-543240+%5BLatest%5D&amp;cf_build_id=22859-543240+03+Oct+2013+16%3A33+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+Web+Applications+on+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22859-544570+%5BLatest%5D&amp;cf_build_id=22859-544570+09+Oct+2013+10%3A30+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+Web+Applications+on+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Change_the_Appearance_of_a_Simulated_Device" remap="TID_22860">
@@ -231,7 +229,6 @@
 				BrowserSim provides a number of ways to change the appearance of simulated devices. Changes made to the appearance of simulated devices are retained by BrowserSim and they are automatically applied when it starts in future.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>Rotate the view between portrait and landscape modes</term>
 					<listitem>
@@ -280,7 +277,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22860-543241+%5BLatest%5D&amp;cf_build_id=22860-543241+03+Oct+2013+16%3A34+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Appearance+of+a+Simulated+Device%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22860-544571+%5BLatest%5D&amp;cf_build_id=22860-544571+09+Oct+2013+10%3A30+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Appearance+of+a+Simulated+Device%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_a_Web_Page_in_Different_Browsers_and_Simulated_Devices" remap="TID_22857">
@@ -296,7 +293,6 @@
 				From within BrowserSim, web pages can be viewed in different browsers and simulated devices.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>View in the default browser of the system</term>
 					<listitem>
@@ -326,7 +322,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22857-543242+%5BLatest%5D&amp;cf_build_id=22857-543242+03+Oct+2013+16%3A35+en-US+%5BLatest%5D&amp;comment=Title%3A+View+a+Web+Page+in+Different+Browsers+and+Simulated+Devices%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22857-544572+%5BLatest%5D&amp;cf_build_id=22857-544572+09+Oct+2013+10%3A31+en-US+%5BLatest%5D&amp;comment=Title%3A+View+a+Web+Page+in+Different+Browsers+and+Simulated+Devices%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Generate_a_Screen_Capture_of_a_Simulated_Device" remap="TID_22852">
@@ -376,7 +372,7 @@
 				</itemizedlist>
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22852-543244+%5BLatest%5D&amp;cf_build_id=22852-543244+03+Oct+2013+16%3A35+en-US+%5BLatest%5D&amp;comment=Title%3A+Generate+a+Screen+Capture+of+a+Simulated+Device%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22852-543244+%5BLatest%5D&amp;cf_build_id=22852-543244+03+Oct+2013+16%3A35+en-US+%5BLatest%5D&amp;comment=Title%3A+Generate+a+Screen+Capture+of+a+Simulated+Device%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Activate_LiveReload_for_BrowserSim" remap="TID_22851">
@@ -488,7 +484,7 @@
 				</para>
 			</important>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22851-543248+%5BLatest%5D&amp;cf_build_id=22851-543248+03+Oct+2013+16%3A37+en-US+%5BLatest%5D&amp;comment=Title%3A+Activate+LiveReload+for+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22851-543248+%5BLatest%5D&amp;cf_build_id=22851-543248+03+Oct+2013+16%3A37+en-US+%5BLatest%5D&amp;comment=Title%3A+Activate+LiveReload+for+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_the_Source_of_a_Web_Page" remap="TID_22855">
@@ -504,7 +500,6 @@
 				From within BrowserSim, the source of web pages can be viewed with a variety of applications.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>Open the page source in an editor</term>
 					<listitem>
@@ -531,7 +526,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22855-542941+%5BLatest%5D&amp;cf_build_id=22855-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+View+the+Source+of+a+Web+Page%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22855-544573+%5BLatest%5D&amp;cf_build_id=22855-544573+09+Oct+2013+10%3A32+en-US+%5BLatest%5D&amp;comment=Title%3A+View+the+Source+of+a+Web+Page%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -567,7 +562,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22850-542941+%5BLatest%5D&amp;cf_build_id=22850-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22850-542941+%5BLatest%5D&amp;cf_build_id=22850-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Make_BrowserSim_the_Default_Browser" remap="TID_22862">
@@ -589,7 +584,7 @@
 				Alternatively, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>General</guilabel> and select <guilabel>Web Browser</guilabel>. Select the <guilabel>BrowserSim</guilabel> check box. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22862-542941+%5BLatest%5D&amp;cf_build_id=22862-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Make+BrowserSim+the+Default+Browser%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22862-542941+%5BLatest%5D&amp;cf_build_id=22862-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Make+BrowserSim+the+Default+Browser%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Add_BrowserSim_to_the_Global_Toolbar" remap="TID_22849">
@@ -649,7 +644,7 @@
 				</step>
 			</procedure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22849-543250+%5BLatest%5D&amp;cf_build_id=22849-543250+03+Oct+2013+16%3A38+en-US+%5BLatest%5D&amp;comment=Title%3A+Add+BrowserSim+to+the+Global+Toolbar%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22849-543250+%5BLatest%5D&amp;cf_build_id=22849-543250+03+Oct+2013+16%3A38+en-US+%5BLatest%5D&amp;comment=Title%3A+Add+BrowserSim+to+the+Global+Toolbar%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Set_a_Shortcut_for_the_Run_BrowserSim_Action" remap="TID_22848">
@@ -704,7 +699,7 @@
 				</step>
 			</procedure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22848-543251+%5BLatest%5D&amp;cf_build_id=22848-543251+03+Oct+2013+16%3A39+en-US+%5BLatest%5D&amp;comment=Title%3A+Set+a+Shortcut+for+the+Run+BrowserSim+Action%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22848-543251+%5BLatest%5D&amp;cf_build_id=22848-543251+03+Oct+2013+16%3A39+en-US+%5BLatest%5D&amp;comment=Title%3A+Set+a+Shortcut+for+the+Run+BrowserSim+Action%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Add_or_Modify_Devices_in_BrowserSim" remap="TID_22863">
@@ -782,7 +777,7 @@
 				To modify existing devices in BrowserSim, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Devices</guilabel> table, select a device and click <guibutton>Edit</guibutton>. Once you have finished editing the fields, click <guibutton>OK</guibutton>. Click <guibutton>OK</guibutton> to close the <guilabel>Devices</guilabel> window.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22863-543252+%5BLatest%5D&amp;cf_build_id=22863-543252+03+Oct+2013+16%3A40+en-US+%5BLatest%5D&amp;comment=Title%3A+Add+or+Modify+Devices+in+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22863-543252+%5BLatest%5D&amp;cf_build_id=22863-543252+03+Oct+2013+16%3A40+en-US+%5BLatest%5D&amp;comment=Title%3A+Add+or+Modify+Devices+in+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Change_the_Default_Behavior_when_a_Device_does_not_Fit_the_Display" remap="TID_22858">
@@ -812,7 +807,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22858-543253+%5BLatest%5D&amp;cf_build_id=22858-543253+03+Oct+2013+16%3A41+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Default+Behavior+when+a+Device+does+not+Fit+the+Display%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22858-543253+%5BLatest%5D&amp;cf_build_id=22858-543253+03+Oct+2013+16%3A41+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Default+Behavior+when+a+Device+does+not+Fit+the+Display%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Change_the_Default_LiveReload_Port" remap="TID_22854">
@@ -847,7 +842,7 @@
 				</para>
 			</note>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22854-543255+%5BLatest%5D&amp;cf_build_id=22854-543255+03+Oct+2013+16%3A41+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Default+LiveReload+Port%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22854-543255+%5BLatest%5D&amp;cf_build_id=22854-543255+03+Oct+2013+16%3A41+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Default+LiveReload+Port%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Change_the_Default_Location_for_Saved_Screen_Captures" remap="TID_22861">
@@ -877,7 +872,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22861-543256+%5BLatest%5D&amp;cf_build_id=22861-543256+03+Oct+2013+16%3A42+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Default+Location+for+Saved+Screen+Captures%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22861-543256+%5BLatest%5D&amp;cf_build_id=22861-543256+03+Oct+2013+16%3A42+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Default+Location+for+Saved+Screen+Captures%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Change_the_Default_Settings_for_Weinre" remap="TID_22853">
@@ -907,7 +902,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22853-543258+%5BLatest%5D&amp;cf_build_id=22853-543258+03+Oct+2013+16%3A43+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Default+Settings+for+Weinre%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22853-543258+%5BLatest%5D&amp;cf_build_id=22853-543258+03+Oct+2013+16%3A43+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Default+Settings+for+Weinre%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 	</section>

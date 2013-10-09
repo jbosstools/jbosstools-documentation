@@ -205,7 +205,6 @@
 				You can use the actions of LiveReload Tools to open resources in browsers with LiveReload enabled, as detailed below. Note that if the requisite LiveReload server does not exist or is not correctly configured, you are prompted by LiveReload Tools, which can complete the necessary requirements for you.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>View workspace resources on an external device</term>
 					<listitem>

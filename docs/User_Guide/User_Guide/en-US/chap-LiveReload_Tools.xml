@@ -29,7 +29,7 @@
 				The LiveReload application is available for OS X and Microsoft Window operating systems and through a third-party provider for Linux-based operating systems. LiveReload browser extensions are available for Safari, Chrome and Firefox.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22831-542941+%5BLatest%5D&amp;cf_build_id=22831-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+LiveReload%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22831-542941+%5BLatest%5D&amp;cf_build_id=22831-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+LiveReload%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="About_LiveReload_Tools" remap="TID_22832">
@@ -51,7 +51,7 @@
 				Unique features of LiveReload tools include LiveReload for both workspace and deployed resources due to the use of HTTP protocol for all resources and LiveReload on external devices with access and ease of use for remote connections to LiveReload servers. The LiveReload server can also be used in conjunction with BrowserSim, extending LiveReload to simulated devices.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22832-542941+%5BLatest%5D&amp;cf_build_id=22832-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+LiveReload+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22832-542941+%5BLatest%5D&amp;cf_build_id=22832-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+LiveReload+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -87,7 +87,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22833-542941+%5BLatest%5D&amp;cf_build_id=22833-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22833-542941+%5BLatest%5D&amp;cf_build_id=22833-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Create_a_LiveReload_Server" remap="TID_22836">
@@ -153,7 +153,7 @@
 				</para>
 			</note>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22836-543179+%5BLatest%5D&amp;cf_build_id=22836-543179+03+Oct+2013+16%3A07+en-US+%5BLatest%5D&amp;comment=Title%3A+Create+a+LiveReload+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22836-543179+%5BLatest%5D&amp;cf_build_id=22836-543179+03+Oct+2013+16%3A07+en-US+%5BLatest%5D&amp;comment=Title%3A+Create+a+LiveReload+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Configure_the_LiveReload_Server" remap="TID_22835">
@@ -204,7 +204,7 @@
 				All changes to the settings of a LiveReload server must be saved and the server restarted before the results will take effect. To save setting changes, press <keycap>Ctrl+S</keycap> or click <guimenu>File</guimenu>&rarr;<guimenu>Save</guimenu> or click the <guibutton>Save</guibutton> icon. To restart the server, in the <guilabel>Servers</guilabel> tab right-click the LiveReload server and click <guimenu>Restart</guimenu>.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22835-543182+%5BLatest%5D&amp;cf_build_id=22835-543182+03+Oct+2013+16%3A09+en-US+%5BLatest%5D&amp;comment=Title%3A+Configure+the+LiveReload+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22835-543182+%5BLatest%5D&amp;cf_build_id=22835-543182+03+Oct+2013+16%3A09+en-US+%5BLatest%5D&amp;comment=Title%3A+Configure+the+LiveReload+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_Resources_in_LiveReload-enabled_Browsers" remap="TID_22837">
@@ -220,7 +220,6 @@
 				You can use the actions of LiveReload Tools to open resources in browsers with LiveReload enabled, as detailed below. Note that if the requisite LiveReload server does not exist or is not correctly configured, you are prompted by LiveReload Tools, which can complete the necessary requirements for you.
 			</para>
 			<variablelist>
-				<title/>
 				<varlistentry>
 					<term>View workspace resources on an external device</term>
 					<listitem>
@@ -352,7 +351,7 @@
 				</para>
 			</note>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22837-543183+%5BLatest%5D&amp;cf_build_id=22837-543183+03+Oct+2013+16%3A11+en-US+%5BLatest%5D&amp;comment=Title%3A+View+Resources+in+LiveReload-enabled+Browsers%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22837-544564+%5BLatest%5D&amp;cf_build_id=22837-544564+09+Oct+2013+10%3A23+en-US+%5BLatest%5D&amp;comment=Title%3A+View+Resources+in+LiveReload-enabled+Browsers%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_Resources_in_LiveReload-enabled_BrowserSim" remap="TID_22834">
@@ -430,7 +429,7 @@
 				</para>
 			</important>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-10-2013+16%3A44%3A18%0ATopic+ID%3A+22834-543184+%5BLatest%5D&amp;cf_build_id=22834-543184+03+Oct+2013+16%3A13+en-US+%5BLatest%5D&amp;comment=Title%3A+View+Resources+in+LiveReload-enabled+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
+				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+10%3A37%3A58%0ATopic+ID%3A+22834-543184+%5BLatest%5D&amp;cf_build_id=22834-543184+03+Oct+2013+16%3A13+en-US+%5BLatest%5D&amp;comment=Title%3A+View+Resources+in+LiveReload-enabled+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
