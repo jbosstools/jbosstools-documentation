@@ -1,0 +1,417 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes_7.1.0.ent">
+%BOOK_ENTITIES;
+]>
+<article>
+	<xi:include href="Article_Info.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<section id="About_Red_Hat_JBoss_Developer_Studio1" remap="TID_22589">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.1.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>About Red Hat JBoss Developer Studio</title>
+		<!-- Info from http://www.jboss.org/developer/features.html -->
+		<para>
+			Red&nbsp;Hat&nbsp;JBoss&nbsp;Developer&nbsp;Studio is a set of Eclipse-based development tools. It contains plug-ins that integrate with Eclipse to extend the existing functionality of the integrated development environment (IDE). <!--Specifically, the plug-ins provide support for JSF, RichFaces, EJB, JPA and Hibernate, JAX-RS and RESTEasy, CDI, and HML5, in addition to Maven-based build and deployment. -->
+		</para>
+		<para>
+			JBoss&nbsp;Developer&nbsp;Studio is designed to increase your productivity when developing applications. You can focus on building, testing and deploying your applications because JBoss application development tools are integrated in one IDE. Furthermore, JBoss&nbsp;Developer&nbsp;Studio has many unique features to assist your application development: 
+			<itemizedlist>
+				<listitem>
+					<para>
+						Develop new applications using the wizards and project examples of JBoss Central.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Add powerful functionality to applications with minimal effort using Forge Tools.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Build web interfaces with ease using the visual editing and drag-and-drop utilities of Visual Web Tools and Mobile Web Tools.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Experience browsers automatically refreshing in response to modified application resources with LiveReload Tools.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Incorporate JSF, Seam, JAX-RS, Hibernate, CDI and other popular APIs into applications with simplicity using the tool-driven interface.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Preview and test mobile web applications on a variety of simulation mobile devices using BrowserSim.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Deploy applications to JBoss runtime servers and the cloud using JBoss Server Tools and OpenShift Tools.
+					</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+		<para>
+			JBoss&nbsp;Developer&nbsp;Studio comes built around Eclipse and packaged with all of the necessary dependencies and third-party plug-ins for simplified installing. For developers already running Eclipse, JBoss&nbsp;Developer&nbsp;Studio can also be installed through Eclipse Marketplace. For distinction, this latter JBoss&nbsp;Developer&nbsp;Studio installation is called JBoss&nbsp;Developer&nbsp;Studio BYOE (Bring Your Own Eclipse).
+		</para>
+	</section>
+	<section id="Use_Cases_of_JBoss_Developer_Studio1" remap="TID_22588">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.1.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Use Cases of JBoss Developer Studio</title>
+		<para>
+			JBoss&nbsp;Developer&nbsp;Studio assists JEE developers by integrating JBoss technology and APIs in a single development environment. Here are a few ways that JBoss&nbsp;Developer&nbsp;Studio makes the work of a developer easier:
+		</para>
+		<variablelist>
+			<varlistentry>
+				<term>Web applications</term>
+				<listitem>
+					<para>
+						JBoss Central provides wizards that generate skeleton and sample projects, enabling you to focus on developing the functionality of your applications. The wizards create web applications based on different APIs and technologies, showing the usage and advantages of each. JBoss&nbsp;Developer&nbsp;Studio also offers project file templates in a range of popular programming languages, including HTML, XHTML, and JSF.
+					</para>
+					<para>
+						Palettes in JBoss&nbsp;Developer&nbsp;Studio give access to the core elements of the JSF, Richfaces and Seam APIs, for use in developing the user interfaces of your applications. Elements of these APIs can be dragged and dropped directly into your project so that you can create richer user interfaces quickly. Visual Web Tools offers graphical and source viewing of files and defaults to dedicated editors for different file types. JBoss&nbsp;Developer&nbsp;Studio supports the Java EE 6 specification and provides tools for JAX-RS, Hibernate, and CDI APIs so you can develop the server-side components of your application effortlessly.
+					</para>
+					<para>
+						LiveReload Tools automatically refreshes browsers of local or deployed applications as you modify project resources to save you from needing to manually refresh. You can even experience automatic refreshing when viewing applications in browsers on external and mobile devices, with application web addresses easy to navigate to with QR codes.
+					</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Web applications optimized for mobile devices</term>
+				<listitem>
+					<para>
+						Mobile Web Tools provides support for HTML5 and jQuery Mobile to enable you to create web applications optimized across desktop and mobile clients. The HTML5 Project wizard in JBoss Central generates a sample application using HTML5 and jQuery Mobile technologies and, together with HTML5 and jQuery Mobile project file templates, helps you to get up and running with these APIs and technologies quickly. HTML5 and jQuery Mobile widgets can be dragged from the Mobile Web palette into your project files and, in conjunction with the widget wizards, enable you to effortlessly develop customized user interfaces for your mobile web applications.
+					</para>
+					<para>
+						BrowserSim allows you to view your web applications on a variety of simulated mobile devices so that you can ensure they will be correctly formatted. LiveReload also extends to BrowserSim allowing you to experience automatic browser refreshing as you develop your mobile web applications. The integration of Firebug Lite and Weinre capabilities with BrowserSim assists you to inspect the page source of web pages with familiar tools.
+					</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Applications for cloud deployment</term>
+				<listitem>
+					<para>
+						OpenShift Tools deploys your applications directly to the cloud on the Red Hat OpenShift platform. You can create and manage your OpenShift account and manage the deployment of applications in your OpenShift domain from within the IDE. In addition to using the OpenShift Application wizard to create new applications for deployment to OpenShift, OpenShift Tools can import applications already deployed on OpenShift so that you can further develop them and manage their deployment from the comfort of the IDE.
+					</para>
+				</listitem>
+			</varlistentry>
+		</variablelist>
+	</section>
+	<section id="About_this_Release" remap="TID_24015">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.1.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>About this Release</title>
+		<para>
+			JBoss Developer Studio 7.1.0 is an update to JBoss Developer Studio 7.0.x. The update has two purposes:
+		</para>
+		<itemizedlist>
+			<listitem>
+				<para>
+					It contains new features.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					It resolves issues identified in JBoss Developer Studio 7.0.x.
+				</para>
+			</listitem>
+			<!--<listitem><para>It contains an Eclipse Kepler update, SR1.</para></listitem> -->
+		</itemizedlist>
+	</section>
+	<section id="New_Features6" remap="TID_24020">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.1.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>New Features</title>
+		<para>
+			This release of JBoss&nbsp;Developer&nbsp;Studio includes new features to enhance and extend its functionality:
+		</para>
+		<variablelist>
+			<varlistentry>
+				<term>Installation</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								Red Hat JBoss Enterprise Application Platform 6.1.1 is included in the joint JBoss&nbsp;Developer&nbsp;Studio and JBoss EAP universal installer.
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>JBoss Central</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								<remark>
+									To be added
+								</remark>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Project Examples</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								<remark>
+									To be added
+								</remark>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>JBoss Server Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								<remark>
+									To be added
+								</remark>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Forge Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								The embedded Forge runtime server is version 1.3.2.Final.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								<application>Forge Wizards -- Technology Preview</application>
+							</para>
+							<itemizedlist>
+								<listitem>
+									<para>
+										Wizards have been implemented for common Forge commands as a visual and guided alternative to the command line. The Forge wizards can be found by clicking <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu>&rarr;<guimenu>Other</guimenu> and expanding <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Forge</guilabel>. All of the wizards have progress bars to indicate their progress.
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										The current wizards enable the generation of entities from existing databases, the creation of a scaffolding user interface based on JPA project entities, and the generation of REST endpoints for entities. More wizards are to be added in future releases.
+									</para>
+								</listitem>
+							</itemizedlist>
+							<warning>
+								<para>
+									Forge wizards are provided as a Technology Preview in this release. This means that they are provided as-is, without support or guarantees. Your feedback is appreciated.
+								</para>
+							</warning>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Maven Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								<remark>
+									To be added
+								</remark>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>LiveReload Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								<remark>
+									To be added
+								</remark>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>JSF Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								<remark>
+									To be added
+								</remark>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>CDI Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								<remark>
+									To be added
+								</remark>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Web Service Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								<remark>
+									To be added
+								</remark>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>BrowserSim</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								<remark>
+									To be added
+								</remark>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Mobile Web Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								<remark>
+									To be added
+								</remark>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>OpenShift Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								<remark>
+									To be added
+								</remark>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+		</variablelist>
+	</section>
+	<section id="Resolved_Issues4" remap="TID_24018">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.1.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Resolved Issues</title>
+		<para>
+			<remark>
+				Need to update the query
+			</remark> To view information about issues resolved in this release of JBoss&nbsp;Developer&nbsp;Studio, see <ulink url="https://issues.jboss.org/issues/?jql="/> on the JBoss issue tracking system and enter the following search query as one line: 
+			<screen>(project in (JBIDE) AND affectedVersion in ("4.1.0.Final") AND fixVersion = "4.1.0.1.Final" OR project in (JBDS) AND affectedVersion in ("7.0.0.GA") AND fixVersion = "7.0.1.GA") AND type in (Bug) AND resolution in (Done)</screen>
+		</para>
+	</section>
+	<section id="Known_Issues11" remap="TID_24017">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.1.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Known Issues</title>
+		<para>
+			<remark>
+				Need to update the query
+			</remark> To view information about known issues in this release of JBoss&nbsp;Developer&nbsp;Studio, see <ulink url="https://issues.jboss.org/issues/?jql="/> on the JBoss issue tracking system and enter the following search query as one line: <!--<screen>(project in (JBIDE) AND affectedVersion in ("4.1.0.Final", "4.1.0.1.Final") OR project in (JBDS) AND affectedVersion in ("7.0.0.GA", "7.0.1.GA")) AND type in (Bug) AND resolution in (Unresolved)</screen> -->
+			<screen>(project in (JBDS) AND (affectedVersion in ("7.0.0.GA", "7.0.1.GA") AND resolution in (Unresolved) OR affectedVersion in ("7.0.0.GA", "7.0.1.GA") AND resolution in (Done) AND fixVersion > "7.0.1.GA") OR project in (JBIDE) AND (affectedVersion in ("4.1.0.Final", "4.1.0.1.Final") AND resolution in (Unresolved) OR affectedVersion in ("4.1.0.Final", "4.1.0.1.Final") AND resolution in (Done) AND fixVersion > "4.1.0.1.Final")) AND type in (Bug)</screen> The query results correspond to reported issues but the issues may not yet have been confirmed by the product team.
+		</para>
+	</section>
+	<section id="Apply_this_Release" remap="TID_24016">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.1.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Apply this Release</title>
+		<para>
+			JBoss&nbsp;Developer&nbsp;Studio 7.1.0 is available from a number of sources: 
+			<itemizedlist>
+				<listitem>
+					<para>
+						To install JBoss&nbsp;Developer&nbsp;Studio 7.1.0 as a distinct version of the IDE, use the universal installer available from the Customer Portal.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						To install JBoss&nbsp;Developer&nbsp;Studio BYOE 7.1.0 in a clean version of Eclipse Kepler, use Eclipse Marketplace, the JBoss&nbsp;Developer&nbsp;Studio update site or the update <filename>.zip</filename> file available from the Customer Portal.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						To update an existing JBoss&nbsp;Developer&nbsp;Studio or JBoss&nbsp;Developer&nbsp;Studio BYOE 7.0.x installation to version 7.1.0, apply the update available from the JBoss&nbsp;Developer&nbsp;Studio update site via the IDE.
+					</para>
+				</listitem>
+			</itemizedlist> In all cases, for more information see the Red&nbsp;Hat JBoss&nbsp;Developer&nbsp;Studio 7.1 Installation Guide.
+		</para>
+	</section>
+	<xi:include href="Revision_History.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</article>
