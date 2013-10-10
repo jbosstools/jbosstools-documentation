@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='utf-8' ?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
 <!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes_7.1.0.ent">
 %BOOK_ENTITIES;
 ]>
-<appendix id="appe-Documentation-Release_Notes-Revision_History">
+<appendix id="appe-Release_Notes_7.1.0-Revision_History">
 	<title>Revision History</title>
 	<simpara>
 		<revhistory>
 			<revision>
-				<revnumber>7.1.0-1</revnumber><date>Thu Aug 15 2013</date>
+				<revnumber>7.1.0-1</revnumber><date>Wed Oct 09 2013</date>
 				<author>
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
@@ -19,8 +19,7 @@
 						</member>
 					</simplelist>
 				</revdescription>
-			</revision>			
+			</revision>
 		</revhistory>
 	</simpara>
 </appendix>
-
