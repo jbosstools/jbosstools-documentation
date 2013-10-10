@@ -18,7 +18,7 @@
 			JBoss&nbsp;Developer&nbsp;Studio can be installed in a number of different ways.
 		</para>
 		<para>
-			You can install JBoss&nbsp;Developer&nbsp;Studio, packaged with Eclipse and dependent third-party plug-ins, with a universal installer for all operating systems.
+			You can install JBoss&nbsp;Developer&nbsp;Studio, packaged with Eclipse and dependent third-party plug-ins, with a universal installer for all operating systems. A second version of the universal installer is available that additionally contains Red Hat JBoss Enterprise Application Platform and installs both JBoss&nbsp;Developer&nbsp;Studio and JBoss EAP.
 		</para>
 		<para>
 			Alternatively, if you already have Eclipse on your system you may prefer to install JBoss&nbsp;Developer&nbsp;Studio BYOE. This option installs JBoss&nbsp;Developer&nbsp;Studio in Eclipse.
@@ -37,10 +37,10 @@
 		</sectioninfo>
 		<title>Install JBoss Developer Studio</title>
 		<para>
-			A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Customer Portal. 
+			A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Customer Portal. A second version of the universal installer for installing both JBoss Developer Studio and JBoss EAP is also available from the Customer Portal. The procedure below guides you though obtaining the universal installers and the installation process.
 		</para>
 		<para>
-			Alternatively, the source code is also available as a <filename>.zip</filename> file at the same location. You can use this source code to build the universal installer yourself and then use that to install JBoss&nbsp;Developer&nbsp;Studio. For instructions for building the universal installer see <xref linkend="Build_the_Universal_Installer_from_Source"/>.
+			Alternatively, the source code is available as a <filename>.zip</filename> file at the same location. You can use this source code to build the universal installer yourself and then use that to install JBoss&nbsp;Developer&nbsp;Studio. For instructions for building the universal installer see <xref linkend="Build_the_Universal_Installer_from_Source"/>.
 		</para>
 		<procedure>
 			<title>Install with the Universal Installer</title>
@@ -100,13 +100,26 @@
 			</step>
 			<step>
 				<para>
-					From the table click <guibutton>Download</guibutton> for the <filename>Red Hat JBoss Developer Studio 7.1.x Stand Alone Universal Binary</filename> download file. This downloads the universal installer <filename>.jar</filename> file.
+					From the table, click <guibutton>Download</guibutton> for one of the following: 
+					<itemizedlist>
+						<listitem>
+							<para>
+								For the JBoss&nbsp;Developer&nbsp;Studio universal installer, click <guibutton>Download</guibutton> for the <filename>Red Hat JBoss Developer Studio 7.1.x Stand Alone Universal Binary</filename> download file.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								For the JBoss&nbsp;Developer&nbsp;Studio and JBoss EAP universal installer, click <guibutton>Download</guibutton> for the <filename>Red Hat JBoss Developer Studio 7.1.x Universal Binary with JBoss EAP</filename> download file.
+							</para>
+						</listitem>
+					</itemizedlist> This downloads a universal installer <filename>.jar</filename> file.
 				</para>
 			</step>
 			<step>
 				<para>
 					On the command line, navigate to <filename>path/to/.jar</filename> and enter 
-					<screen>java -jar jbdevstudio-product-universal-7.1.<replaceable>x.build_version</replaceable>.jar</screen> where <replaceable>x.build_version</replaceable> is substituted to match the name of the <filename>.jar</filename> file. 
+					<screen>java -jar jbdevstudio-product-universal-7.1.<replaceable>x.build_version</replaceable>.jar</screen><phrase>or</phrase>
+					<screen>java -jar jbdevstudio-product-eap-universal-7.1.<replaceable>x.build_version</replaceable>.jar</screen><phrase>as appropriate for the downloaded universal installer,</phrase> where <replaceable>x.build_version</replaceable> is substituted to match the name of the <filename>.jar</filename> file. 
 					<note>
 						<para>
 							To start the installer, you may be able to double-click the <filename>.jar</filename> file.
@@ -175,7 +188,12 @@
 			</step>
 			<step>
 				<para>
-					To make use of automatic runtime detection for finding application servers, click <guibutton>Add</guibutton>. In the <guilabel>Location</guilabel> field, type the path from which recursive scanning for application servers is to commence or click <guibutton>Browse</guibutton> to navigate to the location: 
+					If installing from the universal installer that includes JBoss EAP, you are asked if you want to install JBoss EAP. This option installs JBoss EAP in a subdirectory under JBoss Developer Studio and generates a complete server definition within the IDE with which to manage the runtime server and deployed applications. Click <guilabel>Yes</guilabel> or <guilabel>No</guilabel> as appropriate.
+				</para>
+			</step>
+			<step>
+				<para>
+					To make use of automatic runtime detection for finding already installed application servers, click <guibutton>Add</guibutton>. In the <guilabel>Location</guilabel> field, type the path from which recursive scanning for application servers is to commence or click <guibutton>Browse</guibutton> to navigate to the location: 
 					<itemizedlist>
 						<listitem>
 							<para>
