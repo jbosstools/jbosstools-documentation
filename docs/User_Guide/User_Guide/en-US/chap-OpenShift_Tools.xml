@@ -64,9 +64,6 @@
 			<para>
 				OpenShift can be accessed via the web interface at <ulink url="https://www.openshift.com/"/> on the OpenShift website or via the OpenShift command line interface.
 			</para>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22877-542941+%5BLatest%5D&amp;cf_build_id=22877-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="About_OpenShift_Tools" remap="TID_22881">
 			<sectioninfo>
@@ -104,9 +101,6 @@
 						</para>
 					</listitem>
 				</itemizedlist>
-			</para>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22881-542941+%5BLatest%5D&amp;cf_build_id=22881-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+OpenShift+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -157,9 +151,6 @@
 				</listitem>
 			</itemizedlist>
 			<!--<para><remark>[DOCS] JBIDE-13281: server adapter Show In > Server Log does nothing; JBIDE-14018: git commit message; JBIDE-14394: support adding cartridge via github url; JBIDE-13963: port fowarding UI under review; JBIDE-10512: deleted application still shown in servers tab; JBIDE-14395: in new app wizard enable scaling by default;</remark></para> -->
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22870-542941+%5BLatest%5D&amp;cf_build_id=22870-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Create_an_OpenShift_User_Account" remap="TID_22879">
 			<sectioninfo>
@@ -208,9 +199,6 @@
 			</figure>
 			<para>
 				Management of your user account, such as changing or resetting your password, must be carried out through the OpenShift management console at <ulink url="https://openshift.redhat.com/app/login?redirectUrl=%2Fapp%2Fconsole"/>.
-			</para>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22879-542941+%5BLatest%5D&amp;cf_build_id=22879-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Create+an+OpenShift+User+Account%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Connect_to_OpenShift" remap="TID_22869">
@@ -335,9 +323,6 @@
 			<listitem><para>OpenShift Tools lists previous connections in the connection wizard. In the <guilabel>OpenShift Explorer</guilabel> tab, click the <guibutton>Connect to OpenShift</guibutton> icon. From the <guilabel>Connection</guilabel> list, select the appropriate connection. Type your password and, if you want the <guilabel>Password</guilabel> field to automatically populate for this connection in future, select the <guilabel>Save password</guilabel> check box and click <guibutton>Finish</guibutton>. When prompted, enter your secure storage password. <remark>See JBIDE-13958 for info.</remark></para>
 			</listitem>	
 		</itemizedlist> -->
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22869-542941+%5BLatest%5D&amp;cf_build_id=22869-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Connect+to+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Manage_a_Connection" remap="TID_22878">
 			<sectioninfo>
@@ -388,9 +373,6 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22878-544574+%5BLatest%5D&amp;cf_build_id=22878-544574+09+Oct+2013+10%3A33+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+a+Connection%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Generate_and_Upload_SSH_keys_to_OpenShift" remap="TID_22872">
 			<sectioninfo>
@@ -473,9 +455,6 @@
 					</para>
 				</step>
 			</procedure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22872-542941+%5BLatest%5D&amp;cf_build_id=22872-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Generate+and+Upload+SSH+keys+to+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Manage_SSH_Keys" remap="TID_22876">
 			<sectioninfo>
@@ -520,9 +499,6 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22876-544575+%5BLatest%5D&amp;cf_build_id=22876-544575+09+Oct+2013+10%3A34+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+SSH+Keys%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Create_a_Domain1" remap="TID_22880">
 			<sectioninfo>
@@ -565,9 +541,6 @@
 					There are restrictions on the name you can use for a domain. Names must consist only of letters and digits and can have a maximum length of 16 characters.
 				</para>
 			</note>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22880-542941+%5BLatest%5D&amp;cf_build_id=22880-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Create+a+Domain%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Manage_a_Domain" remap="TID_22867">
 			<sectioninfo>
@@ -617,9 +590,6 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22867-544576+%5BLatest%5D&amp;cf_build_id=22867-544576+09+Oct+2013+10%3A34+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+a+Domain%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Create_and_Deploy_an_Application_on_OpenShift" remap="TID_22871">
 			<sectioninfo>
@@ -757,9 +727,6 @@
 					To view the project in the <guilabel>Git Repositories</guilabel> tab, in the <guilabel>Project Explorer</guilabel> tab right-click the project name and click <guimenu>Team</guimenu>&rarr;<guimenu>Show in Repositories View</guimenu>. Alternatively, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>, expand <guilabel>Git</guilabel> and select <guilabel>Git Repositories</guilabel>. Click <guibutton>OK</guibutton> to close the window.
 				</para>
 			</note>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22871-542941+%5BLatest%5D&amp;cf_build_id=22871-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Create+and+Deploy+an+Application+on+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Deploy_an_Existing_Application_on_OpenShift" remap="TID_22868">
 			<sectioninfo>
@@ -862,9 +829,6 @@
 					</para>
 				</step>
 			</procedure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22868-542941+%5BLatest%5D&amp;cf_build_id=22868-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Deploy+an+Existing+Application+on+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Import_a_Deployed_OpenShift_Application_into_the_IDE" remap="TID_22874">
 			<sectioninfo>
@@ -944,9 +908,6 @@
 			</procedure>
 			<para>
 				Once imported, the project is listed in the <guilabel>Project Explorer</guilabel> and <guilabel>Git Repositories</guilabel> tabs, where the details proceeding the application name indicate the current Git branch and status compared to the remote repository. Additionally, the server adapter for the application is visible in the <guilabel>Servers</guilabel> tab.
-			</para>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22874-542941+%5BLatest%5D&amp;cf_build_id=22874-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Import+a+Deployed+OpenShift+Application+into+the+IDE%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Generate_a_server_adapter_for_an_application" remap="TID_22882">
@@ -1052,9 +1013,6 @@
 					</figure>
 				</step>
 			</procedure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22882-542941+%5BLatest%5D&amp;cf_build_id=22882-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Generate+a+server+adapter+for+an+application%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="View_a_Deployed_Application_and_Associated_Information" remap="TID_22875">
 			<sectioninfo>
@@ -1151,9 +1109,6 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22875-544577+%5BLatest%5D&amp;cf_build_id=22875-544577+09+Oct+2013+10%3A35+en-US+%5BLatest%5D&amp;comment=Title%3A+View+a+Deployed+Application+and+Associated+Information%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Manage_a_Deployed_Application" remap="TID_22873">
 			<sectioninfo>
@@ -1296,9 +1251,6 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22873-544578+%5BLatest%5D&amp;cf_build_id=22873-544578+09+Oct+2013+10%3A36+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+a+Deployed+Application%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 	</section>
 </chapter>

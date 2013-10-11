@@ -96,4 +96,6 @@ pressgang_website_callback([
 	{"topicId":22879,"target":"Create_an_OpenShift_User_Account","title":"Create an OpenShift User Account","newSince":""},
 	{"topicId":22876,"target":"Manage_SSH_Keys","title":"Manage SSH Keys","newSince":""},
 	{"topicId":22877,"target":"About_OpenShift","title":"About OpenShift","newSince":""},
-	{"topicId":23487,"target":"Download_a_JBoss_Community_Application_Server","title":"Download a JBoss Community Application Server","newSince":""}]);
+	{"topicId":24023,"target":"About_Maven_Tools","title":"About Maven Tools","newSince":""},
+	{"topicId":23487,"target":"Download_a_JBoss_Community_Application_Server","title":"Download a JBoss Community Application Server","newSince":""},
+	{"topicId":24024,"target":"About_Maven1","title":"About Maven","newSince":""}]);

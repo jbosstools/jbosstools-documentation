@@ -61,9 +61,6 @@
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio comes built around Eclipse and packaged with all of the necessary dependencies and third-party plug-ins for simplified installing. For developers already running Eclipse, JBoss&nbsp;Developer&nbsp;Studio can also be installed through Eclipse Marketplace. For distinction, this latter JBoss&nbsp;Developer&nbsp;Studio installation is called JBoss&nbsp;Developer&nbsp;Studio BYOE (Bring Your Own Eclipse).
 		</para>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22589-539500+%5BLatest%5D&amp;cf_build_id=22589-539500+24+Sep+2013+16%3A16+en-US+%5BLatest%5D&amp;comment=Title%3A+About+Red+Hat+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 	<section id="Use_Cases_of_JBoss_Developer_Studio1" remap="TID_22588">
 		<sectioninfo>
@@ -112,8 +109,5 @@
 				</listitem>
 			</varlistentry>
 		</variablelist>
-		<para role="RoleCreateBugPara">
-			<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22588-544553+%5BLatest%5D&amp;cf_build_id=22588-544553+09+Oct+2013+10%3A06+en-US+%5BLatest%5D&amp;comment=Title%3A+Use+Cases+of+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-		</para>
 	</section>
 </chapter>
