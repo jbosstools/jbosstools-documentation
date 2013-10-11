@@ -44,9 +44,6 @@
 					</listitem>
 				</itemizedlist>
 			</para>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22788-542941+%5BLatest%5D&amp;cf_build_id=22788-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="About_the_JBoss_Perspective" remap="TID_22790">
 			<sectioninfo>
@@ -86,9 +83,6 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22790-544554+%5BLatest%5D&amp;cf_build_id=22790-544554+09+Oct+2013+10%3A07+en-US+%5BLatest%5D&amp;comment=Title%3A+About+the+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 	</section>
 	<section id="sect-Features_of_JBoss_Central_and_the_JBoss_Perspective">
@@ -128,9 +122,6 @@
 				</listitem>
 			</itemizedlist>
 			<!--<para><remark>[DOCS] Watching JBIDE-2557: cheat sheets for archetypes; Also cheat sheets missing for quickstarts; JBIDE-14804: uninstall from central</remark></para>-->
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22795-542941+%5BLatest%5D&amp;cf_build_id=22795-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="View_JBoss_Central" remap="TID_22794">
 			<sectioninfo>
@@ -154,9 +145,6 @@
 			</para>
 			<para>
 				To maximize the <guilabel>JBoss Central</guilabel> tab, double-click the name of the <guibutton>JBoss Central</guibutton> tab. The <guilabel>JBoss Central</guilabel> tab fills the whole IDE window. Double-click the name of the <guibutton>JBoss Central</guibutton> tab to reduce the size of the tab again. These actions work for all IDE tabs.
-			</para>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22794-542984+%5BLatest%5D&amp;cf_build_id=22794-542984+03+Oct+2013+12%3A20+en-US+%5BLatest%5D&amp;comment=Title%3A+View+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Access_Project_Wizards_in_JBoss_Central" remap="TID_22800">
@@ -222,9 +210,6 @@
 					</textobject>
 				</mediaobject>
 			</figure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22800-543006+%5BLatest%5D&amp;cf_build_id=22800-543006+03+Oct+2013+12%3A54+en-US+%5BLatest%5D&amp;comment=Title%3A+Access+Project+Wizards+in+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Access_Information_in_JBoss_Central" remap="TID_22801">
 			<sectioninfo>
@@ -310,9 +295,6 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22801-544555+%5BLatest%5D&amp;cf_build_id=22801-544555+09+Oct+2013+10%3A09+en-US+%5BLatest%5D&amp;comment=Title%3A+Access+Information+in+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Update_Software_in_JBoss_Central" remap="TID_22798">
 			<sectioninfo>
@@ -445,9 +427,6 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22798-544558+%5BLatest%5D&amp;cf_build_id=22798-544558+09+Oct+2013+10%3A15+en-US+%5BLatest%5D&amp;comment=Title%3A+Update+Software+in+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Open_the_JBoss_Perspective" remap="TID_22791">
 			<sectioninfo>
@@ -475,9 +454,6 @@
 					</textobject>
 				</mediaobject>
 			</figure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22791-542993+%5BLatest%5D&amp;cf_build_id=22791-542993+03+Oct+2013+12%3A30+en-US+%5BLatest%5D&amp;comment=Title%3A+Open+the+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Manage_JBoss_Perspective" remap="TID_22796">
 			<sectioninfo>
@@ -522,9 +498,6 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22796-544559+%5BLatest%5D&amp;cf_build_id=22796-544559+09+Oct+2013+10%3A15+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="View_Cheat_Sheets" remap="TID_22793">
 			<sectioninfo>
@@ -577,9 +550,6 @@
 				</para>
 			</note>
 			<!-- API for developing cheat sheets available to all -->
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22793-542996+%5BLatest%5D&amp;cf_build_id=22793-542996+03+Oct+2013+12%3A32+en-US+%5BLatest%5D&amp;comment=Title%3A+View+Cheat+Sheets%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 	</section>
 	<section id="sect-Customizing_JBoss_Central_and_the_JBoss_Perspective">
@@ -618,9 +588,6 @@
 					</para>
 				</listitem>
 			</itemizedlist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22792-542941+%5BLatest%5D&amp;cf_build_id=22792-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Change_the_Behavior_of_JBoss_Central_on_IDE_Start" remap="TID_22799">
 			<sectioninfo>
@@ -667,9 +634,6 @@
 					</textobject>
 				</mediaobject>
 			</figure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22799-542997+%5BLatest%5D&amp;cf_build_id=22799-542997+03+Oct+2013+12%3A34+en-US+%5BLatest%5D&amp;comment=Title%3A+Change+the+Behavior+of+JBoss+Central+on+IDE+Start%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Customize_the_Default_Tabs_Menus_and_Toolbars_of_the_JBoss_Perspective" remap="TID_22797">
 			<sectioninfo>
@@ -750,9 +714,6 @@
 					</textobject>
 				</mediaobject>
 			</figure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22797-542999+%5BLatest%5D&amp;cf_build_id=22797-542999+03+Oct+2013+12%3A36+en-US+%5BLatest%5D&amp;comment=Title%3A+Customize+the+Default+Tabs%2C+Menus+and+Toolbars+of+the+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Use_Project_Examples_when_Working_Offline" remap="TID_22802">
 			<sectioninfo>
@@ -785,9 +746,6 @@
 			<para>
 				To inform the IDE to use the cache for the project example wizards, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Project Examples</guilabel> and select <guilabel>Offline Support</guilabel>. Select the <guilabel>Enable offline mode for project examples</guilabel> check box. Ensure the correct cache location is specified in the <guilabel>Offline directory</guilabel> field. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.
 			</para>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22802-542941+%5BLatest%5D&amp;cf_build_id=22802-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Use+Project+Examples+when+Working+Offline%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Set_Cheat_Sheet_Behavior" remap="TID_22803">
 			<sectioninfo>
@@ -815,9 +773,6 @@
 					</textobject>
 				</mediaobject>
 			</figure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22803-543000+%5BLatest%5D&amp;cf_build_id=22803-543000+03+Oct+2013+12%3A37+en-US+%5BLatest%5D&amp;comment=Title%3A+Set+Cheat+Sheet+Behavior%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 	</section>
 </chapter>
