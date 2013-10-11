@@ -22,9 +22,6 @@
 			<para>
 				Forge consists of a command line interface and sets of commands provided through plug-ins. The Forge command line accepts standard Unix commands such as <command>cd</command> for change directory, <command>mkdir</command> to create a new directory and <command>touch</command> to create a new file. But Forge's real power lies in its unique command set, which is extendable through plugins. For example, the <command>scaffold</command> command generates a user interface for an application and the <command>persistence</command> command adds persistence to a project. Furthermore, Forge comprehends a range of file types, with actions for working with their contents.
 			</para>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22826-542941+%5BLatest%5D&amp;cf_build_id=22826-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+Forge%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="About_Forge_Tools" remap="TID_22824">
 			<sectioninfo>
@@ -40,9 +37,6 @@
 			</para>
 			<para>
 				Forge Tools consists of the Forge Console and background actions. The Forge Console provides a Forge command line on which to execute all of the Forge commands. The background actions result in the outcome of the Forge commands being immediately reflected in the IDE. For example, files are opened in editors and projects and directories expanded in explorer tabs as actions creating and modifying them are executed on the Forge command line.
-			</para>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22824-542941+%5BLatest%5D&amp;cf_build_id=22824-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+Forge+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -88,9 +82,6 @@
 				</listitem>
 			</itemizedlist>
 			<!--<para><remark>[DOCS] Watching JBIDE-13486: open a cheat sheet after starting Forge; JBIDE-13573: add debug/run button or preferences action in console; JBIDE-13192: pick-up automatically executed after new-project command; JBIDE-13194: ask user to restart forge after changing VM arguments or changing debug mode; JBIDE-14615: set VERBOSE command opens Error Log tab; JBIDE-12443: Add forge tab to JBoss perspective</remark></para> -->
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22821-542941+%5BLatest%5D&amp;cf_build_id=22821-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Manage_the_Forge_Console" remap="TID_22829">
 			<sectioninfo>
@@ -117,9 +108,6 @@
 			</figure>
 			<para>
 				To open the <guilabel>Forge Console</guilabel> tab, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>. Expand <guilabel>Forge</guilabel>, select <guilabel>Forge Console</guilabel> and click <guibutton>OK</guibutton>. Alternatively, press <keycap>Ctrl+4</keycap>, at which you are prompted whether you also want to start Forge. Irrespective of your response to starting Forge, the <guilabel>Forge Console</guilabel> tab opens.
-			</para>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22829-543145+%5BLatest%5D&amp;cf_build_id=22829-543145+03+Oct+2013+15%3A53+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+the+Forge+Console%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Manage_the_Forge_Runtime_Server" remap="TID_22819">
@@ -197,9 +185,6 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22819-544560+%5BLatest%5D&amp;cf_build_id=22819-544560+09+Oct+2013+10%3A19+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+the+Forge+Runtime+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Navigate_to_Project_Resources_on_the_Forge_Command_Line" remap="TID_22822">
 			<sectioninfo>
@@ -249,9 +234,6 @@
 					</textobject>
 				</mediaobject>
 			</figure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22822-543149+%5BLatest%5D&amp;cf_build_id=22822-543149+03+Oct+2013+15%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Navigate+to+Project+Resources+on+the+Forge+Command+Line%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Background_Actions_Invoked_by_Forge_Commands" remap="TID_22827">
 			<sectioninfo>
@@ -327,9 +309,6 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22827-544561+%5BLatest%5D&amp;cf_build_id=22827-544561+09+Oct+2013+10%3A20+en-US+%5BLatest%5D&amp;comment=Title%3A+Background+Actions+Invoked+by+Forge+Commands%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Access_a_List_of_Forge_Commands" remap="TID_22825">
 			<sectioninfo>
@@ -357,9 +336,6 @@
 					</textobject>
 				</mediaobject>
 			</figure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22825-543150+%5BLatest%5D&amp;cf_build_id=22825-543150+03+Oct+2013+15%3A57+en-US+%5BLatest%5D&amp;comment=Title%3A+Access+a+List+of+Forge+Commands%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Use_Forge_Wizards" remap="TID_22823">
 			<sectioninfo>
@@ -413,9 +389,6 @@
 					</textobject>
 				</mediaobject>
 			</figure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22823-544562+%5BLatest%5D&amp;cf_build_id=22823-544562+09+Oct+2013+10%3A20+en-US+%5BLatest%5D&amp;comment=Title%3A+Use+Forge+Wizards%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 	</section>
 	<section id="sect-Customizing_Forge_Tools">
@@ -444,9 +417,6 @@
 					</para>
 				</listitem>
 			</itemizedlist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22818-542941+%5BLatest%5D&amp;cf_build_id=22818-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Customize_the_Forge_Start" remap="TID_22820">
 			<sectioninfo>
@@ -502,9 +472,6 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22820-544563+%5BLatest%5D&amp;cf_build_id=22820-544563+09+Oct+2013+10%3A21+en-US+%5BLatest%5D&amp;comment=Title%3A+Customize+the+Forge+Start%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Manage_Forge_Runtime_Servers" remap="TID_22828">
 			<sectioninfo>
@@ -559,9 +526,6 @@
 					It is not possible to edit or delete the Forge runtime server that is distributed with Forge Tools. Additionally, it is not possible to delete a Forge runtime server that is selected as the default. You must first select a different runtime server as the default.
 				</para>
 			</important>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22828-543156+%5BLatest%5D&amp;cf_build_id=22828-543156+03+Oct+2013+16%3A00+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+Forge+Runtime+Servers%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 	</section>
 </chapter>

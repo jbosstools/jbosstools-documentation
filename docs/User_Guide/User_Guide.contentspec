@@ -21,7 +21,7 @@ publican.cfg = [show_remarks: 1]
 Revision History = [22789]
 # Indentation is meaningful. Use 2 spaces.
 
-[JBDS 7.1.z, JBDS User Guide, condition = jbds]
+[condition = jbds]
 Chapter: Introduction to Red Hat JBoss Developer Studio
   About Red Hat JBoss Developer Studio [22589]
   Use Cases of JBoss Developer Studio [22588]
@@ -82,6 +82,11 @@ Part: Tools for Every Project
       Customizing Overview [22818]
       Customize the Forge Start [22820]
       Manage Forge Runtime Servers [22828]
+
+  Chapter: Maven Tools
+    Section: Overview of Maven Tools
+      About Maven [24024]
+      About Maven Tools [24023]
 
 Part: Tools for Creating Web Interfaces
   Chapter: LiveReload Tools

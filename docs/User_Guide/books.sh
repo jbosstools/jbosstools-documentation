@@ -24,7 +24,7 @@ function pubmake {
 	
 	#make publican version
 	echo '[INFO] Making publican version'
-	csprocessor build 22443 --flatten
+	csprocessor build 22443 --flatten --hide-bug-links
 	unzip User_Guide.zip
 	rm User_Guide.zip	
 	sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' User_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' User_Guide/en-US/Author_Group.xml

@@ -39,9 +39,6 @@
 					</para>
 				</listitem>
 			</itemizedlist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22839-542941+%5BLatest%5D&amp;cf_build_id=22839-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+Mobile+Web+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 	</section>
 	<section id="sect-Features_of_Mobile_Web_Tools">
@@ -81,9 +78,6 @@
 				</listitem>
 			</itemizedlist>
 			<!--<para><remark>[DOCS] Watching JBIDE-14732: show/hide preview in widget wizard; JBIDE-14591: properties tab; JBIDE-14758: Help button action in widget wizards; JBIDE-15153: duplicate wizards in JBoss central; JBIDE-14909: warning when WFK maven repo required; JBIDE-15152: rename or split jQuery Mobile palette</remark></para> -->
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22841-542941+%5BLatest%5D&amp;cf_build_id=22841-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Create_a_Mobile_Web_Project" remap="TID_22840">
 			<sectioninfo>
@@ -240,9 +234,6 @@
 					</para>
 				</step>
 			</procedure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22840-543206+%5BLatest%5D&amp;cf_build_id=22840-543206+03+Oct+2013+16%3A19+en-US+%5BLatest%5D&amp;comment=Title%3A+Create+a+Mobile+Web+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Use_a_HTML5_jQuery_Mobile_File_Template" remap="TID_22843">
 			<sectioninfo>
@@ -316,9 +307,6 @@
 					</para>
 				</step>
 			</procedure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22843-543207+%5BLatest%5D&amp;cf_build_id=22843-543207+03+Oct+2013+16%3A20+en-US+%5BLatest%5D&amp;comment=Title%3A+Use+a+HTML5+jQuery+Mobile+File+Template%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Access_the_jQuery_Mobile_Palette" remap="TID_22847">
 			<sectioninfo>
@@ -356,9 +344,6 @@
 			</para>
 			<para>
 				To search for a palette element within the jQuery Mobile palette, in the search field type a search term or phrase. The elements displayed in the jQuery Mobile palette are filtered as you type in the search field.
-			</para>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22847-543208+%5BLatest%5D&amp;cf_build_id=22847-543208+03+Oct+2013+16%3A20+en-US+%5BLatest%5D&amp;comment=Title%3A+Access+the+jQuery+Mobile+Palette%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Insert_a_jQuery_Mobile_Palette_Widget_into_a_HTML5_File" remap="TID_22845">
@@ -416,9 +401,6 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22845-544568+%5BLatest%5D&amp;cf_build_id=22845-544568+09+Oct+2013+10%3A28+en-US+%5BLatest%5D&amp;comment=Title%3A+Insert+a+jQuery+Mobile+Palette+Widget+into+a+HTML5+File%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Get_Assistance_with_jQuery_Mobile_Programming" remap="TID_22838">
 			<sectioninfo>
@@ -460,9 +442,6 @@
 					</textobject>
 				</mediaobject>
 			</figure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22838-543213+%5BLatest%5D&amp;cf_build_id=22838-543213+03+Oct+2013+16%3A22+en-US+%5BLatest%5D&amp;comment=Title%3A+Get+Assistance+with+jQuery+Mobile+Programming%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="View_jQuery_Mobile_Pages_in_a_Browser" remap="TID_22844">
 			<sectioninfo>
@@ -502,9 +481,6 @@
 					</textobject>
 				</mediaobject>
 			</figure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22844-543215+%5BLatest%5D&amp;cf_build_id=22844-543215+03+Oct+2013+16%3A23+en-US+%5BLatest%5D&amp;comment=Title%3A+View+jQuery+Mobile+Pages+in+a+Browser%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 	</section>
 	<section id="sect-Customizing_Mobile_Web_Tools">
@@ -528,9 +504,6 @@
 					</para>
 				</listitem>
 			</itemizedlist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22842-542941+%5BLatest%5D&amp;cf_build_id=22842-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Customize_jQuery_Mobile_File_Templates" remap="TID_22846">
 			<sectioninfo>
@@ -604,9 +577,6 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22846-544567+%5BLatest%5D&amp;cf_build_id=22846-544567+09+Oct+2013+10%3A25+en-US+%5BLatest%5D&amp;comment=Title%3A+Customize+jQuery+Mobile+File+Templates%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 	</section>
 </chapter>

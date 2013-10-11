@@ -31,9 +31,6 @@
 			<para>
 				JBoss Server Tools actions enable you to customize based on application server type, such as default filesets added to new servers and classpath filesets. You can also customize the default server used for IDE actions such as 'Run on Server'.
 			</para>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22806-542941+%5BLatest%5D&amp;cf_build_id=22806-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+About+JBoss+Server+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 	</section>
 	<section id="sect-Features_of_JBoss_Server_Tools">
@@ -67,9 +64,6 @@
 					</para>
 				</listitem>
 			</itemizedlist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22815-542941+%5BLatest%5D&amp;cf_build_id=22815-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Define_a_Local_Server_with_Runtime_Detection" remap="TID_22808">
 			<sectioninfo>
@@ -179,9 +173,6 @@
 					Alternatively, you can manually define servers by using the IDE server functions to create a server runtime environment and then to create a server adapter.
 				</para>
 			</note>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22808-543080+%5BLatest%5D&amp;cf_build_id=22808-543080+03+Oct+2013+13%3A37+en-US+%5BLatest%5D&amp;comment=Title%3A+Define+a+Local+Server+with+Runtime+Detection%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Create_an_Additional_Server_Runtime_Environment" remap="TID_22810">
 			<sectioninfo>
@@ -302,9 +293,6 @@
 					Alternatively, you can create server runtime environments with the wizard for creating new servers in the <guilabel>Servers</guilabel> tab or with the <guilabel>Start from scratch</guilabel> and <guilabel>Start from a sample</guilabel> wizards in the <guilabel>JBoss Central</guilabel> tab.
 				</para>
 			</note>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22810-543082+%5BLatest%5D&amp;cf_build_id=22810-543082+03+Oct+2013+13%3A41+en-US+%5BLatest%5D&amp;comment=Title%3A+Create+an+Additional+Server+Runtime+Environment%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Define_an_Additional_Local_Server" remap="TID_22813">
 			<sectioninfo>
@@ -456,9 +444,6 @@
 					You can create multiple servers that use the same application server. But a warning is displayed if you try to simultaneously run more than one server on the same host. This is because multiple running servers on the same host can result in port conflicts.
 				</para>
 			</important>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22813-543084+%5BLatest%5D&amp;cf_build_id=22813-543084+03+Oct+2013+13%3A44+en-US+%5BLatest%5D&amp;comment=Title%3A+Define+an+Additional+Local+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Define_a_Remote_Server" remap="TID_22817">
 			<sectioninfo>
@@ -622,9 +607,6 @@
 					</para>
 				</step>
 			</procedure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22817-543086+%5BLatest%5D&amp;cf_build_id=22817-543086+03+Oct+2013+13%3A47+en-US+%5BLatest%5D&amp;comment=Title%3A+Define+a+Remote+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Manage_Server_Settings" remap="TID_22809">
 			<sectioninfo>
@@ -668,9 +650,6 @@
 			</figure>
 			<para>
 				To open the JBoss Server Editor for a specific server, in the <guilabel>Servers</guilabel> tab double-click the server. All changes to the settings of a server must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>. You may be required to enter the server management password when making changes to certain settings.<!--http://docs.jboss.org/tools/whatsnew/as/as-news-4.0.0.Beta1.html-->
-			</para>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22809-543087+%5BLatest%5D&amp;cf_build_id=22809-543087+03+Oct+2013+13%3A51+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+Server+Settings%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Manage_Server_Settings_in_Overview_Mode" remap="TID_22807">
@@ -943,9 +922,6 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22807-543088+%5BLatest%5D&amp;cf_build_id=22807-543088+03+Oct+2013+14%3A00+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+Server+Settings+in+Overview+Mode%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Manage_Server_Settings_in_Deployment_Mode" remap="TID_22812">
 			<sectioninfo>
@@ -1035,9 +1011,6 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22812-543089+%5BLatest%5D&amp;cf_build_id=22812-543089+03+Oct+2013+14%3A02+en-US+%5BLatest%5D&amp;comment=Title%3A+Manage+Server+Settings+in+Deployment+Mode%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 	</section>
 	<section id="sect-Customizing_JBoss_Server_Tools">
@@ -1076,9 +1049,6 @@
 					</para>
 				</listitem>
 			</itemizedlist>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22814-542941+%5BLatest%5D&amp;cf_build_id=22814-542941+03+Oct+2013+11%3A56+en-US+%5BLatest%5D&amp;comment=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Enable_Runtime_Detection_on_IDE_Start" remap="TID_22816">
 			<sectioninfo>
@@ -1106,9 +1076,6 @@
 					</textobject>
 				</mediaobject>
 			</figure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22816-543090+%5BLatest%5D&amp;cf_build_id=22816-543090+03+Oct+2013+14%3A03+en-US+%5BLatest%5D&amp;comment=Title%3A+Enable+Runtime+Detection+on+IDE+Start%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Set_a_Default_Server" remap="TID_22811">
 			<sectioninfo>
@@ -1141,9 +1108,6 @@
 					</textobject>
 				</mediaobject>
 			</figure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22811-543092+%5BLatest%5D&amp;cf_build_id=22811-543092+03+Oct+2013+14%3A06+en-US+%5BLatest%5D&amp;comment=Title%3A+Set+a+Default+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Default_Filesets" remap="TID_22805">
 			<sectioninfo>
@@ -1196,9 +1160,6 @@
 					</textobject>
 				</mediaobject>
 			</figure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22805-543093+%5BLatest%5D&amp;cf_build_id=22805-543093+03+Oct+2013+14%3A08+en-US+%5BLatest%5D&amp;comment=Title%3A+Default+Filesets%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 		<section id="Default_Classpath_Entries" remap="TID_22804">
 			<sectioninfo>
@@ -1227,9 +1188,6 @@
 					</textobject>
 				</mediaobject>
 			</figure>
-			<para role="RoleCreateBugPara">
-				<ulink url="https://bugzilla.redhat.com/enter_bug.cgi?cf_environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-10-2013+15%3A49%3A43%0ATopic+ID%3A+22804-543094+%5BLatest%5D&amp;cf_build_id=22804-543094+03+Oct+2013+14%3A10+en-US+%5BLatest%5D&amp;comment=Title%3A+Default+Classpath+Entries%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;assigned_to=mmurray%40redhat.com">Report a bug</ulink>
-			</para>
 		</section>
 	</section>
 </chapter>
