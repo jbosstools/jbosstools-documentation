@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "User_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Maven_Tools">
+	<title>Maven Tools</title>
+	<section id="sect-Overview_of_Maven_Tools">
+		<title>Overview of Maven Tools</title>
+		<section id="About_Maven1" remap="TID_24024">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>About Maven</title>
+			<para>
+				Maven is a tool for building and managing software projects. It consists of actions for configuring and building Maven projects and for generating new projects from Maven archetypes.
+			</para>
+			<para>
+				Maven projects are projects that are configured to be built with Maven. Configuration details for each Maven project are based on Project Object Model (POM) and contained in a <filename>pom.xml</filename> file. This file specifies information such as the project's name, dependencies on other projects, and build details. By configuring projects to be built with Maven, the build process is made easier and a uniform build system can be implemented across projects. Further, Maven can build output into a number of predefined types, such as JAR and WAR, removing the need for additional build processing.
+			</para>
+			<para>
+				Maven archetypes are project templates, from which to develop Maven projects. Archetypes can be templates of project segments or complete projects. They provide an entry point for new users through sample projects and speed up the development process for all users while promoting consistency.
+			</para>
+			<para>
+				When building projects and archetypes, Maven dynamically retrieves Java libraries and Maven plug-ins from local repositories or downloads from remote repositories. This promotes sharing and reuse of dependencies across projects.
+			</para>
+			<para>
+				Maven and Maven support is provided in Eclipse through plug-ins. The primary Maven plug-in is m2e which provides Java support, dependency management, a POM editor and a platform for plug-ins extending and interfacing with Maven. Another core Maven plug-in is m2e-wtp which acts as a bridge between m2e and Eclipse WTP, enabling easy configuration of JavaEE projects.
+			</para>
+		</section>
+		<section id="About_Maven_Tools" remap="TID_24023">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>About Maven Tools</title>
+			<para>
+				Maven Tools is tooling for working with Maven projects and archetypes in the IDE. It extends the existing Maven functionality provided by Eclipse, with a focus on simplified and automated actions for working with Maven.
+			</para>
+			<para>
+				Maven Tools consists of unique user interfaces for managing Maven Profiles. Profiles can be created and managed at an IDE level through JBoss Maven Integration within Preferences. Further, Maven Tools enables simplified selection of Maven profiles at a project level.
+			</para>
+			<para>
+				Maven Tools has actions for working with various types of Maven projects and archetypes. For projects using Java, Maven Tools converts Java dependencies to Maven dependencies and provides support for endorsed libraries and annotation processing. For projects using JBoss technologies, Maven Tools provides quick fixes for missing JBoss dependencies and configurators for JBoss and third-party technologies. Additionally, Maven Tools gives access to Maven-based library providers for dynamic web projects using JavaServer Faces, Hibernate and JBoss Portlet.
+			</para>
+		</section>
+	</section>
+</chapter>
