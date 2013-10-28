@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../whatsnew.css" />
+<title>OpenShift Tools 2.5.1.Beta1 What's New</title>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-17645367-5' ]);
+	_gaq.push([ '_trackPageview' ]);
+
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<style type="text/css">
+.border {
+	border-collapse:collapse;
+	border-style:none;
+	border:1px dotted #ccc;
+}
+</style>
+</head>
+<body>
+	<h1>OpenShift 2.5.1.Beta1 What's New</h1>
+	<p align="right">
+		<a href="../maven/maven-news-4.1.1.Beta1.html">&lt; Maven Tools</a>
+		<a href="../as/as-news-4.1.1.Beta1.html">Server Tools &gt;</a>
+	</p>
+	<table border="0" cellpadding="10" cellspacing="0" width="80%">
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Application Wizard</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Multiple Domains</b></td>
+			<td valign="top" align="left">
+				OpenShift now allows you to have several domains. You may own multiple domains if you are on Silver Plan.
+				But it's also possible to get access to other peoples domains. 
+				JBoss Tools now supports these setups and lets you choose the domain you're creating an application for.
+				<p>
+					<img src="images/application-wizard-manage-domain.png"/>
+				</p>
+				The OpenShift Explorer now shows a domain-node.
+				<p>
+					<img src="images/multi-domain-in-explorer.png"/>
+				</p>
+				And we offer you a wizard to create, rename and delete your domains.
+				<p>
+					<img src="images/domain-wizard.png"/>
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-12574">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Environment Variables</b></td>
+			<td valign="top" align="left">
+				Environment varibales in OpenShift allow you to easily customize your application at runtime. 
+				JBoss Tools allows you to provide environment variables when creating an application.
+				<p>
+					<img src="images/application-wizard-env-variables.png" />
+				</p>
+				<p>
+					<img src="images/environment-variables-wizard.png" />
+				</p> 
+				Existing applications may also have their environment variables modified.
+				<p>
+					<img src="images/edit-environment-variables.png" />
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-15597">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Tail Files</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Tail files for scaled applications</b></td>
+			<td valign="top" align="left">
+				In Beta1 we now allow you to inspect the log files on all gears of a scalable application. 
+				When executing "Tail Files..." we'll show you the number of gears that an application is running on.
+				<p>
+					<img src="images/tail-log-files-multiple-gears.png" />
+				</p>
+				We'll then open a separate console for each of them and allow you to inspect all logs.
+				<p>
+					<img src="images/multiple-consoles.png" />
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-15484">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Embedding Cartridges</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Warn on incompatible cartridges</b></td>
+			<td valign="top" align="left">
+			<td>
+				In Beta1 we start to warn you when you try to embed an incompatible cartridge. 
+				We'll prmpt you with a warning that the non-scalable phpmyadmin cartridge cannot get added to a scalable application.
+				<p>
+					<img src="imges/adding-phpmyadmin-to-scaling.png" />
+				</p>  
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
