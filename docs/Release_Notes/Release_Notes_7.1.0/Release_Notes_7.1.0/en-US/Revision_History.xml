@@ -8,14 +8,14 @@
 	<simpara>
 		<revhistory>
 			<revision>
-				<revnumber>7.1.0-1</revnumber><date>Wed Oct 09 2013</date>
+				<revnumber>7.1.0-1</revnumber><date>Fri Nov 01 2013</date>
 				<author>
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
 					<simplelist>
 						<member>
-							First draft
+							Generated for Beta1 release
 						</member>
 					</simplelist>
 				</revdescription>
