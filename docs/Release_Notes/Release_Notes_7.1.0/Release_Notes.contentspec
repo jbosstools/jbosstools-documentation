@@ -18,10 +18,18 @@ Type = Article
 # BZComponent =
 # BZVersion =
 # BZURL =
+Bug Links = Jira
+JIRAServer = https://issues.jboss.org/
+JIRAProject = TOOLSDOC
+JIRAComponent = Installation Guide
+# JIRAVersion = 4.1.1
+# JIRALabels =
 # Output Style =
+Feedback = [23618]
 Revision History = [24019]
 # Indentation is meaningful. Use 2 spaces.
 
+[condition = jbds]
 Section: Introduction to Red Hat JBoss Developer Studio
   About Red Hat JBoss Developer Studio [22589]
   Use Cases of JBoss Developer Studio [22588]
