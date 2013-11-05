@@ -21,52 +21,55 @@
 				Red&nbsp;Hat&nbsp;JBoss&nbsp;Developer&nbsp;Studio is a set of Eclipse-based development tools. It contains plug-ins that integrate with Eclipse to extend the existing functionality of the integrated development environment (IDE).
 			</para>
 			<para>
-				JBoss&nbsp;Developer&nbsp;Studio is designed to increase your productivity when developing applications. You can focus on building, testing and deploying your applications because JBoss application development tools are integrated in one IDE. Furthermore, JBoss&nbsp;Developer&nbsp;Studio has many unique features to assist your application development: 
+				JBoss&nbsp;Developer&nbsp;Studio is designed to increase your productivity when developing applications. You can focus on building, testing and deploying your applications because JBoss application development tools are integrated in one IDE. Furthermore, JBoss&nbsp;Developer&nbsp;Studio can assist your application development with its unique features in the following ways: 
 				<itemizedlist>
 					<listitem>
 						<para>
-							Develop new applications using the wizards and project examples of JBoss Central.
+							Develop new applications using the wizards and project examples of JBoss Central
 						</para>
 					</listitem>
 					<listitem>
 						<para>
-							Add powerful functionality to applications with minimal effort using Forge Tools.
+							Add powerful functionality to applications with minimal effort using Forge Tools
 						</para>
 					</listitem>
 					<listitem>
 						<para>
-							Build web interfaces with ease using the visual editing and drag-and-drop utilities of Visual Web Tools and Mobile Web Tools.
+							Build web interfaces with ease using the visual editing and drag-and-drop utilities of Visual Web Tools and Mobile Web Tools
 						</para>
 					</listitem>
 					<listitem>
 						<para>
-							Experience browsers automatically refreshing in response to modified application resources with LiveReload Tools.
+							Experience browsers automatically refreshing in response to modified application resources with LiveReload Tools
 						</para>
 					</listitem>
 					<listitem>
 						<para>
-							Incorporate JSF, Seam, JAX-RS, Hibernate, CDI and other popular APIs into applications with simplicity using the tool-driven interface.
+							Incorporate JSF, Seam, JAX-RS, Hibernate, CDI and other popular APIs into applications with simplicity using the tool-driven interface
 						</para>
 					</listitem>
 					<listitem>
 						<para>
-							Preview and test mobile web applications on a variety of simulation mobile devices using BrowserSim.
+							Preview and test mobile web applications on a variety of simulation mobile devices using BrowserSim
 						</para>
 					</listitem>
 					<listitem>
 						<para>
-							Create, build and test Cordova-based hybrid mobile applications for iOS and Android platforms using Hybrid Mobile Tools and CordovaSim.
+							Create, build and test Cordova-based hybrid mobile applications for iOS and Android platforms using Hybrid Mobile Tools and CordovaSim
 						</para>
 					</listitem>
 					<listitem>
 						<para>
-							Deploy applications to JBoss runtime servers and the cloud using JBoss Server Tools and OpenShift Tools.
+							Deploy applications to JBoss runtime servers and the cloud using JBoss Server Tools and OpenShift Tools
 						</para>
 					</listitem>
 				</itemizedlist>
 			</para>
 			<para>
 				JBoss&nbsp;Developer&nbsp;Studio comes built around Eclipse and packaged with all of the necessary dependencies and third-party plug-ins for simplified installing. For developers already running Eclipse, JBoss&nbsp;Developer&nbsp;Studio can also be installed through Eclipse Marketplace. For distinction, this latter JBoss&nbsp;Developer&nbsp;Studio installation is called JBoss&nbsp;Developer&nbsp;Studio BYOE (Bring Your Own Eclipse).
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22485%2C+Release+Notes+7.1.0-7.1-7.1.0%0ABuild+Date%3A+05-11-2013+10%3A20%3A21%0ATopic+ID%3A+22589-550554+%5BLatest%5D&amp;description=Title%3A+About+Red+Hat+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317365">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Use_Cases_of_JBoss_Developer_Studio1" remap="TID_22588">
@@ -127,6 +130,9 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22485%2C+Release+Notes+7.1.0-7.1-7.1.0%0ABuild+Date%3A+05-11-2013+10%3A20%3A21%0ATopic+ID%3A+22588-550178+%5BLatest%5D&amp;description=Title%3A+Use+Cases+of+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317365">Report a bug</ulink>
+			</para>
 		</section>
 	</section>
 	<section id="About_this_Release" remap="TID_24015">
@@ -161,6 +167,9 @@
 		</itemizedlist>
 		<para>
 			For information about operating systems, chip architectures and Java developer kits supported by this release, see <ulink url="https://access.redhat.com/site/articles/427493"/> on the Red&nbsp;Hat Customer Portal.
+		</para>
+		<para role="RoleCreateBugPara">
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22485%2C+Release+Notes+7.1.0-7.1-7.1.0%0ABuild+Date%3A+05-11-2013+10%3A20%3A21%0ATopic+ID%3A+24015-550179+%5BLatest%5D&amp;description=Title%3A+About+this+Release%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317365">Report a bug</ulink>
 		</para>
 	</section>
 	<section id="New_Features6" remap="TID_24020">
@@ -338,6 +347,9 @@
 				</listitem>
 			</varlistentry>
 		</variablelist>
+		<para role="RoleCreateBugPara">
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22485%2C+Release+Notes+7.1.0-7.1-7.1.0%0ABuild+Date%3A+05-11-2013+10%3A20%3A21%0ATopic+ID%3A+24020-550186+%5BLatest%5D&amp;description=Title%3A+New+Features%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317365">Report a bug</ulink>
+		</para>
 	</section>
 	<section id="Resolved_Issues4" remap="TID_24018">
 		<sectioninfo>
@@ -354,6 +366,9 @@
 			<!-- 7.0.1 query
 		<screen>(project in (JBIDE) AND affectedVersion in ("4.1.0.Final") AND fixVersion = "4.1.0.1.Final" OR project in (JBDS) AND affectedVersion in ("7.0.0.GA") AND fixVersion = "7.0.1.GA") AND type in (Bug) AND resolution in (Done)</screen> -->
 		</para>
+		<para role="RoleCreateBugPara">
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22485%2C+Release+Notes+7.1.0-7.1-7.1.0%0ABuild+Date%3A+05-11-2013+10%3A20%3A21%0ATopic+ID%3A+24018-549260+%5BLatest%5D&amp;description=Title%3A+Resolved+Issues%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317365">Report a bug</ulink>
+		</para>
 	</section>
 	<section id="Known_Issues11" remap="TID_24017">
 		<sectioninfo>
@@ -369,6 +384,9 @@
 			<screen>(project in (JBDS) AND affectedVersion &gt;= "7.0.0.GA" AND affectedVersion &lt;= "7.1.0.Beta1" AND (resolution in (Unresolved) OR resolution in (Done) AND fixVersion &gt; "7.1.0.Beta1") OR project in (JBIDE) AND affectedVersion &gt;= "4.1.0.Final" AND affectedVersion &lt;= "4.1.1.Beta1" AND (resolution in (Unresolved) OR resolution in (Done) AND fixVersion &gt; "4.1.1.Beta1")) AND type in (Bug)</screen>
 			<!-- 7.0.1 query
 		<screen>(project in (JBDS) AND (affectedVersion in ("7.0.0.GA", "7.0.1.GA") AND resolution in (Unresolved) OR affectedVersion in ("7.0.0.GA", "7.0.1.GA") AND resolution in (Done) AND fixVersion > "7.0.1.GA") OR project in (JBIDE) AND (affectedVersion in ("4.1.0.Final", "4.1.0.1.Final") AND resolution in (Unresolved) OR affectedVersion in ("4.1.0.Final", "4.1.0.1.Final") AND resolution in (Done) AND fixVersion > "4.1.0.1.Final")) AND type in (Bug)</screen> --> The query results correspond to reported issues but the issues may not yet have been confirmed by the product team.
+		</para>
+		<para role="RoleCreateBugPara">
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22485%2C+Release+Notes+7.1.0-7.1-7.1.0%0ABuild+Date%3A+05-11-2013+10%3A20%3A21%0ATopic+ID%3A+24017-549255+%5BLatest%5D&amp;description=Title%3A+Known+Issues%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317365">Report a bug</ulink>
 		</para>
 	</section>
 	<section id="Apply_this_Release" remap="TID_24016">
@@ -399,6 +417,9 @@
 					</para>
 				</listitem>
 			</itemizedlist> In all cases, for more information see the Red&nbsp;Hat JBoss&nbsp;Developer&nbsp;Studio 7.1 Installation Guide.
+		</para>
+		<para role="RoleCreateBugPara">
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22485%2C+Release+Notes+7.1.0-7.1-7.1.0%0ABuild+Date%3A+05-11-2013+10%3A20%3A21%0ATopic+ID%3A+24016-549192+%5BLatest%5D&amp;description=Title%3A+Apply+this+Release%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317365">Report a bug</ulink>
 		</para>
 	</section>
 	<xi:include href="Revision_History.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
