@@ -21,46 +21,46 @@
 				Red&nbsp;Hat&nbsp;JBoss&nbsp;Developer&nbsp;Studio is a set of Eclipse-based development tools. It contains plug-ins that integrate with Eclipse to extend the existing functionality of the integrated development environment (IDE).
 			</para>
 			<para>
-				JBoss&nbsp;Developer&nbsp;Studio is designed to increase your productivity when developing applications. You can focus on building, testing and deploying your applications because JBoss application development tools are integrated in one IDE. Furthermore, JBoss&nbsp;Developer&nbsp;Studio has many unique features to assist your application development: 
+				JBoss&nbsp;Developer&nbsp;Studio is designed to increase your productivity when developing applications. You can focus on building, testing and deploying your applications because JBoss application development tools are integrated in one IDE. Furthermore, JBoss&nbsp;Developer&nbsp;Studio can assist your application development with its unique features in the following ways: 
 				<itemizedlist>
 					<listitem>
 						<para>
-							Develop new applications using the wizards and project examples of JBoss Central.
+							Develop new applications using the wizards and project examples of JBoss Central
 						</para>
 					</listitem>
 					<listitem>
 						<para>
-							Add powerful functionality to applications with minimal effort using Forge Tools.
+							Add powerful functionality to applications with minimal effort using Forge Tools
 						</para>
 					</listitem>
 					<listitem>
 						<para>
-							Build web interfaces with ease using the visual editing and drag-and-drop utilities of Visual Web Tools and Mobile Web Tools.
+							Build web interfaces with ease using the visual editing and drag-and-drop utilities of Visual Web Tools and Mobile Web Tools
 						</para>
 					</listitem>
 					<listitem>
 						<para>
-							Experience browsers automatically refreshing in response to modified application resources with LiveReload Tools.
+							Experience browsers automatically refreshing in response to modified application resources with LiveReload Tools
 						</para>
 					</listitem>
 					<listitem>
 						<para>
-							Incorporate JSF, Seam, JAX-RS, Hibernate, CDI and other popular APIs into applications with simplicity using the tool-driven interface.
+							Incorporate JSF, Seam, JAX-RS, Hibernate, CDI and other popular APIs into applications with simplicity using the tool-driven interface
 						</para>
 					</listitem>
 					<listitem>
 						<para>
-							Preview and test mobile web applications on a variety of simulation mobile devices using BrowserSim.
+							Preview and test mobile web applications on a variety of simulation mobile devices using BrowserSim
 						</para>
 					</listitem>
 					<listitem>
 						<para>
-							Create, build and test Cordova-based hybrid mobile applications for iOS and Android platforms using Hybrid Mobile Tools and CordovaSim.
+							Create, build and test Cordova-based hybrid mobile applications for iOS and Android platforms using Hybrid Mobile Tools and CordovaSim
 						</para>
 					</listitem>
 					<listitem>
 						<para>
-							Deploy applications to JBoss runtime servers and the cloud using JBoss Server Tools and OpenShift Tools.
+							Deploy applications to JBoss runtime servers and the cloud using JBoss Server Tools and OpenShift Tools
 						</para>
 					</listitem>
 				</itemizedlist>
