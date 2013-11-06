@@ -8,6 +8,32 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.1.0-3</revnumber><date>Tue Nov 05 2013</date>
+				<author>
+					<firstname>Michelle</firstname><surname>Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-414: Screen captures updated
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>7.1.0-2</revnumber><date>Tue Nov 05 2013</date>
+				<author>
+					<firstname>Michelle</firstname><surname>Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-413: JIRA links added for bug reporting
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>7.1.0-1</revnumber><date>Wed Oct 09 2013</date>
 				<author>
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>

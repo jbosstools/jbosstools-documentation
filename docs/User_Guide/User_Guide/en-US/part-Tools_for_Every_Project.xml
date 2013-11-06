@@ -8,5 +8,4 @@
 	<xi:include href="chap-JBoss_Central_and_the_JBoss_Perspective.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="chap-JBoss_Server_Tools.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="chap-Forge_Tools.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="chap-Maven_Tools.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </part>

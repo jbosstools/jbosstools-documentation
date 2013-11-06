@@ -17,9 +17,17 @@ publican.cfg = [show_remarks: 1]
 # BZComponent =
 # BZVersion =
 # BZURL =
+Bug Links = Jira
+JIRAServer = https://issues.jboss.org/
+JIRAProject = TOOLSDOC
+JIRAComponent = User Guide
+# JIRAVersion = 4.1.1
+# JIRALabels =
 # Output Style =
+Feedback = [23618]
 Revision History = [22789]
 # Indentation is meaningful. Use 2 spaces.
+#[Writer=mmurray, JBDS User Guide, JBDS 7.1.z]
 
 [condition = jbds]
 Chapter: Introduction to Red Hat JBoss Developer Studio
@@ -56,9 +64,9 @@ Part: Tools for Every Project
       Create an Additional Server Runtime Environment [22810]
       Define an Additional Local Server [22813]
       Define a Remote Server [22817]
-      Manage Server Settings [22809]
-      Manage Server Settings in Overview Mode [22807]
-      Manage Server Settings in Deployment Mode [22812]
+      Section: Manage Server Settings [22809]
+        Manage Server Settings in Overview Mode [22807]
+        Manage Server Settings in Deployment Mode [22812]
     Section: Customizing JBoss Server Tools
       Customizing Overview [22814]
       Enable Runtime Detection on IDE Start [22816]
@@ -82,11 +90,10 @@ Part: Tools for Every Project
       Customizing Overview [22818]
       Customize the Forge Start [22820]
       Manage Forge Runtime Servers [22828]
-
-  Chapter: Maven Tools
-    Section: Overview of Maven Tools
-      About Maven [24024]
-      About Maven Tools [24023]
+#  Chapter: Maven Tools
+#    Section: Overview of Maven Tools
+#      About Maven [24024]
+#      About Maven Tools [24023]
 
 Part: Tools for Creating Web Interfaces
   Chapter: LiveReload Tools
@@ -139,6 +146,32 @@ Part: Tools for Creating Mobile Applications
       Change the Default LiveReload Port [22854]
       Change the Default Location for Saved Screen Captures [22861]
       Change the Default Settings for Weinre [22853]
+#  Chapter: Hybrid Mobile Tools and CordovaSim (Technology Preview)
+#    Technology Preview [23368]
+#    Section: Overview of Hybrid Mobile Tools and CordovaSim
+##      About AeroGear [24052]
+#      About Apache Cordova [24055]
+#      About Hybrid Mobile Tools [24051]
+#      About CordovaSim [24054]
+#      System Requirements for Hybrid Mobile Tools [24119]
+#      System Requirements for CordovaSim [24056]
+#      Install Hybrid Mobile Tools and CordovaSim [24053]
+#    Section: Features of Hybrid Mobile Tools and CordovaSim
+#      Features Overview [24381]
+#      Create a Hybrid Mobile Project [24058]
+#      Enable Cordova Plug-ins for an Application [24151]
+#        [Refer-to:
+#          Manage Cordova Settings in Platform Properties Mode [24297]]
+#      Section: Manage Cordova Settings of a Hybrid Mobile Project [24059]
+#        Manage Cordova Settings in Overview Mode [24298]
+#        Manage Cordova Settings in Platform Properties Mode [24297]
+#        Manage Cordova Settings in Icons &amp; Splash Screen Mode [24299]
+#      Run a Hybrid Mobile Application on Android Devices and Platform Emulators [24062]
+#        [Refer-to:
+#          System Requirements for Hybrid Mobile Tools [24119]]
+#      Use CordovaSim [24063]
+#      Manage Hybrid Mobile Project Run Configurations [24169]
+#      Export a Hybrid Mobile Project [24325]
 
 Part: Tools for Deployment and Maintenance
   Chapter: OpenShift Tools

@@ -21,11 +21,18 @@ publican.cfg = [show_remarks: 1]
 # BZComponent =
 # BZVersion =
 # BZURL =
+Bug Links = Jira
+JIRAServer = https://issues.jboss.org/
+JIRAProject = TOOLSDOC
+JIRAComponent = Getting Started Guide
+# JIRAVersion = 4.1.1
+# JIRALabels =
 # Output Style =
+Feedback = [23618]
 Revision History = [22621]
 # Indentation is meaningful. Use 2 spaces.
 
-[condition = gsg]
+[condition = jbds|gsg]
 Chapter: Introduction to Red Hat JBoss Developer Studio
   About Red Hat JBoss Developer Studio [22589]
   Use Cases of JBoss Developer Studio [22588]

@@ -538,7 +538,7 @@
 			</procedure>
 			<note>
 				<para>
-					There are restrictions on the name you can use for a domain. Names must consist only of letters and digits and can have a maximum length of 16 characters.
+					There are restrictions on the name you can use for a domain. Names must consist only of alphanumeric characters and can have a maximum length of 16 characters.
 				</para>
 			</note>
 		</section>
@@ -632,7 +632,7 @@
 					</para>
 					<note>
 						<para>
-							There are restrictions on the name you can use for an application. Names must consist only of letters and digits.
+							There are restrictions on the name you can use for an application. Names must consist only of alphanumeric characters.
 						</para>
 					</note>
 					<figure>
@@ -759,7 +759,7 @@
 					</para>
 					<note>
 						<para>
-							There are restrictions on the name you can use for an application. Names must consist only of letters and digits.
+							There are restrictions on the name you can use for an application. Names must consist only of alphanumeric characters.
 						</para>
 					</note>
 				</step>

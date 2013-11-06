@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_User_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "Migration_Guide.ent">
 %BOOK_ENTITIES;
 ]>
 <section id="Getting_Help_and_Giving_Feedback2" remap="TID_23618">
@@ -15,31 +15,29 @@
 	<formalpara>
 		<title>Do You Need Help?</title>
 		<para>
-			If you experience difficulty with a procedure described in this documentation, visit the <phrase>JBoss Tools website at <ulink url="http://www.jboss.org/tools"/></phrase>. Through the <phrase>JBoss Tools website</phrase>, you can:
+			If you experience difficulty with a procedure described in this documentation, visit the <phrase>Red Hat Customer Portal at <ulink url="http://access.redhat.com"/></phrase>. Through the <phrase>customer portal</phrase>, you can:
 		</para>
 	</formalpara>
 	<itemizedlist>
 		<listitem>
 			<para>
-				search or browse through a knowledgebase of technical support articles in the wiki.
+				search or browse through a knowledgebase of technical support articles about Red Hat products.
 			</para>
 		</listitem>
 		<listitem>
 			<para>
-				view video tutorials on how to use the tools.
+				submit a support case to Red Hat Global Support Services (GSS).
 			</para>
 		</listitem>
 		<listitem>
 			<para>
-				participate in discussions in the user forum.
-			</para>
-		</listitem>
-		<listitem>
-			<para>
-				keep up to date with changes via the blog, mailing list and News and Noteworthy web page.
+				access other product documentation.
 			</para>
 		</listitem>
 	</itemizedlist>
+	<para>
+		Red Hat also hosts a large number of electronic mailing lists for discussion of Red Hat software and technology. You can find a list of publicly available mailing lists at <ulink url="https://www.redhat.com/mailman/listinfo"/>. Click on the name of any mailing list to subscribe to that list or to access the list archives.
+	</para>
 	<formalpara>
 		<title>Give us Feedback</title>
 		<para>
