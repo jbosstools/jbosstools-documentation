@@ -608,7 +608,7 @@
 				</step>
 			</procedure>
 		</section>
-		<section id="Manage_Server_Settings" remap="TID_22809">
+		<section id="sect-Manage_Server_Settings">
 			<sectioninfo>
 				<keywordset>
 					<keyword>
@@ -651,366 +651,366 @@
 			<para>
 				To open the JBoss Server Editor for a specific server, in the <guilabel>Servers</guilabel> tab double-click the server. All changes to the settings of a server must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>. You may be required to enter the server management password when making changes to certain settings.<!--http://docs.jboss.org/tools/whatsnew/as/as-news-4.0.0.Beta1.html-->
 			</para>
-		</section>
-		<section id="Manage_Server_Settings_in_Overview_Mode" remap="TID_22807">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
-			<title>Manage Server Settings in Overview Mode</title>
-			<para>
-				The Overview mode of the JBoss Server Editor enables you to vary the management and behavior settings of an individual server. Each section of the Overview mode is outlined below. All changes to server settings must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
-			</para>
-			<variablelist>
-				<varlistentry>
-					<term>General information</term>
-					<listitem>
-						<para>
-							This section details essential information comprising the server definition: the name by which the server is identified in the IDE, the hostname of the server and the server runtime environment.
-						</para>
-						<figure>
-							<title>General Information Section</title>
-							<mediaobject>
-								<imageobject>
-									<imagedata fileref="images/4014.png"/>
-								</imageobject>
-								<textobject>
-									<phrase>This section details essential information comprising the server definition: the name by which the server is identified in the IDE, the hostname of the server and the server runtime environment.</phrase>
-								</textobject>
-							</mediaobject>
-						</figure>
-						<para>
-							To change the server runtime environment, from the <guilabel>Runtime Environment</guilabel> list select a server runtime environment. Alternatively, to create and assign a new server runtime environment click <guilabel>Runtime Environment</guilabel> and follow the instructions.
-						</para>
-						<para>
-							To view or edit the server launch configuration, click <guibutton>Open launch configuration</guibutton>.
-						</para>
-					</listitem>
-				</varlistentry>
-				<varlistentry>
-					<term>Management login credentials</term>
-					<listitem>
-						<para>
-							This section holds credentials, specifically username and password, necessary for the IDE to successfully communicate management commands with the server. The password is obscured and stored in Eclipse Secure Storage for security. Incorrect management credentials can cause the IDE to not detect when a server is started.
-						</para>
-						<figure>
-							<title>Management Login Credentials Section</title>
-							<mediaobject>
-								<imageobject>
-									<imagedata fileref="images/4015.png"/>
-								</imageobject>
-								<textobject>
-									<phrase>This section holds credentials, specifically username and password, necessary for the IDE to successfully communicate management commands with the server. The password is obscured and stored in Eclipse Secure Storage for security. Incorrect management credentials can cause the IDE to not detect when a server is started.</phrase>
-								</textobject>
-							</mediaobject>
-						</figure>
-					</listitem>
-				</varlistentry>
-				<varlistentry>
-					<term>Server behavior</term>
-					<listitem>
-						<para>
-							This section enables you to customize server behavior that encompasses how the IDE communicates with the server.
-						</para>
-						<figure>
-							<title>Server Behavior Section</title>
-							<mediaobject>
-								<imageobject>
-									<imagedata fileref="images/4017.png"/>
-								</imageobject>
-								<textobject>
-									<phrase>This section enables you to customize server behavior that encompasses how the IDE communicates with the server.</phrase>
-								</textobject>
-							</mediaobject>
-						</figure>
-						<para>
-							To specify that the server life cycle will be managed from outside the IDE, select the <guilabel>Server is externally managed</guilabel> check box.
-						</para>
-						<para>
-							To specify that the server should be launched to respond to requests on all hostnames, select the <guilabel>Listen on all interfaces to allow remote web connections</guilabel> check box. This option is most useful for remote servers and adds the <command>-b 0.0.0.0</command> argument to the server launch command.
-						</para>
-						<para>
-							To enable management commands sent by the IDE to be successfully received by the server, select the <guilabel>Expose your management port as the server's hostname</guilabel> check box. This option is useful for remote servers and unnecessary for local servers.
-						</para>
-						<warning>
-							<para>
-								The <guilabel>Expose your management port as the server's hostname</guilabel> feature should be used carefully for servers on production as it leaves the server open for anyone to access.
-							</para>
-						</warning>
-						<para>
-							To specify the location of the server, from the list select <guilabel>Local</guilabel> or <guilabel>Remote System Deployment</guilabel>. For remote systems, there are further details that must be specified: the host, the path of the remote application server, and the remote application server configuration file.
-						</para>
-						<figure>
-							<title>Additional Remote Server Behavior Options in Server Behavior Section</title>
-							<mediaobject>
-								<imageobject>
-									<imagedata fileref="images/4016.png"/>
-								</imageobject>
-								<textobject>
-									<phrase>For remote systems, there are further details that must be specified: the host, the path of the remote application server, and the remote application server configuration file.</phrase>
-								</textobject>
-							</mediaobject>
-						</figure>
-					</listitem>
-				</varlistentry>
-				<varlistentry>
-					<term>Publishing</term>
-					<listitem>
-						<para>
-							This section details the publishing action the IDE should take in response to modifications to local resources of deployed applications. Publishing involves replacing changed project resources in the dedicated deployment location of a server and the IDE action options are <guilabel>Never publish automatically</guilabel>, <guilabel>Automatically publish when resources change</guilabel>, and <guilabel>Automatically publish after a build event</guilabel>. Additionally, you can specify a minimum time interval that must occur between consecutive automated publish actions by the IDE to control the frequency of publishing.
-						</para>
-						<figure>
-							<title>Publishing Section</title>
-							<mediaobject>
-								<imageobject>
-									<imagedata fileref="images/4012.png"/>
-								</imageobject>
-								<textobject>
-									<phrase>This section details the publishing action the IDE should take in response to modifications to local resources of deployed applications. Publishing involves replacing changed project resources in the dedicated deployment location of a server and the IDE action options are <guilabel>Never publish automatically</guilabel>, <guilabel>Automatically publish when resources change</guilabel>, and <guilabel>Automatically publish after a build event</guilabel>. Additionally, you can specify a minimum time interval that must occur between consecutive automated publish actions by the IDE to control the frequency of publishing.</phrase>
-								</textobject>
-							</mediaobject>
-						</figure>
-					</listitem>
-				</varlistentry>
-				<varlistentry>
-					<term>Timeouts</term>
-					<listitem>
-						<para>
-							This section specifies the maximum length of time, in seconds, the IDE should wait for server actions to complete before aborting. The server actions are specifically starting and stopping.
-						</para>
-						<figure>
-							<title>Timeouts Section</title>
-							<mediaobject>
-								<imageobject>
-									<imagedata fileref="images/4008.png"/>
-								</imageobject>
-								<textobject>
-									<phrase>This section specifies the maximum length of time, in seconds, the IDE should wait for server actions to complete before aborting. The server actions are specifically starting and stopping.</phrase>
-								</textobject>
-							</mediaobject>
-						</figure>
-					</listitem>
-				</varlistentry>
-				<varlistentry>
-					<term>Deployment scanner</term>
-					<listitem>
-						<para>
-							This section enables you to customize the behavior of deployment scanners, which detect the applications deployed to a server. You can manage deployment scanners or allow the IDE to do it for you. The management options available are <guilabel>Add missing deployment scanners after server startup</guilabel> and <guilabel>Remove added deployment scanners before shutdown</guilabel>.
-						</para>
-						<figure>
-							<title>Deployment Scanners Section</title>
-							<mediaobject>
-								<imageobject>
-									<imagedata fileref="images/4010.png"/>
-								</imageobject>
-								<textobject>
-									<phrase>This section enables you to customize the behavior of deployment scanners, which detect the applications deployed to a server. You can manage deployment scanners or allow the IDE to do it for you. The management options available are <guilabel>Add missing deployment scanners after server startup</guilabel> and <guilabel>Remove added deployment scanners before shutdown</guilabel>.</phrase>
-								</textobject>
-							</mediaobject>
-						</figure>
-					</listitem>
-				</varlistentry>
-				<varlistentry>
-					<term>Application reload behavior</term>
-					<listitem>
-						<para>
-							This section details the application reload action the IDE should take in response to changed published resources of deployed applications. Application reload involves undeploying and redeploying an application and this action is necessary when you make changes to project resources that will not be detected by the server. By default, the application reload behavior is set to invoke application redeployment when <filename>.jar</filename> files are changed.
-						</para>
-						<figure>
-							<title>Application Reload Behavior Section</title>
-							<mediaobject>
-								<imageobject>
-									<imagedata fileref="images/4011.png"/>
-								</imageobject>
-								<textobject>
-									<phrase>This section details the application reload action the IDE should take in response to changed published resources of deployed applications. Application reload involves undeploying and redeploying an application and this action is necessary when you make changes to project resources that will not be detected by the server. By default, the application reload behavior is set to invoke application redeployment when <filename>.jar</filename> files are changed.</phrase>
-								</textobject>
-							</mediaobject>
-						</figure>
-						<para>
-							To customize which changes invoke application redeployment, select the <guilabel>Customize application reload behavior on changes to project resources</guilabel> check box. In the <guilabel>Force module restart on following regex pattern</guilabel> field, type a regex pattern indicating the changed resources that you want to trigger redeployment.
-						</para>
-						<para>
-							To disable application reload, select the <guilabel>Customize application reload behavior on changes to project resources</guilabel> check box and ensure the <guilabel>Force module restart on following regex pattern</guilabel> field is empty.
-						</para>
-					</listitem>
-				</varlistentry>
-				<varlistentry>
-					<term>Server state detectors</term>
-					<listitem>
-						<para>
-							This section specifies which method the IDE should use to verify the started and stopped status of the server.
-						</para>
-						<figure>
-							<title>Server State Detectors Section</title>
-							<mediaobject>
-								<imageobject>
-									<imagedata fileref="images/4009.png"/>
-								</imageobject>
-								<textobject>
-									<phrase>This section specifies which method the IDE should use to verify the started and stopped status of the server.</phrase>
-								</textobject>
-							</mediaobject>
-						</figure>
-						<para>
-							There are four methods from which to choose:
-						</para>
-						<itemizedlist>
-							<listitem>
-								<para>
-									<guilabel>Web Port</guilabel>, which pings the web port on the host to see if the server responds
-								</para>
-							</listitem>
-							<listitem>
-								<para>
-									<guilabel>Timeout</guilabel>, which waits for a specified time duration and then declares the start or stop operation a success without any actual verification
-								</para>
-							</listitem>
-							<listitem>
-								<para>
-									<guilabel>Process Terminated</guilabel> (available for Shutdown Poller of local servers only), which checks if a server process is still alive and sets the server status to stopped when it is terminated
-								</para>
-							</listitem>
-							<listitem>
-								<para>
-									<guilabel>JMX</guilabel>, which polls JMX, the JBoss Management service
-								</para>
-							</listitem>
-						</itemizedlist>
-					</listitem>
-				</varlistentry>
-				<varlistentry>
-					<term>Server ports</term>
-					<listitem>
-						<para>
-							This section details the ports and port offset that the IDE should use for communication with the server.
-						</para>
-						<figure>
-							<title>Server Ports Section</title>
-							<mediaobject>
-								<imageobject>
-									<imagedata fileref="images/4013.png"/>
-								</imageobject>
-								<textobject>
-									<phrase>This section details the ports and port offset that the IDE should use for communication with the server.</phrase>
-								</textobject>
-							</mediaobject>
-						</figure>
-						<para>
-							Port offset is typically offered by newer application servers and it enables multiple servers to run on the same system without port conflicts. JBoss Server Tools uses information in the server configuration file, typically XPath values, to automatically detect the correct ports and port offset for communicating with the server but you can perform further customization.
-						</para>
-						<para>
-							To view the configuration file information used by JBoss Server Tools for automatic port detection, click <guibutton>Configure</guibutton> corresponding to the appropriate tool. The information used is displayed in the <guilabel>Current Value</guilabel> field. To change this value, click <guibutton>Edit XPath</guibutton>. <!-- add info about using wizard? -->Click <guibutton>OK</guibutton> to close the window.
-						</para>
-						<figure>
-							<title>Edit Port Window</title>
-							<mediaobject>
-								<imageobject>
-									<imagedata fileref="images/3990.png"/>
-								</imageobject>
-								<textobject>
-									<phrase>To view the configuration file information used by JBoss Server Tools for automatic port detection, click <guibutton>Configure</guibutton> corresponding to the appropriate tool. The information used is displayed in the <guilabel>Current Value</guilabel> field. To change this value, click <guibutton>Edit XPath</guibutton>. Click <guibutton>OK</guibutton> to close the window.</phrase>
-								</textobject>
-							</mediaobject>
-						</figure>
-						<para>
-							To manually specify the server ports or port offset, clear the <guilabel>Detect from Local Runtime</guilabel> check box corresponding to the appropriate tool and edit the value.
-						</para>
-					</listitem>
-				</varlistentry>
-			</variablelist>
-		</section>
-		<section id="Manage_Server_Settings_in_Deployment_Mode" remap="TID_22812">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
-			<title>Manage Server Settings in Deployment Mode</title>
-			<para>
-				The Deployment mode of the JBoss Server Editor enables you to vary the deployment settings of an individual server. Each section of the Deployment mode is outlined below. All changes to server settings must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
-			</para>
-			<important>
+			<section id="Manage_Server_Settings_in_Overview_Mode" remap="TID_22807">
+				<sectioninfo>
+					<keywordset>
+						<keyword>
+							JBDS 7.1.z
+						</keyword>
+					</keywordset>
+				</sectioninfo>
+				<title>Manage Server Settings in Overview Mode</title>
 				<para>
-					Changing deployment settings when modules are already deployed can adversely result in multiple deployed copies of an application. For this reason, many of the functions of the Deployment mode are only enabled when a server is fully synchronized and it has no modules deployed.
+					The Overview mode of the JBoss Server Editor enables you to vary the management and behavior settings of an individual server. Each section of the Overview mode is outlined below. All changes to server settings must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
 				</para>
-			</important>
-			<variablelist>
-				<varlistentry>
-					<term>Default settings for the server</term>
-					<listitem>
-						<para>
-							This section specifies where deployments are kept and how they are packaged.
-						</para>
-						<figure>
-							<title>Default Settings Section</title>
-							<mediaobject>
-								<imageobject>
-									<imagedata fileref="images/4019.png"/>
-								</imageobject>
-								<textobject>
-									<phrase>This section specifies where deployments are kept and how they are packaged.</phrase>
-								</textobject>
-							</mediaobject>
-						</figure>
-						<para>
-							You can customize the deployment location and packaging type:
-						</para>
-						<itemizedlist>
-							<listitem>
+				<variablelist>
+					<varlistentry>
+						<term>General information</term>
+						<listitem>
+							<para>
+								This section details essential information comprising the server definition: the name by which the server is identified in the IDE, the hostname of the server and the server runtime environment.
+							</para>
+							<figure>
+								<title>General Information Section</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4014.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>This section details essential information comprising the server definition: the name by which the server is identified in the IDE, the hostname of the server and the server runtime environment.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+							<para>
+								To change the server runtime environment, from the <guilabel>Runtime Environment</guilabel> list select a server runtime environment. Alternatively, to create and assign a new server runtime environment click <guilabel>Runtime Environment</guilabel> and follow the instructions.
+							</para>
+							<para>
+								To view or edit the server launch configuration, click <guibutton>Open launch configuration</guibutton>.
+							</para>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Management login credentials</term>
+						<listitem>
+							<para>
+								This section holds credentials, specifically username and password, necessary for the IDE to successfully communicate management commands with the server. The password is obscured and stored in Eclipse Secure Storage for security. Incorrect management credentials can cause the IDE to not detect when a server is started.
+							</para>
+							<figure>
+								<title>Management Login Credentials Section</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4015.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>This section holds credentials, specifically username and password, necessary for the IDE to successfully communicate management commands with the server. The password is obscured and stored in Eclipse Secure Storage for security. Incorrect management credentials can cause the IDE to not detect when a server is started.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Server behavior</term>
+						<listitem>
+							<para>
+								This section enables you to customize server behavior that encompasses how the IDE communicates with the server.
+							</para>
+							<figure>
+								<title>Server Behavior Section</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4017.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>This section enables you to customize server behavior that encompasses how the IDE communicates with the server.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+							<para>
+								To specify that the server life cycle will be managed from outside the IDE, select the <guilabel>Server is externally managed</guilabel> check box.
+							</para>
+							<para>
+								To specify that the server should be launched to respond to requests on all hostnames, select the <guilabel>Listen on all interfaces to allow remote web connections</guilabel> check box. This option is most useful for remote servers and adds the <command>-b 0.0.0.0</command> argument to the server launch command.
+							</para>
+							<para>
+								To enable management commands sent by the IDE to be successfully received by the server, select the <guilabel>Expose your management port as the server's hostname</guilabel> check box. This option is useful for remote servers and unnecessary for local servers.
+							</para>
+							<warning>
 								<para>
-									To select the workspace deployment folder for the server, click <guilabel>Use workspace metadata</guilabel>.
+									The <guilabel>Expose your management port as the server's hostname</guilabel> feature should be used carefully for servers on production as it leaves the server open for anyone to access.
 								</para>
-							</listitem>
-							<listitem>
-								<para>
-									To select the deployment folder of the application server, click <guilabel>Use the JBoss deploy folder</guilabel>.
-								</para>
-							</listitem>
-							<listitem>
-								<para>
-									To select a folder of your choice, click <guilabel>Use a custom deploy folder</guilabel>. With this option, you should complete the <guilabel>Deploy directories</guilabel> and <guilabel>Temporary Deploy Directory</guilabel> fields. The temporary folder must be on the same file system as the final deploy location otherwise publishing often fails.
-								</para>
-							</listitem>
-							<listitem>
-								<para>
-									For all modules to be archived for deployment, select the <guilabel>Deploy projects as compressed archives</guilabel> check box. This avoids exploded deployments and reduces the amount of memory deployments occupy but may result in slower deployments.
-								</para>
-							</listitem>
-						</itemizedlist>
-					</listitem>
-				</varlistentry>
-				<varlistentry>
-					<term>Settings per module</term>
-					<listitem>
-						<para>
-							This section shows deployment settings for all modules in the workspace regardless of whether they are deployed on the server under consideration.
-						</para>
-						<figure>
-							<title>Module Settings Section</title>
-							<mediaobject>
-								<imageobject>
-									<imagedata fileref="images/4018.png"/>
-								</imageobject>
-								<textobject>
-									<phrase>This section shows deployment settings for all modules in the workspace regardless of whether they are deployed on the server under consideration.</phrase>
-								</textobject>
-							</mediaobject>
-						</figure>
-						<para>
-							To filter the module list in the case that you have lots of modules, from the <guilabel>Filter by</guilabel> list select the criteria for the filter. If you select <guilabel>By Module Name</guilabel>, in the text field enter the part or whole name of the module.
-						</para>
-						<para>
-							To change the <guilabel>Deployment Location</guilabel> and <guilabel>Temporary Deploy Directory</guilabel> on a per module basis, in the table click the value to be changed and enter an alternative value. Ensure the values for these variables are specified use absolute paths or paths relative to the default deploy directory.
-						</para>
-					</listitem>
-				</varlistentry>
-			</variablelist>
+							</warning>
+							<para>
+								To specify the location of the server, from the list select <guilabel>Local</guilabel> or <guilabel>Remote System Deployment</guilabel>. For remote systems, there are further details that must be specified: the host, the path of the remote application server, and the remote application server configuration file.
+							</para>
+							<figure>
+								<title>Additional Remote Server Behavior Options in Server Behavior Section</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4016.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>For remote systems, there are further details that must be specified: the host, the path of the remote application server, and the remote application server configuration file.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Publishing</term>
+						<listitem>
+							<para>
+								This section details the publishing action the IDE should take in response to modifications to local resources of deployed applications. Publishing involves replacing changed project resources in the dedicated deployment location of a server and the IDE action options are <guilabel>Never publish automatically</guilabel>, <guilabel>Automatically publish when resources change</guilabel>, and <guilabel>Automatically publish after a build event</guilabel>. Additionally, you can specify a minimum time interval that must occur between consecutive automated publish actions by the IDE to control the frequency of publishing.
+							</para>
+							<figure>
+								<title>Publishing Section</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4012.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>This section details the publishing action the IDE should take in response to modifications to local resources of deployed applications. Publishing involves replacing changed project resources in the dedicated deployment location of a server and the IDE action options are <guilabel>Never publish automatically</guilabel>, <guilabel>Automatically publish when resources change</guilabel>, and <guilabel>Automatically publish after a build event</guilabel>. Additionally, you can specify a minimum time interval that must occur between consecutive automated publish actions by the IDE to control the frequency of publishing.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Timeouts</term>
+						<listitem>
+							<para>
+								This section specifies the maximum length of time, in seconds, the IDE should wait for server actions to complete before aborting. The server actions are specifically starting and stopping.
+							</para>
+							<figure>
+								<title>Timeouts Section</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4008.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>This section specifies the maximum length of time, in seconds, the IDE should wait for server actions to complete before aborting. The server actions are specifically starting and stopping.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Deployment scanner</term>
+						<listitem>
+							<para>
+								This section enables you to customize the behavior of deployment scanners, which detect the applications deployed to a server. You can manage deployment scanners or allow the IDE to do it for you. The management options available are <guilabel>Add missing deployment scanners after server startup</guilabel> and <guilabel>Remove added deployment scanners before shutdown</guilabel>.
+							</para>
+							<figure>
+								<title>Deployment Scanners Section</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4010.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>This section enables you to customize the behavior of deployment scanners, which detect the applications deployed to a server. You can manage deployment scanners or allow the IDE to do it for you. The management options available are <guilabel>Add missing deployment scanners after server startup</guilabel> and <guilabel>Remove added deployment scanners before shutdown</guilabel>.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Application reload behavior</term>
+						<listitem>
+							<para>
+								This section details the application reload action the IDE should take in response to changed published resources of deployed applications. Application reload involves undeploying and redeploying an application and this action is necessary when you make changes to project resources that will not be detected by the server. By default, the application reload behavior is set to invoke application redeployment when <filename>.jar</filename> files are changed.
+							</para>
+							<figure>
+								<title>Application Reload Behavior Section</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4011.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>This section details the application reload action the IDE should take in response to changed published resources of deployed applications. Application reload involves undeploying and redeploying an application and this action is necessary when you make changes to project resources that will not be detected by the server. By default, the application reload behavior is set to invoke application redeployment when <filename>.jar</filename> files are changed.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+							<para>
+								To customize which changes invoke application redeployment, select the <guilabel>Customize application reload behavior on changes to project resources</guilabel> check box. In the <guilabel>Force module restart on following regex pattern</guilabel> field, type a regex pattern indicating the changed resources that you want to trigger redeployment.
+							</para>
+							<para>
+								To disable application reload, select the <guilabel>Customize application reload behavior on changes to project resources</guilabel> check box and ensure the <guilabel>Force module restart on following regex pattern</guilabel> field is empty.
+							</para>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Server state detectors</term>
+						<listitem>
+							<para>
+								This section specifies which method the IDE should use to verify the started and stopped status of the server.
+							</para>
+							<figure>
+								<title>Server State Detectors Section</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4009.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>This section specifies which method the IDE should use to verify the started and stopped status of the server.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+							<para>
+								There are four methods from which to choose:
+							</para>
+							<itemizedlist>
+								<listitem>
+									<para>
+										<guilabel>Web Port</guilabel>, which pings the web port on the host to see if the server responds
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										<guilabel>Timeout</guilabel>, which waits for a specified time duration and then declares the start or stop operation a success without any actual verification
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										<guilabel>Process Terminated</guilabel> (available for Shutdown Poller of local servers only), which checks if a server process is still alive and sets the server status to stopped when it is terminated
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										<guilabel>JMX</guilabel>, which polls JMX, the JBoss Management service
+									</para>
+								</listitem>
+							</itemizedlist>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Server ports</term>
+						<listitem>
+							<para>
+								This section details the ports and port offset that the IDE should use for communication with the server.
+							</para>
+							<figure>
+								<title>Server Ports Section</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4013.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>This section details the ports and port offset that the IDE should use for communication with the server.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+							<para>
+								Port offset is typically offered by newer application servers and it enables multiple servers to run on the same system without port conflicts. JBoss Server Tools uses information in the server configuration file, typically XPath values, to automatically detect the correct ports and port offset for communicating with the server but you can perform further customization.
+							</para>
+							<para>
+								To view the configuration file information used by JBoss Server Tools for automatic port detection, click <guibutton>Configure</guibutton> corresponding to the appropriate tool. The information used is displayed in the <guilabel>Current Value</guilabel> field. To change this value, click <guibutton>Edit XPath</guibutton>. <!-- add info about using wizard? -->Click <guibutton>OK</guibutton> to close the window.
+							</para>
+							<figure>
+								<title>Edit Port Window</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/3990.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>To view the configuration file information used by JBoss Server Tools for automatic port detection, click <guibutton>Configure</guibutton> corresponding to the appropriate tool. The information used is displayed in the <guilabel>Current Value</guilabel> field. To change this value, click <guibutton>Edit XPath</guibutton>. Click <guibutton>OK</guibutton> to close the window.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+							<para>
+								To manually specify the server ports or port offset, clear the <guilabel>Detect from Local Runtime</guilabel> check box corresponding to the appropriate tool and edit the value.
+							</para>
+						</listitem>
+					</varlistentry>
+				</variablelist>
+			</section>
+			<section id="Manage_Server_Settings_in_Deployment_Mode" remap="TID_22812">
+				<sectioninfo>
+					<keywordset>
+						<keyword>
+							JBDS 7.1.z
+						</keyword>
+					</keywordset>
+				</sectioninfo>
+				<title>Manage Server Settings in Deployment Mode</title>
+				<para>
+					The Deployment mode of the JBoss Server Editor enables you to vary the deployment settings of an individual server. Each section of the Deployment mode is outlined below. All changes to server settings must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
+				</para>
+				<important>
+					<para>
+						Changing deployment settings when modules are already deployed can adversely result in multiple deployed copies of an application. For this reason, many of the functions of the Deployment mode are only enabled when a server is fully synchronized and it has no modules deployed.
+					</para>
+				</important>
+				<variablelist>
+					<varlistentry>
+						<term>Default settings for the server</term>
+						<listitem>
+							<para>
+								This section specifies where deployments are kept and how they are packaged.
+							</para>
+							<figure>
+								<title>Default Settings Section</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4019.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>This section specifies where deployments are kept and how they are packaged.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+							<para>
+								You can customize the deployment location and packaging type:
+							</para>
+							<itemizedlist>
+								<listitem>
+									<para>
+										To select the workspace deployment folder for the server, click <guilabel>Use workspace metadata</guilabel>.
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										To select the deployment folder of the application server, click <guilabel>Use the JBoss deploy folder</guilabel>.
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										To select a folder of your choice, click <guilabel>Use a custom deploy folder</guilabel>. With this option, you should complete the <guilabel>Deploy directories</guilabel> and <guilabel>Temporary Deploy Directory</guilabel> fields. The temporary folder must be on the same file system as the final deploy location otherwise publishing often fails.
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										For all modules to be archived for deployment, select the <guilabel>Deploy projects as compressed archives</guilabel> check box. This avoids exploded deployments and reduces the amount of memory deployments occupy but may result in slower deployments.
+									</para>
+								</listitem>
+							</itemizedlist>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Settings per module</term>
+						<listitem>
+							<para>
+								This section shows deployment settings for all modules in the workspace regardless of whether they are deployed on the server under consideration.
+							</para>
+							<figure>
+								<title>Module Settings Section</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4018.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>This section shows deployment settings for all modules in the workspace regardless of whether they are deployed on the server under consideration.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+							<para>
+								To filter the module list in the case that you have lots of modules, from the <guilabel>Filter by</guilabel> list select the criteria for the filter. If you select <guilabel>By Module Name</guilabel>, in the text field enter the part or whole name of the module.
+							</para>
+							<para>
+								To change the <guilabel>Deployment Location</guilabel> and <guilabel>Temporary Deploy Directory</guilabel> on a per module basis, in the table click the value to be changed and enter an alternative value. Ensure the values for these variables are specified use absolute paths or paths relative to the default deploy directory.
+							</para>
+						</listitem>
+					</varlistentry>
+				</variablelist>
+			</section>
 		</section>
 	</section>
 	<section id="sect-Customizing_JBoss_Server_Tools">

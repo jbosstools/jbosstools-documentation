@@ -16,16 +16,18 @@ Brand = JBoss
 publican.cfg = [show_remarks: 1]
 # pubsnumber =
 # Debug = [0|1|2]
-# Bug Links = On
-# BZProduct =
-# BZComponent =
-# BZVersion =
-# BZURL =
+Bug Links = Jira
+JIRAServer = https://issues.jboss.org/
+JIRAProject = TOOLSDOC
+JIRAComponent = Installation Guide
+# JIRAVersion = 4.1.1
+# JIRALabels =
 # Output Style =
+Feedback = [23618]
 Revision History = [22583]
 # Indentation is meaningful. Use 2 spaces.
 
-[condition = install]
+[condition = jbds|install]
 Chapter: Introduction to Red Hat JBoss Developer Studio
   About Red Hat JBoss Developer Studio [22589]
   Use Cases of JBoss Developer Studio [22588]

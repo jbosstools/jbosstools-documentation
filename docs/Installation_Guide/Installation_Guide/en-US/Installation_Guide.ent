@@ -1,8 +1,8 @@
-<!ENTITY PRODUCT "Red Hat JBoss Developer Studio">
 <!ENTITY BOOKID "Installation_Guide">
-<!ENTITY YEAR "2013">
+<!ENTITY PRODUCT "Red Hat JBoss Developer Studio">
 <!ENTITY TITLE "Installation Guide">
+<!ENTITY YEAR "2013">
 <!ENTITY HOLDER "Red Hat, Inc">
-<!ENTITY BZURL "<ulink url='https://bugzilla.redhat.com/enter_bug.cgi'>https://bugzilla.redhat.com/</ulink>">
-<!ENTITY BZCOMPONENT "documentation">
 <!ENTITY BZPRODUCT "Red Hat JBoss Developer Studio">
+<!ENTITY BZCOMPONENT "documentation">
+<!ENTITY BZURL "<ulink url='https://bugzilla.redhat.com/enter_bug.cgi'>https://bugzilla.redhat.com/</ulink>">

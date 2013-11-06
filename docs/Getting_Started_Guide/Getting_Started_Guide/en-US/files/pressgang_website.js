@@ -20,5 +20,6 @@ pressgang_website_callback([
 	{"topicId":22629,"target":"Test_the_Mobile_User_Interface_Using_BrowserSim1","title":"Test the Mobile User Interface Using BrowserSim","newSince":""},
 	{"topicId":22628,"target":"Add_an_Entity_Using_Forge_Tools1","title":"Add an Entity Using Forge Tools","newSince":""},
 	{"topicId":22633,"target":"About_Getting_Started1","title":"About Getting Started","newSince":""},
+	{"topicId":23618,"target":"Getting_Help_and_Giving_Feedback2","title":"Getting Help and Giving Feedback","newSince":""},
 	{"topicId":22602,"target":"Install_JBoss_Developer_Studio1","title":"Install JBoss Developer Studio","newSince":""},
 	{"topicId":22632,"target":"Tutorial_Outline1","title":"Tutorial Outline","newSince":""}]);
