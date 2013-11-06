@@ -22,6 +22,7 @@ pressgang_website_callback([
 	{"topicId":22598,"target":"Supported_Operating_Systems_and_Architectures1","title":"Supported Operating Systems and Architectures","newSince":""},
 	{"topicId":22600,"target":"Uninstall_Methods1","title":"Uninstall Methods","newSince":""},
 	{"topicId":22603,"target":"Set_the_Perspective_to_JBoss1","title":"Set the Perspective to JBoss","newSince":""},
+	{"topicId":23618,"target":"Getting_Help_and_Giving_Feedback2","title":"Getting Help and Giving Feedback","newSince":""},
 	{"topicId":22602,"target":"Install_JBoss_Developer_Studio1","title":"Install JBoss Developer Studio","newSince":""},
 	{"topicId":22605,"target":"Install_JBoss_Developer_Studio_BYOE1","title":"Install JBoss Developer Studio BYOE","newSince":""},
 	{"topicId":22604,"target":"Upgrade_from_JBoss_Developer_Studio_6.x_and_Earlier","title":"Upgrade from JBoss Developer Studio 6.x and Earlier","newSince":""}]);

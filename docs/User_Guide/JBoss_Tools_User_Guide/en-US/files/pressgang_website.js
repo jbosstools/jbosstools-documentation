@@ -10,8 +10,6 @@ pressgang_website_callback([
 	{"topicId":22829,"target":"Manage_the_Forge_Console","title":"Manage the Forge Console","newSince":""},
 	{"topicId":22828,"target":"Manage_Forge_Runtime_Servers","title":"Manage Forge Runtime Servers","newSince":""},
 	{"topicId":22831,"target":"About_LiveReload","title":"About LiveReload","newSince":""},
-	{"topicId":22588,"target":"Use_Cases_of_JBoss_Developer_Studio1","title":"Use Cases of JBoss Developer Studio","newSince":""},
-	{"topicId":22589,"target":"About_Red_Hat_JBoss_Developer_Studio1","title":"About Red Hat JBoss Developer Studio","newSince":""},
 	{"topicId":22825,"target":"Access_a_List_of_Forge_Commands","title":"Access a List of Forge Commands","newSince":""},
 	{"topicId":22824,"target":"About_Forge_Tools","title":"About Forge Tools","newSince":""},
 	{"topicId":22827,"target":"Background_Actions_Invoked_by_Forge_Commands","title":"Background Actions Invoked by Forge Commands","newSince":""},

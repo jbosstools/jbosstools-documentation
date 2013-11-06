@@ -115,7 +115,7 @@
 					<title>Uninstall JBoss Developer Studio via Eclipse Marketplace</title>
 					<mediaobject>
 						<imageobject>
-							<imagedata fileref="images/3371.png"/>
+							<imagedata fileref="images/4224.png"/>
 						</imageobject>
 						<textobject>
 							<phrase>Click <guimenu>Help</guimenu>&rarr;<guimenu>Eclipse Marketplace</guimenu>. In the <guilabel>Find</guilabel> field of the <guilabel>Search</guilabel> tab, enter <command>JBoss Developer Studio</command>. Locate <application>Red Hat JBoss Developer Studio (Kepler)</application> and click <guibutton>Uninstall</guibutton>.</phrase>

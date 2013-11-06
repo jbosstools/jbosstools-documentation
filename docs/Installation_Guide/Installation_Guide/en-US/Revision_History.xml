@@ -8,6 +8,32 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.1.0-4</revnumber><date>Tue Nov 05 2013</date>
+				<author>
+					<firstname>Michelle</firstname><surname>Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-392, TOOLSDOC-414: Scripted installations information added, updated screen captures
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>7.1.0-3</revnumber><date>Thu Oct 24 2013</date>
+				<author>
+					<firstname>Michelle</firstname><surname>Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-413: JIRA links added for bug reporting
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>7.1.0-2</revnumber><date>Thu Oct 10 2013</date>
 				<author>
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
@@ -15,7 +41,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOLSDOC-393: Added universal installer with JBoss EAP information
+							TOOLSDOC-393: Universal installer with JBoss EAP information added
 						</member>
 					</simplelist>
 				</revdescription>

@@ -6,7 +6,6 @@
 <book>
 	<xi:include href="Book_Info.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="Preface.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-	<xi:include href="chap-Introduction_to_Red_Hat_JBoss_Developer_Studio.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="part-Tools_for_Every_Project.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="part-Tools_for_Creating_Web_Interfaces.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="part-Tools_for_Creating_Mobile_Applications.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>

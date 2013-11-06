@@ -48,7 +48,7 @@
 		</sectioninfo>
 		<title>Install JBoss Developer Studio</title>
 		<para>
-			A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Customer Portal. <phrase>The procedure below guides you though obtaining the universal installer and the installation process.</phrase>
+			A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Customer Portal. The procedure below guides you though obtaining the universal installer and the installation process.
 		</para>
 		<procedure>
 			<title>Install with the Universal Installer</title>
@@ -94,17 +94,17 @@
 						</listitem>
 					</itemizedlist>
 				</para>
-				<figure>
-					<title>JBoss Developer Studio Downloads Listed on the Customer Portal</title>
-					<mediaobject>
-						<imageobject>
-							<imagedata fileref="images/3358.png"/>
-						</imageobject>
-						<textobject>
-							<phrase>Under <guilabel>Software Downloads</guilabel>, select the following options: From the <guilabel>Product</guilabel> list, select <guilabel>JBoss Developer Studio</guilabel>. From the <guilabel>Version</guilabel> list, select <guilabel>7.1.x</guilabel>.</phrase>
-						</textobject>
-					</mediaobject>
-				</figure>
+				<!--<figure>
+				<title>JBoss Developer Studio Downloads Listed on the Customer Portal</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/3358.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>Under <guilabel>Software Downloads</guilabel>, select the following options: From the <guilabel>Product</guilabel> list, select <guilabel>JBoss Developer Studio</guilabel>. From the <guilabel>Version</guilabel> list, select <guilabel>7.1.x</guilabel>.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>-->
 			</step>
 			<step>
 				<para>

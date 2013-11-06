@@ -86,17 +86,17 @@
 						</listitem>
 					</itemizedlist>
 				</para>
-				<figure>
-					<title>JBoss Developer Studio Downloads Listed on the Customer Portal</title>
-					<mediaobject>
-						<imageobject>
-							<imagedata fileref="images/3358.png"/>
-						</imageobject>
-						<textobject>
-							<phrase>Under <guilabel>Software Downloads</guilabel>, select the following options: From the <guilabel>Product</guilabel> list, select <guilabel>JBoss Developer Studio</guilabel>. From the <guilabel>Version</guilabel> list, select <guilabel>7.1.x</guilabel>.</phrase>
-						</textobject>
-					</mediaobject>
-				</figure>
+				<!--<figure>
+				<title>JBoss Developer Studio Downloads Listed on the Customer Portal</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/3358.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>Under <guilabel>Software Downloads</guilabel>, select the following options: From the <guilabel>Product</guilabel> list, select <guilabel>JBoss Developer Studio</guilabel>. From the <guilabel>Version</guilabel> list, select <guilabel>7.1.x</guilabel>.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>-->
 			</step>
 			<step>
 				<para>
@@ -299,7 +299,7 @@
 					<title>Install JBoss Developer Studio BYOE via Eclipse Marketplace</title>
 					<mediaobject>
 						<imageobject>
-							<imagedata fileref="images/3361.png"/>
+							<imagedata fileref="images/4223.png"/>
 						</imageobject>
 						<textobject>
 							<phrase>Click <guimenu>Help</guimenu>&rarr;<guimenu>Eclipse Marketplace</guimenu>. In the <guilabel>Find</guilabel> field of the <guilabel>Search</guilabel> tab, enter <command>JBoss Developer Studio</command>. Locate <application>Red Hat JBoss Developer Studio (Kepler)</application> and click <guibutton>Install</guibutton>.</phrase>
@@ -391,7 +391,7 @@
 							<title>Work from an Online Website</title>
 							<mediaobject>
 								<imageobject>
-									<imagedata fileref="images/3365.png"/>
+									<imagedata fileref="images/4231.png"/>
 								</imageobject>
 								<textobject>
 									<phrase>For online mode, in the <guilabel>Work with</guilabel> field enter <command>https://devstudio.jboss.com/updates/7.0/</command>.</phrase>
@@ -407,7 +407,7 @@
 							<title>Work from a Local Copy of the Update <filename>.zip</filename> File</title>
 							<mediaobject>
 								<imageobject>
-									<imagedata fileref="images/3366.png"/>
+									<imagedata fileref="images/4230.png"/>
 								</imageobject>
 								<textobject>
 									<phrase>For offline mode, in the <guilabel>Work with</guilabel> field enter the absolute file path of the update <filename>.zip</filename> file.</phrase>
@@ -425,7 +425,7 @@
 					<title>Available Software Window Listing JBoss Developer Studio 7.x - Bring Your Own Eclipse</title>
 					<mediaobject>
 						<imageobject>
-							<imagedata fileref="images/3367.png"/>
+							<imagedata fileref="images/4225.png"/>
 						</imageobject>
 						<textobject>
 							<phrase>From the table of components comprising the update <filename>.zip</filename> file, select <guilabel>JBoss Developer Studio 7.x - Bring Your Own Eclipse</guilabel> and click <guibutton>Next</guibutton>.</phrase>
