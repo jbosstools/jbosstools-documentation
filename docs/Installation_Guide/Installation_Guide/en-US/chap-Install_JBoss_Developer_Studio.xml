@@ -161,7 +161,7 @@
 					<title>Installation Step 4: Select Java VM</title>
 					<mediaobject>
 						<imageobject>
-							<imagedata fileref="images/3343.png"/>
+							<imagedata fileref="images/4226.png"/>
 						</imageobject>
 						<textobject>
 							<phrase>In the <guilabel>Select Java VM</guilabel> step, <guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the Java developer kit you want to use. This is based on the default Java developer kit of your system. To change the specified Java developer kit, click <guilabel>Specific Java VM</guilabel> and type the path of the Java developer kit in the text field or use the <guibutton>Browse</guibutton> button to locate the Java developer kit. When the text field shows the correct Java developer kit path, click <guibutton>Next</guibutton>.</phrase>
@@ -211,7 +211,7 @@
 					<title>Add Location Window for Runtime Detection</title>
 					<mediaobject>
 						<imageobject>
-							<imagedata fileref="images/3351.png"/>
+							<imagedata fileref="images/4227.png"/>
 						</imageobject>
 						<textobject>
 							<phrase>Type the path from which recursive scanning for application servers is to commence or click <guibutton>Browse</guibutton> to navigate to the path. For this path to be scanned for new application servers each time JBoss&nbsp;Developer&nbsp;Studio starts, select the <guilabel>Scan every start</guilabel> check box. Click <guibutton>OK</guibutton> to close the <guilabel>Add Location</guilabel> window.</phrase>
