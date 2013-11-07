@@ -29,6 +29,7 @@ Revision History = [22583]
 
 [condition = jbds|install]
 Chapter: Introduction to Red Hat JBoss Developer Studio
+  Beta Product [21439, rev: 544059]
   About Red Hat JBoss Developer Studio [22589]
   Use Cases of JBoss Developer Studio [22588]
 

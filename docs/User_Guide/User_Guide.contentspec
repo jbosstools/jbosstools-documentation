@@ -28,10 +28,10 @@ Feedback = [23618]
 Revision History = [22789]
 # Indentation is meaningful. Use 2 spaces.
 #[Writer=mmurray, JBDS User Guide, JBDS 7.1.z]
-#Beta Product [21439, rev: 544059]
 
 [condition = jbds]
 Chapter: Introduction to Red Hat JBoss Developer Studio
+  Beta Product [21439, rev: 544059]
   About Red Hat JBoss Developer Studio [22589]
   Use Cases of JBoss Developer Studio [22588]
 

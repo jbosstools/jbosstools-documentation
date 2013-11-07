@@ -8,6 +8,19 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.1.0-6</revnumber><date>Fri Nov 08 2013</date>
+				<author>
+					<firstname>Michelle</firstname><surname>Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							Publishing for Beta
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>7.1.0-5</revnumber><date>Wed Nov 06 2013</date>
 				<author>
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
