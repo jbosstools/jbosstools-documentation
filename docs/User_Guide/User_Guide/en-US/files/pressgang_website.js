@@ -37,6 +37,7 @@ pressgang_website_callback([
 	{"topicId":22790,"target":"About_the_JBoss_Perspective","title":"About the JBoss Perspective","newSince":""},
 	{"topicId":22789,"target":"Revision_History48","title":"Revision History","newSince":""},
 	{"topicId":22788,"target":"About_JBoss_Central","title":"About JBoss Central","newSince":""},
+	{"topicId":21439,"target":"Beta_Product","title":"Beta Product","newSince":""},
 	{"topicId":22799,"target":"Change_the_Behavior_of_JBoss_Central_on_IDE_Start","title":"Change the Behavior of JBoss Central on IDE Start","newSince":""},
 	{"topicId":22798,"target":"Update_Software_in_JBoss_Central","title":"Update Software in JBoss Central","newSince":""},
 	{"topicId":22797,"target":"Customize_the_Default_Tabs_Menus_and_Toolbars_of_the_JBoss_Perspective","title":"Customize the Default Tabs, Menus and Toolbars of the JBoss Perspective","newSince":""},
