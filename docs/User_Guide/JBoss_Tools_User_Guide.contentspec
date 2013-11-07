@@ -148,6 +148,34 @@ Part: Tools for Creating Mobile Applications
       Change the Default Location for Saved Screen Captures [22861]
       Change the Default Settings for Weinre [22853]
 
+  Chapter: Hybrid Mobile Tools and CordovaSim (Technology Preview)
+    Section: Overview of Hybrid Mobile Tools and CordovaSim
+#      About AeroGear [24052]
+      About Apache Cordova [24055]
+      About Hybrid Mobile Tools [24051]
+      About CordovaSim [24054]
+      System Requirements for Hybrid Mobile Tools [24119]
+      System Requirements for CordovaSim [24056]
+      Install Hybrid Mobile Tools and CordovaSim [24053]
+    Section: Features of Hybrid Mobile Tools and CordovaSim
+      Features Overview [24381]
+      Create a Hybrid Mobile Project [24058]
+      Enable Cordova Plug-ins for an Application [24151]
+        [Refer-to:
+          Manage Cordova Settings in Platform Properties Mode [24297]]
+      Section: Manage Cordova Settings of a Hybrid Mobile Project [24059]
+        Manage Cordova Settings in Overview Mode [24298]
+        Manage Cordova Settings in Platform Properties Mode [24297]
+        Manage Cordova Settings in Icons &amp; Splash Screen Mode [24299]
+      Run a Hybrid Mobile Application on Devices and Simulators [24062]
+        [Refer-to:
+          System Requirements for Hybrid Mobile Tools [24119]]
+#      Use CordovaSim [24063]
+      Manage Hybrid Mobile Project Run Configurations [24169]
+      Export a Hybrid Mobile Project [24325]
+        [Refer-to:
+          System Requirements for Hybrid Mobile Tools [24119]]
+
 Part: Tools for Deployment and Maintenance
   Chapter: OpenShift Tools
     Section: Overview of OpenShift Tools
