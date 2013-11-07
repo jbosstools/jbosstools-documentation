@@ -108,18 +108,19 @@
 		</sectioninfo>
 		<title>Install JBoss Developer Studio via Script</title>
 		<para>
-			Scripts are available for installing JBoss&nbsp;Developer&nbsp;Studio. These remove the need to step through the universal installer GUI, enabling simplified repeat installations or installations in bulk.
+			Scripts can be used for installing JBoss&nbsp;Developer&nbsp;Studio. These remove the need to step through the universal installer GUI for ever installation, enabling simplified repeat installations or installations in bulk. The procedure below details how you can install JBoss&nbsp;Developer&nbsp;Studio stepping through the universal installer GUI once and then use a generated script for subsequent installations.
 		</para>
-		<para>
-			There are two methods for completing scripted installations. The first method requires you to install JBoss&nbsp;Developer&nbsp;Studio stepping through the universal installer GUI once and then use a generated script for subsequent installations. The second method requires you to download and run a script and then use a generated script for all installations. These different methods are detailed in the procedures below.
-		</para>
+		<!--<para>
+		There are two methods for completing scripted installations. The first method requires you to install JBoss&nbsp;Developer&nbsp;Studio stepping through the universal installer GUI once and then use a generated script for subsequent installations. The second method requires you to download and run a script and then use a generated script for all installations. These different methods are detailed in the procedures below.
+	</para>-->
 		<note>
 			<para>
 				To install JBoss&nbsp;Developer&nbsp;Studio using scripts, you must first download the universal installer <filename>.jar</filename> file. You can download the <filename>.jar</filename> file from <ulink url="https://access.redhat.com"/> on the Customer Portal website.
 			</para>
 		</note>
 		<procedure>
-			<title>Install Once and Use a Generated Script to Run Subsequent Installations</title>
+			<title>Install JBoss Developer Studio via Script</title>
+			<!--<title>Install Once and Use a Generated Script to Run Subsequent Installations</title>-->
 			<step>
 				<para>
 					To run the universal installer GUI, on the command line enter 
@@ -138,58 +139,58 @@
 				</note>
 			</step>
 		</procedure>
-		<procedure>
-			<title>Run a Script and Use a Generated Script to Run All Installations</title>
-			<step>
-				<para>
-					Download the shell script from the URL appropriate for your operating system:
-				</para>
-				<stepalternatives>
-					<step>
-						<para>
-							For Microsoft Windows operating systems, <ulink url="https://devstudio.jboss.com/usage/scripted-install/jbds-install.cmd"/>
-						</para>
-					</step>
-					<step>
-						<para>
-							For OS X and Linux-based operating systems, <ulink url="https://devstudio.jboss.com/usage/scripted-install/jbds-install.sh"/>
-						</para>
-					</step>
-				</stepalternatives>
-			</step>
-			<step>
-				<para>
-					To run the shell script, follow instructions appropriate to your operating system:
-				</para>
-				<stepalternatives>
-					<step>
-						<para>
-							For Microsoft Windows operating systems, on the command line enter 
-							<screen>jbds-install.cmd</screen>
-						</para>
-					</step>
-					<step>
-						<para>
-							For OS X and Linux-based operating systems, on the command line enter 
-							<screen>./jbds-install.sh</screen>
-						</para>
-					</step>
-				</stepalternatives>
-				<para>
-					This generates a machine-specific <filename>jbdevstudio-*.install.xml</filename> file.
-				</para>
-			</step>
-			<step>
-				<para>
-					To perform installations without stepping through the universal installer GUI, ensure the <filename>jbdevstudio-*.install.xml</filename> file is located in the same directory as the universal installer and on the command line enter 
-					<screen>java -jar jbdevstudio-*.jar jbdevstudio-*.install.xml</screen>
-				</para>
-				<note>
+		<!--<procedure>
+		<title>Run a Script and Use a Generated Script to Run All Installations</title>
+		<step>
+			<para>
+				Download the shell script from the URL appropriate for your operating system:
+			</para>
+			<stepalternatives>
+				<step>
 					<para>
-						The downloaded scripts specify a default Java developer kit to be used for installing JBoss&nbsp;Developer&nbsp;Studio: <filename>c:\progra~1\java\jre7\bin\java</filename> for Microsoft Windows operating systems and <filename>/usr/bin/java</filename> for OS X and Linux-based operating systems. To use a different Java developer kit, you must manually modify the downloaded script before running it to generate the <filename>jbdevstudio-*.install.xml</filename> file.
+						For Microsoft Windows operating systems, <ulink url="https://devstudio.jboss.com/usage/scripted-install/jbds-install.cmd"/>
 					</para>
-				</note>
-			</step>
-		</procedure>
+				</step>
+				<step>
+					<para>
+						For OS X and Linux-based operating systems, <ulink url="https://devstudio.jboss.com/usage/scripted-install/jbds-install.sh"/>
+					</para>
+				</step>
+			</stepalternatives>
+		</step>
+		<step>
+			<para>
+				To run the shell script, follow instructions appropriate to your operating system:
+			</para>
+			<stepalternatives>
+				<step>
+					<para>
+						For Microsoft Windows operating systems, on the command line enter 
+						<screen>jbds-install.cmd</screen>
+					</para>
+				</step>
+				<step>
+					<para>
+						For OS X and Linux-based operating systems, on the command line enter 
+						<screen>./jbds-install.sh</screen>
+					</para>
+				</step>
+			</stepalternatives>
+			<para>
+				This generates a machine-specific <filename>jbdevstudio-*.install.xml</filename> file.
+			</para>
+		</step>
+		<step>
+			<para>
+				To perform installations without stepping through the universal installer GUI, ensure the <filename>jbdevstudio-*.install.xml</filename> file is located in the same directory as the universal installer and on the command line enter 
+				<screen>java -jar jbdevstudio-*.jar jbdevstudio-*.install.xml</screen>
+			</para>
+			<note>
+				<para>
+					The downloaded scripts specify a default Java developer kit to be used for installing JBoss&nbsp;Developer&nbsp;Studio: <filename>c:\progra~1\java\jre7\bin\java</filename> for Microsoft Windows operating systems and <filename>/usr/bin/java</filename> for OS X and Linux-based operating systems. To use a different Java developer kit, you must manually modify the downloaded script before running it to generate the <filename>jbdevstudio-*.install.xml</filename> file.
+				</para>
+			</note>
+		</step>
+	</procedure>-->
 	</section>
 </appendix>
