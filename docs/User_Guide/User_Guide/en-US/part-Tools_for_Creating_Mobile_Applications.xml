@@ -7,4 +7,5 @@
 	<title>Tools for Creating Mobile Applications</title>
 	<xi:include href="chap-Mobile_Web_Tools.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	<xi:include href="chap-BrowserSim.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<xi:include href="chap-Hybrid_Mobile_Tools_and_CordovaSim_Technology_Preview.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </part>
