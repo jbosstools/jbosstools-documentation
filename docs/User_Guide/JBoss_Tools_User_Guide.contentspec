@@ -43,7 +43,7 @@ Part: Tools for Every Project
       View JBoss Central [22794]
       Access Project Wizards in JBoss Central [22800]
       Access Information in JBoss Central [22801]
-      Update Software in JBoss Central [22798]
+      Update Software in JBoss Central [22798, rev: 544558]
       Open the JBoss Perspective [22791]
       Manage JBoss Perspective [22796]
       View Cheat Sheets [22793]
@@ -64,9 +64,9 @@ Part: Tools for Every Project
       Create an Additional Server Runtime Environment [22810]
       Define an Additional Local Server [22813]
       Define a Remote Server [22817]
-      Manage Server Settings [22809]
-      Manage Server Settings in Overview Mode [22807]
-      Manage Server Settings in Deployment Mode [22812]
+      Section: Manage Server Settings [22809]
+        Manage Server Settings in Overview Mode [22807]
+        Manage Server Settings in Deployment Mode [22812]
     Section: Customizing JBoss Server Tools
       Customizing Overview [22814]
       Enable Runtime Detection on IDE Start [22816]
@@ -90,11 +90,10 @@ Part: Tools for Every Project
       Customizing Overview [22818]
       Customize the Forge Start [22820]
       Manage Forge Runtime Servers [22828]
-
-  Chapter: Maven Tools
-    Section: Overview of Maven Tools
-      About Maven [24024]
-      About Maven Tools [24023]
+#  Chapter: Maven Tools
+#    Section: Overview of Maven Tools
+#      About Maven [24024]
+#      About Maven Tools [24023]
 
 Part: Tools for Creating Web Interfaces
   Chapter: LiveReload Tools
@@ -148,9 +147,8 @@ Part: Tools for Creating Mobile Applications
       Change the Default Location for Saved Screen Captures [22861]
       Change the Default Settings for Weinre [22853]
 
-  Chapter: Hybrid Mobile Tools and CordovaSim (Technology Preview)
+  Chapter: Hybrid Mobile Tools and CordovaSim
     Section: Overview of Hybrid Mobile Tools and CordovaSim
-#      About AeroGear [24052]
       About Apache Cordova [24055]
       About Hybrid Mobile Tools [24051]
       About CordovaSim [24054]
@@ -190,9 +188,8 @@ Part: Tools for Deployment and Maintenance
       Manage SSH Keys [22876]
       Create a Domain [22880]
       Manage a Domain [22867]
-      Create and Deploy an Application on OpenShift [22871]
-      Deploy an Existing Application on OpenShift [22868]
+      Deploy a New or Existing Application on OpenShift [22871]
       Import a Deployed OpenShift Application into the IDE [22874]
-      Generate a server adapter for an application [22882]
+      Generate a Server Adapter for an Application [22882]
       View a Deployed Application and Associated Information [22875]
       Manage a Deployed Application [22873]

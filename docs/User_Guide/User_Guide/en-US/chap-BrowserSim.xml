@@ -135,6 +135,9 @@
 					</textobject>
 				</mediaobject>
 			</figure>
+			<para>
+				Runtime errors for simulated devices can be viewed in the <guilabel>Error Log</guilabel> tab. To open the <guilabel>Error Log</guilabel> tab, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>. Expand <guilabel>General</guilabel>, select <guilabel>Error Log</guilabel> and click <guibutton>OK</guibutton>.
+			</para>
 		</section>
 		<section id="Manage_Web_Applications_on_BrowserSim" remap="TID_22859">
 			<sectioninfo>
@@ -153,7 +156,7 @@
 					<term>Open a web link</term>
 					<listitem>
 						<para>
-							In the browser window, click the web link. The link opens in the browser windows of the simulated device.
+							In the browser window, click the web link. The link opens in the simulated device browser window.
 						</para>
 					</listitem>
 				</varlistentry>
@@ -188,6 +191,14 @@
 									<imagedata fileref="images/4101.png"/>
 								</imageobject>
 							</inlinemediaobject> at the end of the address bar.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Use simulated touch</term>
+					<listitem>
+						<para>
+							Right-click the simulated device and click <guimenu>Enable Touch Events</guimenu>. This option changes the cursor to a circle and returns mouse events in the simulated device browser window as touch events.
 						</para>
 					</listitem>
 				</varlistentry>
