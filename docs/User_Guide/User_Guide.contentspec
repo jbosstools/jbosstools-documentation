@@ -31,7 +31,7 @@ Revision History = [22789]
 
 [condition = jbds]
 Chapter: Introduction to Red Hat JBoss Developer Studio
-  Beta Product [21439, rev: 544059]
+  Beta Product [21439, rev: 551716]
   About Red Hat JBoss Developer Studio [22589]
   Use Cases of JBoss Developer Studio [22588]
 
@@ -45,7 +45,7 @@ Part: Tools for Every Project
       View JBoss Central [22794]
       Access Project Wizards in JBoss Central [22800]
       Access Information in JBoss Central [22801]
-      Update Software in JBoss Central [22798]
+      Update Software in JBoss Central [22798, rev: 544558]
       Open the JBoss Perspective [22791]
       Manage JBoss Perspective [22796]
       View Cheat Sheets [22793]
@@ -54,6 +54,7 @@ Part: Tools for Every Project
       Change the Behavior of JBoss Central on IDE Start [22799]
       Customize the Default Tabs, Menus and Toolbars of the JBoss Perspective [22797]
       Use Project Examples when Working Offline [22802]
+#      Install Software when Working Offline [22868]
       Set Cheat Sheet Behavior [22803]
 
   Chapter: JBoss Server Tools
@@ -107,6 +108,7 @@ Part: Tools for Creating Web Interfaces
       Configure the LiveReload Server [22835]
       View Resources in LiveReload-enabled Browsers [22837]
       View Resources in LiveReload-enabled BrowserSim [22834]
+#      View AsciiDoc Files in LiveReload-enabled Browsers [24052]
 
 Part: Tools for Creating Mobile Applications
   Chapter: Mobile Web Tools
@@ -151,7 +153,6 @@ Part: Tools for Creating Mobile Applications
   Chapter: Hybrid Mobile Tools and CordovaSim (Technology Preview)
     Technology Preview [23368, rev: 546549]
     Section: Overview of Hybrid Mobile Tools and CordovaSim
-#      About AeroGear [24052]
       About Apache Cordova [24055]
       About Hybrid Mobile Tools [24051]
       About CordovaSim [24054]
@@ -191,9 +192,8 @@ Part: Tools for Deployment and Maintenance
       Manage SSH Keys [22876]
       Create a Domain [22880]
       Manage a Domain [22867]
-      Create and Deploy an Application on OpenShift [22871]
-      Deploy an Existing Application on OpenShift [22868]
+      Deploy a New or Existing Application on OpenShift [22871]
       Import a Deployed OpenShift Application into the IDE [22874]
-      Generate a server adapter for an application [22882]
+      Generate a Server Adapter for an Application [22882]
       View a Deployed Application and Associated Information [22875]
       Manage a Deployed Application [22873]

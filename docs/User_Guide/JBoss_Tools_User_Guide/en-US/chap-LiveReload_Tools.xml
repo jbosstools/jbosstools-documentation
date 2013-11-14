@@ -206,7 +206,7 @@
 			</para>
 			<variablelist>
 				<varlistentry>
-					<term>View workspace resources on an external device</term>
+					<term>View workspace resources in a system browser</term>
 					<listitem>
 						<para>
 							In the <guilabel>Project Explorer</guilabel> tab, right-click the HTML file and click <guimenu>Open With</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu>.

@@ -5,7 +5,7 @@
 %BOOK_ENTITIES;
 ]>
 <bookinfo id="book-User_Guide-User_Guide">
-	<title>User Guide (Beta)</title>
+	<title>User Guide</title>
 	<subtitle>Information about using the plug-ins comprising JBoss Developer Studio</subtitle>
 	<productname>Red Hat JBoss Developer Studio</productname>
 	<productnumber>7.1</productnumber>
