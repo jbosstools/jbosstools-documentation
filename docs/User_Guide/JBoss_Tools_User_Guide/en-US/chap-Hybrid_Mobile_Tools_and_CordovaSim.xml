@@ -3,8 +3,8 @@
 <!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_User_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-<chapter id="chap-Hybrid_Mobile_Tools_and_CordovaSim_Technology_Preview">
-	<title>Hybrid Mobile Tools and CordovaSim (Technology Preview)</title>
+<chapter id="chap-Hybrid_Mobile_Tools_and_CordovaSim">
+	<title>Hybrid Mobile Tools and CordovaSim</title>
 	<section id="sect-Overview_of_Hybrid_Mobile_Tools_and_CordovaSim">
 		<title>Overview of Hybrid Mobile Tools and CordovaSim</title>
 		<section id="About_Apache_Cordova" remap="TID_24055">
@@ -615,7 +615,7 @@
 				</para>
 			</section>
 		</section>
-		<section id="Run_a_Hybrid_Mobile_Application_on_Android_Devices_and_Platform_Emulators" remap="TID_24062">
+		<section id="Run_a_Hybrid_Mobile_Application_on_Devices_and_Simulators" remap="TID_24062">
 			<sectioninfo>
 				<keywordset>
 					<keyword>
