@@ -94,7 +94,7 @@ maven-jdocbook-plugin 2.1.0-200803311251UTC-MPJDOCBOOK-8
     </profile> -->
 
 <!-- New Profile Information -->
-<profile>
+<!--<profile>
       <id>jboss.repository</id>
       <activation>
         <property>
@@ -158,7 +158,7 @@ maven-jdocbook-plugin 2.1.0-200803311251UTC-MPJDOCBOOK-8
             <enabled>true</enabled>
           </snapshots>
         </pluginRepository>
-        <pluginRepository>
+       <pluginRepository>
           <id>docbkx.snapshots</id>
           <name>Maven Plugin Snapshots</name>
           <url>http://docbkx-tools.sourceforge.net/snapshots/</url>
@@ -169,6 +169,8 @@ maven-jdocbook-plugin 2.1.0-200803311251UTC-MPJDOCBOOK-8
             <enabled>true</enabled>
           </snapshots>
         </pluginRepository>
+
+
 	<pluginRepository>
       <id>jboss-public-repository-group</id>
       <name>JBoss Public Repository Group</name>
@@ -189,13 +191,81 @@ maven-jdocbook-plugin 2.1.0-200803311251UTC-MPJDOCBOOK-8
        <activeByDefault>true</activeByDefault>
      </activation>
 
-      <properties>
+      <properties>-->
         <!-- This must point to the svn checkout of https://svn.jboss.org/repos/repository.jboss.com/maven2 -->
-        <maven.repository.root>${user.home}/repositories/repository.jboss.org/maven2</maven.repository.root>
+        <!--<maven.repository.root>${user.home}/repositories/repository.jboss.org/maven2</maven.repository.root>
       </properties>
+    </profile>-->
+
+
+<!--Bold attempt at new profile to fix Nov 2013 jenkins build issues TOOLSDOC-429 -->
+
+  <profile>
+      <id>jboss-public-repository</id>
+      <repositories>
+        <repository>
+          <id>jboss-public-repository</id>
+          <name>JBoss Public</name>
+          <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+          <layout>default</layout>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+            <updatePolicy>never</updatePolicy>
+          </snapshots>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>jboss-public-repository</id>
+          <name>JBoss Public</name>
+          <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+          <layout>default</layout>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+            <updatePolicy>never</updatePolicy>
+          </snapshots>
+        </pluginRepository>
+      </pluginRepositories>
     </profile>
 
+    <profile>
+      <id>jboss.repository</id>
+      <activation>
+        <property>
+          <name>!jboss.repository.off</name>
+        </property>
+      </activation>
+      <repositories>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>docbkx.snapshots</id>
+          <name>Maven Plugin Snapshots</name>
+          <url>http://docbkx-tools.sourceforge.net/snapshots/</url>
+          <releases>
+            <enabled>false</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>  
   </profiles>
+
+  <activeProfiles>
+  	  <activeProfile>jboss.repository</activeProfile>
+	  <activeProfile>jboss-public-repository</activeProfile>
+  </activeProfiles>
+
 
 <!-- For use with old profile only -->
 
