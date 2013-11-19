@@ -296,7 +296,7 @@
 				</varlistentry>
 			</variablelist>
 		</section>
-		<section id="Update_Software_in_JBoss_Central" remap="TID_22798">
+		<section id="Install_Software_in_JBoss_Central" remap="TID_22798">
 			<sectioninfo>
 				<keywordset>
 					<keyword>
@@ -304,9 +304,9 @@
 					</keyword>
 				</keywordset>
 			</sectioninfo>
-			<title>Update Software in JBoss Central</title>
+			<title>Install Software in JBoss Central</title>
 			<para>
-				JBoss Central enables you to install and update a range of IDE plug-ins. The available plug-ins comprise JBoss and third party plug-ins that have been specifically tested for use with the IDE. These plug-ins include ones for web and mobile development, source control management, testing and Maven.
+				JBoss Central enables you to install and update a range of IDE plug-ins. The available plug-ins comprise JBoss and third-party plug-ins that have been specifically tested for use with the IDE. These plug-ins include ones for web and mobile development, source control management, testing and Maven.
 			</para>
 			<para>
 				For all actions listed below, open the <guilabel>JBoss Central</guilabel> tab and select the <guilabel>Software/Update</guilabel> page.
@@ -725,7 +725,7 @@
 			</sectioninfo>
 			<title>Use Project Examples when Working Offline</title>
 			<para>
-				When a project wizard in JBoss Central is used, the IDE searches online respositories for the most recent versions of project dependencies. JBoss Central provides a feature that enables you to create a cache of the necessary project dependencies when you are online so that you can still use the project wizards offline. As detailed below, this is achieved by first creating the cache and then informing the IDE to use that cache.
+				When a project wizard in JBoss Central is used, the IDE searches online repositories for the most recent versions of project dependencies. JBoss Central provides a feature that enables you to create a cache of the necessary project dependencies when you are online so that you can still use the project wizards offline. As detailed below, this is achieved by first creating the cache and then informing the IDE to use that cache.
 			</para>
 			<important>
 				<para>
@@ -746,6 +746,76 @@
 			<para>
 				To inform the IDE to use the cache for the project example wizards, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Project Examples</guilabel> and select <guilabel>Offline Support</guilabel>. Select the <guilabel>Enable offline mode for project examples</guilabel> check box. Ensure the correct cache location is specified in the <guilabel>Offline directory</guilabel> field. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.
 			</para>
+		</section>
+		<section id="Install_Software_when_Working_Offline" remap="TID_22868">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Install Software when Working Offline</title>
+			<para>
+				You can install the JBoss and third-party plug-ins listed in JBoss Central in offline mode using the JBoss Central <filename>.zip</filename> file, as detailed below. This feature is useful if you are installing these auxiliary plug-ins in a number of JBoss&nbsp;Developer&nbsp;Studio installations as it removes the need to repeatedly download the same plug-ins.
+			</para>
+			<para>
+				Note that the <filename>.zip</filename> file is a snapshot of the plug-ins at the time of the given JBoss&nbsp;Developer&nbsp;Studio release and updated versions of the plug-ins must be installed from JBoss Central in online mode.
+			</para>
+			<procedure>
+				<title>Install from JBoss Central <filename>.zip</filename> File</title>
+				<note>
+					<para>
+						To install JBoss and third-party plug-ins in offline mode, you must first download the JBoss Central <filename>.zip</filename> file. <phrase>You can download the JBoss Central <filename>.zip</filename> file from <ulink url="https://access.redhat.com"/> on the Customer Portal or <ulink url="https://devstudio.jboss.com/earlyaccess/"/> on the JBoss&nbsp;Developer&nbsp;Studio early access website.</phrase>
+					</para>
+				</note>
+				<step>
+					<para>
+						Click <guimenu>Help</guimenu>&rarr;<guimenu>Install New Software</guimenu>.
+					</para>
+				</step>
+				<step>
+					<para>
+						In the <guilabel>Work with</guilabel> field, enter the path of the JBoss Central <filename>.zip</filename> file. Alternatively, click <guibutton>Add</guibutton> and click <guibutton>Archive</guibutton> to locate the file.
+					</para>
+					<figure>
+						<title>Work from a Local Copy of the JBoss Central <filename>.zip</filename> File</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4229.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>In the <guilabel>Work with</guilabel> field, enter the path of the JBoss Central <filename>.zip</filename> file. Alternatively, click <guibutton>Add</guibutton> and click <guibutton>Archive</guibutton> to locate the file.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
+				</step>
+				<step>
+					<para>
+						From the table of components, select the software to be installed and click <guibutton>Next</guibutton>.
+					</para>
+				</step>
+				<step>
+					<para>
+						Review the details of the items listed for install and click <guibutton>Next</guibutton>.
+					</para>
+				</step>
+				<step>
+					<para>
+						After reading and agreeing to the license(s), click <guilabel>I accept the terms of the license agreement(s)</guilabel> and click <guibutton>Finish</guibutton>. The <guilabel>Installing Software</guilabel> window opens and reports the progress of the installation.
+					</para>
+				</step>
+				<step>
+					<para>
+						During the installation process you may receive warnings about installing unsigned content. If this is the case, review the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.
+					</para>
+				</step>
+				<step>
+					<para>
+						Once installing is complete, you are prompted to restart the IDE. Click <guibutton>Yes</guibutton> to restart now and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that changes do not take effect until the IDE is restarted.
+					</para>
+				</step>
+			</procedure>
 		</section>
 		<section id="Set_Cheat_Sheet_Behavior" remap="TID_22803">
 			<sectioninfo>

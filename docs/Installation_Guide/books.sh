@@ -26,7 +26,7 @@ function pubmake {
 	csprocessor build 22435 --flatten
 	unzip Installation_Guide.zip
 	rm Installation_Guide.zip	
-	sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Installation_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Installation_Guide/en-US/Author_Group.xml
+	#sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Installation_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Installation_Guide/en-US/Author_Group.xml
 	
 	#build publican version
 	echo '[INFO] Building publican version'
@@ -58,7 +58,7 @@ function mvnmake {
 	csprocessor build 22435 --flatten --format jDocBook --hide-bug-links
 	unzip Installation_Guide.zip
 	rm Installation_Guide.zip
-	sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Installation_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Installation_Guide/en-US/Author_Group.xml
+	#sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Installation_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Installation_Guide/en-US/Author_Group.xml
 	
 	#build mvn version
 	echo '[INFO] Building maven version'

@@ -27,7 +27,7 @@ function pubmake {
 	csprocessor build 22443 --flatten --hide-bug-links
 	unzip User_Guide.zip
 	rm User_Guide.zip	
-	sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' User_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' User_Guide/en-US/Author_Group.xml
+	#sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' User_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' User_Guide/en-US/Author_Group.xml
 	
 	#build publican version
 	echo '[INFO] Building publican version'
@@ -59,7 +59,7 @@ function mvnmake {
 	csprocessor build 22477 --flatten --format jDocBook --hide-bug-links
 	unzip JBoss_Tools_User_Guide.zip
 	rm JBoss_Tools_User_Guide.zip	
-	sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' JBoss_Tools_User_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' JBoss_Tools_User_Guide/en-US/Author_Group.xml
+	#sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' JBoss_Tools_User_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' JBoss_Tools_User_Guide/en-US/Author_Group.xml
 	
 	#build publican version
 	echo '[INFO] Building maven version'
