@@ -5,26 +5,6 @@
 ]>
 <chapter id="chap-Introduction_to_Red_Hat_JBoss_Developer_Studio">
 	<title>Introduction to Red Hat JBoss Developer Studio</title>
-	<section id="Beta_Product" remap="TID_21439">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JDG 6.2
-				</keyword>
-			</keywordset>
-		</sectioninfo>
-		<title>Beta Product</title>
-		<warning>
-			<para>
-				This guide is for the beta release of the product. Beta releases are provided as a preview of the software and are not supported in production. This beta release is provided without security support. Red Hat has not audited the product for security vulnerabilities, and known vulnerabilities may not be resolved in this release. Security patches will not be provided for vulnerabilities that affect this release. This release must not be used in a production environment, or any other security-sensitive environment.
-			</para>
-		</warning>
-		<note>
-			<para>
-				This guide is a beta version of the documentation and might not yet cover all of the expected features of the final product.
-			</para>
-		</note>
-	</section>
 	<section id="About_Red_Hat_JBoss_Developer_Studio1" remap="TID_22589">
 		<sectioninfo>
 			<keywordset>

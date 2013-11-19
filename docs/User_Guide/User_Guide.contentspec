@@ -26,12 +26,13 @@ JIRAComponent = User Guide
 # Output Style =
 Feedback = [23618]
 Revision History = [22789]
+Author Group = [24063, rev: 556627]
 # Indentation is meaningful. Use 2 spaces.
 #[Writer=mmurray, JBDS User Guide, JBDS 7.1.z]
 
 [condition = jbds]
 Chapter: Introduction to Red Hat JBoss Developer Studio
-  Beta Product [21439, rev: 551716]
+#  Beta Product [21439, rev: 551716]
   About Red Hat JBoss Developer Studio [22589]
   Use Cases of JBoss Developer Studio [22588]
 
@@ -45,7 +46,7 @@ Part: Tools for Every Project
       View JBoss Central [22794]
       Access Project Wizards in JBoss Central [22800]
       Access Information in JBoss Central [22801]
-      Update Software in JBoss Central [22798, rev: 544558]
+      Install Software in JBoss Central [22798]
       Open the JBoss Perspective [22791]
       Manage JBoss Perspective [22796]
       View Cheat Sheets [22793]
@@ -54,7 +55,7 @@ Part: Tools for Every Project
       Change the Behavior of JBoss Central on IDE Start [22799]
       Customize the Default Tabs, Menus and Toolbars of the JBoss Perspective [22797]
       Use Project Examples when Working Offline [22802]
-#      Install Software when Working Offline [22868]
+      Install Software when Working Offline [22868]
       Set Cheat Sheet Behavior [22803]
 
   Chapter: JBoss Server Tools
@@ -172,7 +173,6 @@ Part: Tools for Creating Mobile Applications
       Run a Hybrid Mobile Application on Devices and Simulators [24062]
         [Refer-to:
           System Requirements for Hybrid Mobile Tools [24119]]
-#      Use CordovaSim [24063]
       Manage Hybrid Mobile Project Run Configurations [24169]
       Export a Hybrid Mobile Project [24325]
         [Refer-to:
