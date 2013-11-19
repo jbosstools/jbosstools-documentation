@@ -26,6 +26,7 @@ JIRAComponent = User Guide
 # Output Style =
 Legal Notice = [23596]
 Feedback = [23618]
+Author Group = [24063, rev: 556627]
 # Revision History = [22789]
 # Indentation is meaningful. Use 2 spaces.
 #Chapter: Introduction to Red Hat JBoss Developer Studio
@@ -43,7 +44,7 @@ Part: Tools for Every Project
       View JBoss Central [22794]
       Access Project Wizards in JBoss Central [22800]
       Access Information in JBoss Central [22801]
-      Update Software in JBoss Central [22798, rev: 544558]
+      Install Software in JBoss Central [22798]
       Open the JBoss Perspective [22791]
       Manage JBoss Perspective [22796]
       View Cheat Sheets [22793]
@@ -52,6 +53,7 @@ Part: Tools for Every Project
       Change the Behavior of JBoss Central on IDE Start [22799]
       Customize the Default Tabs, Menus and Toolbars of the JBoss Perspective [22797]
       Use Project Examples when Working Offline [22802]
+      Install Software when Working Offline [22868]
       Set Cheat Sheet Behavior [22803]
 
   Chapter: JBoss Server Tools

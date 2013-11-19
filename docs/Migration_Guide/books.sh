@@ -26,7 +26,7 @@ function pubmake {
 	csprocessor build 22436 --flatten
 	unzip Migration_Guide.zip
 	rm Migration_Guide.zip	
-	sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Migration_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Migration_Guide/en-US/Author_Group.xml
+	#sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Migration_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Migration_Guide/en-US/Author_Group.xml
 	
 	#build publican version
 	echo '[INFO] Building publican version'
@@ -58,7 +58,7 @@ function mvnmake {
 	csprocessor build 22436 --flatten --format jDocBook --hide-bug-links
 	unzip Migration_Guide.zip
 	rm Migration_Guide.zip
-	sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Migration_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Migration_Guide/en-US/Author_Group.xml
+	#sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Migration_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Migration_Guide/en-US/Author_Group.xml
 	
 	#build mvn version
 	echo '[INFO] Building maven version'

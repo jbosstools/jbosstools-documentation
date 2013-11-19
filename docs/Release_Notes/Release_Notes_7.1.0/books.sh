@@ -26,7 +26,7 @@ function pubmake {
 	csprocessor build 22485 --flatten
 	unzip Release_Notes_7.1.0.zip
 	rm Release_Notes_7.1.0.zip	
-	sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Release_Notes_7.1.0/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Release_Notes_7.1.0/en-US/Author_Group.xml
+	#sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Release_Notes_7.1.0/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Release_Notes_7.1.0/en-US/Author_Group.xml
 	
 	#build publican version
 	echo '[INFO] Building publican version'
@@ -58,7 +58,7 @@ function mvnmake {
 	csprocessor build 22485 --flatten --format jDocBook --hide-bug-links
 	unzip Release_Notes_7.1.0.zip
 	rm Release_Notes_7.1.0.zip
-	sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Release_Notes_7.1.0/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Release_Notes_7.1.0/en-US/Author_Group.xml
+	#sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' Release_Notes_7.1.0/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' Release_Notes_7.1.0/en-US/Author_Group.xml
 	
 	#build mvn version
 	echo '[INFO] Building maven version'
