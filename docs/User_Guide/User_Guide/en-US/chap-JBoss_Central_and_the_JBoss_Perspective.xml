@@ -836,7 +836,7 @@
 				<title>Set Cheat Sheet Behavior in Project Examples Pane of Preferences Window</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata fileref="images/3972.png"/>
+						<imagedata fileref="images/4269.png"/>
 					</imageobject>
 					<textobject>
 						<phrase>To customize the action, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>Project Examples</guilabel>. From the <guilabel>Show included cheat sheet(s) when importing a project</guilabel> list, click one of the options. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</phrase>
