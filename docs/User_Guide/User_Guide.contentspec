@@ -197,3 +197,6 @@ Part: Tools for Deployment and Maintenance
       Generate a Server Adapter for an Application [22882]
       View a Deployed Application and Associated Information [22875]
       Manage a Deployed Application [22873]
+    Section: Customizing OpenShift Tools
+      Customizing Overview [25166]
+      Change the Time Out Behavior of OpenShift Requests [25165]
