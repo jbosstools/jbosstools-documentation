@@ -1196,4 +1196,43 @@
 			</variablelist>
 		</section>
 	</section>
+	<section id="sect-Customizing_OpenShift_Tools">
+		<title>Customizing OpenShift Tools</title>
+		<section id="Customizing_Overview5" remap="TID_25166">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Customizing Overview</title>
+			<para>
+				The aim of this section is to guide you in customizing OpenShift Tools:
+			</para>
+			<itemizedlist>
+				<listitem>
+					<para>
+						Specify the time out behavior for OpenShift requests
+					</para>
+				</listitem>
+			</itemizedlist>
+		</section>
+		<section id="Change_the_Time_Out_Behavior_of_OpenShift_Requests" remap="TID_25165">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Change the Time Out Behavior of OpenShift Requests</title>
+			<para>
+				You may find that some requests made to OpenShift require a long time to complete and do not finish within the default time out limit. For example, some of the OpenShift quickstarts take a long time to checkout the associated large source code. To resolve the time out restriction, you can modify the default time out limit to meet your requirements.
+			</para>
+			<para>
+				To modify the time out limit, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>OpenShift</guilabel>. In the <guilabel>Remote requests timeout</guilabel> field, type the required time out limit in seconds. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
+			</para>
+		</section>
+	</section>
 </chapter>

@@ -111,6 +111,8 @@ pressgang_website_callback([
 	{"topicId":24058,"target":"Create_a_Hybrid_Mobile_Project","title":"Create a Hybrid Mobile Project","newSince":""},
 	{"topicId":24063,"target":"Use_CordovaSim","title":"Author Group","newSince":""},
 	{"topicId":24062,"target":"Run_a_Hybrid_Mobile_Application_on_Devices_and_Simulators","title":"Run a Hybrid Mobile Application on Devices and Simulators","newSince":""},
+	{"topicId":25166,"target":"Customizing_Overview5","title":"Customizing Overview","newSince":""},
+	{"topicId":25165,"target":"Change_the_Time_Out_Behavior_of_OpenShift_Requests","title":"Change the Time Out Behavior of OpenShift Requests","newSince":""},
 	{"topicId":24298,"target":"Manage_Cordova_Settings_in_Overview_Mode","title":"Manage Cordova Settings in Overview Mode","newSince":""},
 	{"topicId":24299,"target":"Manage_Cordova_Settings_in_Icons_amp_Splash_Screen_Mode","title":"Manage Cordova Settings in Icons &amp; Splash Screen Mode","newSince":""},
 	{"topicId":24297,"target":"Manage_Cordova_Settings_in_Platform_Properties_Mode","title":"Manage Cordova Settings in Platform Properties Mode","newSince":""}]);
