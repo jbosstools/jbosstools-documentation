@@ -170,7 +170,6 @@ Part: Tools for Creating Mobile Applications
       Run a Hybrid Mobile Application on Devices and Simulators [24062]
         [Refer-to:
           System Requirements for Hybrid Mobile Tools [24119]]
-#      Use CordovaSim [24063]
       Manage Hybrid Mobile Project Run Configurations [24169]
       Export a Hybrid Mobile Project [24325]
         [Refer-to:
@@ -195,3 +194,6 @@ Part: Tools for Deployment and Maintenance
       Generate a Server Adapter for an Application [22882]
       View a Deployed Application and Associated Information [22875]
       Manage a Deployed Application [22873]
+    Section: Customizing OpenShift Tools
+      Customizing Overview [25166]
+      Change the Time Out Behavior of OpenShift Requests [25165]
