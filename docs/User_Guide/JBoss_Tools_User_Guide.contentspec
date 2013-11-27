@@ -51,7 +51,7 @@ Part: Tools for Every Project
     Section: Customizing JBoss Central and the JBoss Perspective
       Customizing Overview [22792]
       Change the Behavior of JBoss Central on IDE Start [22799]
-      Customize the Default Tabs, Menus and Toolbars of the JBoss Perspective [22797]
+      Customize the Default Views, Menus and Toolbars of the JBoss Perspective [22797]
       Use Project Examples when Working Offline [22802]
       Install Software when Working Offline [22868]
       Set Cheat Sheet Behavior [22803]
@@ -62,18 +62,18 @@ Part: Tools for Every Project
     Section: Features of JBoss Server Tools
       Features Overview [22815]
       Download a JBoss Community Application Server [23487]
-      Define a Local Server with Runtime Detection [22808]
+      Create a Default Local Server Definition with Runtime Detection [22808]
       Create an Additional Server Runtime Environment [22810]
       Define an Additional Local Server [22813]
       Define a Remote Server [22817]
       Section: Manage Server Settings [22809]
-        Manage Server Settings in Overview Mode [22807]
-        Manage Server Settings in Deployment Mode [22812]
+        Manage Server Settings in the Overview Tab [22807]
+        Manage Server Settings in the Deployment Tab [22812]
     Section: Customizing JBoss Server Tools
       Customizing Overview [22814]
       Enable Runtime Detection on IDE Start [22816]
       Set a Default Server [22811]
-      Default Filesets [22805]
+      Default File Sets [22805]
       Default Classpath Entries [22804]
 
   Chapter: Forge Tools

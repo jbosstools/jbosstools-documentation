@@ -17,10 +17,10 @@
 			</sectioninfo>
 			<title>About JBoss Central</title>
 			<para>
-				JBoss Central is a core IDE tab, providing access to JBoss information and assistance in one centralized location. It offers features for first time users of <phrase>JBoss Tools</phrase>, as well as those with more experience.
+				JBoss Central is a core IDE view, providing access to JBoss information and assistance in one centralized location. It offers features for first time users of <phrase>JBoss Tools</phrase>, as well as those with more experience.
 			</para>
 			<para>
-				The JBoss Central tab comprises resources and actions for creating new projects, learning about the tools and installing software updates: 
+				The JBoss Central view comprises resources and actions for creating new projects, learning about the tools and installing software updates: 
 				<itemizedlist>
 					<listitem>
 						<para>
@@ -55,14 +55,14 @@
 			</sectioninfo>
 			<title>About the JBoss Perspective</title>
 			<para>
-				JBoss is a key IDE perspective, giving easy access to useful tabs and actions when developing applications with JBoss technologies. The perspective consists of a default set of tabs, menus and toolbars.
+				JBoss is a key IDE perspective, giving easy access to useful views and actions when developing applications with JBoss technologies. The perspective consists of a default set of views, menus and toolbars.
 			</para>
 			<variablelist>
 				<varlistentry>
-					<term>Tabs</term>
+					<term>Views</term>
 					<listitem>
 						<para>
-							The default tabs of the JBoss perspective are OpenShift Explorer, Outline, Package Explorer, Palette, Problems, Project Explorer, Properties, and Servers. These tabs are vital when developing with JBoss technologies.
+							The default views of the JBoss perspective are JBoss Central, OpenShift Explorer, Outline, Package Explorer, Palette, Problems, Project Explorer, Properties, and Servers. These views are vital when developing with JBoss technologies.
 						</para>
 					</listitem>
 				</varlistentry>
@@ -70,7 +70,7 @@
 					<term>Menus</term>
 					<listitem>
 						<para>
-							The default menus of the JBoss perspective are File, Edit, Navigate, Search, Project, Run, Window, Help. These are shared with other perspectives but contain unique menu items for actions such as starting project wizards, converting line delimiters, showing items in JBoss perspective tabs, generating Javadoc, building packages, accessing JBoss Central and cheat sheets, and reporting problems with tools.
+							The default menus of the JBoss perspective are File, Edit, Navigate, Search, Project, Run, Window, Help. These are shared with other perspectives but contain unique menu items for actions such as starting project wizards, converting line delimiters, showing items in JBoss perspective views, generating Javadoc, building packages, accessing JBoss Central and cheat sheets, and reporting problems with tools.
 						</para>
 					</listitem>
 				</varlistentry>
@@ -78,7 +78,7 @@
 					<term>Toolbars</term>
 					<listitem>
 						<para>
-							The default toolbars that compose the global toolbar of the JBoss perspective are BrowserSim, Debug, File, Help, Java EE, Java Element Creation, JBoss Tools WTP Server Actions, JPA Element Creation, Launch, Navigate, Search, Select Maven Profiles, and Web Browser. The global toolbar provides access to frequently used actions.
+							The default toolbars that compose the global toolbar of the JBoss perspective are BrowserSim, Debug, File, Help, Java EE, Java Element Creation, JBoss Tools WTP Server Actions, Launch, Navigate, Search, Select Maven Profiles, and Web Browser. The global toolbar provides access to frequently used actions.
 						</para>
 					</listitem>
 				</varlistentry>
@@ -112,7 +112,7 @@
 				</listitem>
 				<listitem>
 					<para>
-						Open the JBoss perspective for easy access to key tabs, menus and toolbars
+						Open the JBoss perspective for easy access to key views, menus and toolbars
 					</para>
 				</listitem>
 				<listitem>
@@ -133,10 +133,10 @@
 			</sectioninfo>
 			<title>View JBoss Central</title>
 			<para>
-				The <guilabel>JBoss Central</guilabel> tab provides resources for getting started and updating software.
+				JBoss Central provides resources for getting started with application development and installing auxiliary IDE software.
 			</para>
 			<para>
-				To open the <guilabel>JBoss Central</guilabel> tab, click the <guibutton>JBoss Central</guibutton> icon 
+				To open the <guilabel>JBoss Central</guilabel> view, click the <guibutton>JBoss Central</guibutton> icon 
 				<inlinemediaobject>
 					<imageobject>
 						<imagedata fileref="images/3989.png"/>
@@ -144,7 +144,7 @@
 				</inlinemediaobject>. Alternatively, click <guimenu>Help</guimenu>&rarr;<guimenu>JBoss Central</guimenu>.
 			</para>
 			<para>
-				To maximize the <guilabel>JBoss Central</guilabel> tab, double-click the name of the <guibutton>JBoss Central</guibutton> tab. The <guilabel>JBoss Central</guilabel> tab fills the whole IDE window. Double-click the name of the <guibutton>JBoss Central</guibutton> tab to reduce the size of the tab again. These actions work for all IDE tabs.
+				To maximize the <guilabel>JBoss Central</guilabel> view such that it fills the IDE window, double-click the <guibutton>JBoss Central</guibutton> view label. To reduce the <guibutton>JBoss Central</guibutton> view to its smaller size, double-click the <guibutton>JBoss Central</guibutton> view label again. These maximizing and minimizing actions work for all IDE views.
 			</para>
 		</section>
 		<section id="Access_Project_Wizards_in_JBoss_Central" remap="TID_22800">
@@ -157,11 +157,14 @@
 			</sectioninfo>
 			<title>Access Project Wizards in JBoss Central</title>
 			<para>
-				JBoss Central provides access to wizards for generating projects. There are two types of project wizards available in JBoss Central: 
-				<itemizedlist>
+				JBoss Central provides access to wizards for generating projects. There are two types of project wizards available in JBoss Central: <guilabel>Start from scratch</guilabel> and <guilabel>Start from a sample</guilabel>.
+			</para>
+			<variablelist>
+				<varlistentry>
+					<term><guilabel>Start from scratch</guilabel></term>
 					<listitem>
 						<para>
-							The <guilabel>Start from scratch</guilabel> wizards create the same project using different underlying technology, as started in the project name. To view a project summary, hover the cursor over a project wizard. If you do not have the necessary plug-in installed to use a wizard, you will be prompted to install it when you select the wizard.
+							These wizards create the same project using different underlying technology, as started in the project name. To view a project summary, hover the cursor over a project wizard. If you do not have the necessary plug-in installed to use a wizard, you are prompted to install it when you click the wizard.
 						</para>
 						<figure>
 							<title>Start from Scratch Wizards</title>
@@ -175,9 +178,12 @@
 							</mediaobject>
 						</figure>
 					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term><guilabel>Start from a sample</guilabel></term>
 					<listitem>
 						<para>
-							The <guilabel>Start from a sample</guilabel> wizards create sample web, mobile, back-end and portal applications. To view a project summary, hover the cursor over a project wizard.
+							These wizards create sample web, mobile, back-end and portal applications. To view a project summary, hover the cursor over a project wizard.
 						</para>
 						<figure>
 							<title>Start from Sample Wizards</title>
@@ -191,13 +197,13 @@
 							</mediaobject>
 						</figure>
 					</listitem>
-				</itemizedlist>
+				</varlistentry>
+			</variablelist>
+			<para>
+				To create a project from one of the wizards, in the <guilabel>JBoss Central</guilabel> view select the <guilabel>Getting Started</guilabel> tab. Click one of the links below <guilabel>Start from scratch</guilabel> or <guilabel>Start from a sample</guilabel>. Alternatively, click <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu> and select a project from the list. A wizard opens to guide you through the process of creating the project.
 			</para>
 			<para>
-				To create a project from one of the wizards, in the <guilabel>JBoss Central</guilabel> tab select the <guilabel>Getting Started</guilabel> page. Click on one of the links below <guilabel>Start from scratch</guilabel> or <guilabel>Start from a sample</guilabel>. Alternatively, click <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu> and select a project from the list. A wizard opens to guide you through the process of creating the project.
-			</para>
-			<para>
-				Additionally, access is provided to the comprehensive TicketMonster tutorial, part of JBoss Developer Framework, that guides you through developing a complex web application utilizing JBoss technologies from within the IDE. To view the tutorial, in the <guilabel>JBoss Central</guilabel> tab select the <guilabel>Getting Started</guilabel> page and click the <guibutton>Open the Ticket Monster tutorial</guibutton> button. The JBoss Developer Framework website will open in the default browser of the IDE.
+				Additionally, access is provided to the comprehensive TicketMonster tutorial, part of JBoss Developer Framework. The tutorial guides you through developing a complex web application utilizing JBoss technologies from within the IDE. To view the tutorial, in the <guilabel>JBoss Central</guilabel> view select the <guilabel>Getting Started</guilabel> tab and click the <guilabel>TicketMonster</guilabel> link. The JBoss Developer Framework website opens in the default IDE browser.
 			</para>
 			<figure>
 				<title>Access the TicketMonster Tutorial</title>
@@ -206,7 +212,7 @@
 						<imagedata fileref="images/3958.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>Access is provided to the comprehensive TicketMonster tutorial, part of JBoss Developer Framework, that guides you through developing a complex web application utilizing JBoss technologies from within the IDE. To view the tutorial, in the <guilabel>JBoss Central</guilabel> tab select the <guilabel>Getting Started</guilabel> page and click the <guibutton>Open the Ticket Monster tutorial</guibutton> button.</phrase>
+						<phrase>Access is provided to the comprehensive TicketMonster tutorial, part of JBoss Developer Framework. The tutorial guides you through developing a complex web application utilizing JBoss technologies from within the IDE. To view the tutorial, in the <guilabel>JBoss Central</guilabel> view select the <guilabel>Getting Started</guilabel> tab and click the <guilabel>TicketMonster</guilabel> link.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
@@ -221,14 +227,14 @@
 			</sectioninfo>
 			<title>Access Information in JBoss Central</title>
 			<para>
-				JBoss Central provides easy access to JBoss and developer information. Each of the information sources listed below are web-based and, depending on the web browser preferences you have set for the IDE, clicking on links results in an internal or external browser window opening.
+				JBoss Central provides easy access to JBoss and developer information. Each of the information sources listed below are web-based and, depending on the IDE default browser setting, clicking on links results in an internal or external browser window opening.
 			</para>
 			<variablelist>
 				<varlistentry>
-					<term>View JBoss <phrase>Tools</phrase> website</term>
+					<term>View the JBoss <phrase>Tools</phrase> website</term>
 					<listitem>
 						<para>
-							In the <guilabel>JBoss Central</guilabel> tab, click the <phrase><guibutton>JBoss Tools Home</guibutton></phrase> icon 
+							In the <guilabel>JBoss Central</guilabel> view, click the <phrase><guibutton>JBoss Tools Home</guibutton></phrase> icon 
 							<inlinemediaobject>
 								<imageobject>
 									<imagedata fileref="images/3975.png"/>
@@ -241,7 +247,12 @@
 					<term>View the latest JBoss developments</term>
 					<listitem>
 						<para>
-							In the <guilabel>JBoss Central</guilabel> tab, select the <guilabel>Getting Started</guilabel> page and click the links under <guilabel>JBoss Buzz</guilabel>. To see previews of the blog posts, hover the cursor over these links. To view a complete list of JBoss blog posts, click the <guibutton>JBoss Buzz</guibutton> button. JBoss blog posts are available to follow as RSS feeds or with Twitter. To review these options, click the <guibutton>News</guibutton> or <guibutton>Twitter</guibutton> icons.
+							In the <guilabel>JBoss Central</guilabel> view, select the <guilabel>Getting Started</guilabel> tab and click the links under <guilabel>JBoss Buzz</guilabel>. To see previews of the blog posts, hover the cursor over these links. To view a complete list of JBoss blog posts, click the <guibutton>JBoss Buzz</guibutton> button 
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="images/4272.png"/>
+								</imageobject>
+							</inlinemediaobject>. JBoss blog posts are available to follow as RSS feeds or with Twitter. To review these options, click the <guibutton>News</guibutton> or <guibutton>Twitter</guibutton> icons.
 						</para>
 						<figure>
 							<title>JBoss Buzz</title>
@@ -250,7 +261,7 @@
 									<imagedata fileref="images/4228.png"/>
 								</imageobject>
 								<textobject>
-									<phrase>In the <guilabel>JBoss Central</guilabel> tab, select the <guilabel>Getting Started</guilabel> page and click the links under <guilabel>JBoss Buzz</guilabel>. To see previews of the blog posts, hover the cursor over these links. To view a complete list of JBoss blog posts, click the <guibutton>JBoss Buzz</guibutton> button.</phrase>
+									<phrase>In the <guilabel>JBoss Central</guilabel> view, select the <guilabel>Getting Started</guilabel> tab and click the links under <guilabel>JBoss Buzz</guilabel>. To see previews of the blog posts, hover the cursor over these links. To view a complete list of JBoss blog posts, click the <guibutton>JBoss Buzz</guibutton> button.</phrase>
 								</textobject>
 							</mediaobject>
 						</figure>
@@ -260,7 +271,7 @@
 					<term>View JBoss developer information sources</term>
 					<listitem>
 						<para>
-							In the <guilabel>JBoss Central</guilabel> tab, select the <guilabel>Getting Started</guilabel> page and click the links under <guilabel>Other resources</guilabel>. These links provide access to videos, documentation and forums.
+							In the <guilabel>JBoss Central</guilabel> view, select the <guilabel>Getting Started</guilabel> tab and click the links under <guilabel>Other resources</guilabel>. These links provide access to videos, documentation and forums.
 						</para>
 						<figure>
 							<title>Other Resources</title>
@@ -269,32 +280,37 @@
 									<imagedata fileref="images/3966.png"/>
 								</imageobject>
 								<textobject>
-									<phrase>In the <guilabel>JBoss Central</guilabel> tab, select the <guilabel>Getting Started</guilabel> page and click the links under <guilabel>Other resources</guilabel>.</phrase>
+									<phrase>In the <guilabel>JBoss Central</guilabel> view, select the <guilabel>Getting Started</guilabel> tab and click the links under <guilabel>Other resources</guilabel>.</phrase>
 								</textobject>
 							</mediaobject>
 						</figure>
 					</listitem>
 				</varlistentry>
 				<varlistentry>
-					<term>Search JBoss Community website</term>
+					<term>Search the JBoss Community website</term>
 					<listitem>
 						<para>
-							In the <guilabel>JBoss Central</guilabel> tab, click the arrow next to the search box and select <guilabel>Search JBoss Community</guilabel>. In the search field, enter the search terms.
+							In the <guilabel>JBoss Central</guilabel> view, click the arrow next to the search box and select <guilabel>Search JBoss Community</guilabel>. In the search field, enter the search terms.
 						</para>
 						<figure>
-							<title>Search JBoss Community Website</title>
+							<title>Search the JBoss Community Website</title>
 							<mediaobject>
 								<imageobject>
 									<imagedata fileref="images/3961.png"/>
 								</imageobject>
 								<textobject>
-									<phrase>In the <guilabel>JBoss Central</guilabel> tab, click the arrow next to the search box and select <guilabel>Search JBoss Community</guilabel>. In the search field, enter the search terms.</phrase>
+									<phrase>In the <guilabel>JBoss Central</guilabel> view, click the arrow next to the search box and select <guilabel>Search JBoss Community</guilabel>. In the search field, enter the search terms.</phrase>
 								</textobject>
 							</mediaobject>
 						</figure>
 					</listitem>
 				</varlistentry>
 			</variablelist>
+			<note>
+				<para>
+					To change the default IDE browser, click <guimenu>Window</guimenu>&rarr;<guimenu>Web Browser</guimenu> and select a browser from the listed options.
+				</para>
+			</note>
 		</section>
 		<section id="Install_Software_in_JBoss_Central" remap="TID_22798">
 			<sectioninfo>
@@ -306,10 +322,10 @@
 			</sectioninfo>
 			<title>Install Software in JBoss Central</title>
 			<para>
-				JBoss Central enables you to install and update a range of IDE plug-ins. The available plug-ins comprise JBoss and third-party plug-ins that have been specifically tested for use with the IDE. These plug-ins include ones for web and mobile development, source control management, testing and Maven.
+				JBoss Central enables you to install and update a range of IDE plug-ins. The available plug-ins comprise JBoss and third-party plug-ins that have been specifically tested for use with the IDE. These plug-ins include ones for mobile and web development, source control management, utilities and Maven.
 			</para>
 			<para>
-				For all actions listed below, open the <guilabel>JBoss Central</guilabel> tab and select the <guilabel>Software/Update</guilabel> page.
+				For all actions listed below, open the <guilabel>JBoss Central</guilabel> view and select the <guilabel>Software/Update</guilabel> tab.
 			</para>
 			<variablelist>
 				<varlistentry>
@@ -332,7 +348,7 @@
 							Select the <guilabel>Show Installed</guilabel> check box. The installed plug-ins are listed in the table as disabled.
 						</para>
 						<figure>
-							<title>Show Installed Check Box Selected and Installed Plug-ins Listed as Disabled</title>
+							<title><guilabel>Show Installed</guilabel> Check Box Selected and Installed Plug-ins Listed as Disabled</title>
 							<mediaobject>
 								<imageobject>
 									<imagedata fileref="images/3980.png"/>
@@ -356,10 +372,10 @@
 							</inlinemediaobject>.
 						</para>
 						<figure>
-							<title>Find and Install Software in Software/Update Page of JBoss Central Tab</title>
+							<title>Find and Install Software</title>
 							<mediaobject>
 								<imageobject>
-									<imagedata fileref="images/3985.png"/>
+									<imagedata fileref="images/4270.png"/>
 								</imageobject>
 								<textobject>
 									<phrase>In the <guilabel>Find</guilabel> field, type the name of the software or scroll through the list to locate it. Select the check box corresponding to the software you want to install and click <guibutton>Install</guibutton> or click the <guibutton>Install</guibutton> icon.</phrase>
@@ -381,7 +397,7 @@
 							</mediaobject>
 						</figure>
 						<para>
-							Review the details of the items listed for install and click <guibutton>Next</guibutton>. After reading and agreeing to the license(s), click <guilabel>I accept the terms of the license agreement(s)</guilabel> and click <guibutton>Finish</guibutton>. The <guilabel>Installing Software</guilabel> window opens and reports the progress of the installation.
+							Review the details of the items listed for installing and click <guibutton>Next</guibutton>. After reading and agreeing to the license(s), click <guilabel>I accept the terms of the license agreement(s)</guilabel> and click <guibutton>Finish</guibutton>. The <guilabel>Installing Software</guilabel> window opens and reports the installation progress.
 						</para>
 						<para>
 							During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.
@@ -438,13 +454,13 @@
 			</sectioninfo>
 			<title>Open the JBoss Perspective</title>
 			<para>
-				The JBoss perspective provides a default set of tabs, menus and toolbars to assist with common tasks associated with developing applications that use JBoss technologies.
+				The JBoss perspective provides a default set of views, menus and toolbars to assist with common tasks associated with developing applications that use JBoss technologies.
 			</para>
 			<para>
-				To open the JBoss perspective, click <guimenu>Window</guimenu>&rarr;<guimenu>Open Perspective</guimenu>&rarr;<guimenu>Other</guimenu>. From the list of available perspectives, select <guilabel>JBoss</guilabel> and click <guibutton>OK</guibutton>. The tabs associated with the JBoss perspective open and menus and toolbars change as appropriate.
+				To open the JBoss perspective, click <guimenu>Window</guimenu>&rarr;<guimenu>Open Perspective</guimenu>&rarr;<guimenu>Other</guimenu>. From the list of available perspectives, select <guilabel>JBoss</guilabel> and click <guibutton>OK</guibutton>. The views associated with the JBoss perspective open and menus and toolbars change as appropriate.
 			</para>
 			<figure>
-				<title>Select JBoss in the Open Perspective Window</title>
+				<title>Select <guilabel>JBoss</guilabel> in the <application>Open Perspective</application> Window</title>
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="images/3973.png"/>
@@ -472,7 +488,7 @@
 					<term>Reset the JBoss perspective</term>
 					<listitem>
 						<para>
-							You may want to reset the JBoss perspective to its default settings after opening and closing tabs. Click <guimenu>Window</guimenu>&rarr;<guimenu>Reset Perspective</guimenu>. At the prompt asking if you want to reset the current JBoss perspective to its default settings, click <guibutton>Yes</guibutton>.
+							Click <guimenu>Window</guimenu>&rarr;<guimenu>Reset Perspective</guimenu>. At the prompt asking if you want to reset the current JBoss perspective to its default settings, click <guibutton>Yes</guibutton>. This action resets the views to their original size and position and reverts the contents of menus and toolbars to their original listings.
 						</para>
 					</listitem>
 				</varlistentry>
@@ -480,12 +496,12 @@
 					<term>Switch to the JBoss perspective</term>
 					<listitem>
 						<para>
-							You can have multiple perspectives open at one time. To switch to the JBoss perspective, click the <guibutton>JBoss</guibutton> icon 
+							Click the <guibutton>JBoss</guibutton> icon 
 							<inlinemediaobject>
 								<imageobject>
 									<imagedata fileref="images/3976.png"/>
 								</imageobject>
-							</inlinemediaobject>. Alternatively, click <guimenu>Window</guimenu>&rarr;<guimenu>Navigation</guimenu>&rarr;<guimenu>Next Perspective</guimenu> or press <keycap>Ctrl+F8</keycap> and repeat until the JBoss perspective is the current perspective.
+							</inlinemediaobject>. Alternatively, to view a list of open perspectives, click <guimenu>Window</guimenu>&rarr;<guimenu>Navigation</guimenu>&rarr;<guimenu>Next Perspective</guimenu> or press and hold <keycap>Ctrl</keycap> and press <keycap>F8</keycap>. From the list of perspectives, select the JBoss perspective or press <keycap>F8</keycap> repeatedly until the JBoss perspective is selected. This action is useful if you are using multiple perspectives.
 						</para>
 					</listitem>
 				</varlistentry>
@@ -514,39 +530,25 @@
 			<!-- JBDS-2557: cheat sheets on archetypes and quickstarts -->
 			<!-- <para>When you create a new project with an accompanying cheat sheet, the <guilabel>Cheat Sheets</guilabel> tab automatically opens and displays the cheat sheet.</para> -->
 			<para>
-				A cheat sheet contained in a project is automatically opened in the <guilabel>Cheat Sheets</guilabel> tab when the project is imported into the workspace with <guimenu>File</guimenu>&rarr;<guimenu>Import</guimenu>.
+				A cheat sheet contained in a project is automatically opened in the <guilabel>Cheat Sheets</guilabel> view when the project is imported into the workspace with <guimenu>File</guimenu>&rarr;<guimenu>Import</guimenu>.
 			</para>
 			<figure>
-				<title>Cheat Sheet Open in Cheat Sheets Tab</title>
+				<title>Cheat Sheet Open in Cheat Sheets View</title>
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="images/3988.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>A cheat sheet contained in a project is automatically opened in the <guilabel>Cheat Sheets</guilabel> tab when the project is imported into the workspace with <guimenu>File</guimenu>&rarr;<guimenu>Import</guimenu>.</phrase>
+						<phrase>A cheat sheet contained in a project is automatically opened in the <guilabel>Cheat Sheets</guilabel> view when the project is imported into the workspace with <guimenu>File</guimenu>&rarr;<guimenu>Import</guimenu>.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 			<para>
-				To open a cheat sheet manually, in the <guilabel>Project Explorer</guilabel> tab right-click the project name or a cheat sheet file and click <guimenu>Open In Cheat Sheets View</guimenu>.
-			</para>
-			<figure>
-				<title><guimenu>Open In Cheat Sheets View</guimenu> Menu Option</title>
-				<mediaobject>
-					<imageobject>
-						<imagedata fileref="images/3960.png"/>
-					</imageobject>
-					<textobject>
-						<phrase>To open a cheat sheet manually, in the <guilabel>Project Explorer</guilabel> tab right-click the project name or a cheat sheet file and click <guimenu>Open In Cheat Sheets View</guimenu>.</phrase>
-					</textobject>
-				</mediaobject>
-			</figure>
-			<para>
-				Alternatively, click <guimenu>Help</guimenu>&rarr;<guimenu>Cheat Sheets</guimenu>, click <guilabel>Select a cheat sheet from a file</guilabel> and type the location of the file in the field or click <guibutton>Browse</guibutton> to navigate to the file. Click <guibutton>OK</guibutton> to close the window. The cheat sheet opens in the <guilabel>Cheat Sheets</guilabel> tab.
+				To open a cheat sheet manually, in the <guilabel>Project Explorer</guilabel> view right-click the project name or a cheat sheet file and click <guimenu>Open In Cheat Sheets View</guimenu>. Alternatively, click <guimenu>Help</guimenu>&rarr;<guimenu>Cheat Sheets</guimenu>, click <guilabel>Select a cheat sheet from a file</guilabel> and type the location of the file in the field or click <guibutton>Browse</guibutton> to navigate to the file. Click <guibutton>OK</guibutton> to close the window. The cheat sheet opens in the <guilabel>Cheat Sheets</guilabel> view.
 			</para>
 			<note>
 				<para>
-					If the cheat sheet file name begins with dot, it may not be automatically visible in the <guilabel>Project Explorer</guilabel> tab. To change the viewing preferences of the <guilabel>Project Explorer</guilabel> tab, click the <guibutton>View Menu</guibutton> icon and click <guimenu>Customize View</guimenu>. In the <guilabel>Filters</guilabel> tab, clear the <guilabel>.* resources</guilabel> check box and click <guibutton>OK</guibutton>.
+					If the cheat sheet file name begins with dot, it may not be automatically visible in the <guilabel>Project Explorer</guilabel> view. To change the viewing preferences of the <guilabel>Project Explorer</guilabel> view, click the <guibutton>View Menu</guibutton> icon and click <guimenu>Customize View</guimenu>. In the <guilabel>Filters</guilabel> tab, clear the <guilabel>.* resources</guilabel> check box and click <guibutton>OK</guibutton>.
 				</para>
 			</note>
 			<!-- API for developing cheat sheets available to all -->
@@ -574,12 +576,12 @@
 				</listitem>
 				<listitem>
 					<para>
-						Customize the menu and toolbar items of the JBoss perspective
+						Customize the views, menus and toolbars of the JBoss perspective
 					</para>
 				</listitem>
 				<listitem>
 					<para>
-						Enable project examples for use when you are offline
+						Enable offline availability of JBoss Central elements, such as project examples and auxiliary plug-ins
 					</para>
 				</listitem>
 				<listitem>
@@ -602,7 +604,7 @@
 				JBoss Central is set by default to show when the IDE starts but you can customize this behavior.
 			</para>
 			<para>
-				To change the behavior, in the <guilabel>JBoss Central</guilabel> tab select or clear the <guilabel>Show on Startup</guilabel> check box as appropriate.
+				To change the behavior, in the <guilabel>JBoss Central</guilabel> view select or clear the <guilabel>Show on Startup</guilabel> check box as appropriate.
 			</para>
 			<figure>
 				<title>Show on Startup Check Box</title>
@@ -611,12 +613,12 @@
 						<imagedata fileref="images/3959.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>JBoss Central is set by default to show when the IDE starts but you can customize this behavior. To change the behavior, in the <guilabel>JBoss Central</guilabel> tab select or clear the <guilabel>Show on Startup</guilabel> check box as appropriate.</phrase>
+						<phrase>JBoss Central is set by default to show when the IDE starts but you can customize this behavior. To change the behavior, in the <guilabel>JBoss Central</guilabel> view select or clear the <guilabel>Show on Startup</guilabel> check box as appropriate.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 			<para>
-				Alternatively, in the <guilabel>JBoss Central</guilabel> tab click the <guibutton>Preferences</guibutton> icon 
+				Alternatively, in the <guilabel>JBoss Central</guilabel> view click the <guibutton>Preferences</guibutton> icon 
 				<inlinemediaobject>
 					<imageobject>
 						<imagedata fileref="images/3971.png"/>
@@ -624,7 +626,7 @@
 				</inlinemediaobject> or click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. In both cases, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Central</guilabel>. Select or clear the <guilabel>Show JBoss Central on Startup</guilabel> check box as appropriate. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
 			</para>
 			<figure>
-				<title>JBoss Central Pane in the Preferences Window</title>
+				<title>Set JBoss Central Behavior in JBoss Central Pane of Preferences Window</title>
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="images/3970.png"/>
@@ -635,7 +637,7 @@
 				</mediaobject>
 			</figure>
 		</section>
-		<section id="Customize_the_Default_Tabs_Menus_and_Toolbars_of_the_JBoss_Perspective" remap="TID_22797">
+		<section id="Customize_the_Default_Views_Menus_and_Toolbars_of_the_JBoss_Perspective" remap="TID_22797">
 			<sectioninfo>
 				<keywordset>
 					<keyword>
@@ -643,77 +645,102 @@
 					</keyword>
 				</keywordset>
 			</sectioninfo>
-			<title>Customize the Default Tabs, Menus and Toolbars of the JBoss Perspective</title>
+			<title>Customize the Default Views, Menus and Toolbars of the JBoss Perspective</title>
 			<para>
-				You can customize the menus and toolbars displayed by the JBoss perspective, as with any perspective.
+				You can customize the views, menus and toolbars displayed by the JBoss perspective, as with any perspective.
 			</para>
 			<para>
-				To customize the JBoss perspective, ensure it is the current perspective and click <guibutton>Window</guibutton>&rarr;<guimenu>Customize Perspective</guimenu>. In the <guilabel>Tool Bar Visibility</guilabel> tab, select or clear the check boxes corresponding to the individual toolbars and icons visible in the global toolbar of the JBoss perspective as appropriate. In the <guilabel>Menu Visibility</guilabel> tab, select or clear the check boxes corresponding to the menus and menu items visible in the JBoss perspective as appropriate. Disabled items in the <guilabel>Tool Bar Visibility</guilabel> or <guilabel>Menu Visibility</guilabel> tab can be activated in the <guilabel>Command Groups Availability</guilabel> tab. Click <guibutton>OK</guibutton> to close the window.
+				For all actions listed below, ensure the JBoss perspective is the current perspective.
 			</para>
-			<figure>
-				<title>Tool Bar Visibility Tab in Customize Perspective Window</title>
-				<mediaobject>
-					<imageobject>
-						<imagedata fileref="images/3986.png"/>
-					</imageobject>
-					<textobject>
-						<phrase>To customize the JBoss perspective, ensure it is the current perspective and click <guibutton>Window</guibutton>&rarr;<guimenu>Customize Perspective</guimenu>. In the <guilabel>Tool Bar Visibility</guilabel> tab, select or clear the check boxes corresponding to the individual toolbars and icons visible in the global toolbar of the JBoss perspective as appropriate. Click <guibutton>OK</guibutton> to close the window.</phrase>
-					</textobject>
-				</mediaobject>
-			</figure>
-			<figure>
-				<title>Menu Visibility Tab in Customize Perspective Window</title>
-				<mediaobject>
-					<imageobject>
-						<imagedata fileref="images/3987.png"/>
-					</imageobject>
-					<textobject>
-						<phrase>To customize the JBoss perspective, ensure it is the current perspective and click <guibutton>Window</guibutton>&rarr;<guimenu>Customize Perspective</guimenu>. In the <guilabel>Menu Visibility</guilabel> tab, select or clear the check boxes corresponding to the menus and menu items visible in the JBoss perspective as appropriate. Click <guibutton>OK</guibutton> to close the window.</phrase>
-					</textobject>
-				</mediaobject>
-			</figure>
-			<para>
-				You can reorder the individual toolbars comprising the global toolbar in the JBoss perspective. To reorder, click the vertical line indicating the beginning of a toolbar and drag the toolbar to its new location in the global toolbar.
-			</para>
-			<figure>
-				<title>Select and Drag a Toolbar to Reorder the Global Toolbar</title>
-				<mediaobject>
-					<imageobject>
-						<imagedata fileref="images/3968.png"/>
-					</imageobject>
-					<textobject>
-						<phrase>You can reorder the individual toolbars comprising the global toolbar in the JBoss perspective. To reorder, click the vertical line indicating the beginning of a toolbar and drag the toolbar to its new location in the global toolbar.</phrase>
-					</textobject>
-				</mediaobject>
-			</figure>
-			<para>
-				Additionally, you can customize which tabs are part of the JBoss perspective. To customize the tabs, ensure the JBoss perspective is the current perspective. Open or close tabs as desired and click <guimenu>Window</guimenu>&rarr;<guimenu>Save Perspective As</guimenu>. From the <guilabel>Existing Perspectives</guilabel> list, select <guilabel>JBoss</guilabel> and click <guibutton>OK</guibutton>. At the prompt asking if you want to overwrite the existing JBoss perspective, click <guibutton>Yes</guibutton>.
-			</para>
-			<figure>
-				<title>Save Perspective As Window</title>
-				<mediaobject>
-					<imageobject>
-						<imagedata fileref="images/3964.png"/>
-					</imageobject>
-					<textobject>
-						<phrase>you can customize which tabs are part of the JBoss perspective. To customize the tabs, ensure the JBoss perspective is the current perspective. Open or close tabs as desired and click <guimenu>Window</guimenu>&rarr;<guimenu>Save Perspective As</guimenu>. From the <guilabel>Existing Perspectives</guilabel> list, select <guilabel>JBoss</guilabel> and click <guibutton>OK</guibutton>.</phrase>
-					</textobject>
-				</mediaobject>
-			</figure>
-			<para>
-				To revert all customization of the JBoss perspective, ensure it is the current perspective and click <guimenu>Window</guimenu>&rarr;<guimenu>Reset Perspective</guimenu>. At the prompt asking if you want to reset the JBoss perspective to its saved state, select the <guilabel>Also discard perspective's customization</guilabel> check box and click <guibutton>Yes</guibutton>.
-			</para>
-			<figure>
-				<title>Revert Perspective Window</title>
-				<mediaobject>
-					<imageobject>
-						<imagedata fileref="images/3967.png"/>
-					</imageobject>
-					<textobject>
-						<phrase>To revert all customization of the JBoss perspective, ensure it is the current perspective and click <guimenu>Window</guimenu>&rarr;<guimenu>Reset Perspective</guimenu>. At the prompt asking if you want to reset the JBoss perspective to its saved state, select the <guilabel>Also discard perspective's customization</guilabel> check box and click <guibutton>Yes</guibutton>.</phrase>
-					</textobject>
-				</mediaobject>
-			</figure>
+			<variablelist>
+				<varlistentry>
+					<term>Customize views</term>
+					<listitem>
+						<para>
+							Open or close views as desired and click <guimenu>Window</guimenu>&rarr;<guimenu>Save Perspective As</guimenu>. From the <guilabel>Existing Perspectives</guilabel> list, select <guilabel>JBoss</guilabel> and click <guibutton>OK</guibutton>. At the prompt asking if you want to overwrite the existing JBoss perspective, click <guibutton>Yes</guibutton>.
+						</para>
+						<figure>
+							<title>Save Perspective As Window</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3964.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>Open or close tabs as desired and click <guimenu>Window</guimenu>&rarr;<guimenu>Save Perspective As</guimenu>. From the <guilabel>Existing Perspectives</guilabel> list, select <guilabel>JBoss</guilabel> and click <guibutton>OK</guibutton>.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Customize menu and toolbar elements</term>
+					<listitem>
+						<para>
+							Click <guimenu>Window</guimenu>&rarr;<guimenu>Customize Perspective</guimenu>. In the <guilabel>Tool Bar Visibility</guilabel> tab, select or clear the check boxes corresponding to the individual toolbars and icons visible in the global toolbar of the JBoss perspective as appropriate. In the <guilabel>Menu Visibility</guilabel> tab, select or clear the check boxes corresponding to the menus and menu items visible in the JBoss perspective as appropriate. Disabled items in the <guilabel>Tool Bar Visibility</guilabel> and <guilabel>Menu Visibility</guilabel> tabs can be activated in the <guilabel>Command Groups Availability</guilabel> tab. Click <guibutton>OK</guibutton> to save any changes and close the window.
+						</para>
+						<figure>
+							<title><guilabel>Tool Bar Visibility</guilabel> Tab in Customize Perspective Window</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3986.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>Click <guibutton>Window</guibutton>&rarr;<guimenu>Customize Perspective</guimenu>. In the <guilabel>Tool Bar Visibility</guilabel> tab, select or clear the check boxes corresponding to the individual toolbars and icons visible in the global toolbar of the JBoss perspective as appropriate. Click <guibutton>OK</guibutton> to save any changes and close the window.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+						<figure>
+							<title><guilabel>Menu Visibility</guilabel> Tab in Customize Perspective Window</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3987.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>Click <guibutton>Window</guibutton>&rarr;<guimenu>Customize Perspective</guimenu>. In the <guilabel>Menu Visibility</guilabel> tab, select or clear the check boxes corresponding to the menus and menu items visible in the JBoss perspective as appropriate. Click <guibutton>OK</guibutton> to save any changes and close the window.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Reorder the individual toolbars comprising the global toolbar</term>
+					<listitem>
+						<para>
+							Click the vertical dashed line indicating the beginning of an individual toolbar and drag the toolbar to its new location in the global toolbar.
+						</para>
+						<figure>
+							<title>Select and Drag a Toolbar to Reorder the Global Toolbar</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3968.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>Click the vertical dashed line indicating the beginning of an individual toolbar and drag the toolbar to its new location in the global toolbar.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Revert all perspective customizations</term>
+					<listitem>
+						<para>
+							Click <guimenu>Window</guimenu>&rarr;<guimenu>Reset Perspective</guimenu>. At the prompt asking if you want to reset the JBoss perspective to its saved state, select the <guilabel>Also discard perspective's customization</guilabel> check box and click <guibutton>Yes</guibutton>.
+						</para>
+						<figure>
+							<title>Revert Perspective Window</title>
+							<mediaobject>
+								<imageobject>
+									<imagedata fileref="images/3967.png"/>
+								</imageobject>
+								<textobject>
+									<phrase>Click <guimenu>Window</guimenu>&rarr;<guimenu>Reset Perspective</guimenu>. At the prompt asking if you want to reset the JBoss perspective to its saved state, select the <guilabel>Also discard perspective's customization</guilabel> check box and click <guibutton>Yes</guibutton>.</phrase>
+								</textobject>
+							</mediaobject>
+						</figure>
+					</listitem>
+				</varlistentry>
+			</variablelist>
 		</section>
 		<section id="Use_Project_Examples_when_Working_Offline" remap="TID_22802">
 			<sectioninfo>
@@ -725,7 +752,7 @@
 			</sectioninfo>
 			<title>Use Project Examples when Working Offline</title>
 			<para>
-				When a project wizard in JBoss Central is used, the IDE searches online repositories for the most recent versions of project dependencies. JBoss Central provides a feature that enables you to create a cache of the necessary project dependencies when you are online so that you can still use the project wizards offline. As detailed below, this is achieved by first creating the cache and then informing the IDE to use that cache.
+				When a project wizard in JBoss Central is used, the IDE searches online repositories for the most recent versions of project dependencies. JBoss Central enables you to create a cache of the necessary project dependencies when you are online so that you can still use the project wizards offline. As detailed below, this is achieved by first creating the cache and then informing the IDE to use that cache.
 			</para>
 			<important>
 				<para>
@@ -734,18 +761,29 @@
 			</important>
 			<important>
 				<para>
-					Maven must be correctly configured for all of the project wizards before the cache script is run. Red Hat JBoss Enterprise Application Platform and Red Hat JBoss Web Framework Kit Maven repositories must be specified in <filename>settings.xml</filename>.
+					Maven must be correctly configured for all of the project wizards before the cache script is run. <phrase>The JBoss Public Maven repository</phrase> must be specified in <filename>settings.xml</filename>.
 				</para>
 			</important>
 			<para>
-				To create the cache, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Project Examples</guilabel> and select <guilabel>Offline Support</guilabel>. To run the cache generating script, click <guibutton>Copy to Clipboard</guibutton> and paste the selected text on a command line outside the IDE. The script will download and build all of the project examples in a new directory <filename>offline</filename>. The script may take some time to complete.
+				To create the cache, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Project Examples</guilabel> and select <guilabel>Offline Support</guilabel>. To run the cache generating script, click <guibutton>Copy to Clipboard</guibutton> and paste the selected text on a command line outside the IDE. The script downloads and builds all of the project examples in a new directory <filename>offline</filename>. The script may take some time to complete.
 			</para>
 			<para>
-				Once the cache is generated, copy <filename>offline/.jbosstools/cache</filename> to the directory where you want to keep the project examples. Copy the contents of <filename>offline/.m2/repository</filename> to your local maven repository.
+				Once the cache is generated, copy <filename>offline/.jbosstools/cache</filename> to the directory where you want to keep the project examples cache. Copy the contents of <filename>offline/.m2/repository</filename> to your local maven repository.
 			</para>
 			<para>
-				To inform the IDE to use the cache for the project example wizards, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Project Examples</guilabel> and select <guilabel>Offline Support</guilabel>. Select the <guilabel>Enable offline mode for project examples</guilabel> check box. Ensure the correct cache location is specified in the <guilabel>Offline directory</guilabel> field. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.
+				To inform the IDE to use the generated project examples cache, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Project Examples</guilabel> and select <guilabel>Offline Support</guilabel>. Select the <guilabel>Enable offline mode for project examples</guilabel> check box. Ensure the correct cache location is specified in the <guilabel>Offline directory</guilabel> field. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.
 			</para>
+			<figure>
+				<title>Offline Mode Enabled for JBoss Central Project Examples</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4271.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To inform the IDE to use the generated project examples cache, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Project Examples</guilabel> and select <guilabel>Offline Support</guilabel>. Select the <guilabel>Enable offline mode for project examples</guilabel> check box. Ensure the correct cache location is specified in the <guilabel>Offline directory</guilabel> field. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
 		</section>
 		<section id="Install_Software_when_Working_Offline" remap="TID_22868">
 			<sectioninfo>
@@ -757,10 +795,10 @@
 			</sectioninfo>
 			<title>Install Software when Working Offline</title>
 			<para>
-				You can install the JBoss and third-party plug-ins listed in JBoss Central in offline mode using the JBoss Central <filename>.zip</filename> file, as detailed below. This feature is useful if you are installing these auxiliary plug-ins in a number of JBoss&nbsp;Developer&nbsp;Studio installations as it removes the need to repeatedly download the same plug-ins.
+				You can install the JBoss and third-party plug-ins listed in JBoss Central in offline mode using the JBoss Central <filename>.zip</filename> file, as detailed below. This feature is useful if you regularly work offline or if you are installing these auxiliary plug-ins in a number of JBoss&nbsp;Developer&nbsp;Studio installations as it removes the need to repeatedly download the same plug-ins.
 			</para>
 			<para>
-				Note that the <filename>.zip</filename> file is a snapshot of the plug-ins at the time of the given JBoss&nbsp;Developer&nbsp;Studio release and updated versions of the plug-ins must be installed from JBoss Central in online mode.
+				Note that the JBoss Central <filename>.zip</filename> file is a snapshot of the plug-ins at the time of the given JBoss&nbsp;Developer&nbsp;Studio release and updated versions of the plug-ins must be installed from JBoss Central in online mode.
 			</para>
 			<procedure>
 				<title>Install from JBoss Central <filename>.zip</filename> File</title>
@@ -816,7 +854,7 @@
 			</sectioninfo>
 			<title>Set Cheat Sheet Behavior</title>
 			<para>
-				You can specify the default action the IDE should take when finding cheat sheets in projects that it is importing. The available options include always or never showing cheat sheets or the IDE prompting for which action to take for each import.
+				You can specify the default action the IDE is to take when finding cheat sheets in projects that it is importing. The available options include always or never showing cheat sheets or the IDE prompting for which action to take for each import.
 			</para>
 			<para>
 				To customize the action, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>Project Examples</guilabel>. From the <guilabel>Show included cheat sheet(s) when importing a project</guilabel> list, click one of the options. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.
@@ -828,7 +866,7 @@
 						<imagedata fileref="images/4269.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>To customize the action, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>Project Examples</guilabel>. From the <guilabel>Show included cheat sheet(s) when importing a project</guilabel> list, click one of the options. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</phrase>
+						<phrase>To customize the behavior, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>Project Examples</guilabel>. From the <guilabel>Show included cheat sheet(s) when importing a project</guilabel> list, click one of the options. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
