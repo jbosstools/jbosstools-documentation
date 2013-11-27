@@ -1228,11 +1228,22 @@
 			</sectioninfo>
 			<title>Change the Time Out Behavior of OpenShift Requests</title>
 			<para>
-				You may find that some requests made to OpenShift require a long time to complete and do not finish within the default time out limit. For example, some of the OpenShift quickstarts take a long time to checkout the associated large source code. To resolve the time out restriction, you can modify the default time out limit to meet your requirements.
+				You may find that some requests made to OpenShift require a long time to complete and do not finish within the IDE default time out limit of 240 seconds. For example, some of the OpenShift quickstarts take a long time to checkout the associated large source code. To resolve the time out restriction, you can modify the default time out limit to meet your requirements.
 			</para>
 			<para>
 				To modify the time out limit, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>OpenShift</guilabel>. In the <guilabel>Remote requests timeout</guilabel> field, type the required time out limit in seconds. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
 			</para>
+			<figure>
+				<title>Set Time Out Behavior in OpenShift Pane of Preferences Window</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4287.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To modify the time out limit, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>OpenShift</guilabel>. In the <guilabel>Remote requests timeout</guilabel> field, type the required time out limit in seconds. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
 		</section>
 	</section>
 </chapter>
