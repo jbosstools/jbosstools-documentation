@@ -23,13 +23,13 @@
 				JBoss Server Tools consists of wizards, editors and actions that enable you to define, configure and manage application servers.
 			</para>
 			<para>
-				For assisting in defining servers for IDE use, JBoss Server Tools provides runtime detection. This feature locates installed application servers and integrates them into the IDE ready for use. Additionally, you can define remote servers for <phrase>JBoss community application servers</phrase> in the enhanced New Server wizard, which integrates with the IDE Remote System Explorer (RSE) tool.<phrase>JBoss Server Tools also allows you to download JBoss community application servers from within the IDE.</phrase>
+				Runtime detection is available to assist you in locating installed application servers and integrating them into the IDE ready for use. Additionally, you can define remote servers for <phrase>JBoss community application servers</phrase> in the enhanced New Server wizard, which integrates with the IDE Remote System Explorer (RSE) tool.<phrase>JBoss Server Tools also allows you to download JBoss community application servers from within the IDE.</phrase>
 			</para>
 			<para>
-				Extensions to the standard IDE New Server wizard and server editor allow you to specify and customize more management and behavior settings for servers. Settings include IDE interaction with servers such as launching, communicating and publishing. The JBoss Server Editor supports you in managing applications for the server as a whole and individual modules.
+				Extensions to the standard IDE New Server wizard and server editor allow you to specify and customize more management and behavior settings for servers. Settings include IDE interaction with servers such as launching, communicating and publishing. The JBoss Server Editor supports you to manage server settings for global and individual application deployment.
 			</para>
 			<para>
-				JBoss Server Tools actions enable you to customize based on application server type, such as default filesets added to new servers and classpath filesets. You can also customize the default server used for IDE actions such as 'Run on Server'.
+				JBoss Server Tools actions enable you to make customizations based on application server type, such as default filesets added to new servers and classpath filesets. You can also customize the default server used for IDE actions such as 'Run on Server'.
 			</para>
 		</section>
 	</section>
@@ -189,7 +189,7 @@
 				</para>
 			</note>
 		</section>
-		<section id="Define_a_Local_Server_with_Runtime_Detection" remap="TID_22808">
+		<section id="Create_a_Default_Local_Server_Definition_with_Runtime_Detection" remap="TID_22808">
 			<sectioninfo>
 				<keywordset>
 					<keyword>
@@ -197,21 +197,9 @@
 					</keyword>
 				</keywordset>
 			</sectioninfo>
-			<title>Define a Local Server with Runtime Detection</title>
+			<title>Create a Default Local Server Definition with Runtime Detection</title>
 			<para>
-				You must define a server in the IDE before you can use it. A complete server definition is composed of two elements: 
-				<itemizedlist>
-					<listitem>
-						<para>
-							A server runtime environment informs the IDE about available local application servers. Each server runtime environment defines a specific application server configuration in terms of the application server itself, a configuration file and a Java developer kit. By varying the configuration details, one application server can be associated with several server runtime environments.
-						</para>
-					</listitem>
-					<listitem>
-						<para>
-							A server adapter, or simply server, informs the IDE about management settings for server runtime environments. Each server adapter completes the definition for a specific server by detailing settings such as access parameters, launch arguments, and publishing options. By varying the configuration details, one server runtime environment can have several server adapters associated with it.
-						</para>
-					</listitem>
-				</itemizedlist> JBoss Server Tools provides runtime detection that automatically generates a complete default server definition for any installed application servers found in a given local system search path, as detailed in the procedure below. <phrase>Complete server definitions are automatically generated for JBoss community servers downloaded with JBoss Server Tools.</phrase>
+				Before the IDE can use an application sever, you must create a server definition for it. JBoss Server Tools provides runtime detection that automatically generates a complete default server definition for any installed application servers found in a given local system search path, as detailed in the procedure below. <phrase>Note that complete server definitions are also automatically generated for JBoss community servers downloaded with JBoss Server Tools.</phrase>
 			</para>
 			<procedure>
 				<title>Define a Local Server with Runtime Detection</title>
@@ -220,7 +208,7 @@
 						Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>.
 					</para>
 					<figure>
-						<title>JBoss Runtime Detection Pane</title>
+						<title>JBoss Runtime Detection Pane of Preferences Window</title>
 						<mediaobject>
 							<imageobject>
 								<imagedata fileref="images/4035.png"/>
@@ -238,7 +226,7 @@
 				</step>
 				<step>
 					<para>
-						Select a path from which recursive scanning for application servers should commence. To detect a specific application server, select the install directory for that application server. To detect multiple application servers, select a directory higher up the directory tree.
+						Select a path from which recursive scanning for application servers is to commence. To detect a specific application server, select the install directory for that application server. To detect multiple application servers, select a directory higher up the directory tree.
 					</para>
 				</step>
 				<step>
@@ -248,21 +236,21 @@
 					<stepalternatives>
 						<step>
 							<para>
-								If no new application servers are found or you do not wish to create any server runtime environments for them, click <guibutton>Cancel</guibutton>.
+								If no new application servers are found or if new application servers are found but you do not want to create any server runtime environments for them, click <guibutton>Cancel</guibutton>.
 							</para>
 						</step>
 						<step>
 							<para>
-								If new application servers are found, you can generate server runtime environments for them. Select the check boxes of the application servers for which you want to generate server runtime environments and click <guibutton>OK</guibutton>.
+								If new application servers are found and you want to generate server runtime environments for them, select the check boxes of the appropriate application servers and click <guibutton>OK</guibutton>.
 							</para>
 							<figure>
 								<title>Application Servers Found by Runtime Detection</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/4033.png"/>
+										<imagedata fileref="images/4289.png"/>
 									</imageobject>
 									<textobject>
-										<phrase>If new application servers are found, you can generate server runtime environments for them. Select the check boxes of the application servers for which you want to generate server runtime environments and click <guibutton>OK</guibutton>.</phrase>
+										<phrase>If new application servers are found and you want to generate server runtime environments for them, select the check boxes of the appropriate application servers and click <guibutton>OK</guibutton>.</phrase>
 									</textobject>
 								</mediaobject>
 							</figure>
@@ -279,16 +267,16 @@
 				</step>
 			</procedure>
 			<para>
-				Generated server runtime environments are listed in <guimenu>Preferences</guimenu> under <guilabel>Server</guilabel>&rarr;<guilabel>Runtime Environments</guilabel>. A default server adapter is automatically created for each generated server runtime environment to complete the server definition. Server adapters are listed in the <guilabel>Servers</guilabel> tab.
+				Generated server runtime environments are listed in <guimenu>Preferences</guimenu> under <guilabel>Server</guilabel>&rarr;<guilabel>Runtime Environments</guilabel>. A default server adapter is automatically created for each generated server runtime environment to complete the server definition. Server adapters are listed in the <guilabel>Servers</guilabel> view.
 			</para>
 			<figure>
-				<title>Server Adapters Listed in the Servers Tab</title>
+				<title>Server Adapters Listed in the <guilabel>Servers</guilabel> View</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata fileref="images/4037.png"/>
+						<imagedata fileref="images/4290.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>A default server adapter is automatically created for each generated server runtime environment to complete the server definition. Server adapters are listed in the <guilabel>Servers</guilabel> tab.</phrase>
+						<phrase>A default server adapter is automatically created for each generated server runtime environment to complete the server definition. Server adapters are listed in the <guilabel>Servers</guilabel> view.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
@@ -308,7 +296,7 @@
 			</sectioninfo>
 			<title>Create an Additional Server Runtime Environment</title>
 			<para>
-				Runtime detection defines a local server for each application server it discovers in given search paths on your system. But you may want to create additional server runtime environments with different configurations for an installed application server. The procedure below details the process for creating new server runtime environments. For older versions of application servers, you can also create a new runtime server by cloning an existing one.
+				Runtime detection creates a server runtime environment as part of the default server definition for each application server it discovers in given search paths on your system. But you may want to create additional server runtime environments that specify a variety of JREs or configuration files for a given installed application server. The procedure below details the process for creating new server runtime environments. For older versions of application servers, you can also create a new runtime server by cloning an existing one as explained below.
 			</para>
 			<procedure>
 				<title>Create a Server Runtime Environment</title>
@@ -320,7 +308,7 @@
 						<title>Runtime Environments Pane</title>
 						<mediaobject>
 							<imageobject>
-								<imagedata fileref="images/4028.png"/>
+								<imagedata fileref="images/4288.png"/>
 							</imageobject>
 							<textobject>
 								<phrase>Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>Server</guilabel> and select <guilabel>Runtime Environments</guilabel>.</phrase>
@@ -335,24 +323,31 @@
 				</step>
 				<step>
 					<para>
-						From the <guilabel>Select the type of runtime environment</guilabel> list, select a <phrase>JBoss community application server</phrase>.
+						Complete the fields as appropriate: 
+						<itemizedlist>
+							<listitem>
+								<para>
+									From the <guilabel>Select the type of runtime environment</guilabel> list, select a <phrase>JBoss community application server</phrase>.
+								</para>
+							</listitem>
+							<listitem>
+								<para>
+									To create a complete local server definition, select the <guilabel>Create a new local server</guilabel> check box.
+								</para>
+								<figure>
+									<title>Application Server Options in the New Server Runtime Environment Wizard</title>
+									<mediaobject>
+										<imageobject>
+											<imagedata fileref="images/4025.png"/>
+										</imageobject>
+										<textobject>
+											<phrase>From the <guilabel>Select the type of runtime environment</guilabel> list, select a <phrase>JBoss community application server</phrase>. To create a complete local server definition, select the <guilabel>Create a new local server</guilabel> check box.</phrase>
+										</textobject>
+									</mediaobject>
+								</figure>
+							</listitem>
+						</itemizedlist>
 					</para>
-				</step>
-				<step>
-					<para>
-						To create a complete local server definition, select the <guilabel>Create a new local server</guilabel> check box.
-					</para>
-					<figure>
-						<title>Application Server Options in the New Server Runtime Environment Wizard</title>
-						<mediaobject>
-							<imageobject>
-								<imagedata fileref="images/4025.png"/>
-							</imageobject>
-							<textobject>
-								<phrase>From the <guilabel>Select the type of runtime environment</guilabel> list, select a <phrase>JBoss community application server</phrase>. To create a complete local server definition, select the <guilabel>Create a new local server</guilabel> check box.</phrase>
-							</textobject>
-						</mediaobject>
-					</figure>
 				</step>
 				<step>
 					<para>
@@ -361,39 +356,46 @@
 				</step>
 				<step>
 					<para>
-						In the <guilabel>Name</guilabel> field, type a name by which to identify the server runtime environment within the IDE.
+						Complete the fields as appropriate:
 					</para>
-				</step>
-				<step>
-					<para>
-						In the <guilabel>Home Directory</guilabel> field, type the path of the installed application server or click <guibutton>Browse</guibutton> to navigate to the location.<phrase>Alternatively, to use a JBoss community application server that is not already installed on the system, click <guilabel>Download and install runtime</guilabel> and follow the instructions.</phrase>
-					</para>
-				</step>
-				<step>
-					<para>
-						From the <guilabel>JRE</guilabel> list, select the JRE to use with the application server.
-					</para>
-				</step>
-				<step>
-					<para>
-						In the <guilabel>Configuration file</guilabel> field, type the path of the application server configuration file or click <guibutton>Browse</guibutton> to navigate to the location. Note that the path of the application server configuration file is relative to <filename>Home Directory/standalone/configuration/</filename>, where <filename>Home Directory</filename> is specified in the <guilabel>Home Directory</guilabel> field.
-					</para>
-					<figure>
-						<title>Server Runtime Environment Options in the New Server Runtime Environment Wizard</title>
-						<mediaobject>
-							<imageobject>
-								<imagedata fileref="images/4027.png"/>
-							</imageobject>
-							<textobject>
-								<phrase>In the <guilabel>Name</guilabel> field, type a name by which to identify the server runtime environment within the IDE. In the <guilabel>Home Directory</guilabel> field, type the path of the installed application server or click <guibutton>Browse</guibutton> to navigate to the location. From the <guilabel>JRE</guilabel> list, select the JRE to use with the application server. In the <guilabel>Configuration file</guilabel> field, type the path of the application server configuration file or click <guibutton>Browse</guibutton> to navigate to the location. Note that the path of the application server configuration file is relative to <filename>Home Directory/standalone/configuration/</filename>, where <filename>Home Directory</filename> is specified in the <guilabel>Home Directory</guilabel> field.</phrase>
-							</textobject>
-						</mediaobject>
-					</figure>
-					<note>
-						<para>
-							For older application servers, the <guilabel>Configuration file</guilabel> field is replaced with the <guilabel>Directory</guilabel> field. In this field, type the path where the application server configurations are installed and then select a listed configuration. To clone from an existing server runtime environment, after selecting a listed configuration click <guibutton>Copy</guibutton>. Complete the name for the new configuration and the location where the configuration should be stored and click <guibutton>OK</guibutton>.
-						</para>
-					</note>
+					<itemizedlist>
+						<listitem>
+							<para>
+								In the <guilabel>Name</guilabel> field, type a name by which to identify the server runtime environment within the IDE.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								In the <guilabel>Home Directory</guilabel> field, type the path of the installed application server or click <guibutton>Browse</guibutton> to navigate to the location.<phrase>Alternatively, to use a JBoss community application server that is not already installed on the system, click <guilabel>Download and install runtime</guilabel> and follow the instructions.</phrase>
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								From the <guilabel>JRE</guilabel> list, select the JRE to use with the application server.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								In the <guilabel>Configuration file</guilabel> field, type the path of the application server configuration file or click <guibutton>Browse</guibutton> to navigate to the location. Note that the path of the application server configuration file is relative to <filename>Home Directory/standalone/configuration/</filename>, where <filename>Home Directory</filename> is specified in the <guilabel>Home Directory</guilabel> field.
+							</para>
+							<figure>
+								<title>Server Runtime Environment Options in the New Server Runtime Environment Wizard</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4027.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>In the <guilabel>Name</guilabel> field, type a name by which to identify the server runtime environment within the IDE. In the <guilabel>Home Directory</guilabel> field, type the path of the installed application server or click <guibutton>Browse</guibutton> to navigate to the location. From the <guilabel>JRE</guilabel> list, select the JRE to use with the application server. In the <guilabel>Configuration file</guilabel> field, type the path of the application server configuration file or click <guibutton>Browse</guibutton> to navigate to the location. Note that the path of the application server configuration file is relative to <filename>Home Directory/standalone/configuration/</filename>, where <filename>Home Directory</filename> is specified in the <guilabel>Home Directory</guilabel> field.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+							<note>
+								<para>
+									For older application servers, the <guilabel>Configuration file</guilabel> field is replaced with the <guilabel>Directory</guilabel> field. In this field, type the path where the application server configurations are installed and then select a listed configuration. To clone from an existing server runtime environment, after selecting a listed configuration click <guibutton>Copy</guibutton>. Complete the name for the new configuration and the location where the configuration should be stored and click <guibutton>OK</guibutton>.
+								</para>
+							</note>
+						</listitem>
+					</itemizedlist>
 				</step>
 				<step>
 					<para>
@@ -410,11 +412,14 @@
 							</textobject>
 						</mediaobject>
 					</figure>
+					<para>
+						The new server runtime environment is listed in the <guilabel>Server runtime environments</guilabel> table of the <guilabel>Runtime Environments</guilabel> pane in the <application>Preferences</application> window.
+					</para>
 				</step>
 			</procedure>
 			<note>
 				<para>
-					Alternatively, you can create server runtime environments with the wizard for creating new servers in the <guilabel>Servers</guilabel> tab or with the <guilabel>Start from scratch</guilabel> and <guilabel>Start from a sample</guilabel> wizards in the <guilabel>JBoss Central</guilabel> tab.
+					Alternatively, you can create server runtime environments with the wizard for creating new servers in the <guilabel>Servers</guilabel> view or with the <guilabel>Start from scratch</guilabel> and <guilabel>Start from a sample</guilabel> wizards in <guilabel>JBoss Central</guilabel>.
 				</para>
 			</note>
 		</section>
@@ -428,13 +433,13 @@
 			</sectioninfo>
 			<title>Define an Additional Local Server</title>
 			<para>
-				Runtime detection defines a local server for each application server it discovers in given search paths on your system. But you may want to create additional server adapters with different configurations to define multiple servers. To create a new server adapter to define a local server, you must use the new server wizard as detailed in the procedure below.
+				Runtime detection defines a local server as part of the default server definition for each application server it discovers in given search paths on your system. But you may want to create additional server adapters that have different configurations for a given server runtime environment in order to define multiple servers. To create a new server adapter to define a local server, you must use the new server wizard as detailed in the procedure below.
 			</para>
 			<procedure>
 				<title>Define a Local Server</title>
 				<step>
 					<para>
-						Click the <guilabel>Servers</guilabel> tab. If the <guilabel>Servers</guilabel> tab is not visible, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Servers</guimenu>.
+						Click the <guilabel>Servers</guilabel> view. If the <guilabel>Servers</guilabel> view is not visible, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Servers</guimenu>.
 					</para>
 				</step>
 				<step>
@@ -456,34 +461,41 @@
 				</step>
 				<step>
 					<para>
-						From the <guilabel>Select the server type</guilabel> list, select a <phrase>JBoss community application server</phrase>.
+						Complete the options and fields as appropriate:
 					</para>
-				</step>
-				<step>
-					<para>
-						The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are completed by default. In the <guilabel>Server name</guilabel> field, type a name by which to identify the server definition.
-					</para>
-				</step>
-				<step>
-					<para>
-						From the <guilabel>Server runtime environment</guilabel> list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields as appropriate.
-					</para>
-					<figure>
-						<title>Server Runtime Environment Options in the New Server Runtime Environment Wizard</title>
-						<mediaobject>
-							<imageobject>
-								<imagedata fileref="images/4029.png"/>
-							</imageobject>
-							<textobject>
-								<phrase>From the <guilabel>Select the server type</guilabel> list, select a <phrase>JBoss community application server</phrase>. The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are completed by default. In the <guilabel>Server name</guilabel> field, type a name by which to identify the server definition. From the <guilabel>Server runtime environment</guilabel> list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields as appropriate.</phrase>
-							</textobject>
-						</mediaobject>
-					</figure>
-					<note>
-						<para>
-							If the <guilabel>Server runtime environment</guilabel> field is not shown, no server runtime environments exist for the selected application server type. A server runtime environment must be selected before you can successfully create a server adapter and complete the server definition. To create a new server runtime environment without canceling the wizard, click <guibutton>Next</guibutton> and complete the fields as appropriate.
-						</para>
-					</note>
+					<itemizedlist>
+						<listitem>
+							<para>
+								From the <guilabel>Select the server type</guilabel> list, select a <phrase>JBoss community application server</phrase>.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are completed by default. In the <guilabel>Server name</guilabel> field, you can type a custom name by which to identify the server in the <guilabel>Servers</guilabel> view.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								From the <guilabel>Server runtime environment</guilabel> list, select an existing server runtime environment for the application server type. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields as appropriate.
+							</para>
+							<figure>
+								<title>Server Runtime Environment Options in the New Server Runtime Environment Wizard</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4029.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>From the <guilabel>Select the server type</guilabel> list, select a <phrase>JBoss community application server</phrase>. The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are completed by default. In the <guilabel>Server name</guilabel> field, type a name by which to identify the server definition. From the <guilabel>Server runtime environment</guilabel> list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields as appropriate.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+							<note>
+								<para>
+									If the <guilabel>Server runtime environment</guilabel> field is not shown, no server runtime environments exist for the selected application server type. A server runtime environment must be selected before you can successfully create a server adapter and complete the server definition. To create a new server runtime environment without canceling the wizard, click <guibutton>Next</guibutton> and complete the fields as appropriate.
+								</para>
+							</note>
+						</listitem>
+					</itemizedlist>
 				</step>
 				<step>
 					<para>
@@ -492,21 +504,7 @@
 				</step>
 				<step>
 					<para>
-						The server behavior options displayed vary depending on the selected application server type.
-					</para>
-					<figure>
-						<title>Server Adapter Behavior Options in the New Server Wizard</title>
-						<mediaobject>
-							<imageobject>
-								<imagedata fileref="images/4030.png"/>
-							</imageobject>
-							<textobject>
-								<phrase>The server behavior options displayed vary depending on the selected application server type. Complete the options as appropriate.</phrase>
-							</textobject>
-						</mediaobject>
-					</figure>
-					<para>
-						Complete the options as appropriate: 
+						The server behavior options displayed vary depending on the selected application server type. Complete the options as appropriate: 
 						<itemizedlist>
 							<listitem>
 								<para>
@@ -520,21 +518,27 @@
 							</listitem>
 							<listitem>
 								<para>
-									To enable management commands sent by the IDE to be successfully received by the server, select the <guilabel>Expose your management port as the server's hostname</guilabel> check box. This option is useful for remote servers but bypassed for local servers.
+									From the location list, select <guilabel>Local</guilabel>.
 								</para>
-								<note>
-									<para>
-										To make use of this facility, a management user must exist for the remote server and you must provide the management user credentials to the IDE.
-									</para>
-								</note>
 							</listitem>
 						</itemizedlist>
+						<note>
+							<para>
+								The <guilabel>Expose your management port as the server's hostname</guilabel> option, which enables management commands sent by the IDE to be successfully received by the server, is bypassed for local servers regardless of whether the check box is selected.
+							</para>
+						</note>
 					</para>
-				</step>
-				<step>
-					<para>
-						From the location list, select <guilabel>Local</guilabel>.
-					</para>
+					<figure>
+						<title>Server Adapter Behavior Options in the New Server Wizard</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4030.png"/>
+							</imageobject>
+							<textobject>
+								<phrase>The server behavior options displayed vary depending on the selected application server type. Complete the options as appropriate.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
 				</step>
 				<step>
 					<para>
@@ -559,7 +563,7 @@
 				</step>
 				<step>
 					<para>
-						Click <guibutton>Finish</guibutton> to create the server. The server is listed in the <guilabel>Servers</guilabel> tab, with the information in brackets detailing the server status.
+						Click <guibutton>Finish</guibutton> to create the server. The server is listed in the <guilabel>Servers</guilabel> view, with the information in brackets detailing the server status.
 					</para>
 				</step>
 			</procedure>
@@ -590,7 +594,7 @@
 				<title>Define a Remote Server</title>
 				<step>
 					<para>
-						Click the <guilabel>Servers</guilabel> tab. If the <guilabel>Servers</guilabel> tab is not visible, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Servers</guimenu>.
+						Click the <guilabel>Servers</guilabel> view. If the <guilabel>Servers</guilabel> view is not visible, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Servers</guimenu>.
 					</para>
 				</step>
 				<step>
@@ -612,34 +616,41 @@
 				</step>
 				<step>
 					<para>
-						From the <guilabel>Select the server type</guilabel> list, select a <phrase>JBoss community application server</phrase>.
+						Complete the options and fields as appropriate:
 					</para>
-				</step>
-				<step>
-					<para>
-						The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are completed by default. In the <guilabel>Server name</guilabel> field, type a name by which to identify the server definition.
-					</para>
-				</step>
-				<step>
-					<para>
-						From the <guilabel>Server runtime environment</guilabel> list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields as appropriate.
-					</para>
-					<figure>
-						<title>Server Definition Options in the New Server Wizard</title>
-						<mediaobject>
-							<imageobject>
-								<imagedata fileref="images/4029.png"/>
-							</imageobject>
-							<textobject>
-								<phrase>From the <guilabel>Select the server type</guilabel> list, select a <phrase>JBoss community application server</phrase>. The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are completed by default. In the <guilabel>Server name</guilabel> field, type a name by which to identify the server definition. From the <guilabel>Server runtime environment</guilabel> list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields as appropriate.</phrase>
-							</textobject>
-						</mediaobject>
-					</figure>
-					<note>
-						<para>
-							If the <guilabel>Server runtime environment</guilabel> field is not shown, no server runtime environments exist for the selected application server type. A server runtime environment must be selected before you can successfully create a server adapter and complete the server definition. To create a new server runtime environment without canceling the wizard, click <guibutton>Next</guibutton> and complete the fields as appropriate.
-						</para>
-					</note>
+					<itemizedlist>
+						<listitem>
+							<para>
+								From the <guilabel>Select the server type</guilabel> list, select a <phrase>JBoss community application server</phrase>.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are completed by default. In the <guilabel>Server name</guilabel> field, you can type a custom name by which to identify the server in the <guilabel>Servers</guilabel> view.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								From the <guilabel>Server runtime environment</guilabel> list, select an existing server runtime environment for the application server type. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields as appropriate.
+							</para>
+							<figure>
+								<title>Server Runtime Environment Options in the New Server Runtime Environment Wizard</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4029.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>From the <guilabel>Select the server type</guilabel> list, select a <phrase>JBoss community application server</phrase>. The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are completed by default. In the <guilabel>Server name</guilabel> field, type a name by which to identify the server definition. From the <guilabel>Server runtime environment</guilabel> list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields as appropriate.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
+							<note>
+								<para>
+									If the <guilabel>Server runtime environment</guilabel> field is not shown, no server runtime environments exist for the selected application server type. A server runtime environment must be selected before you can successfully create a server adapter and complete the server definition. To create a new server runtime environment without canceling the wizard, click <guibutton>Next</guibutton> and complete the fields as appropriate.
+								</para>
+							</note>
+						</listitem>
+					</itemizedlist>
 				</step>
 				<step>
 					<para>
@@ -670,39 +681,46 @@
 									</para>
 								</note>
 							</listitem>
+							<listitem>
+								<para>
+									From the location list, select <guilabel>Remote System Deployment</guilabel>.
+								</para>
+								<figure>
+									<title>Remote System Deployment Options in the New Server Wizard</title>
+									<mediaobject>
+										<imageobject>
+											<imagedata fileref="images/4032.png"/>
+										</imageobject>
+										<textobject>
+											<phrase>From the location list, select <guilabel>Remote System Deployment</guilabel>.</phrase>
+										</textobject>
+									</mediaobject>
+								</figure>
+							</listitem>
 						</itemizedlist>
 					</para>
 				</step>
 				<step>
 					<para>
-						From the location list, select <guilabel>Remote System Deployment</guilabel>.
+						Complete the additional fields for the remote server as appropriate:
 					</para>
-					<figure>
-						<title>Remote System Deployment Options in the New Server Wizard</title>
-						<mediaobject>
-							<imageobject>
-								<imagedata fileref="images/4032.png"/>
-							</imageobject>
-							<textobject>
-								<phrase>From the location list, select <guilabel>Remote System Deployment</guilabel>.</phrase>
-							</textobject>
-						</mediaobject>
-					</figure>
-				</step>
-				<step>
-					<para>
-						From the <guilabel>Host</guilabel> list, select the host. Alternatively, to specify a new host, click <guibutton>New Host</guibutton> and follow the instructions.
-					</para>
-				</step>
-				<step>
-					<para>
-						In the <guilabel>Remote Server Home</guilabel> field, type the path of the application server or click <guibutton>Browse</guibutton> to navigate to the location.
-					</para>
-				</step>
-				<step>
-					<para>
-						In the <guilabel>Remote Server Configuration File</guilabel> field, type the path of the configuration file or click <guibutton>Browse</guibutton> to navigate to the location.
-					</para>
+					<itemizedlist>
+						<listitem>
+							<para>
+								From the <guilabel>Host</guilabel> list, select the host. Alternatively, to specify a new host, click <guibutton>New Host</guibutton> and follow the instructions.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								In the <guilabel>Remote Server Home</guilabel> field, type the path of the application server or click <guibutton>Browse</guibutton> to navigate to the location.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								In the <guilabel>Remote Server Configuration File</guilabel> field, type the path of the configuration file or click <guibutton>Browse</guibutton> to navigate to the location.
+							</para>
+						</listitem>
+					</itemizedlist>
 				</step>
 				<step>
 					<para>
@@ -727,7 +745,7 @@
 				</step>
 				<step>
 					<para>
-						Click <guibutton>Finish</guibutton> to create the server. The server is listed in the <guilabel>Servers</guilabel> tab, with the information in brackets detailing the server status.
+						Click <guibutton>Finish</guibutton> to create the server. The server is listed in the <guilabel>Servers</guilabel> view, with the information in brackets detailing the server status.
 					</para>
 				</step>
 			</procedure>
@@ -742,40 +760,40 @@
 			</sectioninfo>
 			<title>Manage Server Settings</title>
 			<para>
-				JBoss Server Tools provides the JBoss Server Editor for managing the settings of servers. This editor has two modes: Overview and Deployment. As described below, each mode enables you to configure fundamental server settings.
+				JBoss Server Tools provides the JBoss Server Editor for managing the settings of servers. This editor has two tabs: Overview and Deployment. As described below, each tab enables you to configure fundamental server settings.
 			</para>
 			<para>
-				The <guilabel>Overview</guilabel> mode details the settings for the server. Within this mode you can provide management information, specify application publishing and reload behavior, and customize port settings.
+				The <guilabel>Overview</guilabel> tab details the settings for the server. Within this tab you can provide management information, specify application publishing and reload behavior, and customize port settings.
 			</para>
 			<figure>
-				<title>Overview Mode of the JBoss Server Editor</title>
+				<title>Overview Tab of the JBoss Server Editor</title>
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="images/4036.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>The <guilabel>Overview</guilabel> mode details the settings for the server. Within this mode you can provide management information, specify application publishing and reload behavior, and customize port settings.</phrase>
+						<phrase>The <guilabel>Overview</guilabel> tab details the settings for the server. Within this tab you can provide management information, specify application publishing and reload behavior, and customize port settings.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 			<para>
-				The <guilabel>Deployment</guilabel> mode lists applications deployed to the server. Within this mode you can specify the general publishing behavior for applications and provide deployment settings for individual applications.
+				The <guilabel>Deployment</guilabel> tab lists applications deployed to the server. Within this tab you can specify the general publishing behavior for applications and provide deployment settings for individual applications.
 			</para>
 			<figure>
-				<title>Deployment Mode of the JBoss Server Editor</title>
+				<title>Deployment Tab of the JBoss Server Editor</title>
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="images/4056.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>The <guilabel>Deployment</guilabel> mode lists applications deployed to the server. Within this mode you can specify the general publishing behavior for applications and provide deployment settings for individual applications.</phrase>
+						<phrase>The <guilabel>Deployment</guilabel> tab lists applications deployed to the server. Within this tab you can specify the general publishing behavior for applications and provide deployment settings for individual applications.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 			<para>
-				To open the JBoss Server Editor for a specific server, in the <guilabel>Servers</guilabel> tab double-click the server. All changes to the settings of a server must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>. You may be required to enter the server management password when making changes to certain settings.<!--http://docs.jboss.org/tools/whatsnew/as/as-news-4.0.0.Beta1.html-->
+				To open the JBoss Server Editor for a specific server, in the <guilabel>Servers</guilabel> view double-click the server. All changes to the settings of a server must be saved before the results will take effect. To save changes made to server settings in the JBoss Server Editor, press <keycap>Ctrl+S</keycap>. You may be required to enter the server management password when making changes to certain settings.<!--http://docs.jboss.org/tools/whatsnew/as/as-news-4.0.0.Beta1.html-->
 			</para>
-			<section id="Manage_Server_Settings_in_Overview_Mode" remap="TID_22807">
+			<section id="Manage_Server_Settings_in_the_Overview_Tab" remap="TID_22807">
 				<sectioninfo>
 					<keywordset>
 						<keyword>
@@ -783,9 +801,9 @@
 						</keyword>
 					</keywordset>
 				</sectioninfo>
-				<title>Manage Server Settings in Overview Mode</title>
+				<title>Manage Server Settings in the Overview Tab</title>
 				<para>
-					The Overview mode of the JBoss Server Editor enables you to vary the management and behavior settings of an individual server. Each section of the Overview mode is outlined below. All changes to server settings must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
+					The Overview tab of the JBoss Server Editor enables you to vary the management and behavior settings of an individual server. Each section of the Overview tab is outlined below. All changes to server settings must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
 				</para>
 				<variablelist>
 					<varlistentry>
@@ -867,7 +885,7 @@
 								To specify the location of the server, from the list select <guilabel>Local</guilabel> or <guilabel>Remote System Deployment</guilabel>. For remote systems, there are further details that must be specified: the host, the path of the remote application server, and the remote application server configuration file.
 							</para>
 							<figure>
-								<title>Additional Remote Server Behavior Options in Server Behavior Section</title>
+								<title>Additional Remote Server Behavior Options in the Server Behavior Section</title>
 								<mediaobject>
 									<imageobject>
 										<imagedata fileref="images/4049.png"/>
@@ -1003,6 +1021,9 @@
 									</para>
 								</listitem>
 							</itemizedlist>
+							<para>
+								Note that server state detection options are disabled if the <guilabel>Server is externally managed</guilabel> check box under <guilabel>Server Behavior</guilabel> is selected.
+							</para>
 						</listitem>
 					</varlistentry>
 					<varlistentry>
@@ -1040,13 +1061,13 @@
 								</mediaobject>
 							</figure>
 							<para>
-								To manually specify the server ports or port offset, clear the <guilabel>Detect from Local Runtime</guilabel> check box corresponding to the appropriate tool and edit the value.
+								To manually specify the server ports or port offset, clear the <guilabel>Detect from Local Runtime</guilabel> check box corresponding to the appropriate tool and edit the port value.
 							</para>
 						</listitem>
 					</varlistentry>
 				</variablelist>
 			</section>
-			<section id="Manage_Server_Settings_in_Deployment_Mode" remap="TID_22812">
+			<section id="Manage_Server_Settings_in_the_Deployment_Tab" remap="TID_22812">
 				<sectioninfo>
 					<keywordset>
 						<keyword>
@@ -1054,13 +1075,13 @@
 						</keyword>
 					</keywordset>
 				</sectioninfo>
-				<title>Manage Server Settings in Deployment Mode</title>
+				<title>Manage Server Settings in the Deployment Tab</title>
 				<para>
-					The Deployment mode of the JBoss Server Editor enables you to vary the deployment settings of an individual server. Each section of the Deployment mode is outlined below. All changes to server settings must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
+					The Deployment tab of the JBoss Server Editor enables you to vary the deployment settings of an individual server. Each section of the Deployment tab is outlined below. All changes to server settings must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
 				</para>
 				<important>
 					<para>
-						Changing deployment settings when modules are already deployed can adversely result in multiple deployed copies of an application. For this reason, many of the functions of the Deployment mode are only enabled when a server is fully synchronized and it has no modules deployed.
+						Changing deployment settings when modules are already deployed can adversely result in multiple deployed copies of an application. For this reason, many of the functions of the Deployment tab are only enabled when a server is fully synchronized and it has no modules deployed.
 					</para>
 				</important>
 				<variablelist>
@@ -1097,12 +1118,12 @@
 								</listitem>
 								<listitem>
 									<para>
-										To select a folder of your choice, click <guilabel>Use a custom deploy folder</guilabel>. With this option, you should complete the <guilabel>Deploy directories</guilabel> and <guilabel>Temporary Deploy Directory</guilabel> fields. The temporary folder must be on the same file system as the final deploy location otherwise publishing often fails.
+										To select a folder of your choice, click <guilabel>Use a custom deploy folder</guilabel>. With this option, complete the <guilabel>Deploy directories</guilabel> and <guilabel>Temporary Deploy Directory</guilabel> fields. The temporary folder must be on the same file system as the final deploy location otherwise publishing often fails.
 									</para>
 								</listitem>
 								<listitem>
 									<para>
-										For all modules to be archived for deployment, select the <guilabel>Deploy projects as compressed archives</guilabel> check box. This avoids exploded deployments and reduces the amount of memory deployments occupy but may result in slower deployments.
+										For all modules to be archived for deployment, select the <guilabel>Deploy projects as compressed archives</guilabel> check box. This avoids exploded deployments and reduces the amount of memory deployments occupy but may result in slower deployment.
 									</para>
 								</listitem>
 							</itemizedlist>
@@ -1126,7 +1147,7 @@
 								</mediaobject>
 							</figure>
 							<para>
-								To filter the module list in the case that you have lots of modules, from the <guilabel>Filter by</guilabel> list select the criteria for the filter. If you select <guilabel>By Module Name</guilabel>, in the text field enter the part or whole name of the module.
+								To filter the module list in the case that you have many modules, from the <guilabel>Filter by</guilabel> list select the criteria for the filter. If you select the <guilabel>By Module Name</guilabel> filter option, in the text field enter the part or whole name of the module.
 							</para>
 							<para>
 								To change the <guilabel>Deployment Location</guilabel> and <guilabel>Temporary Deploy Directory</guilabel> on a per module basis, in the table click the value to be changed and enter an alternative value. Ensure the values for these variables are specified use absolute paths or paths relative to the default deploy directory.
@@ -1164,7 +1185,7 @@
 				</listitem>
 				<listitem>
 					<para>
-						Specify default filesets that are listed in the <guilabel>Servers</guilabel> tab for ease of access
+						Specify default file sets that are listed in the <guilabel>Servers</guilabel> view for ease of access
 					</para>
 				</listitem>
 				<listitem>
@@ -1187,16 +1208,16 @@
 				You can customize runtime detection to automatically search paths for installed application servers when the IDE starts. If any application servers are found, you are prompted about creating corresponding complete server definitions.
 			</para>
 			<para>
-				To enable automated searching on IDE start, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>. In the <guilabel>Paths</guilabel> table, select the <guilabel>Every start</guilabel> check box for all of the paths that you want to be automatically searched on IDE start. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.
+				To enable automated searching on IDE start, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>. In the <guilabel>Paths</guilabel> table, select the <guilabel>Every start</guilabel> check box for all of the paths that you want to be automatically searched on IDE start. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
 			</para>
 			<figure>
-				<title>Every Start Check Box Selected for <phrase>JBossAS</phrase> Path</title>
+				<title><guilabel>Every Start</guilabel> Check Box Selected for <phrase>JBossAS</phrase> Path</title>
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="images/4034.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>To enable automated searching on IDE start, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>. In the <guilabel>Paths</guilabel> table, select the <guilabel>Every start</guilabel> check box for all of the paths that you want to be automatically searched on IDE start. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</phrase>
+						<phrase>To enable automated searching on IDE start, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>. In the <guilabel>Paths</guilabel> table, select the <guilabel>Every start</guilabel> check box for all of the paths that you want to be automatically searched on IDE start. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
@@ -1219,7 +1240,7 @@
 					<imageobject>
 						<imagedata fileref="images/4057.png"/>
 					</imageobject>
-				</inlinemediaobject>. From the list of servers, click the server that you want to set as the default.
+				</inlinemediaobject>. From the list of existing servers, click the server that you want to set as the default. Alternatively, to create a new default server click <guimenu>New Server</guimenu> and follow the instructions.
 			</para>
 			<figure>
 				<title>Default Server Menu Option</title>
@@ -1228,12 +1249,12 @@
 						<imagedata fileref="images/4024.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>To set a default server, in the global toolbar of the JBoss perspective click the <guibutton>Select a default server</guibutton> icon. From the list of servers, click the server that you want to set as the default.</phrase>
+						<phrase>To set a default server, in the global toolbar of the JBoss perspective click the <guibutton>Select a default server</guibutton> icon. From the list of existing servers, click the server that you want to set as the default. Alternatively, to create a new default server click <guimenu>New Server</guimenu> and follow the instructions.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 		</section>
-		<section id="Default_Filesets" remap="TID_22805">
+		<section id="Default_File_Sets" remap="TID_22805">
 			<sectioninfo>
 				<keywordset>
 					<keyword>
@@ -1241,12 +1262,12 @@
 					</keyword>
 				</keywordset>
 			</sectioninfo>
-			<title>Default Filesets</title>
+			<title>Default File Sets</title>
 			<para>
-				Filesets are collections of files that are listed under the server in the <guilabel>Servers</guilabel> tab for ease of access. You can open listed files for viewing and modifying in IDE editors by double-clicking them. JBoss Server Tools generates a default fileset for new <phrase>JBoss community application servers</phrase> that includes the server configuration file. But JBoss Server Tools also provides the ability for you to customize default filesets for individual servers and an application server type.
+				File sets are collections of files that are listed under the server in the <guilabel>Servers</guilabel> view for ease of access. JBoss Server Tools generates a default file set for new <phrase>JBoss community application servers</phrase> that includes the server configuration file. But JBoss Server Tools also provides the ability for you to customize default file sets for individual servers and application server types.
 			</para>
 			<para>
-				To customize the fileset for an individual server, in the <guilabel>Servers</guilabel> tab expand the server. Right-click <guilabel>Filesets</guilabel> and click <guimenu>Create File Filter</guimenu>. In the <guilabel>Name</guilabel> field, type a name for the filter. In the <guilabel>Root Directory</guilabel> field, type the path of the directory in which the filter should be applied or click <guibutton>Browse</guibutton> to navigate to the location. In the <guilabel>Includes</guilabel> and <guilabel>Excludes</guilabel> fields, type the regex patterns for filtering. Click <guibutton>OK</guibutton> to create the filter. The new filter is listed under the server in the <guilabel>Servers</guilabel> tab and expanding it shows all of the files matching the filter.
+				To customize the file set for an individual server, in the <guilabel>Servers</guilabel> view expand the server. Right-click <guilabel>Filesets</guilabel> and click <guimenu>Create File Filter</guimenu>. In the <guilabel>Name</guilabel> field, type a name for the filter. In the <guilabel>Root Directory</guilabel> field, type the path of the directory in which the filter is to be applied or click <guibutton>Browse</guibutton> to navigate to the location. In the <guilabel>Includes</guilabel> and <guilabel>Excludes</guilabel> fields, type the regex patterns for filtering. Click <guibutton>OK</guibutton> to create the filter. The new filter is listed under the server in the <guilabel>Servers</guilabel> view and expanding the filter shows all of the matching files.
 			</para>
 			<figure>
 				<title>Create File Filter Menu Option</title>
@@ -1255,7 +1276,7 @@
 						<imagedata fileref="images/4040.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>To customize the fileset for an individual server, in the <guilabel>Servers</guilabel> tab expand the server. Right-click <guilabel>Filesets</guilabel> and click <guimenu>Create File Filter</guimenu>.</phrase>
+						<phrase>To customize the file set for an individual server, in the <guilabel>Servers</guilabel> view expand the server. Right-click <guilabel>Filesets</guilabel> and click <guimenu>Create File Filter</guimenu>.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
@@ -1271,16 +1292,16 @@
 				</mediaobject>
 			</figure>
 			<para>
-				To customize the default fileset for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel> and select <guilabel>Default Filesets</guilabel>. From the list, select a <phrase>JBoss community application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the default filesets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.
+				To customize the default file set for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel> and select <guilabel>Default Filesets</guilabel>. From the list, select a <phrase>JBoss community application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the default file sets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
 			</para>
 			<figure>
 				<title>Default Filesets Pane</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata fileref="images/4038.png"/>
+						<imagedata fileref="images/4005.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>To customize the default fileset for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel> and select <guilabel>Default Filesets</guilabel>. From the list, select a <phrase>JBoss community application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the default filesets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</phrase>
+						<phrase>To customize the default file set for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel> and select <guilabel>Default Filesets</guilabel>. From the list, select a <phrase>JBoss community application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the default file sets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
@@ -1295,20 +1316,20 @@
 			</sectioninfo>
 			<title>Default Classpath Entries</title>
 			<para>
-				Classpath entries specify the availability of <filename>.jar</filename> files for your projects. JBoss Server Tools generates a default classpath fileset for new <phrase>JBoss community application servers</phrase> based on the <filename>.jar</filename> files that accompanying each. But JBoss Server Tools also provides the ability for you to customize classpaths for individual servers and an application server type.
+				Classpath entries specify the availability of <filename>.jar</filename> files for your projects. JBoss Server Tools generates a default classpath file set for new <phrase>JBoss community application servers</phrase> based on the <filename>.jar</filename> files that accompany each. But JBoss Server Tools also provides the ability for you to customize classpaths for individual servers and application server types.
 			</para>
 			<!-- Add text later <para>To customize the classpath fileset for an individual server, <remark>HOW?</remark></para> -->
 			<para>
-				To customize the classpath fileset for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel>&rarr;<guilabel>Runtime Environments</guilabel> and select <guilabel>Default Classpath Entries</guilabel>. From the <guilabel>Select classpath filesets for this runtime type</guilabel> list, select a <phrase>JBoss community application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the classpath filesets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.
+				To customize the classpath file set for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel>&rarr;<guilabel>Runtime Environments</guilabel> and select <guilabel>Default Classpath Entries</guilabel>. From the <guilabel>Select classpath filesets for this runtime type</guilabel> list, select a <phrase>JBoss community application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the classpath file sets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
 			</para>
 			<figure>
 				<title>Default Classpath Entries Pane</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata fileref="images/4058.png"/>
+						<imagedata fileref="images/4022.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>To customize the classpath fileset for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel>&rarr;<guilabel>Runtime Environments</guilabel> and select <guilabel>Default Classpath Entries</guilabel>. From the <guilabel>Select classpath filesets for this runtime type</guilabel> list, select a <phrase>JBoss community application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the classpath filesets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</phrase>
+						<phrase>To customize the classpath file set for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel>&rarr;<guilabel>Runtime Environments</guilabel> and select <guilabel>Default Classpath Entries</guilabel>. From the <guilabel>Select classpath filesets for this runtime type</guilabel> list, select a <phrase>JBoss community application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the classpath file sets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>

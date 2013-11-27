@@ -8,6 +8,19 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.1.0-8</revnumber><date>Fri Nov 29 2013</date>
+				<author>
+					<firstname>Michelle</firstname><surname>Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-384: Technical review edits applied
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>7.1.0-7</revnumber><date>Tue Nov 19 2013</date>
 				<author>
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>

@@ -43,11 +43,11 @@
 	<formalpara>
 		<title>Give us Feedback</title>
 		<para>
-			If you find a typographical error or have a suggestion for improving this documentation, we would love to hear from you. Submit a report in JIRA at <ulink url="https://issues.jboss.org"/> against the project <application>Documentation for JBoss Tools and Developer Studio (TOOLSDOC)</application>.
+			If you find a typographical error or have a suggestion for improving this documentation, we would love to hear from you. Submit a report in JIRA against the project <application>Documentation for JBoss Tools and Developer Studio (TOOLSDOC)</application>. The following link will take you to a pre-filled bug report for this product: <ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;pid=12310980">https://issues.jboss.org</ulink>.
 		</para>
 	</formalpara>
 	<para>
-		Fill out the template below in JIRA's <guilabel>Description</guilabel> field. Be as specific as possible when describing the issue; this will help ensure that we can fix it quickly.
+		Fill out the following template in JIRA's <guilabel>Description</guilabel> field. Be as specific as possible when describing the issue; this will help ensure that we can fix it quickly.
 	</para>
 	<screen>Document URL:
 
