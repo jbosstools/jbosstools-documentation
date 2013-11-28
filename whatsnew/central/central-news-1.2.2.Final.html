@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../whatsnew.css"/>
+<title>JBoss Central 1.2.2.Final What's New</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17645367-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
+<body>
+<h1>JBoss Central 1.2.2.Final What's New </h1>
+<p align="right"><a href="../index.html">&lt; Main Index</a> <a
+href="../jst/jst-news-4.1.1.CR1.html">JST/JSF/HTML &gt;</a>
+
+</p>
+
+<table border="0" cellpadding="10" cellspacing="0" width="80%">
+  <tr>
+    <td colspan="2">
+      <hr/>
+      <h3>General</h3>
+	<hr/>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="left">
+       <a name="connectors" id="connectors"></a><b>Updated connectors</b>
+    </td>
+    <td width="70%" valign="top">
+    <p>In the software tab of JBoss Central, 2 new connectors have been added :
+    </p>
+	<p><a href="https://github.com/jbosstools/m2e-wro4j">m2e-wro4j</a> to optimize (minify, concatenate...) your web resources :<br/><img src="../images/m2e-wro4j.png"/></p>
+	<p><a href="http://www.tasktop.com/connectors/hudson-jenkins.php">Mylyn support for Jenkins/Hudson</a> build servers :<br/><img src="../images/mylyn-jenkins-support.png"/></p>
+
+    <p>Moreover, some connectors have been updated to newer versions :</p>
+    <ul>
+	    <li>Atlassian 3.2.2.v20130909</li>
+	    <li>PMD 4.0.1</li>
+	    <li>TestNG 6.8.6.20130914_0724</li>
+	    <li>VJET 0.10.0.201309201624 (Experimental/Incubating)</li>
+	    <li>Checkstyle 5.6.1.201306282206</li>
+	    <li>SpringIDE 3.4.0.201310051539-RELEASE</li>
+	    <li>Google Plugin for Eclipse (GPE) 3.4.2.v201310081834-rel-r43</li>
+    </ul>
+
+	<p>
+	Note : Google Plugin for Eclipse 3.4.2 for Kepler (e43) doesn't update cleanly from the previous 3.2.x versions (Juno/e42). 
+	If you update you'll most probably see the <a href="https://issues.jboss.org/browse/JBDS-2801?focusedCommentId=12924169&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-12924169">remediation screen asking you to uninstall e42</a> before installing e43. 
+	</p>
+
+
+	<p>
+	<small>
+	Related JIRAs : 
+	<a href="https://issues.jboss.org/browse/JBDS-2774">JBDS-2774</a>,
+	<a href="https://issues.jboss.org/browse/JBIDE-15353">JBIDE-15353</a>,
+	<a href="https://issues.jboss.org/browse/JBDS-2800">JBDS-2800</a>,
+	<a href="https://issues.jboss.org/browse/JBIDE-15677">JBIDE-15677</a>,
+	<a href="https://issues.jboss.org/browse/JBIDE-15129">JBIDE-15129</a>,
+	<a href="https://issues.jboss.org/browse/JBDS-2801">JBDS-2801</a>,
+	<a href="https://issues.jboss.org/browse/JBDS-2802">JBDS-2802</a>
+	</small>
+	</p>
+    </td>
+  </tr>
+
+   <tr>
+    <td colspan="2">
+      <hr />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="left">
+       <a name="dnd-support" id="dnd-support"></a><b>Install via Drag N'Drop</b>
+    </td>
+    <td width="70%" valign="top">
+        <p>You can drag a link into the JBoss Central view to cause Central connector(s) to be installed into Eclipse or JBDS.</p> 
+        <ul>
+	        <li><a href="http://download.jboss.org/jbosstools/central/install?connectors=m2e.wro4j.feature,org.springframework.ide.eclipse.feature">Drag this link into Eclipse to install Spring IDE and m2e-wro4j</a></li>
+        </ul>     
+        <p>
+        Supported link formats :
+        </p>
+        <ul>
+        <li>http://download.jboss.org/jbosstools/central/install?connectors=comma-separated-list-of-connector-ids</li>
+        <li>https://devstudio.jboss.com/central/install?connectors=comma-separated-list-of-connector-ids</li>
+        </ul>
+    	<p><small>Related JIRAs : <a href="https://issues.jboss.org/browse/JBIDE-15499">JBIDE-15499</a></small></p>
+    </td>
+  </tr>
+   <tr>
+    <td colspan="2">
+      <hr />
+    </td>
+  </tr>
+
+</table>
+
+</body>
+
+</html>
