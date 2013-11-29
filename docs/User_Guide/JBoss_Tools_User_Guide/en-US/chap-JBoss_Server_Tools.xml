@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_User_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_4.1_User_Guide.ent">
 %BOOK_ENTITIES;
 ]>
 <chapter id="chap-JBoss_Server_Tools">
@@ -26,7 +26,7 @@
 				Runtime detection is available to assist you in locating installed application servers and integrating them into the IDE ready for use. Additionally, you can define remote servers for <phrase>JBoss community application servers</phrase> in the enhanced New Server wizard, which integrates with the IDE Remote System Explorer (RSE) tool.<phrase>JBoss Server Tools also allows you to download JBoss community application servers from within the IDE.</phrase>
 			</para>
 			<para>
-				Extensions to the standard IDE New Server wizard and server editor allow you to specify and customize more management and behavior settings for servers. Settings include IDE interaction with servers such as launching, communicating and publishing. The JBoss Server Editor supports you to manage server settings for global and individual application deployment.
+				Extensions to the standard IDE New Server wizard and Server Editor allow you to specify and customize more management and behavior settings for servers. Settings include IDE interaction with servers such as launching, communicating and publishing. The JBoss Server Editor supports you to manage server settings for global and individual application deployment.
 			</para>
 			<para>
 				JBoss Server Tools actions enable you to make customizations based on application server type, such as default filesets added to new servers and classpath filesets. You can also customize the default server used for IDE actions such as 'Run on Server'.
@@ -185,7 +185,7 @@
 			</itemizedlist>
 			<note>
 				<para>
-					Alternatively, you can download and install JBoss community application servers when adding server runtime environments within <guimenu>Preferences</guimenu> under <guilabel>Server</guilabel>&rarr;<guilabel>Runtime Environments</guilabel>, with the wizard for creating new servers, or with the <guilabel>Start from scratch</guilabel> and <guilabel>Start from a sample</guilabel> wizards in <guilabel>JBoss Central</guilabel>.
+					Alternatively, you can download and install JBoss community application servers when adding server runtime environments within <guimenu>Preferences</guimenu> under <guilabel>Server</guilabel>&rarr;<guilabel>Runtime Environments</guilabel>, with the wizard for creating new servers, or with the <guilabel>Start from scratch</guilabel> and <guilabel>Start from a sample</guilabel> wizards in JBoss Central.
 				</para>
 			</note>
 		</section>
@@ -323,7 +323,7 @@
 				</step>
 				<step>
 					<para>
-						Complete the fields as appropriate: 
+						Complete the fields and options as detailed: 
 						<itemizedlist>
 							<listitem>
 								<para>
@@ -356,7 +356,7 @@
 				</step>
 				<step>
 					<para>
-						Complete the fields as appropriate:
+						Complete the fields and options as detailed:
 					</para>
 					<itemizedlist>
 						<listitem>
@@ -461,7 +461,7 @@
 				</step>
 				<step>
 					<para>
-						Complete the options and fields as appropriate:
+						Complete the fields and options as detailed:
 					</para>
 					<itemizedlist>
 						<listitem>
@@ -476,7 +476,7 @@
 						</listitem>
 						<listitem>
 							<para>
-								From the <guilabel>Server runtime environment</guilabel> list, select an existing server runtime environment for the application server type. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields as appropriate.
+								From the <guilabel>Server runtime environment</guilabel> list, select an existing server runtime environment for the application server type. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields and options as appropriate.
 							</para>
 							<figure>
 								<title>Server Runtime Environment Options in the New Server Runtime Environment Wizard</title>
@@ -485,13 +485,13 @@
 										<imagedata fileref="images/4029.png"/>
 									</imageobject>
 									<textobject>
-										<phrase>From the <guilabel>Select the server type</guilabel> list, select a <phrase>JBoss community application server</phrase>. The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are completed by default. In the <guilabel>Server name</guilabel> field, type a name by which to identify the server definition. From the <guilabel>Server runtime environment</guilabel> list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields as appropriate.</phrase>
+										<phrase>From the <guilabel>Select the server type</guilabel> list, select a <phrase>JBoss community application server</phrase>. The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are completed by default. In the <guilabel>Server name</guilabel> field, type a name by which to identify the server definition. From the <guilabel>Server runtime environment</guilabel> list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields and options as appropriate.</phrase>
 									</textobject>
 								</mediaobject>
 							</figure>
 							<note>
 								<para>
-									If the <guilabel>Server runtime environment</guilabel> field is not shown, no server runtime environments exist for the selected application server type. A server runtime environment must be selected before you can successfully create a server adapter and complete the server definition. To create a new server runtime environment without canceling the wizard, click <guibutton>Next</guibutton> and complete the fields as appropriate.
+									If the <guilabel>Server runtime environment</guilabel> field is not shown, no server runtime environments exist for the selected application server type. A server runtime environment must be selected before you can successfully create a server adapter and complete the server definition. To create a new server runtime environment without canceling the wizard, click <guibutton>Next</guibutton> and complete the fields and options as appropriate.
 								</para>
 							</note>
 						</listitem>
@@ -504,7 +504,7 @@
 				</step>
 				<step>
 					<para>
-						The server behavior options displayed vary depending on the selected application server type. Complete the options as appropriate: 
+						The server behavior options displayed vary depending on the selected application server type. Complete the fields and options as detailed: 
 						<itemizedlist>
 							<listitem>
 								<para>
@@ -616,7 +616,7 @@
 				</step>
 				<step>
 					<para>
-						Complete the options and fields as appropriate:
+						Complete the fields and options as detailed:
 					</para>
 					<itemizedlist>
 						<listitem>
@@ -631,7 +631,7 @@
 						</listitem>
 						<listitem>
 							<para>
-								From the <guilabel>Server runtime environment</guilabel> list, select an existing server runtime environment for the application server type. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields as appropriate.
+								From the <guilabel>Server runtime environment</guilabel> list, select an existing server runtime environment for the application server type. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields and options as appropriate.
 							</para>
 							<figure>
 								<title>Server Runtime Environment Options in the New Server Runtime Environment Wizard</title>
@@ -640,13 +640,13 @@
 										<imagedata fileref="images/4029.png"/>
 									</imageobject>
 									<textobject>
-										<phrase>From the <guilabel>Select the server type</guilabel> list, select a <phrase>JBoss community application server</phrase>. The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are completed by default. In the <guilabel>Server name</guilabel> field, type a name by which to identify the server definition. From the <guilabel>Server runtime environment</guilabel> list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields as appropriate.</phrase>
+										<phrase>From the <guilabel>Select the server type</guilabel> list, select a <phrase>JBoss community application server</phrase>. The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are completed by default. In the <guilabel>Server name</guilabel> field, type a name by which to identify the server definition. From the <guilabel>Server runtime environment</guilabel> list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields and options as appropriate.</phrase>
 									</textobject>
 								</mediaobject>
 							</figure>
 							<note>
 								<para>
-									If the <guilabel>Server runtime environment</guilabel> field is not shown, no server runtime environments exist for the selected application server type. A server runtime environment must be selected before you can successfully create a server adapter and complete the server definition. To create a new server runtime environment without canceling the wizard, click <guibutton>Next</guibutton> and complete the fields as appropriate.
+									If the <guilabel>Server runtime environment</guilabel> field is not shown, no server runtime environments exist for the selected application server type. A server runtime environment must be selected before you can successfully create a server adapter and complete the server definition. To create a new server runtime environment without canceling the wizard, click <guibutton>Next</guibutton> and complete the fields and options as appropriate.
 								</para>
 							</note>
 						</listitem>
@@ -659,7 +659,7 @@
 				</step>
 				<step>
 					<para>
-						The server behavior options displayed vary depending on the selected application server type. Complete the options as appropriate: 
+						The server behavior options displayed vary depending on the selected application server type. Complete the options as detailed: 
 						<itemizedlist>
 							<listitem>
 								<para>
@@ -702,7 +702,7 @@
 				</step>
 				<step>
 					<para>
-						Complete the additional fields for the remote server as appropriate:
+						Complete the additional fields and options for the remote server as detailed:
 					</para>
 					<itemizedlist>
 						<listitem>

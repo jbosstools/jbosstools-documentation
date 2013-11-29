@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_User_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_4.1_User_Guide.ent">
 %BOOK_ENTITIES;
 ]>
 <chapter id="chap-BrowserSim">
@@ -20,7 +20,7 @@
 				BrowserSim is a mobile web browser simulator. It enables you to view and interact with web pages as they would appear on mobile devices.
 			</para>
 			<para>
-				BrowserSim consists of an external web browser window. This browser window is different from standard browsers in that it can be transformed to simulate browsers on a variety of mobile devices. The browser window can also be rotated to demonstrate the changes that would occur to a web application as a result of rotating a mobile device. Additionally, BrowserSim provides access to tools for inspecting and editing the source of web pages.
+				BrowserSim consists of an external web browser window. This browser window is different from standard browsers in that it can be transformed to simulate browsers on a variety of mobile devices. The browser window can also return touch events in response to interaction and be rotated to demonstrate the changes that would occur to a web application as a result of rotating a mobile device. Additionally, BrowserSim provides access to tools for inspecting and editing the source of web pages.
 			</para>
 		</section>
 		<section id="System_Requirements3" remap="TID_22864">
@@ -39,8 +39,19 @@
 				BrowserSim depends on WebKit and, consequently, requires Apple Safari to be installed on Microsoft Windows operating systems. Only a 32-bit version of Apple Safari is available for Microsoft Windows operating systems. To work around this restriction for 64-bit Microsoft Windows operating systems, you must set BrowserSim to use a 32-bit JVM when running in 64-bit versions of <phrase>Eclipse</phrase>. Note that 32-bit JVM choice is limited to Oracle 32-bit JRE 1.6, JDK 1.6, or JDK 1.7 on Microsoft Windows operating systems because Oracle 32-bit JRE 1.7 is incompatible with Apple Safari.
 			</para>
 			<para>
-				To set BrowserSim to use a 32-bit JVM, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>BrowserSim/CordovaSim</guilabel>. Under <guilabel>Select JRE to run BrowserSim</guilabel>, click <guilabel>Select</guilabel> and from the list select a 32-bit JRE or Java developer kit. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.
+				To set BrowserSim to use a 32-bit JVM, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>BrowserSim/CordovaSim</guilabel>. Under <guilabel>Select JRE to run BrowserSim</guilabel>, click <guilabel>Select</guilabel> and from the list select a 32-bit JRE or Java developer kit. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
 			</para>
+			<figure>
+				<title>BrowserSim/Cordova Pane of Preferences Window</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4322.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>To set BrowserSim to use a 32-bit JVM, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>BrowserSim/CordovaSim</guilabel>.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
 		</section>
 	</section>
 	<section id="sect-Features_of_BrowserSim">
@@ -103,7 +114,7 @@
 					<term>To view web applications in local file systems</term>
 					<listitem>
 						<para>
-							In the <guilabel>Project Explorer</guilabel> tab, select a <filename>.html</filename> file and click the <guibutton>Run BrowserSim</guibutton> icon 
+							In the <guilabel>Project Explorer</guilabel> view, select a <filename>.html</filename> file and click the <guibutton>Run BrowserSim</guibutton> icon 
 							<inlinemediaobject>
 								<imageobject>
 									<imagedata fileref="images/4115.png"/>
@@ -116,8 +127,13 @@
 					<term>To view deployed web applications</term>
 					<listitem>
 						<para>
-							In the <guilabel>Servers</guilabel> tab, expand the server on which the application is deployed. Right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>BrowserSim</guimenu>. Alternatively, select the application and click the <guibutton>Run BrowserSim</guibutton> icon. If BrowserSim is the IDE browser preferences, you can also right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser</guimenu>.
+							In the <guilabel>Servers</guilabel> view, expand the server on which the application is deployed. Right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>BrowserSim</guimenu>. Alternatively, select the application and click the <guibutton>Run BrowserSim</guibutton> icon. If BrowserSim is the default IDE browser, you can also right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser</guimenu>.
 						</para>
+						<important>
+							<para>
+								Ensure the server and application of the deployed resources are started before attempting to view the resources in BrowserSim. To start the server and the application, in the <guilabel>Servers</guilabel> view right-click each and click <guimenu>Start</guimenu>.
+							</para>
+						</important>
 					</listitem>
 				</varlistentry>
 			</variablelist>
@@ -136,7 +152,7 @@
 				</mediaobject>
 			</figure>
 			<para>
-				Runtime errors for simulated devices can be viewed in the <guilabel>Error Log</guilabel> tab. To open the <guilabel>Error Log</guilabel> tab, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>. Expand <guilabel>General</guilabel>, select <guilabel>Error Log</guilabel> and click <guibutton>OK</guibutton>.
+				Runtime errors for simulated devices can be viewed in the <guilabel>Error Log</guilabel> view. To open the <guilabel>Error Log</guilabel> view, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>. Expand <guilabel>General</guilabel> and double-click <guilabel>Error Log</guilabel>.
 			</para>
 		</section>
 		<section id="Manage_Web_Applications_on_BrowserSim" remap="TID_22859">
@@ -172,12 +188,7 @@
 					<term>Reload a web page</term>
 					<listitem>
 						<para>
-							Click the <guilabel>Reload</guilabel> icon 
-							<inlinemediaobject>
-								<imageobject>
-									<imagedata fileref="images/4106.png"/>
-								</imageobject>
-							</inlinemediaobject> at the end of the address bar.
+							Click the <guilabel>Reload</guilabel> icon. The icon differs in appearance and location across the simulated devices.
 						</para>
 					</listitem>
 				</varlistentry>
@@ -198,7 +209,7 @@
 					<term>Use simulated touch</term>
 					<listitem>
 						<para>
-							Right-click the simulated device and click <guimenu>Enable Touch Events</guimenu>. This option changes the cursor to a circle and returns mouse events in the simulated device browser window as touch events.
+							Right-click the simulated device and click <guimenu>Enable Touch Events</guimenu>. This option changes the cursor to a circle when it is over the simulated device browser window and returns mouse events in the browser window as touch events.
 						</para>
 					</listitem>
 				</varlistentry>
@@ -254,7 +265,7 @@
 							<title>Skins Menu Option</title>
 							<mediaobject>
 								<imageobject>
-									<imagedata fileref="images/4102.png"/>
+									<imagedata fileref="images/4323.png"/>
 								</imageobject>
 								<textobject>
 									<phrase>Right-click the simulated device, click <guimenu>Skins</guimenu> and select from the listed devices.</phrase>
@@ -267,7 +278,7 @@
 					<term>Remove or use skins</term>
 					<listitem>
 						<para>
-							To view a plain browser window without the mobile device skin, right-click the simulated device and clear the <guilabel>Use Skins</guilabel> check box. To reapply the skin, click <guimenu>Devices</guimenu> and select the <guilabel>Use Skins</guilabel> check box.
+							To view a plain browser window without the mobile device skin, right-click the simulated device and click <guilabel>Use Skins</guilabel>. To reapply the skin, click <guimenu>Device</guimenu>&rarr;<guilabel>Use Skins</guilabel>.
 						</para>
 					</listitem>
 				</varlistentry>
@@ -328,39 +339,36 @@
 				BrowserSim provides the ability to generate screen captures of a simulated device and the web pages it shows.
 			</para>
 			<para>
-				To generate a screen capture of a simulated device, right-click the simulated device and click <guimenu>Screenshot</guimenu>.
-			</para>
-			<figure>
-				<title>Screenshot Menu Option</title>
-				<mediaobject>
-					<imageobject>
-						<imagedata fileref="images/4103.png"/>
-					</imageobject>
-					<textobject>
-						<phrase>To generate a screen capture of a simulated device, right-click the simulated device and click <guimenu>Screenshot</guimenu>.</phrase>
-					</textobject>
-				</mediaobject>
-			</figure>
-			<para>
-				Select the output for the screen capture from the list of options: 
+				To generate a screen capture of a simulated device, right-click the simulated device and click <guimenu>Screenshot</guimenu>. Select the output for the screen capture from the list of options: 
 				<itemizedlist>
 					<listitem>
 						<para>
-							<guimenu>Save</guimenu> to save as a <filename>.png</filename> file in the default location. The default location is your home directory.
+							<guimenu>Save</guimenu> to save as a <filename>.png</filename> file in the default location. The default location is a customizable setting and if it is not set you are prompted to select a location to which to save the file each time.
 						</para>
 					</listitem>
 					<listitem>
 						<para>
-							<guimenu>Save as</guimenu> to save as a <filename>.png</filename> file in a location you specify.
+							<guimenu>Save As</guimenu> to save as a <filename>.png</filename> file in a location you specify.
 						</para>
 					</listitem>
 					<listitem>
 						<para>
-							<guimenu>Copy to clipboard</guimenu> to copy the graphic for immediate use.
+							<guimenu>Copy to Clipboard</guimenu> to copy the graphic for immediate use.
 						</para>
 					</listitem>
 				</itemizedlist>
 			</para>
+			<!--<figure>
+		<title>Screenshot Menu Option</title>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/4103.png"/>
+			</imageobject>
+			<textobject>
+				<phrase>To generate a screen capture of a simulated device, right-click the simulated device and click <guimenu>Screenshot</guimenu>.</phrase>
+			</textobject>
+		</mediaobject>
+	</figure>-->
 		</section>
 		<section id="Activate_LiveReload_for_BrowserSim" remap="TID_22851">
 			<sectioninfo>
@@ -372,14 +380,31 @@
 			</sectioninfo>
 			<title>Activate LiveReload for BrowserSim</title>
 			<para>
-				LiveReload for BrowserSim refreshes web pages open in simulated device browser windows as the source is edited. A LiveReload server sends notifications as resources are changed in the IDE and BrowserSim inserts the JavaScript code, which invokes the simulated device browser window to refresh. The procedures below outline how to create a LiveReload server and how to enable LiveReload in BrowserSim for workspace and deployed resources.
+				LiveReload for BrowserSim refreshes web pages open in simulated device browser windows as the source is edited in the IDE. A LiveReload server sends notifications as resources are changed in the IDE and BrowserSim inserts the JavaScript code, which invokes the simulated device browser window to refresh. The procedures below outline how to create a LiveReload server and how to enable LiveReload in BrowserSim for workspace and deployed resources.
 			</para>
 			<procedure>
 				<title>Create a LiveReload Server</title>
 				<step>
 					<para>
-						In the <guilabel>Servers</guilabel> tab, click <guilabel>create a new server</guilabel> or right-click an existing server and click <guimenu>New</guimenu>&rarr;<guimenu>Server</guimenu>.
+						Click the <guilabel>Servers</guilabel> view. If the <guilabel>Servers</guilabel> view is not visible, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Servers</guimenu>.
 					</para>
+				</step>
+				<step>
+					<para>
+						Depending on the number of existing servers, follow the appropriate step:
+					</para>
+					<stepalternatives>
+						<step>
+							<para>
+								If there are no existing servers, click <guilabel>Click this link to create a new server</guilabel>.
+							</para>
+						</step>
+						<step>
+							<para>
+								If there are one or more existing servers, right-click an existing server and click <guimenu>New</guimenu>&rarr;<guimenu>Server</guimenu>.
+							</para>
+						</step>
+					</stepalternatives>
 				</step>
 				<step>
 					<para>
@@ -389,7 +414,7 @@
 						<title>LiveReload Server Selected in New Server Wizard</title>
 						<mediaobject>
 							<imageobject>
-								<imagedata fileref="images/4111.png"/>
+								<imagedata fileref="images/4079.png"/>
 							</imageobject>
 							<textobject>
 								<phrase>From the list of server types, expand <guilabel>Basic</guilabel> and select <guilabel>LiveReload Server</guilabel>.</phrase>
@@ -399,31 +424,31 @@
 				</step>
 				<step>
 					<para>
-						The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are automatically populated. The <command>localhost</command> value in the <guilabel>Server's host name</guilabel> field indicates that the server is to be run on the local system and the value in the <guilabel>Server name</guilabel> field is the name by which the LiveReload server is identified in the <guilabel>Servers</guilabel> tab. You can edit these values as appropriate by typing in the fields.
+						The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are automatically populated. The <command>localhost</command> value in the <guilabel>Server's host name</guilabel> field indicates that the server is to be run on the local system and the value in the <guilabel>Server name</guilabel> field is the name by which the LiveReload server is identified in the <guilabel>Servers</guilabel> view. You can edit these values as appropriate by typing in the fields.
 					</para>
 				</step>
 				<step>
 					<para>
-						Click <guibutton>Finish</guibutton> to close the window. The LiveReload server is listed in the <guilabel>Servers</guilabel> tab.
+						Click <guibutton>Finish</guibutton> to close the window. The LiveReload server is listed in the <guilabel>Servers</guilabel> view.
 					</para>
 					<figure>
-						<title>LiveReload Server Listed in the Server Tab</title>
+						<title>LiveReload Server Listed in the <guilabel>Servers</guilabel> View</title>
 						<mediaobject>
 							<imageobject>
-								<imagedata fileref="images/4113.png"/>
+								<imagedata fileref="images/4080.png"/>
 							</imageobject>
 							<textobject>
-								<phrase>The LiveReload server is listed in the <guilabel>Servers</guilabel> tab.</phrase>
+								<phrase>The LiveReload server is listed in the <guilabel>Servers</guilabel> view.</phrase>
 							</textobject>
 						</mediaobject>
 					</figure>
 				</step>
 			</procedure>
 			<procedure>
-				<title>Activate LiveReload for BrowserSim</title>
+				<title>View Resources in LiveReload-enabled BrowserSim</title>
 				<step>
 					<para>
-						Ensure the LiveReload server is started. If it is not started, in the <guilabel>Servers</guilabel> tab right-click the LiveReload server and click <guimenu>Start</guimenu>.
+						Ensure the LiveReload server is started. If it is not started, in the <guilabel>Servers</guilabel> view right-click the LiveReload server and click <guimenu>Start</guimenu>.
 					</para>
 				</step>
 				<step>
@@ -433,16 +458,27 @@
 					<stepalternatives>
 						<step>
 							<para>
-								For workspace resources, in the <guilabel>Project Explorer</guilabel> tab right-click the <filename>.html</filename> file and click <guimenu>Open With</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.
+								For workspace resources, in the <guilabel>Project Explorer</guilabel> view right-click the resource file and click <guimenu>Open With</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.
 							</para>
 						</step>
 						<step>
 							<para>
-								For deployed resources, in the <guilabel>Servers</guilabel> tab right-click the application and click <guimenu>Show In</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.
+								For deployed resources, in the <guilabel>Servers</guilabel> view right-click the application and click <guimenu>Show In</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.
 							</para>
+							<figure>
+								<title><guimenu>Show In</guimenu>&rarr;<guimenu>BrowserSim</guimenu> Menu Option</title>
+								<mediaobject>
+									<imageobject>
+										<imagedata fileref="images/4072.png"/>
+									</imageobject>
+									<textobject>
+										<phrase>For deployed resources, in the <guilabel>Servers</guilabel> view right-click the application and click <guimenu>Show In</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.</phrase>
+									</textobject>
+								</mediaobject>
+							</figure>
 							<important>
 								<para>
-									Ensure the server and application of the deployed resources are started before attempting to view the resources in LiveReload-enabled BrowserSim. To start the server and the application, in the <guilabel>Servers</guilabel> tab right-click each and click <guimenu>Start</guimenu>.
+									Ensure the server and application of the deployed resources are started before attempting to view the resources in LiveReload-enabled BrowserSim. To start the server and the application, in the <guilabel>Servers</guilabel> view right-click each and click <guimenu>Start</guimenu>.
 								</para>
 							</important>
 						</step>
@@ -453,10 +489,10 @@
 						Right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected.
 					</para>
 					<figure>
-						<title><guilabel>Enable LiveReload</guilabel> Check Box for BrowserSim</title>
+						<title><guilabel>Enable LiveReload</guilabel> Menu Option for BrowserSim</title>
 						<mediaobject>
 							<imageobject>
-								<imagedata fileref="images/4112.png"/>
+								<imagedata fileref="images/4305.png"/>
 							</imageobject>
 							<textobject>
 								<phrase>Right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected.</phrase>
@@ -481,14 +517,14 @@
 			</sectioninfo>
 			<title>View the Source of a Web Page</title>
 			<para>
-				From within BrowserSim, the source of web pages can be viewed with a variety of applications.
+				The source of web pages displayed in simulated device browser windows can be viewed with a variety of applications that can be initiated from within BrowserSim.
 			</para>
 			<variablelist>
 				<varlistentry>
 					<term>Open the page source in an editor</term>
 					<listitem>
 						<para>
-							Right-click the simulated device and click <guimenu>View Page Source</guimenu>. The file containing the page source opens in an editor tab.
+							Right-click the simulated device and click <guimenu>View Page Source</guimenu>. The file containing the page source opens in an IDE editor.
 						</para>
 					</listitem>
 				</varlistentry>
@@ -556,10 +592,10 @@
 				<!--A variety of web browsers can be used to view web pages in the IDE.--> You can set BrowserSim to be the default browser used in actions such as <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser</guimenu> and <guimenu>Run on Server</guimenu>.
 			</para>
 			<para>
-				To set BrowserSim as the default browser, click <guimenu>Window</guimenu>&rarr;<guimenu>Web Browser</guimenu> and click <guimenu>BrowserSim</guimenu>.
+				To set BrowserSim as the default browser, click <guimenu>Window</guimenu>&rarr;<guimenu>Web Browser</guimenu>&rarr;<guimenu>BrowserSim</guimenu>.
 			</para>
 			<para>
-				Alternatively, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>General</guilabel> and select <guilabel>Web Browser</guilabel>. Select the <guilabel>BrowserSim</guilabel> check box. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
+				Alternatively, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>General</guilabel> and select <guilabel>Web Browser</guilabel>. Click <guilabel>User external web browser</guilabel> and from the <guilabel>External web browsers</guilabel> list select the <guilabel>BrowserSim</guilabel> check box. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
 			</para>
 		</section>
 		<section id="Add_BrowserSim_to_the_Global_Toolbar" remap="TID_22849">
@@ -578,7 +614,7 @@
 				<title>Add BrowserSim to the Global Toolbar in the Current Perspective</title>
 				<step>
 					<para>
-						Ensure you are using the perspective in which you would like to add the BrowserSim toolbar. If you need to change the perspective, click <guimenu>Window</guimenu>&rarr;<guimenu>Open Perspective</guimenu>&rarr;<guimenu>Other</guimenu> and search for the appropriate perspective.
+						Ensure you are using the perspective in which you would like to add the BrowserSim toolbar. To open the desired perspective, click <guimenu>Window</guimenu>&rarr;<guimenu>Open Perspective</guimenu>&rarr;<guimenu>Other</guimenu> and double-click the perspective.
 					</para>
 				</step>
 				<step>
@@ -588,12 +624,12 @@
 				</step>
 				<step>
 					<para>
-						On the <guilabel>Command Groups Availability</guilabel> tab, select the <guilabel>BrowserSim</guilabel> check box to add this command group to the current perspective.
+						In the <guilabel>Command Groups Availability</guilabel> tab, select the <guilabel>BrowserSim</guilabel> check box. This option makes the BrowserSim toolbar available for adding to the current perspective.
 					</para>
 				</step>
 				<step>
 					<para>
-						On the <guilabel>Tool Bar Visibility</guilabel> tab, ensure the <guilabel>BrowserSim</guilabel> check box is selected as this makes the BrowserSim toolbar visible.
+						In the <guilabel>Tool Bar Visibility</guilabel> tab, ensure the <guilabel>BrowserSim</guilabel> check box is selected. This option adds the BrowserSim toolbar to the global toolbar of the current perspective.
 					</para>
 					<figure>
 						<title><guilabel>BrowserSim</guilabel> Check Box Selected in <guilabel>Tool Bar Visibility</guilabel> tab of <guimenu>Customize Perspective</guimenu> Window</title>
@@ -602,7 +638,7 @@
 								<imagedata fileref="images/4117.png"/>
 							</imageobject>
 							<textobject>
-								<phrase>On the <guilabel>Tool Bar Visibility</guilabel> tab, ensure the <guilabel>BrowserSim</guilabel> check box is selected as this makes the BrowserSim toolbar visible</phrase>
+								<phrase>In the <guilabel>Tool Bar Visibility</guilabel> tab, ensure the <guilabel>BrowserSim</guilabel> check box is selected as this makes the BrowserSim toolbar visible</phrase>
 							</textobject>
 						</mediaobject>
 					</figure>
@@ -640,12 +676,12 @@
 				</step>
 				<step>
 					<para>
-						To find the Run BrowserSim action, in the <guilabel>type filter text</guilabel> field enter <command>BrowserSim</command>.
+						To find the <guilabel>Run BrowserSim</guilabel> action, in the <guilabel>type filter text</guilabel> field enter <command>BrowserSim</command>.
 					</para>
 				</step>
 				<step>
 					<para>
-						In the table, select <guilabel>Run BrowserSim</guilabel>.
+						From the table, select <guilabel>Run BrowserSim</guilabel>.
 					</para>
 				</step>
 				<step>
@@ -658,7 +694,7 @@
 						Once a unique key binding is selected, click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
 					</para>
 					<figure>
-						<title>Keys Pane in Preferences Window</title>
+						<title>Keys Pane of Preferences Window</title>
 						<mediaobject>
 							<imageobject>
 								<imagedata fileref="images/4114.png"/>
@@ -694,6 +730,43 @@
 					<para>
 						In the <guilabel>Devices</guilabel> section of the <guilabel>Devices</guilabel> tab, click <guibutton>Add</guibutton>.
 					</para>
+				</step>
+				<step>
+					<para>
+						Complete the fields and options as detailed:
+					</para>
+					<itemizedlist>
+						<listitem>
+							<para>
+								In the <guilabel>Name</guilabel> field, type the name you want to give the device.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								In the <guilabel>Width</guilabel> and <guilabel>Height</guilabel> fields, type the dimensions of the device window in pixels.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								In the <guilabel>Pixel Ratio</guilabel> field, type a value for the ratio of CSS pixels to device pixels.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								In the <guilabel>User Agent</guilabel> field, type the User Agent string of your device. Clearing the <guilabel>User Agent</guilabel> check box results in the default User Agent for the BrowserSim browser being used.
+							</para>
+							<note>
+								<para>
+									User Agent is a string denoting the device, operating system and browser combination. This string may be used by websites to provide content tailored for devices, operating systems and browsers. Information is widely available on the Internet to assist you in identifying the User Agent associated with a particular device.
+								</para>
+							</note>
+						</listitem>
+						<listitem>
+							<para>
+								From the <guilabel>Skin</guilabel> list, select the skin to be used or select <guilabel>None</guilabel>.
+							</para>
+						</listitem>
+					</itemizedlist>
 					<figure>
 						<title>Add Device Window</title>
 						<mediaobject>
@@ -708,42 +781,17 @@
 				</step>
 				<step>
 					<para>
-						In the <guilabel>Name</guilabel> field, type the name you want to give the device.
+						Click <guibutton>OK</guibutton> to add the new device. It is listed in the <guilabel>Devices</guilabel> table.
 					</para>
 				</step>
 				<step>
 					<para>
-						In the <guilabel>Width</guilabel> and <guilabel>Height</guilabel> fields, type the dimensions of the device window in pixels.
-					</para>
-				</step>
-				<step>
-					<para>
-						In the <guilabel>Pixel Ratio</guilabel> field, type a value for the ratio of CSS pixels to device pixels.
-					</para>
-				</step>
-				<step>
-					<para>
-						In the <guilabel>User Agent</guilabel> field, type the User Agent string of your device. Clearing the <guilabel>User Agent</guilabel> check box results in the default User Agent for the BrowserSim browser being used.
-					</para>
-					<note>
-						<para>
-							User Agent is a string denoting the device, operating system and browser combination. This string may be used by websites to provide content tailored for devices, operating systems and browsers. Information is widely available on the Internet to assist you in identifying the User Agent associated with a particular device.
-						</para>
-					</note>
-				</step>
-				<step>
-					<para>
-						From the <guilabel>Skin</guilabel> list, select the skin to be used or select <guilabel>None</guilabel>.
-					</para>
-				</step>
-				<step>
-					<para>
-						Click <guibutton>OK</guibutton> to add the new device and click <guibutton>OK</guibutton> to close the <guilabel>Devices</guilabel> window.
+						Click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.
 					</para>
 				</step>
 			</procedure>
 			<para>
-				To modify existing devices in BrowserSim, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Devices</guilabel> table, select a device and click <guibutton>Edit</guibutton>. Once you have finished editing the fields, click <guibutton>OK</guibutton>. Click <guibutton>OK</guibutton> to close the <guilabel>Devices</guilabel> window.
+				To modify existing devices in BrowserSim, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Devices</guilabel> table, select a device and click <guibutton>Edit</guibutton>. Once you have finished editing the fields, click <guibutton>OK</guibutton>. Click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.
 			</para>
 		</section>
 		<section id="Change_the_Default_Behavior_when_a_Device_does_not_Fit_the_Display" remap="TID_22858">
@@ -756,10 +804,10 @@
 			</sectioninfo>
 			<title>Change the Default Behavior when a Device does not Fit the Display</title>
 			<para>
-				By default, when a device window is too large to fit the display of the system, you are prompted about which action should be taken. Rather than prompting, the default behavior can be set to always truncate or never truncate.
+				When a device window is too large to fit the display of the system you are prompted about which action the IDE is to taken. This default IDE behavior can be modified, with alternative options of always truncate or never truncate.
 			</para>
 			<para>
-				To change the default behavior, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Truncate the device window when it does not fit display</guilabel> section of the <guilabel>Devices</guilabel> tab, click <guilabel>Always truncate</guilabel> or <guilabel>Never truncate</guilabel> to change the behavior as appropriate and click <guibutton>OK</guibutton> to close the window.
+				To change the default behavior, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Truncate the device window when it does not fit display</guilabel> section of the <guilabel>Devices</guilabel> tab, click <guilabel>Always truncate</guilabel> or <guilabel>Never truncate</guilabel> to change the behavior as appropriate and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
 			</para>
 			<figure>
 				<title>Truncate Preferences</title>
@@ -768,7 +816,7 @@
 						<imagedata fileref="images/4110.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>To change the default behavior, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Truncate the device window when it does not fit display</guilabel> section of the <guilabel>Devices</guilabel> tab, click <guilabel>Always truncate</guilabel> or <guilabel>Never truncate</guilabel> to change the behavior as appropriate and click <guibutton>OK</guibutton> to close the window.</phrase>
+						<phrase>To change the default behavior, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Truncate the device window when it does not fit display</guilabel> section of the <guilabel>Devices</guilabel> tab, click <guilabel>Always truncate</guilabel> or <guilabel>Never truncate</guilabel> to change the behavior as appropriate and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
@@ -786,7 +834,7 @@
 				The LiveReload server uses a port to communicate resource changes to BrowserSim. The default port can be changed.
 			</para>
 			<para>
-				To change the default LiveReload port, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>LiveReload options</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>LiveReload Port</guilabel> field type the port number you want to use. Click <guibutton>OK</guibutton> to close the window.
+				To change the default LiveReload port, right-click the simulated device and click <guimenu>Preferences</guimenu>. Click the <guilabel>Settings</guilabel> tab and view the <guilabel>LiveReload options</guilabel> section. Note that if LiveReload is not already enabled for BrowserSim you must select the <guilabel>Enable LiveReload</guilabel> check box. In the <guilabel>LiveReload Port</guilabel> field type the port number you want to use. Click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
 			</para>
 			<figure>
 				<title>LiveReload Port Preferences</title>
@@ -795,17 +843,12 @@
 						<imagedata fileref="images/4109.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>To change the default LiveReload port, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>LiveReload options</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>LiveReload Port</guilabel> field type the port number you want to use. Click <guibutton>OK</guibutton> to close the window.</phrase>
+						<phrase>To change the default LiveReload port, right-click the simulated device and click <guimenu>Preferences</guimenu>. Click the <guilabel>Settings</guilabel> tab. Note that if LiveReload is not already enabled for BrowserSim you must select the <guilabel>Enable LiveReload</guilabel> check box in the <guilabel>LiveReload options</guilabel> section. In the <guilabel>LiveReload Port</guilabel> field type the port number you want to use. Click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
-			<note>
-				<para>
-					You must enable LiveReload for BrowserSim in order to specify the LiveReload port. To enable LiveReload, right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected. Alternatively, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>LiveReload options</guilabel> section of the <guilabel>Settings</guilabel> tab, select the <guilabel>Enable LiveReload</guilabel> check box and click <guibutton>OK</guibutton> to close the window.
-				</para>
-			</note>
 		</section>
-		<section id="Change_the_Default_Location_for_Saved_Screen_Captures" remap="TID_22861">
+		<section id="Set_the_Location_for_Saved_Screen_Captures" remap="TID_22861">
 			<sectioninfo>
 				<keywordset>
 					<keyword>
@@ -813,12 +856,12 @@
 					</keyword>
 				</keywordset>
 			</sectioninfo>
-			<title>Change the Default Location for Saved Screen Captures</title>
+			<title>Set the Location for Saved Screen Captures</title>
 			<para>
-				The <guimenu>Save</guimenu> option for screen captures saves graphics files to a set location. The default location can be changed.
+				The <guimenu>Save</guimenu> option for screen captures saves graphics files to a set location when that location has been predefined.
 			</para>
 			<para>
-				To change the default location, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Screenshots</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Location</guilabel> field type the location where you want graphics files to be saved or click <guibutton>Browse</guibutton> to navigate to the desired location. Click <guibutton>OK</guibutton> to close the window.
+				To set the location, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Screenshots</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Location</guilabel> field type the location where you want graphics files to be saved or click <guibutton>Browse</guibutton> to navigate to the location. Click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
 			</para>
 			<figure>
 				<title>Screen Capture Preferences</title>
@@ -827,7 +870,7 @@
 						<imagedata fileref="images/4108.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>To change the default location, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Screenshots</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Location</guilabel> field type the location where you want graphics files to be saved or click <guibutton>Browse</guibutton> to navigate to the desired location. Click <guibutton>OK</guibutton> to close the window.</phrase>
+						<phrase>To set the location, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Screenshots</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Location</guilabel> field type the location where you want graphics files to be saved or click <guibutton>Browse</guibutton> to navigate to the location. Click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
@@ -845,7 +888,7 @@
 				By default, the <guimenu>Weinre</guimenu> option for viewing the source of a web page uses the Weiner server provided by PhoneGap. If you have a different Weiner server available, the default Weinre settings can be changed.
 			</para>
 			<para>
-				To change the default settings for Weinre, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Weinre</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Script URL</guilabel> field type the address of the <filename>.js</filename> file provided by the Weinre server and in the <guilabel>Client URL</guilabel> field type the address of the web page showing the Weinre Inspector interface. Click <guibutton>OK</guibutton> to close the window.
+				To change the default settings for Weinre, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Weinre</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Script URL</guilabel> field type the address of the <filename>.js</filename> file provided by the Weinre server and in the <guilabel>Client URL</guilabel> field type the address of the web page showing the Weinre Inspector interface. Click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
 			</para>
 			<figure>
 				<title>Weinre Preferences</title>
@@ -854,7 +897,7 @@
 						<imagedata fileref="images/4107.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>To change the default settings for Weinre, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Weinre</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Script URL</guilabel> field type the address of the <filename>.js</filename> file provided by the Weinre server and in the <guilabel>Client URL</guilabel> field type the address of the web page showing the Weinre Inspector interface. Click <guibutton>OK</guibutton> to close the window.</phrase>
+						<phrase>To change the default settings for Weinre, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Weinre</guilabel> section of the <guilabel>Settings</guilabel> tab, in the <guilabel>Script URL</guilabel> field type the address of the <filename>.js</filename> file provided by the Weinre server and in the <guilabel>Client URL</guilabel> field type the address of the web page showing the Weinre Inspector interface. Click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>

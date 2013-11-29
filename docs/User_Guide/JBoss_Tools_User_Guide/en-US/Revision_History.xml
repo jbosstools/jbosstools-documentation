@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_User_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_4.1_User_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-<appendix id="appe-JBoss_Tools_User_Guide-Revision_History">
+<appendix id="appe-JBoss_Tools_4.1_User_Guide-Revision_History">
 	<title>Revision History</title>
 	<simpara>
 		<revhistory>
 			<revision>
-				<revnumber>1.0.0-1</revnumber><date>Wed Nov 27 2013</date>
+				<revnumber>1.0.0-1</revnumber><date>Fri Nov 29 2013</date>
 				<author>
 					<firstname>Michelle</firstname><surname>Murray</surname><email>robot@dev.null.com</email>
 				</author>
 				<revdescription>
 					<simplelist>
 						<member>
-							Built from Content Specification: 22477, Revision: 559188 by mmurray
+							Built from Content Specification: 22477, Revision: 562044 by mmurray
 						</member>
 					</simplelist>
 				</revdescription>

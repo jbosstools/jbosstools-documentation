@@ -24,6 +24,9 @@
 				Red Hat JBoss support will provide commercially reasonable efforts to resolve any reported issues that customers experience when using these features.
 			</para>
 		</note>
+		<para role="RoleCreateBugPara">
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+23368-546549+%5BSpecified%5D&amp;description=Title%3A+Technology+Preview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+		</para>
 	</section>
 	<section id="sect-Overview_of_Hybrid_Mobile_Tools_and_CordovaSim">
 		<title>Overview of Hybrid Mobile Tools and CordovaSim</title>
@@ -67,6 +70,9 @@
 			</para>
 			<para>
 				Apache Cordova is an open source project, of which there are various distributions. PhoneGap, in addition to being the originator of Cordova, and IBM Worklight are such distributions.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+24055-551441+%5BLatest%5D&amp;description=Title%3A+About+Apache+Cordova%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="About_Hybrid_Mobile_Tools" remap="TID_24051">
@@ -119,6 +125,9 @@
 			<para>
 				Hybrid Mobile Tools, together with CordovaSim, provides an effective hybrid mobile development and testing environment.
 			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+24051-551443+%5BLatest%5D&amp;description=Title%3A+About+Hybrid+Mobile+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="About_CordovaSim" remap="TID_24054">
 			<sectioninfo>
@@ -155,6 +164,9 @@
 					</para>
 				</listitem>
 			</itemizedlist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+24054-551445+%5BLatest%5D&amp;description=Title%3A+About+CordovaSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="System_Requirements_for_Hybrid_Mobile_Tools" remap="TID_24119">
 			<sectioninfo>
@@ -200,6 +212,9 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+24119-551448+%5BLatest%5D&amp;description=Title%3A+System+Requirements+for+Hybrid+Mobile+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="System_Requirements_for_CordovaSim" remap="TID_24056">
 			<sectioninfo>
@@ -219,6 +234,9 @@
 			<para>
 				To set BrowserSim to use a 32-bit JVM, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>BrowserSim/CordovaSim</guilabel>. Under <guilabel>Select JRE to run BrowserSim</guilabel>, click <guilabel>Select</guilabel> and from the list select a 32-bit JRE or Java developer kit. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.
 			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+24056-550862+%5BLatest%5D&amp;description=Title%3A+System+Requirements+for+CordovaSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="Install_Hybrid_Mobile_Tools_and_CordovaSim" remap="TID_24053">
 			<sectioninfo>
@@ -233,7 +251,7 @@
 				Hybrid Mobile Tools and CordovaSim are not packaged as part of <phrase>JBoss&nbsp;Developer&nbsp;Studio</phrase> installations. These plug-ins must be installed independently through JBoss Central.
 			</para>
 			<para>
-				To install these plug-ins, open the <guilabel>JBoss Central</guilabel> tab and select the <guilabel>Software/Update</guilabel> page. In the <guilabel>Find</guilabel> field, type <guilabel>JBoss Hybrid Mobile Tools + CordovaSim (Experimental)</guilabel> or scroll through the list to locate it. Select the corresponding check box and click <guibutton>Install</guibutton>.
+				To install these plug-ins, in JBoss Central select the <guilabel>Software/Update</guilabel> page. In the <guilabel>Find</guilabel> field, type <guilabel>JBoss Hybrid Mobile Tools + CordovaSim (Experimental)</guilabel> or scroll through the list to locate it. Select the corresponding check box and click <guibutton>Install</guibutton>.
 			</para>
 			<para>
 				In the <application>Install</application> wizard, ensure the check boxes are selected for the software you want to install and click <guibutton>Next</guibutton>. It is recommended that you install both the Hybrid Mobile Tools and CordovaSim components.
@@ -246,6 +264,9 @@
 			</para>
 			<para>
 				Once installing is complete, you are prompted to restart the IDE. Click <guibutton>Yes</guibutton> to restart now and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that changes do not take effect until the IDE is restarted.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+24053-561962+%5BLatest%5D&amp;description=Title%3A+Install+Hybrid+Mobile+Tools+and+CordovaSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -295,6 +316,9 @@
 					</para>
 				</listitem>
 			</itemizedlist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+24381-551473+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="Create_a_Hybrid_Mobile_Project" remap="TID_24058">
 			<sectioninfo>
@@ -360,6 +384,9 @@
 			</procedure>
 			<para>
 				During project creation, the wizard imports project dependencies and populates a <filename>config.xml</filename> file. Once created, the project is listed in the <guilabel>Project Explorer</guilabel> tab and the <filename>config.xml</filename> file is automatically opened in the <guilabel>Cordova Configuration Editor</guilabel>.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+24058-551481+%5BLatest%5D&amp;description=Title%3A+Create+a+Hybrid+Mobile+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Enable_Cordova_Plug-ins_for_an_Application" remap="TID_24151">
@@ -428,6 +455,9 @@
 					</para>
 				</listitem>
 			</itemizedlist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+24151-551483+%5BLatest%5D&amp;description=Title%3A+Enable+Cordova+Plug-ins+for+an+Application%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="sect-Manage_Cordova_Settings_of_a_Hybrid_Mobile_Project">
 			<sectioninfo>
@@ -456,6 +486,9 @@
 			<para>
 				To open the Cordova Configuration Editor for a specific hybrid mobile project, in the <guilabel>Project Explorer</guilabel> tab right-click the <filename>config.xml</filename> file. Click <guilabel>Open With</guilabel>&rarr;<guilabel>Cordova Configuration Editor</guilabel>. All changes to the Cordova settings of a project must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
 			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+24059-551485+%5BLatest%5D&amp;description=Title%3A+Manage+Cordova+Settings+of+a+Hybrid+Mobile+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 			<section id="Manage_Cordova_Settings_in_Overview_Mode" remap="TID_24298">
 				<sectioninfo>
 					<keywordset>
@@ -480,6 +513,9 @@
 				</variablelist>
 				<para>
 					All changes to <filename>config.xml</filename> must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
+				</para>
+				<para role="RoleCreateBugPara">
+					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+24298-551571+%5BLatest%5D&amp;description=Title%3A+Manage+Cordova+Settings+in+Overview+Mode%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 				</para>
 			</section>
 			<section id="Manage_Cordova_Settings_in_Platform_Properties_Mode" remap="TID_24297">
@@ -574,6 +610,9 @@
 				<para>
 					All changes to <filename>config.xml</filename> must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
 				</para>
+				<para role="RoleCreateBugPara">
+					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+24297-551577+%5BLatest%5D&amp;description=Title%3A+Manage+Cordova+Settings+in+Platform+Properties+Mode%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				</para>
 			</section>
 			<section id="Manage_Cordova_Settings_in_Icons_amp_Splash_Screen_Mode" remap="TID_24299">
 				<sectioninfo>
@@ -632,6 +671,9 @@
 				</variablelist>
 				<para>
 					All changes to <filename>config.xml</filename> must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
+				</para>
+				<para role="RoleCreateBugPara">
+					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+24299-551572+%5BLatest%5D&amp;description=Title%3A+Manage+Cordova+Settings+in+Icons+%26amp%3B+Splash+Screen+Mode%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 				</para>
 			</section>
 		</section>
@@ -699,6 +741,9 @@
 					</para>
 				</listitem>
 			</itemizedlist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+24062-551756+%5BLatest%5D&amp;description=Title%3A+Run+a+Hybrid+Mobile+Application+on+Devices+and+Simulators%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="Manage_Hybrid_Mobile_Project_Run_Configurations" remap="TID_24169">
 			<sectioninfo>
@@ -766,6 +811,9 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+24169-551622+%5BLatest%5D&amp;description=Title%3A+Manage+Hybrid+Mobile+Project+Run+Configurations%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="Export_a_Hybrid_Mobile_Project" remap="TID_24325">
 			<sectioninfo>
@@ -844,6 +892,9 @@
 					</para>
 				</listitem>
 			</itemizedlist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+24325-551534+%5BLatest%5D&amp;description=Title%3A+Export+a+Hybrid+Mobile+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 	</section>
 </chapter>

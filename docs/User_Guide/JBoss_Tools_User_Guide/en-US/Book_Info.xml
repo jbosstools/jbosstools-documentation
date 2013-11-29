@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!DOCTYPE bookinfo PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_User_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_4.1_User_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-<bookinfo id="book-JBoss_Tools_User_Guide-JBoss_Tools_User_Guide">
-	<title>JBoss Tools User Guide</title>
+<bookinfo id="book-JBoss_Tools_4.1_User_Guide-JBoss_Tools_4.1_User_Guide">
+	<title>JBoss Tools 4.1 User Guide</title>
 	<subtitle>Information about using the plug-ins comprising JBoss Tools</subtitle>
 	<productname>JBoss Tools</productname>
 	<productnumber>4.1</productnumber>

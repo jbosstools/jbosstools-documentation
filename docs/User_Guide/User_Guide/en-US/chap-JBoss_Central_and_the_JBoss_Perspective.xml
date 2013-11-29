@@ -20,7 +20,7 @@
 				JBoss Central is a core IDE view, providing access to JBoss information and assistance in one centralized location. It offers features for first time users of <phrase>JBoss Developer Studio</phrase>, as well as those with more experience.
 			</para>
 			<para>
-				The JBoss Central view comprises resources and actions for creating new projects, learning about the tools and installing software updates: 
+				JBoss Central comprises resources and actions for creating new projects, learning about the tools and installing software updates: 
 				<itemizedlist>
 					<listitem>
 						<para>
@@ -43,6 +43,9 @@
 						</para>
 					</listitem>
 				</itemizedlist>
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22788-561946+%5BLatest%5D&amp;description=Title%3A+About+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="About_the_JBoss_Perspective" remap="TID_22790">
@@ -83,6 +86,9 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22790-556935+%5BLatest%5D&amp;description=Title%3A+About+the+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 	</section>
 	<section id="sect-Features_of_JBoss_Central_and_the_JBoss_Perspective">
@@ -122,6 +128,9 @@
 				</listitem>
 			</itemizedlist>
 			<!--<para><remark>[DOCS] Watching JBIDE-2557: cheat sheets for archetypes; Also cheat sheets missing for quickstarts; JBIDE-14804: uninstall from central</remark></para>-->
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22795-556936+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="View_JBoss_Central" remap="TID_22794">
 			<sectioninfo>
@@ -136,7 +145,7 @@
 				JBoss Central provides resources for getting started with application development and installing auxiliary IDE software.
 			</para>
 			<para>
-				To open the <guilabel>JBoss Central</guilabel> view, click the <guibutton>JBoss Central</guibutton> icon 
+				To open JBoss Central, click the <guibutton>JBoss Central</guibutton> icon 
 				<inlinemediaobject>
 					<imageobject>
 						<imagedata fileref="images/3989.png"/>
@@ -144,7 +153,10 @@
 				</inlinemediaobject>. Alternatively, click <guimenu>Help</guimenu>&rarr;<guimenu>JBoss Central</guimenu>.
 			</para>
 			<para>
-				To maximize the <guilabel>JBoss Central</guilabel> view such that it fills the IDE window, double-click the <guibutton>JBoss Central</guibutton> view label. To reduce the <guibutton>JBoss Central</guibutton> view to its smaller size, double-click the <guibutton>JBoss Central</guibutton> view label again. These maximizing and minimizing actions work for all IDE views.
+				To maximize JBoss Central so that it fills the IDE window, double-click the <guibutton>JBoss Central</guibutton> view label. To reduce JBoss Central to its smaller size, double-click the <guibutton>JBoss Central</guibutton> view label again. These maximizing and minimizing actions work for all IDE views.
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22794-561950+%5BLatest%5D&amp;description=Title%3A+View+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Access_Project_Wizards_in_JBoss_Central" remap="TID_22800">
@@ -164,7 +176,7 @@
 					<term><guilabel>Start from scratch</guilabel></term>
 					<listitem>
 						<para>
-							These wizards create the same project using different underlying technology, as started in the project name. To view a project summary, hover the cursor over a project wizard. If you do not have the necessary plug-in installed to use a wizard, you are prompted to install it when you click the wizard.
+							These wizards create the same project using different underlying technology, as stated in the project name. To view a project summary, hover the cursor over a project wizard. If you do not have the necessary plug-in installed to use a wizard, you are prompted to install it when you click the wizard.
 						</para>
 						<figure>
 							<title>Start from Scratch Wizards</title>
@@ -200,10 +212,10 @@
 				</varlistentry>
 			</variablelist>
 			<para>
-				To create a project from one of the wizards, in the <guilabel>JBoss Central</guilabel> view select the <guilabel>Getting Started</guilabel> tab. Click one of the links below <guilabel>Start from scratch</guilabel> or <guilabel>Start from a sample</guilabel>. Alternatively, click <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu> and select a project from the list. A wizard opens to guide you through the process of creating the project.
+				To create a project from one of the wizards, in JBoss Central select the <guilabel>Getting Started</guilabel> tab. Click one of the links below <guilabel>Start from scratch</guilabel> or <guilabel>Start from a sample</guilabel>. Alternatively, click <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu> and select a project from the list. A wizard opens to guide you through the process of creating the project.
 			</para>
 			<para>
-				Additionally, access is provided to the comprehensive TicketMonster tutorial, part of JBoss Developer Framework. The tutorial guides you through developing a complex web application utilizing JBoss technologies from within the IDE. To view the tutorial, in the <guilabel>JBoss Central</guilabel> view select the <guilabel>Getting Started</guilabel> tab and click the <guilabel>TicketMonster</guilabel> link. The JBoss Developer Framework website opens in the default IDE browser.
+				Additionally, access is provided to the comprehensive TicketMonster tutorial, part of JBoss Developer Framework. The tutorial guides you through developing a complex web application utilizing JBoss technologies from within the IDE. To view the tutorial, in JBoss Central select the <guilabel>Getting Started</guilabel> tab and click the <guilabel>TicketMonster</guilabel> link. The JBoss Developer Framework website opens in the default IDE browser.
 			</para>
 			<figure>
 				<title>Access the TicketMonster Tutorial</title>
@@ -212,10 +224,13 @@
 						<imagedata fileref="images/3958.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>Access is provided to the comprehensive TicketMonster tutorial, part of JBoss Developer Framework. The tutorial guides you through developing a complex web application utilizing JBoss technologies from within the IDE. To view the tutorial, in the <guilabel>JBoss Central</guilabel> view select the <guilabel>Getting Started</guilabel> tab and click the <guilabel>TicketMonster</guilabel> link.</phrase>
+						<phrase>Access is provided to the comprehensive TicketMonster tutorial, part of JBoss Developer Framework. The tutorial guides you through developing a complex web application utilizing JBoss technologies from within the IDE. To view the tutorial, in JBoss Central select the <guilabel>Getting Started</guilabel> tab and click the <guilabel>TicketMonster</guilabel> link.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22800-561982+%5BLatest%5D&amp;description=Title%3A+Access+Project+Wizards+in+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="Access_Information_in_JBoss_Central" remap="TID_22801">
 			<sectioninfo>
@@ -234,7 +249,7 @@
 					<term>View the JBoss <phrase>Developer Studio</phrase> website</term>
 					<listitem>
 						<para>
-							In the <guilabel>JBoss Central</guilabel> view, click the <phrase><guibutton>JBoss Developer Studio Home</guibutton></phrase> icon 
+							In JBoss Central, click the <phrase><guibutton>JBoss Developer Studio Home</guibutton></phrase> icon 
 							<inlinemediaobject>
 								<imageobject>
 									<imagedata fileref="images/3978.png"/>
@@ -247,7 +262,7 @@
 					<term>View the latest JBoss developments</term>
 					<listitem>
 						<para>
-							In the <guilabel>JBoss Central</guilabel> view, select the <guilabel>Getting Started</guilabel> tab and click the links under <guilabel>JBoss Buzz</guilabel>. To see previews of the blog posts, hover the cursor over these links. To view a complete list of JBoss blog posts, click the <guibutton>JBoss Buzz</guibutton> button 
+							In JBoss Central, select the <guilabel>Getting Started</guilabel> tab and click the links under <guilabel>JBoss Buzz</guilabel>. To see previews of the blog posts, hover the cursor over these links. To view a complete list of JBoss blog posts, click the <guibutton>JBoss Buzz</guibutton> button 
 							<inlinemediaobject>
 								<imageobject>
 									<imagedata fileref="images/4272.png"/>
@@ -261,7 +276,7 @@
 									<imagedata fileref="images/4228.png"/>
 								</imageobject>
 								<textobject>
-									<phrase>In the <guilabel>JBoss Central</guilabel> view, select the <guilabel>Getting Started</guilabel> tab and click the links under <guilabel>JBoss Buzz</guilabel>. To see previews of the blog posts, hover the cursor over these links. To view a complete list of JBoss blog posts, click the <guibutton>JBoss Buzz</guibutton> button.</phrase>
+									<phrase>In JBoss Central, select the <guilabel>Getting Started</guilabel> tab and click the links under <guilabel>JBoss Buzz</guilabel>. To see previews of the blog posts, hover the cursor over these links. To view a complete list of JBoss blog posts, click the <guibutton>JBoss Buzz</guibutton> button.</phrase>
 								</textobject>
 							</mediaobject>
 						</figure>
@@ -271,7 +286,7 @@
 					<term>View JBoss developer information sources</term>
 					<listitem>
 						<para>
-							In the <guilabel>JBoss Central</guilabel> view, select the <guilabel>Getting Started</guilabel> tab and click the links under <guilabel>Other resources</guilabel>. These links provide access to videos, documentation and forums.
+							In JBoss Central, select the <guilabel>Getting Started</guilabel> tab and click the links under <guilabel>Other resources</guilabel>. These links provide access to videos, documentation and forums.
 						</para>
 						<figure>
 							<title>Other Resources</title>
@@ -280,7 +295,7 @@
 									<imagedata fileref="images/3966.png"/>
 								</imageobject>
 								<textobject>
-									<phrase>In the <guilabel>JBoss Central</guilabel> view, select the <guilabel>Getting Started</guilabel> tab and click the links under <guilabel>Other resources</guilabel>.</phrase>
+									<phrase>In JBoss Central, select the <guilabel>Getting Started</guilabel> tab and click the links under <guilabel>Other resources</guilabel>.</phrase>
 								</textobject>
 							</mediaobject>
 						</figure>
@@ -290,7 +305,7 @@
 					<term>Search the Red Hat Customer Portal</term>
 					<listitem>
 						<para>
-							In the <guilabel>JBoss Central</guilabel> view, click the arrow next to the search box and select <guilabel>Search Red Hat Customer Portal</guilabel>. In the search field, enter the search terms.
+							In JBoss Central, click the arrow next to the search box and select <guilabel>Search Red Hat Customer Portal</guilabel>. In the search field, enter the search terms.
 						</para>
 						<figure>
 							<title>Search Red Hat Customer Portal</title>
@@ -299,7 +314,7 @@
 									<imagedata fileref="images/3962.png"/>
 								</imageobject>
 								<textobject>
-									<phrase>In the <guilabel>JBoss Central</guilabel> view, click the arrow next to the search box and select <guilabel>Search Red Hat Customer Portal</guilabel>. In the search field, enter the search terms.</phrase>
+									<phrase>In JBoss Central, click the arrow next to the search box and select <guilabel>Search Red Hat Customer Portal</guilabel>. In the search field, enter the search terms.</phrase>
 								</textobject>
 							</mediaobject>
 						</figure>
@@ -311,6 +326,9 @@
 					To change the default IDE browser, click <guimenu>Window</guimenu>&rarr;<guimenu>Web Browser</guimenu> and select a browser from the listed options.
 				</para>
 			</note>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22801-561957+%5BLatest%5D&amp;description=Title%3A+Access+Information+in+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="Install_Software_in_JBoss_Central" remap="TID_22798">
 			<sectioninfo>
@@ -325,7 +343,7 @@
 				JBoss Central enables you to install and update a range of IDE plug-ins. The available plug-ins comprise JBoss and third-party plug-ins that have been specifically tested for use with the IDE. These plug-ins include ones for mobile and web development, source control management, utilities and Maven.
 			</para>
 			<para>
-				For all actions listed below, open the <guilabel>JBoss Central</guilabel> view and select the <guilabel>Software/Update</guilabel> tab.
+				For all actions listed below, open JBoss Central and select the <guilabel>Software/Update</guilabel> tab.
 			</para>
 			<variablelist>
 				<varlistentry>
@@ -443,6 +461,9 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22798-561958+%5BLatest%5D&amp;description=Title%3A+Install+Software+in+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="Open_the_JBoss_Perspective" remap="TID_22791">
 			<sectioninfo>
@@ -470,6 +491,9 @@
 					</textobject>
 				</mediaobject>
 			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22791-557571+%5BLatest%5D&amp;description=Title%3A+Open+the+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="Manage_JBoss_Perspective" remap="TID_22796">
 			<sectioninfo>
@@ -514,6 +538,9 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22796-557591+%5BLatest%5D&amp;description=Title%3A+Manage+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="View_Cheat_Sheets" remap="TID_22793">
 			<sectioninfo>
@@ -552,6 +579,9 @@
 				</para>
 			</note>
 			<!-- API for developing cheat sheets available to all -->
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22793-560290+%5BLatest%5D&amp;description=Title%3A+View+Cheat+Sheets%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 	</section>
 	<section id="sect-Customizing_JBoss_Central_and_the_JBoss_Perspective">
@@ -590,6 +620,9 @@
 					</para>
 				</listitem>
 			</itemizedlist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22792-557697+%5BLatest%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="Change_the_Behavior_of_JBoss_Central_on_IDE_Start" remap="TID_22799">
 			<sectioninfo>
@@ -604,7 +637,7 @@
 				JBoss Central is set by default to show when the IDE starts but you can customize this behavior.
 			</para>
 			<para>
-				To change the behavior, in the <guilabel>JBoss Central</guilabel> view select or clear the <guilabel>Show on Startup</guilabel> check box as appropriate.
+				To change the behavior, in JBoss Central select or clear the <guilabel>Show on Startup</guilabel> check box as appropriate.
 			</para>
 			<figure>
 				<title>Show on Startup Check Box</title>
@@ -613,12 +646,12 @@
 						<imagedata fileref="images/3959.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>JBoss Central is set by default to show when the IDE starts but you can customize this behavior. To change the behavior, in the <guilabel>JBoss Central</guilabel> view select or clear the <guilabel>Show on Startup</guilabel> check box as appropriate.</phrase>
+						<phrase>JBoss Central is set by default to show when the IDE starts but you can customize this behavior. To change the behavior, in JBoss Central select or clear the <guilabel>Show on Startup</guilabel> check box as appropriate.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 			<para>
-				Alternatively, in the <guilabel>JBoss Central</guilabel> view click the <guibutton>Preferences</guibutton> icon 
+				Alternatively, in JBoss Central click the <guibutton>Preferences</guibutton> icon 
 				<inlinemediaobject>
 					<imageobject>
 						<imagedata fileref="images/3971.png"/>
@@ -632,10 +665,13 @@
 						<imagedata fileref="images/3970.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>In the <guilabel>JBoss Central</guilabel> tab click the <guibutton>Preferences</guibutton> icon or click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. In both cases, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Central</guilabel>. Select or clear the <guilabel>Show JBoss Central on Startup</guilabel> check box as appropriate. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
+						<phrase>In JBoss Central, click the <guibutton>Preferences</guibutton> icon or click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. In both cases, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Central</guilabel>. Select or clear the <guilabel>Show JBoss Central on Startup</guilabel> check box as appropriate. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22799-561959+%5BLatest%5D&amp;description=Title%3A+Change+the+Behavior+of+JBoss+Central+on+IDE+Start%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="Customize_the_Default_Views_Menus_and_Toolbars_of_the_JBoss_Perspective" remap="TID_22797">
 			<sectioninfo>
@@ -741,6 +777,9 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22797-557721+%5BLatest%5D&amp;description=Title%3A+Customize+the+Default+Views%2C+Menus+and+Toolbars+of+the+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="Use_Project_Examples_when_Working_Offline" remap="TID_22802">
 			<sectioninfo>
@@ -784,6 +823,9 @@
 					</textobject>
 				</mediaobject>
 			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22802-557737+%5BLatest%5D&amp;description=Title%3A+Use+Project+Examples+when+Working+Offline%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="Install_Software_when_Working_Offline" remap="TID_22868">
 			<sectioninfo>
@@ -804,7 +846,7 @@
 				<title>Install from JBoss Central <filename>.zip</filename> File</title>
 				<note>
 					<para>
-						To install JBoss and third-party plug-ins in offline mode, you must first download the JBoss Central <filename>.zip</filename> file. <phrase>You can download the JBoss Central <filename>.zip</filename> file from <ulink url="https://access.redhat.com"/> on the Customer Portal or <ulink url="https://devstudio.jboss.com/earlyaccess/"/> on the JBoss&nbsp;Developer&nbsp;Studio early access website.</phrase>
+						To install JBoss and third-party plug-ins in offline mode, you must first download the JBoss Central <filename>.zip</filename> file. <phrase>You can download the JBoss Central <filename>.zip</filename> file from <ulink url="https://access.redhat.com"/> on the Red Hat Customer Portal or <ulink url="https://devstudio.jboss.com/earlyaccess/"/> on the JBoss&nbsp;Developer&nbsp;Studio early access website.</phrase>
 					</para>
 				</note>
 				<step>
@@ -854,6 +896,9 @@
 					</para>
 				</step>
 			</procedure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22868-561977+%5BLatest%5D&amp;description=Title%3A+Install+Software+when+Working+Offline%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 		<section id="Set_Cheat_Sheet_Behavior" remap="TID_22803">
 			<sectioninfo>
@@ -881,6 +926,9 @@
 					</textobject>
 				</mediaobject>
 			</figure>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22803-560386+%5BLatest%5D&amp;description=Title%3A+Set+Cheat+Sheet+Behavior%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			</para>
 		</section>
 	</section>
 </chapter>

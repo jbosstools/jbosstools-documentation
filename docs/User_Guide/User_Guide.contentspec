@@ -149,7 +149,7 @@ Part: Tools for Creating Mobile Applications
       Add or Modify Devices in BrowserSim [22863]
       Change the Default Behavior when a Device does not Fit the Display [22858]
       Change the Default LiveReload Port [22854]
-      Change the Default Location for Saved Screen Captures [22861]
+      Set the Location for Saved Screen Captures [22861]
       Change the Default Settings for Weinre [22853]
 
   Chapter: Hybrid Mobile Tools and CordovaSim (Technology Preview)
@@ -186,7 +186,7 @@ Part: Tools for Deployment and Maintenance
       About OpenShift Tools [22881]
     Section: Features of OpenShift Tools
       Features Overview [22870]
-      Create an OpenShift User Account [22879]
+      Create an OpenShift Online User Account [22879]
       Connect to OpenShift [22869]
       Manage a Connection [22878]
       Generate and Upload SSH keys to OpenShift [22872]
@@ -200,4 +200,4 @@ Part: Tools for Deployment and Maintenance
       Manage a Deployed Application [22873]
     Section: Customizing OpenShift Tools
       Customizing Overview [25166]
-      Change the Time Out Behavior of OpenShift Requests [25165]
+      Change the Timeout Behavior of OpenShift Requests [25165]
