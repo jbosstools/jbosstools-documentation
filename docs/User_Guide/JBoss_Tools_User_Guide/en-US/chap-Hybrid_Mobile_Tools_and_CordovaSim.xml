@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_User_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_4.1_User_Guide.ent">
 %BOOK_ENTITIES;
 ]>
 <chapter id="chap-Hybrid_Mobile_Tools_and_CordovaSim">
@@ -213,7 +213,7 @@
 				Hybrid Mobile Tools and CordovaSim are not packaged as part of <phrase>JBoss Tools</phrase> installations. These plug-ins must be installed independently through JBoss Central.
 			</para>
 			<para>
-				To install these plug-ins, open the <guilabel>JBoss Central</guilabel> tab and select the <guilabel>Software/Update</guilabel> page. In the <guilabel>Find</guilabel> field, type <guilabel>JBoss Hybrid Mobile Tools + CordovaSim (Experimental)</guilabel> or scroll through the list to locate it. Select the corresponding check box and click <guibutton>Install</guibutton>.
+				To install these plug-ins, in JBoss Central select the <guilabel>Software/Update</guilabel> page. In the <guilabel>Find</guilabel> field, type <guilabel>JBoss Hybrid Mobile Tools + CordovaSim (Experimental)</guilabel> or scroll through the list to locate it. Select the corresponding check box and click <guibutton>Install</guibutton>.
 			</para>
 			<para>
 				In the <application>Install</application> wizard, ensure the check boxes are selected for the software you want to install and click <guibutton>Next</guibutton>. It is recommended that you install both the Hybrid Mobile Tools and CordovaSim components.

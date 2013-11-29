@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_User_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_4.1_User_Guide.ent">
 %BOOK_ENTITIES;
 ]>
 <chapter id="chap-LiveReload_Tools">
@@ -17,7 +17,7 @@
 			</sectioninfo>
 			<title>About LiveReload</title>
 			<para>
-				LiveReload is an open source tool that refreshes web pages open in browsers as their source is edited. Immediate and automatic web page refreshing, without the need to manually refresh, simplifies the workflow of web developers.
+				LiveReload is an open source tool that refreshes web pages open in browsers as their source is edited. Immediate and automatic web page refreshing, without the need to manually refresh, assists to simplify the workflow of web developers.
 			</para>
 			<para>
 				LiveReload consists of server-side and client-side components. The server-side application monitors the source and sends notifications as the source is changed. On the client-side, a JavaScript snippet receives the notifications and invokes the browser to refresh the web page. The server-side and client-side components communicate using the WebSocket protocol, which allows the server-side application to send notifications to the client-side JavaScript snippet.
@@ -39,7 +39,7 @@
 			</sectioninfo>
 			<title>About LiveReload Tools</title>
 			<para>
-				LiveReload Tools is tooling that implements LiveReload in the IDE. It enables you to take advantage of LiveReload browser refreshing while editing files within the IDE. The capabilities of LiveReload Tools also removes the need to install the LiveReload standalone application or browser extensions.
+				LiveReload Tools is tooling that implements LiveReload in the IDE. It enables you to take advantage of LiveReload browser refreshing while editing files within the IDE. The capabilities of LiveReload Tools also remove the need to install the LiveReload standalone application or browser extensions.
 			</para>
 			<para>
 				LiveReload Tools is the implementation of the LiveReload server-side component, which listens to the IDE for resource changes and sends notifications for refreshes as appropriate. The server can also be configured to inject the livereload.js JavaScript snippet into the source code, which removes the need to install LiveReload browser extensions.
@@ -97,8 +97,25 @@
 				<title>Create a LiveReload Server</title>
 				<step>
 					<para>
-						In the <guilabel>Servers</guilabel> tab, click <guilabel>create a new server</guilabel> or right-click an existing server and click <guimenu>New</guimenu>&rarr;<guimenu>Server</guimenu>.
+						Click the <guilabel>Servers</guilabel> view. If the <guilabel>Servers</guilabel> view is not visible, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Servers</guimenu>.
 					</para>
+				</step>
+				<step>
+					<para>
+						Depending on the number of existing servers, follow the appropriate step:
+					</para>
+					<stepalternatives>
+						<step>
+							<para>
+								If there are no existing servers, click <guilabel>Click this link to create a new server</guilabel>.
+							</para>
+						</step>
+						<step>
+							<para>
+								If there are one or more existing servers, right-click an existing server and click <guimenu>New</guimenu>&rarr;<guimenu>Server</guimenu>.
+							</para>
+						</step>
+					</stepalternatives>
 				</step>
 				<step>
 					<para>
@@ -118,21 +135,21 @@
 				</step>
 				<step>
 					<para>
-						The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are automatically populated. The <command>localhost</command> value in the <guilabel>Server's host name</guilabel> field indicates that the server is to be run on the local system and the value in the <guilabel>Server name</guilabel> field is the name by which the LiveReload server is identified in the <guilabel>Servers</guilabel> tab. You can edit these values as appropriate by typing in the fields.
+						The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are automatically populated. The <command>localhost</command> value in the <guilabel>Server's host name</guilabel> field indicates that the server is to be run on the local system and the value in the <guilabel>Server name</guilabel> field is the name by which the LiveReload server is identified in the <guilabel>Servers</guilabel> view. You can edit these values as appropriate by typing in the fields.
 					</para>
 				</step>
 				<step>
 					<para>
-						Click <guibutton>Finish</guibutton> to close the window. The LiveReload server is listed in the <guilabel>Servers</guilabel> tab.
+						Click <guibutton>Finish</guibutton> to close the window. The LiveReload server is listed in the <guilabel>Servers</guilabel> view.
 					</para>
 					<figure>
-						<title>LiveReload Server Listed in the Servers Tab</title>
+						<title>LiveReload Server Listed in the <guilabel>Servers</guilabel> View</title>
 						<mediaobject>
 							<imageobject>
 								<imagedata fileref="images/4080.png"/>
 							</imageobject>
 							<textobject>
-								<phrase>The LiveReload server is listed in the <guilabel>Servers</guilabel> tab.</phrase>
+								<phrase>The LiveReload server is listed in the <guilabel>Servers</guilabel> view.</phrase>
 							</textobject>
 						</mediaobject>
 					</figure>
@@ -157,7 +174,7 @@
 				A LiveReload client must be inserted into HTML files in order for it to receive the LiveReload server notifications about changed resources. LiveReload Tools provides additional configuration options so that the LiveReload server can inject the necessary <command>&lt;script&gt;</command> element into the HTML resources. Furthermore, the LiveReload server can be configured to allow access from external devices, enabling LiveReload to function in browsers of remote devices.
 			</para>
 			<para>
-				The details below outline how to set the configuration options using the Server Editor. To open the Server Editor for a LiveReload server, in the <guilabel>Servers</guilabel> tab double-click the LiveReload server. Alternatively, right-click the LiveReload server and click <guimenu>Open</guimenu> or press <keycap>F3</keycap>.
+				The details below outline how to set the configuration options using the Server Editor. To open the Server Editor for a LiveReload server, in the <guilabel>Servers</guilabel> view double-click the LiveReload server. Alternatively, right-click the LiveReload server and click <guimenu>Open</guimenu> or press <keycap>F3</keycap>.
 			</para>
 			<figure>
 				<title>LiveReload Server Options in the Server Editor</title>
@@ -175,7 +192,7 @@
 					<term>Insert JavaScript code snippet to resources</term>
 					<listitem>
 						<para>
-							In the <guilabel>Server Editor</guilabel> under <guilabel>LiveReload Server Configuration</guilabel>, select the <guilabel>Inject the livereload.js script in HTML pages</guilabel> check box.
+							In the Server Editor under <guilabel>LiveReload Server Configuration</guilabel>, select the <guilabel>Inject the livereload.js script in HTML pages</guilabel> check box.
 						</para>
 					</listitem>
 				</varlistentry>
@@ -183,13 +200,13 @@
 					<term>Enable LiveReload in external device browsers</term>
 					<listitem>
 						<para>
-							In the <guilabel>Server Editor</guilabel> under <guilabel>LiveReload Server Configuration</guilabel>, select the <guilabel>Allow Remote Connections</guilabel> check box. This option is disabled by default when a LiveReload server is created as it exposes your workspace files, which may not always be desirable.
+							In the Server Editor under <guilabel>LiveReload Server Configuration</guilabel>, select the <guilabel>Allow Remote Connections</guilabel> check box. This option is disabled by default when a LiveReload server is created as it exposes your workspace files, which may not always be desirable.
 						</para>
 					</listitem>
 				</varlistentry>
 			</variablelist>
 			<para>
-				All changes to the settings of a LiveReload server must be saved and the server restarted before the results will take effect. To save setting changes, press <keycap>Ctrl+S</keycap> or click <guimenu>File</guimenu>&rarr;<guimenu>Save</guimenu> or click the <guibutton>Save</guibutton> icon. To restart the server, in the <guilabel>Servers</guilabel> tab right-click the LiveReload server and click <guimenu>Restart</guimenu>.
+				All changes to the settings of a LiveReload server must be saved and the server restarted before the results will take effect. To save setting changes, press <keycap>Ctrl+S</keycap> or click <guimenu>File</guimenu>&rarr;<guimenu>Save</guimenu> or click the <guibutton>Save</guibutton> icon. To restart the server, in the <guilabel>Servers</guilabel> view right-click the LiveReload server and click <guimenu>Restart</guimenu>.
 			</para>
 		</section>
 		<section id="View_Resources_in_LiveReload-enabled_Browsers" remap="TID_22837">
@@ -214,7 +231,7 @@
 					<term>View workspace resources in a system browser</term>
 					<listitem>
 						<para>
-							In the <guilabel>Project Explorer</guilabel> tab, right-click the resource file and click <guimenu>Open With</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu>.
+							In the <guilabel>Project Explorer</guilabel> view, right-click the resource file and click <guimenu>Open With</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu>.
 						</para>
 						<!--<figure>
 					<title><guimenu>Open With</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu> Menu Option</title>
@@ -250,7 +267,7 @@
 					<term>View deployed resources in a system browser</term>
 					<listitem>
 						<para>
-							Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> tab, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu>.
+							Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> view, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu>.
 						</para>
 						<figure>
 							<title><guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu> Menu Option</title>
@@ -259,7 +276,7 @@
 									<imagedata fileref="images/4074.png"/>
 								</imageobject>
 								<textobject>
-									<phrase>Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> tab, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu>.</phrase>
+									<phrase>Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> view, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu>.</phrase>
 								</textobject>
 							</mediaobject>
 						</figure>
@@ -282,7 +299,7 @@
 						</para>
 						<note>
 							<para>
-								To change the IDE-specified external web browser, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu> and expand <guilabel>General</guilabel>&rarr;<guilabel>Web Browser</guilabel>. From the <guilabel>External web browsers</guilabel> list, select the browser to use for actions involving external web browsers. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.
+								To change the IDE-specified external web browser, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu> and expand <guilabel>General</guilabel>&rarr;<guilabel>Web Browser</guilabel>. From the <guilabel>External web browsers</guilabel> list, select the browser to use for actions involving external web browsers. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
 							</para>
 						</note>
 					</listitem>
@@ -291,7 +308,7 @@
 					<term>View deployed resources on an external device</term>
 					<listitem>
 						<para>
-							Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> tab, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser on External Device</guimenu>.
+							Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> view, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser on External Device</guimenu>.
 						</para>
 						<figure>
 							<title><guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser on External Device</guimenu> Menu Option</title>
@@ -300,7 +317,7 @@
 									<imagedata fileref="images/4073.png"/>
 								</imageobject>
 								<textobject>
-									<phrase>Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> tab, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser on External Device</guimenu>.</phrase>
+									<phrase>Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> view, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser on External Device</guimenu>.</phrase>
 								</textobject>
 							</mediaobject>
 						</figure>
@@ -337,7 +354,7 @@
 			</variablelist>
 			<note>
 				<para>
-					The configuration of a LiveReload server can be viewed and manually set in the <guilabel>Server Editor</guilabel> tab.
+					The configuration of a LiveReload server can be viewed and manually set in the Server Editor.
 				</para>
 			</note>
 		</section>
@@ -357,7 +374,7 @@
 				<title>View Resources in LiveReload-enabled BrowserSim</title>
 				<step>
 					<para>
-						Ensure the LiveReload server is started. If it is not started, in the <guilabel>Servers</guilabel> tab right-click the LiveReload server and click <guimenu>Start</guimenu>.
+						Ensure the LiveReload server is started. If it is not started, in the <guilabel>Servers</guilabel> view right-click the LiveReload server and click <guimenu>Start</guimenu>.
 					</para>
 				</step>
 				<step>
@@ -367,27 +384,27 @@
 					<stepalternatives>
 						<step>
 							<para>
-								For workspace resources, in the <guilabel>Project Explorer</guilabel> tab right-click the resource file and click <guimenu>Open With</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.
+								For workspace resources, in the <guilabel>Project Explorer</guilabel> view right-click the resource file and click <guimenu>Open With</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.
 							</para>
 						</step>
 						<step>
 							<para>
-								For deployed resources, in the <guilabel>Servers</guilabel> tab right-click the application and click <guimenu>Show In</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.
+								For deployed resources, in the <guilabel>Servers</guilabel> view right-click the application and click <guimenu>Show In</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.
 							</para>
 							<figure>
-								<title><guimenu>Show In</guimenu>&rarr;<guilabel>BrowserSim</guilabel> Menu Option</title>
+								<title><guimenu>Show In</guimenu>&rarr;<guimenu>BrowserSim</guimenu> Menu Option</title>
 								<mediaobject>
 									<imageobject>
 										<imagedata fileref="images/4072.png"/>
 									</imageobject>
 									<textobject>
-										<phrase>For deployed resources, in the <guilabel>Servers</guilabel> tab right-click the application and click <guimenu>Show In</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.</phrase>
+										<phrase>For deployed resources, in the <guilabel>Servers</guilabel> view right-click the application and click <guimenu>Show In</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.</phrase>
 									</textobject>
 								</mediaobject>
 							</figure>
 							<important>
 								<para>
-									Ensure the server and application of the deployed resources are started before attempting to view the resources in LiveReload-enabled BrowserSim. To start the server and the application, in the <guilabel>Servers</guilabel> tab right-click each and click <guimenu>Start</guimenu>.
+									Ensure the server and application of the deployed resources are started before attempting to view the resources in LiveReload-enabled BrowserSim. To start the server and the application, in the <guilabel>Servers</guilabel> view right-click each and click <guimenu>Start</guimenu>.
 								</para>
 							</important>
 						</step>
@@ -398,10 +415,10 @@
 						Right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected.
 					</para>
 					<figure>
-						<title><guilabel>Enable LiveReload</guilabel> Check Box for BrowserSim</title>
+						<title><guilabel>Enable LiveReload</guilabel> Menu Option for BrowserSim</title>
 						<mediaobject>
 							<imageobject>
-								<imagedata fileref="images/4082.png"/>
+								<imagedata fileref="images/4305.png"/>
 							</imageobject>
 							<textobject>
 								<phrase>Right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected.</phrase>

@@ -24,7 +24,7 @@ function pubmake {
 	
 	#make publican version
 	echo '[INFO] Making publican version'
-	csprocessor build 22443 --flatten --hide-bug-links
+	csprocessor build 22443 --flatten #--hide-bug-links
 	unzip User_Guide.zip
 	rm User_Guide.zip	
 	#sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' User_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' User_Guide/en-US/Author_Group.xml
@@ -54,14 +54,15 @@ function mvnmake {
 	csprocessor pull 22477 -o JBoss_Tools_User_Guide.contentspec
 	rm JBoss_Tools_User_Guide.contentspec.backup
 	
-	#make publican version
+	#make maven version
 	echo '[INFO] Making maven version'
 	csprocessor build 22477 --flatten --format jDocBook --hide-bug-links
-	unzip JBoss_Tools_User_Guide.zip
-	rm JBoss_Tools_User_Guide.zip	
+	unzip JBoss_Tools_4.1_User_Guide.zip
+	mv JBoss_Tools_4.1_User_Guide JBoss_Tools_User_Guide
+	rm JBoss_Tools_4.1_User_Guide.zip
 	#sed -i 's/<firstname>.*<\/firstname>/<firstname>Red Hat<\/firstname>/' JBoss_Tools_User_Guide/en-US/Author_Group.xml; sed -i 's/<surname>.*<\/surname>/<surname>Documentation Team<\/surname>/' JBoss_Tools_User_Guide/en-US/Author_Group.xml
 	
-	#build publican version
+	#build maen version
 	echo '[INFO] Building maven version'
 	cd JBoss_Tools_User_Guide
 	mvn compile
