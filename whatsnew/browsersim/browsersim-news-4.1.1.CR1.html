@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../whatsnew.css" />
+<title>BrowserSim/CordovaSim 4.1.1.CR1 What's New</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17645367-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
+<body>
+<h1 style="text-align:left">BrowserSim/CordovaSim 4.1.1.CR1 What's&nbsp;New</h1>
+
+<p align="right">
+	<a href="../index.html">&lt; Main Index</a>&nbsp;
+	<a href="../jst/jst-news-4.1.1.CR1.html">JST/JSF/HTML Tools&gt;</a>&nbsp;
+</p>
+
+<table border="0" cellpadding="10" cellspacing="0">
+	<tr>
+		<td colspan="2">
+		<hr />
+		<h3>BrowserSim/CordovaSim</h3>
+		<hr />
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" align="left">
+		<b><p>
+		 	InAppBrowser&nbsp;plugin
+		 	support&nbsp;in&nbsp;CordovaSim
+		<p></b>
+		</td>
+		<td valign="top">
+		  <p>
+			Now CordovaSim is able to simulate the <a href="http://docs.phonegap.com/en/3.1.0/cordova_inappbrowser_inappbrowser.md.html#InAppBrowser">inAppBrowser API</a>. The InAppBrowser is a web browser view that displays when calling <code>window.open()</code>.
+			The InAppBrowser window behaves like a standard web browser, and cannot access Cordova APIs.
+		  </p>
+		  <p><img src="images/4.1.1.CR1/in-app-browser.png"  width='755' height='537' alt='CordovaSim running InAppBrowser example from PhoneGap API Documentation'></p>
+		<p><small>
+		Related JIRA:
+			<a href="https://issues.jboss.org/browse/JBIDE-15512">JBIDE-15512</a>.
+		</small></p>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" align="left">
+		<b><p>
+		 	ChildBrowser&nbsp;plugin
+		 	support&nbsp;in&nbsp;CordovaSim
+		<p></b>
+		</td>
+		<td valign="top">
+		  <p>
+			Now CordovaSim has ChildBrowser plugin support. <a href="https://github.com/phonegap-build/ChildBrowser">ChildBrowser plugin</a> is considered to be deprecated (InAppBrowser is an up-to-date substitution), nevertheless it's one of the most popular plugins overall.
+		  </p>
+		  <p><img src="images/4.1.1.CR1/child-browser.png"  width='755' height='537' alt='CordovaSim running Twitter OAuth example using ChildBrowser API'></p>
+		<p><small>
+		Related JIRA:
+			<a href="https://issues.jboss.org/browse/JBIDE-13743">JBIDE-13743</a>.
+		</small></p>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
