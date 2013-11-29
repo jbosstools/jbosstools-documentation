@@ -5,16 +5,16 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>jboss-tools</groupId>
-  <artifactId>jboss-tools-user-guide-en-US</artifactId>
+  <artifactId>jboss-tools-4.1-user-guide-en-US</artifactId>
   <packaging>jdocbook</packaging>
   <version>4.1-SNAPSHOT</version>
   <name>${bookname}-${translation}</name>
 
   <properties>
     <translation>en-US</translation>
-    <docname>JBoss_Tools_User_Guide</docname>
+    <docname>JBoss_Tools_4.1_User_Guide</docname>
     <docproduct>JBoss_Tools</docproduct>
-    <bookname>JBoss Tools User Guide</bookname>
+    <bookname>JBoss Tools 4.1 User Guide</bookname>
     <bookproduct>JBoss Tools</bookproduct>
   </properties> 
 

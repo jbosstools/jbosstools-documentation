@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_User_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_4.1_User_Guide.ent">
 %BOOK_ENTITIES;
 ]>
 <chapter id="chap-Forge_Tools">
@@ -102,7 +102,7 @@
 						<imagedata fileref="images/4060.png"/>
 					</imageobject>
 					<textobject>
-						<phrase>To open the <guilabel>Forge Console</guilabel> view, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>. Expand <guilabel>Forge</guilabel>, select <guilabel>Forge Console</guilabel> and click <guibutton>OK</guibutton>. Alternatively, press <keycap>Ctrl+4</keycap>, at which you are prompted whether you also want to start the Forge runtime server. Irrespective of your response to starting Forge, the <guilabel>Forge Console</guilabel> view opens.</phrase>
+						<phrase>To open the <guilabel>Forge Console</guilabel> view, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>. Expand <guilabel>Forge</guilabel> and double-click <guilabel>Forge Console</guilabel> and click <guibutton>OK</guibutton>. Alternatively, press <keycap>Ctrl+4</keycap>, at which you are prompted whether you also want to start the Forge runtime server. Irrespective of your response to starting Forge, the <guilabel>Forge Console</guilabel> view opens.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
