@@ -23,7 +23,7 @@
 				BrowserSim consists of an external web browser window. This browser window is different from standard browsers in that it can be transformed to simulate browsers on a variety of mobile devices. The browser window can also return touch events in response to interaction and be rotated to demonstrate the changes that would occur to a web application as a result of rotating a mobile device. Additionally, BrowserSim provides access to tools for inspecting and editing the source of web pages.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22866-561317+%5BLatest%5D&amp;description=Title%3A+About+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22866-561317+%5BLatest%5D&amp;description=Title%3A+About+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="System_Requirements3" remap="TID_22864">
@@ -56,7 +56,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22864-561323+%5BLatest%5D&amp;description=Title%3A+System+Requirements%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22864-561323+%5BLatest%5D&amp;description=Title%3A+System+Requirements%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -103,7 +103,7 @@
 			</itemizedlist>
 			<!--<para><remark>[DOCS] Watching ERD JBDS70_0028/JBDS-2522 click on any browser makes all others come to top too</remark></para> -->
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22865-542941+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22865-542941+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_a_Web_Application_on_BrowserSim" remap="TID_22856">
@@ -164,7 +164,7 @@
 				Runtime errors for simulated devices can be viewed in the <guilabel>Error Log</guilabel> view. To open the <guilabel>Error Log</guilabel> view, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>. Expand <guilabel>General</guilabel> and double-click <guilabel>Error Log</guilabel>.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22856-561332+%5BLatest%5D&amp;description=Title%3A+View+a+Web+Application+on+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22856-561332+%5BLatest%5D&amp;description=Title%3A+View+a+Web+Application+on+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Manage_Web_Applications_on_BrowserSim" remap="TID_22859">
@@ -235,7 +235,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22859-561366+%5BLatest%5D&amp;description=Title%3A+Manage+Web+Applications+on+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22859-561366+%5BLatest%5D&amp;description=Title%3A+Manage+Web+Applications+on+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Change_the_Appearance_of_a_Simulated_Device" remap="TID_22860">
@@ -299,7 +299,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22860-561357+%5BLatest%5D&amp;description=Title%3A+Change+the+Appearance+of+a+Simulated+Device%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22860-561357+%5BLatest%5D&amp;description=Title%3A+Change+the+Appearance+of+a+Simulated+Device%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_a_Web_Page_in_Different_Browsers_and_Simulated_Devices" remap="TID_22857">
@@ -344,7 +344,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22857-544572+%5BLatest%5D&amp;description=Title%3A+View+a+Web+Page+in+Different+Browsers+and+Simulated+Devices%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22857-544572+%5BLatest%5D&amp;description=Title%3A+View+a+Web+Page+in+Different+Browsers+and+Simulated+Devices%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Generate_a_Screen_Capture_of_a_Simulated_Device" remap="TID_22852">
@@ -391,7 +391,7 @@
 		</mediaobject>
 	</figure>-->
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22852-561379+%5BLatest%5D&amp;description=Title%3A+Generate+a+Screen+Capture+of+a+Simulated+Device%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22852-561379+%5BLatest%5D&amp;description=Title%3A+Generate+a+Screen+Capture+of+a+Simulated+Device%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Activate_LiveReload_for_BrowserSim" remap="TID_22851">
@@ -531,7 +531,7 @@
 				</para>
 			</important>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22851-561415+%5BLatest%5D&amp;description=Title%3A+Activate+LiveReload+for+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22851-561415+%5BLatest%5D&amp;description=Title%3A+Activate+LiveReload+for+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_the_Source_of_a_Web_Page" remap="TID_22855">
@@ -573,7 +573,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22855-561412+%5BLatest%5D&amp;description=Title%3A+View+the+Source+of+a+Web+Page%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22855-561412+%5BLatest%5D&amp;description=Title%3A+View+the+Source+of+a+Web+Page%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -609,7 +609,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22850-542941+%5BLatest%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22850-542941+%5BLatest%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Make_BrowserSim_the_Default_Browser" remap="TID_22862">
@@ -631,7 +631,7 @@
 				Alternatively, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>General</guilabel> and select <guilabel>Web Browser</guilabel>. Click <guilabel>User external web browser</guilabel> and from the <guilabel>External web browsers</guilabel> list select the <guilabel>BrowserSim</guilabel> check box. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22862-561418+%5BLatest%5D&amp;description=Title%3A+Make+BrowserSim+the+Default+Browser%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22862-561418+%5BLatest%5D&amp;description=Title%3A+Make+BrowserSim+the+Default+Browser%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Add_BrowserSim_to_the_Global_Toolbar" remap="TID_22849">
@@ -691,7 +691,7 @@
 				</step>
 			</procedure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22849-561419+%5BLatest%5D&amp;description=Title%3A+Add+BrowserSim+to+the+Global+Toolbar%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22849-561419+%5BLatest%5D&amp;description=Title%3A+Add+BrowserSim+to+the+Global+Toolbar%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Set_a_Shortcut_for_the_Run_BrowserSim_Action" remap="TID_22848">
@@ -746,7 +746,7 @@
 				</step>
 			</procedure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22848-561423+%5BLatest%5D&amp;description=Title%3A+Set+a+Shortcut+for+the+Run+BrowserSim+Action%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22848-561423+%5BLatest%5D&amp;description=Title%3A+Set+a+Shortcut+for+the+Run+BrowserSim+Action%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Add_or_Modify_Devices_in_BrowserSim" remap="TID_22863">
@@ -836,7 +836,7 @@
 				To modify existing devices in BrowserSim, right-click the simulated device and click <guimenu>Preferences</guimenu>. In the <guilabel>Devices</guilabel> table, select a device and click <guibutton>Edit</guibutton>. Once you have finished editing the fields, click <guibutton>OK</guibutton>. Click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22863-561593+%5BLatest%5D&amp;description=Title%3A+Add+or+Modify+Devices+in+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22863-561593+%5BLatest%5D&amp;description=Title%3A+Add+or+Modify+Devices+in+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Change_the_Default_Behavior_when_a_Device_does_not_Fit_the_Display" remap="TID_22858">
@@ -866,7 +866,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22858-561454+%5BLatest%5D&amp;description=Title%3A+Change+the+Default+Behavior+when+a+Device+does+not+Fit+the+Display%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22858-561454+%5BLatest%5D&amp;description=Title%3A+Change+the+Default+Behavior+when+a+Device+does+not+Fit+the+Display%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Change_the_Default_LiveReload_Port" remap="TID_22854">
@@ -896,7 +896,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22854-561457+%5BLatest%5D&amp;description=Title%3A+Change+the+Default+LiveReload+Port%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22854-561457+%5BLatest%5D&amp;description=Title%3A+Change+the+Default+LiveReload+Port%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Set_the_Location_for_Saved_Screen_Captures" remap="TID_22861">
@@ -926,7 +926,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22861-561463+%5BLatest%5D&amp;description=Title%3A+Set+the+Location+for+Saved+Screen+Captures%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22861-561463+%5BLatest%5D&amp;description=Title%3A+Set+the+Location+for+Saved+Screen+Captures%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Change_the_Default_Settings_for_Weinre" remap="TID_22853">
@@ -956,7 +956,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22853-561466+%5BLatest%5D&amp;description=Title%3A+Change+the+Default+Settings+for+Weinre%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22853-561466+%5BLatest%5D&amp;description=Title%3A+Change+the+Default+Settings+for+Weinre%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>

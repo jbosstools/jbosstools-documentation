@@ -45,7 +45,7 @@
 				</itemizedlist>
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22788-561946+%5BLatest%5D&amp;description=Title%3A+About+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22788-561946+%5BLatest%5D&amp;description=Title%3A+About+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="About_the_JBoss_Perspective" remap="TID_22790">
@@ -87,7 +87,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22790-556935+%5BLatest%5D&amp;description=Title%3A+About+the+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22790-556935+%5BLatest%5D&amp;description=Title%3A+About+the+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -129,7 +129,7 @@
 			</itemizedlist>
 			<!--<para><remark>[DOCS] Watching JBIDE-2557: cheat sheets for archetypes; Also cheat sheets missing for quickstarts; JBIDE-14804: uninstall from central</remark></para>-->
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22795-556936+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22795-556936+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_JBoss_Central" remap="TID_22794">
@@ -156,7 +156,7 @@
 				To maximize JBoss Central so that it fills the IDE window, double-click the <guibutton>JBoss Central</guibutton> view label. To reduce JBoss Central to its smaller size, double-click the <guibutton>JBoss Central</guibutton> view label again. These maximizing and minimizing actions work for all IDE views.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22794-561950+%5BLatest%5D&amp;description=Title%3A+View+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22794-561950+%5BLatest%5D&amp;description=Title%3A+View+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Access_Project_Wizards_in_JBoss_Central" remap="TID_22800">
@@ -201,7 +201,7 @@
 							<title>Start from Sample Wizards</title>
 							<mediaobject>
 								<imageobject>
-									<imagedata fileref="images/3965.png"/>
+									<imagedata fileref="images/4347.png"/>
 								</imageobject>
 								<textobject>
 									<phrase>The <guilabel>Start from a sample</guilabel> wizards create sample web, mobile, back-end and portal applications. To view a project summary, hover the cursor over a project wizard.</phrase>
@@ -229,7 +229,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22800-561982+%5BLatest%5D&amp;description=Title%3A+Access+Project+Wizards+in+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22800-563185+%5BLatest%5D&amp;description=Title%3A+Access+Project+Wizards+in+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Access_Information_in_JBoss_Central" remap="TID_22801">
@@ -327,7 +327,7 @@
 				</para>
 			</note>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22801-561957+%5BLatest%5D&amp;description=Title%3A+Access+Information+in+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22801-561957+%5BLatest%5D&amp;description=Title%3A+Access+Information+in+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Install_Software_in_JBoss_Central" remap="TID_22798">
@@ -369,7 +369,7 @@
 							<title><guilabel>Show Installed</guilabel> Check Box Selected and Installed Plug-ins Listed as Disabled</title>
 							<mediaobject>
 								<imageobject>
-									<imagedata fileref="images/3980.png"/>
+									<imagedata fileref="images/4346.png"/>
 								</imageobject>
 								<textobject>
 									<phrase>To view installed plug-ins, select the <guilabel>Show Installed</guilabel> check box. The installed plug-ins are listed in the table as disabled.</phrase>
@@ -462,7 +462,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22798-561958+%5BLatest%5D&amp;description=Title%3A+Install+Software+in+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22798-563183+%5BLatest%5D&amp;description=Title%3A+Install+Software+in+JBoss+Central%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Open_the_JBoss_Perspective" remap="TID_22791">
@@ -492,7 +492,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22791-557571+%5BLatest%5D&amp;description=Title%3A+Open+the+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22791-557571+%5BLatest%5D&amp;description=Title%3A+Open+the+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Manage_JBoss_Perspective" remap="TID_22796">
@@ -539,7 +539,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22796-557591+%5BLatest%5D&amp;description=Title%3A+Manage+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22796-557591+%5BLatest%5D&amp;description=Title%3A+Manage+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_Cheat_Sheets" remap="TID_22793">
@@ -580,7 +580,7 @@
 			</note>
 			<!-- API for developing cheat sheets available to all -->
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22793-560290+%5BLatest%5D&amp;description=Title%3A+View+Cheat+Sheets%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22793-560290+%5BLatest%5D&amp;description=Title%3A+View+Cheat+Sheets%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -621,7 +621,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22792-557697+%5BLatest%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22792-557697+%5BLatest%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Change_the_Behavior_of_JBoss_Central_on_IDE_Start" remap="TID_22799">
@@ -670,7 +670,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22799-561959+%5BLatest%5D&amp;description=Title%3A+Change+the+Behavior+of+JBoss+Central+on+IDE+Start%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22799-561959+%5BLatest%5D&amp;description=Title%3A+Change+the+Behavior+of+JBoss+Central+on+IDE+Start%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Customize_the_Default_Views_Menus_and_Toolbars_of_the_JBoss_Perspective" remap="TID_22797">
@@ -778,7 +778,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22797-557721+%5BLatest%5D&amp;description=Title%3A+Customize+the+Default+Views%2C+Menus+and+Toolbars+of+the+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22797-557721+%5BLatest%5D&amp;description=Title%3A+Customize+the+Default+Views%2C+Menus+and+Toolbars+of+the+JBoss+Perspective%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Use_Project_Examples_when_Working_Offline" remap="TID_22802">
@@ -824,7 +824,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22802-557737+%5BLatest%5D&amp;description=Title%3A+Use+Project+Examples+when+Working+Offline%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22802-557737+%5BLatest%5D&amp;description=Title%3A+Use+Project+Examples+when+Working+Offline%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Install_Software_when_Working_Offline" remap="TID_22868">
@@ -897,7 +897,7 @@
 				</step>
 			</procedure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22868-561977+%5BLatest%5D&amp;description=Title%3A+Install+Software+when+Working+Offline%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22868-561977+%5BLatest%5D&amp;description=Title%3A+Install+Software+when+Working+Offline%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Set_Cheat_Sheet_Behavior" remap="TID_22803">
@@ -927,7 +927,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22803-560386+%5BLatest%5D&amp;description=Title%3A+Set+Cheat+Sheet+Behavior%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22803-560386+%5BLatest%5D&amp;description=Title%3A+Set+Cheat+Sheet+Behavior%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
