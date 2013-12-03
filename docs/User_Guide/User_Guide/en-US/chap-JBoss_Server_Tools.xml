@@ -32,7 +32,7 @@
 				JBoss Server Tools actions enable you to make customizations based on application server type, such as default filesets added to new servers and classpath filesets. You can also customize the default server used for IDE actions such as 'Run on Server'.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22806-560658+%5BLatest%5D&amp;description=Title%3A+About+JBoss+Server+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22806-560658+%5BLatest%5D&amp;description=Title%3A+About+JBoss+Server+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="About_IDE_Server_Definitions" remap="TID_25559">
@@ -72,7 +72,7 @@
 				You must generate at least one complete server definition for an application server before you can use it in the IDE. To assist you with this, JBoss Server Tools provides runtime detection that automatically generates a complete default server definition for any installed application servers found in a given local system search path.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+25559-558132+%5BLatest%5D&amp;description=Title%3A+About+IDE+Server+Definitions%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+25559-558132+%5BLatest%5D&amp;description=Title%3A+About+IDE+Server+Definitions%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -108,7 +108,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22815-542941+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22815-542941+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Create_a_Default_Local_Server_Definition_with_Runtime_Detection" remap="TID_22808">
@@ -208,7 +208,7 @@
 				</para>
 			</note>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22808-559453+%5BLatest%5D&amp;description=Title%3A+Create+a+Default+Local+Server+Definition+with+Runtime+Detection%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22808-559453+%5BLatest%5D&amp;description=Title%3A+Create+a+Default+Local+Server+Definition+with+Runtime+Detection%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Create_an_Additional_Server_Runtime_Environment" remap="TID_22810">
@@ -348,7 +348,7 @@
 				</para>
 			</note>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22810-561594+%5BLatest%5D&amp;description=Title%3A+Create+an+Additional+Server+Runtime+Environment%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22810-561594+%5BLatest%5D&amp;description=Title%3A+Create+an+Additional+Server+Runtime+Environment%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Define_an_Additional_Local_Server" remap="TID_22813">
@@ -501,7 +501,7 @@
 				</para>
 			</important>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22813-561595+%5BLatest%5D&amp;description=Title%3A+Define+an+Additional+Local+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22813-561595+%5BLatest%5D&amp;description=Title%3A+Define+an+Additional+Local+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Define_a_Remote_Server" remap="TID_22817">
@@ -681,7 +681,7 @@
 				</step>
 			</procedure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22817-561600+%5BLatest%5D&amp;description=Title%3A+Define+a+Remote+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22817-561600+%5BLatest%5D&amp;description=Title%3A+Define+a+Remote+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="sect-Manage_Server_Settings">
@@ -728,7 +728,7 @@
 				To open the JBoss Server Editor for a specific server, in the <guilabel>Servers</guilabel> view double-click the server. All changes to the settings of a server must be saved before the results will take effect. To save changes made to server settings in the JBoss Server Editor, press <keycap>Ctrl+S</keycap>. You may be required to enter the server management password when making changes to certain settings.<!--http://docs.jboss.org/tools/whatsnew/as/as-news-4.0.0.Beta1.html-->
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22809-559145+%5BLatest%5D&amp;description=Title%3A+Manage+Server+Settings%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22809-559145+%5BLatest%5D&amp;description=Title%3A+Manage+Server+Settings%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 			<section id="Manage_Server_Settings_in_the_Overview_Tab" remap="TID_22807">
 				<sectioninfo>
@@ -1004,7 +1004,7 @@
 					</varlistentry>
 				</variablelist>
 				<para role="RoleCreateBugPara">
-					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22807-559168+%5BLatest%5D&amp;description=Title%3A+Manage+Server+Settings+in+the+Overview+Tab%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22807-559168+%5BLatest%5D&amp;description=Title%3A+Manage+Server+Settings+in+the+Overview+Tab%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 				</para>
 			</section>
 			<section id="Manage_Server_Settings_in_the_Deployment_Tab" remap="TID_22812">
@@ -1096,7 +1096,7 @@
 					</varlistentry>
 				</variablelist>
 				<para role="RoleCreateBugPara">
-					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22812-559171+%5BLatest%5D&amp;description=Title%3A+Manage+Server+Settings+in+the+Deployment+Tab%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22812-559171+%5BLatest%5D&amp;description=Title%3A+Manage+Server+Settings+in+the+Deployment+Tab%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 				</para>
 			</section>
 		</section>
@@ -1138,7 +1138,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22814-559173+%5BLatest%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22814-559173+%5BLatest%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Enable_Runtime_Detection_on_IDE_Start" remap="TID_22816">
@@ -1168,7 +1168,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22816-559174+%5BLatest%5D&amp;description=Title%3A+Enable+Runtime+Detection+on+IDE+Start%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22816-559174+%5BLatest%5D&amp;description=Title%3A+Enable+Runtime+Detection+on+IDE+Start%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Set_a_Default_Server" remap="TID_22811">
@@ -1203,7 +1203,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22811-559175+%5BLatest%5D&amp;description=Title%3A+Set+a+Default+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22811-559175+%5BLatest%5D&amp;description=Title%3A+Set+a+Default+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Default_File_Sets" remap="TID_22805">
@@ -1258,7 +1258,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22805-560440+%5BLatest%5D&amp;description=Title%3A+Default+File+Sets%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22805-560440+%5BLatest%5D&amp;description=Title%3A+Default+File+Sets%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Default_Classpath_Entries" remap="TID_22804">
@@ -1289,7 +1289,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22804-560441+%5BLatest%5D&amp;description=Title%3A+Default+Classpath+Entries%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22804-560441+%5BLatest%5D&amp;description=Title%3A+Default+Classpath+Entries%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>

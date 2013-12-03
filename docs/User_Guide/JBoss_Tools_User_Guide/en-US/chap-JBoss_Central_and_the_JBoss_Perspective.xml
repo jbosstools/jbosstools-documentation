@@ -189,7 +189,7 @@
 							<title>Start from Sample Wizards</title>
 							<mediaobject>
 								<imageobject>
-									<imagedata fileref="images/3965.png"/>
+									<imagedata fileref="images/4347.png"/>
 								</imageobject>
 								<textobject>
 									<phrase>The <guilabel>Start from a sample</guilabel> wizards create sample web, mobile, back-end and portal applications. To view a project summary, hover the cursor over a project wizard.</phrase>
@@ -351,7 +351,7 @@
 							<title><guilabel>Show Installed</guilabel> Check Box Selected and Installed Plug-ins Listed as Disabled</title>
 							<mediaobject>
 								<imageobject>
-									<imagedata fileref="images/3980.png"/>
+									<imagedata fileref="images/4346.png"/>
 								</imageobject>
 								<textobject>
 									<phrase>To view installed plug-ins, select the <guilabel>Show Installed</guilabel> check box. The installed plug-ins are listed in the table as disabled.</phrase>
