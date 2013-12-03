@@ -7,4 +7,5 @@ pressgang_website_callback([
 	{"topicId":22588,"target":"Use_Cases_of_JBoss_Developer_Studio1","title":"Use Cases of JBoss Developer Studio","newSince":""},
 	{"topicId":23618,"target":"Getting_Help_and_Giving_Feedback2","title":"Getting Help and Giving Feedback","newSince":""},
 	{"topicId":22589,"target":"About_Red_Hat_JBoss_Developer_Studio1","title":"About Red Hat JBoss Developer Studio","newSince":""},
-	{"topicId":24015,"target":"About_this_Release","title":"About this Release","newSince":""}]);
+	{"topicId":24015,"target":"About_this_Release","title":"About this Release","newSince":""},
+	{"topicId":24063,"target":"Use_CordovaSim","title":"Author Group","newSince":""}]);
