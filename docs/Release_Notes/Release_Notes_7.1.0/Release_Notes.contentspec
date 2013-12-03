@@ -21,12 +21,13 @@ Type = Article
 Bug Links = Jira
 JIRAServer = https://issues.jboss.org/
 JIRAProject = TOOLSDOC
-JIRAComponent = Installation Guide
+JIRAComponent = Release Notes
 # JIRAVersion = 4.1.1
 # JIRALabels =
 # Output Style =
 Feedback = [23618]
 Revision History = [24019]
+Author Group = [24063, rev: 556627]
 # Indentation is meaningful. Use 2 spaces.
 
 [condition = jbds]
