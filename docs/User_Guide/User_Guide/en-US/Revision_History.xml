@@ -8,6 +8,19 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.1.0-9</revnumber><date>Tue Dec 03 2013</date>
+				<author>
+					<firstname>Michelle</firstname><surname>Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-417: Screen captures updated for IDE changes
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>7.1.0-8</revnumber><date>Fri Nov 29 2013</date>
 				<author>
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>

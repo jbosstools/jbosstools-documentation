@@ -57,7 +57,7 @@
 				OpenShift can be accessed via the web interface at <ulink url="https://www.openshift.com/"/> on the OpenShift website or via the OpenShift command line interface.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22877-561536+%5BLatest%5D&amp;description=Title%3A+About+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22877-561536+%5BLatest%5D&amp;description=Title%3A+About+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="About_OpenShift_Tools" remap="TID_22881">
@@ -98,7 +98,7 @@
 				</itemizedlist>
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22881-561539+%5BLatest%5D&amp;description=Title%3A+About+OpenShift+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22881-561539+%5BLatest%5D&amp;description=Title%3A+About+OpenShift+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -155,7 +155,7 @@
 			</itemizedlist>
 			<!--<para><remark>[DOCS] JBIDE-13281: server adapter Show In > Server Log does nothing; JBIDE-14018: git commit message; JBIDE-14394: support adding cartridge via github url; JBIDE-13963: port fowarding UI under review; JBIDE-10512: deleted application still shown in servers tab; JBIDE-14395: in new app wizard enable scaling by default;</remark></para> -->
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22870-561556+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22870-561556+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Create_an_OpenShift_Online_User_Account" remap="TID_22879">
@@ -207,7 +207,7 @@
 				Management of your OpenShift Online user account, such as changing or resetting your password, must be carried out through the OpenShift management console at <ulink url="https://openshift.redhat.com/app/login?redirectUrl=%2Fapp%2Fconsole"/>.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22879-561558+%5BLatest%5D&amp;description=Title%3A+Create+an+OpenShift+Online+User+Account%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22879-561558+%5BLatest%5D&amp;description=Title%3A+Create+an+OpenShift+Online+User+Account%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Connect_to_OpenShift" remap="TID_22869">
@@ -318,7 +318,7 @@
 			</listitem>	
 		</itemizedlist> -->
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22869-561933+%5BLatest%5D&amp;description=Title%3A+Connect+to+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22869-561933+%5BLatest%5D&amp;description=Title%3A+Connect+to+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Manage_a_Connection" remap="TID_22878">
@@ -371,7 +371,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22878-561563+%5BLatest%5D&amp;description=Title%3A+Manage+a+Connection%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22878-561563+%5BLatest%5D&amp;description=Title%3A+Manage+a+Connection%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Generate_and_Upload_SSH_keys_to_OpenShift" remap="TID_22872">
@@ -463,7 +463,7 @@
 				</step>
 			</procedure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22872-561606+%5BLatest%5D&amp;description=Title%3A+Generate+and+Upload+SSH+keys+to+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22872-561606+%5BLatest%5D&amp;description=Title%3A+Generate+and+Upload+SSH+keys+to+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Manage_SSH_Keys" remap="TID_22876">
@@ -513,7 +513,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22876-561566+%5BLatest%5D&amp;description=Title%3A+Manage+SSH+Keys%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22876-561566+%5BLatest%5D&amp;description=Title%3A+Manage+SSH+Keys%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Create_a_Domain1" remap="TID_22880">
@@ -563,7 +563,7 @@
 				</para>
 			</note>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22880-561578+%5BLatest%5D&amp;description=Title%3A+Create+a+Domain%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22880-561578+%5BLatest%5D&amp;description=Title%3A+Create+a+Domain%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Manage_a_Domain" remap="TID_22867">
@@ -615,7 +615,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22867-561583+%5BLatest%5D&amp;description=Title%3A+Manage+a+Domain%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22867-561583+%5BLatest%5D&amp;description=Title%3A+Manage+a+Domain%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Deploy_a_New_or_Existing_Application_on_OpenShift" remap="TID_22871">
@@ -790,7 +790,7 @@
 				</para>
 			</note>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22871-561964+%5BLatest%5D&amp;description=Title%3A+Deploy+a+New+or+Existing+Application+on+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22871-561964+%5BLatest%5D&amp;description=Title%3A+Deploy+a+New+or+Existing+Application+on+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Import_a_Deployed_OpenShift_Application_into_the_IDE" remap="TID_22874">
@@ -897,7 +897,7 @@
 				Once imported, the project is listed in the <guilabel>Project Explorer</guilabel> and <guilabel>Git Repositories</guilabel> veiws, where the details proceeding the application name indicate the current Git branch and status compared to the remote repository. Additionally, the server adapter for the application is visible in the <guilabel>Servers</guilabel> view.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22874-561900+%5BLatest%5D&amp;description=Title%3A+Import+a+Deployed+OpenShift+Application+into+the+IDE%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22874-561900+%5BLatest%5D&amp;description=Title%3A+Import+a+Deployed+OpenShift+Application+into+the+IDE%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Generate_a_Server_Adapter_for_an_Application" remap="TID_22882">
@@ -1013,7 +1013,7 @@
 				</step>
 			</procedure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22882-561908+%5BLatest%5D&amp;description=Title%3A+Generate+a+Server+Adapter+for+an+Application%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22882-561908+%5BLatest%5D&amp;description=Title%3A+Generate+a+Server+Adapter+for+an+Application%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_a_Deployed_Application_and_Associated_Information" remap="TID_22875">
@@ -1123,7 +1123,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22875-561997+%5BLatest%5D&amp;description=Title%3A+View+a+Deployed+Application+and+Associated+Information%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22875-561997+%5BLatest%5D&amp;description=Title%3A+View+a+Deployed+Application+and+Associated+Information%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Manage_a_Deployed_Application" remap="TID_22873">
@@ -1268,7 +1268,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+22873-561981+%5BLatest%5D&amp;description=Title%3A+Manage+a+Deployed+Application%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22873-561981+%5BLatest%5D&amp;description=Title%3A+Manage+a+Deployed+Application%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -1294,7 +1294,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+25166-561923+%5BLatest%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+25166-561923+%5BLatest%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Change_the_Timeout_Behavior_of_OpenShift_Requests" remap="TID_25165">
@@ -1307,7 +1307,7 @@
 			</sectioninfo>
 			<title>Change the Timeout Behavior of OpenShift Requests</title>
 			<para>
-				You may find that some requests made to OpenShift require a long time to complete and do not finish within the IDE default timeout limit. For example, some of the OpenShift quickstarts take a long time to checkout the associated large source code. To resolve the timeout restriction, you can modify the default timeout limit to meet your requirements.
+				You may find that some requests made to OpenShift require a long time to complete and do not finish within the IDE default timeout limit of 120 seconds. For example, some of the OpenShift quickstarts take a long time to checkout the associated large source code. To resolve the timeout restriction, you can modify the default timeout limit to meet your requirements.
 			</para>
 			<para>
 				To modify the timeout limit, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>OpenShift</guilabel>. In the <guilabel>Remote requests timeout</guilabel> field, type the required timeout limit in seconds. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
@@ -1324,7 +1324,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+29-11-2013+15%3A24%3A28%0ATopic+ID%3A+25165-561927+%5BLatest%5D&amp;description=Title%3A+Change+the+Timeout+Behavior+of+OpenShift+Requests%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+25165-562951+%5BLatest%5D&amp;description=Title%3A+Change+the+Timeout+Behavior+of+OpenShift+Requests%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
