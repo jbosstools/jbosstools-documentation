@@ -38,6 +38,7 @@ pressgang_website_callback([
 	{"topicId":22798,"target":"Install_Software_in_JBoss_Central","title":"Install Software in JBoss Central","newSince":""},
 	{"topicId":22797,"target":"Customize_the_Default_Views_Menus_and_Toolbars_of_the_JBoss_Perspective","title":"Customize the Default Views, Menus and Toolbars of the JBoss Perspective","newSince":""},
 	{"topicId":22796,"target":"Manage_JBoss_Perspective","title":"Manage JBoss Perspective","newSince":""},
+	{"topicId":25559,"target":"About_IDE_Server_Definitions","title":"About IDE Server Definitions","newSince":""},
 	{"topicId":22795,"target":"Features_Overview","title":"Features Overview","newSince":""},
 	{"topicId":22794,"target":"View_JBoss_Central","title":"View JBoss Central","newSince":""},
 	{"topicId":22793,"target":"View_Cheat_Sheets","title":"View Cheat Sheets","newSince":""},

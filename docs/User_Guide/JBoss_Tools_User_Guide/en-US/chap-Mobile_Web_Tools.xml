@@ -8,13 +8,6 @@
 	<section id="sect-Overview_of_Mobile_Web_Tools">
 		<title>Overview of Mobile Web Tools</title>
 		<section id="About_Mobile_Web_Tools" remap="TID_22839">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>About Mobile Web Tools</title>
 			<para>
 				Mobile Web Tools provides tooling for developing mobile web applications within the IDE. It simplifies the process of getting started with HTML5 and jQuery Mobile technologies that are used for these types of applications and provides efficient workflows for developing with them on a daily basis.
@@ -44,13 +37,6 @@
 	<section id="sect-Features_of_Mobile_Web_Tools">
 		<title>Features of Mobile Web Tools</title>
 		<section id="Features_Overview4" remap="TID_22841">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Features Overview</title>
 			<para>
 				The aim of this section is to guide you in using Mobile Web Tools:
@@ -80,13 +66,6 @@
 			<!--<para><remark>[DOCS] Watching JBIDE-14732: show/hide preview in widget wizard; JBIDE-14591: properties tab; JBIDE-14758: Help button action in widget wizards; JBIDE-15153: duplicate wizards in JBoss central; JBIDE-14909: warning when WFK maven repo required; JBIDE-15152: rename or split jQuery Mobile palette</remark></para> -->
 		</section>
 		<section id="Create_a_Mobile_Web_Project" remap="TID_22840">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Create a Mobile Web Project</title>
 			<para>
 				Project wizards are available to assist you in generating new mobile web applications. The project wizards are listed in JBoss Central: 
@@ -238,13 +217,6 @@
 			</procedure>
 		</section>
 		<section id="Use_a_HTML5_jQuery_Mobile_File_Template" remap="TID_22843">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Use a HTML5 jQuery Mobile File Template</title>
 			<para>
 				Mobile Web Tools provides a HTML5 jQuery Mobile file template to assist in creating mobile web applications. The template inserts the necessary JavaScript and CSS library references into the HTML header and includes skeleton jQuery Mobile page and listview widgets in the HTML body. The procedure below details how to insert the template into your project.
@@ -325,13 +297,6 @@
 			</procedure>
 		</section>
 		<section id="Access_the_jQuery_Mobile_Palette" remap="TID_22847">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Access the jQuery Mobile Palette</title>
 			<para>
 				Mobile Web Tools offers a jQuery Mobile palette, with wizards for adding jQuery Mobile and HTML5 widgets to your project. The jQuery Mobile palette, part of the <guilabel>Palette</guilabel> view, is available for use when working with HTML5 files in the JBoss Tools HTML Editor.
@@ -363,13 +328,6 @@
 			</para>
 		</section>
 		<section id="Insert_a_jQuery_Mobile_Palette_Widget_into_a_HTML5_File" remap="TID_22845">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Insert a jQuery Mobile Palette Widget into a HTML5 File</title>
 			<para>
 				The jQuery Mobile palette contains wizards for the HTML5 and jQuery Mobile user interface widgets commonly used in mobile web applications. The widgets are grouped in the palette by functionality, with tooltips providing widget descriptions.
@@ -419,13 +377,6 @@
 			</variablelist>
 		</section>
 		<section id="Get_Assistance_with_jQuery_Mobile_Programming" remap="TID_22838">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Get Assistance with jQuery Mobile Programming</title>
 			<para>
 				Mobile Web Tools offers code assist to help you when working with jQuery Mobile. Code assist lists available options for attributes and attribute values. Code assist is available for use in files and in the <guilabel>URL (href)</guilabel> field of widget wizards.
@@ -460,13 +411,6 @@
 			</figure>
 		</section>
 		<section id="View_jQuery_Mobile_Pages_in_a_Browser" remap="TID_22844">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>View jQuery Mobile Pages in a Browser</title>
 			<para>
 				Mobile Web Tools provides an action to easily and quickly open jQuery Mobile pages in web browsers for viewing.
@@ -502,13 +446,6 @@
 	<section id="sect-Customizing_Mobile_Web_Tools">
 		<title>Customizing Mobile Web Tools</title>
 		<section id="Customizing_Overview3" remap="TID_22842">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Customizing Overview</title>
 			<para>
 				The aim of this section is to guide you in customizing Mobile Web Tools:
@@ -522,13 +459,6 @@
 			</itemizedlist>
 		</section>
 		<section id="Customize_jQuery_Mobile_File_Templates" remap="TID_22846">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Customize jQuery Mobile File Templates</title>
 			<para>
 				The <guilabel>HTML5 jQuery Mobile Page</guilabel> template for new HTML files is provided by Mobile Web Tools. You can customize this template and add more jQuery Mobile templates to the IDE.
