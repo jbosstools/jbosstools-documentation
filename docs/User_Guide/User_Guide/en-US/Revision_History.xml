@@ -8,6 +8,19 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.1.0-10</revnumber><date>Thu Dec 05 2013</date>
+				<author>
+					<firstname>Michelle</firstname><surname>Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							JBQA-8676: QE feedback incorporated
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>7.1.0-9</revnumber><date>Tue Dec 03 2013</date>
 				<author>
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>

@@ -6,13 +6,6 @@
 <chapter id="chap-Hybrid_Mobile_Tools_and_CordovaSim_Technology_Preview">
 	<title>Hybrid Mobile Tools and CordovaSim (Technology Preview)</title>
 	<section id="Technology_Preview" remap="TID_23368">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Technology Preview</title>
 		<warning>
 			<para>
@@ -25,19 +18,12 @@
 			</para>
 		</note>
 		<para role="RoleCreateBugPara">
-			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+23368-546549+%5BSpecified%5D&amp;description=Title%3A+Technology+Preview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+23368-546549+%5BSpecified%5D&amp;description=Title%3A+Technology+Preview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 		</para>
 	</section>
 	<section id="sect-Overview_of_Hybrid_Mobile_Tools_and_CordovaSim">
 		<title>Overview of Hybrid Mobile Tools and CordovaSim</title>
 		<section id="About_Apache_Cordova" remap="TID_24055">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>About Apache Cordova</title>
 			<para>
 				Apache Cordova is a framework for hybrid mobile application development. It simplifies mobile application development by enabling developers to use device-independent APIs, in place of native code, to access device functionality.
@@ -72,17 +58,10 @@
 				Apache Cordova is an open source project, of which there are various distributions. PhoneGap, in addition to being the originator of Cordova, and IBM Worklight are such distributions.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+24055-551441+%5BLatest%5D&amp;description=Title%3A+About+Apache+Cordova%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+24055-551441+%5BLatest%5D&amp;description=Title%3A+About+Apache+Cordova%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="About_Hybrid_Mobile_Tools" remap="TID_24051">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>About Hybrid Mobile Tools</title>
 			<para>
 				Hybrid Mobile Tools provides tooling for developing Cordova-based hybrid mobile applications within the IDE. It simplifies the process of getting started with the Cordova technology that can be used for these types of applications and provides workflows for developing Cordova-based hybrid mobile applications.
@@ -90,11 +69,6 @@
 			<para>
 				Hybrid Mobile Tools consists of the Apache Cordova API and wizards, a dedicated editor and actions for developing Cordova-based hybrid mobile applications for iOS and Android operating systems: 
 				<itemizedlist>
-					<listitem>
-						<para>
-							The included Apache Cordova API is version 3.0.x.
-						</para>
-					</listitem>
 					<listitem>
 						<para>
 							The Hybrid Mobile Application project wizard creates a sample project to demonstrate the Cordova project structure and provides you with a template from which to create your own applications.
@@ -126,17 +100,10 @@
 				Hybrid Mobile Tools, together with CordovaSim, provides an effective hybrid mobile development and testing environment.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+24051-551443+%5BLatest%5D&amp;description=Title%3A+About+Hybrid+Mobile+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+24051-563742+%5BLatest%5D&amp;description=Title%3A+About+Hybrid+Mobile+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="About_CordovaSim" remap="TID_24054">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>About CordovaSim</title>
 			<para>
 				CordovaSim is a mobile application simulator. It enables you to view and test Cordova-based hybrid mobile applications through a mobile device simulator.
@@ -150,7 +117,7 @@
 			<itemizedlist>
 				<listitem>
 					<para>
-						CordovaSim supports a range of Cordova API implementations: the core Apache Cordova 3.0.x plug-ins, several PhoneGap plug-ins and custom plug-ins. Supported PhoneGap plug-ins include <command>BarcodeScanner</command> and <command>ChildBrowser</command>. (Note that exceptions to the supported core Apache Cordova plug-ins are <command>File</command> and the <command>captureAudio</command> and <command>captureVideo</command> methods of <command>Capture</command>.)
+						CordovaSim supports a range of Cordova API implementations: the core Apache Cordova plug-ins, several PhoneGap plug-ins and custom plug-ins. Supported PhoneGap plug-ins include <command>BarcodeScanner</command>, <command>Inappbrowser</command> and <command>ChildBrowser</command>. (Note that exceptions to the supported core Apache Cordova plug-ins are <command>File</command> and the <command>captureAudio</command> and <command>captureVideo</command> methods of <command>Capture</command>.)
 					</para>
 				</listitem>
 				<listitem>
@@ -165,17 +132,10 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+24054-551445+%5BLatest%5D&amp;description=Title%3A+About+CordovaSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+24054-563773+%5BLatest%5D&amp;description=Title%3A+About+CordovaSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="System_Requirements_for_Hybrid_Mobile_Tools" remap="TID_24119">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>System Requirements for Hybrid Mobile Tools</title>
 			<para>
 				<phrase>The overall system requirements of JBoss Developer Studio are applicable for Hybrid Mobile Tools and can be viewed in the JBoss Developer Studio Installation Guide at <ulink url="https://access.redhat.com"/> on the Red Hat Customer Portal.</phrase> But, as reiterated below, there are additional system requirements and restrictions when using Hybrid Mobile Tools.
@@ -213,17 +173,10 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+24119-551448+%5BLatest%5D&amp;description=Title%3A+System+Requirements+for+Hybrid+Mobile+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+24119-551448+%5BLatest%5D&amp;description=Title%3A+System+Requirements+for+Hybrid+Mobile+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="System_Requirements_for_CordovaSim" remap="TID_24056">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>System Requirements for CordovaSim</title>
 			<para>
 				<phrase>The overall system requirements of JBoss Developer Studio are applicable for CordovaSim and can be viewed in the JBoss Developer Studio Installation Guide at <ulink url="https://access.redhat.com"/> on the Red Hat Customer Portal.</phrase> But CordovaSim uses BrowserSim and, as reiterated below, there are additional system requirements and restrictions when using BrowserSim on Microsoft Windows operating systems.
@@ -235,51 +188,50 @@
 				To set BrowserSim to use a 32-bit JVM, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>BrowserSim/CordovaSim</guilabel>. Under <guilabel>Select JRE to run BrowserSim</guilabel>, click <guilabel>Select</guilabel> and from the list select a 32-bit JRE or Java developer kit. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+24056-550862+%5BLatest%5D&amp;description=Title%3A+System+Requirements+for+CordovaSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+24056-550862+%5BLatest%5D&amp;description=Title%3A+System+Requirements+for+CordovaSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Install_Hybrid_Mobile_Tools_and_CordovaSim" remap="TID_24053">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Install Hybrid Mobile Tools and CordovaSim</title>
 			<para>
-				Hybrid Mobile Tools and CordovaSim are not packaged as part of <phrase>JBoss&nbsp;Developer&nbsp;Studio</phrase> installations. These plug-ins must be installed independently through JBoss Central.
+				Hybrid Mobile Tools and CordovaSim are not packaged as part of <phrase>JBoss&nbsp;Developer&nbsp;Studio</phrase> installations. These plug-ins must be installed independently through JBoss Central, as detailed in the procedure below.
 			</para>
-			<para>
-				To install these plug-ins, in JBoss Central select the <guilabel>Software/Update</guilabel> page. In the <guilabel>Find</guilabel> field, type <guilabel>JBoss Hybrid Mobile Tools + CordovaSim (Experimental)</guilabel> or scroll through the list to locate it. Select the corresponding check box and click <guibutton>Install</guibutton>.
-			</para>
-			<para>
-				In the <application>Install</application> wizard, ensure the check boxes are selected for the software you want to install and click <guibutton>Next</guibutton>. It is recommended that you install both the Hybrid Mobile Tools and CordovaSim components.
-			</para>
-			<para>
-				Review the details of the items listed for install and click <guibutton>Next</guibutton>. After reading and agreeing to the license(s), click <guilabel>I accept the terms of the license agreement(s)</guilabel> and click <guibutton>Finish</guibutton>. The <guilabel>Installing Software</guilabel> window opens and reports the progress of the installation.
-			</para>
-			<para>
-				During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.
-			</para>
-			<para>
-				Once installing is complete, you are prompted to restart the IDE. Click <guibutton>Yes</guibutton> to restart now and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that changes do not take effect until the IDE is restarted.
-			</para>
+			<procedure>
+				<title>Install Hybrid Mobile Tools and CordovaSim</title>
+				<step>
+					<para>
+						To install these plug-ins, drag the following link into JBoss Central: <ulink url="https://devstudio.jboss.com/central/install?connectors=org.jboss.tools.aerogear.hybrid"/>. Alternatively, in JBoss Central select the <guilabel>Software/Update</guilabel> tab. In the <guilabel>Find</guilabel> field, type <guilabel>JBoss Hybrid Mobile Tools + CordovaSim</guilabel> or scroll through the list to locate it. Select the corresponding check box and click <guibutton>Install</guibutton>.
+					</para>
+				</step>
+				<step>
+					<para>
+						In the <application>Install</application> wizard, ensure the check boxes are selected for the software you want to install and click <guibutton>Next</guibutton>. It is recommended that you install both the Hybrid Mobile Tools and CordovaSim components.
+					</para>
+				</step>
+				<step>
+					<para>
+						Review the details of the items listed for install and click <guibutton>Next</guibutton>. After reading and agreeing to the license(s), click <guilabel>I accept the terms of the license agreement(s)</guilabel> and click <guibutton>Finish</guibutton>. The <guilabel>Installing Software</guilabel> window opens and reports the progress of the installation.
+					</para>
+				</step>
+				<step>
+					<para>
+						During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.
+					</para>
+				</step>
+				<step>
+					<para>
+						Once installing is complete, you are prompted to restart the IDE. Click <guibutton>Yes</guibutton> to restart now and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that changes do not take effect until the IDE is restarted.
+					</para>
+				</step>
+			</procedure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+24053-561962+%5BLatest%5D&amp;description=Title%3A+Install+Hybrid+Mobile+Tools+and+CordovaSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+24053-563735+%5BLatest%5D&amp;description=Title%3A+Install+Hybrid+Mobile+Tools+and+CordovaSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
 	<section id="sect-Features_of_Hybrid_Mobile_Tools_and_CordovaSim">
 		<title>Features of Hybrid Mobile Tools and CordovaSim</title>
 		<section id="Features_Overview7" remap="TID_24381">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Features Overview</title>
 			<para>
 				The aim of this section is to guide you in using Hybrid Mobile Tools and CordovaSim:
@@ -317,17 +269,10 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+24381-551473+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+24381-551473+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Create_a_Hybrid_Mobile_Project" remap="TID_24058">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Create a Hybrid Mobile Project</title>
 			<para>
 				A project wizard is available to assist you in generating new hybrid mobile applications, as demonstrated in the procedure below. It creates a Cordova project with structure compatible with projects generated by the Cordova command-line interface (CLI).
@@ -386,17 +331,10 @@
 				During project creation, the wizard imports project dependencies and populates a <filename>config.xml</filename> file. Once created, the project is listed in the <guilabel>Project Explorer</guilabel> tab and the <filename>config.xml</filename> file is automatically opened in the <guilabel>Cordova Configuration Editor</guilabel>.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+24058-551481+%5BLatest%5D&amp;description=Title%3A+Create+a+Hybrid+Mobile+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+24058-551481+%5BLatest%5D&amp;description=Title%3A+Create+a+Hybrid+Mobile+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Enable_Cordova_Plug-ins_for_an_Application" remap="TID_24151">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Enable Cordova Plug-ins for an Application</title>
 			<para>
 				Plug-ins, or features, provide the application with access to the necessary Cordova APIs at runtime. Hybrid Mobile Tools provides actions for installed and removing plug-ins associated with applications, as detailed here.
@@ -456,17 +394,10 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+24151-551483+%5BLatest%5D&amp;description=Title%3A+Enable+Cordova+Plug-ins+for+an+Application%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+24151-551483+%5BLatest%5D&amp;description=Title%3A+Enable+Cordova+Plug-ins+for+an+Application%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="sect-Manage_Cordova_Settings_of_a_Hybrid_Mobile_Project">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Manage Cordova Settings of a Hybrid Mobile Project</title>
 			<para>
 				The Cordova Configuration Editor is available for managing the settings of Cordova projects that are specified in the <filename>config.xml</filename> file. This editor has four modes: Overview, Platform Properties, Icons &amp; Splash Screen, and config.xml. As described below, the first three modes provide interfaces for configuring the settings specified in the <filename>config.xml</filename> file and the fourth mode enables direct editing of the file.
@@ -487,16 +418,9 @@
 				To open the Cordova Configuration Editor for a specific hybrid mobile project, in the <guilabel>Project Explorer</guilabel> tab right-click the <filename>config.xml</filename> file. Click <guilabel>Open With</guilabel>&rarr;<guilabel>Cordova Configuration Editor</guilabel>. All changes to the Cordova settings of a project must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+24059-551485+%5BLatest%5D&amp;description=Title%3A+Manage+Cordova+Settings+of+a+Hybrid+Mobile+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+24059-551485+%5BLatest%5D&amp;description=Title%3A+Manage+Cordova+Settings+of+a+Hybrid+Mobile+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 			<section id="Manage_Cordova_Settings_in_Overview_Mode" remap="TID_24298">
-				<sectioninfo>
-					<keywordset>
-						<keyword>
-							JBDS 7.1.z
-						</keyword>
-					</keywordset>
-				</sectioninfo>
 				<title>Manage Cordova Settings in Overview Mode</title>
 				<para>
 					The Overview mode of the Cordova Configuration Editor enables you to edit the application information of a hybrid mobile project. Information pertains to the name, description and author of the application. More specifically, the <guilabel>Name and Description</guilabel> section details the application ID, name, version, description and content source or home page. The <guilabel>Author</guilabel> section holds author name, email and URL. All field values can be edited as detailed below.
@@ -515,17 +439,10 @@
 					All changes to <filename>config.xml</filename> must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
 				</para>
 				<para role="RoleCreateBugPara">
-					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+24298-551571+%5BLatest%5D&amp;description=Title%3A+Manage+Cordova+Settings+in+Overview+Mode%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+24298-551571+%5BLatest%5D&amp;description=Title%3A+Manage+Cordova+Settings+in+Overview+Mode%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 				</para>
 			</section>
 			<section id="Manage_Cordova_Settings_in_Platform_Properties_Mode" remap="TID_24297">
-				<sectioninfo>
-					<keywordset>
-						<keyword>
-							JBDS 7.1.z
-						</keyword>
-					</keywordset>
-				</sectioninfo>
 				<title>Manage Cordova Settings in Platform Properties Mode</title>
 				<para>
 					The Platform Properties mode of the Cordova Configuration Editor enables you to specify the Cordova settings in your hybrid mobile project. Features, parameters, preferences and access can be added and removed as detailed below.
@@ -611,17 +528,10 @@
 					All changes to <filename>config.xml</filename> must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
 				</para>
 				<para role="RoleCreateBugPara">
-					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+24297-551577+%5BLatest%5D&amp;description=Title%3A+Manage+Cordova+Settings+in+Platform+Properties+Mode%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+24297-551577+%5BLatest%5D&amp;description=Title%3A+Manage+Cordova+Settings+in+Platform+Properties+Mode%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 				</para>
 			</section>
 			<section id="Manage_Cordova_Settings_in_Icons_amp_Splash_Screen_Mode" remap="TID_24299">
-				<sectioninfo>
-					<keywordset>
-						<keyword>
-							JBDS 7.1.z
-						</keyword>
-					</keywordset>
-				</sectioninfo>
 				<title>Manage Cordova Settings in Icons &amp; Splash Screen Mode</title>
 				<para>
 					The Icons &amp; Splash Screen mode of the Cordova Configuration Editor enables you to control the icons and splash screen used by the application on each operating system. Icons are used as the visual representation of the application on different platforms and splash screens are used when the application starts on different platforms. In this mode, icons and splash screens can be added and removed as detailed below.
@@ -673,18 +583,11 @@
 					All changes to <filename>config.xml</filename> must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
 				</para>
 				<para role="RoleCreateBugPara">
-					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+24299-551572+%5BLatest%5D&amp;description=Title%3A+Manage+Cordova+Settings+in+Icons+%26amp%3B+Splash+Screen+Mode%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+24299-551572+%5BLatest%5D&amp;description=Title%3A+Manage+Cordova+Settings+in+Icons+%26amp%3B+Splash+Screen+Mode%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 				</para>
 			</section>
 		</section>
 		<section id="Run_a_Hybrid_Mobile_Application_on_Devices_and_Simulators" remap="TID_24062">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Run a Hybrid Mobile Application on Devices and Simulators</title>
 			<para>
 				You can use the actions of Hybrid Mobile Tools to run applications on devices and simulators, as detailed below.
@@ -742,17 +645,10 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+24062-551756+%5BLatest%5D&amp;description=Title%3A+Run+a+Hybrid+Mobile+Application+on+Devices+and+Simulators%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+24062-551756+%5BLatest%5D&amp;description=Title%3A+Run+a+Hybrid+Mobile+Application+on+Devices+and+Simulators%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Manage_Hybrid_Mobile_Project_Run_Configurations" remap="TID_24169">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Manage Hybrid Mobile Project Run Configurations</title>
 			<para>
 				Run configurations inform simulators how to run the application associated with a project. Hybrid Mobile Tools generates a default run configuration for a project the first time it is run by a specific simulator. This default run configuration is simulator-specific and named according to the project name. You can create and customize multiple run configurations for your projects using the Run Configurations manager.
@@ -812,17 +708,10 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+24169-551622+%5BLatest%5D&amp;description=Title%3A+Manage+Hybrid+Mobile+Project+Run+Configurations%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+24169-551622+%5BLatest%5D&amp;description=Title%3A+Manage+Hybrid+Mobile+Project+Run+Configurations%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Export_a_Hybrid_Mobile_Project" remap="TID_24325">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Export a Hybrid Mobile Project</title>
 			<para>
 				Hybrid Mobile Tools provides actions for exporting workspace projects from the IDE. Projects can be exported as native projects and ready-to-sign applications, as detailed in the procedure below.
@@ -893,7 +782,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+24325-551534+%5BLatest%5D&amp;description=Title%3A+Export+a+Hybrid+Mobile+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+05-12-2013+14%3A28%3A01%0ATopic+ID%3A+24325-551534+%5BLatest%5D&amp;description=Title%3A+Export+a+Hybrid+Mobile+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>

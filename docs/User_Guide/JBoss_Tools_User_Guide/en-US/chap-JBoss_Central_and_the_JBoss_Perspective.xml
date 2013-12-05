@@ -8,13 +8,6 @@
 	<section id="sect-Overview_of_JBoss_Central_and_the_JBoss_Perspective">
 		<title>Overview of JBoss Central and the JBoss Perspective</title>
 		<section id="About_JBoss_Central" remap="TID_22788">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>About JBoss Central</title>
 			<para>
 				JBoss Central is a core IDE view, providing access to JBoss information and assistance in one centralized location. It offers features for first time users of <phrase>JBoss Tools</phrase>, as well as those with more experience.
@@ -46,13 +39,6 @@
 			</para>
 		</section>
 		<section id="About_the_JBoss_Perspective" remap="TID_22790">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>About the JBoss Perspective</title>
 			<para>
 				JBoss is a key IDE perspective, giving easy access to useful views and actions when developing applications with JBoss technologies. The perspective consists of a default set of views, menus and toolbars.
@@ -88,13 +74,6 @@
 	<section id="sect-Features_of_JBoss_Central_and_the_JBoss_Perspective">
 		<title>Features of JBoss Central and the JBoss Perspective</title>
 		<section id="Features_Overview" remap="TID_22795">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Features Overview</title>
 			<para>
 				The aim of this section is to guide you in using JBoss Central and the JBoss perspective:
@@ -124,13 +103,6 @@
 			<!--<para><remark>[DOCS] Watching JBIDE-2557: cheat sheets for archetypes; Also cheat sheets missing for quickstarts; JBIDE-14804: uninstall from central</remark></para>-->
 		</section>
 		<section id="View_JBoss_Central" remap="TID_22794">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>View JBoss Central</title>
 			<para>
 				JBoss Central provides resources for getting started with application development and installing auxiliary IDE software.
@@ -148,13 +120,6 @@
 			</para>
 		</section>
 		<section id="Access_Project_Wizards_in_JBoss_Central" remap="TID_22800">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Access Project Wizards in JBoss Central</title>
 			<para>
 				JBoss Central provides access to wizards for generating projects. There are two types of project wizards available in JBoss Central: <guilabel>Start from scratch</guilabel> and <guilabel>Start from a sample</guilabel>.
@@ -218,13 +183,6 @@
 			</figure>
 		</section>
 		<section id="Access_Information_in_JBoss_Central" remap="TID_22801">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Access Information in JBoss Central</title>
 			<para>
 				JBoss Central provides easy access to JBoss and developer information. Each of the information sources listed below are web-based and, depending on the IDE default browser setting, clicking on links results in an internal or external browser window opening.
@@ -313,13 +271,6 @@
 			</note>
 		</section>
 		<section id="Install_Software_in_JBoss_Central" remap="TID_22798">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Install Software in JBoss Central</title>
 			<para>
 				JBoss Central enables you to install and update a range of IDE plug-ins. The available plug-ins comprise JBoss and third-party plug-ins that have been specifically tested for use with the IDE. These plug-ins include ones for mobile and web development, source control management, utilities and Maven.
@@ -445,13 +396,6 @@
 			</variablelist>
 		</section>
 		<section id="Open_the_JBoss_Perspective" remap="TID_22791">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Open the JBoss Perspective</title>
 			<para>
 				The JBoss perspective provides a default set of views, menus and toolbars to assist with common tasks associated with developing applications that use JBoss technologies.
@@ -472,13 +416,6 @@
 			</figure>
 		</section>
 		<section id="Manage_JBoss_Perspective" remap="TID_22796">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Manage JBoss Perspective</title>
 			<para>
 				There are a number of actions provided by the IDE for managing perspectives, including the JBoss perspective.
@@ -516,13 +453,6 @@
 			</variablelist>
 		</section>
 		<section id="View_Cheat_Sheets" remap="TID_22793">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>View Cheat Sheets</title>
 			<para>
 				Typically, cheat sheets contain detailed information about projects, with step by step guidance and explanations for how to create and deploy applications. JBoss Central and the JBoss perspective provide actions to make the cheat sheets that accompany projects easier to access and view<!--, including the cheat sheets that accompany the <guilabel>Start from scratch</guilabel> and <guilabel>Start from a sample</guilabel> projects available in JBoss Central. -->.
@@ -557,13 +487,6 @@
 	<section id="sect-Customizing_JBoss_Central_and_the_JBoss_Perspective">
 		<title>Customizing JBoss Central and the JBoss Perspective</title>
 		<section id="Customizing_Overview" remap="TID_22792">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Customizing Overview</title>
 			<para>
 				The aim of this section is to guide you in customizing JBoss Central and the JBoss perspective:
@@ -592,13 +515,6 @@
 			</itemizedlist>
 		</section>
 		<section id="Change_the_Behavior_of_JBoss_Central_on_IDE_Start" remap="TID_22799">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Change the Behavior of JBoss Central on IDE Start</title>
 			<para>
 				JBoss Central is set by default to show when the IDE starts but you can customize this behavior.
@@ -638,13 +554,6 @@
 			</figure>
 		</section>
 		<section id="Customize_the_Default_Views_Menus_and_Toolbars_of_the_JBoss_Perspective" remap="TID_22797">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Customize the Default Views, Menus and Toolbars of the JBoss Perspective</title>
 			<para>
 				You can customize the views, menus and toolbars displayed by the JBoss perspective, as with any perspective.
@@ -743,13 +652,6 @@
 			</variablelist>
 		</section>
 		<section id="Use_Project_Examples_when_Working_Offline" remap="TID_22802">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Use Project Examples when Working Offline</title>
 			<para>
 				When a project wizard in JBoss Central is used, the IDE searches online repositories for the most recent versions of project dependencies. JBoss Central enables you to create a cache of the necessary project dependencies when you are online so that you can still use the project wizards offline. As detailed below, this is achieved by first creating the cache and then informing the IDE to use that cache.
@@ -786,13 +688,6 @@
 			</figure>
 		</section>
 		<section id="Install_Software_when_Working_Offline" remap="TID_22868">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Install Software when Working Offline</title>
 			<para>
 				You can install the JBoss and third-party plug-ins listed in JBoss Central in offline mode using the JBoss Central <filename>.zip</filename> file, as detailed below. This feature is useful if you regularly work offline or if you are installing these auxiliary plug-ins in a number of JBoss&nbsp;Developer&nbsp;Studio installations as it removes the need to repeatedly download the same plug-ins.
@@ -815,6 +710,11 @@
 				<step>
 					<para>
 						In the <guilabel>Work with</guilabel> field, enter the path of the JBoss Central <filename>.zip</filename> file. Alternatively, click <guibutton>Add</guibutton> and click <guibutton>Archive</guibutton> to locate the file.
+					</para>
+				</step>
+				<step>
+					<para>
+						Clear the <guilabel>Group items by category</guilabel> check box. This action makes the contents of the JBoss Central <filename>.zip</filename> file visible in the table of components.
 					</para>
 				</step>
 				<step>
@@ -845,13 +745,6 @@
 			</procedure>
 		</section>
 		<section id="Set_Cheat_Sheet_Behavior" remap="TID_22803">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Set Cheat Sheet Behavior</title>
 			<para>
 				You can specify the default action the IDE is to take when finding cheat sheets in projects that it is importing. The available options include always or never showing cheat sheets or the IDE prompting for which action to take for each import.
