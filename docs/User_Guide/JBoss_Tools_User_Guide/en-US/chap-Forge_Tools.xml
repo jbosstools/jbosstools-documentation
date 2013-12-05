@@ -8,13 +8,6 @@
 	<section id="sect-Overview_of_Forge_Tools">
 		<title>Overview of Forge Tools</title>
 		<section id="About_Forge" remap="TID_22826">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>About Forge</title>
 			<para>
 				Forge is an application for developing Java EE applications, promoting ease in getting started, working efficiently, and integrating technologies. It simplifies development workflow by providing automation at a command line level. Such automation is useful if you are working with new or complex technology or completing repetitive tasks.
@@ -24,13 +17,6 @@
 			</para>
 		</section>
 		<section id="About_Forge_Tools" remap="TID_22824">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>About Forge Tools</title>
 			<para>
 				Forge Tools is tooling that integrates Forge into the IDE. It enhances your workflow by providing and integrating Forge functionality within the IDE.
@@ -43,13 +29,6 @@
 	<section id="sect-Features_of_Forge_Tools">
 		<title>Features of Forge Tools</title>
 		<section id="Features_Overview2" remap="TID_22821">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Features Overview</title>
 			<para>
 				The aim of this section is to guide you in using Forge Tools:
@@ -84,13 +63,6 @@
 			<!--<para><remark>[DOCS] Watching JBIDE-13486: open a cheat sheet after starting Forge; JBIDE-13573: add debug/run button or preferences action in console; JBIDE-13192: pick-up automatically executed after new-project command; JBIDE-13194: ask user to restart forge after changing VM arguments or changing debug mode; JBIDE-14615: set VERBOSE command opens Error Log tab; JBIDE-12443: Add forge tab to JBoss perspective</remark></para> -->
 		</section>
 		<section id="Manage_the_Forge_Console" remap="TID_22829">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Manage the Forge Console</title>
 			<para>
 				A key element for working with Forge is the Forge command line. In order to see this, you need to open the <guilabel>Forge Console</guilabel> view.
@@ -111,13 +83,6 @@
 			</para>
 		</section>
 		<section id="Manage_the_Forge_Runtime_Server" remap="TID_22819">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Manage the Forge Runtime Server</title>
 			<para>
 				You must start a Forge runtime server in order to access the Forge command line. Forge Tools provides actions for starting and managing the Forge runtime server.
@@ -187,13 +152,6 @@
 			</variablelist>
 		</section>
 		<section id="Navigate_to_Project_Resources_on_the_Forge_Command_Line" remap="TID_22822">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Navigate to Project Resources on the Forge Command Line</title>
 			<para>
 				Forge Tools enables you to efficiently navigate to project resources, such as directories and files, on the Forge command line.
@@ -236,13 +194,6 @@
 			</figure>
 		</section>
 		<section id="Background_Actions_Invoked_by_Forge_Commands" remap="TID_22827">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Background Actions Invoked by Forge Commands</title>
 			<para>
 				Forge Tools invokes background actions in the IDE in response to commands issued on the command line in the <guilabel>Forge Console</guilabel> view. For example, if you create a project file or directory on the Forge command line, the <guilabel>Project Explorer</guilabel> view is automatically refreshed to show the newly created project resource. A list of Forge commands that result in additional background actions is given below.
@@ -311,13 +262,6 @@
 			</variablelist>
 		</section>
 		<section id="Access_a_List_of_Forge_Commands" remap="TID_22825">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Access a List of Forge Commands</title>
 			<para>
 				Forge Tools provides access to a readily available list of Forge commands. Additionally, the commands can be easily inserted in to the Forge command line, as detailed below.
@@ -338,13 +282,6 @@
 			</figure>
 		</section>
 		<section id="Use_Forge_Wizards" remap="TID_22823">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Use Forge Wizards</title>
 			<para>
 				You may prefer to work with wizards rather than the command line. Forge Tools provides wizards for some of the most used Forge commands, in addition to supporting command line functionality. There are three wizards currently available relating to entities, as detailed below.
@@ -394,13 +331,6 @@
 	<section id="sect-Customizing_Forge_Tools">
 		<title>Customizing Forge Tools</title>
 		<section id="Customizing_Overview2" remap="TID_22818">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Customizing Overview</title>
 			<para>
 				The aim of this section is to guide you in customizing Forge Tools:
@@ -419,13 +349,6 @@
 			</itemizedlist>
 		</section>
 		<section id="Customize_the_Forge_Start" remap="TID_22820">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Customize the Forge Start</title>
 			<para>
 				Forge Tools provides a number of options for customized Forge starts.
@@ -474,13 +397,6 @@
 			</variablelist>
 		</section>
 		<section id="Manage_Forge_Runtime_Servers" remap="TID_22828">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Manage Forge Runtime Servers</title>
 			<para>
 				Forge Tools is distributed with a Forge runtime server but you may want to use different versions of Forge runtime servers. Forge Tools provides the ability to manage the Forge runtime servers that are available in the IDE, as detailed below.
