@@ -8,6 +8,19 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.1.0-4</revnumber><date>Tue Dec 10 2013</date>
+				<author>
+					<firstname>Michelle</firstname><surname>Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-438: Combined JBoss EAP installer updated to v6.2
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>7.1.0-3</revnumber><date>Tue Dec 03 2013</date>
 				<author>
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
