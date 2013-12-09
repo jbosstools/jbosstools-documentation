@@ -46,7 +46,7 @@
 					<term>Server adapter</term>
 					<listitem>
 						<para>
-							Also referred to as simple a server, this informs the IDE about management settings for server runtime environments. Each server adapter completes the definition for a specific server by detailing settings such as access parameters, launch arguments, and publishing options. By varying the configuration details, one server runtime environment can have several server adapters associated with it.
+							This informs the IDE about management settings for server runtime environments. Each server adapter, also referred to as simply a server, completes the definition for a specific server by detailing settings such as access parameters, launch arguments, and publishing options. By varying the configuration details, one server runtime environment can have several server adapters associated with it.
 						</para>
 					</listitem>
 				</varlistentry>
