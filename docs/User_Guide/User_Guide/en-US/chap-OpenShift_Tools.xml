@@ -8,13 +8,6 @@
 	<section id="sect-Overview_of_OpenShift_Tools">
 		<title>Overview of OpenShift Tools</title>
 		<section id="About_OpenShift" remap="TID_22877">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>About OpenShift</title>
 			<para>
 				OpenShift is Red Hat's Platform as a Service (PaaS) for applications. It consists of an application platform in the cloud, enabling you to build, test and run applications in a cloud architecture. OpenShift provides disk space, CPU resources, network connectivity, and a runtime environment.
@@ -32,7 +25,7 @@
 					</listitem>
 					<listitem>
 						<para>
-							Numerous cartridges give you access to predefined build and runtime environments with popular languages, database and management frameworks. OpenShift can also be extensively customized with the DIY cartridge.
+							Numerous cartridges give you access to predefined build and runtime environments with popular languages, database and management frameworks. OpenShift can also be extensively customized with the Do-It-Yourself (DIY) cartridge.
 						</para>
 					</listitem>
 					<listitem>
@@ -57,17 +50,10 @@
 				OpenShift can be accessed via the web interface at <ulink url="https://www.openshift.com/"/> on the OpenShift website or via the OpenShift command line interface.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22877-561536+%5BLatest%5D&amp;description=Title%3A+About+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+22877-565803+%5BLatest%5D&amp;description=Title%3A+About+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="About_OpenShift_Tools" remap="TID_22881">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>About OpenShift Tools</title>
 			<para>
 				OpenShift Tools is tooling available within the IDE for OpenShift. It provides an alternative way of accessing OpenShift and managing the development of applications deployed on OpenShift servers.
@@ -98,20 +84,13 @@
 				</itemizedlist>
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22881-561539+%5BLatest%5D&amp;description=Title%3A+About+OpenShift+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+22881-566643+%5BLatest%5D&amp;description=Title%3A+About+OpenShift+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
 	<section id="sect-Features_of_OpenShift_Tools">
 		<title>Features of OpenShift Tools</title>
 		<section id="Features_Overview6" remap="TID_22870">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Features Overview</title>
 			<para>
 				The aim of this section is to guide you in using OpenShift Tools:
@@ -155,17 +134,10 @@
 			</itemizedlist>
 			<!--<para><remark>[DOCS] JBIDE-13281: server adapter Show In > Server Log does nothing; JBIDE-14018: git commit message; JBIDE-14394: support adding cartridge via github url; JBIDE-13963: port fowarding UI under review; JBIDE-10512: deleted application still shown in servers tab; JBIDE-14395: in new app wizard enable scaling by default;</remark></para> -->
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22870-561556+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+22870-566643+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Create_an_OpenShift_Online_User_Account" remap="TID_22879">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Create an OpenShift Online User Account</title>
 			<para>
 				To begin using OpenShift Online, you need to create a user account. OpenShift Tools provides the ability to create an OpenShift Online user account from within the IDE.
@@ -207,17 +179,10 @@
 				Management of your OpenShift Online user account, such as changing or resetting your password, must be carried out through the OpenShift management console at <ulink url="https://openshift.redhat.com/app/login?redirectUrl=%2Fapp%2Fconsole"/>.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22879-561558+%5BLatest%5D&amp;description=Title%3A+Create+an+OpenShift+Online+User+Account%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+22879-566643+%5BLatest%5D&amp;description=Title%3A+Create+an+OpenShift+Online+User+Account%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Connect_to_OpenShift" remap="TID_22869">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Connect to OpenShift</title>
 			<para>
 				Once you have an OpenShift user account, you can connect to OpenShift and then create domains and applications. The procedure below guides you through connecting to OpenShift for the first time in the IDE.
@@ -318,17 +283,10 @@
 			</listitem>	
 		</itemizedlist> -->
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22869-561933+%5BLatest%5D&amp;description=Title%3A+Connect+to+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+22869-566635+%5BLatest%5D&amp;description=Title%3A+Connect+to+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Manage_a_Connection" remap="TID_22878">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Manage a Connection</title>
 			<para>
 				Using OpenShift Tools, you can view and manage live OpenShift connections.
@@ -371,17 +329,10 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22878-561563+%5BLatest%5D&amp;description=Title%3A+Manage+a+Connection%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+22878-566643+%5BLatest%5D&amp;description=Title%3A+Manage+a+Connection%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Generate_and_Upload_SSH_keys_to_OpenShift" remap="TID_22872">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Generate and Upload SSH keys to OpenShift</title>
 			<para>
 				SSH keys are essential when working with OpenShift. They enable you to develop and access deployed applications. SSH keys are also used to control access of other contributors to your OpenShift applications. SSH keys must be uploaded to the OpenShift server and, as detailed in the procedure below, OpenShift Tools can assist with both the generation and uploading of SSH keys to OpenShift.
@@ -463,17 +414,10 @@
 				</step>
 			</procedure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22872-561606+%5BLatest%5D&amp;description=Title%3A+Generate+and+Upload+SSH+keys+to+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+22872-566643+%5BLatest%5D&amp;description=Title%3A+Generate+and+Upload+SSH+keys+to+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Manage_SSH_Keys" remap="TID_22876">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Manage SSH Keys</title>
 			<para>
 				OpenShift Tools provides actions for managing the SSH keys of your OpenShift account.
@@ -513,17 +457,10 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22876-561566+%5BLatest%5D&amp;description=Title%3A+Manage+SSH+Keys%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+22876-566643+%5BLatest%5D&amp;description=Title%3A+Manage+SSH+Keys%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Create_a_Domain1" remap="TID_22880">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Create a Domain</title>
 			<para>
 				Once you have an OpenShift user account, you need to create domains in which to host your applications. Note that user accounts for OpenShift Online with Free plan can be associated with one domain only. The procedure below guides you through creating a new domain but you first need a live connection. If you already have a domain associated with your user account then domain information is automatically passed to the IDE when a live connection is started.
@@ -563,17 +500,10 @@
 				</para>
 			</note>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22880-561578+%5BLatest%5D&amp;description=Title%3A+Create+a+Domain%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+22880-566643+%5BLatest%5D&amp;description=Title%3A+Create+a+Domain%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Manage_a_Domain" remap="TID_22867">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Manage a Domain</title>
 			<para>
 				OpenShift Tools provides actions for managing the domains of your OpenShift account.
@@ -615,17 +545,10 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22867-561583+%5BLatest%5D&amp;description=Title%3A+Manage+a+Domain%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+22867-566635+%5BLatest%5D&amp;description=Title%3A+Manage+a+Domain%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Deploy_a_New_or_Existing_Application_on_OpenShift" remap="TID_22871">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Deploy a New or Existing Application on OpenShift</title>
 			<para>
 				OpenShift Tools provides the <application>OpenShift Application</application> wizard to assist you in creating and deploying OpenShift applications.
@@ -790,17 +713,10 @@
 				</para>
 			</note>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22871-561964+%5BLatest%5D&amp;description=Title%3A+Deploy+a+New+or+Existing+Application+on+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+22871-566643+%5BLatest%5D&amp;description=Title%3A+Deploy+a+New+or+Existing+Application+on+OpenShift%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Import_a_Deployed_OpenShift_Application_into_the_IDE" remap="TID_22874">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Import a Deployed OpenShift Application into the IDE</title>
 			<para>
 				All applications deployed on OpenShift are listed under live connections in the <guilabel>OpenShift Explorer</guilabel> view. But only the project files of OpenShift applications created through the IDE are immediately available in the <guilabel>Project Explorer</guilabel> and <guilabel>Git Repositories</guilabel> views. If you want to work on the project files associated with an application, you must first import the application. OpenShift Tools can assist you to import your deployed OpenShift applications into the IDE, as detailed in the procedure below.
@@ -897,17 +813,10 @@
 				Once imported, the project is listed in the <guilabel>Project Explorer</guilabel> and <guilabel>Git Repositories</guilabel> veiws, where the details proceeding the application name indicate the current Git branch and status compared to the remote repository. Additionally, the server adapter for the application is visible in the <guilabel>Servers</guilabel> view.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22874-561900+%5BLatest%5D&amp;description=Title%3A+Import+a+Deployed+OpenShift+Application+into+the+IDE%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+22874-566643+%5BLatest%5D&amp;description=Title%3A+Import+a+Deployed+OpenShift+Application+into+the+IDE%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Generate_a_Server_Adapter_for_an_Application" remap="TID_22882">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Generate a Server Adapter for an Application</title>
 			<para>
 				In order to easily publish changes to a deployed OpenShift application, each application needs a server adapter. The <application>OpenShift Application</application> wizard can automatically generate server adapters for new or imported OpenShift applications if you select the <guilabel>Create and set up a server for easy publishing</guilabel> check box. But OpenShift also provides an action to assist you in generating server adapters for OpenShift application that already exist in the IDE, as detailed in the procedure below. You can use this action if you need to regenerate a deleted server adapter for an OpenShift application or if you create or import an OpenShift application and do not select the <guilabel>Create and set up a server for easy publishing</guilabel> check box.
@@ -1013,17 +922,10 @@
 				</step>
 			</procedure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22882-561908+%5BLatest%5D&amp;description=Title%3A+Generate+a+Server+Adapter+for+an+Application%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+22882-566643+%5BLatest%5D&amp;description=Title%3A+Generate+a+Server+Adapter+for+an+Application%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_a_Deployed_Application_and_Associated_Information" remap="TID_22875">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>View a Deployed Application and Associated Information</title>
 			<para>
 				OpenShift Tools provides actions for viewing deployed OpenShift applications and information about them.
@@ -1069,7 +971,7 @@
 							<title>Default Retrieval Syntax in Tail Options Field</title>
 							<mediaobject>
 								<imageobject>
-									<imagedata fileref="images/3927.png"/>
+									<imagedata fileref="images/4369.png"/>
 								</imageobject>
 								<textobject>
 									<phrase>To change the retrieval command, in the <guilabel>Tail options</guilabel> field type the appropriate syntax. To specify the gears for which to show the server logs, from the table select the check boxes of the appropriate gears. Click <guibutton>Finish</guibutton> for OpenShift to retrieve the output, which is displayed in a distinct <guilabel>Console</guilabel> view for each gear.</phrase>
@@ -1117,23 +1019,16 @@
 					<term>Refresh information about an application</term>
 					<listitem>
 						<para>
-							In the <guilabel>OpenShift Explorer</guilabel> view, right-click the connection, domain, application or cartridge and click <guimenu>Refresh</guimenu>. Information is retrieved from OpenShift and the <guilabel>OpenShift Explorer</guilabel> view updated as appropriate. This action is useful if you are simultaneously making changes in the IDE and the OpenShift web interface or command line interface to your domain and applications. Additionally, it may be used to recover from errors.
+							In the <guilabel>OpenShift Explorer</guilabel> view, right-click the connection, domain, application or cartridge and click <guimenu>Refresh</guimenu>. Information is retrieved from OpenShift and the <guilabel>OpenShift Explorer</guilabel> view is updated as appropriate. This action is useful if you are simultaneously making changes in the IDE and the OpenShift web interface or command line interface to your domain and applications. Additionally, it may be used to recover from errors.
 						</para>
 					</listitem>
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22875-561997+%5BLatest%5D&amp;description=Title%3A+View+a+Deployed+Application+and+Associated+Information%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+22875-565816+%5BLatest%5D&amp;description=Title%3A+View+a+Deployed+Application+and+Associated+Information%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Manage_a_Deployed_Application" remap="TID_22873">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Manage a Deployed Application</title>
 			<para>
 				OpenShift Tools provides actions for developing and managing deployed OpenShift applications.
@@ -1249,7 +1144,7 @@
 					<term>Delete a server adapter for an OpenShift application</term>
 					<listitem>
 						<para>
-							In the <guilabel>Servers</guilabel> view, right-click the server adapter for the application and click <guimenu>Delete</guimenu>. At the prompt asking if you are sure you want to delete the server adapter, click <guibutton>OK</guibutton>. The progress of the deleting process is shown in the activity bar in the lower right of the IDE window. To open the <guilabel>Progress</guilabel> view and see more detailed progress information or cancel the deleting process, double-click on the activity bar.
+							In the <guilabel>Servers</guilabel> view, right-click the server adapter for the application and click <guimenu>Delete</guimenu>. At the prompt asking if you are sure you want to delete the server adapter, click <guibutton>OK</guibutton>.
 						</para>
 					</listitem>
 				</varlistentry>
@@ -1257,7 +1152,7 @@
 					<term>Delete an application</term>
 					<listitem>
 						<para>
-							In the <guilabel>OpenShift Explorer</guilabel> view, right-click the application and click <guimenu>Delete Application</guimenu>. At the prompt asking if you are sure you want to destroy the application, select <guibutton>OK</guibutton>.
+							In the <guilabel>OpenShift Explorer</guilabel> view, right-click the application and click <guimenu>Delete Application</guimenu>. At the prompt asking if you are sure you want to destroy the application, select <guibutton>OK</guibutton>. The progress of the deleting process is shown in the activity bar in the lower right of the IDE window. To open the <guilabel>Progress</guilabel> view and see more detailed progress information or cancel the deleting process, double-click on the activity bar.
 						</para>
 						<note>
 							<para>
@@ -1268,20 +1163,13 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+22873-561981+%5BLatest%5D&amp;description=Title%3A+Manage+a+Deployed+Application%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+22873-565823+%5BLatest%5D&amp;description=Title%3A+Manage+a+Deployed+Application%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
 	<section id="sect-Customizing_OpenShift_Tools">
 		<title>Customizing OpenShift Tools</title>
 		<section id="Customizing_Overview5" remap="TID_25166">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Customizing Overview</title>
 			<para>
 				The aim of this section is to guide you in customizing OpenShift Tools:
@@ -1294,17 +1182,10 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+25166-561923+%5BLatest%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+25166-566980+%5BLatest%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Change_the_Timeout_Behavior_of_OpenShift_Requests" remap="TID_25165">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Change the Timeout Behavior of OpenShift Requests</title>
 			<para>
 				You may find that some requests made to OpenShift require a long time to complete and do not finish within the IDE default timeout limit of 120 seconds. For example, some of the OpenShift quickstarts take a long time to checkout the associated large source code. To resolve the timeout restriction, you can modify the default timeout limit to meet your requirements.
@@ -1324,7 +1205,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+03-12-2013+19%3A27%3A10%0ATopic+ID%3A+25165-562951+%5BLatest%5D&amp;description=Title%3A+Change+the+Timeout+Behavior+of+OpenShift+Requests%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+17%3A22%3A05%0ATopic+ID%3A+25165-566980+%5BLatest%5D&amp;description=Title%3A+Change+the+Timeout+Behavior+of+OpenShift+Requests%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>

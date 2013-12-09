@@ -38,6 +38,7 @@ pressgang_website_callback([
 	{"topicId":22798,"target":"Install_Software_in_JBoss_Central","title":"Install Software in JBoss Central","newSince":""},
 	{"topicId":22797,"target":"Customize_the_Default_Views_Menus_and_Toolbars_of_the_JBoss_Perspective","title":"Customize the Default Views, Menus and Toolbars of the JBoss Perspective","newSince":""},
 	{"topicId":22796,"target":"Manage_JBoss_Perspective","title":"Manage JBoss Perspective","newSince":""},
+	{"topicId":25559,"target":"About_IDE_Server_Definitions","title":"About IDE Server Definitions","newSince":""},
 	{"topicId":22795,"target":"Features_Overview","title":"Features Overview","newSince":""},
 	{"topicId":22794,"target":"View_JBoss_Central","title":"View JBoss Central","newSince":""},
 	{"topicId":22793,"target":"View_Cheat_Sheets","title":"View Cheat Sheets","newSince":""},
@@ -111,6 +112,5 @@ pressgang_website_callback([
 	{"topicId":25166,"target":"Customizing_Overview5","title":"Customizing Overview","newSince":""},
 	{"topicId":25165,"target":"Change_the_Timeout_Behavior_of_OpenShift_Requests","title":"Change the Timeout Behavior of OpenShift Requests","newSince":""},
 	{"topicId":23487,"target":"Download_a_JBoss_Community_Application_Server","title":"Download a JBoss Community Application Server","newSince":""},
-	{"topicId":24298,"target":"Manage_Cordova_Settings_in_Overview_Mode","title":"Manage Cordova Settings in Overview Mode","newSince":""},
-	{"topicId":24299,"target":"Manage_Cordova_Settings_in_Icons_amp_Splash_Screen_Mode","title":"Manage Cordova Settings in Icons &amp; Splash Screen Mode","newSince":""},
-	{"topicId":24297,"target":"Manage_Cordova_Settings_in_Platform_Properties_Mode","title":"Manage Cordova Settings in Platform Properties Mode","newSince":""}]);
+	{"topicId":24298,"target":"Manage_Cordova_Settings_in_the_Overview_Tab","title":"Manage Cordova Settings in the Overview Tab","newSince":""},
+	{"topicId":24297,"target":"Manage_Cordova_Settings_in_the_Platform_Properties_Tab","title":"Manage Cordova Settings in the Platform Properties Tab","newSince":""}]);

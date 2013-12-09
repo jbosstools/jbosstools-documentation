@@ -8,13 +8,6 @@
 	<section id="sect-Overview_of_LiveReload_Tools">
 		<title>Overview of LiveReload Tools</title>
 		<section id="About_LiveReload" remap="TID_22831">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>About LiveReload</title>
 			<para>
 				LiveReload is an open source tool that refreshes web pages open in browsers as their source is edited. Immediate and automatic web page refreshing, without the need to manually refresh, assists to simplify the workflow of web developers.
@@ -30,13 +23,6 @@
 			</para>
 		</section>
 		<section id="About_LiveReload_Tools" remap="TID_22832">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>About LiveReload Tools</title>
 			<para>
 				LiveReload Tools is tooling that implements LiveReload in the IDE. It enables you to take advantage of LiveReload browser refreshing while editing files within the IDE. The capabilities of LiveReload Tools also remove the need to install the LiveReload standalone application or browser extensions.
@@ -52,13 +38,6 @@
 	<section id="sect-Features_of_LiveReload_Tools">
 		<title>Features of LiveReload Tools</title>
 		<section id="Features_Overview3" remap="TID_22833">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Features Overview</title>
 			<para>
 				The aim of this section is to guide you in using LiveReload Tools:
@@ -82,13 +61,6 @@
 			</itemizedlist>
 		</section>
 		<section id="Create_a_LiveReload_Server" remap="TID_22836">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Create a LiveReload Server</title>
 			<para>
 				The LiveReload server is integral to the LiveReload integration with the IDE. In its default configuration, the server receives information from the IDE when resources change and sends notifications for refresh actions to be taken. The server may also be further configured to inject the necessary JavaScript code snippets into HTML files or enable remote connections. The procedure below guides you through creating a default LiveReload server.
@@ -162,13 +134,6 @@
 			</note>
 		</section>
 		<section id="Configure_the_LiveReload_Server" remap="TID_22835">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Configure the LiveReload Server</title>
 			<para>
 				A LiveReload client must be inserted into HTML files in order for it to receive the LiveReload server notifications about changed resources. LiveReload Tools provides additional configuration options so that the LiveReload server can inject the necessary <command>&lt;script&gt;</command> element into the HTML resources. Furthermore, the LiveReload server can be configured to allow access from external devices, enabling LiveReload to function in browsers of remote devices.
@@ -210,13 +175,6 @@
 			</para>
 		</section>
 		<section id="View_Resources_in_LiveReload-enabled_Browsers" remap="TID_22837">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>View Resources in LiveReload-enabled Browsers</title>
 			<para>
 				You can use the actions of LiveReload Tools to open HTML, XHTML and AsciiDoc resources in LiveReload-enabled browsers, as detailed below. If the requisite LiveReload server does not exist or is not correctly configured, you are prompted by LiveReload Tools, which can complete the necessary requirements for you. Note that LiveReload Tools functionality may only work with deployed XHTML resources due to their dynamic nature.
@@ -228,7 +186,7 @@
 			</note>
 			<variablelist>
 				<varlistentry>
-					<term>View workspace resources in a system browser</term>
+					<term>View workspace resources in a web browser</term>
 					<listitem>
 						<para>
 							In the <guilabel>Project Explorer</guilabel> view, right-click the resource file and click <guimenu>Open With</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu>.
@@ -264,7 +222,7 @@
 					</listitem>
 				</varlistentry>
 				<varlistentry>
-					<term>View deployed resources in a system browser</term>
+					<term>View deployed resources in a web browser</term>
 					<listitem>
 						<para>
 							Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> view, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu>.
@@ -359,13 +317,6 @@
 			</note>
 		</section>
 		<section id="View_Resources_in_LiveReload-enabled_BrowserSim" remap="TID_22834">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>View Resources in LiveReload-enabled BrowserSim</title>
 			<para>
 				The LiveReload server can be used in conjunction with BrowserSim. In this case, the server sends notifications about changed resources and BrowserSim inserts the JavaScript code, which invokes the simulated device browser window to refresh. The procedure below outlines how to enable LiveReload in BrowserSim for workspace and deployed resources.
