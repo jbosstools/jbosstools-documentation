@@ -8,13 +8,6 @@
 	<section id="sect-Introduction_to_Red_Hat_JBoss_Developer_Studio">
 		<title>Introduction to Red Hat JBoss Developer Studio</title>
 		<section id="About_Red_Hat_JBoss_Developer_Studio1" remap="TID_22589">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>About Red Hat JBoss Developer Studio</title>
 			<!-- Info from http://www.jboss.org/developer/features.html -->
 			<para>
@@ -70,13 +63,6 @@
 			</para>
 		</section>
 		<section id="Use_Cases_of_JBoss_Developer_Studio1" remap="TID_22588">
-			<sectioninfo>
-				<keywordset>
-					<keyword>
-						JBDS 7.1.z
-					</keyword>
-				</keywordset>
-			</sectioninfo>
 			<title>Use Cases of JBoss Developer Studio</title>
 			<para>
 				JBoss&nbsp;Developer&nbsp;Studio assists JEE developers by integrating JBoss technology and APIs in a single development environment. Here are a few ways that JBoss&nbsp;Developer&nbsp;Studio makes the work of a developer easier:
@@ -130,13 +116,6 @@
 		</section>
 	</section>
 	<section id="About_this_Release" remap="TID_24015">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>About this Release</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio 7.1.0 is an update to JBoss&nbsp;Developer&nbsp;Studio 7.0.x. The update has three purposes:
@@ -164,13 +143,6 @@
 		</para>
 	</section>
 	<section id="New_Features6" remap="TID_24020">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>New Features</title>
 		<para>
 			This release of JBoss&nbsp;Developer&nbsp;Studio includes new features to enhance and extend its functionality as detailed here:
@@ -182,12 +154,12 @@
 					<itemizedlist>
 						<listitem>
 							<para>
-								Red Hat JBoss Enterprise Application Platform 6.1.1 is included in the joint JBoss&nbsp;Developer&nbsp;Studio and JBoss&nbsp;EAP universal installer.
+								Red Hat JBoss Enterprise Application Platform 6.2.0 is included in the combined JBoss&nbsp;Developer&nbsp;Studio and JBoss&nbsp;EAP universal installer.
 							</para>
 						</listitem>
 						<listitem>
 							<para>
-								Scripts are available for use when installing JBoss&nbsp;Developer&nbsp;Studio using the universal installer. These scripted installation methods are useful when you need to perform repeat installations or installation in bulk, removing the need to work through the universal installer GUI for each installed instance.
+								A scripted method is available for use when installing JBoss&nbsp;Developer&nbsp;Studio using the universal installer. The scripted installation method is useful when you need to perform repeat installations or installation in bulk, removing the need to work through the universal installer GUI for each installed instance.
 							</para>
 						</listitem>
 					</itemizedlist>
@@ -446,13 +418,6 @@
 		</variablelist>
 	</section>
 	<section id="Resolved_Issues4" remap="TID_24018">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Resolved Issues</title>
 		<para>
 			To view information about issues resolved in this release of JBoss&nbsp;Developer&nbsp;Studio, see <ulink url="https://issues.jboss.org/issues/?jql="/> on the JBoss issue tracking system and enter the following search query as one line: <!-- 7.1.0 query -->
@@ -462,13 +427,6 @@
 		</para>
 	</section>
 	<section id="Known_Issues11" remap="TID_24017">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Known Issues</title>
 		<para>
 			To view information about known issues in this release of JBoss&nbsp;Developer&nbsp;Studio, see <ulink url="https://issues.jboss.org/issues/?jql="/> on the JBoss issue tracking system and enter the following search query as one line: <!-- 7.1.0 query -->
@@ -478,13 +436,6 @@
 		</para>
 	</section>
 	<section id="Apply_this_Release" remap="TID_24016">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Apply this Release</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio 7.1.0 is available from a number of sources: 
