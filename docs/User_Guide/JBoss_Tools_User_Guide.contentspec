@@ -165,11 +165,11 @@ Part: Tools for Creating Mobile Applications
       Create a Hybrid Mobile Project [24058]
       Enable Cordova Plug-ins for an Application [24151]
         [Refer-to:
-          Manage Cordova Settings in Platform Properties Mode [24297]]
+          Manage Cordova Settings in the Platform Properties Tab [24297]]
       Section: Manage Cordova Settings of a Hybrid Mobile Project [24059]
-        Manage Cordova Settings in Overview Mode [24298]
-        Manage Cordova Settings in Platform Properties Mode [24297]
-        Manage Cordova Settings in Icons &amp; Splash Screen Mode [24299]
+        Manage Cordova Settings in the Overview Tab [24298]
+        Manage Cordova Settings in the Platform Properties Tab [24297]
+#        Manage Cordova Settings in Icons &amp; Splash Screen Mode [24299]
       Run a Hybrid Mobile Application on Devices and Simulators [24062]
         [Refer-to:
           System Requirements for Hybrid Mobile Tools [24119]]
