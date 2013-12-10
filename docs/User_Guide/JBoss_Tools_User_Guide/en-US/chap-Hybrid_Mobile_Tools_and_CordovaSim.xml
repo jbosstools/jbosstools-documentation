@@ -95,7 +95,7 @@
 			<itemizedlist>
 				<listitem>
 					<para>
-						CordovaSim supports a range of Cordova API implementations: the core Apache Cordova plug-ins, several PhoneGap plug-ins and custom plug-ins. Supported PhoneGap plug-ins include <command>BarcodeScanner</command>, <command>Inappbrowser</command> and <command>ChildBrowser</command>. (Note that exceptions to the supported core Apache Cordova plug-ins are <command>File</command> and the <command>captureAudio</command> and <command>captureVideo</command> methods of <command>Capture</command>.)
+						CordovaSim supports a range of Cordova API implementations: the core Apache Cordova plug-ins, several PhoneGap plug-ins and custom plug-ins. Supported PhoneGap plug-ins include <command>BarcodeScanner</command>, <command>InAppBrowser</command> and <command>ChildBrowser</command>. (Note that exceptions to the supported core Apache Cordova plug-ins are <command>File</command> and the <command>captureAudio</command> and <command>captureVideo</command> methods of <command>Capture</command>.)
 					</para>
 				</listitem>
 				<listitem>
@@ -379,7 +379,7 @@
 		<section id="Enable_Cordova_Plug-ins_for_an_Application" remap="TID_24151">
 			<title>Enable Cordova Plug-ins for an Application</title>
 			<para>
-				Plug-ins, or features, provide the application with access to the necessary Cordova APIs at runtime. Hybrid Mobile Tools provides actions for installed and removing plug-ins associated with applications, as detailed here.
+				Plug-ins, or features, provide the application with access to the necessary Cordova APIs at runtime. Hybrid Mobile Tools provides actions for installing and removing plug-ins associated with applications, as detailed here.
 			</para>
 			<variablelist>
 				<varlistentry>

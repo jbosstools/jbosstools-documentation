@@ -33,7 +33,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+18%3A05%3A19%0ATopic+ID%3A+22839-566628+%5BLatest%5D&amp;description=Title%3A+About+Mobile+Web+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+11-12-2013+08%3A40%3A06%0ATopic+ID%3A+22839-566628+%5BLatest%5D&amp;description=Title%3A+About+Mobile+Web+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -68,7 +68,7 @@
 			</itemizedlist>
 			<!--<para><remark>[DOCS] Watching JBIDE-14732: show/hide preview in widget wizard; JBIDE-14591: properties tab; JBIDE-14758: Help button action in widget wizards; JBIDE-15153: duplicate wizards in JBoss central; JBIDE-14909: warning when WFK maven repo required; JBIDE-15152: rename or split jQuery Mobile palette</remark></para> -->
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+18%3A05%3A19%0ATopic+ID%3A+22841-566628+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+11-12-2013+08%3A40%3A06%0ATopic+ID%3A+22841-566628+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Create_a_Mobile_Web_Project" remap="TID_22840">
@@ -227,7 +227,7 @@
 				</step>
 			</procedure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+18%3A05%3A19%0ATopic+ID%3A+22840-566628+%5BLatest%5D&amp;description=Title%3A+Create+a+Mobile+Web+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+11-12-2013+08%3A40%3A06%0ATopic+ID%3A+22840-566628+%5BLatest%5D&amp;description=Title%3A+Create+a+Mobile+Web+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Use_a_HTML5_jQuery_Mobile_File_Template" remap="TID_22843">
@@ -310,7 +310,7 @@
 				</step>
 			</procedure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+18%3A05%3A19%0ATopic+ID%3A+22843-566628+%5BLatest%5D&amp;description=Title%3A+Use+a+HTML5+jQuery+Mobile+File+Template%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+11-12-2013+08%3A40%3A06%0ATopic+ID%3A+22843-566628+%5BLatest%5D&amp;description=Title%3A+Use+a+HTML5+jQuery+Mobile+File+Template%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Access_the_jQuery_Mobile_Palette" remap="TID_22847">
@@ -344,7 +344,7 @@
 				To search for a palette element within the jQuery Mobile palette, in the search field type a search term or phrase. The elements displayed in the jQuery Mobile palette are filtered as you type in the search field.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+18%3A05%3A19%0ATopic+ID%3A+22847-566628+%5BLatest%5D&amp;description=Title%3A+Access+the+jQuery+Mobile+Palette%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+11-12-2013+08%3A40%3A06%0ATopic+ID%3A+22847-566628+%5BLatest%5D&amp;description=Title%3A+Access+the+jQuery+Mobile+Palette%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Insert_a_jQuery_Mobile_Palette_Widget_into_a_HTML5_File" remap="TID_22845">
@@ -396,7 +396,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+18%3A05%3A19%0ATopic+ID%3A+22845-566628+%5BLatest%5D&amp;description=Title%3A+Insert+a+jQuery+Mobile+Palette+Widget+into+a+HTML5+File%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+11-12-2013+08%3A40%3A06%0ATopic+ID%3A+22845-566628+%5BLatest%5D&amp;description=Title%3A+Insert+a+jQuery+Mobile+Palette+Widget+into+a+HTML5+File%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Get_Assistance_with_jQuery_Mobile_Programming" remap="TID_22838">
@@ -433,7 +433,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+18%3A05%3A19%0ATopic+ID%3A+22838-566628+%5BLatest%5D&amp;description=Title%3A+Get+Assistance+with+jQuery+Mobile+Programming%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+11-12-2013+08%3A40%3A06%0ATopic+ID%3A+22838-566628+%5BLatest%5D&amp;description=Title%3A+Get+Assistance+with+jQuery+Mobile+Programming%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_jQuery_Mobile_Pages_in_a_Browser" remap="TID_22844">
@@ -468,7 +468,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+18%3A05%3A19%0ATopic+ID%3A+22844-566628+%5BLatest%5D&amp;description=Title%3A+View+jQuery+Mobile+Pages+in+a+Browser%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+11-12-2013+08%3A40%3A06%0ATopic+ID%3A+22844-566628+%5BLatest%5D&amp;description=Title%3A+View+jQuery+Mobile+Pages+in+a+Browser%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -487,7 +487,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+18%3A05%3A19%0ATopic+ID%3A+22842-566628+%5BLatest%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+11-12-2013+08%3A40%3A06%0ATopic+ID%3A+22842-566628+%5BLatest%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Customize_jQuery_Mobile_File_Templates" remap="TID_22846">
@@ -556,7 +556,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+18%3A05%3A19%0ATopic+ID%3A+22846-566628+%5BLatest%5D&amp;description=Title%3A+Customize+jQuery+Mobile+File+Templates%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+11-12-2013+08%3A40%3A06%0ATopic+ID%3A+22846-566628+%5BLatest%5D&amp;description=Title%3A+Customize+jQuery+Mobile+File+Templates%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
