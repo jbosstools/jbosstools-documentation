@@ -6,17 +6,10 @@
 <appendix id="appe-Supplementary_Installation_Procedures">
 	<title>Supplementary Installation Procedures</title>
 	<section id="Build_the_Universal_Installer_from_Source" remap="TID_22678">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Build the Universal Installer from Source</title>
 		<para/>
 		<para>
-			A source code <filename>.zip</filename> file is provided for building the JBoss&nbsp;Developer&nbsp;Studio universal installer and it is available from the Customer Portal. The procedure below guides you though obtaining the source code and the build process.
+			A source code <filename>.zip</filename> file is provided for building the JBoss&nbsp;Developer&nbsp;Studio universal installer and it is available from the Red&nbsp;Hat Customer Portal. The procedure below guides you though obtaining the source code and the build process.
 		</para>
 		<important>
 			<para>
@@ -87,35 +80,28 @@
 			<step>
 				<para>
 					On the command line, navigate to <filename>path/to/.zip</filename> and enter 
-					<screen>unzip jbdevstudio-product-sources-7.1.<replaceable>x.build_version</replaceable>.zip</screen> where <replaceable>x.build_version</replaceable> is substituted to match the name of the downloaded file. The archive is extracted to a <filename>devstudio</filename> directory.
+					<screen>unzip jbdevstudio-product-sources-<replaceable>version</replaceable>.zip</screen> where <replaceable>version</replaceable> is substituted to match the name of the downloaded file. The archive is extracted to a <filename>devstudio</filename> directory.
 				</para>
 			</step>
 			<step>
 				<para>
 					To build the universal installer, on the command line navigate to <filename>devstudio/product</filename> and enter 
-					<screen>mvn clean install</screen> Building takes some time to complete, after which the universal installer <filename>.jar</filename> file is located in <filename>installer/target/</filename>.
+					<screen>mvn clean install</screen> Building takes some time to complete, after which the universal installer <filename>.jar</filename> file is located in the <filename>installer/target/</filename> directory.
 				</para>
 			</step>
 		</procedure>
 	</section>
-	<section id="Install_JBoss_Developer_Studio_via_Script" remap="TID_22679">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
-		<title>Install JBoss Developer Studio via Script</title>
+	<section id="Install_JBoss_Developer_Studio_by_Script" remap="TID_22679">
+		<title>Install JBoss Developer Studio by Script</title>
 		<para>
-			Scripts can be used for installing JBoss&nbsp;Developer&nbsp;Studio. These remove the need to step through the universal installer GUI for ever installation, enabling simplified repeat installations or installations in bulk. The procedure below details how you can install JBoss&nbsp;Developer&nbsp;Studio stepping through the universal installer GUI once and then use a generated script for subsequent installations.
+			A scripted method is available for use when installing JBoss&nbsp;Developer&nbsp;Studio using the universal installer. The scripted installation method removes the need to step through the universal installer GUI for ever installation, enabling simplified repeat installations or installations in bulk. The procedure below details how you can install JBoss&nbsp;Developer&nbsp;Studio stepping through the universal installer GUI once and then use a generated script for subsequent installations.
 		</para>
 		<!--<para>
 		There are two methods for completing scripted installations. The first method requires you to install JBoss&nbsp;Developer&nbsp;Studio stepping through the universal installer GUI once and then use a generated script for subsequent installations. The second method requires you to download and run a script and then use a generated script for all installations. These different methods are detailed in the procedures below.
 	</para>-->
 		<note>
 			<para>
-				To install JBoss&nbsp;Developer&nbsp;Studio using scripts, you must first download the universal installer <filename>.jar</filename> file. You can download the <filename>.jar</filename> file from <ulink url="https://access.redhat.com"/> on the Customer Portal website.
+				To install JBoss&nbsp;Developer&nbsp;Studio using scripts, you must first download the universal installer <filename>.jar</filename> file. You can download the <filename>.jar</filename> file from <ulink url="https://access.redhat.com"/> on the Red&nbsp;Hat Customer Portal.
 			</para>
 		</note>
 		<procedure>

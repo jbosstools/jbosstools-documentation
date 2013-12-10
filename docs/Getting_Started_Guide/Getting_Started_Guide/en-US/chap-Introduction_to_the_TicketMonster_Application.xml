@@ -6,13 +6,6 @@
 <chapter id="chap-Introduction_to_the_TicketMonster_Application">
 	<title>Introduction to the TicketMonster Application</title>
 	<section id="About_the_TicketMonster_Application1" remap="TID_22620">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>About the TicketMonster Application</title>
 		<para>
 			TicketMonster is an example web application demonstrating ticket purchasing. The application provides an online environment in which users can purchase tickets for events and administrators can manage the data relating to events and ticket sales. You can see a running example of the TicketMonster application at <ulink url="https://ticketmonster-jdf.rhcloud.com/"/>.
@@ -25,20 +18,13 @@
 		</para>
 	</section>
 	<section id="Tutorial_Outline1" remap="TID_22632">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Tutorial Outline</title>
 		<para>
-			The diversity and complexity of the TicketMonster application makes it ideal for demonstrating some of the capabilities of JBoss&nbsp;Developer&nbsp;Studio. This tutorial sets the stage for building TicketMonster. It shows you how to develop some of the features of the TicketMonster application using JBoss&nbsp;Developer&nbsp;Studio: 
+			The diversity and complexity of the TicketMonster application makes it ideal for demonstrating some of the capabilities of JBoss&nbsp;Developer&nbsp;Studio. This tutorial sets the stage for building TicketMonster. It shows you how to develop a number of the TicketMonster application features using JBoss&nbsp;Developer&nbsp;Studio: 
 			<itemizedlist>
 				<listitem>
 					<para>
-						Configure Maven
+						Configure Maven for use with JBoss Central projects
 					</para>
 				</listitem>
 				<listitem>
@@ -63,7 +49,7 @@
 				</listitem>
 				<listitem>
 					<para>
-						Deploy the application on a runtime server using Server Manager
+						Deploy the application on a runtime server using JBoss Server Tools
 					</para>
 				</listitem>
 				<listitem>
@@ -95,13 +81,6 @@
 		</note>
 	</section>
 	<section id="Tutorial_Assumptions1" remap="TID_22619">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Tutorial Assumptions</title>
 		<para>
 			The TicketMonster application is built on a Maven-based Java EE Web project. To ensure successful completion of the tutorial, a number of assumptions are made about your system:

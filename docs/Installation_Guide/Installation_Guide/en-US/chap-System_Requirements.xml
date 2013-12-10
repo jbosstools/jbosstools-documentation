@@ -6,13 +6,6 @@
 <chapter id="chap-System_Requirements">
 	<title>System Requirements</title>
 	<section id="System_Requirements_Overview1" remap="TID_22590">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>System Requirements Overview</title>
 		<para>
 			The aim of this section is familiarize you with the system requirements necessary for JBoss&nbsp;Developer&nbsp;Studio to function optimally: 
@@ -36,13 +29,6 @@
 		</para>
 	</section>
 	<section id="Supported_Operating_Systems_and_Architectures1" remap="TID_22598">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Supported Operating Systems and Architectures</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio 7.1 is supported on the operating systems listed in the table below.
@@ -107,27 +93,25 @@
 			</tgroup>
 		</table>
 		<para>
-			As JBoss&nbsp;Developer&nbsp;Studio 7.1 is based on Eclipse Kepler (4.3), the system requirements of Eclipse Kepler also apply to JBoss&nbsp;Developer&nbsp;Studio 7.1. For example, GTK is required as the windowing system on Linux distributions, Win32 on Microsoft Windows operating systems and Cocoa on OS X operating systems. For more information about Eclipse Kepler system requirements see <ulink url="http://www.eclipse.org/eclipse/development/readme_eclipse_4.3.html"/> on the Eclipse website.
+			As JBoss&nbsp;Developer&nbsp;Studio 7.1 is based on Eclipse Kepler (4.3 SR1), the system requirements of Eclipse Kepler also apply to JBoss&nbsp;Developer&nbsp;Studio 7.1. For example, GTK is required as the windowing system on Linux distributions, Win32 on Microsoft Windows operating systems and Cocoa on OS X operating systems. For more information about Eclipse Kepler system requirements see <ulink url="http://www.eclipse.org/eclipse/development/readme_eclipse_4.3.html"/> on the Eclipse website.
 		</para>
 		<para>
-			The Visual Page Editor of JBoss&nbsp;Developer&nbsp;Studio 7.1 has additional system requirements and restrictions: 
+			The Visual Page Editor and BrowserSim tools have additional Java developer kit requirements and restrictions: 
 			<itemizedlist>
 				<listitem>
 					<para>
-						The visual component of the Visual Page Editor, which depends on XULRunner, does not operate in the 64-bit version of JBoss&nbsp;Developer&nbsp;Studio on OS X and Microsoft Windows operating systems. To work around this restriction, you must install a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio with a 32-bit Java developer kit on 64-bit OS X and Microsoft Windows operating systems.
+						The visual component of the Visual Page Editor, which depends on XULRunner, does not operate in the 64-bit version of JBoss&nbsp;Developer&nbsp;Studio on OS X and Microsoft Windows operating systems. To work around this restriction on 64-bit OS X and Microsoft Windows operating systems, you must install a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio with a 32-bit Java developer kit.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						BrowserSim, which depends on WebKit, requires Apple Safari to be installed on Microsoft Windows operating systems. Only a 32-bit version of Apple Safari is available for Microsoft Windows operating systems. To work around this restriction for 64-bit Microsoft Windows operating systems running 64-bit versions of JBoss Developer Studio, you must set BrowserSim to use a 32-bit JVM by editing the BrowserSim preferences from within the IDE. Note that 32-bit JVM choice is limited to Oracle 32-bit JRE 1.6, JDK 1.6, or JDK 1.7 on Microsoft Windows operating systems because Oracle 32-bit JRE 1.7 is incompatible with Apple Safari.
 					</para>
 				</listitem>
 			</itemizedlist>
 		</para>
 	</section>
 	<section id="Computer_Memory1" remap="TID_22597">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Computer Memory</title>
 		<para>
 			To install and run JBoss&nbsp;Developer&nbsp;Studio 7.1, the following memory requirements are recommended: 
@@ -149,16 +133,9 @@
 		</para>
 	</section>
 	<section id="Compatible_Java_Developer_Kits1" remap="TID_22591">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Compatible Java Developer Kits</title>
 		<para>
-			JBoss&nbsp;Developer&nbsp;Studio 7.1 requires a Java developer kit of version 1.6 or newer. This release of JBoss&nbsp;Developer&nbsp;Studio is supported on the operating system and Java developer kit combinations listed in the table below.
+			JBoss&nbsp;Developer&nbsp;Studio 7.1 requires a Java developer kit of version 1.6 or later. This release of JBoss&nbsp;Developer&nbsp;Studio is supported on the operating system and Java developer kit combinations listed in the table below.
 		</para>
 		<table>
 			<title>Supported Combinations of Operating Systems and Java Developer Kits</title>
