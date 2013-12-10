@@ -6,13 +6,6 @@
 <chapter id="chap-Install_JBoss_Developer_Studio">
 	<title>Install JBoss Developer Studio</title>
 	<section id="Install_Options1" remap="TID_22599">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Install Options</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio can be installed in a number of different ways.
@@ -24,17 +17,10 @@
 			Alternatively, if you already have Eclipse on your system you may prefer to install JBoss&nbsp;Developer&nbsp;Studio BYOE. This option installs JBoss&nbsp;Developer&nbsp;Studio in Eclipse.
 		</para>
 		<para>
-			The primary installation method for JBoss Developer Studio and JBoss Developer Studio BYOE is via the interactive user interfaces of the universal installer and Eclipse, respectively. For information about the secondary installation method via scripts see <xref linkend="Install_JBoss_Developer_Studio_via_Script"/>.
+			The primary installation method for JBoss Developer Studio and JBoss Developer Studio BYOE is via the interactive user interfaces of the universal installer and Eclipse, respectively. For information about the secondary scripted installation method see <xref linkend="Install_JBoss_Developer_Studio_by_Script"/>.
 		</para>
 	</section>
 	<section id="Install_JBoss_Developer_Studio1" remap="TID_22602">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Install JBoss Developer Studio</title>
 		<para>
 			A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Customer Portal. A second version of the universal installer for installing both JBoss Developer Studio and JBoss EAP is also available from the Customer Portal. The procedure below guides you though obtaining the universal installers and the installation process.
@@ -118,11 +104,11 @@
 			<step>
 				<para>
 					On the command line, navigate to <filename>path/to/.jar</filename> and enter 
-					<screen>java -jar jbdevstudio-product-universal-7.1.<replaceable>x.build_version</replaceable>.jar</screen><phrase>or</phrase>
-					<screen>java -jar jbdevstudio-product-eap-universal-7.1.<replaceable>x.build_version</replaceable>.jar</screen><phrase>as appropriate for the downloaded universal installer,</phrase> where <replaceable>x.build_version</replaceable> is substituted to match the name of the <filename>.jar</filename> file. 
+					<screen>java -jar jbdevstudio-product-universal-<replaceable>version</replaceable>.jar</screen><phrase>or</phrase>
+					<screen>java -jar jbdevstudio-product-eap-universal-<replaceable>version</replaceable>.jar</screen><phrase>as appropriate for the downloaded universal installer,</phrase> where <replaceable>version</replaceable> is substituted to match the name of the <filename>.jar</filename> file. 
 					<note>
 						<para>
-							To start the installer, you may be able to double-click the <filename>.jar</filename> file.
+							Alternatively, to start the installer you may be able to double-click the <filename>.jar</filename> file.
 						</para>
 					</note>
 				</para>
@@ -139,7 +125,7 @@
 			</step>
 			<step>
 				<para>
-					In the <guilabel>Select the installation path</guilabel> field, type the path where you want JBoss&nbsp;Developer&nbsp;Studio to be installed or click <guibutton>Browse</guibutton> to navigate to the desired location. When the <guilabel>Select the installation path</guilabel> field shows the correct path, click <guibutton>Next</guibutton>. When you are prompted about the specified location being created or overwritten, review the message and, if satisfied, click <guibutton>OK</guibutton>.
+					In the <guilabel>Select the installation path</guilabel> field, type the path where you want JBoss&nbsp;Developer&nbsp;Studio to be installed or click <guibutton>Browse</guibutton> to navigate to the location. When the <guilabel>Select the installation path</guilabel> field shows the correct path, click <guibutton>Next</guibutton>. When you are prompted about the specified location being created or overwritten, review the message and, if satisfied, click <guibutton>OK</guibutton> or <guibutton>Yes</guibutton> as appropriate.
 				</para>
 				<figure>
 					<title>Installation Step 3: Select Target Folder</title>
@@ -157,17 +143,6 @@
 				<para>
 					In the <guilabel>Select Java VM</guilabel> step, <guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the Java developer kit you want to use. This is based on the default Java developer kit of your system. To change the specified Java developer kit, click <guilabel>Specific Java VM</guilabel> and type the path of the Java developer kit in the text field or use the <guibutton>Browse</guibutton> button to locate the Java developer kit. When the text field shows the correct Java developer kit path, click <guibutton>Next</guibutton>.
 				</para>
-				<figure>
-					<title>Installation Step 4: Select Java VM</title>
-					<mediaobject>
-						<imageobject>
-							<imagedata fileref="images/4226.png"/>
-						</imageobject>
-						<textobject>
-							<phrase>In the <guilabel>Select Java VM</guilabel> step, <guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the Java developer kit you want to use. This is based on the default Java developer kit of your system. To change the specified Java developer kit, click <guilabel>Specific Java VM</guilabel> and type the path of the Java developer kit in the text field or use the <guibutton>Browse</guibutton> button to locate the Java developer kit. When the text field shows the correct Java developer kit path, click <guibutton>Next</guibutton>.</phrase>
-						</textobject>
-					</mediaobject>
-				</figure>
 				<important>
 					<para>
 						You must specify a Java developer kit with a 32-bit JRE to install a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio and a 64-bit JRE to install a 64-bit version of JBoss&nbsp;Developer&nbsp;Studio. To change the bit version of the Java developer kit to be used for installing JBoss&nbsp;Developer&nbsp;Studio, complete the appropriate step for your operating system: 
@@ -185,6 +160,17 @@
 						</itemizedlist>
 					</para>
 				</important>
+				<figure>
+					<title>Installation Step 4: Select Java VM</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/4226.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In the <guilabel>Select Java VM</guilabel> step, <guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the Java developer kit you want to use. This is based on the default Java developer kit of your system. To change the specified Java developer kit, click <guilabel>Specific Java VM</guilabel> and type the path of the Java developer kit in the text field or use the <guibutton>Browse</guibutton> button to locate the Java developer kit. When the text field shows the correct Java developer kit path, click <guibutton>Next</guibutton>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>
 			</step>
 			<step>
 				<para>
@@ -221,18 +207,18 @@
 			</step>
 			<step>
 				<para>
-					Review the details in the <application>Summary Information</application> window and, if they are correct, click <guibutton>Next</guibutton>.
+					Review the details in the <application>Summary Information</application> window and, if they are correct, click <guibutton>Next</guibutton>. Installation commences.
 				</para>
 			</step>
 			<step>
 				<para>
-					Installation commences. When the <guilabel>Pack installation progress</guilabel> bar shows <guilabel>Finished</guilabel>, click <guibutton>Next</guibutton>.
+					When the <guilabel>Pack installation progress</guilabel> bar shows <guilabel>Finished</guilabel>, click <guibutton>Next</guibutton>. The installation process is now complete.
 				</para>
 				<figure>
 					<title>Installation Step 7: Installation Progress in Finished State</title>
 					<mediaobject>
 						<imageobject>
-							<imagedata fileref="images/3347.png"/>
+							<imagedata fileref="images/4418.png"/>
 						</imageobject>
 						<textobject>
 							<phrase>When the <guilabel>Pack installation progress</guilabel> bar shows <guilabel>Finished</guilabel>, click <guibutton>Next</guibutton>.</phrase>
@@ -247,7 +233,7 @@
 			</step>
 			<step>
 				<para>
-					The installation process is now complete. To automatically start JBoss&nbsp;Developer&nbsp;Studio when the <guilabel>Installer</guilabel> window closes, select the <guilabel>Run JBoss&nbsp;Developer&nbsp;Studio after installation</guilabel> check box. Click <guibutton>Done</guibutton> to close the <guilabel>Installer</guilabel> window.
+					To automatically start JBoss&nbsp;Developer&nbsp;Studio when the <guilabel>Installer</guilabel> window closes, select the <guilabel>Run JBoss&nbsp;Developer&nbsp;Studio after installation</guilabel> check box. Click <guibutton>Done</guibutton> to close the <guilabel>Installer</guilabel> window.
 				</para>
 			</step>
 		</procedure>
@@ -260,16 +246,9 @@
 		</important>
 	</section>
 	<section id="Install_JBoss_Developer_Studio_BYOE1" remap="TID_22605">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Install JBoss Developer Studio BYOE</title>
 		<para>
-			You can obtain JBoss&nbsp;Developer&nbsp;Studio BYOE from Eclipse Marketplace or use the <filename>.zip</filename> file available from the Red Hat JBoss Developer Studio Update website. The latter option provisions for online and offline installation modes; Eclipse can install directly from the online <filename>.zip</filename> file or you can download the <filename>.zip</filename> file first and then Eclipse can install from this local copy.
+			You can obtain JBoss&nbsp;Developer&nbsp;Studio BYOE from Eclipse Marketplace or use the update <filename>.zip</filename> file available from the Red&nbsp;Hat Customer Portal or Red&nbsp;Hat JBoss Developer Studio Update website. The latter option provisions for online and offline installation modes; Eclipse can install directly from the online <filename>.zip</filename> file or you can download the <filename>.zip</filename> file first and then Eclipse can install from this local copy.
 		</para>
 		<para>
 			Select one of the procedures below, which will guide you through the JBoss&nbsp;Developer&nbsp;Studio BYOE installation process.
@@ -288,7 +267,7 @@
 			</step>
 			<step>
 				<para>
-					In the <guilabel>Find</guilabel> field of the <guilabel>Search</guilabel> tab, enter <command>JBoss Developer Studio</command>.
+					In the <guilabel>Find</guilabel> field of the <guilabel>Search</guilabel> tab, enter <command>Red Hat JBoss Developer Studio</command>.
 				</para>
 			</step>
 			<step>
@@ -362,10 +341,10 @@
 			</step>
 		</procedure>
 		<procedure>
-			<title>Install from Update ZIP File</title>
+			<title>Install from Update <filename>.zip</filename> File</title>
 			<note>
 				<para>
-					To install JBoss&nbsp;Developer&nbsp;Studio BYOE in offline mode, you must first download the update <filename>.zip</filename> file. You can download the update <filename>.zip</filename> from <ulink url="https://access.redhat.com"/> on the Customer Portal website or <ulink url="https://devstudio.jboss.com/updates/7.0/"/> on the Red Hat JBoss Developer update website.
+					To install JBoss&nbsp;Developer&nbsp;Studio BYOE in offline mode, you must first download the update <filename>.zip</filename> file. You can download the update <filename>.zip</filename> file from <ulink url="https://access.redhat.com"/> on the Customer Portal or <ulink url="https://devstudio.jboss.com/updates/7.0/"/> on the Red Hat JBoss Developer update website.
 				</para>
 			</note>
 			<step>

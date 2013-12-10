@@ -6,13 +6,6 @@
 <chapter id="chap-Set_Preferences_on_First_Launch_after_Installing">
 	<title>Set Preferences on First Launch after Installing</title>
 	<section id="Preferences_Options1" remap="TID_22596">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Preferences Options</title>
 		<para>
 			The aim of this section is to guide you in setting preferences for the JBoss&nbsp;Developer&nbsp;Studio features encountered on the first IDE start after installing: 
@@ -34,20 +27,13 @@
 				</listitem>
 				<listitem>
 					<para>
-						Activate the JBoss perspective to provide easy access to common tabs, menus and toolbars for working with JBoss technologies
+						Activate the JBoss perspective to provide easy access to common views, menus and toolbars for working with JBoss technologies
 					</para>
 				</listitem>
 			</itemizedlist>
 		</para>
 	</section>
 	<section id="Select_a_Workspace_Location1" remap="TID_22582">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Select a Workspace Location</title>
 		<para>
 			When the IDE starts, you are asked to choose the workspace folder for the session. The workspace is where your projects are stored.
@@ -88,13 +74,6 @@
 		</para>
 	</section>
 	<section id="Set_Usage_Reporting1" remap="TID_22584">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Set Usage Reporting</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio has usage reporting. At the first start of the IDE after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio.
@@ -219,20 +198,13 @@
 		</para>
 	</section>
 	<section id="Define_Servers_for_Application_Servers_Found_by_Runtime_Detection1" remap="TID_22592">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Define Servers for Application Servers Found by Runtime Detection</title>
 		<para>
-			If you set up runtime detection during the installation process, at the first start if the IDE you are prompted with the results of the runtime detection scan. Depending on whether any application servers are found, follow the appropriate step: 
+			If you set up runtime detection during the installation process, at the first start of the IDE you are prompted with the results of the runtime detection scan. Depending on whether any application servers are found, follow the appropriate step: 
 			<itemizedlist>
 				<listitem>
 					<para>
-						If no new application servers are found or you do not wish to create server runtime environments, click <guibutton>Cancel</guibutton>.
+						If no new application servers are found or if new application servers are found but you do not want to create any server runtime environments for them, click <guibutton>Cancel</guibutton>.
 					</para>
 					<figure>
 						<title>No New Application Servers Found by Runtime Detection</title>
@@ -248,7 +220,7 @@
 				</listitem>
 				<listitem>
 					<para>
-						If new application servers are found, you can generate server runtime environments for them. Select the check boxes of the application servers for which you want to generate server runtime environments and click <guibutton>OK</guibutton>.
+						If new application servers are found and you want to generate server runtime environments for them, select the check boxes of the appropriate application servers and click <guibutton>OK</guibutton>.
 					</para>
 					<figure>
 						<title>One New Application Server Found by Runtime Detection</title>
@@ -266,32 +238,20 @@
 		</para>
 		<note>
 			<para>
-				If you have not set up runtime detection during the installation process or you installed JBoss Developer Studio BYOE, you can set up runtime detection in <guimenu>Preferences</guimenu> under <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>JBoss Runtime Detection</guilabel>.
+				If you did not set up runtime detection during the installation process or you installed JBoss Developer Studio BYOE, you can set up runtime detection in <guimenu>Preferences</guimenu> under <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>JBoss Runtime Detection</guilabel>.
 			</para>
 		</note>
 	</section>
 	<section id="Set_the_Perspective_to_JBoss1" remap="TID_22603">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Set the Perspective to JBoss</title>
 		<para>
-			JBoss&nbsp;Developer&nbsp;Studio has JBoss perspective. This displays tabs, toolbars and menu items most often used by developers using JBoss. These include Project Explorer, Palette, Servers and OpenShift Explorer.
+			JBoss&nbsp;Developer&nbsp;Studio has the JBoss perspective. This perspective displays views, toolbars and menu items most often used by developers using JBoss.
 		</para>
 		<para>
-			If you start JBoss&nbsp;Developer&nbsp;Studio, this perspective is set as the default and it is automatically displayed.
+			When you start JBoss&nbsp;Developer&nbsp;Studio, this perspective is set as the default and it is automatically displayed.
 		</para>
 		<para>
-			If you start Eclipse, this perspective is not automatically displayed. To show the JBoss perspective, click the <guibutton>JBoss</guibutton> icon 
-			<inlinemediaobject>
-				<imageobject>
-					<imagedata fileref="images/3377.png"/>
-				</imageobject>
-			</inlinemediaobject>. Alternatively, click <guimenu>Window</guimenu>&rarr;<guimenu>Open Perspective</guimenu>&rarr;<guimenu>Other</guimenu>, select <application>JBoss</application> and click <guibutton>OK</guibutton>.
+			When you start Eclipse after installing JBoss&nbsp;Developer&nbsp;Studio BYOE, this perspective is not automatically displayed. To show the JBoss perspective, click <guimenu>Window</guimenu>&rarr;<guimenu>Open Perspective</guimenu>&rarr;<guimenu>Other</guimenu>, select <application>JBoss</application> and click <guibutton>OK</guibutton>.
 		</para>
 		<para>
 			To set the JBoss perspective as the default perspective, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>General</guilabel> and select <guilabel>Perspectives</guilabel>. From the <guilabel>Available perspectives</guilabel> list, select <application>JBoss</application> and click <guibutton>Make Default</guibutton>. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.

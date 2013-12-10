@@ -6,13 +6,6 @@
 <chapter id="chap-Install_JBoss_Developer_Studio">
 	<title>Install JBoss Developer Studio</title>
 	<section id="Installation_Assumptions1" remap="TID_22631">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Installation Assumptions</title>
 		<para>
 			The installation method described in this guide is for JBoss&nbsp;Developer&nbsp;Studio.
@@ -36,19 +29,17 @@
 					You are aware of the Visual Page Editor tool limitations on 64-bit OS X and Microsoft Windows operating systems and will use the workaround detailed in Red&nbsp;Hat JBoss&nbsp;Developer&nbsp;Studio 7.1 Installation Guide.
 				</para>
 			</listitem>
+			<listitem>
+				<para>
+					You are aware of the BrowserSim tool limitations on 64-bit Microsoft Windows operating systems and will use the workaround detailed in Red&nbsp;Hat JBoss&nbsp;Developer&nbsp;Studio 7.1 Installation Guide and User Guide.
+				</para>
+			</listitem>
 		</itemizedlist>
 	</section>
 	<section id="Install_JBoss_Developer_Studio1" remap="TID_22602">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Install JBoss Developer Studio</title>
 		<para>
-			A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Customer Portal. The procedure below guides you though obtaining the universal installer and the installation process.
+			A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Red&nbsp;Hat Customer Portal. The procedure below guides you though obtaining the universal installer and the installation process.
 		</para>
 		<procedure>
 			<title>Install with the Universal Installer</title>
@@ -114,10 +105,10 @@
 			<step>
 				<para>
 					On the command line, navigate to <filename>path/to/.jar</filename> and enter 
-					<screen>java -jar jbdevstudio-product-universal-7.1.<replaceable>x.build_version</replaceable>.jar</screen> where <replaceable>x.build_version</replaceable> is substituted to match the name of the <filename>.jar</filename> file. 
+					<screen>java -jar jbdevstudio-product-universal-<replaceable>version</replaceable>.jar</screen> where <replaceable>version</replaceable> is substituted to match the name of the <filename>.jar</filename> file. 
 					<note>
 						<para>
-							To start the installer, you may be able to double-click the <filename>.jar</filename> file.
+							Alternatively, to start the installer you may be able to double-click the <filename>.jar</filename> file.
 						</para>
 					</note>
 				</para>
@@ -134,7 +125,7 @@
 			</step>
 			<step>
 				<para>
-					In the <guilabel>Select the installation path</guilabel> field, type the path where you want JBoss&nbsp;Developer&nbsp;Studio to be installed or click <guibutton>Browse</guibutton> to navigate to the desired location. When the <guilabel>Select the installation path</guilabel> field shows the correct path, click <guibutton>Next</guibutton>. When you are prompted about the specified location being created or overwritten, review the message and, if satisfied, click <guibutton>OK</guibutton>.
+					In the <guilabel>Select the installation path</guilabel> field, type the path where you want JBoss&nbsp;Developer&nbsp;Studio to be installed or click <guibutton>Browse</guibutton> to navigate to the location. When the <guilabel>Select the installation path</guilabel> field shows the correct path, click <guibutton>Next</guibutton>. When you are prompted about the specified location being created or overwritten, review the message and, if satisfied, click <guibutton>OK</guibutton> or <guibutton>Yes</guibutton> as appropriate.
 				</para>
 				<figure>
 					<title>Installation Step 3: Select Target Folder</title>
@@ -152,17 +143,6 @@
 				<para>
 					In the <guilabel>Select Java VM</guilabel> step, <guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the Java developer kit you want to use. This is based on the default Java developer kit of your system. To change the specified Java developer kit, click <guilabel>Specific Java VM</guilabel> and type the path of the Java developer kit in the text field or use the <guibutton>Browse</guibutton> button to locate the Java developer kit. When the text field shows the correct Java developer kit path, click <guibutton>Next</guibutton>.
 				</para>
-				<figure>
-					<title>Installation Step 4: Select Java VM</title>
-					<mediaobject>
-						<imageobject>
-							<imagedata fileref="images/4226.png"/>
-						</imageobject>
-						<textobject>
-							<phrase>In the <guilabel>Select Java VM</guilabel> step, <guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the Java developer kit you want to use. This is based on the default Java developer kit of your system. To change the specified Java developer kit, click <guilabel>Specific Java VM</guilabel> and type the path of the Java developer kit in the text field or use the <guibutton>Browse</guibutton> button to locate the Java developer kit. When the text field shows the correct Java developer kit path, click <guibutton>Next</guibutton>.</phrase>
-						</textobject>
-					</mediaobject>
-				</figure>
 				<important>
 					<para>
 						You must specify a Java developer kit with a 32-bit JRE to install a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio and a 64-bit JRE to install a 64-bit version of JBoss&nbsp;Developer&nbsp;Studio. To change the bit version of the Java developer kit to be used for installing JBoss&nbsp;Developer&nbsp;Studio, complete the appropriate step for your operating system: 
@@ -180,6 +160,17 @@
 						</itemizedlist>
 					</para>
 				</important>
+				<figure>
+					<title>Installation Step 4: Select Java VM</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/4226.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In the <guilabel>Select Java VM</guilabel> step, <guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the Java developer kit you want to use. This is based on the default Java developer kit of your system. To change the specified Java developer kit, click <guilabel>Specific Java VM</guilabel> and type the path of the Java developer kit in the text field or use the <guibutton>Browse</guibutton> button to locate the Java developer kit. When the text field shows the correct Java developer kit path, click <guibutton>Next</guibutton>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>
 			</step>
 			<step>
 				<para>
@@ -188,18 +179,18 @@
 			</step>
 			<step>
 				<para>
-					Review the details in the <application>Summary Information</application> window and, if they are correct, click <guibutton>Next</guibutton>.
+					Review the details in the <application>Summary Information</application> window and, if they are correct, click <guibutton>Next</guibutton>. Installation commences.
 				</para>
 			</step>
 			<step>
 				<para>
-					Installation commences. When the <guilabel>Pack installation progress</guilabel> bar shows <guilabel>Finished</guilabel>, click <guibutton>Next</guibutton>.
+					When the <guilabel>Pack installation progress</guilabel> bar shows <guilabel>Finished</guilabel>, click <guibutton>Next</guibutton>. The installation process is now complete.
 				</para>
 				<figure>
 					<title>Installation Step 7: Installation Progress in Finished State</title>
 					<mediaobject>
 						<imageobject>
-							<imagedata fileref="images/3347.png"/>
+							<imagedata fileref="images/4418.png"/>
 						</imageobject>
 						<textobject>
 							<phrase>When the <guilabel>Pack installation progress</guilabel> bar shows <guilabel>Finished</guilabel>, click <guibutton>Next</guibutton>.</phrase>
@@ -214,7 +205,7 @@
 			</step>
 			<step>
 				<para>
-					The installation process is now complete. To automatically start JBoss&nbsp;Developer&nbsp;Studio when the <guilabel>Installer</guilabel> window closes, select the <guilabel>Run JBoss&nbsp;Developer&nbsp;Studio after installation</guilabel> check box. Click <guibutton>Done</guibutton> to close the <guilabel>Installer</guilabel> window.
+					To automatically start JBoss&nbsp;Developer&nbsp;Studio when the <guilabel>Installer</guilabel> window closes, select the <guilabel>Run JBoss&nbsp;Developer&nbsp;Studio after installation</guilabel> check box. Click <guibutton>Done</guibutton> to close the <guilabel>Installer</guilabel> window.
 				</para>
 			</step>
 		</procedure>
@@ -227,13 +218,6 @@
 		</important>
 	</section>
 	<section id="Select_a_Workspace_Location1" remap="TID_22582">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Select a Workspace Location</title>
 		<para>
 			When the IDE starts, you are asked to choose the workspace folder for the session. The workspace is where your projects are stored.
@@ -274,13 +258,6 @@
 		</para>
 	</section>
 	<section id="Set_Usage_Reporting1" remap="TID_22584">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Set Usage Reporting</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio has usage reporting. At the first start of the IDE after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio.

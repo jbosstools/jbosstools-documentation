@@ -6,16 +6,9 @@
 <chapter id="chap-Creating_the_TicketMonster_Application">
 	<title>Creating the TicketMonster Application</title>
 	<section id="Configure_Maven1" remap="TID_22623">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Configure Maven</title>
 		<para>
-			The Java EE Web Project, on which the TicketMonster application is based, is constructed from a Maven archetype. Maven is distributed with JBoss&nbsp;Developer&nbsp;Studio so it not necessary to install Maven but, to be able to use the Java EE Web Project wizard with JBoss Enterprise Application Server 6.x, Maven must be correctly configured. The procedure below demonstrates how to configure Maven for use with JBoss Enterprise Application Server 6.x by editing the Maven configuration file from within JBoss&nbsp;Developer&nbsp;Studio.
+			The Java EE Web Project, on which the TicketMonster application is based, is constructed from a Maven archetype. Maven is distributed with JBoss&nbsp;Developer&nbsp;Studio so it is not necessary to install Maven but, to be able to use the Java EE Web Project wizard with JBoss Enterprise Application Server 6.x, Maven must be correctly configured. The procedure below demonstrates how to configure Maven for use with JBoss Enterprise Application Server 6.x by editing the Maven configuration file from within JBoss&nbsp;Developer&nbsp;Studio.
 		</para>
 		<procedure>
 			<title>Configure Maven</title>
@@ -49,6 +42,8 @@
 				<para>
 					Click <guibutton>Recognize JBoss Maven Enterprise Repositories</guibutton>.
 				</para>
+			</step>
+			<step>
 				<para>
 					Navigate to <filename>path/to/jboss-eap-6.x.y-maven-repository</filename> and click <guibutton>OK</guibutton>. JBoss Maven Tools recursively scans the path searching for the Maven repository.
 				</para>
@@ -87,16 +82,9 @@
 		</procedure>
 	</section>
 	<section id="Set_Up_a_Server_Using_Runtime_Detection1" remap="TID_22624">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Set Up a Server Using Runtime Detection</title>
 		<para>
-			Servers can be defined from within the <application>Java EE Web Project</application> wizard. But for the purposes of exploring JBoss&nbsp;Developer&nbsp;Studio the procedure below defines the server first.
+			Servers can be defined from within the <application>Java EE Web Project</application> wizard. But for the purposes of exploring JBoss&nbsp;Developer&nbsp;Studio the procedure below defines the server first using JBoss Server Tools runtime detection.
 		</para>
 		<procedure>
 			<title>Define a Server Using Runtime Detection</title>
@@ -108,7 +96,7 @@
 					<title>JBoss Runtime Detection Pane</title>
 					<mediaobject>
 						<imageobject>
-							<imagedata fileref="images/3337.png"/>
+							<imagedata fileref="images/4002.png"/>
 						</imageobject>
 						<textobject>
 							<phrase>Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>.</phrase>
@@ -144,58 +132,51 @@
 			</step>
 			<step>
 				<para>
-					Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window. The server is listed in the <guilabel>Servers</guilabel> tab.
+					Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window. The server is listed in the <guilabel>Servers</guilabel> view.
 				</para>
 				<figure>
-					<title>JBoss Enterprise Application Platform 6.x Server Listed in Servers Tab</title>
+					<title>JBoss Enterprise Application Platform 6.x Server Listed in Servers View</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3338.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>Servers tab lists JBoss Enterprise Application Platform 6.x server.</phrase>
+							<phrase>Servers view lists JBoss Enterprise Application Platform 6.x server.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
 			</step>
 			<step>
 				<para>
-					The server is initially shown in stopped mode. To start the server, right-click <guilabel>jboss-eap-6.x</guilabel> and click <guimenu>Start</guimenu>. After a short pause, the view switches to the <guilabel>Console</guilabel> tab and shows the startup output of the server.
+					The server is initially shown in stopped mode. To start the server, right-click <guilabel>jboss-eap-6.x</guilabel> and click <guimenu>Start</guimenu>. After a short pause, the view switches to the <guilabel>Console</guilabel> view and shows the startup output of the server.
 				</para>
 			</step>
 		</procedure>
 	</section>
 	<section id="Create_a_Java_EE_Web_Project_Using_JBoss_Central1" remap="TID_22626">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Create a Java EE Web Project Using JBoss Central</title>
 		<para>
-			The TicketMonster application is based on a Java EE web application. A wizard is provided for creating this type of project in JBoss Central and the procedure below guides you through the wizard.
+			The TicketMonster application is based on a Java EE web application. A wizard is provided for creating this type of project in JBoss Central and the procedure below guides you through using the wizard.
 		</para>
 		<procedure>
 			<title>Create a Web Application Using the Java EE Web Project Wizard</title>
 			<step>
 				<para>
-					Click the <guilabel>JBoss Central</guilabel> tab. If the <guilabel>JBoss Central</guilabel> tab is not visible, click <guimenu>Help</guimenu>&rarr;<guimenu>JBoss Central</guimenu>.
+					Click the <guilabel>JBoss Central</guilabel> tab.
 				</para>
 			</step>
 			<step>
 				<para>
-					Under <guilabel>Start from scratch</guilabel>, click <guilabel>Java EE Web Project</guilabel> to open the <application>Java EE Web Project</application> wizard.
+					In JBoss Central under <guilabel>Start from scratch</guilabel>, click <guilabel>Java EE Web Project</guilabel> to open the <application>Java EE Web Project</application> wizard. If JBoss Central is not visible, click <guimenu>Help</guimenu>&rarr;<guimenu>JBoss Central</guimenu>.
 				</para>
 				<figure>
-					<title>Java EE Web Project in JBoss Central Tab</title>
+					<title>Java EE Web Project in JBoss Central</title>
 					<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/3306.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>Under <guilabel>Start from scratch</guilabel>, click <guilabel>Java EE Web Project</guilabel> to open the <application>Java EE Web Project</application> wizard.</phrase>
+							<phrase>In JBoss Central under <guilabel>Start from scratch</guilabel>, click <guilabel>Java EE Web Project</guilabel> to open the <application>Java EE Web Project</application> wizard.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
@@ -239,7 +220,7 @@
 			</step>
 			<step>
 				<para>
-					During project creation, the wizard imports project dependencies. When the <application>Java EE Web Project</application> wizard displays <guilabel>'Java EE Web Project' Project is now ready</guilabel>, click <guibutton>Finish</guibutton> to close the wizard. A <filename>README.md</filename> file for the project automatically opens for viewing and the project is listed in the <guilabel>Project Explorer</guilabel> tab.
+					During project creation, the wizard imports project dependencies. When the <application>Java EE Web Project</application> wizard displays <guilabel>'Java EE Web Project' Project is now ready</guilabel>, click <guibutton>Finish</guibutton> to close the wizard. A <filename>README.md</filename> file for the project automatically opens for viewing and the project is listed in the <guilabel>Project Explorer</guilabel> view.
 				</para>
 				<figure>
 					<title>'Project is now ready' Message in Java EE Web Project Wizard</title>
@@ -256,13 +237,6 @@
 		</procedure>
 	</section>
 	<section id="Add_an_Entity_Using_Forge_Tools1" remap="TID_22628">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Add an Entity Using Forge Tools</title>
 		<para>
 			A new entity class can be added to the TicketMonster project using Forge Tools. In the procedure below an <filename>Event</filename> entity class is created to hold information about the events for which users can buy tickets. This <filename>Event</filename> entity has id, name, description, major and picture fields.
@@ -271,7 +245,7 @@
 			<title>Add an Entity Using Forge Tools</title>
 			<step>
 				<para>
-					In the <guilabel>Project Explorer</guilabel> tab, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/java</guilabel>.
+					In the <guilabel>Project Explorer</guilabel> view, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/java</guilabel>.
 				</para>
 			</step>
 			<step>
@@ -285,14 +259,14 @@
 							<imagedata fileref="images/3297.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>In the <guilabel>Project Explorer</guilabel> tab, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/java</guilabel>. Right-click <guilabel>org.jboss.jdf.example.ticketmonster.model</guilabel> and click <guimenu>Show In</guimenu>&rarr;<guimenu>Forge Console</guimenu>.</phrase>
+							<phrase>In the <guilabel>Project Explorer</guilabel> view, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/java</guilabel>. Right-click <guilabel>org.jboss.jdf.example.ticketmonster.model</guilabel> and click <guimenu>Show In</guimenu>&rarr;<guimenu>Forge Console</guimenu>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
 			</step>
 			<step>
 				<para>
-					When asked <guilabel>Do you want to start the Forge runtime?</guilabel> click <guibutton>Yes</guibutton>. The <guilabel>Forge Console</guilabel> tab is opened and Forge is started. The first command is automatically entered on the Forge command line and it changes the present working directory to <filename>model</filename>.
+					When asked <guilabel>Do you want to start the Forge runtime?</guilabel> click <guibutton>Yes</guibutton>. The <guilabel>Forge Console</guilabel> view opens and Forge is started. The first command is automatically entered on the Forge command line and it changes the present working directory to <filename>model</filename>.
 				</para>
 				<figure>
 					<title>Automated Workflow Resulting from <guimenu>Show In</guimenu>&rarr;<guimenu>Forge Console</guimenu></title>
@@ -309,11 +283,11 @@
 			<step>
 				<para>
 					To create the <filename>Event</filename> entity class, on the Forge command line enter 
-					<screen>entity --named Event --package org.jboss.jdf.example.ticketmonster.model</screen> This creates a <filename>Event.java</filename> file that is automatically opened in a Java editor tab.
+					<screen>entity --named Event --package org.jboss.jdf.example.ticketmonster.model</screen> This creates a <filename>Event.java</filename> file that is automatically opened in a Java editor.
 				</para>
 				<note>
 					<para>
-						The Forge console has auto-complete features. If you start typing a command, you can press <keycap>Tab</keycap> and Forge will attempt to complete the command as far as possible. If there are multiple possible options for completing a command, all the options will be output in the Forge console for you to see.
+						The Forge console has auto-complete features. If you start typing a command, you can press <keycap>Tab</keycap> and Forge attempts to complete the command as far as possible. If there are multiple possible options for completing a command, all the options are output in the Forge console for you to see.
 					</para>
 				</note>
 			</step>
@@ -357,13 +331,6 @@ constraint Size --onProperty description --min 20 --max 1000 --message "Must be 
 		</procedure>
 	</section>
 	<section id="Add_an_Entity_Using_Hibernate_Tools1" remap="TID_22617">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Add an Entity Using Hibernate Tools</title>
 		<para>
 			A new entity class can be added to the TicketMonster project using Hibernate Tools. In the procedure below a <filename>Venue</filename> entity class is created to hold information about the venues where events will be held. This <filename>Venue</filename> entity has id, name, description and capacity fields.
@@ -372,7 +339,7 @@ constraint Size --onProperty description --min 20 --max 1000 --message "Must be 
 			<title>Add an Entity Using Hibernate Tools</title>
 			<step>
 				<para>
-					In the <guilabel>Project Explorer</guilabel> tab, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/java</guilabel>.
+					In the <guilabel>Project Explorer</guilabel> view, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/java</guilabel>.
 				</para>
 			</step>
 			<step>
@@ -386,14 +353,14 @@ constraint Size --onProperty description --min 20 --max 1000 --message "Must be 
 							<imagedata fileref="images/3304.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>In the <guilabel>Project Explorer</guilabel> tab, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/java</guilabel>. Right-click <guilabel>org.jboss.jdf.example.ticketmonster.model</guilabel> and click <guimenu>New</guimenu>&rarr;<guimenu>Class</guimenu>.</phrase>
+							<phrase>In the <guilabel>Project Explorer</guilabel> view, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/java</guilabel>. Right-click <guilabel>org.jboss.jdf.example.ticketmonster.model</guilabel> and click <guimenu>New</guimenu>&rarr;<guimenu>Class</guimenu>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
 			</step>
 			<step>
 				<para>
-					In the <guilabel>Name</guilabel> field, type <command>Venue</command> and click <guibutton>Finish</guibutton>. This creates a <filename>Venue.java</filename> file that is automatically opened in a Java editor tab.
+					In the <guilabel>Name</guilabel> field, type <command>Venue</command> and click <guibutton>Finish</guibutton>. This creates a <filename>Venue.java</filename> file that is automatically opened in a Java editor.
 				</para>
 				<figure>
 					<title>Completed Name Field in Java Class Wizard</title>
@@ -477,13 +444,6 @@ private int capacity;
 		</procedure>
 	</section>
 	<section id="Prepare_Event_Records_to_Populate_the_Database1" remap="TID_22630">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Prepare Event Records to Populate the Database</title>
 		<para>
 			This web project uses H2 for data storage by default. H2 is a Java database integrated with the application servers of JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6. It is an in-memory database which means that the data does not persist once the application using the database stops running. For this reason, seed data must be stored in a file within the project and added to the database each time the application starts. While it might not seem practical to have to construct the database each time the application starts, this type of data storage is useful during development for testing purposes.
@@ -500,7 +460,7 @@ private int capacity;
 			<title>Prepare Event Records</title>
 			<step>
 				<para>
-					In the <guilabel>Project Explorer</guilabel> tab, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/resources</guilabel>.
+					In the <guilabel>Project Explorer</guilabel> view, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/resources</guilabel>.
 				</para>
 			</step>
 			<step>
@@ -514,14 +474,14 @@ private int capacity;
 							<imagedata fileref="images/3328.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>In the <guilabel>Project Explorer</guilabel> tab, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/resources</guilabel>. Double-click the <filename>import.sql</filename> file to open it in the editor.</phrase>
+							<phrase>In the <guilabel>Project Explorer</guilabel> view, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/resources</guilabel>. Double-click the <filename>import.sql</filename> file to open it in the editor.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
 			</step>
 			<step>
 				<para>
-					The file already contains one sample Member record. If your screen is small you might not be able to see the whole of the entry. Double-click the <guilabel>import.sql</guilabel> tab to make the editor fill the window.
+					The file already contains one sample Member record. If your screen is small you might not be able to see the whole of the entry. Double-click the <guilabel>import.sql</guilabel> view label to make the editor fill the window.
 				</para>
 			</step>
 			<step>
@@ -554,19 +514,12 @@ private int capacity;
 			</step>
 			<step>
 				<para>
-					To make the editor return to its previous size, double-click the <guilabel>import.sql</guilabel> tab.
+					To make the editor return to its previous size, double-click the <guilabel>import.sql</guilabel> view label.
 				</para>
 			</step>
 		</procedure>
 	</section>
 	<section id="Deploy_the_Application_using_JBoss_Server_Tools1" remap="TID_22625">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Deploy the Application using JBoss Server Tools</title>
 		<para>
 			The TicketMonster application can be deployed on the JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x server created earlier in the tutorial. The procedure below guides you through how to do this.
@@ -575,7 +528,7 @@ private int capacity;
 			<title>Deploy the Application Using JBoss Server Tools</title>
 			<step>
 				<para>
-					In the <guilabel>Project Explorer</guilabel> tab, right-click on <guilabel>ticket-monster</guilabel> and click <guimenu>Run As</guimenu>&rarr;<guimenu>Run on Server</guimenu>.
+					In the <guilabel>Project Explorer</guilabel> view, right-click the <guilabel>ticket-monster</guilabel> project name and click <guimenu>Run As</guimenu>&rarr;<guimenu>Run on Server</guimenu>.
 				</para>
 				<figure>
 					<title><guimenu>Run As</guimenu>&rarr;<guimenu>Run on Server</guimenu> Menu Option</title>
@@ -584,7 +537,7 @@ private int capacity;
 							<imagedata fileref="images/3294.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>In the <guilabel>Project Explorer</guilabel> tab, right-click on <guilabel>ticket-monster</guilabel> and click <guimenu>Run As</guimenu>&rarr;<guimenu>Run on Server</guimenu>.</phrase>
+							<phrase>In the <guilabel>Project Explorer</guilabel> view, right-click on <guilabel>ticket-monster</guilabel> and click <guimenu>Run As</guimenu>&rarr;<guimenu>Run on Server</guimenu>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
@@ -596,7 +549,7 @@ private int capacity;
 			</step>
 			<step>
 				<para>
-					From the <guilabel>Select the server that you want to use</guilabel> table, select <guilabel>jboss-eap-6.x</guilabel> and click <guibutton>Finish</guibutton>. If not already in view, the <guilabel>Console</guilabel> tab automatically opens and shows the runtime server output. Also, a <guilabel>Web Browser</guilabel> tab automatically opens and displays the web page of the running TicketMonster application.
+					From the <guilabel>Select the server that you want to use</guilabel> table, select <guilabel>jboss-eap-6.x</guilabel> and click <guibutton>Finish</guibutton>. If not already in view, the <guilabel>Console</guilabel> view automatically opens and shows the runtime server output. Also, a <guilabel>Web Browser</guilabel> automatically opens and displays the web page of the running TicketMonster application.
 				</para>
 				<figure>
 					<title>JBoss Enterprise Application Platform 6.x Selected in Run on Server Wizard</title>
@@ -612,7 +565,7 @@ private int capacity;
 			</step>
 			<step>
 				<para>
-					In the <guilabel>Web Browser</guilabel> tab, enter sample Member data in the Member Registration fields and click <guibutton>Register</guibutton>. The submitted data is displayed in the <guilabel>Members</guilabel> table, which is visible on the web page.
+					In the <guilabel>Web Browser</guilabel>, enter sample Member data in the Member Registration fields and click <guibutton>Register</guibutton>. The submitted data is displayed in the <guilabel>Members</guilabel> table, which is visible at the bottom of the web page.
 				</para>
 				<figure>
 					<title>Sample Data in the Member Registration Fields</title>
@@ -621,7 +574,7 @@ private int capacity;
 							<imagedata fileref="images/3290.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>In the <guilabel>Web Browser</guilabel> tab, enter sample Member data in the Member Registration pane and click <guibutton>Register</guibutton>.</phrase>
+							<phrase>In the <guilabel>Web Browser</guilabel>, enter sample Member data in the Member Registration pane and click <guibutton>Register</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
@@ -629,13 +582,6 @@ private int capacity;
 		</procedure>
 	</section>
 	<section id="Access_and_Query_the_Database1" remap="TID_22627">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Access and Query the Database</title>
 		<para>
 			This web project uses the in-memory database, H2, of the application servers in JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6. The H2 console web application can be used to access the H2 database but this is not packaged with JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6. As the procedure below explains, the H2 console web application must be downloaded and deployed on the application server from outside JBoss&nbsp;Developer&nbsp;Studio before the H2 database can be accessed.
@@ -665,7 +611,7 @@ private int capacity;
 			</step>
 			<step>
 				<para>
-					To deploy the H2 console web application, extract the contents of the downloaded file and copy the <filename>h2console.war</filename> file from the <filename>h2-console</filename> directory to the <filename>path/to/jboss-eap-6.x/standalone/deployments</filename> directory. The H2 console web application immediately starts running on the JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6 server running the TicketMonster application. This can be confirmed by looking at the server output in the <guilabel>Console</guilabel> tab in JBoss&nbsp;Developer&nbsp;Studio.
+					To deploy the H2 console web application, extract the contents of the downloaded file and copy the <filename>h2console.war</filename> file from the <filename>h2-console</filename> directory to the <filename>path/to/jboss-eap-6.x/standalone/deployments</filename> directory. The H2 console web application immediately starts running on the JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x server running the TicketMonster application. This can be confirmed by looking at the server output in the <guilabel>Console</guilabel> view in JBoss&nbsp;Developer&nbsp;Studio.
 				</para>
 				<figure>
 					<title>Console Output showing <filename>h2console.war</filename> Deployed</title>
@@ -681,12 +627,12 @@ private int capacity;
 			</step>
 			<step>
 				<para>
-					In the IDE open a new <guilabel>Web Browser</guilabel> tab by clicking <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>, expand <guilabel>General</guilabel> and double-click <guilabel>Internal Web Browser</guilabel>.
+					In the IDE open a new <guilabel>Web Browser</guilabel> by clicking <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>, expand <guilabel>General</guilabel> and double-click <guilabel>Internal Web Browser</guilabel>.
 				</para>
 			</step>
 			<step>
 				<para>
-					In the address bar of the <guilabel>Web Browser</guilabel> tab, enter <ulink url="http://localhost:8080/h2console"/>.
+					In the address bar of the <guilabel>Web Browser</guilabel>, enter <ulink url="http://localhost:8080/h2console"/>.
 				</para>
 			</step>
 			<step>
@@ -700,7 +646,7 @@ private int capacity;
 							<imagedata fileref="images/3283.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>In the address bar of the <guilabel>Web Browser</guilabel> tab, enter <ulink url="http://localhost:8080/h2console"/>. In the <guilabel>Login</guilabel> area, type <command>jdbc:h2:mem:ticket-monster</command> in the <guilabel>JDBC URL</guilabel> field and type <command>sa</command> in both the <guilabel>User Name</guilabel> and <guilabel>Password</guilabel> fields.</phrase>
+							<phrase>In the address bar of the <guilabel>Web Browser</guilabel>, enter <ulink url="http://localhost:8080/h2console"/>. In the <guilabel>Login</guilabel> area, type <command>jdbc:h2:mem:ticket-monster</command> in the <guilabel>JDBC URL</guilabel> field and type <command>sa</command> in both the <guilabel>User Name</guilabel> and <guilabel>Password</guilabel> fields.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
@@ -729,13 +675,6 @@ private int capacity;
 		</procedure>
 	</section>
 	<section id="Add_a_RESTful_Web_Service1" remap="TID_22622">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Add a RESTful Web Service</title>
 		<para>
 			For the TicketMonster application to be able to access the information stored in the database, web services are needed. The procedure below creates a RESTful web service that returns all the events in the database. It generates a POJO (plain old Java object) and adds JAX-RS annotations to create an endpoint.
@@ -744,7 +683,7 @@ private int capacity;
 			<title>Add a RESTful Web Service</title>
 			<step>
 				<para>
-					In the <guilabel>Project Explorer</guilabel> tab, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/java</guilabel>.
+					In the <guilabel>Project Explorer</guilabel> view, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/java</guilabel>.
 				</para>
 			</step>
 			<step>
@@ -758,14 +697,14 @@ private int capacity;
 							<imagedata fileref="images/3333.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>In the <guilabel>Project Explorer</guilabel> tab, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/java</guilabel>. Right-click <guilabel>org.jboss.jdf.example.ticketmonster.rest</guilabel> and click <guimenu>New</guimenu>&rarr;<guimenu>Class</guimenu>.</phrase>
+							<phrase>In the <guilabel>Project Explorer</guilabel> view, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>Java Resources</guilabel>&rarr;<guilabel>src/main/java</guilabel>. Right-click <guilabel>org.jboss.jdf.example.ticketmonster.rest</guilabel> and click <guimenu>New</guimenu>&rarr;<guimenu>Class</guimenu>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
 			</step>
 			<step>
 				<para>
-					In the <guilabel>Name</guilabel> field, type <command>EventService</command> and click <guibutton>Finish</guibutton>. This creates a <filename>EventService.java</filename> file that is automatically opened in a Java editor tab.
+					In the <guilabel>Name</guilabel> field, type <command>EventService</command> and click <guibutton>Finish</guibutton>. This creates a <filename>EventService.java</filename> file that is automatically opened in a Java editor.
 				</para>
 				<figure>
 					<title>Completed Name Field in Java Class Wizard</title>
@@ -879,7 +818,7 @@ public List&lt;Event&gt; getAllEvents() {
 			</step>
 			<step>
 				<para>
-					To update the deployed version of the application, in the <guilabel>Servers</guilabel> tab expand <guilabel>jboss-eap-6.x</guilabel>. Right-click <guilabel>ticket-monster</guilabel> and click <guimenu>Full Publish</guimenu>.
+					To update the deployed version of the application, in the <guilabel>Servers</guilabel> view expand <guilabel>jboss-eap-6.x</guilabel>. Right-click <guilabel>ticket-monster</guilabel> and click <guimenu>Full Publish</guimenu>.
 				</para>
 				<figure>
 					<title><guimenu>Full Publish</guimenu> Menu Option</title>
@@ -888,31 +827,24 @@ public List&lt;Event&gt; getAllEvents() {
 							<imagedata fileref="images/3335.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>In the <guilabel>Servers</guilabel> tab expand <guilabel>jboss-eap-6.x</guilabel>. Right-click <guilabel>ticket-monster</guilabel> and click <guimenu>Full Publish</guimenu>.</phrase>
+							<phrase>In the <guilabel>Servers</guilabel> view expand <guilabel>jboss-eap-6.x</guilabel>. Right-click <guilabel>ticket-monster</guilabel> and click <guimenu>Full Publish</guimenu>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
 			</step>
 			<step>
 				<para>
-					To see the output of the new RESTful endpoint, open a new <guilabel>Web Browser</guilabel> tab by clicking <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>, expand <guilabel>General</guilabel> and double-click <guilabel>Internal Web Browser</guilabel>.
+					To see the output of the new RESTful endpoint, open a new <guilabel>Web Browser</guilabel> by clicking <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>, expand <guilabel>General</guilabel> and double-click <guilabel>Internal Web Browser</guilabel>.
 				</para>
 			</step>
 			<step>
 				<para>
-					In the address bar of the <guilabel>Web Browser</guilabel> tab, enter <ulink url="http://localhost:8080/ticket-monster/rest/events"/>. In the opened file browser window, select a directory and enter a file name in which to save the JSON output. The file can be viewed with a text editor and it contains details of the two event records created earlier in the tutorial.
+					In the address bar of the <guilabel>Web Browser</guilabel>, enter <ulink url="http://localhost:8080/ticket-monster/rest/events"/>. In the opened file browser window, select a directory and enter a file name in which to save the JSON output. The file can be viewed with a text editor and it contains details of the two event records created earlier in the tutorial.
 				</para>
 			</step>
 		</procedure>
 	</section>
 	<section id="Add_a_User_Interface_Optimized_for_Mobile_Devices1" remap="TID_22618">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Add a User Interface Optimized for Mobile Devices</title>
 		<para>
 			The TicketMonster user interface displays on desktop and mobile clients but it is not optimized for the latter. The procedure below uses the jQuery Mobile API to create a mobile optimized user interface. The mobile user interface created varies from the existing user interface by displaying the names of the events returned by the previously created web service rather than the Member Registration web page.
@@ -921,7 +853,7 @@ public List&lt;Event&gt; getAllEvents() {
 			<title>Add a User Interface Optimized for Mobile Devices</title>
 			<step>
 				<para>
-					In the <guilabel>Project Explorer</guilabel> tab, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>src</guilabel>&rarr;<guilabel>main</guilabel>.
+					In the <guilabel>Project Explorer</guilabel> view, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>src</guilabel>&rarr;<guilabel>main</guilabel>.
 				</para>
 			</step>
 			<step>
@@ -935,7 +867,7 @@ public List&lt;Event&gt; getAllEvents() {
 							<imagedata fileref="images/3324.png"/>
 						</imageobject>
 						<textobject>
-							<phrase>In the <guilabel>Project Explorer</guilabel> tab, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>src</guilabel>&rarr;<guilabel>main</guilabel>. Right-click <guilabel>webapp</guilabel> and click <guimenu>New</guimenu>&rarr;<guimenu>HTML file</guimenu>.</phrase>
+							<phrase>In the <guilabel>Project Explorer</guilabel> view, expand <guilabel>ticket-monster</guilabel>&rarr;<guilabel>src</guilabel>&rarr;<guilabel>main</guilabel>. Right-click <guilabel>webapp</guilabel> and click <guimenu>New</guimenu>&rarr;<guimenu>HTML file</guimenu>.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
@@ -1033,13 +965,6 @@ public List&lt;Event&gt; getAllEvents() {
 		</procedure>
 	</section>
 	<section id="Test_the_Mobile_User_Interface_Using_BrowserSim1" remap="TID_22629">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Test the Mobile User Interface Using BrowserSim</title>
 		<para>
 			Mobile user interfaces are best tested on mobile devices and JBoss&nbsp;Developer&nbsp;Studio provides BrowserSim for this purpose. The procedure below guides you through viewing the TicketMonster application on simulated mobile devices using BrowserSim.
@@ -1048,7 +973,7 @@ public List&lt;Event&gt; getAllEvents() {
 			<title>Test the Mobile User Interface Using BrowserSim</title>
 			<step>
 				<para>
-					To run BrowserSim, on the toolbar click the <guibutton>BrowserSim</guibutton> icon 
+					To view the mobile user interface with BrowserSim, on the toolbar click the <guibutton>BrowserSim</guibutton> icon 
 					<inlinemediaobject>
 						<imageobject>
 							<imagedata fileref="images/3339.png"/>
