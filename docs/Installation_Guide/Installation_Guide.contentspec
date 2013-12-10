@@ -25,11 +25,12 @@ JIRAComponent = Installation Guide
 # Output Style =
 Feedback = [23618]
 Revision History = [22583]
+Author Group = [24063, rev: 556627]
 # Indentation is meaningful. Use 2 spaces.
 
 [condition = jbds|install]
 Chapter: Introduction to Red Hat JBoss Developer Studio
-  Beta Product [21439, rev: 544059]
+#  Beta Product [21439, rev: 551716]
   About Red Hat JBoss Developer Studio [22589]
   Use Cases of JBoss Developer Studio [22588]
 
@@ -71,4 +72,4 @@ Appendix: Java Developer Kits [22586] [T-Appendix-JDKs]
 
 Appendix: Supplementary Installation Procedures
   Build the Universal Installer from Source [22678]
-  Install JBoss Developer Studio via Script [22679]
+  Install JBoss Developer Studio by Script [22679]

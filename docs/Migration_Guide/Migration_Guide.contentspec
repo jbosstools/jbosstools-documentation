@@ -30,11 +30,12 @@ JIRAComponent = Migration Guide
 # Output Style =
 Feedback = [23618]
 Revision History = [22614]
+Author Group = [24063, rev: 556627]
 # Indentation is meaningful. Use 2 spaces.
 
 [condition = jbds]
 Chapter: Introduction to Red Hat JBoss Developer Studio
-  Beta Product [21439, rev: 544059]
+#  Beta Product [21439, rev: 551716]
   About Red Hat JBoss Developer Studio [22589]
   Use Cases of JBoss Developer Studio [22588]
 

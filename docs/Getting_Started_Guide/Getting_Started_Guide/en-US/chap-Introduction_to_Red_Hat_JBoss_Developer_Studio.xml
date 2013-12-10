@@ -5,30 +5,7 @@
 ]>
 <chapter id="chap-Introduction_to_Red_Hat_JBoss_Developer_Studio">
 	<title>Introduction to Red Hat JBoss Developer Studio</title>
-	<section id="Beta_Product" remap="TID_21439">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JDG 6.2
-				</keyword>
-			</keywordset>
-		</sectioninfo>
-		<title>Beta Product</title>
-		<para>
-			This guide is for the beta release of the product. Beta releases are provided as a preview of the software and are not supported in production. This beta release is provided without security support. Red Hat has not audited the product for security vulnerabilities, and known vulnerabilities may not be resolved in this release. Security patches will not be provided for vulnerabilities that affect this release. This release must not be used in a production environment, or any other security-sensitive environment.
-		</para>
-		<para>
-			This guide is a beta version of the documentation and might not yet cover all of the expected features of the final product.
-		</para>
-	</section>
 	<section id="About_Red_Hat_JBoss_Developer_Studio1" remap="TID_22589">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>About Red Hat JBoss Developer Studio</title>
 		<!-- Info from http://www.jboss.org/developer/features.html -->
 		<para>
@@ -84,13 +61,6 @@
 		</para>
 	</section>
 	<section id="Use_Cases_of_JBoss_Developer_Studio1" remap="TID_22588">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Use Cases of JBoss Developer Studio</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio assists JEE developers by integrating JBoss technology and APIs in a single development environment. Here are a few ways that JBoss&nbsp;Developer&nbsp;Studio makes the work of a developer easier:
@@ -103,7 +73,7 @@
 						JBoss Central provides wizards that generate skeleton and sample projects, enabling you to focus on developing the functionality of your applications. The wizards create web applications based on different APIs and technologies, showing the usage and advantages of each. JBoss&nbsp;Developer&nbsp;Studio also offers project file templates in a range of popular programming languages, including HTML, XHTML, and JSF.
 					</para>
 					<para>
-						Palettes in JBoss&nbsp;Developer&nbsp;Studio give access to the core elements of the JSF, Richfaces and Seam APIs, for use in developing the user interfaces of your applications. Elements of these APIs can be dragged and dropped directly into your project so that you can create richer user interfaces quickly. Visual Web Tools offers graphical and source viewing of files and defaults to dedicated editors for different file types. JBoss&nbsp;Developer&nbsp;Studio supports the Java EE specification and provides tools for JAX-RS, Hibernate, and CDI APIs so you can develop the server-side components of your application effortlessly.
+						Palettes in JBoss&nbsp;Developer&nbsp;Studio give access to the core elements of the JSF, Richfaces and Seam APIs, for use in developing the user interfaces of your applications. Elements of these APIs can be dragged and dropped directly into your project so that you can create richer user interfaces quickly. Visual Web Tools offers graphical and source viewing of files and defaults to dedicated editors for different file types. JBoss&nbsp;Developer&nbsp;Studio supports the Java EE specification and provides tools for JAX-RS, Hibernate, and CDI APIs so you can develop the server-side components of your applications effortlessly.
 					</para>
 					<para>
 						LiveReload Tools automatically refreshes browsers of local or deployed applications as you modify project resources to save you from needing to manually refresh. You can even experience automatic refreshing when viewing applications in browsers on external and mobile devices, with application web addresses easy to navigate to with QR codes.
@@ -114,7 +84,7 @@
 				<term>Web applications optimized for mobile devices</term>
 				<listitem>
 					<para>
-						Mobile Web Tools provides support for HTML5 and jQuery Mobile to enable you to create web applications optimized across desktop and mobile clients. The HTML5 Project wizard in JBoss Central generates a sample application using HTML5 and jQuery Mobile technologies and, together with HTML5 and jQuery Mobile project file templates, helps you to get up and running with these APIs and technologies quickly. HTML5 and jQuery Mobile widgets can be dragged from the Mobile Web palette into your project files and, in conjunction with the widget wizards, enable you to effortlessly develop customized user interfaces for your mobile web applications.
+						Mobile Web Tools provides support for HTML5 and jQuery Mobile to enable you to create web applications optimized across desktop and mobile clients. The HTML5 Project wizard in JBoss Central generates a sample application using HTML5 and jQuery Mobile technologies and, together with HTML5 and jQuery Mobile project file templates, helps you to get up and running with these APIs and technologies quickly. HTML5 and jQuery Mobile widgets can be dragged from the jQuery Mobile palette into your project files and, in conjunction with the widget wizards, enable you to effortlessly develop customized user interfaces for your mobile web applications.
 					</para>
 					<para>
 						BrowserSim allows you to view your web applications on a variety of simulated mobile devices so that you can ensure they will be correctly formatted. LiveReload also extends to BrowserSim allowing you to experience automatic browser refreshing as you develop your mobile web applications. The integration of Firebug Lite and Weinre capabilities with BrowserSim assists you to inspect the page source of web pages with familiar tools.
@@ -125,10 +95,10 @@
 				<term>Hybrid mobile applications</term>
 				<listitem>
 					<para>
-						Hybrid Mobile Tools provides support for developing and building Cordova-based hybrid mobile applications for iOS and Android platforms. The Hybrid Mobile application wizard assists you to quickly generate new projects, while the Cordova Configuration Editor and Cordova Plug-in Discovery wizard help you to efficiently modify the capabilities of your projects. Hybrid Mobile Tools provides actions that simplify your workflow, for example calling your system installed iOS and Android SDKs from within the IDE to emulate or run your hybrid mobile applications. With wizards to export workspace projects to Cordova-enabled native projects or ready-to-sign applications, you can quickly be ready to share your hybrid mobile projects and applications.
+						Hybrid Mobile Tools provides support for developing and building Cordova-based hybrid mobile applications for iOS and Android platforms. The Hybrid Mobile application wizard assists you to quickly generate new projects, while the Cordova Configuration Editor and Cordova Plug-in Discovery wizard help you to efficiently modify the capabilities of your projects. Hybrid Mobile Tools provides actions that simplify your workflow, for example calling your system installed Android and iOS SDKs from within the IDE to emulate or run your hybrid mobile applications. With wizards to export workspace projects to Cordova-enabled native projects or ready-to-sign applications, you can quickly be ready to share your hybrid mobile projects and applications.
 					</para>
 					<para>
-						CordovaSim enables you to view and test your hybrid mobile applications on iOS and Android simulated mobile devices so that you can ensure they look and work as expected. You can interact with your mobile application through BrowserSim and use the device input panel to provide sample data to your application for device functions like cameras and accelerometers. An advantage of CordovaSim is that it does not require native SDKs to be installed on your system, unlike native SDK emulators. Additionally, by teaming the device control panel with BrowserSim, you get all of the great functionality of BrowserSim, such as skins and LiveReload, while simulating your hybrid mobile applications.
+						CordovaSim enables you to view and test your hybrid mobile applications on Android and iOS simulated mobile devices so that you can ensure they look and work as expected. You can interact with your mobile applications through BrowserSim and use the device input panel to provide sample data to your applications for device functions like cameras and accelerometers. An advantage of CordovaSim is that it does not require native SDKs to be installed on your system, unlike native SDK emulators. Additionally, by teaming the device control panel with BrowserSim, you get all of the great functionality of BrowserSim, such as skins and LiveReload, while simulating your hybrid mobile applications.
 					</para>
 				</listitem>
 			</varlistentry>
@@ -136,7 +106,7 @@
 				<term>Applications for cloud deployment</term>
 				<listitem>
 					<para>
-						OpenShift Tools deploys your applications directly to the cloud on the Red Hat OpenShift platform. You can create and manage your OpenShift account and manage the deployment of applications in your OpenShift domain from within the IDE. In addition to using the OpenShift Application wizard to create new applications for deployment to OpenShift, OpenShift Tools can import applications already deployed on OpenShift so that you can further develop them and manage their deployment from the comfort of the IDE.
+						OpenShift Tools deploys your applications directly to the cloud on the Red Hat OpenShift platform. You can create and manage your OpenShift account and manage the deployment of applications in your OpenShift domains from within the IDE. In addition to using the OpenShift Application wizard to create new applications for deployment to OpenShift, OpenShift Tools can import applications already deployed on OpenShift so that you can further develop them and manage their deployment from the comfort of the IDE.
 					</para>
 				</listitem>
 			</varlistentry>

@@ -4,13 +4,6 @@
 %BOOK_ENTITIES;
 ]>
 <appendix id="appe-Java_Developer_Kits">
-	<appendixinfo>
-		<keywordset>
-			<keyword>
-				JBDS 7.1.z
-			</keyword>
-		</keywordset>
-	</appendixinfo>
 	<title>Java Developer Kits</title>
 	<para>
 		It is important to use a Java developer kit that is supported by this release of JBoss&nbsp;Developer&nbsp;Studio. The aim of this section is to assist you to do the following: 
@@ -28,13 +21,6 @@
 		</itemizedlist>
 	</para>
 	<section id="Determine_Default_Java_Developer_Kit_of_the_System1" remap="TID_22585">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Determine Default Java Developer Kit of the System</title>
 		<para>
 			To determine if your system has a Java developer kit set up for use and the version, follow the procedure below which is suitable for all operating systems.
@@ -98,13 +84,6 @@ OpenJDK Server VM (build 23.2-b09, mixed mode)
 		</example>
 	</section>
 	<section id="Install_a_Java_Developer_Kit1" remap="TID_22587">
-		<sectioninfo>
-			<keywordset>
-				<keyword>
-					JBDS 7.1.z
-				</keyword>
-			</keywordset>
-		</sectioninfo>
 		<title>Install a Java Developer Kit</title>
 		<para>
 			The procedures given here guide you through how to install a new Java developer kit, either OpenJDK or Oracle.
