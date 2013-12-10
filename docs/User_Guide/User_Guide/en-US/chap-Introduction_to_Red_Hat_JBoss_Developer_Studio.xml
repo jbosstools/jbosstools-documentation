@@ -60,7 +60,7 @@
 			JBoss&nbsp;Developer&nbsp;Studio comes built around Eclipse and packaged with all of the necessary dependencies and third-party plug-ins for simplified installing. For developers already running Eclipse, JBoss&nbsp;Developer&nbsp;Studio can also be installed through Eclipse Marketplace. For distinction, this latter JBoss&nbsp;Developer&nbsp;Studio installation is called JBoss&nbsp;Developer&nbsp;Studio BYOE (Bring Your Own Eclipse).
 		</para>
 		<para role="RoleCreateBugPara">
-			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+18%3A05%3A19%0ATopic+ID%3A+22589-566543+%5BLatest%5D&amp;description=Title%3A+About+Red+Hat+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+11-12-2013+08%3A40%3A06%0ATopic+ID%3A+22589-566543+%5BLatest%5D&amp;description=Title%3A+About+Red+Hat+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 		</para>
 	</section>
 	<section id="Use_Cases_of_JBoss_Developer_Studio1" remap="TID_22588">
@@ -98,10 +98,10 @@
 				<term>Hybrid mobile applications</term>
 				<listitem>
 					<para>
-						Hybrid Mobile Tools provides support for developing and building Cordova-based hybrid mobile applications for iOS and Android platforms. The Hybrid Mobile application wizard assists you to quickly generate new projects, while the Cordova Configuration Editor and Cordova Plug-in Discovery wizard help you to efficiently modify the capabilities of your projects. Hybrid Mobile Tools provides actions that simplify your workflow, for example calling your system installed iOS and Android SDKs from within the IDE to emulate or run your hybrid mobile applications. With wizards to export workspace projects to Cordova-enabled native projects or ready-to-sign applications, you can quickly be ready to share your hybrid mobile projects and applications.
+						Hybrid Mobile Tools provides support for developing and building Cordova-based hybrid mobile applications for iOS and Android platforms. The Hybrid Mobile application wizard assists you to quickly generate new projects, while the Cordova Configuration Editor and Cordova Plug-in Discovery wizard help you to efficiently modify the capabilities of your projects. Hybrid Mobile Tools provides actions that simplify your workflow, for example calling your system installed Android and iOS SDKs from within the IDE to emulate or run your hybrid mobile applications. With wizards to export workspace projects to Cordova-enabled native projects or ready-to-sign applications, you can quickly be ready to share your hybrid mobile projects and applications.
 					</para>
 					<para>
-						CordovaSim enables you to view and test your hybrid mobile applications on iOS and Android simulated mobile devices so that you can ensure they look and work as expected. You can interact with your mobile applications through BrowserSim and use the device input panel to provide sample data to your applications for device functions like cameras and accelerometers. An advantage of CordovaSim is that it does not require native SDKs to be installed on your system, unlike native SDK emulators. Additionally, by teaming the device control panel with BrowserSim, you get all of the great functionality of BrowserSim, such as skins and LiveReload, while simulating your hybrid mobile applications.
+						CordovaSim enables you to view and test your hybrid mobile applications on Android and iOS simulated mobile devices so that you can ensure they look and work as expected. You can interact with your mobile applications through BrowserSim and use the device input panel to provide sample data to your applications for device functions like cameras and accelerometers. An advantage of CordovaSim is that it does not require native SDKs to be installed on your system, unlike native SDK emulators. Additionally, by teaming the device control panel with BrowserSim, you get all of the great functionality of BrowserSim, such as skins and LiveReload, while simulating your hybrid mobile applications.
 					</para>
 				</listitem>
 			</varlistentry>
@@ -109,13 +109,13 @@
 				<term>Applications for cloud deployment</term>
 				<listitem>
 					<para>
-						OpenShift Tools deploys your applications directly to the cloud on the Red Hat OpenShift platform. You can create and manage your OpenShift account and manage the deployment of applications in your OpenShift domain from within the IDE. In addition to using the OpenShift Application wizard to create new applications for deployment to OpenShift, OpenShift Tools can import applications already deployed on OpenShift so that you can further develop them and manage their deployment from the comfort of the IDE.
+						OpenShift Tools deploys your applications directly to the cloud on the Red Hat OpenShift platform. You can create and manage your OpenShift account and manage the deployment of applications in your OpenShift domains from within the IDE. In addition to using the OpenShift Application wizard to create new applications for deployment to OpenShift, OpenShift Tools can import applications already deployed on OpenShift so that you can further develop them and manage their deployment from the comfort of the IDE.
 					</para>
 				</listitem>
 			</varlistentry>
 		</variablelist>
 		<para role="RoleCreateBugPara">
-			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-12-2013+18%3A05%3A19%0ATopic+ID%3A+22588-566543+%5BLatest%5D&amp;description=Title%3A+Use+Cases+of+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+11-12-2013+08%3A40%3A06%0ATopic+ID%3A+22588-567697+%5BLatest%5D&amp;description=Title%3A+Use+Cases+of+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 		</para>
 	</section>
 </chapter>
