@@ -3,7 +3,7 @@
 "http://www.oasis-open.org/docbook/xml/4.3CR3/docbookx.dtd">
 <book>
     <bookinfo>
-        <title>JBoss Tools Guides - 4.1.0</title>
+        <title>JBoss Tools Guides - 4.1.x</title>
         <pubdate>Last published: <?dbtimestamp format="B d, Y"?></pubdate>
         <!--<copyright>
             <year>2012</year>
