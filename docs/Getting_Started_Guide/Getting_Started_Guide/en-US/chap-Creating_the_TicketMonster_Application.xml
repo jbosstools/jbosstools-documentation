@@ -5,7 +5,7 @@
 ]>
 <chapter id="chap-Creating_the_TicketMonster_Application">
 	<title>Creating the TicketMonster Application</title>
-	<section id="Configure_Maven1" remap="TID_22623">
+	<section id="Configure_Maven" remap="TID_13798">
 		<title>Configure Maven</title>
 		<para>
 			The Java EE Web Project, on which the TicketMonster application is based, is constructed from a Maven archetype. Maven is distributed with JBoss&nbsp;Developer&nbsp;Studio so it is not necessary to install Maven but, to be able to use the Java EE Web Project wizard with JBoss Enterprise Application Server 6.x, Maven must be correctly configured. The procedure below demonstrates how to configure Maven for use with JBoss Enterprise Application Server 6.x by editing the Maven configuration file from within JBoss&nbsp;Developer&nbsp;Studio.
@@ -81,7 +81,7 @@
 			</step>
 		</procedure>
 	</section>
-	<section id="Set_Up_a_Server_Using_Runtime_Detection1" remap="TID_22624">
+	<section id="Set_Up_a_Server_Using_Runtime_Detection" remap="TID_13796">
 		<title>Set Up a Server Using Runtime Detection</title>
 		<para>
 			Servers can be defined from within the <application>Java EE Web Project</application> wizard. But for the purposes of exploring JBoss&nbsp;Developer&nbsp;Studio the procedure below defines the server first using JBoss Server Tools runtime detection.
@@ -153,7 +153,7 @@
 			</step>
 		</procedure>
 	</section>
-	<section id="Create_a_Java_EE_Web_Project_Using_JBoss_Central1" remap="TID_22626">
+	<section id="Create_a_Java_EE_Web_Project_Using_JBoss_Central" remap="TID_13786">
 		<title>Create a Java EE Web Project Using JBoss Central</title>
 		<para>
 			The TicketMonster application is based on a Java EE web application. A wizard is provided for creating this type of project in JBoss Central and the procedure below guides you through using the wizard.
@@ -236,7 +236,7 @@
 			</step>
 		</procedure>
 	</section>
-	<section id="Add_an_Entity_Using_Forge_Tools1" remap="TID_22628">
+	<section id="Add_an_Entity_Using_Forge_Tools" remap="TID_13791">
 		<title>Add an Entity Using Forge Tools</title>
 		<para>
 			A new entity class can be added to the TicketMonster project using Forge Tools. In the procedure below an <filename>Event</filename> entity class is created to hold information about the events for which users can buy tickets. This <filename>Event</filename> entity has id, name, description, major and picture fields.
@@ -330,7 +330,7 @@ constraint Size --onProperty description --min 20 --max 1000 --message "Must be 
 			</step>
 		</procedure>
 	</section>
-	<section id="Add_an_Entity_Using_Hibernate_Tools1" remap="TID_22617">
+	<section id="Add_an_Entity_Using_Hibernate_Tools" remap="TID_13784">
 		<title>Add an Entity Using Hibernate Tools</title>
 		<para>
 			A new entity class can be added to the TicketMonster project using Hibernate Tools. In the procedure below a <filename>Venue</filename> entity class is created to hold information about the venues where events will be held. This <filename>Venue</filename> entity has id, name, description and capacity fields.
@@ -443,7 +443,7 @@ private int capacity;
 			</step>
 		</procedure>
 	</section>
-	<section id="Prepare_Event_Records_to_Populate_the_Database1" remap="TID_22630">
+	<section id="Prepare_Event_Records_to_Populate_the_Database" remap="TID_13783">
 		<title>Prepare Event Records to Populate the Database</title>
 		<para>
 			This web project uses H2 for data storage by default. H2 is a Java database integrated with the application servers of JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6. It is an in-memory database which means that the data does not persist once the application using the database stops running. For this reason, seed data must be stored in a file within the project and added to the database each time the application starts. While it might not seem practical to have to construct the database each time the application starts, this type of data storage is useful during development for testing purposes.
@@ -519,7 +519,7 @@ private int capacity;
 			</step>
 		</procedure>
 	</section>
-	<section id="Deploy_the_Application_using_JBoss_Server_Tools1" remap="TID_22625">
+	<section id="Deploy_the_Application_using_JBoss_Server_Tools" remap="TID_13795">
 		<title>Deploy the Application using JBoss Server Tools</title>
 		<para>
 			The TicketMonster application can be deployed on the JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6.x server created earlier in the tutorial. The procedure below guides you through how to do this.
@@ -581,7 +581,7 @@ private int capacity;
 			</step>
 		</procedure>
 	</section>
-	<section id="Access_and_Query_the_Database1" remap="TID_22627">
+	<section id="Access_and_Query_the_Database" remap="TID_13797">
 		<title>Access and Query the Database</title>
 		<para>
 			This web project uses the in-memory database, H2, of the application servers in JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6. The H2 console web application can be used to access the H2 database but this is not packaged with JBoss&nbsp;Enterprise&nbsp;Application&nbsp;Platform 6. As the procedure below explains, the H2 console web application must be downloaded and deployed on the application server from outside JBoss&nbsp;Developer&nbsp;Studio before the H2 database can be accessed.
@@ -674,7 +674,7 @@ private int capacity;
 			</step>
 		</procedure>
 	</section>
-	<section id="Add_a_RESTful_Web_Service1" remap="TID_22622">
+	<section id="Add_a_RESTful_Web_Service" remap="TID_13785">
 		<title>Add a RESTful Web Service</title>
 		<para>
 			For the TicketMonster application to be able to access the information stored in the database, web services are needed. The procedure below creates a RESTful web service that returns all the events in the database. It generates a POJO (plain old Java object) and adds JAX-RS annotations to create an endpoint.
@@ -844,7 +844,7 @@ public List&lt;Event&gt; getAllEvents() {
 			</step>
 		</procedure>
 	</section>
-	<section id="Add_a_User_Interface_Optimized_for_Mobile_Devices1" remap="TID_22618">
+	<section id="Add_a_User_Interface_Optimized_for_Mobile_Devices" remap="TID_13794">
 		<title>Add a User Interface Optimized for Mobile Devices</title>
 		<para>
 			The TicketMonster user interface displays on desktop and mobile clients but it is not optimized for the latter. The procedure below uses the jQuery Mobile API to create a mobile optimized user interface. The mobile user interface created varies from the existing user interface by displaying the names of the events returned by the previously created web service rather than the Member Registration web page.
@@ -964,7 +964,7 @@ public List&lt;Event&gt; getAllEvents() {
 			</step>
 		</procedure>
 	</section>
-	<section id="Test_the_Mobile_User_Interface_Using_BrowserSim1" remap="TID_22629">
+	<section id="Test_the_Mobile_User_Interface_Using_BrowserSim" remap="TID_13790">
 		<title>Test the Mobile User Interface Using BrowserSim</title>
 		<para>
 			Mobile user interfaces are best tested on mobile devices and JBoss&nbsp;Developer&nbsp;Studio provides BrowserSim for this purpose. The procedure below guides you through viewing the TicketMonster application on simulated mobile devices using BrowserSim.

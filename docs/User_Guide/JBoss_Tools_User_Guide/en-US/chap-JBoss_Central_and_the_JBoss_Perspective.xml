@@ -415,8 +415,8 @@
 				</mediaobject>
 			</figure>
 		</section>
-		<section id="Manage_JBoss_Perspective" remap="TID_22796">
-			<title>Manage JBoss Perspective</title>
+		<section id="Manage_the_JBoss_Perspective" remap="TID_22796">
+			<title>Manage the JBoss Perspective</title>
 			<para>
 				There are a number of actions provided by the IDE for managing perspectives, including the JBoss perspective.
 			</para>

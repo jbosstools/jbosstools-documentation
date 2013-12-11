@@ -5,7 +5,7 @@
 ]>
 <chapter id="chap-Getting_Started_with_JBoss_Developer_Studio">
 	<title>Getting Started with JBoss Developer Studio</title>
-	<section id="About_Getting_Started1" remap="TID_22633">
+	<section id="About_Getting_Started" remap="TID_13787">
 		<title>About Getting Started</title>
 		<para>
 			Getting Started is a step-by-step guide that introduces JBoss&nbsp;Developer&nbsp;Studio to new users. It aims to give you a taste of developing applications with JBoss&nbsp;Developer&nbsp;Studio.

@@ -5,7 +5,7 @@
 ]>
 <chapter id="chap-System_Requirements">
 	<title>System Requirements</title>
-	<section id="System_Requirements_Overview1" remap="TID_22590">
+	<section id="System_Requirements_Overview" remap="TID_15789">
 		<title>System Requirements Overview</title>
 		<para>
 			The aim of this section is familiarize you with the system requirements necessary for JBoss&nbsp;Developer&nbsp;Studio to function optimally: 
@@ -28,7 +28,7 @@
 			</itemizedlist>
 		</para>
 	</section>
-	<section id="Supported_Operating_Systems_and_Architectures1" remap="TID_22598">
+	<section id="Supported_Operating_Systems_and_Architectures" remap="TID_13331">
 		<title>Supported Operating Systems and Architectures</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio 7.1 is supported on the operating systems listed in the table below.
@@ -111,7 +111,7 @@
 			</itemizedlist>
 		</para>
 	</section>
-	<section id="Computer_Memory1" remap="TID_22597">
+	<section id="Computer_Memory" remap="TID_13538">
 		<title>Computer Memory</title>
 		<para>
 			To install and run JBoss&nbsp;Developer&nbsp;Studio 7.1, the following memory requirements are recommended: 
@@ -132,7 +132,7 @@
 			The minimum memory requirements are 2 GB RAM and 750 MB of hard disk space.
 		</para>
 	</section>
-	<section id="Compatible_Java_Developer_Kits1" remap="TID_22591">
+	<section id="Compatible_Java_Developer_Kits" remap="TID_13333">
 		<title>Compatible Java Developer Kits</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio 7.1 requires a Java developer kit of version 1.6 or later. This release of JBoss&nbsp;Developer&nbsp;Studio is supported on the operating system and Java developer kit combinations listed in the table below.
