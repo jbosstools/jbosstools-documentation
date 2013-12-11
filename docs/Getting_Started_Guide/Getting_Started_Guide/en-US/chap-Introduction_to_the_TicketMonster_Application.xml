@@ -5,7 +5,7 @@
 ]>
 <chapter id="chap-Introduction_to_the_TicketMonster_Application">
 	<title>Introduction to the TicketMonster Application</title>
-	<section id="About_the_TicketMonster_Application1" remap="TID_22620">
+	<section id="About_the_TicketMonster_Application" remap="TID_13792">
 		<title>About the TicketMonster Application</title>
 		<para>
 			TicketMonster is an example web application demonstrating ticket purchasing. The application provides an online environment in which users can purchase tickets for events and administrators can manage the data relating to events and ticket sales. You can see a running example of the TicketMonster application at <ulink url="https://ticketmonster-jdf.rhcloud.com/"/>.
@@ -17,7 +17,7 @@
 			TicketMonster demonstrates the combining of Red Hat and JBoss technologies and frameworks to build, test and deploy applications. For example, the running instance of TicketMonster at <ulink url="https://ticketmonster-jdf.rhcloud.com/"/> is hosted in the cloud on the OpenShift platform.
 		</para>
 	</section>
-	<section id="Tutorial_Outline1" remap="TID_22632">
+	<section id="Tutorial_Outline" remap="TID_13789">
 		<title>Tutorial Outline</title>
 		<para>
 			The diversity and complexity of the TicketMonster application makes it ideal for demonstrating some of the capabilities of JBoss&nbsp;Developer&nbsp;Studio. This tutorial sets the stage for building TicketMonster. It shows you how to develop a number of the TicketMonster application features using JBoss&nbsp;Developer&nbsp;Studio: 
@@ -80,7 +80,7 @@
 			</para>
 		</note>
 	</section>
-	<section id="Tutorial_Assumptions1" remap="TID_22619">
+	<section id="Tutorial_Assumptions" remap="TID_13793">
 		<title>Tutorial Assumptions</title>
 		<para>
 			The TicketMonster application is built on a Maven-based Java EE Web project. To ensure successful completion of the tutorial, a number of assumptions are made about your system:

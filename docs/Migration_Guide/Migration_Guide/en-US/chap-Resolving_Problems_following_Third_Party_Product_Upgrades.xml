@@ -5,7 +5,7 @@
 ]>
 <chapter id="chap-Resolving_Problems_following_Third_Party_Product_Upgrades">
 	<title>Resolving Problems following Third Party Product Upgrades</title>
-	<section id="Change_the_Version_of_Eclipse_Being_Used_with_JBoss_Developer_Studio_BYOE" remap="TID_22615">
+	<section id="Change_the_Version_of_Eclipse" remap="TID_13416">
 		<title>Change the Version of Eclipse Being Used with JBoss Developer Studio BYOE</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio 7.1 BYOE supports Eclipse Kepler only. If you upgrade the version of Eclipse you are using to Luna or later and install JBoss&nbsp;Developer&nbsp;Studio 7.1 BYOE onto it, any problems that occur from this combination are not supported by Red Hat.
@@ -49,7 +49,7 @@
 			</tgroup>
 		</table>
 	</section>
-	<section id="Change_the_Path_of_the_JVM_used_to_Run_JBoss_Developer_Studio" remap="TID_22616">
+	<section id="Change_the_Path_of_the_JVM" remap="TID_13420">
 		<title>Change the Path of the JVM used to Run JBoss Developer Studio</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio stores the Java virtual machine (JVM) path of the Java developer kit selected during the installation process. Each subsequent time JBoss&nbsp;Developer&nbsp;Studio starts it uses the same JVM path to run.

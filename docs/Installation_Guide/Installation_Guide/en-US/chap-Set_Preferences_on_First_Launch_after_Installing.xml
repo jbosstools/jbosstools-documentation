@@ -5,7 +5,7 @@
 ]>
 <chapter id="chap-Set_Preferences_on_First_Launch_after_Installing">
 	<title>Set Preferences on First Launch after Installing</title>
-	<section id="Preferences_Options1" remap="TID_22596">
+	<section id="Preferences_Options" remap="TID_15790">
 		<title>Preferences Options</title>
 		<para>
 			The aim of this section is to guide you in setting preferences for the JBoss&nbsp;Developer&nbsp;Studio features encountered on the first IDE start after installing: 
@@ -33,7 +33,7 @@
 			</itemizedlist>
 		</para>
 	</section>
-	<section id="Select_a_Workspace_Location1" remap="TID_22582">
+	<section id="Select_a_Workspace_Location" remap="TID_13347">
 		<title>Select a Workspace Location</title>
 		<para>
 			When the IDE starts, you are asked to choose the workspace folder for the session. The workspace is where your projects are stored.
@@ -73,7 +73,7 @@
 			The workspace location prompting behavior can be altered at any time by clicking <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>General</guilabel>&rarr;<guilabel>Startup and Shutdown</guilabel> and select <guilabel>Workspaces</guilabel>. Select or clear the <guilabel>Prompt for workspace on startup</guilabel> check box to alter the behavior as appropriate.
 		</para>
 	</section>
-	<section id="Set_Usage_Reporting1" remap="TID_22584">
+	<section id="Set_Usage_Reporting" remap="TID_13335">
 		<title>Set Usage Reporting</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio has usage reporting. At the first start of the IDE after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio.
@@ -197,7 +197,7 @@
 			The usage reporting behavior can be changed at any time by clicking <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>Usage Reporting</guilabel>. Select or clear the <guilabel>Please allow Red Hat Inc. to receive anonymous usage statistics for this JBoss Developer Studio installation</guilabel> check box to alter the behavior as appropriate.
 		</para>
 	</section>
-	<section id="Define_Servers_for_Application_Servers_Found_by_Runtime_Detection1" remap="TID_22592">
+	<section id="Define_Servers_for_Application_Servers_Found_by_Runtime_Detection" remap="TID_21662">
 		<title>Define Servers for Application Servers Found by Runtime Detection</title>
 		<para>
 			If you set up runtime detection during the installation process, at the first start of the IDE you are prompted with the results of the runtime detection scan. Depending on whether any application servers are found, follow the appropriate step: 
@@ -242,7 +242,7 @@
 			</para>
 		</note>
 	</section>
-	<section id="Set_the_Perspective_to_JBoss1" remap="TID_22603">
+	<section id="Set_the_Perspective_to_JBoss" remap="TID_13346">
 		<title>Set the Perspective to JBoss</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio has the JBoss perspective. This perspective displays views, toolbars and menu items most often used by developers using JBoss.

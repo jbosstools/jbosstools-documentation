@@ -16,8 +16,8 @@
 				BrowserSim consists of an external web browser window. This browser window is different from standard browsers in that it can be transformed to simulate browsers on a variety of mobile devices. The browser window can also return touch events in response to interaction and be rotated to demonstrate the changes that would occur to a web application as a result of rotating a mobile device. Additionally, BrowserSim provides access to tools for inspecting and editing the source of web pages.
 			</para>
 		</section>
-		<section id="System_Requirements3" remap="TID_22864">
-			<title>System Requirements</title>
+		<section id="System_Requirements_for_BrowserSim" remap="TID_22864">
+			<title>System Requirements for BrowserSim</title>
 			<para>
 				<phrase>The overall system requirements of JBoss Tools are applicable for BrowserSim and can be viewed at <ulink url="https://community.jboss.org/wiki/MatrixOfSupportedPlatformsRuntimesAndTechnologiesInJBossToolsJBDS"/> on the JBoss Tools website.</phrase> But, as reiterated below, there are additional system requirements and restrictions when using BrowserSim on Microsoft Windows operating systems.
 			</para>

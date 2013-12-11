@@ -5,7 +5,7 @@
 ]>
 <chapter id="chap-Install_JBoss_Developer_Studio">
 	<title>Install JBoss Developer Studio</title>
-	<section id="Installation_Assumptions1" remap="TID_22631">
+	<section id="Installation_Assumptions" remap="TID_13863">
 		<title>Installation Assumptions</title>
 		<para>
 			The installation method described in this guide is for JBoss&nbsp;Developer&nbsp;Studio.
@@ -36,7 +36,7 @@
 			</listitem>
 		</itemizedlist>
 	</section>
-	<section id="Install_JBoss_Developer_Studio1" remap="TID_22602">
+	<section id="Install_JBoss_Developer_Studio" remap="TID_13342">
 		<title>Install JBoss Developer Studio</title>
 		<para>
 			A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Red&nbsp;Hat Customer Portal. The procedure below guides you though obtaining the universal installer and the installation process.
@@ -217,7 +217,7 @@
 			</para>
 		</important>
 	</section>
-	<section id="Select_a_Workspace_Location1" remap="TID_22582">
+	<section id="Select_a_Workspace_Location" remap="TID_13347">
 		<title>Select a Workspace Location</title>
 		<para>
 			When the IDE starts, you are asked to choose the workspace folder for the session. The workspace is where your projects are stored.
@@ -257,7 +257,7 @@
 			The workspace location prompting behavior can be altered at any time by clicking <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>General</guilabel>&rarr;<guilabel>Startup and Shutdown</guilabel> and select <guilabel>Workspaces</guilabel>. Select or clear the <guilabel>Prompt for workspace on startup</guilabel> check box to alter the behavior as appropriate.
 		</para>
 	</section>
-	<section id="Set_Usage_Reporting1" remap="TID_22584">
+	<section id="Set_Usage_Reporting" remap="TID_13335">
 		<title>Set Usage Reporting</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio has usage reporting. At the first start of the IDE after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio.
