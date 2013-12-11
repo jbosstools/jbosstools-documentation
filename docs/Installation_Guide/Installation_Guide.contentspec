@@ -24,51 +24,51 @@ JIRAComponent = Installation Guide
 # JIRALabels =
 # Output Style =
 Feedback = [23618]
-Revision History = [22583]
+Revision History = [21657]
 Author Group = [24063, rev: 556627]
 # Indentation is meaningful. Use 2 spaces.
 
 [condition = jbds|install]
 Chapter: Introduction to Red Hat JBoss Developer Studio
 #  Beta Product [21439, rev: 551716]
-  About Red Hat JBoss Developer Studio [22589]
-  Use Cases of JBoss Developer Studio [22588]
+  About Red Hat JBoss Developer Studio [13337]
+  Use Cases of JBoss Developer Studio [13338]
 
 Chapter: System Requirements
-  System Requirements Overview [22590]
-  Supported Operating Systems and Architectures [22598]
-  Computer Memory [22597]
-  Compatible Java Developer Kits [22591]
+  System Requirements Overview [15789]
+  Supported Operating Systems and Architectures [13331]
+  Computer Memory [13538]
+  Compatible Java Developer Kits [13333]
     [Refer-to:
       Java Developer Kits [T-Appendix-JDKs]]
 
 Chapter: Install JBoss Developer Studio
-  Install Options [22599]
-  Install JBoss Developer Studio [22602]
-  Install JBoss Developer Studio BYOE [22605]
+  Install Options [13339]
+  Install JBoss Developer Studio [13342]
+  Install JBoss Developer Studio BYOE [13343]
 
 Chapter: Set Preferences on First Launch after Installing
-  Preferences Options [22596]
-  Select a Workspace Location [22582]
-  Set Usage Reporting [22584]
-  Define Servers for Application Servers Found by Runtime Detection [22592]
-  Set the Perspective to JBoss [22603]
+  Preferences Options [15790]
+  Select a Workspace Location [13347]
+  Set Usage Reporting [13335]
+  Define Servers for Application Servers Found by Runtime Detection [21662]
+  Set the Perspective to JBoss [13346]
 #Chapter: Test JBoss Developer Studio
 #  Set Up Runtime Detection [N, Task]
 
 Chapter: Upgrade from Previous Versions of JBoss Developer Studio
-  Upgrade Methods [22593]
+  Upgrade Methods [13419]
   Upgrade from JBoss Developer Studio 6.x and Earlier [22604]
   Upgrade from JBoss Developer Studio 7.0 [22704]
 
 Chapter: Uninstall JBoss Developer Studio
-  Uninstall Methods [22600]
-  Uninstall JBoss Developer Studio [22594]
-  Uninstall JBoss Developer Studio BYOE [22595]
+  Uninstall Methods [13463]
+  Uninstall JBoss Developer Studio [13344]
+  Uninstall JBoss Developer Studio BYOE [13341]
 
-Appendix: Java Developer Kits [22586] [T-Appendix-JDKs]
-  Determine Default Java Developer Kit of the System [22585]
-  Install a Java Developer Kit [22587]
+Appendix: Java Developer Kits [21656] [T-Appendix-JDKs]
+  Determine Default Java Developer Kit of the System [13336]
+  Install a Java Developer Kit [13334]
 
 Appendix: Supplementary Installation Procedures
   Build the Universal Installer from Source [22678]

@@ -5,13 +5,13 @@
 ]>
 <chapter id="chap-Uninstall_JBoss_Developer_Studio">
 	<title>Uninstall JBoss Developer Studio</title>
-	<section id="Uninstall_Methods1" remap="TID_22600">
+	<section id="Uninstall_Methods" remap="TID_13463">
 		<title>Uninstall Methods</title>
 		<para>
 			There are two uninstall methods for JBoss&nbsp;Developer&nbsp;Studio. The method you use depends on whether you are using JBoss&nbsp;Developer&nbsp;Studio or JBoss&nbsp;Developer&nbsp;Studio BYOE.
 		</para>
 	</section>
-	<section id="Uninstall_JBoss_Developer_Studio1" remap="TID_22594">
+	<section id="Uninstall_JBoss_Developer_Studio" remap="TID_13344">
 		<title>Uninstall JBoss Developer Studio</title>
 		<procedure>
 			<title>Uninstall with the Uninstaller</title>
@@ -64,7 +64,7 @@
 			</step>
 		</procedure>
 	</section>
-	<section id="Uninstall_JBoss_Developer_Studio_BYOE1" remap="TID_22595">
+	<section id="Uninstall_JBoss_Developer_Studio_BYOE" remap="TID_13341">
 		<title>Uninstall JBoss Developer Studio BYOE</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio BYOE can be uninstalled with the procedure below regardless of whether it was installed via Eclipse Marketplace or the update <filename>.zip</filename> file.

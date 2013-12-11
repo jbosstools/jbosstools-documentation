@@ -32,8 +32,8 @@ Author Group = [24063, rev: 556627]
 
 [condition = jbds]
 Section: Introduction to Red Hat JBoss Developer Studio
-  About Red Hat JBoss Developer Studio [22589]
-  Use Cases of JBoss Developer Studio [22588]
+  About Red Hat JBoss Developer Studio [13337]
+  Use Cases of JBoss Developer Studio [13338]
 About this Release [24015]
 New Features [24020]
 Resolved Issues [24018]

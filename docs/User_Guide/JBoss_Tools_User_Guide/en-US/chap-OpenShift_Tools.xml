@@ -314,8 +314,8 @@
 				</varlistentry>
 			</variablelist>
 		</section>
-		<section id="Generate_and_Upload_SSH_keys_to_OpenShift" remap="TID_22872">
-			<title>Generate and Upload SSH keys to OpenShift</title>
+		<section id="Generate_and_Upload_SSH_Keys_to_OpenShift" remap="TID_22872">
+			<title>Generate and Upload SSH Keys to OpenShift</title>
 			<para>
 				SSH keys are essential when working with OpenShift. They enable you to develop and access deployed applications. SSH keys are also used to control access of other contributors to your OpenShift applications. SSH keys must be uploaded to the OpenShift server and, as detailed in the procedure below, OpenShift Tools can assist with both the generation and uploading of SSH keys to OpenShift.
 			</para>

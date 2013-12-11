@@ -20,7 +20,7 @@
 			</listitem>
 		</itemizedlist>
 	</para>
-	<section id="Determine_Default_Java_Developer_Kit_of_the_System1" remap="TID_22585">
+	<section id="Determine_Default_Java_Developer_Kit_of_the_System" remap="TID_13336">
 		<title>Determine Default Java Developer Kit of the System</title>
 		<para>
 			To determine if your system has a Java developer kit set up for use and the version, follow the procedure below which is suitable for all operating systems.
@@ -83,7 +83,7 @@ OpenJDK Server VM (build 23.2-b09, mixed mode)
 			</para>
 		</example>
 	</section>
-	<section id="Install_a_Java_Developer_Kit1" remap="TID_22587">
+	<section id="Install_a_Java_Developer_Kit" remap="TID_13334">
 		<title>Install a Java Developer Kit</title>
 		<para>
 			The procedures given here guide you through how to install a new Java developer kit, either OpenJDK or Oracle.

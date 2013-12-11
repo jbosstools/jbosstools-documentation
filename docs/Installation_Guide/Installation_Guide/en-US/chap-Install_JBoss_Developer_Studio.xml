@@ -5,7 +5,7 @@
 ]>
 <chapter id="chap-Install_JBoss_Developer_Studio">
 	<title>Install JBoss Developer Studio</title>
-	<section id="Install_Options1" remap="TID_22599">
+	<section id="Install_Options" remap="TID_13339">
 		<title>Install Options</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio can be installed in a number of different ways.
@@ -20,7 +20,7 @@
 			The primary installation method for JBoss Developer Studio and JBoss Developer Studio BYOE is via the interactive user interfaces of the universal installer and Eclipse, respectively. For information about the secondary scripted installation method see <xref linkend="Install_JBoss_Developer_Studio_by_Script"/>.
 		</para>
 	</section>
-	<section id="Install_JBoss_Developer_Studio1" remap="TID_22602">
+	<section id="Install_JBoss_Developer_Studio" remap="TID_13342">
 		<title>Install JBoss Developer Studio</title>
 		<para>
 			A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Customer Portal. A second version of the universal installer for installing both JBoss Developer Studio and JBoss EAP is also available from the Customer Portal. The procedure below guides you though obtaining the universal installers and the installation process.
@@ -245,7 +245,7 @@
 			</para>
 		</important>
 	</section>
-	<section id="Install_JBoss_Developer_Studio_BYOE1" remap="TID_22605">
+	<section id="Install_JBoss_Developer_Studio_BYOE" remap="TID_13343">
 		<title>Install JBoss Developer Studio BYOE</title>
 		<para>
 			You can obtain JBoss&nbsp;Developer&nbsp;Studio BYOE from Eclipse Marketplace or use the update <filename>.zip</filename> file available from the Red&nbsp;Hat Customer Portal or Red&nbsp;Hat JBoss Developer Studio Update website. The latter option provisions for online and offline installation modes; Eclipse can install directly from the online <filename>.zip</filename> file or you can download the <filename>.zip</filename> file first and then Eclipse can install from this local copy.

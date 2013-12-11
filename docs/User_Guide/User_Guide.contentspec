@@ -33,8 +33,8 @@ Author Group = [24063, rev: 556627]
 [condition = jbds]
 Chapter: Introduction to Red Hat JBoss Developer Studio
 #  Beta Product [21439, rev: 551716]
-  About Red Hat JBoss Developer Studio [22589]
-  Use Cases of JBoss Developer Studio [22588]
+  About Red Hat JBoss Developer Studio [13337]
+  Use Cases of JBoss Developer Studio [13338]
 
 Part: Tools for Every Project
   Chapter: JBoss Central and the JBoss Perspective
@@ -48,7 +48,7 @@ Part: Tools for Every Project
       Access Information in JBoss Central [22801]
       Install Software in JBoss Central [22798]
       Open the JBoss Perspective [22791]
-      Manage JBoss Perspective [22796]
+      Manage the JBoss Perspective [22796]
       View Cheat Sheets [22793]
     Section: Customizing JBoss Central and the JBoss Perspective
       Customizing Overview [22792]
@@ -133,7 +133,7 @@ Part: Tools for Creating Mobile Applications
   Chapter: BrowserSim
     Section: Overview of BrowserSim
       About BrowserSim [22866]
-      System Requirements [22864]
+      System Requirements for BrowserSim [22864]
     Section: Features of BrowserSim
       Features Overview [22865]
       View a Web Application on BrowserSim [22856]
@@ -191,7 +191,7 @@ Part: Tools for Deployment and Maintenance
       Create an OpenShift Online User Account [22879]
       Connect to OpenShift [22869]
       Manage a Connection [22878]
-      Generate and Upload SSH keys to OpenShift [22872]
+      Generate and Upload SSH Keys to OpenShift [22872]
       Manage SSH Keys [22876]
       Create a Domain [22880]
       Manage a Domain [22867]
