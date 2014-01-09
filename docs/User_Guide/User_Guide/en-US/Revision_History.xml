@@ -8,6 +8,19 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.1.1-1</revnumber><date>Thu Jan 09 2014</date>
+				<author>
+					<firstname>Michelle</firstname><surname>Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-441: Typo fixed
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>7.1.0-12</revnumber><date>Tue Dec 10 2013</date>
 				<author>
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>

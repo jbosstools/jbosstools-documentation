@@ -67,7 +67,7 @@
 					</listitem>
 					<listitem>
 						<para>
-							Actions are provided for calling external Android and iOS SKDs to package Cordova-based hybrid mobile projects into native applications and subsequently run them on their associated simulators or connected Android devices.
+							Actions are provided for calling external Android and iOS SDKs to package Cordova-based hybrid mobile projects into native applications and subsequently run them on their associated simulators or connected Android devices.
 						</para>
 					</listitem>
 					<listitem>

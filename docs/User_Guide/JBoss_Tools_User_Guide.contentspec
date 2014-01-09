@@ -8,6 +8,7 @@ Version = 4.1
 DTD = Docbook 4.5
 Copyright Holder = Red Hat, Inc
 # The commented fields below are optional
+Copyright Year = 2013, 2014
 # Brand = JBoss
 # publican.cfg = [show_remarks: 1]
 # pubsnumber =
