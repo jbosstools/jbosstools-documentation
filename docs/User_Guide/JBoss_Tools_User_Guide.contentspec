@@ -159,8 +159,12 @@ Part: Tools for Creating Mobile Applications
       About Hybrid Mobile Tools [24051]
       About CordovaSim [24054]
       System Requirements for Hybrid Mobile Tools [24119]
+        [Refer-to:
+          Set the Android SDK Location [22588]]
       System Requirements for CordovaSim [24056]
       Install Hybrid Mobile Tools and CordovaSim [24053]
+        [Refer-to:
+          Set the Android SDK Location [22588]]
     Section: Features of Hybrid Mobile Tools and CordovaSim
       Features Overview [24381]
       Create a Hybrid Mobile Project [24058]
@@ -178,6 +182,9 @@ Part: Tools for Creating Mobile Applications
       Export a Hybrid Mobile Project [24325]
         [Refer-to:
           System Requirements for Hybrid Mobile Tools [24119]]
+    Section: Customizing Hybrid Mobile Tools and CordovaSim
+      Customizing Overview [22589]
+      Set the Android SDK Location [22588]
 
 Part: Tools for Deployment and Maintenance
   Chapter: OpenShift Tools
