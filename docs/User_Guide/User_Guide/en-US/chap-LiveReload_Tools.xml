@@ -22,7 +22,7 @@
 				The LiveReload application is available for OS X and Microsoft Window operating systems and through a third-party provider for Linux-based operating systems. LiveReload browser extensions are available for Safari, Chrome and Firefox.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+11%3A29%3A06%0ATopic+ID%3A+22831-566628+%5BLatest%5D&amp;description=Title%3A+About+LiveReload%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+22831-566628+%5BLatest%5D&amp;description=Title%3A+About+LiveReload%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="About_LiveReload_Tools" remap="TID_22832">
@@ -37,7 +37,7 @@
 				Unique features of LiveReload tools include LiveReload for both workspace and deployed resources due to the use of HTTP protocol for all resources and LiveReload on external devices with access and ease of use for remote connections to LiveReload servers. The LiveReload server can also be used in conjunction with BrowserSim, extending LiveReload to simulated devices.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+11%3A29%3A06%0ATopic+ID%3A+22832-566628+%5BLatest%5D&amp;description=Title%3A+About+LiveReload+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+22832-566628+%5BLatest%5D&amp;description=Title%3A+About+LiveReload+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -66,7 +66,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+11%3A29%3A06%0ATopic+ID%3A+22833-566628+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+22833-566628+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Create_a_LiveReload_Server" remap="TID_22836">
@@ -142,7 +142,7 @@
 				</para>
 			</note>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+11%3A29%3A06%0ATopic+ID%3A+22836-566628+%5BLatest%5D&amp;description=Title%3A+Create+a+LiveReload+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+22836-566628+%5BLatest%5D&amp;description=Title%3A+Create+a+LiveReload+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Configure_the_LiveReload_Server" remap="TID_22835">
@@ -186,7 +186,7 @@
 				All changes to the settings of a LiveReload server must be saved and the server restarted before the results will take effect. To save setting changes, press <keycap>Ctrl+S</keycap> or click <guimenu>File</guimenu>&rarr;<guimenu>Save</guimenu> or click the <guibutton>Save</guibutton> icon. To restart the server, in the <guilabel>Servers</guilabel> view right-click the LiveReload server and click <guimenu>Restart</guimenu>.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+11%3A29%3A06%0ATopic+ID%3A+22835-566628+%5BLatest%5D&amp;description=Title%3A+Configure+the+LiveReload+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+22835-566628+%5BLatest%5D&amp;description=Title%3A+Configure+the+LiveReload+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_Resources_in_LiveReload-enabled_Browsers" remap="TID_22837">
@@ -331,7 +331,7 @@
 				</para>
 			</note>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+11%3A29%3A06%0ATopic+ID%3A+22837-565778+%5BLatest%5D&amp;description=Title%3A+View+Resources+in+LiveReload-enabled+Browsers%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+22837-565778+%5BLatest%5D&amp;description=Title%3A+View+Resources+in+LiveReload-enabled+Browsers%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_Resources_in_LiveReload-enabled_BrowserSim" remap="TID_22834">
@@ -402,7 +402,7 @@
 				</para>
 			</important>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+11%3A29%3A06%0ATopic+ID%3A+22834-566628+%5BLatest%5D&amp;description=Title%3A+View+Resources+in+LiveReload-enabled+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+22834-566628+%5BLatest%5D&amp;description=Title%3A+View+Resources+in+LiveReload-enabled+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
