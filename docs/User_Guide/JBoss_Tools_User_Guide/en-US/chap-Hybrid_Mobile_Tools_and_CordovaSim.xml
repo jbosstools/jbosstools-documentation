@@ -139,19 +139,8 @@
 							</para>
 						</important>
 						<para>
-							Once the Android SDK is installed, you need to inform the IDE of its location. In the IDE, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu> and select <guilabel>Hybrid Mobile</guilabel>. In the <guilabel>Android SDK Directory</guilabel> field, type the path of the installed SDK or click <guibutton>Browse</guibutton> to navigate to the location. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
+							Further, once Hybrid Mobile Tools is installed, you must set the Android SDK location in the IDE before you can use Hybrid Mobile Tools actions involving Android.
 						</para>
-						<figure>
-							<title>Hybrid Mobile Pane of Preferences Window</title>
-							<mediaobject>
-								<imageobject>
-									<imagedata fileref="images/4402.png"/>
-								</imageobject>
-								<textobject>
-									<phrase>In the IDE, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu> and select <guilabel>Hybrid Mobile</guilabel>. In the <guilabel>Android SDK Directory</guilabel> field, type the path of the installed SDK or click <guibutton>Browse</guibutton> to navigate to the location.</phrase>
-								</textobject>
-							</mediaobject>
-						</figure>
 					</listitem>
 				</varlistentry>
 				<varlistentry>
@@ -163,6 +152,14 @@
 					</listitem>
 				</varlistentry>
 			</variablelist>
+			<itemizedlist role="see-also-list">
+				<title>See Also:</title>
+				<listitem>
+					<para>
+						<xref linkend="Set_the_Android_SDK_Location" xrefstyle="see-also"/>
+					</para>
+				</listitem>
+			</itemizedlist>
 		</section>
 		<section id="System_Requirements_for_CordovaSim" remap="TID_24056">
 			<title>System Requirements for CordovaSim</title>
@@ -173,7 +170,7 @@
 				BrowserSim depends on WebKit and, consequently, requires Apple Safari to be installed on Microsoft Windows operating systems. Only a 32-bit version of Apple Safari is available for Microsoft Windows operating systems. To work around this restriction for 64-bit Microsoft Windows operating systems, you must set BrowserSim to use a 32-bit JVM when running in 64-bit versions of <phrase>Eclipse</phrase>. Note that 32-bit JVM choice is limited to Oracle 32-bit JRE 1.6, JDK 1.6, or JDK 1.7 on Microsoft Windows operating systems because Oracle 32-bit JRE 1.7 is incompatible with Apple Safari.
 			</para>
 			<para>
-				To set BrowserSim to use a 32-bit JVM, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>BrowserSim/CordovaSim</guilabel>. Under <guilabel>Select JRE to run BrowserSim</guilabel>, click <guilabel>Select</guilabel> and from the list select a 32-bit JRE or Java developer kit. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
+				If BrowserSim is already installed, it can be set to use a 32-bit JVM either before or after installing CordovaSim. To set BrowserSim to use a 32-bit JVM, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>BrowserSim/CordovaSim</guilabel>. Under <guilabel>Select JRE to run BrowserSim</guilabel>, click <guilabel>Select</guilabel> and from the list select a 32-bit JRE or Java developer kit. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
 			</para>
 			<figure>
 				<title>BrowserSim/Cordova Pane of Preferences Window</title>
@@ -253,6 +250,17 @@
 					</para>
 				</step>
 			</procedure>
+			<para>
+				Once installed, you must inform Hybrid Mobile Tools of the Android SDK location before you can use Hybrid Mobile Tools actions involving Android.
+			</para>
+			<itemizedlist role="see-also-list">
+				<title>See Also:</title>
+				<listitem>
+					<para>
+						<xref linkend="Set_the_Android_SDK_Location" xrefstyle="see-also"/>
+					</para>
+				</listitem>
+			</itemizedlist>
 		</section>
 	</section>
 	<section id="sect-Features_of_Hybrid_Mobile_Tools_and_CordovaSim">
@@ -841,6 +849,42 @@
 					</para>
 				</listitem>
 			</itemizedlist>
+		</section>
+	</section>
+	<section id="sect-Customizing_Hybrid_Mobile_Tools_and_CordovaSim">
+		<title>Customizing Hybrid Mobile Tools and CordovaSim</title>
+		<section id="Customizing_Overview7" remap="TID_22589">
+			<title>Customizing Overview</title>
+			<para>
+				The aim of this section is to guide you in customizing Hybrid Mobile Tools and CordovaSim:
+			</para>
+			<itemizedlist>
+				<listitem>
+					<para>
+						Specify an Android SDK location
+					</para>
+				</listitem>
+			</itemizedlist>
+		</section>
+		<section id="Set_the_Android_SDK_Location" remap="TID_22588">
+			<title>Set the Android SDK Location</title>
+			<para>
+				You must inform Hybrid Mobile Tools of the Android SDK location before you can use Hybrid Mobile Tools actions involving Android.
+			</para>
+			<para>
+				To set the Android SDK location, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu> and select <guilabel>Hybrid Mobile</guilabel>. In the <guilabel>Android SDK Directory</guilabel> field, type the path of the installed SDK or click <guibutton>Browse</guibutton> to navigate to the location. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
+			</para>
+			<figure>
+				<title>Hybrid Mobile Pane of Preferences Window</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4402.png"/>
+					</imageobject>
+					<textobject>
+						<phrase>Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu> and select <guilabel>Hybrid Mobile</guilabel>. In the <guilabel>Android SDK Directory</guilabel> field, type the path of the installed SDK or click <guibutton>Browse</guibutton> to navigate to the location.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
 		</section>
 	</section>
 </chapter>
