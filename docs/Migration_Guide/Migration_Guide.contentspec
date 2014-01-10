@@ -28,22 +28,22 @@ JIRAComponent = Migration Guide
 # JIRAVersion = 4.1.1
 # JIRALabels =
 # Output Style =
-Feedback = [23618]
-Revision History = [21704]
+Feedback = [23618, rev: 566820]
+Revision History = [21704, rev: 568326]
 Author Group = [24063, rev: 556627]
 # Indentation is meaningful. Use 2 spaces.
 
 [condition = jbds]
 Chapter: Introduction to Red Hat JBoss Developer Studio
 #  Beta Product [21439, rev: 551716]
-  About Red Hat JBoss Developer Studio [13337]
-  Use Cases of JBoss Developer Studio [13338]
+  About Red Hat JBoss Developer Studio [13337, rev: 568269]
+  Use Cases of JBoss Developer Studio [13338, rev: 568453]
 
 Chapter: Upgrade from Previous Versions of JBoss Developer Studio
-  Upgrade Methods [13419]
-  Upgrade from JBoss Developer Studio 6.x and Earlier [22604]
-  Upgrade from JBoss Developer Studio 7.0 [22704]
+  Upgrade Methods [13419, rev: 568301]
+  Upgrade from JBoss Developer Studio 6.x and Earlier [22604, rev: 567750]
+  Upgrade from JBoss Developer Studio 7.0 [22704, rev: 567768]
 
 Chapter: Resolving Problems following Third Party Product Upgrades
-  Change the Version of Eclipse Being Used with JBoss Developer Studio BYOE [13416]
-  Change the Path of the JVM used to Run JBoss Developer Studio [13420]
+  Change the Version of Eclipse Being Used with JBoss Developer Studio BYOE [13416, rev: 568320]
+  Change the Path of the JVM used to Run JBoss Developer Studio [13420, rev: 564118]

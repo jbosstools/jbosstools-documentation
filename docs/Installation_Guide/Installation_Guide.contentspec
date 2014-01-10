@@ -23,53 +23,53 @@ JIRAComponent = Installation Guide
 # JIRAVersion = 4.1.1
 # JIRALabels =
 # Output Style =
-Feedback = [23618]
-Revision History = [21657]
+Feedback = [23618, rev: 566820]
+Revision History = [21657, rev: 568314]
 Author Group = [24063, rev: 556627]
 # Indentation is meaningful. Use 2 spaces.
 
 [condition = jbds|install]
 Chapter: Introduction to Red Hat JBoss Developer Studio
 #  Beta Product [21439, rev: 551716]
-  About Red Hat JBoss Developer Studio [13337]
-  Use Cases of JBoss Developer Studio [13338]
+  About Red Hat JBoss Developer Studio [13337, rev: 568269]
+  Use Cases of JBoss Developer Studio [13338, rev: 568453]
 
 Chapter: System Requirements
-  System Requirements Overview [15789]
-  Supported Operating Systems and Architectures [13331]
-  Computer Memory [13538]
-  Compatible Java Developer Kits [13333]
+  System Requirements Overview [15789, rev: 564989]
+  Supported Operating Systems and Architectures [13331, rev: 568277]
+  Computer Memory [13538, rev: 568279]
+  Compatible Java Developer Kits [13333, rev: 568281]
     [Refer-to:
       Java Developer Kits [T-Appendix-JDKs]]
 
 Chapter: Install JBoss Developer Studio
-  Install Options [13339]
-  Install JBoss Developer Studio [13342]
-  Install JBoss Developer Studio BYOE [13343]
+  Install Options [13339, rev: 568283]
+  Install JBoss Developer Studio [13342, rev: 568285]
+  Install JBoss Developer Studio BYOE [13343, rev: 568287]
 
 Chapter: Set Preferences on First Launch after Installing
-  Preferences Options [15790]
-  Select a Workspace Location [13347]
-  Set Usage Reporting [13335]
-  Define Servers for Application Servers Found by Runtime Detection [21662]
-  Set the Perspective to JBoss [13346]
+  Preferences Options [15790, rev: 568290]
+  Select a Workspace Location [13347, rev: 564113]
+  Set Usage Reporting [13335, rev: 564112]
+  Define Servers for Application Servers Found by Runtime Detection [21662, rev: 568296]
+  Set the Perspective to JBoss [13346, rev: 568299]
 #Chapter: Test JBoss Developer Studio
 #  Set Up Runtime Detection [N, Task]
 
 Chapter: Upgrade from Previous Versions of JBoss Developer Studio
-  Upgrade Methods [13419]
-  Upgrade from JBoss Developer Studio 6.x and Earlier [22604]
-  Upgrade from JBoss Developer Studio 7.0 [22704]
+  Upgrade Methods [13419, rev: 568301]
+  Upgrade from JBoss Developer Studio 6.x and Earlier [22604, rev: 567750]
+  Upgrade from JBoss Developer Studio 7.0 [22704, rev: 567768]
 
 Chapter: Uninstall JBoss Developer Studio
-  Uninstall Methods [13463]
-  Uninstall JBoss Developer Studio [13344]
-  Uninstall JBoss Developer Studio BYOE [13341]
+  Uninstall Methods [13463, rev: 564124]
+  Uninstall JBoss Developer Studio [13344, rev: 564113]
+  Uninstall JBoss Developer Studio BYOE [13341, rev: 568307]
 
-Appendix: Java Developer Kits [21656] [T-Appendix-JDKs]
-  Determine Default Java Developer Kit of the System [13336]
-  Install a Java Developer Kit [13334]
+Appendix: Java Developer Kits [21656, rev: 566439] [T-Appendix-JDKs]
+  Determine Default Java Developer Kit of the System [13336, rev: 564112]
+  Install a Java Developer Kit [13334, rev: 568460]
 
 Appendix: Supplementary Installation Procedures
-  Build the Universal Installer from Source [22678]
-  Install JBoss Developer Studio by Script [22679]
+  Build the Universal Installer from Source [22678, rev: 567783]
+  Install JBoss Developer Studio by Script [22679, rev: 567796]

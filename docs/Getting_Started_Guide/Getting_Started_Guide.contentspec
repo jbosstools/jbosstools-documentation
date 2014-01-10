@@ -28,44 +28,44 @@ JIRAComponent = Getting Started Guide
 # JIRAVersion = 4.1.1
 # JIRALabels =
 # Output Style =
-Feedback = [23618]
-Revision History = [21694]
+Feedback = [23618, rev: 566820]
+Revision History = [21694, rev: 568330]
 Author Group = [24063, rev: 556627]
 # Indentation is meaningful. Use 2 spaces.
 
 [condition = jbds|gsg]
 Chapter: Introduction to Red Hat JBoss Developer Studio
 #  Beta Product [21439, rev: 551716]
-  About Red Hat JBoss Developer Studio [13337]
-  Use Cases of JBoss Developer Studio [13338]
+  About Red Hat JBoss Developer Studio [13337, rev: 568269]
+  Use Cases of JBoss Developer Studio [13338, rev: 568453]
 
 Chapter: Getting Started with JBoss Developer Studio
-  About Getting Started [13787]
+  About Getting Started [13787, rev: 568332]
 
 Chapter: Install JBoss Developer Studio
-  Installation Assumptions [13863]
-  Install JBoss Developer Studio [13342]
-  Select a Workspace Location [13347]
-  Set Usage Reporting [13335]
+  Installation Assumptions [13863, rev: 568334]
+  Install JBoss Developer Studio [13342, rev: 568285]
+  Select a Workspace Location [13347, rev: 564113]
+  Set Usage Reporting [13335, rev: 564112]
 
 Chapter: Introduction to the TicketMonster Application
-  About the TicketMonster Application [13792]
-  Tutorial Outline [13789]
-  Tutorial Assumptions [13793]
+  About the TicketMonster Application [13792, rev: 564146]
+  Tutorial Outline [13789, rev: 568337]
+  Tutorial Assumptions [13793, rev: 568339]
 
 Chapter: Creating the TicketMonster Application
-  Configure Maven [13798]
-  Set Up a Server Using Runtime Detection [13796]
-  Create a Java EE Web Project Using JBoss Central [13786]
+  Configure Maven [13798, rev: 568341]
+  Set Up a Server Using Runtime Detection [13796, rev: 568343]
+  Create a Java EE Web Project Using JBoss Central [13786, rev: 568345]
 #  Exploring the Project Files
-  Add an Entity Using Forge Tools [13791]
-  Add an Entity Using Hibernate Tools [13784]
-  Prepare Event Records to Populate the Database [13783]
-  Deploy the Application using JBoss Server Tools [13795]
-  Access and Query the Database [13797]
-  Add a RESTful Web Service [13785]
-  Add a User Interface Optimized for Mobile Devices [13794]
-  Test the Mobile User Interface Using BrowserSim [13790]
+  Add an Entity Using Forge Tools [13791, rev: 568347]
+  Add an Entity Using Hibernate Tools [13784, rev: 568349]
+  Prepare Event Records to Populate the Database [13783, rev: 568351]
+  Deploy the Application using JBoss Server Tools [13795, rev: 568353]
+  Access and Query the Database [13797, rev: 568355]
+  Add a RESTful Web Service [13785, rev: 568357]
+  Add a User Interface Optimized for Mobile Devices [13794, rev: 568359]
+  Test the Mobile User Interface Using BrowserSim [13790, rev: 568362]
 
 Chapter: Uninstall JBoss Developer Studio
-  Uninstall JBoss Developer Studio [13344]
+  Uninstall JBoss Developer Studio [13344, rev: 564113]
