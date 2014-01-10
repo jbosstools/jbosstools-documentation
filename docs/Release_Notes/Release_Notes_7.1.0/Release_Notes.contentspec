@@ -25,17 +25,17 @@ JIRAComponent = Release Notes
 # JIRAVersion = 4.1.1
 # JIRALabels =
 # Output Style =
-Feedback = [23618]
-Revision History = [24019]
+Feedback = [23618, rev: 566820]
+Revision History = [24019, rev: 568509]
 Author Group = [24063, rev: 556627]
 # Indentation is meaningful. Use 2 spaces.
 
 [condition = jbds]
 Section: Introduction to Red Hat JBoss Developer Studio
-  About Red Hat JBoss Developer Studio [13337]
-  Use Cases of JBoss Developer Studio [13338]
-About this Release [24015]
-New Features [24020]
-Resolved Issues [24018]
-Known Issues [24017]
-Apply this Release [24016]
+  About Red Hat JBoss Developer Studio [13337, rev: 568269]
+  Use Cases of JBoss Developer Studio [13338, rev: 568453]
+About this Release [24015, rev: 566876]
+New Features [24020, rev: 567665]
+Resolved Issues [24018, rev: 566876]
+Known Issues [24017, rev: 566876]
+Apply this Release [24016, rev: 566876]
