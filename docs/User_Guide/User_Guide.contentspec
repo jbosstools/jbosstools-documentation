@@ -26,7 +26,7 @@ JIRAComponent = User Guide
 # JIRALabels =
 # Output Style =
 Feedback = [23618, rev: 566820]
-Revision History = [22789, rev: 574658]
+Revision History = [22789, rev: 576333]
 Author Group = [24063, rev: 556627]
 # Indentation is meaningful. Use 2 spaces.
 #[Writer=mmurray, JBDS User Guide, JBDS 7.1.z]
@@ -61,14 +61,14 @@ Part: Tools for Every Project
 
   Chapter: JBoss Server Tools
     Section: Overview of JBoss Server Tools
-      About JBoss Server Tools [22806, rev: 566605]
+      About JBoss Server Tools [22806, rev: 576031]
       About IDE Server Definitions [25559, rev: 567530]
         [Refer-to:
           Create a Default Local Server Definition with Runtime Detection [22808]]
     Section: Features of JBoss Server Tools
       Features Overview [22815, rev: 566612]
       Create a Default Local Server Definition with Runtime Detection [22808, rev: 566605]
-      Create an Additional Server Runtime Environment [22810, rev: 566612]
+      Create an Additional Server Runtime Environment [22810, rev: 576036]
       Define an Additional Local Server [22813, rev: 566612]
       Define a Remote Server [22817, rev: 566612]
       Section: Manage Server Settings [22809, rev: 566605]

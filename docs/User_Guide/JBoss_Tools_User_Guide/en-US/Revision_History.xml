@@ -8,14 +8,14 @@
 	<simpara>
 		<revhistory>
 			<revision>
-				<revnumber>1.0.0-1</revnumber><date>Thu Jan 09 2014</date>
+				<revnumber>1.0.0-1</revnumber><date>Fri Jan 17 2014</date>
 				<author>
 					<firstname>Michelle</firstname><surname>Murray</surname><email>robot@dev.null.com</email>
 				</author>
 				<revdescription>
 					<simplelist>
 						<member>
-							Built from Content Specification: 22477, Revision: 574674 by mmurray
+							Built from Content Specification: 22477, Revision: 576037 by mmurray
 						</member>
 					</simplelist>
 				</revdescription>

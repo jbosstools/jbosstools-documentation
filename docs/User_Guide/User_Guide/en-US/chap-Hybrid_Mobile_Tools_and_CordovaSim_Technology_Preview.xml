@@ -18,7 +18,7 @@
 			</para>
 		</note>
 		<para role="RoleCreateBugPara">
-			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+23368-546549+%5BSpecified%5D&amp;description=Title%3A+Technology+Preview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+23368-546549+%5BSpecified%5D&amp;description=Title%3A+Technology+Preview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 		</para>
 	</section>
 	<section id="sect-Overview_of_Hybrid_Mobile_Tools_and_CordovaSim">
@@ -58,7 +58,7 @@
 				Apache Cordova is an open source project, of which there are various distributions. PhoneGap, in addition to being the originator of Cordova, and IBM Worklight are such distributions.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+24055-567444+%5BLatest%5D&amp;description=Title%3A+About+Apache+Cordova%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+24055-567444+%5BSpecified%5D&amp;description=Title%3A+About+Apache+Cordova%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="About_Hybrid_Mobile_Tools" remap="TID_24051">
@@ -100,7 +100,7 @@
 				Hybrid Mobile Tools, together with CordovaSim, provides a rounded hybrid mobile development and testing environment.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+24051-574465+%5BLatest%5D&amp;description=Title%3A+About+Hybrid+Mobile+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+24051-574465+%5BSpecified%5D&amp;description=Title%3A+About+Hybrid+Mobile+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="About_CordovaSim" remap="TID_24054">
@@ -132,7 +132,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+24054-567651+%5BLatest%5D&amp;description=Title%3A+About+CordovaSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+24054-567651+%5BSpecified%5D&amp;description=Title%3A+About+CordovaSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="System_Requirements_for_Hybrid_Mobile_Tools" remap="TID_24119">
@@ -186,7 +186,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+24119-574591+%5BLatest%5D&amp;description=Title%3A+System+Requirements+for+Hybrid+Mobile+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+24119-574591+%5BSpecified%5D&amp;description=Title%3A+System+Requirements+for+Hybrid+Mobile+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="System_Requirements_for_CordovaSim" remap="TID_24056">
@@ -212,7 +212,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+24056-574657+%5BLatest%5D&amp;description=Title%3A+System+Requirements+for+CordovaSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+24056-574657+%5BSpecified%5D&amp;description=Title%3A+System+Requirements+for+CordovaSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Install_Hybrid_Mobile_Tools_and_CordovaSim" remap="TID_24053">
@@ -293,7 +293,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+24053-574575+%5BLatest%5D&amp;description=Title%3A+Install+Hybrid+Mobile+Tools+and+CordovaSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+24053-574575+%5BSpecified%5D&amp;description=Title%3A+Install+Hybrid+Mobile+Tools+and+CordovaSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
@@ -337,7 +337,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+24381-566901+%5BLatest%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+24381-566901+%5BSpecified%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Create_a_Hybrid_Mobile_Project" remap="TID_24058">
@@ -421,7 +421,7 @@
 				During project creation, the wizard imports project dependencies and populates a <filename>config.xml</filename> file. Once created, the project is listed in the <guilabel>Project Explorer</guilabel> view and the <filename>config.xml</filename> file is automatically opened in the <guilabel>Cordova Configuration Editor</guilabel>.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+24058-567462+%5BLatest%5D&amp;description=Title%3A+Create+a+Hybrid+Mobile+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+24058-567462+%5BSpecified%5D&amp;description=Title%3A+Create+a+Hybrid+Mobile+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Enable_Cordova_Plug-ins_for_an_Application" remap="TID_24151">
@@ -500,7 +500,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+24151-568235+%5BLatest%5D&amp;description=Title%3A+Enable+Cordova+Plug-ins+for+an+Application%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+24151-568235+%5BSpecified%5D&amp;description=Title%3A+Enable+Cordova+Plug-ins+for+an+Application%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="sect-Manage_Cordova_Settings_of_a_Hybrid_Mobile_Project">
@@ -557,7 +557,7 @@
 				To open the Cordova Configuration Editor for a specific hybrid mobile project, in the <guilabel>Project Explorer</guilabel> view right-click the <filename>config.xml</filename> file. Click <guilabel>Open With</guilabel>&rarr;<guilabel>Cordova Configuration Editor</guilabel>. All changes to the Cordova settings of a project must be saved before the results take effect. To save, press <keycap>Ctrl+S</keycap>.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+24059-567493+%5BLatest%5D&amp;description=Title%3A+Manage+Cordova+Settings+of+a+Hybrid+Mobile+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+24059-567493+%5BSpecified%5D&amp;description=Title%3A+Manage+Cordova+Settings+of+a+Hybrid+Mobile+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 			<section id="Manage_Cordova_Settings_in_the_Overview_Tab" remap="TID_24298">
 				<title>Manage Cordova Settings in the Overview Tab</title>
@@ -578,7 +578,7 @@
 					All changes to <filename>config.xml</filename> must be saved before the results take effect. To save, press <keycap>Ctrl+S</keycap>.
 				</para>
 				<para role="RoleCreateBugPara">
-					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+24298-567510+%5BLatest%5D&amp;description=Title%3A+Manage+Cordova+Settings+in+the+Overview+Tab%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+24298-567510+%5BSpecified%5D&amp;description=Title%3A+Manage+Cordova+Settings+in+the+Overview+Tab%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 				</para>
 			</section>
 			<section id="Manage_Cordova_Settings_in_the_Platform_Properties_Tab" remap="TID_24297">
@@ -667,7 +667,7 @@
 					All changes to <filename>config.xml</filename> must be saved before the results take effect. To save, press <keycap>Ctrl+S</keycap>.
 				</para>
 				<para role="RoleCreateBugPara">
-					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+24297-567509+%5BLatest%5D&amp;description=Title%3A+Manage+Cordova+Settings+in+the+Platform+Properties+Tab%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+24297-567509+%5BSpecified%5D&amp;description=Title%3A+Manage+Cordova+Settings+in+the+Platform+Properties+Tab%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 				</para>
 			</section>
 		</section>
@@ -740,7 +740,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+24062-567498+%5BLatest%5D&amp;description=Title%3A+Run+a+Hybrid+Mobile+Application+on+Devices+and+Simulators%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+24062-567498+%5BSpecified%5D&amp;description=Title%3A+Run+a+Hybrid+Mobile+Application+on+Devices+and+Simulators%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Manage_Hybrid_Mobile_Project_Run_Configurations" remap="TID_24169">
@@ -812,7 +812,7 @@
 				</varlistentry>
 			</variablelist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+24169-567499+%5BLatest%5D&amp;description=Title%3A+Manage+Hybrid+Mobile+Project+Run+Configurations%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+24169-567499+%5BSpecified%5D&amp;description=Title%3A+Manage+Hybrid+Mobile+Project+Run+Configurations%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Export_a_Hybrid_Mobile_Project" remap="TID_24325">
@@ -908,13 +908,13 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+24325-567503+%5BLatest%5D&amp;description=Title%3A+Export+a+Hybrid+Mobile+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+24325-567503+%5BSpecified%5D&amp;description=Title%3A+Export+a+Hybrid+Mobile+Project%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
 	<section id="sect-Customizing_Hybrid_Mobile_Tools_and_CordovaSim">
 		<title>Customizing Hybrid Mobile Tools and CordovaSim</title>
-		<section id="Customizing_Overview7" remap="TID_22589">
+		<section id="Customizing_Overview5" remap="TID_22589">
 			<title>Customizing Overview</title>
 			<para>
 				The aim of this section is to guide you in customizing Hybrid Mobile Tools and CordovaSim:
@@ -927,7 +927,7 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+22589-574561+%5BLatest%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+22589-574561+%5BSpecified%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Set_the_Android_SDK_Location" remap="TID_22588">
@@ -950,7 +950,7 @@
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+22588-574573+%5BLatest%5D&amp;description=Title%3A+Set+the+Android+SDK+Location%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+22588-574573+%5BSpecified%5D&amp;description=Title%3A+Set+the+Android+SDK+Location%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
