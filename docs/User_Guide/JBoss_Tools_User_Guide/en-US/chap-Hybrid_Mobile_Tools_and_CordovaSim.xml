@@ -193,16 +193,16 @@
 				<title>Install Hybrid Mobile Tools and CordovaSim</title>
 				<step>
 					<para>
-						To install these plug-ins, drag the following link into JBoss Central: <ulink url="https://devstudio.jboss.com/central/install?connectors=org.jboss.tools.aerogear.hybrid"/>. Alternatively, in JBoss Central select the <guilabel>Software/Update</guilabel> tab. In the <guilabel>Find</guilabel> field, type <guilabel>JBoss Hybrid Mobile Tools</guilabel> or scroll through the list to locate <guilabel>JBoss Hybrid Mobile Tools + CordovaSim</guilabel>. Select the corresponding check box and click <guibutton>Install</guibutton>.
+						To install these plug-ins, drag the following link into JBoss Central: <ulink url="http://download.jboss.org/jbosstools/central/install?connectors=org.jboss.tools.aerogear.hybrid"/>. Alternatively, in JBoss Central select the <guilabel>Software/Update</guilabel> tab. In the <guilabel>Find</guilabel> field, type <guilabel>JBoss Hybrid Mobile Tools</guilabel> or scroll through the list to locate <guilabel>JBoss Hybrid Mobile Tools + CordovaSim</guilabel>. Select the corresponding check box and click <guibutton>Install</guibutton>.
 					</para>
 					<figure>
 						<title>Start the Hybrid Mobile Tools and CordovaSim Installation Process with the Link</title>
 						<mediaobject>
 							<imageobject>
-								<imagedata fileref="images/4403.png"/>
+								<imagedata fileref="images/4706.png"/>
 							</imageobject>
 							<textobject>
-								<phrase>To install these plug-ins, drag the following link into JBoss Central: <ulink url="https://devstudio.jboss.com/central/install?connectors=org.jboss.tools.aerogear.hybrid"/>.</phrase>
+								<phrase>To install these plug-ins, drag the following link into JBoss Central: <ulink url="http://download.jboss.org/jbosstools/central/install?connectors=org.jboss.tools.aerogear.hybrid"/>.</phrase>
 							</textobject>
 						</mediaobject>
 					</figure>
@@ -210,10 +210,10 @@
 						<title>Find Hybrid Mobile Tools and CordovaSim in JBoss Central <guilabel>Software/Update</guilabel> Tab</title>
 						<mediaobject>
 							<imageobject>
-								<imagedata fileref="images/4404.png"/>
+								<imagedata fileref="images/4705.png"/>
 							</imageobject>
 							<textobject>
-								<phrase>To install these plug-ins, drag the following link into JBoss Central: <ulink url="https://devstudio.jboss.com/central/install?connectors=org.jboss.tools.aerogear.hybrid"/>.</phrase>
+								<phrase>Alternatively, in JBoss Central select the <guilabel>Software/Update</guilabel> tab. In the <guilabel>Find</guilabel> field, type <guilabel>JBoss Hybrid Mobile Tools</guilabel> or scroll through the list to locate <guilabel>JBoss Hybrid Mobile Tools + CordovaSim</guilabel>. Select the corresponding check box and click <guibutton>Install</guibutton>.</phrase>
 							</textobject>
 						</mediaobject>
 					</figure>
