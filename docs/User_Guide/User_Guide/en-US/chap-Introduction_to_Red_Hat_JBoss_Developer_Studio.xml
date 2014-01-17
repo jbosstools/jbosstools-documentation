@@ -60,7 +60,7 @@
 			JBoss&nbsp;Developer&nbsp;Studio comes built around Eclipse and packaged with all of the necessary dependencies and third-party plug-ins for simplified installing. For developers already running Eclipse, JBoss&nbsp;Developer&nbsp;Studio can also be installed through Eclipse Marketplace. For distinction, this latter JBoss&nbsp;Developer&nbsp;Studio installation is called JBoss&nbsp;Developer&nbsp;Studio BYOE (Bring Your Own Eclipse).
 		</para>
 		<para role="RoleCreateBugPara">
-			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+13337-568269+%5BLatest%5D&amp;description=Title%3A+About+Red+Hat+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+13337-568269+%5BSpecified%5D&amp;description=Title%3A+About+Red+Hat+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 		</para>
 	</section>
 	<section id="Use_Cases_of_JBoss_Developer_Studio" remap="TID_13338">
@@ -115,7 +115,7 @@
 			</varlistentry>
 		</variablelist>
 		<para role="RoleCreateBugPara">
-			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+09-01-2014+16%3A17%3A26%0ATopic+ID%3A+13338-568453+%5BLatest%5D&amp;description=Title%3A+Use+Cases+of+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A07%3A20%0ATopic+ID%3A+13338-568453+%5BSpecified%5D&amp;description=Title%3A+Use+Cases+of+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
 		</para>
 	</section>
 </chapter>

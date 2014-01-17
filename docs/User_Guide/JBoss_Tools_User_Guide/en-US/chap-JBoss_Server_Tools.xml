@@ -16,7 +16,7 @@
 				JBoss Server Tools consists of wizards, editors and actions that enable you to define, configure and manage application servers.
 			</para>
 			<para>
-				Runtime detection is available to assist you in locating installed application servers and integrating them into the IDE ready for use. Additionally, you can define remote servers for <phrase>JBoss community application servers</phrase> in the enhanced New Server wizard, which integrates with the IDE Remote System Explorer (RSE) tool.<phrase>JBoss Server Tools also allows you to download JBoss community application servers from within the IDE.</phrase>
+				Runtime detection is available to assist you in locating installed application servers and integrating them into the IDE ready for use. Additionally, you can define remote servers for <phrase>JBoss community application servers</phrase> in the enhanced New Server wizard, which integrates with the IDE Remote System Explorer (RSE) tool.<phrase> JBoss Server Tools also allows you to download JBoss community application servers from within the IDE.</phrase>
 			</para>
 			<para>
 				Extensions to the standard IDE New Server wizard and Server Editor allow you to specify and customize more management and behavior settings for servers. Settings include IDE interaction with servers such as launching, communicating and publishing. The JBoss Server Editor supports you to manage server settings for global and individual application deployment.
@@ -369,7 +369,7 @@
 						</listitem>
 						<listitem>
 							<para>
-								In the <guilabel>Home Directory</guilabel> field, type the path of the installed application server or click <guibutton>Browse</guibutton> to navigate to the location.<phrase>Alternatively, to use a JBoss community application server that is not already installed on the system, click <guilabel>Download and install runtime</guilabel> and follow the instructions.</phrase>
+								In the <guilabel>Home Directory</guilabel> field, type the path of the installed application server or click <guibutton>Browse</guibutton> to navigate to the location.<phrase> Alternatively, to use a JBoss community application server that is not already installed on the system, click <guilabel>Download and install runtime</guilabel> and follow the instructions.</phrase>
 							</para>
 						</listitem>
 						<listitem>

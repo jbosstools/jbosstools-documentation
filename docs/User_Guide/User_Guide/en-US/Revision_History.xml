@@ -8,6 +8,19 @@
 	<simpara>
 		<revhistory>
 			<revision>
+				<revnumber>7.1.1-2</revnumber><date>Fri Jan 17 2014</date>
+				<author>
+					<firstname>Michelle</firstname><surname>Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-448: OpenShift screen capture updated
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision>
 				<revnumber>7.1.1-1</revnumber><date>Thu Jan 09 2014</date>
 				<author>
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
@@ -15,7 +28,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOLSDOC-441, TOOLSDOC-442: Typo fixed and system requirements clarified
+							TOOLSDOC-441, TOOLSDOC-442: Typo fixed and Hybrid Mobile system requirements clarified
 						</member>
 					</simplelist>
 				</revdescription>
