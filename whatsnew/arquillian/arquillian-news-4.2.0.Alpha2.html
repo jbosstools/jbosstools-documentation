@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Language" content="en-us" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="../whatsnew.css" />
+    <title>What's New in Arquillian Eclipse</title>
+    <script type="text/javascript">
+      
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-17645367-5']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+      
+    </script></head>
+    <body>
+      <h1>Arquillian Eclipse</h1>
+      
+      <p align="right">
+      <a href="../index.html">&lt; Main Index</a> 
+      <a href="../jst/jst-news-4.2.0.Alpha2.html">JST/JSF/HTML Tools &gt;</a> 
+      </p>
+ 
+      <table border="0" cellpadding="10" cellspacing="0" width="100%">
+        <tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+        
+        <tr>
+          <td valign="top" align="left">
+          <a name="deploymentmethod" id="arquillianeclipse"></a><b>Arquillian Dependencies</b></td>
+          <td valign="top">
+            <p>
+              The <b>Create Arquillian Deployment Method</b> action scans for all, direct and indirect dependencies.<br/> 
+              Those dependencies can be automatically added to the deployment using the Create Arquillian Deployment Method wizard.
+            </p>
+            <img src="images/dependentClasses.png"/>
+          	<p><small>Related jira: <a href="https://issues.jboss.org/browse/JBIDE-14525">JBIDE-14525</a> 
+          	<a href="https://issues.jboss.org/browse/JBIDE-14518">JBIDE-14518</a></small></p>
+              
+      		</td>
+	    </tr>
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+
+		<tr>
+          <td valign="top" align="left">
+          <a name="validator" id="validator"></a><b>Refactor Arquillian validator</b></td>
+          <td valign="top">
+            <p>
+              Now, the Arquillian validator uses AST to search for dependencies.<br/>
+              This way, performance are significantly improved because we don't have to create Arquillian archive(s) anymore.<br/>
+              Likewise, the Arquillian validator is implemented as an Eclipse builder instead of JDT compiler participant which improves its stability.
+            </p>
+            
+            <p><small>Related jiras: <a href="https://issues.jboss.org/browse/JBIDE-16324">JBIDE-16324</a> 
+            <a href="https://issues.jboss.org/browse/JBIDE-16331">JBIDE-16331</a></small></p>
+            
+      	  </td>
+	    </tr>
+		
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+		
+		<tr>
+          <td valign="top" align="left">
+          <a name="typevalidation" id="typevalidaion"></a><b>ShrinkWrap Archive name/type validation</b></td>
+          <td valign="top">
+            <p>
+              The Arquillian validator checks if an archive name extension matches an archive type.
+            </p>
+            <img src="images/validateArchiveName.png"/>
+            <p/>
+            <img src="images/validateArchiveName1.png"/>
+            <p><small>Related jiras: 
+              <a href="https://issues.jboss.org/browse/JBIDE-14780">JBIDE-14780</a> 
+              <a href="https://issues.jboss.org/browse/JBIDE-14781">JBIDE-14781</a>
+              <a href="https://issues.jboss.org/browse/JBIDE-14781">JBIDE-15657</a><br/>
+              See <a href="http://screencast.com/t/1zGLUgYVLBY">screencast</a>
+            </small></p>
+      	  </td>
+	    </tr>
+		
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+		
+		<tr>
+          <td valign="top" align="left">
+          <a name="addarquilliansupport" id="addarquilliansupport"></a><b>Add Arquillian support</b></td>
+          <td valign="top">
+            <p>
+              The <b>Add Arquillian Support</b> dialog is significantly improved.<br/>
+              A user can decide if he wants to change the pom.xml file, which sections to change as well as which arquillian version to use.<br/>
+              There is also the pom.xml preview page.
+            </p>
+            <img src="images/addArquillianSupport.png"/>
+            <p/>
+            <img src="images/addArquillianSupport1.png"/>
+            <p><small>Related jiras: 
+              <a href="https://issues.jboss.org/browse/JBIDE-14426">JBIDE-14426</a> 
+              <a href="https://issues.jboss.org/browse/JBIDE-14428">JBIDE-14428</a>
+            </small></p>
+      	  </td>
+	    </tr>
+		
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+		
+		<tr>
+          <td valign="top" align="left">
+          <a name="missingtype" id="missingtype"></a><b>Add <i>missing type</i> to deployment Quick Fix</b></td>
+          <td valign="top">
+            <p>
+              Arquillian includes a new Quick Fix.
+            </p><br/>
+            <img src="images/addMissingType.png"/>
+            <p></p>
+            <img src="images/addMissingType1.png"/>
+            <p><small>Related jiras:  
+              <a href="https://issues.jboss.org/browse/JBIDE-14528">JBIDE-14528</a>
+            </small></p>
+      	  </td>
+	    </tr>
+		
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+		
+		<tr>
+          <td valign="top" align="left">
+          <a name="arquilliaViewFilter" id="arquilliaViewFilter"></a><b>Arquillia Cruiser View filtering</b></td>
+          <td valign="top">
+            <p>
+              Arquillia Cruiser View contains a filter to filtrate active projects.
+            </p>
+            <img src="images/arquilliaViewFilter.png"/>
+            <p><small>Related jiras:  
+              <a href="https://issues.jboss.org/browse/JBIDE-14524">JBIDE-14524</a>
+            </small></p>
+      	  </td>
+	    </tr>
+		
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+		
+		<tr>
+          <td valign="top" align="left">
+          <a name="arquilliaViewLink" id="arquilliaViewLink"></a><b>Arquillia Cruiser View linking</b></td>
+          <td valign="top">
+            <p>
+              Double-clicking an archive resource in the Arquillia Cruiser view opens the resource in the associatted Eclipse editor.
+            </p>
+            <p><small>Related jiras:  
+              <a href="https://issues.jboss.org/browse/JBIDE-14522">JBIDE-14522</a>
+            </small></p>
+      	  </td>
+	    </tr>
+		
+		<tr>
+			<td colspan="2">
+				<hr/>
+			</td>
+		</tr>
+</table>
+</body>
+</html>
+
+
