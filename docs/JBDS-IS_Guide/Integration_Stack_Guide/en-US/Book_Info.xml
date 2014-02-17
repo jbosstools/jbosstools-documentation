@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE bookinfo PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Integration_Stack_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<bookinfo id="book-Integration_Stack_Guide-Integration_Stack_Guide">
+	<title>Integration Stack Guide</title>
+	<subtitle>Information for users wanting an overview of Red Hat JBoss Developer Studio Integration Stack</subtitle>
+	<productname>Red Hat JBoss Developer Studio</productname>
+	<productnumber>7.1</productnumber>
+		<pubsnumber>1</pubsnumber>
+	<abstract>
+		<para>
+			This document contains a high level overview of JBoss Developer Studio Integration Stack and provides details of where to find further information about the product.
+		</para>
+	</abstract>
+
+	
+	<xi:include href="Legal_Notice.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<xi:fallback xmlns:xi="http://www.w3.org/2001/XInclude">
+		<xi:include href="Common_Content/Legal_Notice.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	</xi:fallback>
+</xi:include>
+	<xi:include href="Author_Group.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+</bookinfo>
