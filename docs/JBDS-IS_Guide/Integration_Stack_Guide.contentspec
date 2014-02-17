@@ -1,0 +1,38 @@
+ID = 22570
+Title = Integration Stack Guide
+Subtitle = Information for users wanting an overview of Red Hat JBoss Developer Studio Integration Stack
+Abstract = This document contains a high level overview of JBoss Developer Studio Integration Stack and provides details of where to find further information about the product.
+Product = Red Hat JBoss Developer Studio
+Version = 7.1
+#Edition =
+DTD = Docbook 4.5
+Copyright Holder = Red Hat, Inc
+# The commented fields below are optional
+Brand = JBoss
+# publican.cfg = [show_remarks: 1]
+# pubsnumber =
+# Debug = [0|1|2]
+Bug Links = Jira
+JIRAServer = https://issues.jboss.org/
+JIRAProject = TOOLSDOC
+JIRAComponent = Integration Stack Guide
+# JIRAVersion = 4.1.1
+# JIRALabels =
+# Output Style =
+Feedback = [23618, rev: 566820]
+Revision History = [28337]
+Author Group = [24063, rev: 556627]
+# Indentation is meaningful. Use 2 spaces.
+
+[condition = jbds]
+Chapter: Introduction to Red Hat JBoss Developer Studio
+#  Beta Product [21439, rev: 551716]
+  About Red Hat JBoss Developer Studio [13337, rev: 568269]
+  Use Cases of JBoss Developer Studio [13338, rev: 568453]
+
+Chapter: Introduction to Red Hat JBoss Developer Studio Integration Stack
+  About Red Hat JBoss Developer Studio Integration Stack [28335]
+  #More Information about JBoss Developer Studio Integration Stack [28336]
+  Installing JBoss Developer Studio Integration Stack [28358]
+    [Refer-to:
+      About Red Hat JBoss Developer Studio Integration Stack [28335]]

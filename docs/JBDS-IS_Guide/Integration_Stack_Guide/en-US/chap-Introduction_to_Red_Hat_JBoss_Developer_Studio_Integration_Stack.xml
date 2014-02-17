@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Integration_Stack_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Introduction_to_Red_Hat_JBoss_Developer_Studio_Integration_Stack">
+	<title>Introduction to Red Hat JBoss Developer Studio Integration Stack</title>
+	<section id="About_Red_Hat_JBoss_Developer_Studio_Integration_Stack" remap="TID_28335">
+		<title>About Red Hat JBoss Developer Studio Integration Stack</title>
+		<para>
+			Red Hat JBoss Developer Studio Integration Stack is a set of Eclipse-based development tools. It further enhances the IDE functionality provided by JBoss Developer Studio, with plug-ins specifically for use when developing for other Red Hat JBoss products.
+		</para>
+		<para>
+			JBoss Business Process and Rules Development plug-ins provides design, debug and testing tooling for developing business processes for Red Hat JBoss BRMS and Red Hat JBoss BPM Suite. For more information, see the Red Hat JBoss BRMS Getting Started Guide and Red Hat JBoss BPM Suite Getting Started Guide.
+		</para>
+		<para>
+			JBoss Data Virtualization Development plug-ins provide a graphical interface to manage various aspects of Red Hat JBoss Data Virtualization instances, including the ability to design virtual databases and interact with associated governance repositories. For more information, see the Red Hat JBoss Data Virtualization User Guide.
+		</para>
+		<para>
+			JBoss Integration and SOA Development plug-ins provide tooling for developing, configuring and deploying SwitchYard and Fuse applications to Red Hat JBoss Fuse Service Works, Red Hat JBoss Fuse and Fuse Fabric containers, Apache ServiceMix, and Apache Karaf instances. For more information, see the Red Hat JBoss Fuse Service Works User Guide, Red Hat JBoss Fuse Tooling User Guide and Red Hat JBoss Fuse Tooling Tutorials.
+		</para>
+		<para>
+			JBoss Developer Studio Integration Stack and JBoss Developer Studio are released asynchronously and current information on each of the JBoss Developer Studio Integration Stack components can be found in the associated Red Hat JBoss product documentation. The documentation is available from <ulink url="https://access.redhat.com/site/documentation/"/> on the Red Hat Customer Portal.
+		</para>
+	</section>
+	<section id="Installing_JBoss_Developer_Studio_Integration_Stack1" remap="TID_28358">
+		<title>Installing JBoss Developer Studio Integration Stack</title>
+		<para/>
+		<para>
+			JBoss Developer Studio Integration Stack is not packaged as part of JBoss&nbsp;Developer&nbsp;Studio installations. These plug-ins must be installed independently through JBoss Central, as detailed in the procedure below.
+		</para>
+		<procedure>
+			<title>Install JBoss Developer Studio Integration Stack</title>
+			<step>
+				<para>
+					Start JBoss Developer Studio.
+				</para>
+			</step>
+			<step>
+				<para>
+					In JBoss Central, select the <guilabel>Software/Update</guilabel> tab. Scroll through the list to locate <guilabel>JBoss Developer Studio Integration Stack</guilabel>. Select the check boxes corresponding to the functionality you want to install and click <guibutton>Install</guibutton>.
+				</para>
+				<figure>
+					<title>Find JBoss Developer Studio Integration Stack in JBoss Central Software/Update Tab</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/4769.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>In JBoss Central, select the <guilabel>Software/Update</guilabel> tab. Scroll through the list to locate <guilabel>JBoss Developer Studio Integration Stack</guilabel>. Select the check boxes corresponding to the functionality you want to install and click <guibutton>Install</guibutton>.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>
+			</step>
+			<step>
+				<para>
+					In the <application>Install</application> wizard, ensure the check boxes are selected for the software you want to install and click <guibutton>Next</guibutton>. It is recommended that you install all of the selected components.
+				</para>
+			</step>
+			<step>
+				<para>
+					Review the details of the items listed for install and click <guibutton>Next</guibutton>. After reading and agreeing to the license(s), click <guilabel>I accept the terms of the license agreement(s)</guilabel> and click <guibutton>Finish</guibutton>. The <guilabel>Installing Software</guilabel> window opens and reports the progress of the installation.
+				</para>
+			</step>
+			<step>
+				<para>
+					During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.
+				</para>
+				<figure>
+					<title>Warning Prompt for Installing Unsigned Content</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/3981.png"/>
+						</imageobject>
+						<textobject>
+							<phrase>During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.</phrase>
+						</textobject>
+					</mediaobject>
+				</figure>
+			</step>
+			<step>
+				<para>
+					Once installing is complete, you are prompted to restart the IDE. Click <guibutton>Yes</guibutton> to restart now and <guibutton>No</guibutton> if you need to save any unsaved changes to open projects. Note that changes do not take effect until the IDE is restarted.
+				</para>
+			</step>
+		</procedure>
+		<para>
+			Once installed, you may need to complete additional configuration actions before you can use the individual JBoss Developer Studio Integration Stack components. For plug-in specific configuration information, see the appropriate Red Hat JBoss product documentation available from <ulink url="https://access.redhat.com/site/documentation"/> on the Red Hat Customer Portal.
+		</para>
+		<important>
+			<para>
+				The installation method for early releases of JBoss Developer Studio Integration Stack may vary from that given here, For instructions, see the appropriate Red Hat JBoss product documentation available from <ulink url="https://access.redhat.com/site/documentation"/> on the Red Hat Customer Portal.
+			</para>
+		</important>
+		<itemizedlist role="see-also-list">
+			<title>See Also:</title>
+			<listitem>
+				<para>
+					<xref linkend="About_Red_Hat_JBoss_Developer_Studio_Integration_Stack" xrefstyle="see-also"/>
+				</para>
+			</listitem>
+		</itemizedlist>
+	</section>
+</chapter>
