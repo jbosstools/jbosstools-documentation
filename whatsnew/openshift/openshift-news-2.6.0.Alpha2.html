@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../whatsnew.css" />
+<title>OpenShift Tools 2.6.0.Alpha2 What's New</title>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-17645367-5' ]);
+	_gaq.push([ '_trackPageview' ]);
+
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<style type="text/css">
+.border {
+	border-collapse:collapse;
+	border-style:none;
+	border:1px dotted #ccc;
+}
+</style>
+</head>
+<body>
+	<h1>OpenShift 2.6.0.Alpha2 What's New</h1>
+	<p align="right">
+		<a href="../jst/jst-news-4.2.0.Alpha2.html">&lt; JST/JSF/HTML Tools</a>&nbsp;
+		<a href="../forge/forge-news-4.2.0.Alpha2.html">Forge Tools &gt;</a>
+	</p>
+	<table border="0" cellpadding="10" cellspacing="0" width="80%">
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>SSL Certificates</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Untrusted SSL Certificates</b></td>
+			<td valign="top" align="left">
+				<p>In case the server sends an SSL certificate that we cannot verify, we'll now present it to you. Allowing you to accept or refuse it.</p>
+				<p>
+					<img src="images/certificate-dialog.png"/>
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-14768">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+				<h3>Existing Projects</h3>
+				<hr />
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" align="left"><b>Show All Projects</b></td>
+			<td valign="top" align="left">
+				<p>
+					When creating a new OpenShift application you can choose to merge it with your existing workspace project. 
+					By default, the selection dialog will filter out projects that are shared with a non-git source control and 
+					internal Remote System Explorer projects. 
+					Nevertheless We'll show all projects if you check <strong>Show all projects</strong>.
+				</p>
+				<p>
+					<img src="images/show-all-projects.png"/>
+				</p>
+				<p>
+					<small>
+						<a href="https://issues.jboss.org/browse/JBIDE-16357">Related Jira</a>
+					</small>
+				</p>
+			</td>
+		</tr>
+
+	</table>
+</body>
+</html>
