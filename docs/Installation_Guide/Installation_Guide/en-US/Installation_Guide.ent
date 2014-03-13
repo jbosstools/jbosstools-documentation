@@ -1,7 +1,8 @@
+<!-- CS ENTITIES -->
 <!ENTITY BOOKID "Installation_Guide">
 <!ENTITY PRODUCT "Red Hat JBoss Developer Studio">
 <!ENTITY TITLE "Installation Guide">
-<!ENTITY YEAR "2013">
+<!ENTITY YEAR "2014">
 <!ENTITY HOLDER "Red Hat, Inc">
 <!ENTITY BZPRODUCT "Red Hat JBoss Developer Studio">
 <!ENTITY BZCOMPONENT "documentation">

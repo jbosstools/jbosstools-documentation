@@ -3,13 +3,26 @@
 <!ENTITY % BOOK_ENTITIES SYSTEM "Installation_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-<appendix id="appe-Installation_Guide-Revision_History">
+<appendix id="appe-Installation_Guide-Revision_History" remap="TID_21657">
 	<title>Revision History</title>
 	<simpara>
 		<revhistory>
-			<revision>
+			<revision> 
+				<revnumber>7.1.1-1</revnumber><date>Thu Mar 13 2014</date>
+				<author> 
+					<firstname>Michelle</firstname><surname>Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-457: Supported operating systems updated
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision> 
 				<revnumber>7.1.0-7</revnumber><date>Tue Dec 10 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -20,9 +33,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-6</revnumber><date>Fri Nov 08 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -33,9 +46,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-5</revnumber><date>Wed Nov 06 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -46,9 +59,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-4</revnumber><date>Tue Nov 05 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -59,9 +72,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-3</revnumber><date>Thu Oct 24 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -72,9 +85,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-2</revnumber><date>Thu Oct 10 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -85,9 +98,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-1</revnumber><date>Wed Oct 09 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>

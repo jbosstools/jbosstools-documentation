@@ -6,6 +6,13 @@
 <chapter id="chap-Install_JBoss_Developer_Studio">
 	<title>Install JBoss Developer Studio</title>
 	<section id="Install_Options" remap="TID_13339">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
 		<title>Install Options</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio can be installed in a number of different ways.
@@ -21,7 +28,14 @@
 		</para>
 	</section>
 	<section id="Install_JBoss_Developer_Studio" remap="TID_13342">
-		<title>Install JBoss Developer Studio</title>
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>Install JBoss Developer Studio</title>  
 		<para>
 			A universal installer <filename>.jar</filename> file is provided for installing JBoss&nbsp;Developer&nbsp;Studio and it is available from the Customer Portal. A second version of the universal installer for installing both JBoss Developer Studio and JBoss EAP is also available from the Customer Portal. The procedure below guides you though obtaining the universal installers and the installation process.
 		</para>
@@ -50,7 +64,7 @@
 						<imageobject>
 							<imagedata fileref="images/3846.png"/>
 						</imageobject>
-						<textobject>
+						<textobject> 
 							<phrase>Log in to the Customer Portal at <ulink url="https://access.redhat.com">https://access.redhat.com</ulink>. From the menu bar click <guimenu>Downloads</guimenu>. Under <guimenu>Red Hat JBoss Middleware</guimenu>, click <guimenu>Download Software</guimenu>.</phrase>
 						</textobject>
 					</mediaobject>
@@ -58,20 +72,20 @@
 			</step>
 			<step>
 				<para>
-					Under <guilabel>Software Downloads</guilabel>, select the following options: 
-					<itemizedlist>
-						<listitem>
-							<para>
-								From the <guilabel>Product</guilabel> list, select <guilabel>JBoss Developer Studio</guilabel>.
-							</para>
-						</listitem>
-						<listitem>
-							<para>
-								From the <guilabel>Version</guilabel> list, select <guilabel>7.1.x</guilabel>.
-							</para>
-						</listitem>
-					</itemizedlist>
+					Under <guilabel>Software Downloads</guilabel>, select the following options:
 				</para>
+				<itemizedlist>
+					<listitem>
+						<para>
+							From the <guilabel>Product</guilabel> list, select <guilabel>JBoss Developer Studio</guilabel>.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							From the <guilabel>Version</guilabel> list, select <guilabel>7.1.x</guilabel>.
+						</para>
+					</listitem>
+				</itemizedlist> 
 				<!--<figure>
 				<title>JBoss Developer Studio Downloads Listed on the Customer Portal</title>
 				<mediaobject>
@@ -84,7 +98,7 @@
 				</mediaobject>
 			</figure>-->
 			</step>
-			<step>
+			<step> 
 				<para>
 					From the table, click <guibutton>Download</guibutton> for one of the following: 
 					<itemizedlist>
@@ -98,20 +112,23 @@
 								For the JBoss&nbsp;Developer&nbsp;Studio and JBoss EAP universal installer, click <guibutton>Download</guibutton> for the <filename>Red Hat JBoss Developer Studio 7.1.x Universal Binary with JBoss EAP</filename> download file.
 							</para>
 						</listitem>
-					</itemizedlist> This downloads a universal installer <filename>.jar</filename> file.
+					</itemizedlist>
+				</para>
+				<para>
+					This downloads a universal installer <filename>.jar</filename> file.
 				</para>
 			</step>
 			<step>
 				<para>
 					On the command line, navigate to <filename>path/to/.jar</filename> and enter 
 					<screen>java -jar jbdevstudio-product-universal-<replaceable>version</replaceable>.jar</screen><phrase>or</phrase>
-					<screen>java -jar jbdevstudio-product-eap-universal-<replaceable>version</replaceable>.jar</screen><phrase>as appropriate for the downloaded universal installer,</phrase> where <replaceable>version</replaceable> is substituted to match the name of the <filename>.jar</filename> file. 
-					<note>
-						<para>
-							Alternatively, to start the installer you may be able to double-click the <filename>.jar</filename> file.
-						</para>
-					</note>
+					<screen>java -jar jbdevstudio-product-eap-universal-<replaceable>version</replaceable>.jar</screen><phrase>as appropriate for the downloaded universal installer,</phrase> where <replaceable>version</replaceable> is substituted to match the name of the <filename>.jar</filename> file.
 				</para>
+				<note>
+					<para>
+						Alternatively, to start the installer you may be able to double-click the <filename>.jar</filename> file.
+					</para>
+				</note>
 			</step>
 			<step>
 				<para>
@@ -133,7 +150,7 @@
 						<imageobject>
 							<imagedata fileref="images/3342.png"/>
 						</imageobject>
-						<textobject>
+						<textobject> 
 							<phrase>In the <guilabel>Select the installation path</guilabel> field, type the path where you want JBoss&nbsp;Developer&nbsp;Studio to be installed or click <guibutton>Browse</guibutton> to navigate to the desired location. When the <guilabel>Select the installation path</guilabel> field shows the correct path, click <guibutton>Next</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
@@ -145,20 +162,20 @@
 				</para>
 				<important>
 					<para>
-						You must specify a Java developer kit with a 32-bit JRE to install a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio and a 64-bit JRE to install a 64-bit version of JBoss&nbsp;Developer&nbsp;Studio. To change the bit version of the Java developer kit to be used for installing JBoss&nbsp;Developer&nbsp;Studio, complete the appropriate step for your operating system: 
-						<itemizedlist>
-							<listitem>
-								<para>
-									On OS X operating systems, from the <guilabel>Installation type</guilabel> list click the appropriate bit version.
-								</para>
-							</listitem>
-							<listitem>
-								<para>
-									On Linux distributions and Microsoft Windows operating systems, in the text field type the path to the appropriate bit version of the Java developer kit.
-								</para>
-							</listitem>
-						</itemizedlist>
+						You must specify a Java developer kit with a 32-bit JRE to install a 32-bit version of JBoss&nbsp;Developer&nbsp;Studio and a 64-bit JRE to install a 64-bit version of JBoss&nbsp;Developer&nbsp;Studio. To change the bit version of the Java developer kit to be used for installing JBoss&nbsp;Developer&nbsp;Studio, complete the appropriate step for your operating system:
 					</para>
+					<itemizedlist>
+						<listitem>
+							<para>
+								On OS X operating systems, from the <guilabel>Installation type</guilabel> list click the appropriate bit version.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								On Linux distributions and Microsoft Windows operating systems, in the text field type the path to the appropriate bit version of the Java developer kit.
+							</para>
+						</listitem>
+					</itemizedlist>
 				</important>
 				<figure>
 					<title>Installation Step 4: Select Java VM</title>
@@ -166,7 +183,7 @@
 						<imageobject>
 							<imagedata fileref="images/4226.png"/>
 						</imageobject>
-						<textobject>
+						<textobject> 
 							<phrase>In the <guilabel>Select Java VM</guilabel> step, <guilabel>Default Java VM</guilabel> is automatically selected. Ensure that the disabled text field contains the path of the Java developer kit you want to use. This is based on the default Java developer kit of your system. To change the specified Java developer kit, click <guilabel>Specific Java VM</guilabel> and type the path of the Java developer kit in the text field or use the <guibutton>Browse</guibutton> button to locate the Java developer kit. When the text field shows the correct Java developer kit path, click <guibutton>Next</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
@@ -179,19 +196,22 @@
 			</step>
 			<step>
 				<para>
-					To make use of automatic runtime detection for finding already installed application servers, click <guibutton>Add</guibutton>. In the <guilabel>Location</guilabel> field, type the path from which recursive scanning for application servers is to commence or click <guibutton>Browse</guibutton> to navigate to the location: 
-					<itemizedlist>
-						<listitem>
-							<para>
-								To detect a specific application server, select the install directory for that application server.
-							</para>
-						</listitem>
-						<listitem>
-							<para>
-								To detect multiple application servers, select a directory higher up the directory tree. Alternatively, this can be achieved by adding multiple locations for scanning.
-							</para>
-						</listitem>
-					</itemizedlist> To scan the specified path for new application servers each time JBoss&nbsp;Developer&nbsp;Studio starts, select the <guilabel>Scan every start</guilabel> check box. Click <guibutton>OK</guibutton> to close the <guilabel>Add Location</guilabel> window and click <guibutton>Next</guibutton>.
+					To make use of automatic runtime detection for finding already installed application servers, click <guibutton>Add</guibutton>. In the <guilabel>Location</guilabel> field, type the path from which recursive scanning for application servers is to commence or click <guibutton>Browse</guibutton> to navigate to the location:
+				</para>
+				<itemizedlist>
+					<listitem>
+						<para>
+							To detect a specific application server, select the install directory for that application server.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							To detect multiple application servers, select a directory higher up the directory tree. Alternatively, this can be achieved by adding multiple locations for scanning.
+						</para>
+					</listitem>
+				</itemizedlist>
+				<para>
+					To scan the specified path for new application servers each time JBoss&nbsp;Developer&nbsp;Studio starts, select the <guilabel>Scan every start</guilabel> check box. Click <guibutton>OK</guibutton> to close the <guilabel>Add Location</guilabel> window and click <guibutton>Next</guibutton>.
 				</para>
 				<figure>
 					<title>Add Location Window for Runtime Detection</title>
@@ -199,12 +219,12 @@
 						<imageobject>
 							<imagedata fileref="images/4227.png"/>
 						</imageobject>
-						<textobject>
+						<textobject> 
 							<phrase>Type the path from which recursive scanning for application servers is to commence or click <guibutton>Browse</guibutton> to navigate to the path. For this path to be scanned for new application servers each time JBoss&nbsp;Developer&nbsp;Studio starts, select the <guilabel>Scan every start</guilabel> check box. Click <guibutton>OK</guibutton> to close the <guilabel>Add Location</guilabel> window.</phrase>
 						</textobject>
 					</mediaobject>
 				</figure>
-			</step>
+			</step> 
 			<step>
 				<para>
 					Review the details in the <application>Summary Information</application> window and, if they are correct, click <guibutton>Next</guibutton>. Installation commences.
@@ -220,7 +240,7 @@
 						<imageobject>
 							<imagedata fileref="images/4418.png"/>
 						</imageobject>
-						<textobject>
+						<textobject> 
 							<phrase>When the <guilabel>Pack installation progress</guilabel> bar shows <guilabel>Finished</guilabel>, click <guibutton>Next</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
@@ -246,6 +266,13 @@
 		</important>
 	</section>
 	<section id="Install_JBoss_Developer_Studio_BYOE" remap="TID_13343">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
 		<title>Install JBoss Developer Studio BYOE</title>
 		<para>
 			You can obtain JBoss&nbsp;Developer&nbsp;Studio BYOE from Eclipse Marketplace or use the update <filename>.zip</filename> file available from the Red&nbsp;Hat Customer Portal or Red&nbsp;Hat JBoss Developer Studio Update website. The latter option provisions for online and offline installation modes; Eclipse can install directly from the online <filename>.zip</filename> file or you can download the <filename>.zip</filename> file first and then Eclipse can install from this local copy.
@@ -280,7 +307,7 @@
 						<imageobject>
 							<imagedata fileref="images/4223.png"/>
 						</imageobject>
-						<textobject>
+						<textobject> 
 							<phrase>Click <guimenu>Help</guimenu>&rarr;<guimenu>Eclipse Marketplace</guimenu>. In the <guilabel>Find</guilabel> field of the <guilabel>Search</guilabel> tab, enter <command>JBoss Developer Studio</command>. Locate <application>Red Hat JBoss Developer Studio (Kepler)</application> and click <guibutton>Install</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
@@ -296,7 +323,7 @@
 						<imageobject>
 							<imagedata fileref="images/3359.png"/>
 						</imageobject>
-						<textobject>
+						<textobject> 
 							<phrase>Ensure the <guilabel>Red Hat JBoss Developer Studio (Kepler)</guilabel> check box is selected and click <guibutton>Confirm</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
@@ -312,7 +339,7 @@
 						<imageobject>
 							<imagedata fileref="images/3360.png"/>
 						</imageobject>
-						<textobject>
+						<textobject> 
 							<phrase>After reading and agreeing to the licenses, click <guilabel>I accept the terms of the license agreements</guilabel> and click <guibutton>Finish</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
@@ -328,7 +355,7 @@
 						<imageobject>
 							<imagedata fileref="images/3363.png"/>
 						</imageobject>
-						<textobject>
+						<textobject> 
 							<phrase>During the installation process you may receive warnings about installing unsigned content. If this is the case, review the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.</phrase>
 						</textobject>
 					</mediaobject>
@@ -372,7 +399,7 @@
 								<imageobject>
 									<imagedata fileref="images/4231.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>For online mode, in the <guilabel>Work with</guilabel> field enter <command>https://devstudio.jboss.com/updates/7.0/</command>.</phrase>
 								</textobject>
 							</mediaobject>
@@ -388,7 +415,7 @@
 								<imageobject>
 									<imagedata fileref="images/4230.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>For offline mode, in the <guilabel>Work with</guilabel> field enter the absolute file path of the update <filename>.zip</filename> file.</phrase>
 								</textobject>
 							</mediaobject>
@@ -406,7 +433,7 @@
 						<imageobject>
 							<imagedata fileref="images/4225.png"/>
 						</imageobject>
-						<textobject>
+						<textobject> 
 							<phrase>From the table of components comprising the update <filename>.zip</filename> file, select <guilabel>JBoss Developer Studio 7.x - Bring Your Own Eclipse</guilabel> and click <guibutton>Next</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
@@ -427,7 +454,7 @@
 						<imageobject>
 							<imagedata fileref="images/3360.png"/>
 						</imageobject>
-						<textobject>
+						<textobject> 
 							<phrase>After reading and agreeing to the licenses, click <guilabel>I accept the terms of the license agreements</guilabel> and click <guibutton>Finish</guibutton>.</phrase>
 						</textobject>
 					</mediaobject>
@@ -443,7 +470,7 @@
 						<imageobject>
 							<imagedata fileref="images/3363.png"/>
 						</imageobject>
-						<textobject>
+						<textobject> 
 							<phrase>During the installation process you may receive warnings about installing unsigned content. If this is the case, review the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.</phrase>
 						</textobject>
 					</mediaobject>

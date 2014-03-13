@@ -7,7 +7,7 @@ pressgang_website_callback([
 	{"topicId":15790,"target":"Preferences_Options","title":"Preferences Options","newSince":""},
 	{"topicId":15789,"target":"System_Requirements_Overview","title":"System Requirements Overview","newSince":""},
 	{"topicId":22704,"target":"Upgrade_from_JBoss_Developer_Studio_7.0","title":"Upgrade from JBoss Developer Studio 7.0","newSince":""},
-	{"topicId":24063,"target":"Use_CordovaSim","title":"Author Group","newSince":""},
+	{"topicId":24063,"target":"Author_Group","title":"Author Group","newSince":""},
 	{"topicId":22679,"target":"Install_JBoss_Developer_Studio_by_Script","title":"Install JBoss Developer Studio by Script","newSince":""},
 	{"topicId":22678,"target":"Build_the_Universal_Installer_from_Source","title":"Build the Universal Installer from Source","newSince":""},
 	{"topicId":13338,"target":"Use_Cases_of_JBoss_Developer_Studio","title":"Use Cases of JBoss Developer Studio","newSince":""},
@@ -21,9 +21,9 @@ pressgang_website_callback([
 	{"topicId":13331,"target":"Supported_Operating_Systems_and_Architectures","title":"Supported Operating Systems and Architectures","newSince":""},
 	{"topicId":23618,"target":"Getting_Help_and_Giving_Feedback2","title":"Getting Help and Giving Feedback","newSince":""},
 	{"topicId":21662,"target":"Define_Servers_for_Application_Servers_Found_by_Runtime_Detection","title":"Define Servers for Application Servers Found by Runtime Detection","newSince":""},
-	{"topicId":21657,"target":"Revision_History31","title":"Revision History","newSince":""},
+	{"topicId":21657,"target":"appe-Installation_Guide-Revision_History","title":"Revision History","newSince":""},
 	{"topicId":13334,"target":"Install_a_Java_Developer_Kit","title":"Install a Java Developer Kit","newSince":""},
 	{"topicId":13335,"target":"Set_Usage_Reporting","title":"Set Usage Reporting","newSince":""},
 	{"topicId":22604,"target":"Upgrade_from_JBoss_Developer_Studio_6.x_and_Earlier","title":"Upgrade from JBoss Developer Studio 6.x and Earlier","newSince":""},
 	{"topicId":21656,"target":"appe-Java_Developer_Kits","title":"Java Developer Kits","newSince":""},
-	{"topicId":13333,"target":"Compatible_Java_Developer_Kits","title":"Compatible Java Developer Kits","newSince":""}]);
+	{"topicId":13333,"target":"Compatible_Java_Developer_Kits","title":"Compatible Java Developer Kits","newSince":""}], 22435, "Red Hat JBoss Developer Studio", "Installation Guide", "7.1");

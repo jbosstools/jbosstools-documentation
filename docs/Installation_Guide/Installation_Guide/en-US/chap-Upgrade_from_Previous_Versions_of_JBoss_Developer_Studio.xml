@@ -6,6 +6,13 @@
 <chapter id="chap-Upgrade_from_Previous_Versions_of_JBoss_Developer_Studio">
 	<title>Upgrade from Previous Versions of JBoss Developer Studio</title>
 	<section id="Upgrade_Methods" remap="TID_13419">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
 		<title>Upgrade Methods</title>
 		<para>
 			The method for upgrading JBoss&nbsp;Developer&nbsp;Studio depends on the version of JBoss&nbsp;Developer&nbsp;Studio from which you are upgrading.
@@ -17,6 +24,13 @@
 		</warning>
 	</section>
 	<section id="Upgrade_from_JBoss_Developer_Studio_6.x_and_Earlier" remap="TID_22604">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.1.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
 		<title>Upgrade from JBoss Developer Studio 6.x and Earlier</title>
 		<para>
 			It is not possible to upgrade an existing JBoss&nbsp;Developer&nbsp;Studio 6.x or earlier installation to JBoss&nbsp;Developer&nbsp;Studio 7.1 because they are based on different versions of Eclipse. For example, JBoss&nbsp;Developer&nbsp;Studio 6.0 is based on Eclipse Juno (4.2) but JBoss&nbsp;Developer&nbsp;Studio 7.1 is based on Eclipse Kepler (4.3).
@@ -43,6 +57,13 @@
 		</note>
 	</section>
 	<section id="Upgrade_from_JBoss_Developer_Studio_7.0" remap="TID_22704">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.1.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
 		<title>Upgrade from JBoss Developer Studio 7.0</title>
 		<para>
 			It is possible to upgrade an existing JBoss&nbsp;Developer&nbsp;Studio 7.0 installation to JBoss&nbsp;Developer&nbsp;Studio 7.1 because they are based on the same version of Eclipse, namely Kepler (4.3).
