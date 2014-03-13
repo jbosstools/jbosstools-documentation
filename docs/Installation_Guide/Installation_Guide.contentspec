@@ -9,7 +9,7 @@ Abstract = This document details how to install and set up JBoss Developer Studi
 Product = Red Hat JBoss Developer Studio
 Version = 7.1
 #Edition =
-DTD = Docbook 4.5
+Format = DocBook 4.5
 Copyright Holder = Red Hat, Inc
 # The commented fields below are optional
 Brand = JBoss
@@ -24,11 +24,11 @@ JIRAComponent = Installation Guide
 # JIRALabels =
 # Output Style =
 Feedback = [23618, rev: 566820]
-Revision History = [21657, rev: 568314]
+Revision History = [21657, rev: 621210]
 Author Group = [24063, rev: 556627]
 # Indentation is meaningful. Use 2 spaces.
 
-[condition = jbds|install]
+[condition = jbds|install|jbds_install]
 Chapter: Introduction to Red Hat JBoss Developer Studio
 #  Beta Product [21439, rev: 551716]
   About Red Hat JBoss Developer Studio [13337, rev: 568269]
@@ -36,15 +36,15 @@ Chapter: Introduction to Red Hat JBoss Developer Studio
 
 Chapter: System Requirements
   System Requirements Overview [15789, rev: 564989]
-  Supported Operating Systems and Architectures [13331, rev: 568277]
+  Supported Operating Systems and Architectures [13331, rev: 621209]
   Computer Memory [13538, rev: 568279]
-  Compatible Java Developer Kits [13333, rev: 568281]
+  Compatible Java Developer Kits [13333, rev: 621195]
     [Refer-to:
       Java Developer Kits [T-Appendix-JDKs]]
 
 Chapter: Install JBoss Developer Studio
   Install Options [13339, rev: 568283]
-  Install JBoss Developer Studio [13342, rev: 568285]
+  Install JBoss Developer Studio [13342, rev: 621197]
   Install JBoss Developer Studio BYOE [13343, rev: 568287]
 
 Chapter: Set Preferences on First Launch after Installing
@@ -66,7 +66,9 @@ Chapter: Uninstall JBoss Developer Studio
   Uninstall JBoss Developer Studio [13344, rev: 564113]
   Uninstall JBoss Developer Studio BYOE [13341, rev: 568307]
 
-Appendix: Java Developer Kits [21656, rev: 566439] [T-Appendix-JDKs]
+Appendix: Java Developer Kits [T-Appendix-JDKs]
+  Initial Text:
+    Java Developer Kits [21656, rev: 566439]
   Determine Default Java Developer Kit of the System [13336, rev: 564112]
   Install a Java Developer Kit [13334, rev: 568460]
 

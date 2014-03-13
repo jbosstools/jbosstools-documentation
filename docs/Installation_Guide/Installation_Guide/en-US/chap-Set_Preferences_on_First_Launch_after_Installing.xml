@@ -6,6 +6,13 @@
 <chapter id="chap-Set_Preferences_on_First_Launch_after_Installing">
 	<title>Set Preferences on First Launch after Installing</title>
 	<section id="Preferences_Options" remap="TID_15790">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
 		<title>Preferences Options</title>
 		<para>
 			The aim of this section is to guide you in setting preferences for the JBoss&nbsp;Developer&nbsp;Studio features encountered on the first IDE start after installing: 
@@ -34,6 +41,13 @@
 		</para>
 	</section>
 	<section id="Select_a_Workspace_Location" remap="TID_13347">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
 		<title>Select a Workspace Location</title>
 		<para>
 			When the IDE starts, you are asked to choose the workspace folder for the session. The workspace is where your projects are stored.
@@ -44,7 +58,7 @@
 				<imageobject>
 					<imagedata fileref="images/3353.png"/>
 				</imageobject>
-				<textobject>
+				<textobject> 
 					<phrase>When the IDE starts, you are asked to choose the workspace folder for the session. In the <guilabel>Workspace</guilabel> field, type the path for a new or existing workspace or use <guibutton>Browse</guibutton> to navigate to the workspace location. If you do not want to be asked to choose a workspace folder each time the development environment starts, select the <guilabel>Use this as the default and do not ask again</guilabel> check box.</phrase>
 				</textobject>
 			</mediaobject>
@@ -74,6 +88,13 @@
 		</para>
 	</section>
 	<section id="Set_Usage_Reporting" remap="TID_13335">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
 		<title>Set Usage Reporting</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio has usage reporting. At the first start of the IDE after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio.
@@ -84,7 +105,7 @@
 				<imageobject>
 					<imagedata fileref="images/3354.png"/>
 				</imageobject>
-				<textobject>
+				<textobject> 
 					<phrase>At the first start of the IDE after installing, you are asked if you allow the collection of anonymous usage statistics by JBoss&nbsp;Developer&nbsp;Studio. To agree to this anonymous information being collected, click <guibutton>Yes</guibutton> when prompted.</phrase>
 				</textobject>
 			</mediaobject>
@@ -198,6 +219,13 @@
 		</para>
 	</section>
 	<section id="Define_Servers_for_Application_Servers_Found_by_Runtime_Detection" remap="TID_21662">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
 		<title>Define Servers for Application Servers Found by Runtime Detection</title>
 		<para>
 			If you set up runtime detection during the installation process, at the first start of the IDE you are prompted with the results of the runtime detection scan. Depending on whether any application servers are found, follow the appropriate step: 
@@ -212,7 +240,7 @@
 							<imageobject>
 								<imagedata fileref="images/3378.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>If no new application servers are found, click <guibutton>Cancel</guibutton>.</phrase>
 							</textobject>
 						</mediaobject>
@@ -228,7 +256,7 @@
 							<imageobject>
 								<imagedata fileref="images/3380.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>If new application servers are found, you can generate server runtime environments for them. Select the check boxes of the application servers for which you want to generate server runtime environments and click <guibutton>OK</guibutton>.</phrase>
 							</textobject>
 						</mediaobject>
@@ -243,6 +271,13 @@
 		</note>
 	</section>
 	<section id="Set_the_Perspective_to_JBoss" remap="TID_13346">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
 		<title>Set the Perspective to JBoss</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio has the JBoss perspective. This perspective displays views, toolbars and menu items most often used by developers using JBoss.
@@ -262,7 +297,7 @@
 				<imageobject>
 					<imagedata fileref="images/3376.png"/>
 				</imageobject>
-				<textobject>
+				<textobject> 
 					<phrase>To set the JBoss perspective as the default perspective, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>General</guilabel> and select <guilabel>Perspectives</guilabel>. From the <guilabel>Available perspectives</guilabel> list, select <application>JBoss</application> and click <guibutton>Make Default</guibutton>. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.</phrase>
 				</textobject>
 			</mediaobject>

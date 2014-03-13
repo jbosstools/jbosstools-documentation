@@ -3,8 +3,8 @@
 <!ENTITY % BOOK_ENTITIES SYSTEM "Installation_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-<authorgroup>
-	<author>
+<authorgroup id="Author_Group" remap="TID_24063">
+	<author> 
 		<firstname>Red Hat</firstname><surname>Documentation Team</surname>
 	</author>
 </authorgroup>

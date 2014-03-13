@@ -1,9 +1,8 @@
-<?xml version='1.0' encoding='utf-8' ?>
+<?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
 <!ENTITY % BOOK_ENTITIES SYSTEM "../Installation_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-
 
 <section>
 	<title>Document Conventions</title>
@@ -61,7 +60,7 @@
 			<application>Proportional Bold</application>
 		</para>
 		 <para>
-			This denotes words or phrases encountered on a system, including application names; dialog box text; labeled buttons; check-box and radio button labels; menu titles and sub-menu titles. For example:
+			This denotes words or phrases encountered on a system, including application names; dialog-box text; labeled buttons; check-box and radio-button labels; menu titles and submenu titles. For example:
 		</para>
 		 <blockquote>
 			<para>
@@ -94,7 +93,7 @@
 
 		</blockquote>
 		 <para>
-			Note the words in bold italics above — username, domain.name, file-system, package, version and release. Each word is a placeholder, either for text you enter when issuing a command or for text displayed by the system.
+			Note the words in bold italics above: username, domain.name, file-system, package, version and release. Each word is a placeholder, either for text you enter when issuing a command or for text displayed by the system.
 		</para>
 		 <para>
 			Aside from standard usage for presenting the title of a work, italics denotes the first use of a new and important term. For example:
@@ -139,7 +138,7 @@ books_tests  Desktop1  downloads      images  notes  scripts  svgs</screen>
 		</note>
 		 <important>
 			<para>
-				Important boxes detail things that are easily missed: configuration changes that only apply to the current session, or services that need restarting before an update will apply. Ignoring a box labeled 'Important' will not cause data loss but may cause irritation and frustration.
+				Important boxes detail things that are easily missed: configuration changes that only apply to the current session, or services that need restarting before an update will apply. Ignoring a box labeled “Important” will not cause data loss but may cause irritation and frustration.
 			</para>
 
 		</important>

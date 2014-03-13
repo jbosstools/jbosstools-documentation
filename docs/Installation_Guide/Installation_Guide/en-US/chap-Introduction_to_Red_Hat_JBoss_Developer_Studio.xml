@@ -6,7 +6,14 @@
 <chapter id="chap-Introduction_to_Red_Hat_JBoss_Developer_Studio">
 	<title>Introduction to Red Hat JBoss Developer Studio</title>
 	<section id="About_Red_Hat_JBoss_Developer_Studio" remap="TID_13337">
-		<title>About Red Hat JBoss Developer Studio</title>
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
+		<title>About Red Hat JBoss Developer Studio</title> 
 		<!-- Info from http://www.jboss.org/developer/features.html -->
 		<para>
 			Red&nbsp;Hat&nbsp;JBoss&nbsp;Developer&nbsp;Studio is a set of Eclipse-based development tools. It contains plug-ins that integrate with Eclipse to extend the existing functionality of the integrated development environment (IDE).
@@ -61,6 +68,13 @@
 		</para>
 	</section>
 	<section id="Use_Cases_of_JBoss_Developer_Studio" remap="TID_13338">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
 		<title>Use Cases of JBoss Developer Studio</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio assists JEE developers by integrating JBoss technology and APIs in a single development environment. Here are a few ways that JBoss&nbsp;Developer&nbsp;Studio makes the work of a developer easier:

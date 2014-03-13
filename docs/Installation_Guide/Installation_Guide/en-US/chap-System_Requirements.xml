@@ -6,6 +6,13 @@
 <chapter id="chap-System_Requirements">
 	<title>System Requirements</title>
 	<section id="System_Requirements_Overview" remap="TID_15789">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
 		<title>System Requirements Overview</title>
 		<para>
 			The aim of this section is familiarize you with the system requirements necessary for JBoss&nbsp;Developer&nbsp;Studio to function optimally: 
@@ -29,6 +36,13 @@
 		</para>
 	</section>
 	<section id="Supported_Operating_Systems_and_Architectures" remap="TID_13331">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
 		<title>Supported Operating Systems and Architectures</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio 7.1 is supported on the operating systems listed in the table below.
@@ -36,7 +50,7 @@
 		<table id="Supported_OS">
 			<title>Supported Operating Systems</title>
 			<tgroup align="left" cols="2" colsep="1" rowsep="1">
-				<colspec colwidth="2*"/>
+				<colspec colwidth="3*"/>
 				<colspec colwidth="1*"/>
 				<thead>
 					<row>
@@ -67,7 +81,17 @@
 					</row>
 					<row>
 						<entry>
-							OS X Lion (10.7) and OS X Mountain Lion (10.8)
+							OS X Lion (10.7) 
+							<footnote>
+								<para>
+									OS X Lion (10.7) is supported by JBoss Developer Studio 7.1.0 only.
+								</para>
+							</footnote>, OS X Mountain Lion (10.8) and OS X Mavericks (10.9) 
+							<footnote>
+								<para>
+									OS X Mavericks (10.9) is supported by JBoss Developer Studio 7.1.1 only.
+								</para>
+							</footnote>
 						</entry>
 						<entry>
 							x86_64
@@ -93,7 +117,17 @@
 			</tgroup>
 		</table>
 		<para>
-			As JBoss&nbsp;Developer&nbsp;Studio 7.1 is based on Eclipse Kepler (4.3 SR1), the system requirements of Eclipse Kepler also apply to JBoss&nbsp;Developer&nbsp;Studio 7.1. For example, GTK is required as the windowing system on Linux distributions, Win32 on Microsoft Windows operating systems and Cocoa on OS X operating systems. For more information about Eclipse Kepler system requirements see <ulink url="http://www.eclipse.org/eclipse/development/readme_eclipse_4.3.html"/> on the Eclipse website.
+			As JBoss&nbsp;Developer&nbsp;Studio 7.1 is based on Eclipse Kepler (4.3), the system requirements of Eclipse Kepler also apply to JBoss&nbsp;Developer&nbsp;Studio 7.1. For example, <!--[Include for JBDS 8.0.0] Here are some examples of requirements: 
+		<itemizedlist>
+			<listitem>
+				<para> --> GTK is required as the windowing system on Linux distributions, Win32 on Microsoft Windows operating systems and Cocoa on OS X operating systems. <!--</para>
+			</listitem>
+			<listitem>
+				<para>
+					For Ubuntu 13.10 operating systems that use the Unity desktop, <command>UBUNTU_MENUPROXY=0</command> must be passed as a parameter when starting the IDE in order to view the IDE menus.
+				</para>
+			</listitem>
+		</itemizedlist>--> For more information about Eclipse Kepler system requirements see <ulink url="http://www.eclipse.org/eclipse/development/readme_eclipse_4.3.html"/> on the Eclipse website.
 		</para>
 		<para>
 			The Visual Page Editor and BrowserSim tools have additional Java developer kit requirements and restrictions: 
@@ -112,6 +146,16 @@
 		</para>
 	</section>
 	<section id="Computer_Memory" remap="TID_13538">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					IA Triage
+				</keyword>
+				<keyword>
+					JBDS 7.0.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
 		<title>Computer Memory</title>
 		<para>
 			To install and run JBoss&nbsp;Developer&nbsp;Studio 7.1, the following memory requirements are recommended: 
@@ -133,6 +177,13 @@
 		</para>
 	</section>
 	<section id="Compatible_Java_Developer_Kits" remap="TID_13333">
+		<sectioninfo>
+			<keywordset>
+				<keyword>
+					JBDS 7.0.z
+				</keyword>
+			</keywordset>
+		</sectioninfo>
 		<title>Compatible Java Developer Kits</title>
 		<para>
 			JBoss&nbsp;Developer&nbsp;Studio 7.1 requires a Java developer kit of version 1.6 or later. This release of JBoss&nbsp;Developer&nbsp;Studio is supported on the operating system and Java developer kit combinations listed in the table below.
@@ -179,7 +230,17 @@
 					</row>
 					<row>
 						<entry>
-							OS X Lion (10.7) and OS X Mountain Lion (10.8)
+							OS X Lion (10.7) 
+							<footnote>
+								<para>
+									OS X Lion (10.7) is supported by JBoss Developer Studio 7.1.0 only.
+								</para>
+							</footnote>, OS X Mountain Lion (10.8) and OS X Mavericks (10.9) 
+							<footnote>
+								<para>
+									OS X Mavericks (10.9) is supported by JBoss Developer Studio 7.1.1 only.
+								</para>
+							</footnote>
 						</entry>
 						<entry>
 							Apple JDK 1.6 and Oracle JDK 1.7 (64-bit only)
