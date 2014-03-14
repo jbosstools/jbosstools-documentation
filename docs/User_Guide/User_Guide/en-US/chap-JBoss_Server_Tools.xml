@@ -8,6 +8,13 @@
 	<section id="sect-Overview_of_JBoss_Server_Tools">
 		<title>Overview of JBoss Server Tools</title>
 		<section id="About_JBoss_Server_Tools" remap="TID_22806">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>About JBoss Server Tools</title>
 			<para>
 				JBoss Server Tools is tooling for working with application servers in the IDE. It extends and enhances the existing server functionality of the IDE.
@@ -25,10 +32,17 @@
 				JBoss Server Tools actions enable you to make customizations based on application server type, such as default filesets added to new servers and classpath filesets. You can also customize the default server used for IDE actions such as 'Run on Server'.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22806-576031+%5BSpecified%5D&amp;description=Title%3A+About+JBoss+Server+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22806-576031+%5BSpecified%5D&amp;description=Title%3A+About+JBoss+Server+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="About_IDE_Server_Definitions" remap="TID_25559">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>About IDE Server Definitions</title>
 			<para>
 				A server definition is a description of how the IDE is to use an application server. It informs the IDE of configuration information with which to start, communicate and manage an application server, including application deployment. As such, a server definition is an essential element for working with an application server in the IDE.
@@ -66,18 +80,25 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+25559-567530+%5BSpecified%5D&amp;description=Title%3A+About+IDE+Server+Definitions%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+25559-567530+%5BSpecified%5D&amp;description=Title%3A+About+IDE+Server+Definitions%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
 	<section id="sect-Features_of_JBoss_Server_Tools">
 		<title>Features of JBoss Server Tools</title>
 		<section id="Features_Overview1" remap="TID_22815">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Features Overview</title>
 			<para>
 				The aim of this section is to guide you in using JBoss Server Tools:
 			</para>
-			<itemizedlist>
+			<itemizedlist> 
 				<listitem>
 					<para>
 						Use runtime detection to locate installed application servers and generate complete server definitions, making them ready for IDE use
@@ -95,13 +116,20 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22815-566612+%5BSpecified%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22815-566612+%5BSpecified%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Create_a_Default_Local_Server_Definition_with_Runtime_Detection" remap="TID_22808">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Create a Default Local Server Definition with Runtime Detection</title>
 			<para>
-				Before the IDE can use an application sever, you must create a server definition for it. JBoss Server Tools provides runtime detection that automatically generates a complete default server definition for any installed application servers found in a given local system search path, as detailed in the procedure below. 
+				Before the IDE can use an application server, you must create a server definition for it. JBoss Server Tools provides runtime detection that automatically generates a complete default server definition for any installed application servers found in a given local system search path, as detailed in the procedure below. 
 			</para>
 			<procedure>
 				<title>Define a Local Server with Runtime Detection</title>
@@ -113,9 +141,9 @@
 						<title>JBoss Runtime Detection Pane of Preferences Window</title>
 						<mediaobject>
 							<imageobject>
-								<imagedata fileref="images/4002.png"/>
+								<imagedata fileref="images/4002.png"/> 
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>.</phrase>
 							</textobject>
 						</mediaobject>
@@ -149,9 +177,9 @@
 								<title>Application Servers Found by Runtime Detection</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/4294.png"/>
+										<imagedata fileref="images/4294.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>If new application servers are found and you want to generate server runtime environments for them, select the check boxes of the appropriate application servers and click <guibutton>OK</guibutton>.</phrase>
 									</textobject>
 								</mediaobject>
@@ -175,9 +203,9 @@
 				<title>Server Adapters Listed in the <guilabel>Servers</guilabel> View</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata fileref="images/4295.png"/>
+						<imagedata fileref="images/4295.png"/> 
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>A default server adapter is automatically created for each generated server runtime environment to complete the server definition. Server adapters are listed in the <guilabel>Servers</guilabel> view.</phrase>
 					</textobject>
 				</mediaobject>
@@ -188,10 +216,17 @@
 				</para>
 			</note>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22808-566605+%5BSpecified%5D&amp;description=Title%3A+Create+a+Default+Local+Server+Definition+with+Runtime+Detection%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22808-588830+%5BSpecified%5D&amp;description=Title%3A+Create+a+Default+Local+Server+Definition+with+Runtime+Detection%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Create_an_Additional_Server_Runtime_Environment" remap="TID_22810">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Create an Additional Server Runtime Environment</title>
 			<para>
 				Runtime detection creates a server runtime environment as part of the default server definition for each application server it discovers in given search paths on your system. But you may want to create additional server runtime environments that specify a variety of JREs or configuration files for a given installed application server. The procedure below details the process for creating new server runtime environments. For older versions of application servers, you can also create a new runtime server by cloning an existing one as explained below.
@@ -206,9 +241,9 @@
 						<title>Runtime Environments Pane</title>
 						<mediaobject>
 							<imageobject>
-								<imagedata fileref="images/4291.png"/>
+								<imagedata fileref="images/4291.png"/> 
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>Click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>Server</guilabel> and select <guilabel>Runtime Environments</guilabel>.</phrase>
 							</textobject>
 						</mediaobject>
@@ -236,9 +271,9 @@
 									<title>Application Server Options in the New Server Runtime Environment Wizard</title>
 									<mediaobject>
 										<imageobject>
-											<imagedata fileref="images/4292.png"/>
+											<imagedata fileref="images/4292.png"/> 
 										</imageobject>
-										<textobject>
+										<textobject> 
 											<phrase>From the <guilabel>Select the type of runtime environment</guilabel> list, select a <phrase>JBoss Enterprise Middleware application server</phrase>. To create a complete local server definition, select the <guilabel>Create a new local server</guilabel> check box.</phrase>
 										</textobject>
 									</mediaobject>
@@ -280,9 +315,9 @@
 								<title>Server Runtime Environment Options in the New Server Runtime Environment Wizard</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/3994.png"/>
+										<imagedata fileref="images/3994.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>In the <guilabel>Name</guilabel> field, type a name by which to identify the server runtime environment within the IDE. In the <guilabel>Home Directory</guilabel> field, type the path of the installed application server or click <guibutton>Browse</guibutton> to navigate to the location. From the <guilabel>JRE</guilabel> list, select the JRE to use with the application server. In the <guilabel>Configuration file</guilabel> field, type the path of the application server configuration file or click <guibutton>Browse</guibutton> to navigate to the location. Note that the path of the application server configuration file is relative to <filename>Home Directory/standalone/configuration/</filename>, where <filename>Home Directory</filename> is specified in the <guilabel>Home Directory</guilabel> field.</phrase>
 									</textobject>
 								</mediaobject>
@@ -303,9 +338,9 @@
 						<title>Server Adapter Behavior Options in the New Server Runtime Environment Wizard</title>
 						<mediaobject>
 							<imageobject>
-								<imagedata fileref="images/3993.png"/>
+								<imagedata fileref="images/3993.png"/> 
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>Complete the appropriate information for the new server adapter and click <guibutton>Finish</guibutton>.</phrase>
 							</textobject>
 						</mediaobject>
@@ -321,10 +356,17 @@
 				</para>
 			</note>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22810-576036+%5BSpecified%5D&amp;description=Title%3A+Create+an+Additional+Server+Runtime+Environment%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22810-576036+%5BSpecified%5D&amp;description=Title%3A+Create+an+Additional+Server+Runtime+Environment%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Define_an_Additional_Local_Server" remap="TID_22813">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Define an Additional Local Server</title>
 			<para>
 				Runtime detection defines a local server as part of the default server definition for each application server it discovers in given search paths on your system. But you may want to create additional server adapters that have different configurations for a given server runtime environment in order to define multiple servers. To create a new server adapter to define a local server, you must use the new server wizard as detailed in the procedure below.
@@ -376,9 +418,9 @@
 								<title>Server Runtime Environment Options in the New Server Runtime Environment Wizard</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/4293.png"/>
+										<imagedata fileref="images/4293.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>From the <guilabel>Select the server type</guilabel> list, select a <phrase>JBoss Enterprise Middleware application server</phrase>. The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are completed by default. In the <guilabel>Server name</guilabel> field, type a name by which to identify the server definition. From the <guilabel>Server runtime environment</guilabel> list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields and options as appropriate.</phrase>
 									</textobject>
 								</mediaobject>
@@ -426,9 +468,9 @@
 						<title>Server Adapter Behavior Options in the New Server Wizard</title>
 						<mediaobject>
 							<imageobject>
-								<imagedata fileref="images/3997.png"/>
+								<imagedata fileref="images/3997.png"/> 
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>The server behavior options displayed vary depending on the selected application server type. Complete the options as appropriate.</phrase>
 							</textobject>
 						</mediaobject>
@@ -447,9 +489,9 @@
 						<title>Add or Remove Server Resources in the New Server Wizard</title>
 						<mediaobject>
 							<imageobject>
-								<imagedata fileref="images/3998.png"/>
+								<imagedata fileref="images/3998.png"/> 
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>To select applications to deploy with this server, from the <guilabel>Available</guilabel> list select the applications and click <guibutton>Add</guibutton>. Applications to be deployed are detailed in the <guilabel>Configured</guilabel> list.</phrase>
 							</textobject>
 						</mediaobject>
@@ -467,10 +509,17 @@
 				</para>
 			</important>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22813-566612+%5BSpecified%5D&amp;description=Title%3A+Define+an+Additional+Local+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22813-566612+%5BSpecified%5D&amp;description=Title%3A+Define+an+Additional+Local+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Define_a_Remote_Server" remap="TID_22817">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Define a Remote Server</title>
 			<para>
 				You can define remote servers for <phrase>JBoss Enterprise Middleware application servers</phrase>. To complete a server definition, you must create a server adapter, or server, that informs the IDE how to communicate and manage the remote server, as detailed in the procedure below.
@@ -527,9 +576,9 @@
 								<title>Server Runtime Environment Options in the New Server Runtime Environment Wizard</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/4293.png"/>
+										<imagedata fileref="images/4293.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>From the <guilabel>Select the server type</guilabel> list, select a <phrase>JBoss Enterprise Middleware application server</phrase>. The <guilabel>Server's host name</guilabel> and <guilabel>Server name</guilabel> fields are completed by default. In the <guilabel>Server name</guilabel> field, type a name by which to identify the server definition. From the <guilabel>Server runtime environment</guilabel> list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click <guibutton>Add</guibutton> and complete the fields and options as appropriate.</phrase>
 									</textobject>
 								</mediaobject>
@@ -579,9 +628,9 @@
 									<title>Remote System Deployment Options in the New Server Wizard</title>
 									<mediaobject>
 										<imageobject>
-											<imagedata fileref="images/3999.png"/>
+											<imagedata fileref="images/3999.png"/> 
 										</imageobject>
-										<textobject>
+										<textobject> 
 											<phrase>From the location list, select <guilabel>Remote System Deployment</guilabel>.</phrase>
 										</textobject>
 									</mediaobject>
@@ -625,9 +674,9 @@
 						<title>Add or Remove Server Resources in the New Server Wizard</title>
 						<mediaobject>
 							<imageobject>
-								<imagedata fileref="images/3998.png"/>
+								<imagedata fileref="images/3998.png"/> 
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>To select applications to deploy with this server, from the <guilabel>Available</guilabel> list select the applications and click <guibutton>Add</guibutton>. Applications to be deployed are detailed in the <guilabel>Configured</guilabel> list.</phrase>
 							</textobject>
 						</mediaobject>
@@ -640,11 +689,18 @@
 				</step>
 			</procedure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22817-566612+%5BSpecified%5D&amp;description=Title%3A+Define+a+Remote+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22817-566612+%5BSpecified%5D&amp;description=Title%3A+Define+a+Remote+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="sect-Manage_Server_Settings">
-			<title>Manage Server Settings</title>
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Manage Server Settings</title> 
 			<para>
 				JBoss Server Tools provides the JBoss Server Editor for managing the settings of servers. This editor has two tabs: Overview and Deployment. As described below, each tab enables you to configure fundamental server settings.
 			</para>
@@ -655,9 +711,9 @@
 				<title>Overview Tab of the JBoss Server Editor</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata fileref="images/4003.png"/>
+						<imagedata fileref="images/4003.png"/> 
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>The <guilabel>Overview</guilabel> tab details the settings for the server. Within this tab you can provide management information, specify application publishing and reload behavior, and customize port settings.</phrase>
 					</textobject>
 				</mediaobject>
@@ -669,9 +725,9 @@
 				<title>Deployment Tab of the JBoss Server Editor</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata fileref="images/4020.png"/>
+						<imagedata fileref="images/4020.png"/> 
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>The <guilabel>Deployment</guilabel> tab lists applications deployed to the server. Within this tab you can specify the general publishing behavior for applications and provide deployment settings for individual applications.</phrase>
 					</textobject>
 				</mediaobject>
@@ -680,9 +736,16 @@
 				To open the JBoss Server Editor for a specific server, in the <guilabel>Servers</guilabel> view double-click the server. All changes to the settings of a server must be saved before the results will take effect. To save changes made to server settings in the JBoss Server Editor, press <keycap>Ctrl+S</keycap>. You may be required to enter the server management password when making changes to certain settings.<!--http://docs.jboss.org/tools/whatsnew/as/as-news-4.0.0.Beta1.html-->
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22809-566605+%5BSpecified%5D&amp;description=Title%3A+Manage+Server+Settings%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+IDs%3A%0A22809-566605+%5BSpecified%5D&amp;description=Title%3A+Manage+Server+Settings%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 			<section id="Manage_Server_Settings_in_the_Overview_Tab" remap="TID_22807">
+				<sectioninfo>
+					<keywordset>
+						<keyword>
+							JBDS 7.1.z
+						</keyword>
+					</keywordset>
+				</sectioninfo>
 				<title>Manage Server Settings in the Overview Tab</title>
 				<para>
 					The Overview tab of the JBoss Server Editor enables you to vary the management and behavior settings of an individual server. Each section of the Overview tab is outlined below. All changes to server settings must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
@@ -698,9 +761,9 @@
 								<title>General Information Section</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/4014.png"/>
+										<imagedata fileref="images/4014.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>This section details essential information comprising the server definition: the name by which the server is identified in the IDE, the hostname of the server and the server runtime environment.</phrase>
 									</textobject>
 								</mediaobject>
@@ -711,6 +774,11 @@
 							<para>
 								To view or edit the server launch configuration, click <guibutton>Open launch configuration</guibutton>.
 							</para>
+							<note>
+								<para>
+									For Red Hat JBoss Enterprise Application 6.1+ servers, the default minimum and maximum heap memory size values are set to 1024MB. These values are essential for successfully starting JBoss EAP 6.1+ servers on Windows operating systems with 32-bit Java 7. To edit these values, click <guilabel>Open launch configuration</guilabel> and in the <guilabel>VM arguments</guilabel> field of the <guilabel>Arguments</guilabel> tab modify the <command>-Xms</command> and <command>-Xmx</command> values.
+								</para>
+							</note>
 						</listitem>
 					</varlistentry>
 					<varlistentry>
@@ -723,9 +791,9 @@
 								<title>Management Login Credentials Section</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/4015.png"/>
+										<imagedata fileref="images/4015.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>This section holds credentials, specifically username and password, necessary for the IDE to successfully communicate management commands with the server. The password is obscured and stored in Eclipse Secure Storage for security. Incorrect management credentials can cause the IDE to not detect when a server is started.</phrase>
 									</textobject>
 								</mediaobject>
@@ -742,9 +810,9 @@
 								<title>Server Behavior Section</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/4017.png"/>
+										<imagedata fileref="images/4017.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>This section enables you to customize server behavior that encompasses how the IDE communicates with the server.</phrase>
 									</textobject>
 								</mediaobject>
@@ -770,9 +838,9 @@
 								<title>Additional Remote Server Behavior Options in the Server Behavior Section</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/4016.png"/>
+										<imagedata fileref="images/4016.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>For remote systems, there are further details that must be specified: the host, the path of the remote application server, and the remote application server configuration file.</phrase>
 									</textobject>
 								</mediaobject>
@@ -789,9 +857,9 @@
 								<title>Publishing Section</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/4012.png"/>
+										<imagedata fileref="images/4012.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>This section details the publishing action the IDE should take in response to modifications to local resources of deployed applications. Publishing involves replacing changed project resources in the dedicated deployment location of a server and the IDE action options are <guilabel>Never publish automatically</guilabel>, <guilabel>Automatically publish when resources change</guilabel>, and <guilabel>Automatically publish after a build event</guilabel>. Additionally, you can specify a minimum time interval that must occur between consecutive automated publish actions by the IDE to control the frequency of publishing.</phrase>
 									</textobject>
 								</mediaobject>
@@ -808,9 +876,9 @@
 								<title>Timeouts Section</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/4008.png"/>
+										<imagedata fileref="images/4008.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>This section specifies the maximum length of time, in seconds, the IDE should wait for server actions to complete before aborting. The server actions are specifically starting and stopping.</phrase>
 									</textobject>
 								</mediaobject>
@@ -827,9 +895,9 @@
 								<title>Deployment Scanners Section</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/4010.png"/>
+										<imagedata fileref="images/4010.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>This section enables you to customize the behavior of deployment scanners, which detect the applications deployed to a server. You can manage deployment scanners or allow the IDE to do it for you. The management options available are <guilabel>Add missing deployment scanners after server startup</guilabel> and <guilabel>Remove added deployment scanners before shutdown</guilabel>.</phrase>
 									</textobject>
 								</mediaobject>
@@ -846,9 +914,9 @@
 								<title>Application Reload Behavior Section</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/4011.png"/>
+										<imagedata fileref="images/4011.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>This section details the application reload action the IDE should take in response to changed published resources of deployed applications. Application reload involves undeploying and redeploying an application and this action is necessary when you make changes to project resources that will not be detected by the server. By default, the application reload behavior is set to invoke application redeployment when <filename>.jar</filename> files are changed.</phrase>
 									</textobject>
 								</mediaobject>
@@ -871,9 +939,9 @@
 								<title>Server State Detectors Section</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/4009.png"/>
+										<imagedata fileref="images/4009.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>This section specifies which method the IDE should use to verify the started and stopped status of the server.</phrase>
 									</textobject>
 								</mediaobject>
@@ -883,22 +951,22 @@
 							</para>
 							<itemizedlist>
 								<listitem>
-									<para>
+									<para> 
 										<guilabel>Web Port</guilabel>, which pings the web port on the host to see if the server responds
 									</para>
 								</listitem>
 								<listitem>
-									<para>
+									<para> 
 										<guilabel>Timeout</guilabel>, which waits for a specified time duration and then declares the start or stop operation a success without any actual verification
 									</para>
 								</listitem>
 								<listitem>
-									<para>
+									<para> 
 										<guilabel>Process Terminated</guilabel> (available for Shutdown Poller of local servers only), which checks if a server process is still alive and sets the server status to stopped when it is terminated
 									</para>
 								</listitem>
 								<listitem>
-									<para>
+									<para> 
 										<guilabel>JMX</guilabel>, which polls JMX, the JBoss Management service
 									</para>
 								</listitem>
@@ -918,9 +986,9 @@
 								<title>Server Ports Section</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/4013.png"/>
+										<imagedata fileref="images/4013.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>This section details the ports and port offset that the IDE should use for communication with the server.</phrase>
 									</textobject>
 								</mediaobject>
@@ -935,9 +1003,9 @@
 								<title>Edit Port Window</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/3990.png"/>
+										<imagedata fileref="images/3990.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>To view the configuration file information used by JBoss Server Tools for automatic port detection, click <guibutton>Configure</guibutton> corresponding to the appropriate tool. The information used is displayed in the <guilabel>Current Value</guilabel> field. To change this value, click <guibutton>Edit XPath</guibutton>. Click <guibutton>OK</guibutton> to close the window.</phrase>
 									</textobject>
 								</mediaobject>
@@ -949,10 +1017,17 @@
 					</varlistentry>
 				</variablelist>
 				<para role="RoleCreateBugPara">
-					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22807-566605+%5BSpecified%5D&amp;description=Title%3A+Manage+Server+Settings+in+the+Overview+Tab%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22807-619349+%5BSpecified%5D&amp;description=Title%3A+Manage+Server+Settings+in+the+Overview+Tab%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 				</para>
 			</section>
 			<section id="Manage_Server_Settings_in_the_Deployment_Tab" remap="TID_22812">
+				<sectioninfo>
+					<keywordset>
+						<keyword>
+							JBDS 7.1.z
+						</keyword>
+					</keywordset>
+				</sectioninfo>
 				<title>Manage Server Settings in the Deployment Tab</title>
 				<para>
 					The Deployment tab of the JBoss Server Editor enables you to vary the deployment settings of an individual server. Each section of the Deployment tab is outlined below. All changes to server settings must be saved before the results will take effect. To save, press <keycap>Ctrl+S</keycap>.
@@ -973,9 +1048,9 @@
 								<title>Default Settings Section</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/4019.png"/>
+										<imagedata fileref="images/4019.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>This section specifies where deployments are kept and how they are packaged.</phrase>
 									</textobject>
 								</mediaobject>
@@ -1017,9 +1092,9 @@
 								<title>Module Settings Section</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata fileref="images/4018.png"/>
+										<imagedata fileref="images/4018.png"/> 
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>This section shows deployment settings for all modules in the workspace regardless of whether they are deployed on the server under consideration.</phrase>
 									</textobject>
 								</mediaobject>
@@ -1034,7 +1109,7 @@
 					</varlistentry>
 				</variablelist>
 				<para role="RoleCreateBugPara">
-					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22812-566612+%5BSpecified%5D&amp;description=Title%3A+Manage+Server+Settings+in+the+Deployment+Tab%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+					<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22812-566612+%5BSpecified%5D&amp;description=Title%3A+Manage+Server+Settings+in+the+Deployment+Tab%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 				</para>
 			</section>
 		</section>
@@ -1042,6 +1117,13 @@
 	<section id="sect-Customizing_JBoss_Server_Tools">
 		<title>Customizing JBoss Server Tools</title>
 		<section id="Customizing_Overview1" remap="TID_22814">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Customizing Overview</title>
 			<para>
 				The aim of this section is to guide you in customizing JBoss Server Tools:
@@ -1069,10 +1151,17 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22814-566612+%5BSpecified%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22814-566612+%5BSpecified%5D&amp;description=Title%3A+Customizing+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Enable_Runtime_Detection_on_IDE_Start" remap="TID_22816">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Enable Runtime Detection on IDE Start</title>
 			<para>
 				You can customize runtime detection to automatically search paths for installed application servers when the IDE starts. If any application servers are found, you are prompted about creating corresponding complete server definitions.
@@ -1084,18 +1173,25 @@
 				<title><guilabel>Every Start</guilabel> Check Box Selected for <phrase>EAP</phrase> Path</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata fileref="images/4001.png"/>
+						<imagedata fileref="images/4001.png"/> 
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To enable automated searching on IDE start, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Runtime Detection</guilabel>. In the <guilabel>Paths</guilabel> table, select the <guilabel>Every start</guilabel> check box for all of the paths that you want to be automatically searched on IDE start. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22816-566612+%5BSpecified%5D&amp;description=Title%3A+Enable+Runtime+Detection+on+IDE+Start%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22816-566612+%5BSpecified%5D&amp;description=Title%3A+Enable+Runtime+Detection+on+IDE+Start%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Set_a_Default_Server" remap="TID_22811">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Set a Default Server</title>
 			<para>
 				JBoss Server Tools enables you to select a default server on which to carry out actions such as <guimenu>Run on server</guimenu>. This is useful when you have multiple server instances but use one predominately.
@@ -1104,7 +1200,7 @@
 				To set a default server, in the global toolbar of the JBoss perspective click the <guibutton>Select a default server</guibutton> icon 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata fileref="images/4021.png"/>
+						<imagedata fileref="images/4021.png"/> 
 					</imageobject>
 				</inlinemediaobject>. From the list of existing servers, click the server that you want to set as the default. Alternatively, to create a new default server click <guimenu>New Server</guimenu> and follow the instructions.
 			</para>
@@ -1112,18 +1208,25 @@
 				<title>Default Server Menu Option</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata fileref="images/3991.png"/>
+						<imagedata fileref="images/3991.png"/> 
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To set a default server, in the global toolbar of the JBoss perspective click the <guibutton>Select a default server</guibutton> icon. From the list of existing servers, click the server that you want to set as the default. Alternatively, to create a new default server click <guimenu>New Server</guimenu> and follow the instructions.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22811-566612+%5BSpecified%5D&amp;description=Title%3A+Set+a+Default+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22811-566612+%5BSpecified%5D&amp;description=Title%3A+Set+a+Default+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Default_File_Sets" remap="TID_22805">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Default File Sets</title>
 			<para>
 				File sets are collections of files that are listed under the server in the <guilabel>Servers</guilabel> view for ease of access. JBoss Server Tools generates a default file set for new <phrase>JBoss Enterprise Middleware application servers</phrase> that includes the server configuration file. But JBoss Server Tools also provides the ability for you to customize default file sets for individual servers and application server types.
@@ -1135,9 +1238,9 @@
 				<title>Create File Filter Menu Option</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata fileref="images/4007.png"/>
+						<imagedata fileref="images/4007.png"/> 
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To customize the file set for an individual server, in the <guilabel>Servers</guilabel> view expand the server. Right-click <guilabel>Filesets</guilabel> and click <guimenu>Create File Filter</guimenu>.</phrase>
 					</textobject>
 				</mediaobject>
@@ -1146,9 +1249,9 @@
 				<title>New File Filter Window</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata fileref="images/4006.png"/>
+						<imagedata fileref="images/4006.png"/> 
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>In the <guilabel>Name</guilabel> field, type a name for the filter. In the <guilabel>Root Directory</guilabel> field, type the path of the directory in which the filter should be applied or click <guibutton>Browse</guibutton> to navigate to the location. In the <guilabel>Includes</guilabel> and <guilabel>Excludes</guilabel> fields, type the regex patterns for filtering. Click <guibutton>OK</guibutton> to create the filter.</phrase>
 					</textobject>
 				</mediaobject>
@@ -1162,20 +1265,27 @@
 					<imageobject>
 						<imagedata fileref="images/4005.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To customize the default file set for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel> and select <guilabel>Default Filesets</guilabel>. From the list, select a <phrase>JBoss Enterprise Middleware application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the default file sets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22805-566605+%5BSpecified%5D&amp;description=Title%3A+Default+File+Sets%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22805-566605+%5BSpecified%5D&amp;description=Title%3A+Default+File+Sets%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Default_Classpath_Entries" remap="TID_22804">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Default Classpath Entries</title>
 			<para>
 				Classpath entries specify the availability of <filename>.jar</filename> files for your projects. JBoss Server Tools generates a default classpath file set for new <phrase>JBoss Enterprise Middleware application servers</phrase> based on the <filename>.jar</filename> files that accompany each. But JBoss Server Tools also provides the ability for you to customize classpaths for individual servers and application server types.
-			</para>
+			</para> 
 			<!-- Add text later <para>To customize the classpath fileset for an individual server, <remark>HOW?</remark></para> -->
 			<para>
 				To customize the classpath file set for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel>&rarr;<guilabel>Runtime Environments</guilabel> and select <guilabel>Default Classpath Entries</guilabel>. From the <guilabel>Select classpath filesets for this runtime type</guilabel> list, select a <phrase>JBoss Enterprise Middleware application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the classpath file sets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
@@ -1186,13 +1296,13 @@
 					<imageobject>
 						<imagedata fileref="images/4022.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To customize the classpath file set for an application server type, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Server</guilabel>&rarr;<guilabel>Runtime Environments</guilabel> and select <guilabel>Default Classpath Entries</guilabel>. From the <guilabel>Select classpath filesets for this runtime type</guilabel> list, select a <phrase>JBoss Enterprise Middleware application server</phrase> type. Click <guibutton>Add</guibutton> or click <guibutton>Remove</guibutton> to customize the classpath file sets. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22804-566605+%5BSpecified%5D&amp;description=Title%3A+Default+Classpath+Entries%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22804-566605+%5BSpecified%5D&amp;description=Title%3A+Default+Classpath+Entries%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 	</section>

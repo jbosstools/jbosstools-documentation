@@ -3,7 +3,7 @@
 <!ENTITY % BOOK_ENTITIES SYSTEM "JBoss_Tools_4.1_User_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-<legalnotice>
+<legalnotice id="Legal_Notice" remap="TID_23596">
 	<title>Legal Notice</title>
 	<para>
 		Copyright <trademark class="copyright"/> 2013, 2014 Red Hat, Inc.

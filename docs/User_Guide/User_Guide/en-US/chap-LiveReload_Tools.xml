@@ -8,6 +8,13 @@
 	<section id="sect-Overview_of_LiveReload_Tools">
 		<title>Overview of LiveReload Tools</title>
 		<section id="About_LiveReload" remap="TID_22831">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>About LiveReload</title>
 			<para>
 				LiveReload is an open source tool that refreshes web pages open in browsers as their source is edited. Immediate and automatic web page refreshing, without the need to manually refresh, assists to simplify the workflow of web developers.
@@ -22,10 +29,17 @@
 				The LiveReload application is available for OS X and Microsoft Window operating systems and through a third-party provider for Linux-based operating systems. LiveReload browser extensions are available for Safari, Chrome and Firefox.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22831-566628+%5BSpecified%5D&amp;description=Title%3A+About+LiveReload%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22831-566628+%5BSpecified%5D&amp;description=Title%3A+About+LiveReload%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="About_LiveReload_Tools" remap="TID_22832">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>About LiveReload Tools</title>
 			<para>
 				LiveReload Tools is tooling that implements LiveReload in the IDE. It enables you to take advantage of LiveReload browser refreshing while editing files within the IDE. The capabilities of LiveReload Tools also remove the need to install the LiveReload standalone application or browser extensions.
@@ -37,13 +51,20 @@
 				Unique features of LiveReload tools include LiveReload for both workspace and deployed resources due to the use of HTTP protocol for all resources and LiveReload on external devices with access and ease of use for remote connections to LiveReload servers. The LiveReload server can also be used in conjunction with BrowserSim, extending LiveReload to simulated devices.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22832-566628+%5BSpecified%5D&amp;description=Title%3A+About+LiveReload+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22832-566628+%5BSpecified%5D&amp;description=Title%3A+About+LiveReload+Tools%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 	</section>
 	<section id="sect-Features_of_LiveReload_Tools">
 		<title>Features of LiveReload Tools</title>
 		<section id="Features_Overview3" remap="TID_22833">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Features Overview</title>
 			<para>
 				The aim of this section is to guide you in using LiveReload Tools:
@@ -66,10 +87,17 @@
 				</listitem>
 			</itemizedlist>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22833-566628+%5BSpecified%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22833-566628+%5BSpecified%5D&amp;description=Title%3A+Features+Overview%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Create_a_LiveReload_Server" remap="TID_22836">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Create a LiveReload Server</title>
 			<para>
 				The LiveReload server is integral to the LiveReload integration with the IDE. In its default configuration, the server receives information from the IDE when resources change and sends notifications for refresh actions to be taken. The server may also be further configured to inject the necessary JavaScript code snippets into HTML files or enable remote connections. The procedure below guides you through creating a default LiveReload server.
@@ -108,7 +136,7 @@
 							<imageobject>
 								<imagedata fileref="images/4079.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>From the list of server types, expand <guilabel>Basic</guilabel> and select <guilabel>LiveReload Server</guilabel>.</phrase>
 							</textobject>
 						</mediaobject>
@@ -129,7 +157,7 @@
 							<imageobject>
 								<imagedata fileref="images/4080.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>The LiveReload server is listed in the <guilabel>Servers</guilabel> view.</phrase>
 							</textobject>
 						</mediaobject>
@@ -142,10 +170,17 @@
 				</para>
 			</note>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22836-566628+%5BSpecified%5D&amp;description=Title%3A+Create+a+LiveReload+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22836-566628+%5BSpecified%5D&amp;description=Title%3A+Create+a+LiveReload+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Configure_the_LiveReload_Server" remap="TID_22835">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Configure the LiveReload Server</title>
 			<para>
 				A LiveReload client must be inserted into HTML files in order for it to receive the LiveReload server notifications about changed resources. LiveReload Tools provides additional configuration options so that the LiveReload server can inject the necessary <command>&lt;script&gt;</command> element into the HTML resources. Furthermore, the LiveReload server can be configured to allow access from external devices, enabling LiveReload to function in browsers of remote devices.
@@ -159,7 +194,7 @@
 					<imageobject>
 						<imagedata fileref="images/4078.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>The details below outline how to set the configuration options using the Server Editor. To open the Server Editor for a LiveReload server, in the <guilabel>Servers</guilabel> tab double-click the LiveReload server. Alternatively, right-click the LiveReload server and click <guimenu>Open</guimenu> or press <keycap>F3</keycap>.</phrase>
 					</textobject>
 				</mediaobject>
@@ -186,10 +221,17 @@
 				All changes to the settings of a LiveReload server must be saved and the server restarted before the results will take effect. To save setting changes, press <keycap>Ctrl+S</keycap> or click <guimenu>File</guimenu>&rarr;<guimenu>Save</guimenu> or click the <guibutton>Save</guibutton> icon. To restart the server, in the <guilabel>Servers</guilabel> view right-click the LiveReload server and click <guimenu>Restart</guimenu>.
 			</para>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22835-566628+%5BSpecified%5D&amp;description=Title%3A+Configure+the+LiveReload+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22835-566628+%5BSpecified%5D&amp;description=Title%3A+Configure+the+LiveReload+Server%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_Resources_in_LiveReload-enabled_Browsers" remap="TID_22837">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>View Resources in LiveReload-enabled Browsers</title>
 			<para>
 				You can use the actions of LiveReload Tools to open HTML, XHTML and AsciiDoc resources in LiveReload-enabled browsers, as detailed below. If the requisite LiveReload server does not exist or is not correctly configured, you are prompted by LiveReload Tools, which can complete the necessary requirements for you. Note that LiveReload Tools functionality may only work with deployed XHTML resources due to their dynamic nature.
@@ -205,7 +247,7 @@
 					<listitem>
 						<para>
 							In the <guilabel>Project Explorer</guilabel> view, right-click the resource file and click <guimenu>Open With</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu>.
-						</para>
+						</para> 
 						<!--<figure>
 					<title><guimenu>Open With</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu> Menu Option</title>
 					<mediaobject>
@@ -226,7 +268,7 @@
 								<imageobject>
 									<imagedata fileref="images/4081.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>This requires the server to be configured to <guilabel>Inject the livereload.js script in HTML pages</guilabel> and, if the server is not correctly configured, you are prompted to enable this option.</phrase>
 								</textobject>
 							</mediaobject>
@@ -248,7 +290,7 @@
 								<imageobject>
 									<imagedata fileref="images/4074.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> view, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser via LiveReload Server</guimenu>.</phrase>
 								</textobject>
 							</mediaobject>
@@ -262,7 +304,7 @@
 								<imageobject>
 									<imagedata fileref="images/4081.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>This requires the server to be configured to <guilabel>Inject the livereload.js script in HTML pages</guilabel> and, if the server is not correctly configured, you are prompted to enable this option.</phrase>
 								</textobject>
 							</mediaobject>
@@ -289,7 +331,7 @@
 								<imageobject>
 									<imagedata fileref="images/4073.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>Ensure the server and application of the deployed resources are started. In the <guilabel>Servers</guilabel> view, right-click the application and click <guimenu>Show In</guimenu>&rarr;<guimenu>Web Browser on External Device</guimenu>.</phrase>
 								</textobject>
 							</mediaobject>
@@ -303,7 +345,7 @@
 								<imageobject>
 									<imagedata fileref="images/4075.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>This requires the server to be configured to <guilabel>Inject the livereload.js script in HTML pages</guilabel> and <guilabel>Allow Remote Connections</guilabel> and, if the server is not correctly configured, you are prompted to enable these options.</phrase>
 								</textobject>
 							</mediaobject>
@@ -317,7 +359,7 @@
 								<imageobject>
 									<imagedata fileref="images/4076.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>A QR code and LiveReload server port URL corresponding to the deployed application are displayed and these can be input into external device browsers.</phrase>
 								</textobject>
 							</mediaobject>
@@ -331,10 +373,17 @@
 				</para>
 			</note>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22837-565778+%5BSpecified%5D&amp;description=Title%3A+View+Resources+in+LiveReload-enabled+Browsers%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22837-565778+%5BSpecified%5D&amp;description=Title%3A+View+Resources+in+LiveReload-enabled+Browsers%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="View_Resources_in_LiveReload-enabled_BrowserSim" remap="TID_22834">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>View Resources in LiveReload-enabled BrowserSim</title>
 			<para>
 				The LiveReload server can be used in conjunction with BrowserSim. In this case, the server sends notifications about changed resources and BrowserSim inserts the JavaScript code, which invokes the simulated device browser window to refresh. The procedure below outlines how to enable LiveReload in BrowserSim for workspace and deployed resources.
@@ -366,7 +415,7 @@
 									<imageobject>
 										<imagedata fileref="images/4072.png"/>
 									</imageobject>
-									<textobject>
+									<textobject> 
 										<phrase>For deployed resources, in the <guilabel>Servers</guilabel> view right-click the application and click <guimenu>Show In</guimenu>&rarr;<guilabel>BrowserSim</guilabel>.</phrase>
 									</textobject>
 								</mediaobject>
@@ -389,7 +438,7 @@
 							<imageobject>
 								<imagedata fileref="images/4305.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>Right-click the simulated device and ensure the <guilabel>Enable LiveReload</guilabel> check box is selected.</phrase>
 							</textobject>
 						</mediaobject>
@@ -402,7 +451,7 @@
 				</para>
 			</important>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+22443%2C+User+Guide-7.1%0ABuild+Date%3A+17-01-2014+15%3A56%3A12%0ATopic+ID%3A+22834-566628+%5BSpecified%5D&amp;description=Title%3A+View+Resources+in+LiveReload-enabled+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=12310980&amp;components=12317363">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+22834-566628+%5BSpecified%5D&amp;description=Title%3A+View+Resources+in+LiveReload-enabled+BrowserSim%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 	</section>

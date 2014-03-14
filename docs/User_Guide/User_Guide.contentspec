@@ -5,7 +5,7 @@ Abstract = This document details how to use and customize the individual plug-in
 Product = Red Hat JBoss Developer Studio
 Version = 7.1
 #Edition =
-DTD = Docbook 4.5
+Format = DocBook 4.5
 Copyright Holder = Red Hat, Inc
 # The commented fields below are optional
 Copyright Year = 2013, 2014
@@ -22,11 +22,11 @@ Bug Links = Jira
 JIRAServer = https://issues.jboss.org/
 JIRAProject = TOOLSDOC
 JIRAComponent = User Guide
-# JIRAVersion = 4.1.1
+#JIRAVersion = 4.1.1
 # JIRALabels =
 # Output Style =
 Feedback = [23618, rev: 566820]
-Revision History = [22789, rev: 576333]
+Revision History = [22789, rev: 588722]
 Author Group = [24063, rev: 556627]
 # Indentation is meaningful. Use 2 spaces.
 #[Writer=mmurray, JBDS User Guide, JBDS 7.1.z]
@@ -46,6 +46,7 @@ Part: Tools for Every Project
       Features Overview [22795, rev: 566605]
       View JBoss Central [22794, rev: 566605]
       Access Project Wizards in JBoss Central [22800, rev: 566605]
+      Meet the Requirements of JBoss Central Project Examples [28361, rev: 590371]
       Access Information in JBoss Central [22801, rev: 566605]
       Install Software in JBoss Central [22798, rev: 566605]
       Open the JBoss Perspective [22791, rev: 566605]
@@ -58,6 +59,7 @@ Part: Tools for Every Project
       Use Project Examples when Working Offline [22802, rev: 566605]
       Install Software when Working Offline [22868, rev: 565679]
       Set Cheat Sheet Behavior [22803, rev: 566605]
+      Set Usage Reporting [13335, rev: 621283]
 
   Chapter: JBoss Server Tools
     Section: Overview of JBoss Server Tools
@@ -67,12 +69,14 @@ Part: Tools for Every Project
           Create a Default Local Server Definition with Runtime Detection [22808]]
     Section: Features of JBoss Server Tools
       Features Overview [22815, rev: 566612]
-      Create a Default Local Server Definition with Runtime Detection [22808, rev: 566605]
+      Create a Default Local Server Definition with Runtime Detection [22808, rev: 588830]
       Create an Additional Server Runtime Environment [22810, rev: 576036]
       Define an Additional Local Server [22813, rev: 566612]
       Define a Remote Server [22817, rev: 566612]
-      Section: Manage Server Settings [22809, rev: 566605]
-        Manage Server Settings in the Overview Tab [22807, rev: 566605]
+      Section: Manage Server Settings
+        Initial Text:
+          Manage Server Settings [22809, rev: 566605]
+        Manage Server Settings in the Overview Tab [22807, rev: 619349]
         Manage Server Settings in the Deployment Tab [22812, rev: 566612]
     Section: Customizing JBoss Server Tools
       Customizing Overview [22814, rev: 566612]
@@ -170,15 +174,17 @@ Part: Tools for Creating Mobile Applications
           Set the Android SDK Location [22588]]
     Section: Features of Hybrid Mobile Tools and CordovaSim
       Features Overview [24381, rev: 566901]
-      Create a Hybrid Mobile Project [24058, rev: 567462]
+      Create a Hybrid Mobile Project [24058, rev: 607786]
       Enable Cordova Plug-ins for an Application [24151, rev: 568235]
         [Refer-to:
           Manage Cordova Settings in the Platform Properties Tab [24297]]
-      Section: Manage Cordova Settings of a Hybrid Mobile Project [24059, rev: 567493]
+      Section: Manage Cordova Settings of a Hybrid Mobile Project
+        Initial Text:
+          Manage Cordova Settings of a Hybrid Mobile Project [24059, rev: 567493]
         Manage Cordova Settings in the Overview Tab [24298, rev: 567510]
         Manage Cordova Settings in the Platform Properties Tab [24297, rev: 567509]
 #        Manage Cordova Settings in Icons &amp; Splash Screen Mode [24299]
-      Run a Hybrid Mobile Application on Devices and Simulators [24062, rev: 567498]
+      Run a Hybrid Mobile Application on Devices and Simulators [24062, rev: 619337]
         [Refer-to:
           System Requirements for Hybrid Mobile Tools [24119]]
       Manage Hybrid Mobile Project Run Configurations [24169, rev: 567499]
@@ -195,19 +201,20 @@ Part: Tools for Deployment and Maintenance
       About OpenShift [22877, rev: 565803]
       About OpenShift Tools [22881, rev: 566643]
     Section: Features of OpenShift Tools
-      Features Overview [22870, rev: 566643]
-      Create an OpenShift Online User Account [22879, rev: 566643]
-      Connect to OpenShift [22869, rev: 566635]
+      Features Overview [22870, rev: 621289]
+      Create an OpenShift Online User Account [22879, rev: 587828]
+      Connect to OpenShift [22869, rev: 589049]
       Manage a Connection [22878, rev: 566643]
       Generate and Upload SSH Keys to OpenShift [22872, rev: 568493]
       Manage SSH Keys [22876, rev: 566643]
-      Create a Domain [22880, rev: 566643]
+      Create a Domain [22880, rev: 587831]
       Manage a Domain [22867, rev: 566635]
       Deploy a New or Existing Application on OpenShift [22871, rev: 566643]
       Import a Deployed OpenShift Application into the IDE [22874, rev: 566643]
       Generate a Server Adapter for an Application [22882, rev: 566643]
       View a Deployed Application and Associated Information [22875, rev: 565816]
-      Manage a Deployed Application [22873, rev: 565823]
+      Manage a Deployed Application [22873, rev: 588615]
+      Debug a Deployed Application [28342, rev: 590341]
     Section: Customizing OpenShift Tools
       Customizing Overview [25166, rev: 566980]
       Change the Timeout Behavior of OpenShift Requests [25165, rev: 566980]

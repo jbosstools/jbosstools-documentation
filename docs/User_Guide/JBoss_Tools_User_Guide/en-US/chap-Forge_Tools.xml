@@ -8,6 +8,13 @@
 	<section id="sect-Overview_of_Forge_Tools">
 		<title>Overview of Forge Tools</title>
 		<section id="About_Forge" remap="TID_22826">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>About Forge</title>
 			<para>
 				Forge is an application for developing Java EE applications, promoting ease in getting started, working efficiently, and integrating technologies. It simplifies development workflow by providing automation at a command line level. Such automation is useful if you are working with new or complex technology or completing repetitive tasks.
@@ -17,6 +24,13 @@
 			</para>
 		</section>
 		<section id="About_Forge_Tools" remap="TID_22824">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>About Forge Tools</title>
 			<para>
 				Forge Tools is tooling that integrates Forge into the IDE. It enhances your workflow by providing and integrating Forge functionality within the IDE.
@@ -29,6 +43,13 @@
 	<section id="sect-Features_of_Forge_Tools">
 		<title>Features of Forge Tools</title>
 		<section id="Features_Overview2" remap="TID_22821">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Features Overview</title>
 			<para>
 				The aim of this section is to guide you in using Forge Tools:
@@ -59,10 +80,17 @@
 						Use wizards for accomplishing common Forge commands as an alternative to the Forge command line
 					</para>
 				</listitem>
-			</itemizedlist>
+			</itemizedlist> 
 			<!--<para><remark>[DOCS] Watching JBIDE-13486: open a cheat sheet after starting Forge; JBIDE-13573: add debug/run button or preferences action in console; JBIDE-13192: pick-up automatically executed after new-project command; JBIDE-13194: ask user to restart forge after changing VM arguments or changing debug mode; JBIDE-14615: set VERBOSE command opens Error Log tab; JBIDE-12443: Add forge tab to JBoss perspective</remark></para> -->
 		</section>
 		<section id="Manage_the_Forge_Console" remap="TID_22829">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Manage the Forge Console</title>
 			<para>
 				A key element for working with Forge is the Forge command line. In order to see this, you need to open the <guilabel>Forge Console</guilabel> view.
@@ -73,7 +101,7 @@
 					<imageobject>
 						<imagedata fileref="images/4060.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To open the <guilabel>Forge Console</guilabel> view, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>. Expand <guilabel>Forge</guilabel> and double-click <guilabel>Forge Console</guilabel> and click <guibutton>OK</guibutton>. Alternatively, press <keycap>Ctrl+4</keycap>, at which you are prompted whether you also want to start the Forge runtime server. Irrespective of your response to starting Forge, the <guilabel>Forge Console</guilabel> view opens.</phrase>
 					</textobject>
 				</mediaobject>
@@ -83,6 +111,13 @@
 			</para>
 		</section>
 		<section id="Manage_the_Forge_Runtime_Server" remap="TID_22819">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Manage the Forge Runtime Server</title>
 			<para>
 				You must start a Forge runtime server in order to access the Forge command line. Forge Tools provides actions for starting and managing the Forge runtime server.
@@ -105,7 +140,7 @@
 								<imageobject>
 									<imagedata fileref="images/4063.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>In the <guilabel>Forge Console</guilabel> view, click the <guibutton>Start the default Forge runtime</guibutton> icon. Alternatively, press <keycap>Ctrl+4</keycap> and at the prompt asking if you want to start the Forge runtime server, click <guibutton>Yes</guibutton>.</phrase>
 								</textobject>
 							</mediaobject>
@@ -142,7 +177,7 @@
 								<imageobject>
 									<imagedata fileref="images/4069.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>To stop Forge, on the Forge command line enter <command>exit</command>.</phrase>
 								</textobject>
 							</mediaobject>
@@ -152,6 +187,13 @@
 			</variablelist>
 		</section>
 		<section id="Navigate_to_Project_Resources_on_the_Forge_Command_Line" remap="TID_22822">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Navigate to Project Resources on the Forge Command Line</title>
 			<para>
 				Forge Tools enables you to efficiently navigate to project resources, such as directories and files, on the Forge command line.
@@ -165,7 +207,7 @@
 					<imageobject>
 						<imagedata fileref="images/4064.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To navigate to a project resource on the Forge command line, in the <guilabel>Project Explorer</guilabel> view right-click any project resource and click <guimenu>Show In</guimenu>&rarr;<guimenu>Forge Console</guimenu>.</phrase>
 					</textobject>
 				</mediaobject>
@@ -187,18 +229,25 @@
 					<imageobject>
 						<imagedata fileref="images/4067.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>The Forge command line automatically executing the <command>pick-up</command> command for the project resource.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 		</section>
 		<section id="Background_Actions_Invoked_by_Forge_Commands" remap="TID_22827">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Background Actions Invoked by Forge Commands</title>
 			<para>
 				Forge Tools invokes background actions in the IDE in response to commands issued on the command line in the <guilabel>Forge Console</guilabel> view. For example, if you create a project file or directory on the Forge command line, the <guilabel>Project Explorer</guilabel> view is automatically refreshed to show the newly created project resource. A list of Forge commands that result in additional background actions is given below.
 			</para>
-			<variablelist>
+			<variablelist> 
 				<!--JBIDE-14615: RFE<varlistentry>
 				<term><command>set VERBOSE true</command></term>
 				<listitem><para>The command results in exceptions being recorded in the IDE error log. To open the <guilabel>Error Log</guilabel> tab, click <guimenu>Window</guimenu>&rarr;<guilabel>Show View</guilabel>&rarr;<guimenu>Other</guimenu> and expand <guilabel>General</guilabel>. Click <guilabel>Error Log</guilabel> and click <guibutton>OK</guibutton>.</para></listitem>
@@ -262,6 +311,13 @@
 			</variablelist>
 		</section>
 		<section id="Access_a_List_of_Forge_Commands" remap="TID_22825">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Access a List of Forge Commands</title>
 			<para>
 				Forge Tools provides access to a readily available list of Forge commands. Additionally, the commands can be easily inserted in to the Forge command line, as detailed below.
@@ -275,13 +331,20 @@
 					<imageobject>
 						<imagedata fileref="images/4070.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To view the list of Forge commands, with a running instance of Forge, press <keycap>Ctrl+4</keycap>. To insert one of the commands in to the Forge command line, in the pop-up window expand the command groups and double-click a command.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 		</section>
 		<section id="Use_Forge_Wizards" remap="TID_22823">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Use Forge Wizards</title>
 			<para>
 				You may prefer to work with wizards rather than the command line. Forge Tools provides wizards for some of the most used Forge commands, in addition to supporting command line functionality. There are three wizards currently available relating to entities, as detailed below.
@@ -321,7 +384,7 @@
 					<imageobject>
 						<imagedata fileref="images/4059.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To open a Forge Tools wizard, click <guimenu>File</guimenu>&rarr;<guimenu>New</guimenu>&rarr;<guimenu>Other</guimenu> and expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Forge</guilabel>. Select one of the listed wizards, click <guibutton>Next</guibutton> and follow the instructions.</phrase>
 					</textobject>
 				</mediaobject>
@@ -331,6 +394,13 @@
 	<section id="sect-Customizing_Forge_Tools">
 		<title>Customizing Forge Tools</title>
 		<section id="Customizing_Overview2" remap="TID_22818">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Customizing Overview</title>
 			<para>
 				The aim of this section is to guide you in customizing Forge Tools:
@@ -349,6 +419,13 @@
 			</itemizedlist>
 		</section>
 		<section id="Customize_the_Forge_Start" remap="TID_22820">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Customize the Forge Start</title>
 			<para>
 				Forge Tools provides a number of options for customized Forge starts.
@@ -359,7 +436,7 @@
 					<imageobject>
 						<imagedata fileref="images/4066.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To open the the Forge Pane, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu> and select <guilabel>Forge</guilabel>.</phrase>
 					</textobject>
 				</mediaobject>
@@ -397,6 +474,13 @@
 			</variablelist>
 		</section>
 		<section id="Manage_Forge_Runtime_Servers" remap="TID_22828">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Manage Forge Runtime Servers</title>
 			<para>
 				Forge Tools is distributed with a Forge runtime server but you may want to use different versions of Forge runtime servers. Forge Tools provides the ability to manage the Forge runtime servers that are available in the IDE, as detailed below.
@@ -409,7 +493,7 @@
 						<imageobject>
 							<imagedata fileref="images/4065.png"/>
 						</imageobject>
-						<textobject>
+						<textobject> 
 							<phrase>To manage the available Forge runtime servers, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>Forge</guilabel> and select <guilabel>Installed Forge Runtimes</guilabel>.</phrase>
 						</textobject>
 					</mediaobject>

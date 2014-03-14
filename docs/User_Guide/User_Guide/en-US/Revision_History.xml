@@ -3,13 +3,39 @@
 <!ENTITY % BOOK_ENTITIES SYSTEM "User_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-<appendix id="appe-User_Guide-Revision_History">
+<appendix id="appe-User_Guide-Revision_History" remap="TID_22789">
 	<title>Revision History</title>
 	<simpara>
 		<revhistory>
-			<revision>
+			<revision> 
+				<revnumber>7.1.1-4</revnumber><date>Wed Feb 12 2014</date>
+				<author> 
+					<firstname>Suzanne</firstname><surname>Dorfield</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOSLDOC-460: JBoss Central example requirements added
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision> 
+				<revnumber>7.1.1-3</revnumber><date>Wed Feb 12 2014</date>
+				<author> 
+					<firstname>Suzanne</firstname><surname>Dorfield</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOSLDOC-446, TOOLSDOC-447, TOOLSDOC-455: OpenShift text for debugging, SSL certificates, and default servers added
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision> 
 				<revnumber>7.1.1-2</revnumber><date>Fri Jan 17 2014</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -20,9 +46,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.1-1</revnumber><date>Thu Jan 09 2014</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -33,9 +59,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-12</revnumber><date>Tue Dec 10 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -46,9 +72,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-11</revnumber><date>Mon Dec 09 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -59,9 +85,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-10</revnumber><date>Thu Dec 05 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -72,9 +98,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-9</revnumber><date>Tue Dec 03 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -85,9 +111,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-8</revnumber><date>Fri Nov 29 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -98,9 +124,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-7</revnumber><date>Tue Nov 19 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -111,9 +137,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-6</revnumber><date>Fri Nov 15 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -124,9 +150,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-5</revnumber><date>Fri Nov 08 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -137,9 +163,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-4</revnumber><date>Thu Nov 07 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -150,9 +176,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-3</revnumber><date>Tue Nov 05 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -163,9 +189,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-2</revnumber><date>Tue Nov 05 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
@@ -176,9 +202,9 @@
 					</simplelist>
 				</revdescription>
 			</revision>
-			<revision>
+			<revision> 
 				<revnumber>7.1.0-1</revnumber><date>Wed Oct 09 2013</date>
-				<author>
+				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>
 				</author>
 				<revdescription>
