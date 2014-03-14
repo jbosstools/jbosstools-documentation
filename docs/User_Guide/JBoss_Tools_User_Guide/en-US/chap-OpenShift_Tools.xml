@@ -8,6 +8,13 @@
 	<section id="sect-Overview_of_OpenShift_Tools">
 		<title>Overview of OpenShift Tools</title>
 		<section id="About_OpenShift" remap="TID_22877">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>About OpenShift</title>
 			<para>
 				OpenShift is Red Hat's Platform as a Service (PaaS) for applications. It consists of an application platform in the cloud, enabling you to build, test and run applications in a cloud architecture. OpenShift provides disk space, CPU resources, network connectivity, and a runtime environment.
@@ -42,7 +49,7 @@
 						<para>
 							Automatic or manual scaling of the resources supporting your applications ensures that application performance does not suffer as usage increases. OpenShift can create additional instances of your application across more gears and enable clustering.
 						</para>
-					</listitem>
+					</listitem> 
 					<!-- OpenShift uses Git, a free and open source version control system. -->
 				</itemizedlist>
 			</para>
@@ -51,6 +58,13 @@
 			</para>
 		</section>
 		<section id="About_OpenShift_Tools" remap="TID_22881">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>About OpenShift Tools</title>
 			<para>
 				OpenShift Tools is tooling available within the IDE for OpenShift. It provides an alternative way of accessing OpenShift and managing the development of applications deployed on OpenShift servers.
@@ -85,6 +99,13 @@
 	<section id="sect-Features_of_OpenShift_Tools">
 		<title>Features of OpenShift Tools</title>
 		<section id="Features_Overview6" remap="TID_22870">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Features Overview</title>
 			<para>
 				The aim of this section is to guide you in using OpenShift Tools:
@@ -122,19 +143,26 @@
 				</listitem>
 				<listitem>
 					<para>
-						Manage deployed OpenShift applications and view information about them
+						Manage and debug deployed OpenShift applications
 					</para>
 				</listitem>
-			</itemizedlist>
+			</itemizedlist> 
 			<!--<para><remark>[DOCS] JBIDE-13281: server adapter Show In > Server Log does nothing; JBIDE-14018: git commit message; JBIDE-14394: support adding cartridge via github url; JBIDE-13963: port fowarding UI under review; JBIDE-10512: deleted application still shown in servers tab; JBIDE-14395: in new app wizard enable scaling by default;</remark></para> -->
 		</section>
 		<section id="Create_an_OpenShift_Online_User_Account" remap="TID_22879">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Create an OpenShift Online User Account</title>
 			<para>
 				To begin using OpenShift Online, you need to create a user account. OpenShift Tools provides the ability to create an OpenShift Online user account from within the IDE.
 			</para>
 			<para>
-				To create a user account, click the <guilabel>OpenShift Explorer</guilabel> view. If the <guilabel>OpenShift Explorer</guilabel> view is not visible, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>, expand <guilabel>JBoss Tools</guilabel> and double-click <guilabel>OpenShift Ecplorer</guilabel>.
+				To create a user account, click the <guilabel>OpenShift Explorer</guilabel> view. If the <guilabel>OpenShift Explorer</guilabel> view is not visible, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>, expand <guilabel>JBoss Tools</guilabel> and double-click <guilabel>OpenShift Explorer</guilabel>.
 			</para>
 			<figure>
 				<title>OpenShift Explorer View</title>
@@ -142,7 +170,7 @@
 					<imageobject>
 						<imagedata fileref="images/4324.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>click the <guilabel>OpenShift Explorer</guilabel> view.</phrase>
 					</textobject>
 				</mediaobject>
@@ -161,7 +189,7 @@
 					<imageobject>
 						<imagedata fileref="images/3928.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>Click the link to sign up for an account.</phrase>
 					</textobject>
 				</mediaobject>
@@ -171,6 +199,13 @@
 			</para>
 		</section>
 		<section id="Connect_to_OpenShift" remap="TID_22869">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Connect to OpenShift</title>
 			<para>
 				Once you have an OpenShift user account, you can connect to OpenShift and then create domains and applications. The procedure below guides you through connecting to OpenShift for the first time in the IDE.
@@ -199,8 +234,13 @@
 						</listitem>
 						<listitem>
 							<para>
-								If you want to use a server other than the default at https://openshift.redhat.com, clear the <guilabel>Use default server</guilabel> check box and in the <guilabel>Server</guilabel> field type the address of the server. This option is most relevant when you are using OpenShift Enterprise or Origin servers.
+								To use a different OpenShift server from that stated in the <guilabel>Server</guilabel> field, clear the <guilabel>Use default server</guilabel> check box and in the <guilabel>Server</guilabel> field type the address of the server.
 							</para>
+							<note>
+								<para>
+									The default server information is taken from the <filename>express.conf</filename> file generated by the RHC, the OpenShift Client Tools. In the case that this file does not exist, OpenShift Tools assumes the default server to be OpenShift Online at <ulink url="https://openshift.redhat.com"/>.
+								</para>
+							</note>
 						</listitem>
 						<listitem>
 							<para>
@@ -224,7 +264,7 @@
 							<imageobject>
 								<imagedata fileref="images/3929.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>From the <guilabel>Connection</guilabel> list, select <guilabel>New Connection</guilabel>. In the <guilabel>Username</guilabel> and <guilabel>Password</guilabel> fields, type your OpenShift user account authentication information.</phrase>
 							</textobject>
 						</mediaobject>
@@ -249,13 +289,18 @@
 					<para>
 						Once your credentials are verified as correct, the wizard closes and a live OpenShift connection is listed in the <guilabel>OpenShift Explorer</guilabel> view.
 					</para>
+					<important>
+						<para>
+							Note that all SSL certificates, whether valid or invalid, are accepted automatically by OpenShift Tools.
+						</para>
+					</important>
 					<figure>
 						<title>OpenShift Connection Listed in <guilabel>OpenShift Explorer</guilabel> View</title>
 						<mediaobject>
 							<imageobject>
 								<imagedata fileref="images/4329.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>Once your credentials are verified as correct, the wizard closes and a live OpenShift connection is listed in the <guilabel>OpenShift Explorer</guilabel> view.</phrase>
 							</textobject>
 						</mediaobject>
@@ -265,13 +310,15 @@
 			<para>
 				When you close the IDE, any live OpenShift connections will be disconnected but they can be easily reestablished. OpenShift Tools lists previous connections in the <guilabel>OpenShift Explorer</guilabel> view until cleared by you. In the <guilabel>OpenShift Explorer</guilabel> view, double-click or expand the appropriate connection to open an automatically completed connection wizard. Type your password or, if using the saved password facility, the master password and click <guibutton>Finish</guibutton>.
 			</para>
-			<!--<itemizedlist>
-			<listitem><para>OpenShift Tools lists previous connections in the <guilabel>OpenShift Explorer</guilabel> tab until cleared by you. In the <guilabel>OpenShift Explorer</guilabel> tab, double-click or expand the appropriate connection to open an automatically completed connection wizard. Type your password or the master password, if using the saved password facility, and click <guibutton>Finish</guibutton>.</para></listitem>
-			<listitem><para>OpenShift Tools lists previous connections in the connection wizard. In the <guilabel>OpenShift Explorer</guilabel> tab, click the <guibutton>Connect to OpenShift</guibutton> icon. From the <guilabel>Connection</guilabel> list, select the appropriate connection. Type your password and, if you want the <guilabel>Password</guilabel> field to automatically populate for this connection in future, select the <guilabel>Save password</guilabel> check box and click <guibutton>Finish</guibutton>. When prompted, enter your secure storage password. <remark>See JBIDE-13958 for info.</remark></para>
-			</listitem>	
-		</itemizedlist> -->
 		</section>
 		<section id="Manage_a_Connection" remap="TID_22878">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Manage a Connection</title>
 			<para>
 				Using OpenShift Tools, you can view and manage live OpenShift connections.
@@ -289,7 +336,7 @@
 								<imageobject>
 									<imagedata fileref="images/3933.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>In the <guilabel>OpenShift Explorer</guilabel> view, right-click the connection and click <guimenu>Properties</guimenu>. The <guilabel>Properties</guilabel> view opens and shows information about the associated domains, key and user account. The <guilabel>Key</guilabel> parameter is unique to the connection and it is used by the IDE for identification purposes.</phrase>
 								</textobject>
 							</mediaobject>
@@ -315,6 +362,13 @@
 			</variablelist>
 		</section>
 		<section id="Generate_and_Upload_SSH_Keys_to_OpenShift" remap="TID_22872">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Generate and Upload SSH Keys to OpenShift</title>
 			<para>
 				SSH keys are essential when working with OpenShift. They enable you to develop and access deployed applications. SSH keys are also used to control access of other contributors to your OpenShift applications. SSH keys must be uploaded to the OpenShift server and, as detailed in the procedure below, OpenShift Tools can assist with both the generation and uploading of SSH keys to OpenShift.
@@ -378,7 +432,7 @@
 							<imageobject>
 								<imagedata fileref="images/3936.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>To create a new SSH private-public key pair, click <guibutton>New</guibutton>.</phrase>
 							</textobject>
 						</mediaobject>
@@ -397,6 +451,13 @@
 			</procedure>
 		</section>
 		<section id="Manage_SSH_Keys" remap="TID_22876">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Manage SSH Keys</title>
 			<para>
 				OpenShift Tools provides actions for managing the SSH keys of your OpenShift account.
@@ -420,7 +481,7 @@
 							In the <guilabel>OpenShift Explorer</guilabel> view, right-click the connection and click <guimenu>Manage SSH Keys</guimenu>. From the <guilabel>SSH Public Keys</guilabel> table select the key you want to remove from your OpenShift account and click <guibutton>Remove</guibutton>. At the prompt asking if you are sure you want to remove the key, click <guibutton>OK</guibutton>. Click <guibutton>OK</guibutton> to close the <application>Manage SSH Keys</application> window.
 						</para>
 						<note>
-							<para>
+							<para> 
 								<guibutton>Remove</guibutton> only disassociates keys with your OpenShift account. The files associated with a 'removed' SSH public-private key pair still exist in the local location where they were generated and can be uploaded again to OpenShift using the <guibutton>Add Existing</guibutton> action.
 							</para>
 						</note>
@@ -437,9 +498,16 @@
 			</variablelist>
 		</section>
 		<section id="Create_a_Domain1" remap="TID_22880">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Create a Domain</title>
 			<para>
-				Once you have an OpenShift user account, you need to create domains in which to host your applications. Note that user accounts for OpenShift Online with Free plan can be associated with one domain only. The procedure below guides you through creating a new domain but you first need a live connection. If you already have a domain associated with your user account then domain information is automatically passed to the IDE when a live connection is started.
+				Once you have an OpenShift user account, you need to create domains in which to host your applications. Note that user accounts for OpenShift Online with Free plan can be associated with one domain only, but one domain can host multiple applications. The procedure below guides you through creating a new domain once a live connection between OpenShift and the IDE is established. If you already have a domain associated with your user account, domain information is automatically passed to the IDE when a live connection is started.
 			</para>
 			<procedure>
 				<title>Create a Domain</title>
@@ -463,7 +531,7 @@
 							<imageobject>
 								<imagedata fileref="images/4326.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>In the <guilabel>Domain Name</guilabel> field, type the name of the domain you would like to use and click <guibutton>Finish</guibutton>.</phrase>
 							</textobject>
 						</mediaobject>
@@ -477,6 +545,13 @@
 			</note>
 		</section>
 		<section id="Manage_a_Domain" remap="TID_22867">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Manage a Domain</title>
 			<para>
 				OpenShift Tools provides actions for managing the domains of your OpenShift account.
@@ -519,6 +594,13 @@
 			</variablelist>
 		</section>
 		<section id="Deploy_a_New_or_Existing_Application_on_OpenShift" remap="TID_22871">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Deploy a New or Existing Application on OpenShift</title>
 			<para>
 				OpenShift Tools provides the <application>OpenShift Application</application> wizard to assist you in creating and deploying OpenShift applications.
@@ -546,7 +628,7 @@
 							<imageobject>
 								<imagedata fileref="images/3932.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>In <guilabel>JBoss Central</guilabel>, click <guilabel>OpenShift Application</guilabel>.</phrase>
 							</textobject>
 						</mediaobject>
@@ -609,7 +691,7 @@
 							<imageobject>
 								<imagedata fileref="images/4327.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>Complete the fields and options of the wizard page.</phrase>
 							</textobject>
 						</mediaobject>
@@ -657,7 +739,7 @@
 							<imageobject>
 								<imagedata fileref="images/3937.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>The <guilabel>Git Clone Destination</guilabel> field shows the location to be used for the local Git repository. The location must already exist to be able to proceed with the wizard. To change the location, clear the <guilabel>Use default clone location</guilabel> check box and type the location in the <guilabel>Git Clone Destination</guilabel> field or click <guibutton>Browse</guibutton> to navigate to the location.</phrase>
 							</textobject>
 						</mediaobject>
@@ -684,6 +766,13 @@
 			</note>
 		</section>
 		<section id="Import_a_Deployed_OpenShift_Application_into_the_IDE" remap="TID_22874">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Import a Deployed OpenShift Application into the IDE</title>
 			<para>
 				All applications deployed on OpenShift are listed under live connections in the <guilabel>OpenShift Explorer</guilabel> view. But only the project files of OpenShift applications created through the IDE are immediately available in the <guilabel>Project Explorer</guilabel> and <guilabel>Git Repositories</guilabel> views. If you want to work on the project files associated with an application, you must first import the application. OpenShift Tools can assist you to import your deployed OpenShift applications into the IDE, as detailed in the procedure below.
@@ -722,7 +811,7 @@
 							<imageobject>
 								<imagedata fileref="images/3941.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>Ensure the <guilabel>Use existing application</guilabel> check box is selected and type the name of the application in the text field. This field has an auto-completion feature to assist you in typing the application name or click <guibutton>Browse</guibutton> to see a list of all of your applications associated with the connection.</phrase>
 							</textobject>
 						</mediaobject>
@@ -781,6 +870,13 @@
 			</para>
 		</section>
 		<section id="Generate_a_Server_Adapter_for_an_Application" remap="TID_22882">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Generate a Server Adapter for an Application</title>
 			<para>
 				In order to easily publish changes to a deployed OpenShift application, each application needs a server adapter. The <application>OpenShift Application</application> wizard can automatically generate server adapters for new or imported OpenShift applications if you select the <guilabel>Create and set up a server for easy publishing</guilabel> check box. But OpenShift also provides an action to assist you in generating server adapters for OpenShift application that already exist in the IDE, as detailed in the procedure below. You can use this action if you need to regenerate a deleted server adapter for an OpenShift application or if you create or import an OpenShift application and do not select the <guilabel>Create and set up a server for easy publishing</guilabel> check box.
@@ -814,7 +910,7 @@
 							<imageobject>
 								<imagedata fileref="images/3931.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>From the list of server types, expand <guilabel>OpenShift</guilabel> and select <guilabel>OpenShift Server</guilabel>.</phrase>
 							</textobject>
 						</mediaobject>
@@ -852,7 +948,7 @@
 							<imageobject>
 								<imagedata fileref="images/4328.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>Ensure the <guilabel>Use existing application</guilabel> check box is selected and type the name of the application in the text field. This field has an automatic completion feature to assist you in typing the application name or click <guibutton>Browse</guibutton> to see a list of all of your applications associated with the connection.</phrase>
 							</textobject>
 						</mediaobject>
@@ -878,7 +974,7 @@
 							<imageobject>
 								<imagedata fileref="images/3947.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>Once generated, the server adapter is listed in the <guilabel>Servers</guilabel> view.</phrase>
 							</textobject>
 						</mediaobject>
@@ -887,6 +983,13 @@
 			</procedure>
 		</section>
 		<section id="View_a_Deployed_Application_and_Associated_Information" remap="TID_22875">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>View a Deployed Application and Associated Information</title>
 			<para>
 				OpenShift Tools provides actions for viewing deployed OpenShift applications and information about them.
@@ -912,7 +1015,7 @@
 								<imageobject>
 									<imagedata fileref="images/3944.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>In the <guilabel>OpenShift Explorer</guilabel> view, right-click the application and click <guimenu>Details</guimenu>. The displayed information includes the public URL of the application, application type, and remote Git repository location. Click <guibutton>OK</guibutton> to close the <application>Details</application> window.</phrase>
 								</textobject>
 							</mediaobject>
@@ -934,7 +1037,7 @@
 								<imageobject>
 									<imagedata fileref="images/4369.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>To change the retrieval command, in the <guilabel>Tail options</guilabel> field type the appropriate syntax. To specify the gears for which to show the server logs, from the table select the check boxes of the appropriate gears. Click <guibutton>Finish</guibutton> for OpenShift to retrieve the output, which is displayed in a distinct <guilabel>Console</guilabel> view for each gear.</phrase>
 								</textobject>
 							</mediaobject>
@@ -953,7 +1056,7 @@
 								<imageobject>
 									<imagedata fileref="images/3942.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>In the <guilabel>OpenShift Explorer</guilabel> view, right-click the application and click <guimenu>All Environment Variables</guimenu>. Variable names and values are listed in the <guilabel>Console</guilabel> view. Alternatively, in the <guilabel>Servers</guilabel> view, right-click the server adapter of the application and click <guimenu>OpenShift</guimenu>&rarr;<guimenu>All Environment Variables</guimenu>.</phrase>
 								</textobject>
 							</mediaobject>
@@ -987,6 +1090,13 @@
 			</variablelist>
 		</section>
 		<section id="Manage_a_Deployed_Application" remap="TID_22873">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Manage a Deployed Application</title>
 			<para>
 				OpenShift Tools provides actions for developing and managing deployed OpenShift applications.
@@ -996,7 +1106,7 @@
 					<term>Upload modifications to a deployed application</term>
 					<listitem>
 						<para>
-							In the <guilabel>Severs</guilabel> view, right-click the server adapter for the application and click <guimenu>Publish</guimenu>. At the prompt asking if you want to publish to OpenShift by committing changes to Git, you can customize the default commit message <command>Commit from JBoss Tools</command>. Click <guibutton>Yes</guibutton> and changes, together with the commit message, are pushed to the remote Git repository. Additionally, the application is automatically updated on the OpenShift server and the <guilabel>Console</guilabel> view displays OpenShift server output.
+							In the <guilabel>Servers</guilabel> view, right-click the server adapter for the application and click <guimenu>Publish</guimenu>. At the prompt asking if you want to publish to OpenShift by committing changes to Git, you can customize the default commit message <command>Commit from JBoss Tools</command>. Click <guibutton>Yes</guibutton> and the changes, together with the commit message, are pushed to the remote Git repository. Additionally, the application is automatically updated on the OpenShift server and the <guilabel>Console</guilabel> view displays OpenShift server output.
 						</para>
 						<note>
 							<para>
@@ -1025,7 +1135,7 @@
 								<imageobject>
 									<imagedata fileref="images/3939.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>In the <guilabel>Project Explorer</guilabel> view, right-click the application and click <guimenu>OpenShift</guimenu>&rarr;<guimenu>Configure Markers</guimenu>. Select or clear the check boxes of markers as desired. Information about markers is given in the <guilabel>Marker Description</guilabel> section of the <guilabel>Configure OpenShift Markers Window</guilabel>. Click <guibutton>OK</guibutton> for your marker choice to be applied to the application.</phrase>
 								</textobject>
 							</mediaobject>
@@ -1044,7 +1154,7 @@
 								<imageobject>
 									<imagedata fileref="images/3943.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>In the <guilabel>OpenShift Explorer</guilabel> view, right-click the application name and click <guimenu>Edit Embedded Cartridges</guimenu>. Select or clear the check boxes of cartridges as desired. Click <guibutton>Finish</guibutton> for your cartridge choice to be applied to the application.</phrase>
 								</textobject>
 							</mediaobject>
@@ -1076,7 +1186,7 @@
 								<imageobject>
 									<imagedata fileref="images/3934.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>In the <guilabel>OpenShift Explorer</guilabel> view, right-click the application name and click <guimenu>Port forwarding</guimenu>. Alternatively, in the <guilabel>Servers</guilabel> view right-click the server adapter of the application and click <guimenu>OpenShift</guimenu>&rarr;<guimenu>Port forwarding</guimenu>.</phrase>
 								</textobject>
 							</mediaobject>
@@ -1121,10 +1231,104 @@
 				</varlistentry>
 			</variablelist>
 		</section>
+		<section id="Debug_a_Deployed_Application" remap="TID_28342">
+			<title>Debug a Deployed Application</title>
+			<para>
+				OpenShift Tools enables you to debug your deployed OpenShift applications within the IDE through port forwarding. A number of configuration steps are required both locally and remotely to achieve this. You must first set the Enable JPDA (Java Platform Debugger Architecture) marker in your application source code that configures the virtual machine running the server on which your application is deployed for debugging. You must then configure port forwarding for the local and remote debug ports and connect the IDE debugger. The procedures below guide you through each of these configuration requirements and must be completed in the order given.
+			</para>
+			<procedure>
+				<title>Configure the OpenShift Server for Debugging</title>
+				<step>
+					<para>
+						In the <guilabel>Project Explorer</guilabel> view, right-click the project and click <menuchoice><guimenu>OpenShift</guimenu><guimenuitem>Configure Markers</guimenuitem></menuchoice>.
+					</para>
+				</step>
+				<step>
+					<para>
+						Select the <guilabel>Enable JPDA</guilabel> check box and click <guibutton>OK</guibutton>.
+					</para>
+				</step>
+				<step>
+					<para>
+						In the <guilabel>Servers</guilabel> view, right-click the server adapter for the application and click <guimenu>Publish</guimenu>. At the prompt asking if you want to publish to OpenShift by committing changes to Git, you can customize the default commit message <command>Commit from JBoss Tools</command>. Click <guibutton>Yes</guibutton> and the changes, together with the commit message, are pushed to the remote Git repository. Additionally, the application is automatically updated on the OpenShift server and the <guilabel>Console</guilabel> view displays OpenShift server output.
+					</para>
+				</step>
+			</procedure>
+			<procedure>
+				<title>Enable Port Forwarding for the Local and Remote Debug Ports</title>
+				<important>
+					<para>
+						Your application must be running before attempting to configure port forwarding.
+					</para>
+				</important>
+				<step>
+					<para>
+						In the <guilabel>OpenShift Explorer</guilabel> view, right-click the application and click <menuchoice><guimenu>Port forwarding</guimenu></menuchoice>. Alternatively, in the <guilabel>Servers</guilabel> view right-click the server adapter of the application and click <menuchoice><guimenu>OpenShift</guimenu><guimenuitem>Port forwarding</guimenuitem></menuchoice>.
+					</para>
+				</step>
+				<step>
+					<para>
+						Click <guibutton>Start All</guibutton>. This connects all local ports to their remote counterpart ports, including the local and remote debug ports. Ensure the <guilabel>Status</guilabel> value shows <guilabel>Started</guilabel> for the debug ports and click <guilabel>OK</guilabel> to close the <application>Application port forward</application> window.
+					</para>
+					<note>
+						<para>
+							For applications using the <phrase>JBossAS</phrase> OpenShift cartridge, the default debug port is <command>8787</command>.
+						</para>
+					</note>
+				</step>
+			</procedure>
+			<procedure>
+				<title>Configure and Connect the IDE Debugger</title>
+				<step>
+					<para>
+						In the global toolbar of the JBoss perspective, click the drop-down list for the <guibutton>Debug</guibutton> icon and select <guimenu>Debug Configurations</guimenu>.
+					</para>
+				</step>
+				<step>
+					<para>
+						From the debug configurations list, select <guilabel>Remote Java Application</guilabel> and click the <guilabel>New launch configuration</guilabel> icon.
+					</para>
+				</step>
+				<step>
+					<para>
+						Complete the fields of the <guilabel>Connect</guilabel> tab as detailed:
+					</para>
+					<itemizedlist>
+						<listitem>
+							<para>
+								In the <guilabel>Project</guilabel> field, type the name of the workspace project associated with the OpenShift application or click <guibutton>Browse</guibutton> to locate the project.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								In the <guilabel>Port</guilabel> field, type the value of the debug port.
+							</para>
+						</listitem>
+					</itemizedlist>
+					<note>
+						<para>
+							You can set the debugger to look up source code for classes it encounters that are not contained in your project, for example classes used by the application server. When inputing values for the launch configuration, in the <guilabel>Source</guilabel> tab click <guilabel>Add</guilabel>. From the list of source containers, select <guilabel>JBoss Maven Source Container</guilabel> and click <guilabel>OK</guilabel>. The JBoss Maven Source Container uses indexes available from Maven repositories to locate the source code.
+						</para>
+					</note>
+				</step>
+				<step>
+					<para>
+						Click <guilabel>Debug</guilabel>. Connecting to the OpenShift server may take some time to complete and you can monitor the progress in the <guilabel>Progress</guilabel> bar or <guilabel>Progress</guilabel> view. Once the connection process is complete, the debugger is running. You can review debug output in the <guilabel>Debug</guilabel> and <guilabel>Console</guilabel> views.
+					</para>
+				</step>
+			</procedure>
+		</section>
 	</section>
 	<section id="sect-Customizing_OpenShift_Tools">
 		<title>Customizing OpenShift Tools</title>
 		<section id="Customizing_Overview6" remap="TID_25166">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Customizing Overview</title>
 			<para>
 				The aim of this section is to guide you in customizing OpenShift Tools:
@@ -1138,6 +1342,13 @@
 			</itemizedlist>
 		</section>
 		<section id="Change_the_Timeout_Behavior_of_OpenShift_Requests" remap="TID_25165">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Change the Timeout Behavior of OpenShift Requests</title>
 			<para>
 				You may find that some requests made to OpenShift require a long time to complete and do not finish within the IDE default timeout limit of 120 seconds. For example, some of the OpenShift quickstarts take a long time to checkout the associated large source code. To resolve the timeout restriction, you can modify the default timeout limit to meet your requirements.
@@ -1151,7 +1362,7 @@
 					<imageobject>
 						<imagedata fileref="images/4287.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To modify the timeout limit, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>OpenShift</guilabel>. In the <guilabel>Remote requests timeout</guilabel> field, type the required timeout limit in seconds. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
 					</textobject>
 				</mediaobject>

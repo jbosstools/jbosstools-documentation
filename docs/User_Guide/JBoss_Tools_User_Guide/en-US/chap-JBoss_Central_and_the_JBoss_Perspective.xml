@@ -8,6 +8,13 @@
 	<section id="sect-Overview_of_JBoss_Central_and_the_JBoss_Perspective">
 		<title>Overview of JBoss Central and the JBoss Perspective</title>
 		<section id="About_JBoss_Central" remap="TID_22788">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>About JBoss Central</title>
 			<para>
 				JBoss Central is a core IDE view, providing access to JBoss information and assistance in one centralized location. It offers features for first time users of <phrase>JBoss Tools</phrase>, as well as those with more experience.
@@ -39,6 +46,13 @@
 			</para>
 		</section>
 		<section id="About_the_JBoss_Perspective" remap="TID_22790">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>About the JBoss Perspective</title>
 			<para>
 				JBoss is a key IDE perspective, giving easy access to useful views and actions when developing applications with JBoss technologies. The perspective consists of a default set of views, menus and toolbars.
@@ -74,6 +88,13 @@
 	<section id="sect-Features_of_JBoss_Central_and_the_JBoss_Perspective">
 		<title>Features of JBoss Central and the JBoss Perspective</title>
 		<section id="Features_Overview" remap="TID_22795">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Features Overview</title>
 			<para>
 				The aim of this section is to guide you in using JBoss Central and the JBoss perspective:
@@ -99,10 +120,17 @@
 						Access cheat sheets that assist in project development
 					</para>
 				</listitem>
-			</itemizedlist>
+			</itemizedlist> 
 			<!--<para><remark>[DOCS] Watching JBIDE-2557: cheat sheets for archetypes; Also cheat sheets missing for quickstarts; JBIDE-14804: uninstall from central</remark></para>-->
 		</section>
 		<section id="View_JBoss_Central" remap="TID_22794">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>View JBoss Central</title>
 			<para>
 				JBoss Central provides resources for getting started with application development and installing auxiliary IDE software.
@@ -120,6 +148,13 @@
 			</para>
 		</section>
 		<section id="Access_Project_Wizards_in_JBoss_Central" remap="TID_22800">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Access Project Wizards in JBoss Central</title>
 			<para>
 				JBoss Central provides access to wizards for generating projects. There are two types of project wizards available in JBoss Central: <guilabel>Start from scratch</guilabel> and <guilabel>Start from a sample</guilabel>.
@@ -137,7 +172,7 @@
 								<imageobject>
 									<imagedata fileref="images/3963.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>The <guilabel>Start from scratch</guilabel> wizards create the same project using different underlying technology, as started in the project name. To view a project summary, hover the cursor over a project wizard.</phrase>
 								</textobject>
 							</mediaobject>
@@ -156,7 +191,7 @@
 								<imageobject>
 									<imagedata fileref="images/4347.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>The <guilabel>Start from a sample</guilabel> wizards create sample web, mobile, back-end and portal applications. To view a project summary, hover the cursor over a project wizard.</phrase>
 								</textobject>
 							</mediaobject>
@@ -176,13 +211,72 @@
 					<imageobject>
 						<imagedata fileref="images/3958.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>Access is provided to the comprehensive TicketMonster tutorial, part of JBoss Developer Framework. The tutorial guides you through developing a complex web application utilizing JBoss technologies from within the IDE. To view the tutorial, in JBoss Central select the <guilabel>Getting Started</guilabel> tab and click the <guilabel>TicketMonster</guilabel> link.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 		</section>
+		<section id="Meet_the_Requirements_of_JBoss_Central_Project_Examples" remap="TID_28361">
+			<title>Meet the Requirements of JBoss Central Project Examples</title>
+			<para>
+				The project wizards under <guilabel>Start from scratch</guilabel> and <guilabel>Start from a sample</guilabel> in JBoss Central generate projects that are designed to work best with specific platform and plug-in versions. Information about the platform and plug-in requirements is listed on the first page of each project wizard and, in the case that they are missing from your system, you can initiate downloading and installing of required components from within the wizard.
+			</para>
+			<figure>
+				<title>Requirements of <guilabel>Java EE Web Project</guilabel> Wizard, with the Application Server Requirement not Met</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/4784.png"/>
+					</imageobject>
+					<textobject> 
+						<phrase>Information about the platform and plug-in requirements is listed on the first page of each project wizard.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para>
+				The <guilabel>Found?</guilabel> check box is selected when a requirement is met by your system. In the case that a required component is missing from your system, you must follow one of these options: 
+				<itemizedlist>
+					<listitem>
+						<para>
+							Click <guibutton>Install</guibutton> and follow the wizard instructions to inform the IDE about the availability of the required components on your system.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Click <guibutton>Download and Install</guibutton> and follow the wizard instructions to download missing components and subsequently inform the IDE about their availability.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+			<para>
+				Some of the common platform and plug-in requirements are detailed here: 
+				<itemizedlist>
+					<listitem>
+						<para> 
+							<phrase>JBoss Application Server</phrase>, which is distributed separately from <phrase>JBoss Tools</phrase> and is supported for deploying and running many of the project examples
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							m2e and m2e-wtp, which are packaged as part of JBoss Central and provide core Apache Maven support in the IDE and connectors for configuring Java EE Maven projects as web projects
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							JBoss Maven Tools, which is packaged as part of JBoss Central and provides additional Maven support for developing Java EE applications deployed to <phrase>JBoss Application Servers</phrase>
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</section>
 		<section id="Access_Information_in_JBoss_Central" remap="TID_22801">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Access Information in JBoss Central</title>
 			<para>
 				JBoss Central provides easy access to JBoss and developer information. Each of the information sources listed below are web-based and, depending on the IDE default browser setting, clicking on links results in an internal or external browser window opening.
@@ -218,7 +312,7 @@
 								<imageobject>
 									<imagedata fileref="images/4228.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>In JBoss Central, select the <guilabel>Getting Started</guilabel> tab and click the links under <guilabel>JBoss Buzz</guilabel>. To see previews of the blog posts, hover the cursor over these links. To view a complete list of JBoss blog posts, click the <guibutton>JBoss Buzz</guibutton> button.</phrase>
 								</textobject>
 							</mediaobject>
@@ -237,7 +331,7 @@
 								<imageobject>
 									<imagedata fileref="images/3966.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>In JBoss Central, select the <guilabel>Getting Started</guilabel> tab and click the links under <guilabel>Other resources</guilabel>.</phrase>
 								</textobject>
 							</mediaobject>
@@ -256,13 +350,13 @@
 								<imageobject>
 									<imagedata fileref="images/3961.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>In JBoss Central, click the arrow next to the search box and select <guilabel>Search JBoss Community</guilabel>. In the search field, enter the search terms.</phrase>
 								</textobject>
 							</mediaobject>
 						</figure>
 					</listitem>
-				</varlistentry>
+				</varlistentry> 
 			</variablelist>
 			<note>
 				<para>
@@ -271,6 +365,13 @@
 			</note>
 		</section>
 		<section id="Install_Software_in_JBoss_Central" remap="TID_22798">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Install Software in JBoss Central</title>
 			<para>
 				JBoss Central enables you to install and update a range of IDE plug-ins. The available plug-ins comprise JBoss and third-party plug-ins that have been specifically tested for use with the IDE. These plug-ins include ones for mobile and web development, source control management, utilities and Maven.
@@ -304,7 +405,7 @@
 								<imageobject>
 									<imagedata fileref="images/4346.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>To view installed plug-ins, select the <guilabel>Show Installed</guilabel> check box. The installed plug-ins are listed in the table as disabled.</phrase>
 								</textobject>
 							</mediaobject>
@@ -328,7 +429,7 @@
 								<imageobject>
 									<imagedata fileref="images/4270.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>In the <guilabel>Find</guilabel> field, type the name of the software or scroll through the list to locate it. Select the check box corresponding to the software you want to install and click <guibutton>Install</guibutton> or click the <guibutton>Install</guibutton> icon.</phrase>
 								</textobject>
 							</mediaobject>
@@ -342,7 +443,7 @@
 								<imageobject>
 									<imagedata fileref="images/3984.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>In the <application>Install</application> wizard, ensure the check boxes are selected for the software you want to install and click <guibutton>Next</guibutton>.</phrase>
 								</textobject>
 							</mediaobject>
@@ -359,7 +460,7 @@
 								<imageobject>
 									<imagedata fileref="images/3981.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click <guibutton>OK</guibutton> to continue with the installation.</phrase>
 								</textobject>
 							</mediaobject>
@@ -386,7 +487,7 @@
 								<imageobject>
 									<imagedata fileref="images/3974.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>The <guilabel>Contacting Software Sites</guilabel> window opens and reports the progress of checking. Once checking is complete, a prompt informs you of any new software found. Click <guibutton>OK</guibutton> to close the prompt.</phrase>
 								</textobject>
 							</mediaobject>
@@ -396,6 +497,13 @@
 			</variablelist>
 		</section>
 		<section id="Open_the_JBoss_Perspective" remap="TID_22791">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Open the JBoss Perspective</title>
 			<para>
 				The JBoss perspective provides a default set of views, menus and toolbars to assist with common tasks associated with developing applications that use JBoss technologies.
@@ -409,13 +517,20 @@
 					<imageobject>
 						<imagedata fileref="images/3973.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To open the JBoss perspective, click <guimenu>Window</guimenu>&rarr;<guimenu>Open Perspective</guimenu>&rarr;<guimenu>Other</guimenu>. From the list of available perspectives, select <guilabel>JBoss</guilabel> and click <guibutton>OK</guibutton>.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 		</section>
 		<section id="Manage_the_JBoss_Perspective" remap="TID_22796">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Manage the JBoss Perspective</title>
 			<para>
 				There are a number of actions provided by the IDE for managing perspectives, including the JBoss perspective.
@@ -453,11 +568,18 @@
 			</variablelist>
 		</section>
 		<section id="View_Cheat_Sheets" remap="TID_22793">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>View Cheat Sheets</title>
 			<para>
 				Typically, cheat sheets contain detailed information about projects, with step by step guidance and explanations for how to create and deploy applications. JBoss Central and the JBoss perspective provide actions to make the cheat sheets that accompany projects easier to access and view<!--, including the cheat sheets that accompany the <guilabel>Start from scratch</guilabel> and <guilabel>Start from a sample</guilabel> projects available in JBoss Central. -->.
-			</para>
-			<!-- JBDS-2557: cheat sheets on archetypes and quickstarts -->
+			</para> 
+			<!-- JBDS-2557: cheat sheets on archetypes and quickstarts --> 
 			<!-- <para>When you create a new project with an accompanying cheat sheet, the <guilabel>Cheat Sheets</guilabel> tab automatically opens and displays the cheat sheet.</para> -->
 			<para>
 				A cheat sheet contained in a project is automatically opened in the <guilabel>Cheat Sheets</guilabel> view when the project is imported into the workspace with <guimenu>File</guimenu>&rarr;<guimenu>Import</guimenu>.
@@ -468,7 +590,7 @@
 					<imageobject>
 						<imagedata fileref="images/3988.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>A cheat sheet contained in a project is automatically opened in the <guilabel>Cheat Sheets</guilabel> view when the project is imported into the workspace with <guimenu>File</guimenu>&rarr;<guimenu>Import</guimenu>.</phrase>
 					</textobject>
 				</mediaobject>
@@ -480,13 +602,20 @@
 				<para>
 					If the cheat sheet file name begins with dot, it may not be automatically visible in the <guilabel>Project Explorer</guilabel> view. To change the viewing preferences of the <guilabel>Project Explorer</guilabel> view, click the <guibutton>View Menu</guibutton> icon and click <guimenu>Customize View</guimenu>. In the <guilabel>Filters</guilabel> tab, clear the <guilabel>.* resources</guilabel> check box and click <guibutton>OK</guibutton>.
 				</para>
-			</note>
+			</note> 
 			<!-- API for developing cheat sheets available to all -->
 		</section>
 	</section>
 	<section id="sect-Customizing_JBoss_Central_and_the_JBoss_Perspective">
 		<title>Customizing JBoss Central and the JBoss Perspective</title>
 		<section id="Customizing_Overview" remap="TID_22792">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Customizing Overview</title>
 			<para>
 				The aim of this section is to guide you in customizing JBoss Central and the JBoss perspective:
@@ -515,6 +644,13 @@
 			</itemizedlist>
 		</section>
 		<section id="Change_the_Behavior_of_JBoss_Central_on_IDE_Start" remap="TID_22799">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Change the Behavior of JBoss Central on IDE Start</title>
 			<para>
 				JBoss Central is set by default to show when the IDE starts but you can customize this behavior.
@@ -525,10 +661,10 @@
 			<figure>
 				<title>Show on Startup Check Box</title>
 				<mediaobject>
-					<imageobject>
-						<imagedata fileref="images/3959.png"/>
+					<imageobject> 
+						<imagedata fileref="images/4953.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>JBoss Central is set by default to show when the IDE starts but you can customize this behavior. To change the behavior, in JBoss Central select or clear the <guilabel>Show on Startup</guilabel> check box as appropriate.</phrase>
 					</textobject>
 				</mediaobject>
@@ -547,13 +683,20 @@
 					<imageobject>
 						<imagedata fileref="images/3970.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>In JBoss Central, click the <guibutton>Preferences</guibutton> icon or click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. In both cases, expand <guilabel>JBoss Tools</guilabel> and select <guilabel>JBoss Central</guilabel>. Select or clear the <guilabel>Show JBoss Central on Startup</guilabel> check box as appropriate. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 		</section>
 		<section id="Customize_the_Default_Views_Menus_and_Toolbars_of_the_JBoss_Perspective" remap="TID_22797">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Customize the Default Views, Menus and Toolbars of the JBoss Perspective</title>
 			<para>
 				You can customize the views, menus and toolbars displayed by the JBoss perspective, as with any perspective.
@@ -574,7 +717,7 @@
 								<imageobject>
 									<imagedata fileref="images/3964.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>Open or close tabs as desired and click <guimenu>Window</guimenu>&rarr;<guimenu>Save Perspective As</guimenu>. From the <guilabel>Existing Perspectives</guilabel> list, select <guilabel>JBoss</guilabel> and click <guibutton>OK</guibutton>.</phrase>
 								</textobject>
 							</mediaobject>
@@ -593,7 +736,7 @@
 								<imageobject>
 									<imagedata fileref="images/3986.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>Click <guibutton>Window</guibutton>&rarr;<guimenu>Customize Perspective</guimenu>. In the <guilabel>Tool Bar Visibility</guilabel> tab, select or clear the check boxes corresponding to the individual toolbars and icons visible in the global toolbar of the JBoss perspective as appropriate. Click <guibutton>OK</guibutton> to save any changes and close the window.</phrase>
 								</textobject>
 							</mediaobject>
@@ -604,7 +747,7 @@
 								<imageobject>
 									<imagedata fileref="images/3987.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>Click <guibutton>Window</guibutton>&rarr;<guimenu>Customize Perspective</guimenu>. In the <guilabel>Menu Visibility</guilabel> tab, select or clear the check boxes corresponding to the menus and menu items visible in the JBoss perspective as appropriate. Click <guibutton>OK</guibutton> to save any changes and close the window.</phrase>
 								</textobject>
 							</mediaobject>
@@ -623,7 +766,7 @@
 								<imageobject>
 									<imagedata fileref="images/3968.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>Click the vertical dashed line indicating the beginning of an individual toolbar and drag the toolbar to its new location in the global toolbar.</phrase>
 								</textobject>
 							</mediaobject>
@@ -642,7 +785,7 @@
 								<imageobject>
 									<imagedata fileref="images/3967.png"/>
 								</imageobject>
-								<textobject>
+								<textobject> 
 									<phrase>Click <guimenu>Window</guimenu>&rarr;<guimenu>Reset Perspective</guimenu>. At the prompt asking if you want to reset the JBoss perspective to its saved state, select the <guilabel>Also discard perspective's customization</guilabel> check box and click <guibutton>Yes</guibutton>.</phrase>
 								</textobject>
 							</mediaobject>
@@ -652,6 +795,13 @@
 			</variablelist>
 		</section>
 		<section id="Use_Project_Examples_when_Working_Offline" remap="TID_22802">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Use Project Examples when Working Offline</title>
 			<para>
 				When a project wizard in JBoss Central is used, the IDE searches online repositories for the most recent versions of project dependencies. JBoss Central enables you to create a cache of the necessary project dependencies when you are online so that you can still use the project wizards offline. As detailed below, this is achieved by first creating the cache and then informing the IDE to use that cache.
@@ -681,13 +831,20 @@
 					<imageobject>
 						<imagedata fileref="images/4271.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To inform the IDE to use the generated project examples cache, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel>&rarr;<guilabel>Project Examples</guilabel> and select <guilabel>Offline Support</guilabel>. Select the <guilabel>Enable offline mode for project examples</guilabel> check box. Ensure the correct cache location is specified in the <guilabel>Offline directory</guilabel> field. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the <guilabel>Preferences</guilabel> window.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 		</section>
 		<section id="Install_Software_when_Working_Offline" remap="TID_22868">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Install Software when Working Offline</title>
 			<para>
 				You can install the JBoss and third-party plug-ins listed in JBoss Central in offline mode using the JBoss Central <filename>.zip</filename> file, as detailed below. This feature is useful if you regularly work offline or if you are installing these auxiliary plug-ins in a number of JBoss&nbsp;Developer&nbsp;Studio installations as it removes the need to repeatedly download the same plug-ins.
@@ -710,7 +867,7 @@
 				<step>
 					<para>
 						In the <guilabel>Work with</guilabel> field, enter the path of the JBoss Central <filename>.zip</filename> file. Alternatively, click <guibutton>Add</guibutton> and click <guibutton>Archive</guibutton> to locate the file.
-					</para>
+					</para> 
 				</step>
 				<step>
 					<para>
@@ -745,6 +902,13 @@
 			</procedure>
 		</section>
 		<section id="Set_Cheat_Sheet_Behavior" remap="TID_22803">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Set Cheat Sheet Behavior</title>
 			<para>
 				You can specify the default action the IDE is to take when finding cheat sheets in projects that it is importing. The available options include always or never showing cheat sheets or the IDE prompting for which action to take for each import.
@@ -758,11 +922,139 @@
 					<imageobject>
 						<imagedata fileref="images/4269.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To customize the behavior, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>Project Examples</guilabel>. From the <guilabel>Show included cheat sheet(s) when importing a project</guilabel> list, click one of the options. Click <guibutton>Apply</guibutton> and click <guibutton>OK</guibutton> to close the window.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
+		</section>
+		<section id="Set_Usage_Reporting" remap="TID_13335">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.0.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Set Usage Reporting</title>
+			<para> 
+				<phrase>JBoss Tools</phrase> has usage reporting. At the first start of the IDE after installing, you are asked if you allow the collection of anonymous usage statistics by <phrase>JBoss Tools</phrase>.
+			</para>
+			<figure>
+				<title>Prompt for Anonymous Usage Statistics</title>
+				<mediaobject>
+					<imageobject> 
+						<imagedata fileref="images/4791.png"/>
+					</imageobject>
+					<textobject> 
+						<phrase>At the first start of the IDE after installing, you are asked if you allow the collection of anonymous usage statistics by <phrase>the JBoss Tools team</phrase>. To agree to this anonymous information being collected, click <guibutton>Yes</guibutton> when prompted.</phrase>
+					</textobject>
+				</mediaobject>
+			</figure>
+			<para>
+				The information collected enables <phrase>the JBoss Tools team</phrase> to understand how and where <phrase>JBoss Tools</phrase> is being used. Specifically, information about operating systems and system display resolution assists in continually improving <phrase>JBoss Tools</phrase>.
+			</para>
+			<para>
+				The following information is collected: 
+				<itemizedlist>
+					<listitem>
+						<para>
+							Version of <phrase>JBoss Tools</phrase>
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Installed components of <phrase>JBoss Tools</phrase>
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							JBoss Central enabled
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Origin of Eclipse product
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Version of Eclipse
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Operating system
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Operating system version
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Linux distribution and version, if appropriate
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Screen colors
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Screen resolution
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Version of Java
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Internet connection type
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Location (continent, country, city) and language
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							User type (new or returning)
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Number of times the IDE has been started
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Date of first usage reported
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Date of last usage reported
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Date of current usage reported
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+			<para>
+				If enabled, the usage reporting plug-in uses Google Analytics to track data as though you visited a page under <ulink url="https://jboss.org/tools/usage"/>.
+			</para> 
+			<para>
+				The usage reporting behavior can be changed at any time by clicking <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>JBoss Tools</guilabel> and select <guilabel>Usage Reporting</guilabel>. Select or clear the <guilabel>Please allow </guilabel><phrase><guilabel>the JBoss Tools team</guilabel></phrase><guilabel> to receive anonymous usage statistics for this </guilabel><phrase><guilabel>Eclipse</guilabel></phrase><guilabel> installation</guilabel><phrase><guilabel> with JBoss Tools</guilabel></phrase> check box to alter the behavior as appropriate.
+			</para>
 		</section>
 	</section>
 </chapter>

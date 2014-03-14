@@ -4,13 +4,20 @@
 %BOOK_ENTITIES;
 ]>
 <section id="Getting_Help_and_Giving_Feedback2" remap="TID_23618">
+	<sectioninfo>
+		<keywordset>
+			<keyword>
+				JBDS 7.1.z
+			</keyword>
+		</keywordset>
+	</sectioninfo>
 	<title>Getting Help and Giving Feedback</title>
 	<formalpara>
 		<title>Do You Need Help?</title>
 		<para>
 			If you experience difficulty with a procedure described in this documentation, visit the <phrase>JBoss Tools website at <ulink url="http://www.jboss.org/tools"/></phrase>. Through the <phrase>JBoss Tools website</phrase>, you can:
 		</para>
-	</formalpara>
+	</formalpara> 
 	<itemizedlist>
 		<listitem>
 			<para>
@@ -32,7 +39,7 @@
 				keep up to date with changes via the blog, mailing list and News and Noteworthy web page.
 			</para>
 		</listitem>
-	</itemizedlist>
+	</itemizedlist> 
 	<formalpara>
 		<title>Give us Feedback</title>
 		<para>

@@ -8,6 +8,13 @@
 	<section id="sect-Overview_of_Mobile_Web_Tools">
 		<title>Overview of Mobile Web Tools</title>
 		<section id="About_Mobile_Web_Tools" remap="TID_22839">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>About Mobile Web Tools</title>
 			<para>
 				Mobile Web Tools provides tooling for developing mobile web applications within the IDE. It simplifies the process of getting started with HTML5 and jQuery Mobile technologies that are used for these types of applications and provides efficient workflows for developing with them on a daily basis.
@@ -37,6 +44,13 @@
 	<section id="sect-Features_of_Mobile_Web_Tools">
 		<title>Features of Mobile Web Tools</title>
 		<section id="Features_Overview4" remap="TID_22841">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Features Overview</title>
 			<para>
 				The aim of this section is to guide you in using Mobile Web Tools:
@@ -62,25 +76,32 @@
 						View pages of the application in various browsers
 					</para>
 				</listitem>
-			</itemizedlist>
+			</itemizedlist> 
 			<!--<para><remark>[DOCS] Watching JBIDE-14732: show/hide preview in widget wizard; JBIDE-14591: properties tab; JBIDE-14758: Help button action in widget wizards; JBIDE-15153: duplicate wizards in JBoss central; JBIDE-14909: warning when WFK maven repo required; JBIDE-15152: rename or split jQuery Mobile palette</remark></para> -->
 		</section>
 		<section id="Create_a_Mobile_Web_Project" remap="TID_22840">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Create a Mobile Web Project</title>
 			<para>
 				Project wizards are available to assist you in generating new mobile web applications. The project wizards are listed in JBoss Central: 
 				<itemizedlist>
 					<listitem>
-						<para>
+						<para> 
 							<guilabel>HTML5 Project</guilabel>, under <guilabel>Start from scratch</guilabel>
 						</para>
 					</listitem>
 					<listitem>
-						<para>
+						<para> 
 							<guilabel>kitchensink-html5-mobile</guilabel>, under <guilabel>Start from a sample</guilabel>
 						</para>
 					</listitem>
-				</itemizedlist>
+				</itemizedlist> 
 				<!--These project wizards generate the same mobile web application but have differences in the information required from users, as detailed in the procedures below. -->
 			</para>
 			<important>
@@ -100,7 +121,7 @@
 							<imageobject>
 								<imagedata fileref="images/4083.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>In JBoss Central under <guilabel>Start from scratch</guilabel>, click <guilabel>HTML5 Project</guilabel>.</phrase>
 							</textobject>
 						</mediaobject>
@@ -109,7 +130,7 @@
 				<step>
 					<para>
 						From the <guilabel>Target Runtime</guilabel> list, select an existing <phrase>JBoss Application Server 7.1</phrase> server runtime environment or select <guilabel>&lt;none&gt;</guilabel>. When <guilabel>&lt;none&gt;</guilabel> is selected, a non-enterprise server runtime environment is assumed.
-					</para>
+					</para> 
 				</step>
 				<step>
 					<para>
@@ -143,7 +164,7 @@
 							<imageobject>
 								<imagedata fileref="images/4090.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>In the <guilabel>Project name</guilabel> field, type a name for the project. In the <guilabel>Package</guilabel> field, type a package name for the project resources.</phrase>
 							</textobject>
 						</mediaobject>
@@ -177,7 +198,7 @@
 							<imageobject>
 								<imagedata fileref="images/4084.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>In JBoss Central under <guilabel>Start from a sample</guilabel>, hover the mouse over <guilabel>Mobile Applications</guilabel> and click <guilabel>kitchensink-html5-mobile</guilabel>.</phrase>
 							</textobject>
 						</mediaobject>
@@ -198,7 +219,7 @@
 							<imageobject>
 								<imagedata fileref="images/4095.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>To create the project in a different location to the workspace default, clear the <guilabel>Use default location</guilabel> check box and type the path in the field or click <guibutton>Browse</guibutton> to navigate to the location.</phrase>
 							</textobject>
 						</mediaobject>
@@ -217,6 +238,13 @@
 			</procedure>
 		</section>
 		<section id="Use_a_HTML5_jQuery_Mobile_File_Template" remap="TID_22843">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Use a HTML5 jQuery Mobile File Template</title>
 			<para>
 				Mobile Web Tools provides a HTML5 jQuery Mobile file template to assist in creating mobile web applications. The template inserts the necessary JavaScript and CSS library references into the HTML header and includes skeleton jQuery Mobile page and listview widgets in the HTML body. The procedure below details how to insert the template into your project.
@@ -250,7 +278,7 @@
 							<imageobject>
 								<imagedata fileref="images/4093.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>In the <guilabel>Enter or select the parent folder</guilabel> field, type a project path or expand the project folder tree and select the parent folder for the new file. In the <guilabel>File name</guilabel> field, type the name for the new file. It is not essential to include the file extension in the name as this is automatically appended if it is found to be missing.</phrase>
 							</textobject>
 						</mediaobject>
@@ -283,7 +311,7 @@
 							<imageobject>
 								<imagedata fileref="images/4097.png"/>
 							</imageobject>
-							<textobject>
+							<textobject> 
 								<phrase>Ensure the <guilabel>Use HTML Template</guilabel> check box is selected. From the <guilabel>Templates</guilabel> table, select <guilabel>HTML5 jQuery Mobile Page</guilabel>.</phrase>
 							</textobject>
 						</mediaobject>
@@ -297,6 +325,13 @@
 			</procedure>
 		</section>
 		<section id="Access_the_jQuery_Mobile_Palette" remap="TID_22847">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Access the jQuery Mobile Palette</title>
 			<para>
 				Mobile Web Tools offers a jQuery Mobile palette, with wizards for adding jQuery Mobile and HTML5 widgets to your project. The jQuery Mobile palette, part of the <guilabel>Palette</guilabel> view, is available for use when working with HTML5 files in the JBoss Tools HTML Editor.
@@ -307,7 +342,7 @@
 					<imageobject>
 						<imagedata fileref="images/4086.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>The jQuery Mobile palette is available in the <guilabel>Palette</guilabel> view, which is part of the JBoss perspective.</phrase>
 					</textobject>
 				</mediaobject>
@@ -328,6 +363,13 @@
 			</para>
 		</section>
 		<section id="Insert_a_jQuery_Mobile_Palette_Widget_into_a_HTML5_File" remap="TID_22845">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Insert a jQuery Mobile Palette Widget into a HTML5 File</title>
 			<para>
 				The jQuery Mobile palette contains wizards for the HTML5 and jQuery Mobile user interface widgets commonly used in mobile web applications. The widgets are grouped in the palette by functionality, with tooltips providing widget descriptions.
@@ -341,7 +383,7 @@
 					<imageobject>
 						<imagedata fileref="images/4092.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>For widgets with attributes that can be customized, a widget wizard opens allowing you to input attribute information. Once you have completed the customizable fields, click <guibutton>Finish</guibutton> and the code snippet is inserted into the file.</phrase>
 					</textobject>
 				</mediaobject>
@@ -377,6 +419,13 @@
 			</variablelist>
 		</section>
 		<section id="Get_Assistance_with_jQuery_Mobile_Programming" remap="TID_22838">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Get Assistance with jQuery Mobile Programming</title>
 			<para>
 				Mobile Web Tools offers code assist to help you when working with jQuery Mobile. Code assist lists available options for attributes and attribute values. Code assist is available for use in files and in the <guilabel>URL (href)</guilabel> field of widget wizards.
@@ -390,7 +439,7 @@
 					<imageobject>
 						<imagedata fileref="images/4099.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To view code assist in a file, ensure the text cursor is located at the desired insertion point in the file and press <keycap>Ctrl+Space</keycap>. Repeatedly press <keycap>Ctrl+Space</keycap> to cycle through HTML and JSF EL completion options. To view more information about a listed item, select the item. To insert a listed item into the code, double-click the item.</phrase>
 					</textobject>
 				</mediaobject>
@@ -404,13 +453,20 @@
 					<imageobject>
 						<imagedata fileref="images/4098.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To view code assist in a widget wizard, ensure the text cursor is located in the <guilabel>URL (href)</guilabel> field and press <keycap>Ctrl+Space</keycap>. To view more information about a listed item, select the item. To insert a listed item into the code, double-click the item.</phrase>
 					</textobject>
 				</mediaobject>
 			</figure>
 		</section>
 		<section id="View_jQuery_Mobile_Pages_in_a_Browser" remap="TID_22844">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>View jQuery Mobile Pages in a Browser</title>
 			<para>
 				Mobile Web Tools provides an action to easily and quickly open jQuery Mobile pages in web browsers for viewing.
@@ -420,12 +476,12 @@
 			</para>
 			<itemizedlist>
 				<listitem>
-					<para>
+					<para> 
 						<guimenu>Open With Browser</guimenu>, which shows the page in the default browser of the IDE
 					</para>
 				</listitem>
 				<listitem>
-					<para>
+					<para> 
 						<guimenu>Open With BrowserSim</guimenu>, which shows the page in BrowserSim
 					</para>
 				</listitem>
@@ -436,7 +492,7 @@
 					<imageobject>
 						<imagedata fileref="images/4087.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To open a jQuery Mobile page from a file open in the <guilabel>JBoss Tools HTML Editor</guilabel>, press <keycap>Ctrl</keycap> and move the mouse over the <command>&lt;div&gt;</command> tag corresponding to the page widget. Continue to press <keycap>Ctrl</keycap> and from the menu select one of the options.</phrase>
 					</textobject>
 				</mediaobject>
@@ -446,6 +502,13 @@
 	<section id="sect-Customizing_Mobile_Web_Tools">
 		<title>Customizing Mobile Web Tools</title>
 		<section id="Customizing_Overview3" remap="TID_22842">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Customizing Overview</title>
 			<para>
 				The aim of this section is to guide you in customizing Mobile Web Tools:
@@ -459,6 +522,13 @@
 			</itemizedlist>
 		</section>
 		<section id="Customize_jQuery_Mobile_File_Templates" remap="TID_22846">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.1.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
 			<title>Customize jQuery Mobile File Templates</title>
 			<para>
 				The <guilabel>HTML5 jQuery Mobile Page</guilabel> template for new HTML files is provided by Mobile Web Tools. You can customize this template and add more jQuery Mobile templates to the IDE.
@@ -472,7 +542,7 @@
 					<imageobject>
 						<imagedata fileref="images/4085.png"/>
 					</imageobject>
-					<textobject>
+					<textobject> 
 						<phrase>To customize the jQuery Mobile templates available in the IDE, click <guimenu>Window</guimenu>&rarr;<guimenu>Preferences</guimenu>. Expand <guilabel>Web</guilabel>&rarr;<guilabel>HTML Files</guilabel>&rarr;<guilabel>Editor</guilabel> and select <guilabel>Templates</guilabel>.</phrase>
 					</textobject>
 				</mediaobject>
