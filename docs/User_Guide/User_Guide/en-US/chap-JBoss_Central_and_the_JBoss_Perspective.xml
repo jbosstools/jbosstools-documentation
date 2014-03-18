@@ -268,7 +268,7 @@
 				<itemizedlist>
 					<listitem>
 						<para> 
-							<phrase>Red Hat Enterprise Application Server</phrase>, which is distributed separately from <phrase>JBoss Developer Studio</phrase> and is supported for deploying and running many of the project examples
+							<phrase>Red&nbsp;Hat JBoss Enterprise Application Platform</phrase>, which is distributed <phrase>both separately from JBoss Developer Studio and as part of the JBoss Developer Studio and JBoss EAP combined universal installer</phrase>, is supported for deploying and running many of the project examples
 						</para>
 					</listitem>
 					<listitem>
@@ -278,13 +278,18 @@
 					</listitem>
 					<listitem>
 						<para>
-							JBoss Maven Tools, which is packaged as part of JBoss Central and provides additional Maven support for developing Java EE applications deployed to <phrase>Red Hat Enterprise Application Servers</phrase>
+							JBoss Maven Tools, which is packaged as part of JBoss Central and provides additional Maven support for developing Java EE applications deployed to <phrase>JBoss EAP</phrase>
 						</para>
 					</listitem>
 				</itemizedlist>
 			</para>
+			<important>
+				<para>
+					JBoss Application Server is listed as an alternative to JBoss EAP for the JBoss Central project examples. JBoss Application Server is a community project and it is not supported for use with JBoss Developer Studio.
+				</para>
+			</important>
 			<para role="RoleCreateBugPara">
-				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+28361-590371+%5BSpecified%5D&amp;description=Title%3A+Meet+the+Requirements+of+JBoss+Central+Project+Examples%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+28361-621892+%5BSpecified%5D&amp;description=Title%3A+Meet+the+Requirements+of+JBoss+Central+Project+Examples%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;">Report a bug</ulink>
 			</para>
 		</section>
 		<section id="Access_Information_in_JBoss_Central" remap="TID_22801">
