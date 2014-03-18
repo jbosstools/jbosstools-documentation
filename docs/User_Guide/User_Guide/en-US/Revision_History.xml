@@ -8,6 +8,19 @@
 	<simpara>
 		<revhistory>
 			<revision> 
+				<revnumber>7.1.1-7</revnumber><date>Tue Mar 18 2014</date>
+				<author> 
+					<firstname>Michelle</firstname><surname>Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-471: Debug on OpenShift screen captures added
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision> 
 				<revnumber>7.1.1-6</revnumber><date>Tue Mar 18 2014</date>
 				<author> 
 					<firstname>Michelle</firstname><surname>Murray</surname><email/>

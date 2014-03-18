@@ -26,7 +26,7 @@ JIRAComponent = User Guide
 # JIRALabels =
 # Output Style =
 Feedback = [23618, rev: 566820]
-Revision History = [22789, rev: 621896]
+Revision History = [22789, rev: 622011]
 Author Group = [24063, rev: 556627]
 # Indentation is meaningful. Use 2 spaces.
 #[Writer=mmurray, JBDS User Guide, JBDS 7.1.z]
@@ -214,7 +214,7 @@ Part: Tools for Deployment and Maintenance
       Generate a Server Adapter for an Application [22882, rev: 566643]
       View a Deployed Application and Associated Information [22875, rev: 565816]
       Manage a Deployed Application [22873, rev: 588615]
-      Debug a Deployed Application [28342, rev: 590341]
+      Debug a Deployed Application [28342, rev: 622016]
     Section: Customizing OpenShift Tools
       Customizing Overview [25166, rev: 566980]
       Change the Timeout Behavior of OpenShift Requests [25165, rev: 566980]
