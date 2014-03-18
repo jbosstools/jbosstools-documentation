@@ -1238,6 +1238,11 @@
 			</para>
 			<procedure>
 				<title>Configure the OpenShift Server for Debugging</title>
+				<important>
+					<para>
+						Your application must be deployed on OpenShift before attempting to configure the OpenShift server for debugging.
+					</para>
+				</important>
 				<step>
 					<para>
 						In the <guilabel>Project Explorer</guilabel> view, right-click the project and click <menuchoice><guimenu>OpenShift</guimenu><guimenuitem>Configure Markers</guimenuitem></menuchoice>.
@@ -1247,6 +1252,17 @@
 					<para>
 						Select the <guilabel>Enable JPDA</guilabel> check box and click <guibutton>OK</guibutton>.
 					</para>
+					<figure>
+						<title><guilabel>Enable JPDA</guilabel> Selected in the <application>Configure OpenShift Markers</application> Wizard</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/5000.png"/>
+							</imageobject>
+							<textobject> 
+								<phrase>In the <guilabel>Project Explorer</guilabel> view, right-click the project and click <menuchoice><guimenu>OpenShift</guimenu><guimenuitem>Configure Markers</guimenuitem></menuchoice>. Select the <guilabel>Enable JPDA</guilabel> check box and click <guibutton>OK</guibutton>.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
 				</step>
 				<step>
 					<para>
@@ -1258,7 +1274,7 @@
 				<title>Enable Port Forwarding for the Local and Remote Debug Ports</title>
 				<important>
 					<para>
-						Your application must be running before attempting to configure port forwarding.
+						Your application must be started on OpenShift before attempting to configure port forwarding.
 					</para>
 				</important>
 				<step>
@@ -1270,6 +1286,17 @@
 					<para>
 						Click <guibutton>Start All</guibutton>. This connects all local ports to their remote counterpart ports, including the local and remote debug ports. Ensure the <guilabel>Status</guilabel> value shows <guilabel>Started</guilabel> for the debug ports and click <guilabel>OK</guilabel> to close the <application>Application port forward</application> window.
 					</para>
+					<figure>
+						<title>Port Forwarding Started for the Debug Ports in the <application>Application Port Forward</application> Wizard</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4999.png"/>
+							</imageobject>
+							<textobject> 
+								<phrase>Click <guibutton>Start All</guibutton>. This connects all local ports to their remote counterpart ports, including the local and remote debug ports. Ensure the <guilabel>Status</guilabel> value shows <guilabel>Started</guilabel> for the debug ports and click <guilabel>OK</guilabel> to close the <application>Application port forward</application> window.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
 					<note>
 						<para>
 							For applications using the <phrase>JBossAS</phrase> OpenShift cartridge, the default debug port is <command>8787</command>.
@@ -1281,12 +1308,22 @@
 				<title>Configure and Connect the IDE Debugger</title>
 				<step>
 					<para>
-						In the global toolbar of the JBoss perspective, click the drop-down list for the <guibutton>Debug</guibutton> icon and select <guimenu>Debug Configurations</guimenu>.
+						In the global toolbar of the JBoss perspective, click the drop-down list for the <guibutton>Debug</guibutton> icon 
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata fileref="images/4998.png"/>
+							</imageobject>
+						</inlinemediaobject> and select <guimenu>Debug Configurations</guimenu>.
 					</para>
 				</step>
 				<step>
 					<para>
-						From the debug configurations list, select <guilabel>Remote Java Application</guilabel> and click the <guilabel>New launch configuration</guilabel> icon.
+						From the debug configurations list, select <guilabel>Remote Java Application</guilabel> and click the <guilabel>New launch configuration</guilabel> icon 
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata fileref="images/4997.png"/>
+							</imageobject>
+						</inlinemediaobject>.
 					</para>
 				</step>
 				<step>
@@ -1305,9 +1342,20 @@
 							</para>
 						</listitem>
 					</itemizedlist>
+					<figure>
+						<title>A Debug Configuration for the Application Deployed on OpenShift</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="images/4996.png"/>
+							</imageobject>
+							<textobject> 
+								<phrase>From the debug configurations list, select <guilabel>Remote Java Application</guilabel> and click the <guilabel>New launch configuration</guilabel> icon. Complete the fields of the <guilabel>Connect</guilabel> tab as detailed here. In the <guilabel>Project</guilabel> field, type the name of the workspace project associated with the OpenShift application or click <guibutton>Browse</guibutton> to locate the project. In the <guilabel>Port</guilabel> field, type the value of the debug port.</phrase>
+							</textobject>
+						</mediaobject>
+					</figure>
 					<note>
 						<para>
-							You can set the debugger to look up source code for classes it encounters that are not contained in your project, for example classes used by the application server. When inputing values for the launch configuration, in the <guilabel>Source</guilabel> tab click <guilabel>Add</guilabel>. From the list of source containers, select <guilabel>JBoss Maven Source Container</guilabel> and click <guilabel>OK</guilabel>. The JBoss Maven Source Container uses indexes available from Maven repositories to locate the source code.
+							You can set the debugger to look up source code for classes it encounters that are not contained in your project, for example classes used by application servers defined in the IDE. When inputing values for the launch configuration, in the <guilabel>Source</guilabel> tab click <guilabel>Add</guilabel>. From the list of source containers, select <guilabel>JBoss Maven Source Container</guilabel> and click <guilabel>OK</guilabel>. The JBoss Maven Source Container uses indexes available from Maven repositories to locate the source code. From the list, select a runtime server, the libraries of which will be indexed in the JBoss Maven Source Container, and click <guibutton>OK</guibutton>.
 						</para>
 					</note>
 				</step>
