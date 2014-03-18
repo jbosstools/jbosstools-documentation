@@ -253,7 +253,7 @@
 				<itemizedlist>
 					<listitem>
 						<para> 
-							<phrase>JBoss Application Server</phrase>, which is distributed separately from <phrase>JBoss Tools</phrase> and is supported for deploying and running many of the project examples
+							<phrase>JBoss Application Server</phrase>, which is distributed <phrase>separately from JBoss Tools</phrase>, is supported for deploying and running many of the project examples
 						</para>
 					</listitem>
 					<listitem>
@@ -263,11 +263,11 @@
 					</listitem>
 					<listitem>
 						<para>
-							JBoss Maven Tools, which is packaged as part of JBoss Central and provides additional Maven support for developing Java EE applications deployed to <phrase>JBoss Application Servers</phrase>
+							JBoss Maven Tools, which is packaged as part of JBoss Central and provides additional Maven support for developing Java EE applications deployed to <phrase>JBoss Application Server</phrase>
 						</para>
 					</listitem>
 				</itemizedlist>
-			</para>
+			</para> 
 		</section>
 		<section id="Access_Information_in_JBoss_Central" remap="TID_22801">
 			<sectioninfo>

@@ -8,6 +8,32 @@
 	<simpara>
 		<revhistory>
 			<revision> 
+				<revnumber>7.1.1-6</revnumber><date>Tue Mar 18 2014</date>
+				<author> 
+					<firstname>Michelle</firstname><surname>Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							JBQA-9380: QE feedback incorporated
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision> 
+				<revnumber>7.1.1-5</revnumber><date>Mon Mar 10 2014</date>
+				<author> 
+					<firstname>Michelle</firstname><surname>Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							TOOLSDOC-459: JBoss EAP 6.1+ default memory size added
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+			<revision> 
 				<revnumber>7.1.1-4</revnumber><date>Wed Feb 12 2014</date>
 				<author> 
 					<firstname>Suzanne</firstname><surname>Dorfield</surname><email/>
@@ -15,7 +41,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOSLDOC-460: JBoss Central example requirements added
+							TOOLSDOC-460: JBoss Central example requirements added
 						</member>
 					</simplelist>
 				</revdescription>
@@ -28,7 +54,7 @@
 				<revdescription>
 					<simplelist>
 						<member>
-							TOOSLDOC-446, TOOLSDOC-447, TOOLSDOC-455: OpenShift text for debugging, SSL certificates, and default servers added
+							TOOLSDOC-446, TOOLSDOC-447, TOOLSDOC-455: OpenShift text for debugging, SSL certificates, and default servers added
 						</member>
 					</simplelist>
 				</revdescription>
