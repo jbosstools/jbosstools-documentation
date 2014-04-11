@@ -1,0 +1,695 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes_8.0.0.ent">
+%BOOK_ENTITIES;
+]>
+<article>
+	<xi:include href="Article_Info.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	<section id="sect-Introduction_to_Red_Hat_JBoss_Developer_Studio">
+		<title>Introduction to Red Hat JBoss Developer Studio</title>
+		<section id="Beta_Product" remap="TID_21439">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JDG 6.2
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Beta Product</title>
+			<warning>
+				<para>
+					This guide is for the beta release of the product. Beta releases are provided as a preview of the software and are not supported in production. This beta release is provided without security support. Red Hat has not audited the product for security vulnerabilities, and known vulnerabilities may not be resolved in this release. Security patches will not be provided for vulnerabilities that affect this release. This release must not be used in a production environment, or any other security-sensitive environment.
+				</para>
+			</warning>
+			<note>
+				<para>
+					This guide is a beta version of the documentation and might not yet cover all of the expected features of the final product.
+				</para>
+			</note>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+21439-625315+%5BSpecified%5D&amp;description=Title%3A+Beta+Product%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;&amp;versions=&BUILD_JIRA_VID;">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="About_Red_Hat_JBoss_Developer_Studio" remap="TID_13337">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.0.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>About Red Hat JBoss Developer Studio</title> 
+			<!-- Info from http://www.jboss.org/developer/features.html -->
+			<para>
+				Red&nbsp;Hat&nbsp;JBoss&nbsp;Developer&nbsp;Studio is a set of Eclipse-based development tools. It contains plug-ins that integrate with Eclipse to extend the existing functionality of the integrated development environment (IDE).
+			</para>
+			<para>
+				JBoss&nbsp;Developer&nbsp;Studio is designed to increase your productivity when developing applications. You can focus on building, testing and deploying your applications because JBoss application development tools are integrated in one IDE. Furthermore, JBoss&nbsp;Developer&nbsp;Studio can assist your application development with its unique features in the following ways: 
+				<itemizedlist>
+					<listitem>
+						<para>
+							Develop new applications using the wizards and project examples of JBoss Central
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Add powerful functionality to applications with minimal effort using Forge Tools
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Build web interfaces with ease using the visual editing and drag-and-drop utilities of Visual Web Tools and Mobile Web Tools
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Experience browsers automatically refreshing in response to modified application resources with LiveReload Tools
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Incorporate JSF, Seam, JAX-RS, Hibernate, CDI and other popular APIs into applications with simplicity using the tool-driven interface
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Preview and test mobile web applications on a variety of simulation mobile devices using BrowserSim
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Create, build and test Cordova-based hybrid mobile applications for iOS and Android platforms using Hybrid Mobile Tools and CordovaSim
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Deploy applications to JBoss runtime servers and the cloud using JBoss Server Tools and OpenShift Tools
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+			<para>
+				JBoss&nbsp;Developer&nbsp;Studio comes built around Eclipse and packaged with all of the necessary dependencies and third-party plug-ins for simplified installing. For developers already running Eclipse, JBoss&nbsp;Developer&nbsp;Studio can also be installed through Eclipse Marketplace. For distinction, this latter JBoss&nbsp;Developer&nbsp;Studio installation is called JBoss&nbsp;Developer&nbsp;Studio BYOE (Bring Your Own Eclipse).
+			</para>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+13337-592066+%5BLatest%5D&amp;description=Title%3A+About+Red+Hat+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;&amp;versions=&BUILD_JIRA_VID;">Report a bug</ulink>
+			</para>
+		</section>
+		<section id="Use_Cases_of_JBoss_Developer_Studio" remap="TID_13338">
+			<sectioninfo>
+				<keywordset>
+					<keyword>
+						JBDS 7.0.z
+					</keyword>
+				</keywordset>
+			</sectioninfo>
+			<title>Use Cases of JBoss Developer Studio</title>
+			<para>
+				JBoss&nbsp;Developer&nbsp;Studio assists Java EE developers by integrating JBoss technology and APIs in a single development environment. Here are a few ways that JBoss&nbsp;Developer&nbsp;Studio makes the work of a developer easier:
+			</para>
+			<variablelist>
+				<varlistentry>
+					<term>Web applications</term>
+					<listitem>
+						<para>
+							JBoss Central provides wizards that generate skeleton and sample projects, enabling you to focus on developing the functionality of your applications. The wizards create web applications based on different APIs and technologies, showing the usage and advantages of each. JBoss&nbsp;Developer&nbsp;Studio also offers project file templates in a range of popular programming languages, including HTML, XHTML, and JSF.
+						</para>
+						<para>
+							Palettes in JBoss&nbsp;Developer&nbsp;Studio give access to the core elements of the JSF, Richfaces and Seam APIs, for use in developing the user interfaces of your applications. Elements of these APIs can be dragged and dropped directly into your project so that you can create richer user interfaces quickly. Visual Web Tools offers graphical and source viewing of files and defaults to dedicated editors for different file types. JBoss&nbsp;Developer&nbsp;Studio supports the Java EE specification and provides tools for JAX-RS, Hibernate, and CDI APIs so you can develop the server-side components of your applications effortlessly.
+						</para>
+						<para>
+							LiveReload Tools automatically refreshes browsers of local or deployed applications as you modify project resources to save you from needing to manually refresh. You can even experience automatic refreshing when viewing applications in browsers on external and mobile devices, with application web addresses easy to navigate to with QR codes.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Web applications optimized for mobile devices</term>
+					<listitem>
+						<para>
+							Mobile Web Tools provides support for HTML5 and jQuery Mobile to enable you to create web applications optimized across desktop and mobile clients. The HTML5 Project wizard in JBoss Central generates a sample application using HTML5 and jQuery Mobile technologies and, together with HTML5 and jQuery Mobile project file templates, helps you to get up and running with these APIs and technologies quickly. HTML5 and jQuery Mobile widgets can be dragged from the jQuery Mobile palette into your project files and, in conjunction with the widget wizards, enable you to effortlessly develop customized user interfaces for your mobile web applications.
+						</para>
+						<para>
+							BrowserSim allows you to view your web applications on a variety of simulated mobile devices so that you can ensure they will be correctly formatted. LiveReload also extends to BrowserSim allowing you to experience automatic browser refreshing as you develop your mobile web applications. The integration of Firebug Lite and Weinre capabilities with BrowserSim assists you to inspect the page source of web pages with familiar tools.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Hybrid mobile applications</term>
+					<listitem>
+						<para>
+							Hybrid Mobile Tools provides support for developing and building Cordova-based hybrid mobile applications for iOS and Android platforms. The Hybrid Mobile application wizard assists you to quickly generate new projects, while the Cordova Configuration Editor and Cordova Plug-in Discovery wizard help you to efficiently modify the capabilities of your projects. Hybrid Mobile Tools provides actions that simplify your workflow, for example calling your system installed Android and iOS SDKs from within the IDE to emulate or run your hybrid mobile applications. With wizards to export workspace projects to Cordova-enabled native projects or ready-to-sign applications, you can quickly be ready to share your hybrid mobile projects and applications.
+						</para>
+						<para>
+							CordovaSim enables you to view and test your hybrid mobile applications on Android and iOS simulated mobile devices so that you can ensure they look and work as expected. You can interact with your mobile applications through BrowserSim and use the device input panel to provide sample data to your applications for device functions like cameras and accelerometers. An advantage of CordovaSim is that it does not require native SDKs to be installed on your system, unlike native SDK emulators. Additionally, by teaming the device control panel with BrowserSim, you get all of the great functionality of BrowserSim, such as skins and LiveReload, while simulating your hybrid mobile applications.
+						</para>
+					</listitem>
+				</varlistentry>
+				<varlistentry>
+					<term>Applications for cloud deployment</term>
+					<listitem>
+						<para>
+							OpenShift Tools deploys your applications directly to the cloud on the Red Hat OpenShift platform. You can create and manage your OpenShift account and manage the deployment of applications in your OpenShift domains from within the IDE. In addition to using the OpenShift Application wizard to create new applications for deployment to OpenShift, OpenShift Tools can import applications already deployed on OpenShift so that you can further develop them and manage their deployment from the comfort of the IDE.
+						</para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<para role="RoleCreateBugPara">
+				<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+13338-625708+%5BLatest%5D&amp;description=Title%3A+Use+Cases+of+JBoss+Developer+Studio%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;&amp;versions=&BUILD_JIRA_VID;">Report a bug</ulink>
+			</para>
+		</section>
+	</section>
+	<section id="About_this_Release3" remap="TID_30252">
+		<title>About this Release</title>
+		<para>
+			JBoss&nbsp;Developer&nbsp;Studio 8.0.0 is an update to JBoss&nbsp;Developer&nbsp;Studio 7. The update has four purposes:
+		</para>
+		<itemizedlist>
+			<listitem>
+				<para>
+					It supports Eclipse Luna (4.4).
+				</para>
+			</listitem> 
+			<!--<listitem>
+			<para>
+				It introduces Hybrid Mobile Tools and CordovaSim as fully supported tools, removing the previous Technology Preview status.
+			</para>
+		</listitem> -->
+			<listitem>
+				<para>
+					It contains new features for the existing tools.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					It resolves issues identified in earlier versions of JBoss&nbsp;Developer&nbsp;Studio.
+				</para>
+			</listitem>
+		</itemizedlist>
+		<para>
+			For more information about operating systems, chip architectures and Java developer kits supported by this release, see <ulink url="https://access.redhat.com/site/articles/427493"/> on the Red&nbsp;Hat Customer Portal.
+		</para>
+		<para role="RoleCreateBugPara">
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+30252-627544+%5BLatest%5D&amp;description=Title%3A+About+this+Release%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;&amp;versions=&BUILD_JIRA_VID;">Report a bug</ulink>
+		</para>
+	</section>
+	<section id="New_Features17" remap="TID_30253">
+		<title>New Features</title>
+		<para>
+			This release of JBoss&nbsp;Developer&nbsp;Studio includes new features to enhance and extend its functionality as detailed here:
+		</para>
+		<variablelist> 
+			<!--<varlistentry>
+			<term>Installation</term>
+			<listitem>
+				<itemizedlist>
+					<listitem>
+						<para>
+							Red Hat JBoss Enterprise Application Platform 6.2.0 is included in the combined JBoss&nbsp;Developer&nbsp;Studio and JBoss&nbsp;EAP universal installer.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</listitem>
+		</varlistentry>-->
+			<varlistentry>
+				<term>BrowserSim</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								JavaFX web engine is available as an alternative to SWT WebKit for running BrowserSim. 
+								<itemizedlist>
+									<listitem>
+										<para>
+											Microsoft Windows 32-bit and 64-bit operating systems no longer need to install Safari to use BrowserSim.
+										</para>
+									</listitem>
+									<listitem>
+										<para>
+											Microsoft Windows 64-bit operating systems do not need to modify BrowserSim preferences to launch with an Oracle 32-bit JVM.
+										</para>
+									</listitem>
+									<listitem>
+										<para>
+											Running BrowserSim with JavaFX is also supported for OS X and Red Hat Enterprise Linux (GTK2 only) operating systems when Oracle JDK is used.
+										</para>
+									</listitem>
+								</itemizedlist> To specify the web engine used by BrowserSim, open BrowserSim, right-click the simulated device and click Preferences. Under <guilabel>Browser Engine</guilabel>, click the web engine you wish to you and click <guibutton>OK</guibutton> to close the <application>Preferences</application> window.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								Chrome Dev Tools Debugger is available for use with BrowserSim. This feature is available for the JavaFX web engine only at this time. To enable the debugger, open BrowserSim, right-click the simulated device and click <guimenu>Debug</guimenu>&rarr;<guimenu>Dev Tools</guimenu>.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								JavaScript errors for simulated devices are listed in the existing IDE <guilabel>Error Log</guilabel> view, and labeled according to whether they are classified as information, warnings or errors. This feature is available for the WebKit engine only at this time. To open the <guilabel>Error Log</guilabel> view, click <guimenu>Window</guimenu>&rarr;<guimenu>Show View</guimenu>&rarr;<guimenu>Other</guimenu>, expand <guimenu>General</guimenu> and double-click <guimenu>Error Log</guimenu>.
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>CDI Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								DeltaSpike partial beans are recognized by CDI Tools. This extends CDI Tools features such as validation, code completion, hyperlinks and refactoring to DeltaSpike partial beans.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								CDI 1.1 projects are now supported. The CDI version of a project is automatically detected by CDI Tools when CDI 1.1 <filename>.jar</filename> files are included in the classpath.
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Forge Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								The embedded Forge runtime server is version 1.4.4.Final.
+							</para>
+						</listitem> 
+						<!--<listitem>
+						<para>
+							Forge 2 is also provided. The embedded Forge 2 runtime server is version 2.3.0.Final. Ctrl+5 to see list of available commands. To switch between embedded runtimes ...
+						</para>
+					</listitem>--> 
+						<!--<listitem>
+						<para>
+							New Forge 2 wizards for creating database connections
+						</para>
+					</listitem> -->
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Hybrid Mobile Tools and CordovaSim -- Technology Preview</term>
+				<listitem>
+					<warning>
+						<para>
+							Hybrid Mobile Tools and CordovaSim are provided as a Technology Preview in this release. This means that they are provided as-is, without support or guarantees. Your feedback is appreciated.
+						</para>
+					</warning>
+					<itemizedlist>
+						<listitem>
+							<para>
+								Multiple Cordova versions are now supported, both for developing hybrid mobile applications and for testing these applications using CordovaSim. The Hybrid Mobile Application Project wizard is extended to include selecting the Cordova version for the project and offers options to download and select locally stored Cordova versions. Once created, the Cordova version of a project can also be specified from the project <application>Properties</application> window.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								The plug-in registry used by the Cordova Plug-in Discovery wizard is now cached, resulting in less network calls and faster information retrival. A <guilabel>Show installed</guilabel> option has been added to the Cordova Plug-in Discovery wizard, which lists plug-ins already installed for an application.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								The option to list the plug-ins already installed in an application has been added to the Cordova Plug-in Discovery wizard. To view a complete list all available plug-ins including those already installed, in the Cordova Plug-in Discovery wizard click the <guilabel>Show installed</guilabel> check box.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								XCode simulator integration has been updated to support XCode 5.1.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								The Battery Status plug-in is now supported by CordovaSim and battery status values can be changed in the device input panel to simulate different battery levels and charging status for the simulated device.
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>JBoss Central</term>
+				<listitem>
+					<itemizedlist> 
+						<!--<listitem>
+						<para>
+							New third-party plug-ins are available through JBoss Central as follows:
+						</para>
+						<itemizedlist>
+							<listitem>
+								<para>
+									Mylyn Builds Connector - Hudson/Jenkins 1.1.1.v20130917-0100.
+								</para>
+							</listitem>
+							<listitem>
+								<para>
+									m2e Connector for WRO4J 1.0.2.201311130036
+								</para>
+							</listitem>
+						</itemizedlist>
+					</listitem>-->
+						<listitem>
+							<para>
+								Updated third-party plug-ins in JBoss Central have the following versions:
+							</para>
+							<itemizedlist> 
+								<!--<listitem>
+								<para>
+									Atlassian Connector for Eclipse 3.2.2.v20130909
+								</para>
+							</listitem>
+							<listitem>
+								<para>
+									Eclipse Checkstyle Plug-in 5.6.1.201306282206
+								</para>
+							</listitem>-->
+								<listitem>
+									<para>
+										Eclipse VJET 0.10.0.201403201656
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										Finbugs 2.0.3.20131122-15027
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										PMD Plug-in 4.0.2.v20131031-1124
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										Spring IDE 3.5.0.201404011509-RELEASE
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										Subclipse + SVNKit 1.10.4_1.8.4
+									</para>
+								</listitem> 
+								<!--<listitem>
+								<para>
+									TestNG 6.8.6.20130914_0724
+								</para>
+							</listitem> -->
+							</itemizedlist> 
+							<!--<important>
+							<para>
+								The plug-ins from this list will not update automatically if you have previous versions of them installed. To install the updated version of an already installed plug-in, from the JBoss Central <guilabel>Software/Update</guilabel> tab select to install the plug-in as if it is new and follow the installation wizard instructions.
+							</para>
+							<para>
+								Further, for Google Plugin for Eclipse and JBoss Maven GWT Configurator, which have component name changes, you are prompted to take remediation steps because of installing conflicts. At the prompt, from the list of alternative solutions click <guilabel>Update my installation to be compatible with the items being installed</guilabel> and continue to follow the installation wizard instructions.
+							</para>
+						</important>-->
+						</listitem>
+						<listitem>
+							<para>
+								Usage tracking has been extended to include installations from JBoss Central, specifically plug-ins and quickstarts, and new server creation. This information collected enabled Red Hat to understand which components and server types are being used, assisting in continually improving JBoss Developer Studio. Usage tracking can be disabled at the <application>Usage Statistics</application> prompt after installing JBoss Developer Studio or through the <application>Preferences</application> window.
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>JBoss Server Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								Creating server adapters in the IDE for remote servers no longer requires a replica version of the remote application server and remote Java developer kit to be installed locally for the majority of server adapter functions to work. Locally installed replica components may still be required for features such as JMX Explorer.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								Server adapters for Red Hat JBoss Enterprise Application Platform are now based on server profiles. Server Profiles define a set of functionality and pre-configured options determining how the server is to be run. 
+								<itemizedlist>
+									<listitem>
+										<para>
+											The basic server profiles for local and remote servers deploy resources locally or through the IDE RSE system. Scripts for starting and stopping the server can also be specified, where previously servers were assumed to be already started.
+										</para>
+									</listitem>
+									<listitem>
+										<para>
+											The advanced server profiles for local and remote servers (<guilabel>Use management options</guilabel>) connect to the server management service to perform actions such as shutdown, deployment, and determining the state of the server.
+										</para>
+									</listitem>
+								</itemizedlist>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>JSF Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								The jQuery Mobile palette supports versions 1.3 and 1.4, each with common and unique widget wizards. The palette detects the jQuery Mobile JavaScript file version used in the HTML5 file and switches to the corresponding palette version. The palette version can also be switched manually.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								Content assist is available for jQuery Mobile 1.4 data-* attributes.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								A Form Button widget is available in the jQuery Mobile palette for versions 1.3 and 1.4.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								The Panel widget wizard is extended with the option to also generate a menu, combining Panel and ListView widgets in one wizard.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								jQuery Mobile palette drag-and-drop action has been improved as follows: 
+								<itemizedlist>
+									<listitem>
+										<para>
+											Widgets can be dragged into HTML5 files with or without the widget wizard opening. The widget wizard opens by default, but to drag a widget without the wizard opening press and hold <keycap>Ctrl</keycap> while dragging the widget into an open HTML5 file.
+										</para>
+									</listitem>
+									<listitem>
+										<para>
+											Code snippets of widgets are inserted into text nodes only, preventing existing tags or attributes from being broken by drag-and drop palette actions.
+										</para>
+									</listitem>
+								</itemizedlist>
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								The Properties view for HTML5 files is enhanced, providing an advanced look and feel for basic HTML5, jQuery Mobile and AngularJS components and attributes.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								The New JSF Project wizard supports servlets 3.1
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>LiveReload Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								A reload delay parameter has been introduced that controls the length of time between project modifications being saved and browser reload requests being sent. This option is useful when time is needed by the application server to complete processing associated with modifications. To configure the reload delay parameter, open the LiveReload server in the Server Editor and modify the <guilabel>Reload delay</guilabel> field value. You must save the changes to the LiveReload server configuration before the results take effect.
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Maven Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								Maven Profile Management user interface has been donated to the Eclipse m2e project. This feature is still available with JBDS as m2e is packaged as a core component of JBDS but it is now also available to all Eclipse users.
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>OpenShift Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								On encountering an unknown SSL certificate when connecting to servers, OpenShift Tools prompts users to review and accept or decline the certificate.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								The New OpenShift Application wizard by default only shows projects under no version control or those under Git version control when opting to merging the new application with an existing workspace project. To see all projects, in the <guilabel>Select Existing Project</guilabel> window select the <guilabel>Show all projects</guilabel> check box.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								The New OpenShift Application wizard has been modified to provide a better and simplified user experience and extended functionality.
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								Custom <guilabel>Code Anything</guilabel> cartridges are supported in the New OpenShift Application wizard both as the basis of the application and as embedded cartridges. When selecting the <guilabel>Code Anything</guilabel> cartridge option, the Git URL for the custom cartridge source must be provided.
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Web Services Tools</term>
+				<listitem>
+					<itemizedlist>
+						<listitem>
+							<para>
+								JAX-RS 2.0, part of Java EE 7, is supported, with the following new features: 
+								<itemizedlist>
+									<listitem>
+										<para>
+											Server-side JAX-RS interceptors and filters detection
+										</para>
+									</listitem>
+									<listitem>
+										<para>
+											@NameBinding meta-annotation detection
+										</para>
+									</listitem>
+									<listitem>
+										<para>
+											User-defined @NameBinding and @PreMatching annotations validation
+										</para>
+									</listitem>
+									<listitem>
+										<para>
+											Hyperlink navigation between filters and interceptors and associated resources methods or applications based on @NameBinding annotations
+										</para>
+									</listitem>
+									<listitem>
+										<para>
+											JAX-RS endpoint parameters displayed together with their type in the Project Explorer view
+										</para>
+									</listitem>
+								</itemizedlist>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</listitem>
+			</varlistentry>
+		</variablelist>
+		<para role="RoleCreateBugPara">
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+30253-629267+%5BLatest%5D&amp;description=Title%3A+New+Features%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;&amp;versions=&BUILD_JIRA_VID;">Report a bug</ulink>
+		</para>
+	</section>
+	<section id="Resolved_Issues7" remap="TID_30256">
+		<title>Resolved Issues</title>
+		<para>
+			To view information about issues resolved in this release of JBoss&nbsp;Developer&nbsp;Studio, see <ulink url="https://issues.jboss.org/issues/?jql="/> on the JBoss issue tracking system and enter the following search query as one line: <!-- 7.1.0 query -->
+			<screen>(project in (JBDS) AND affectedVersion &lt; "8.0.0.Alpha1" AND fixVersion in ("8.0.0.Alpha1", "8.0.0.Alpha2", "8.0.0.Beta1") AND fixVersion not in ("7.1.0.Beta1", "7.1.0.CR1") OR project in (JBIDE) AND affectedVersion &lt; "4.2.0.Alpha1" AND fixVersion in ("4.2.0.Alpha1", "4.2.0.Alpha2", "4.2.0.Beta1") AND fixVersion not in ("4.1.0.CR1","4.1.1.Alpha1","4.1.1.Alpha2","4.1.1.Beta1", "4.1.1.CR1",  "4.1.2.CR1")) AND type in (Bug) AND resolution in (Done)</screen> 
+			<!-- 8.0.0.GA
+		<screen>(project in (JBDS) AND affectedVersion &lt; "8.0.0.Alpha1" AND fixVersion in ("8.0.0.Alpha1", "8.0.0.Alpha2", "8.0.0.Beta1", "8.0.0.Beta2", "8.0.0.CR1", "8.0.0.GA") AND fixVersion not in ("7.1.0.Beta1", "7.1.0.CR1") OR project in (JBIDE) AND affectedVersion &lt; "4.2.0.Alpha1" AND fixVersion in ("4.2.0.Alpha1", "4.2.0.Alpha2", "4.2.0.Beta1", "4.2.0.Beta2", "4.2.0.CR1", "4.2.0.Final") AND fixVersion not in ("4.1.0.CR1","4.1.1.Alpha1","4.1.1.Alpha2","4.1.1.Beta1", "4.1.1.CR1",  "4.1.2.CR1")) AND type in (Bug) AND resolution in (Done)</screen> --> 
+			<!-- 7.0.1 query
+		<screen>(project in (JBIDE) AND affectedVersion in ("4.1.0.Final") AND fixVersion = "4.1.0.1.Final" OR project in (JBDS) AND affectedVersion in ("7.0.0.GA") AND fixVersion = "7.0.1.GA") AND type in (Bug) AND resolution in (Done)</screen> -->
+		</para>
+		<para>
+			The following customer-reported resolved issue is highlighted: <!-- FORMAT
+		# What actions or circumstances caused the problem?
+		# How did the problem affect the example/tool/IDE?
+		# How was the problem resolved?
+		# What now happens to the example/tool/IDE when the same actions/circumstances occur?
+	-->
+		</para>
+		<variablelist>
+			<title/>
+			<varlistentry>
+				<term><ulink url="https://issues.jboss.org/browse/JBDS-2921">JBDS-2921</ulink></term>
+				<listitem>
+					<para>
+						On Linux-based operating systems using GNOME desktop, dragging a file from Nautilus File Manager into an Editor view did not open the file. Drop events of type String were not recognized and consequently the drag-and-drop action for files did not work. This issue has been resolved by ensuring the IDE recognizes drop events of type String and dragging a file from Nautilus File Manager into an Editor view now successfully opens the file.
+					</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term><ulink url="https://issues.jboss.org/browse/TOOLSDOC-447">TOOLSDOC-447</ulink></term>
+				<listitem>
+					<para>
+						When a connection was initiated to an OpenShift Server using the <application>Sign in to OpenShift</application> wizard, OpenShift Tools automatically accepted SSL certificates, whether they are valid or invalid. SSL checks are now enabled and when connecting to private OpenShift instances you are prompted to accept or deny untrusted SSL certificates.
+					</para>
+				</listitem>
+			</varlistentry>
+		</variablelist>
+		<para role="RoleCreateBugPara">
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+30256-627544+%5BLatest%5D&amp;description=Title%3A+Resolved+Issues%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;&amp;versions=&BUILD_JIRA_VID;">Report a bug</ulink>
+		</para>
+	</section>
+	<section id="Known_Issues18" remap="TID_30255">
+		<title>Known Issues</title>
+		<para>
+			To view information about known issues in this release of JBoss&nbsp;Developer&nbsp;Studio, see <ulink url="https://issues.jboss.org/issues/?jql="/> on the JBoss issue tracking system and enter the following search query as one line: <!-- 8.0.0.Beta1 query -->
+			<screen>(project in (JBDS) AND affectedVersion &gt;= "7.0.0.GA" AND affectedVersion &lt;= "8.0.0.Beta1" AND (resolution in (Unresolved) OR resolution in (Done) AND fixVersion &gt; "8.0.0.Beta1") OR project in (JBIDE) AND affectedVersion &gt;= "4.1.0.Final" AND affectedVersion &lt;= "4.2.0.Beta1" AND (resolution in (Unresolved) OR resolution in (Done) AND fixVersion &gt; "4.2.0.Beta1")) AND type in (Bug)</screen> The query results correspond to reported issues but the issues may not yet have been confirmed by the product team.
+		</para> 
+		<!-- 8.0.0.GA
+	<screen>(project in (JBDS) AND affectedVersion >= "7.0.0.GA" AND affectedVersion <= "8.0.0.GA" AND (resolution in (Unresolved) OR resolution in (Done) AND fixVersion > "8.0.0.GA") OR project in (JBIDE) AND affectedVersion >= "4.1.0.Final" AND affectedVersion <= "4.2.0.Final" AND (resolution in (Unresolved) OR resolution in (Done) AND fixVersion > "4.2.0.Final")) AND type in (Bug)</screen>
+	--> 
+		<!--<para>
+		The following customer-reported known issues are highlighted:--> 
+		<!-- FORMAT
+		# What actions or circumstances cause the problem?
+		# How does the problem affect the example/archetype/framework?
+		# Does a workaround exist and what is it?
+		# What now happens to the example/archetype/framework when the workaround is used?
+	--> 
+		<!--</para>
+	<variablelist>
+		<title/>
+		<varlistentry>
+			<term><ulink url="https://issues.jboss.org/browse/JBDS-2957">JBDS-2957</ulink></term>
+			<listitem>
+				<para/>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term><ulink url="https://issues.jboss.org/browse/JBDS-2873">JBDS-2873</ulink></term>
+			<listitem>
+				<para/>
+			</listitem>
+		</varlistentry>
+	</variablelist> -->
+		<para role="RoleCreateBugPara">
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+30255-629266+%5BLatest%5D&amp;description=Title%3A+Known+Issues%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;&amp;versions=&BUILD_JIRA_VID;">Report a bug</ulink>
+		</para>
+	</section>
+	<section id="Apply_this_Release3" remap="TID_30254">
+		<title>Apply this Release</title>
+		<para>
+			JBoss&nbsp;Developer&nbsp;Studio 8.0.0 is available from a number of sources: 
+			<itemizedlist>
+				<listitem>
+					<para>
+						To install JBoss&nbsp;Developer&nbsp;Studio 8.0.0, use the universal installer available from the Red Hat Customer Portal.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						To install JBoss&nbsp;Developer&nbsp;Studio BYOE 8.0.0 in Eclipse Luna, use Eclipse Marketplace, the JBoss&nbsp;Developer&nbsp;Studio update site or the update <filename>.zip</filename> file available from the Red Hat Customer Portal.
+					</para>
+				</listitem> 
+				<!--<listitem>
+				<para>
+					To update an existing JBoss&nbsp;Developer&nbsp;Studio or JBoss&nbsp;Developer&nbsp;Studio BYOE 7.0.x installation to version 7.1.0, apply the update available from the JBoss&nbsp;Developer&nbsp;Studio update site through the IDE.
+				</para>
+			</listitem>-->
+			</itemizedlist> In all cases, for more information see the Red&nbsp;Hat JBoss&nbsp;Developer&nbsp;Studio 8.0 Installation Guide.
+		</para>
+		<para role="RoleCreateBugPara">
+			<ulink url="https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&amp;environment=Build+Name%3A+&BUILD_NAME;%0ABuild+Date%3A+&BUILD_DATE;%0ATopic+ID%3A+30254-627544+%5BLatest%5D&amp;description=Title%3A+Apply+this+Release%0A%0ADescribe+the+issue%3A%0A%0A%0ASuggestions+for+improvement%3A%0A%0A%0AAdditional+information%3A&amp;pid=&BUILD_JIRA_PID;&amp;components=&BUILD_JIRA_CID;&amp;versions=&BUILD_JIRA_VID;">Report a bug</ulink>
+		</para>
+	</section>
+	<xi:include href="Revision_History.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</article>
