@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes_8.0.0.ent">
+%BOOK_ENTITIES;
+]>
+<appendix id="appe-Release_Notes_8.0.0-Revision_History" remap="TID_30230">
+	<title>Revision History</title>
+	<simpara>
+		<revhistory>
+			<revision> 
+				<revnumber>8.0.0-1</revnumber><date>Fri Mar 28 2014</date>
+				<author> 
+					<firstname>Michelle</firstname><surname>Murray</surname><email/>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>
+							Generated for Beta1 release
+						</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+		</revhistory>
+	</simpara>
+</appendix>

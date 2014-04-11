@@ -1,0 +1,15 @@
+<!-- BUG LINK ENTITIES -->
+<!ENTITY BUILD_DATE "11-04-2014+15&percnt;3A10&percnt;3A27">
+<!ENTITY BUILD_NAME "22666&percnt;2C+Release+Notes+8.0.0-8.0+Beta1">
+<!ENTITY BUILD_JIRA_PID "12310980">
+<!ENTITY BUILD_JIRA_CID "12313595">
+<!ENTITY BUILD_JIRA_VID "12321975">
+<!-- CS ENTITIES -->
+<!ENTITY BOOKID "Release_Notes_8.0.0">
+<!ENTITY PRODUCT "Red Hat JBoss Developer Studio">
+<!ENTITY TITLE "Release Notes 8.0.0">
+<!ENTITY YEAR "2014">
+<!ENTITY HOLDER "Red Hat, Inc">
+<!ENTITY BZPRODUCT "Red Hat JBoss Developer Studio">
+<!ENTITY BZCOMPONENT "documentation">
+<!ENTITY BZURL "<ulink url='https://bugzilla.redhat.com/enter_bug.cgi'>https://bugzilla.redhat.com/</ulink>">

@@ -1,0 +1,43 @@
+ID = 22666
+Title = Release Notes 8.0.0
+Subtitle = Information about changes to JBoss Developer Studio
+Abstract = These release notes contain important information related to JBoss Developer Studio. New features, resolved issues and known issues of this product release are detailed here.
+Product = Red Hat JBoss Developer Studio
+Version = 8.0 Beta1
+#Edition = 8.0
+Format = DocBook 4.5
+Copyright Holder = Red Hat, Inc
+# The commented fields below are optional
+Brand = JBoss
+Type = Article
+publican.cfg = [version: 8.0
+web_version_label: 8.0 Beta1]
+# pubsnumber =
+# Debug = [0|1|2]
+# Bug Links = On
+# BZProduct =
+# BZComponent =
+# BZVersion =
+# BZURL =
+Bug Links = Jira
+JIRAServer = https://issues.jboss.org/
+JIRAProject = TOOLSDOC
+JIRAComponent = Release Notes
+JIRAVersion = 4.2.0.Beta1
+# JIRALabels =
+# Output Style =
+Feedback = [23618, rev: 566820]
+Revision History = [30230]
+Author Group = [24063, rev: 556627]
+# Indentation is meaningful. Use 2 spaces.
+
+[condition = jbds]
+Section: Introduction to Red Hat JBoss Developer Studio
+  Beta Product [21439, rev: 625315]
+  About Red Hat JBoss Developer Studio [13337]
+  Use Cases of JBoss Developer Studio [13338]
+About this Release [30252]
+New Features [30253]
+Resolved Issues [30256]
+Known Issues [30255]
+Apply this Release [30254]
