@@ -1,4 +1,4 @@
-Copyright 2013 Red Hat, Inc.
+Copyright 2013, 2014 Red Hat, Inc.
 
 This document is licensed under the Creative Commons CC-BY-SA license.
 An explanation of CC-BY-SA is available at

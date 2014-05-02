@@ -14,7 +14,7 @@ access to corresponding native device APIs. Cordova APIs are available
 for a range of device functionality, including cameras, accelerometers,
 and filesystems. All of the Cordova APIs have a JavaScript interface and
 native backing code to support a variety of different device operating
-systems, including iOS and Android.
+systems, including Android and iOS.
 
 The JavaScript interface of Cordova APIs provides consistent methods for
 accessing native device functionality regardless of operating system.
@@ -48,31 +48,30 @@ mobile applications.
 
 Hybrid Mobile Tools consists of the Apache Cordova API and wizards, a
 dedicated editor and actions for developing Cordova-based hybrid mobile
-applications for iOS and Android operating systems:
+applications for Android and iOS operating systems:
 
-* The included Apache Cordova API is version 3.0.x.
 * The Hybrid Mobile Application project wizard creates a sample project
 to demonstrate the Cordova project structure and provides you with a
 template from which to create your own applications.
 * The Cordova Configuration Editor offers simplified management of
-`config.xml` files, with dedicated panes for adding and editing project
-descriptions, features, preferences and access. An additional pane
+`config.xml` files, with dedicated tabs for adding and editing project
+descriptions, features, preferences and access. An additional tab
 enables direct editing of `config.xml` files.
 * The Cordova Plug-in Discovery wizard assists you to add Cordova
 plug-ins to your projects. Plug-ins can be installed from the Cordova
-registry, Git and directories. Information displayed in the Project
-Explorer tab is extended to show installed plug-ins and enable their
-management.
-* Actions are provided for calling external Android and iOS SKDs to
+registry, Git locations and system directories. Information displayed in
+the Project Explorer view is extended to show installed plug-ins and
+enable their management.
+* Actions are provided for calling external Android and iOS SDKs to
 package Cordova-based hybrid mobile projects into native applications
 and subsequently run them on their associated simulators or connected
 Android devices.
 * Export wizards are available for exporting Cordova-based hybrid mobile
-projects from the IDE workspace as Cordova-enabled iOS or Android
+projects from the IDE workspace as Cordova-enabled Android or iOS
 projects and ready-to-sign applications.
 
-Hybrid Mobile Tools, together with CordovaSim, provides an effective
-hybrid mobile development and testing environment.
+Hybrid Mobile Tools, together with CordovaSim, provides a rounded hybrid
+mobile development and testing environment.
 
 == About CordovaSim
 
@@ -90,8 +89,8 @@ Extensions to the device input panel for CordovaSim include the
 following:
 
 * CordovaSim supports a range of Cordova API implementations: the core
-Apache Cordova 3.0.x plug-ins, several PhoneGap plug-ins and custom
-plug-ins. Supported PhoneGap plug-ins include `BarcodeScanner` and
+Apache Cordova plug-ins, several PhoneGap plug-ins and custom plug-ins.
+Supported PhoneGap plug-ins include `BarcodeScanner`, `InAppBrowser` and
 `ChildBrowser`. (Note that exceptions to the supported core Apache
 Cordova plug-ins are `File` and the `captureAudio` and `captureVideo`
 methods of `Capture`.)
@@ -115,20 +114,17 @@ on the JBoss Tools website. But, as reiterated below, there are
 additional system requirements and restrictions when using Hybrid Mobile
 Tools.
 
-Hybrid Mobile Tools actions involving iOS and Android require the
+Hybrid Mobile Tools actions involving Android and iOS require the
 associated SDKs to be installed on your system.
 
 _______________________________________________________________________________________________________________________________________________________________________________________
 *Note*
 
 CordovaSim is a standalone simulator for mobile device operating
-systems, including iOS and Android. It does not require native SDKs to
+systems, including Android and iOS. It does not require native SDKs to
 be installed in order to simulate successfully.
 _______________________________________________________________________________________________________________________________________________________________________________________
 
-iOS SDK (including simulator)::
-  This is available as part of Apple XCode. For further information see
-  https://developer.apple.com/xcode/[] on the Apple website.
 Android SDK (including emulator)::
   This is available as part of Android Development Tools. For further
   information see http://developer.android.com/sdk/index.html[] on the
@@ -140,11 +136,24 @@ Android SDK (including emulator)::
   further download necessary APIs and set up Android virtual devices
   (AVDs).
   +
-  Once the Android SDK is installed, you need to inform the IDE of its
-  location. In the IDE, click Window→Preferences and select Hybrid
-  Mobile. In the Android SDK Directory field, type the path of the
-  installed SDK or click Browse to navigate to the location. Click Apply
-  and click OK to close the Preferences window.
+  _______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+  *Important*
+
+  You must have Android API 17 or later installed on your system to use
+  the Hybrid Mobile Tools Run on Android Emulator action. You are
+  prompted by an error message when only Android API 16 or earlier is
+  available. In the event that multiple Android API of 17 and later are
+  available, Hybrid Mobile Tools uses the latest version.
+  _______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+  +
+  Further, once Hybrid Mobile Tools is installed, you must set the
+  Android SDK location in the IDE before you can use Hybrid Mobile Tools
+  actions involving Android.
+iOS SDK (including simulator)::
+  This is available as part of Apple XCode. For further information see
+  https://developer.apple.com/xcode/[] on the Apple website.
+
+* ?
 
 == System Requirements for CordovaSim
 
@@ -166,25 +175,43 @@ limited to Oracle 32-bit JRE 1.6, JDK 1.6, or JDK 1.7 on Microsoft
 Windows operating systems because Oracle 32-bit JRE 1.7 is incompatible
 with Apple Safari.
 
-To set BrowserSim to use a 32-bit JVM, click Window→Preferences. Expand
-JBoss Tools and select BrowserSim/CordovaSim. Under Select JRE to run
-BrowserSim, click Select and from the list select a 32-bit JRE or Java
-developer kit. Click Apply and click OK to close the window.
+If BrowserSim is already installed, it can be set to use a 32-bit JVM
+either before or after installing CordovaSim. To set BrowserSim to use a
+32-bit JVM, click Window→Preferences. Expand JBoss Tools and select
+BrowserSim/CordovaSim. Under Select JRE to run BrowserSim, click Select
+and from the list select a 32-bit JRE or Java developer kit. Click Apply
+and click OK to close the Preferences window.
+
+image:images/4322.png[ To set BrowserSim to use a 32-bit JVM, click
+Window→Preferences. Expand JBoss Tools and select BrowserSim/CordovaSim.
+]
 
 == Install Hybrid Mobile Tools and CordovaSim
 
 Hybrid Mobile Tools and CordovaSim are not packaged as part of JBoss
 Tools installations. These plug-ins must be installed independently
-through JBoss Central.
+through JBoss Central, as detailed in the procedure below.
 
-To install these plug-ins, open the JBoss Central tab and select the
-Software/Update page. In the Find field, type JBoss Hybrid Mobile Tools
-+ CordovaSim (Experimental) or scroll through the list to locate it.
-Select the corresponding check box and click Install.
+To install these plug-ins, drag the following link into JBoss Central:
+https://devstudio.jboss.com/central/install?connectors=org.jboss.tools.aerogear.hybrid[].
+Alternatively, in JBoss Central select the Software/Update tab. In the
+Find field, type JBoss Hybrid Mobile Tools or scroll through the list to
+locate JBoss Hybrid Mobile Tools + CordovaSim. Select the corresponding
+check box and click Install.
+
+image:images/4403.png[ To install these plug-ins, drag the following
+link into JBoss Central:
+https://devstudio.jboss.com/central/install?connectors=org.jboss.tools.aerogear.hybrid[].
+]
+
+image:images/4404.png[ To install these plug-ins, drag the following
+link into JBoss Central:
+https://devstudio.jboss.com/central/install?connectors=org.jboss.tools.aerogear.hybrid[].
+]
 
 In the Install wizard, ensure the check boxes are selected for the
 software you want to install and click Next. It is recommended that you
-install both the Hybrid Mobile Tools and CordovaSim components.
+install all of the selected components.
 
 Review the details of the items listed for install and click Next. After
 reading and agreeing to the license(s), click I accept the terms of the
@@ -195,10 +222,21 @@ During the installation process you may receive warnings about
 installing unsigned content. If this is the case, check the details of
 the content and if satisfied click OK to continue with the installation.
 
+image:images/3981.png[ During the installation process you may receive
+warnings about installing unsigned content. If this is the case, check
+the details of the content and if satisfied click OK to continue with
+the installation. ]
+
 Once installing is complete, you are prompted to restart the IDE. Click
 Yes to restart now and No if you need to save any unsaved changes to
 open projects. Note that changes do not take effect until the IDE is
 restarted.
+
+Once installed, you must inform Hybrid Mobile Tools of the Android SDK
+location before you can use Hybrid Mobile Tools actions involving
+Android.
+
+* ?
 
 = Features of Hybrid Mobile Tools and CordovaSim
 
@@ -232,6 +270,9 @@ Click File→New→Project.
 Expand Mobile, select Hybrid Mobile (Cordova) Application Project and
 click Next.
 
+image:images/4405.png[ Expand Mobile, select Hybrid Mobile (Cordova)
+Application Project and click Next. ]
+
 Complete the following fields:
 
 * In the Project name field, type a name for the project. This value is
@@ -255,6 +296,11 @@ must consist only of alphanumeric characters and dots. IDs must begin
 with an alpha character and contain at least one dot.
 ________________________________________________________________________________________________________________________________________________________________________________________________
 
+image:images/4406.png[ In the Project name field, type a name for the
+project. In the Name field, type a name by which the hybrid mobile
+application is to be known. In the ID field, type an ID for the hybrid
+mobile application. ]
+
 By default, the project is created in a subdirectory of the workspace
 that is named according to the project name. To change the default
 location, clear the Use default location check box. From the Choose file
@@ -266,47 +312,62 @@ To create the project, click Finish.
 
 During project creation, the wizard imports project dependencies and
 populates a `config.xml` file. Once created, the project is listed in
-the Project Explorer tab and the `config.xml` file is automatically
+the Project Explorer view and the `config.xml` file is automatically
 opened in the Cordova Configuration Editor.
 
 == Enable Cordova Plug-ins for an Application
 
 Plug-ins, or features, provide the application with access to the
 necessary Cordova APIs at runtime. Hybrid Mobile Tools provides actions
-for installed and removing plug-ins associated with applications, as
+for installing and removing plug-ins associated with applications, as
 detailed here.
 
 Add a plug-in::
-  In the Project Explorer tab, right-click the `plugins` folder and
-  click Install Cordova Plugin.
+  In the Project Explorer view, right-click the `plugins` folder of the
+  project and click Install Cordova Plug-in.
   +
   The Cordova Plug-in Discovery wizard opens. The Cordova Plug-in
   Discovery wizard can install Cordova plug-ins from Cordova registries,
-  git locations and system directories:
+  Git locations and system directories:
   +
   * In the Registry tab, in the Find field enter the name of the feature
   or scroll through the list to find the plug-in. Select the check box
-  for the plug-in and click Next. Check the details of the selected
+  of the plug-in and click Next. Check the details of the selected
   plug-in and use the drop-down list next to the plug-in name to select
-  the version. Click Finish.
+  the version to be installed. Click Finish.
   * In the Git tab, in the URL field type the URL that specifies the
   plug-in location. Click Finish.
   * In the Directory tab, in the Directory field type the path of the
   plug-in or click Browse to navigate to the location. Click Finish.
   +
-  After installing the plug-in, the `config.xml` file is automatically
-  updated with the associated `feature` and `param` statements for the
-  plug-in.
-Remove a plug-in::
-  In the Project Explorer tab, in the plugins folder right-click the
-  plug-in and click Remove Cordova Plugin.
+  image:images/4407.png[ In the Registry tab, in the Find field enter
+  the name of the feature or scroll through the list to find the
+  plug-in. Select the check box for the plug-in and click Next. ]
+  +
+  After installing the plug-in, configuration files are automatically
+  updated with relevant settings for the plug-in. Note that the
+  `config.xml` file is only updated with features and param entries if
+  an installed plug-in has native parts.
+  +
+  _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+  *Important*
 
-_________________________________________________________________________________________________________________________
+  Some plug-ins require you to define preference values. At the time of
+  installing such a plug-in, Hybrid Mobile Tools creates an item in the
+  Preference table with the appropriate preference name but with a value
+  of PLEASE_DEFINE. You must edit the preference and provide the
+  required value.
+  _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Remove a plug-in::
+  In the Project Explorer view, in the plugins folder right-click the
+  plug-in and click Remove Cordova Plug-in.
+
+________________________________________________________________________________________________________________________
 *Note*
 
 Alternatively, you can add and remove plug-ins by using the Platform
-Properties mode of the Cordova Configuration Editor.
-_________________________________________________________________________________________________________________________
+Properties tab of the Cordova Configuration Editor.
+________________________________________________________________________________________________________________________
 
 * ?
 
@@ -314,51 +375,58 @@ ________________________________________________________________________________
 
 The Cordova Configuration Editor is available for managing the settings
 of Cordova projects that are specified in the `config.xml` file. This
-editor has four modes: Overview, Platform Properties, Icons & Splash
-Screen, and config.xml. As described below, the first three modes
-provide interfaces for configuring the settings specified in the
-`config.xml` file and the fourth mode enables direct editing of the
-file.
+editor has three tabs: Overview, Platform Properties, and config.xml. As
+described below, the first two tabs provide interfaces for configuring
+the settings specified in the `config.xml` file and the third tab
+enables direct editing of the file.
 
-The Overview mode details explanatory application information. Within
-this mode you can specify the name and description of the project, the
+The Overview tab details explanatory application information. Within
+this tab you can specify the name and description of the project, the
 content source of the application, and author details.
 
-The Platform Properties mode specifies Cordova project functionality,
+image:images/4408.png[ The Overview tab details explanatory application
+information. Within this tab you can specify the name and description of
+the project, the content source of the application, and author details.
+]
+
+The Platform Properties tab specifies Cordova project functionality,
 such as features (plug-ins and parameters), preferences and access.
 
-The Icon & Splash Screen mode lists the icon and splash screen images to
-be used on the various operating systems and resolutions for which the
-application is being developed.
+image:images/4409.png[ The Platform Properties tab specifies Cordova
+project functionality, such as features (plug-ins and parameters),
+preferences and access. ]
 
-The config.xml mode provides an editor in which to view and modify the
+The config.xml tab provides an editor in which to view and modify the
 `config.xml` file directly.
 
+image:images/4410.png[ The config.xml tab provides an editor in which to
+view and modify the `config.xml` file directly. ]
+
 To open the Cordova Configuration Editor for a specific hybrid mobile
-project, in the Project Explorer tab right-click the `config.xml` file.
+project, in the Project Explorer view right-click the `config.xml` file.
 Click Open With→Cordova Configuration Editor. All changes to the Cordova
-settings of a project must be saved before the results will take effect.
-To save, press Ctrl+S.
+settings of a project must be saved before the results take effect. To
+save, press Ctrl+S.
 
-=== Manage Cordova Settings in Overview Mode
+=== Manage Cordova Settings in the Overview Tab
 
-The Overview mode of the Cordova Configuration Editor enables you to
-edit the application information of a hybrid mobile project. Information
+The Overview tab of the Cordova Configuration Editor enables you to edit
+the application information of a hybrid mobile project. Information
 pertains to the name, description and author of the application. More
 specifically, the Name and Description section details the application
 ID, name, version, description and content source or home page. The
-Author section holds author name, email and URL. All field values can be
-edited as detailed below.
+Author section holds the author name, email and URL. All field values
+can be edited as detailed below.
 
 Change the value of a variable::
   Click the appropriate field and edit the content.
 
-All changes to `config.xml` must be saved before the results will take
+All changes to `config.xml` must be saved before the results take
 effect. To save, press Ctrl+S.
 
-=== Manage Cordova Settings in Platform Properties Mode
+=== Manage Cordova Settings in the Platform Properties Tab
 
-The Platform Properties mode of the Cordova Configuration Editor enables
+The Platform Properties tab of the Cordova Configuration Editor enables
 you to specify the Cordova settings in your hybrid mobile project.
 Features, parameters, preferences and access can be added and removed as
 detailed below.
@@ -376,9 +444,9 @@ Add a feature::
   enter the name of the feature or scroll through the list to find the
   plug-in. Select the check box for the plug-in and click Next. Check
   the details of the selected plug-in and use the drop-down list next to
-  the plug-in to select the version.
-  * For Git, click the Git tab. In the URL field, type the URL that
-  specifies the plug-in location.
+  the plug-in to select the version to be installed.
+  * For a Git location, click the Git tab. In the URL field, type the
+  URL that specifies the plug-in location.
   * For a system directory, click the Directory tab. In the Directory
   field, type the path of the plug-in or click Browse to navigate to the
   location.
@@ -426,48 +494,7 @@ Remove a feature, parameter, preference or access::
   Remove. Note that removing a feature also removes the associated
   parameters.
 
-All changes to `config.xml` must be saved before the results will take
-effect. To save, press Ctrl+S.
-
-=== Manage Cordova Settings in Icons & Splash Screen Mode
-
-The Icons & Splash Screen mode of the Cordova Configuration Editor
-enables you to control the icons and splash screen used by the
-application on each operating system. Icons are used as the visual
-representation of the application on different platforms and splash
-screens are used when the application starts on different platforms. In
-this mode, icons and splash screens can be added and removed as detailed
-below.
-
-Add an icon or splash screen::
-  Click Add for the appropriate table. Locate the image within the `www`
-  directory and click OK.
-  +
-  To set the display properties of an icon or splash screen, ensure the
-  icon or splash screen image is selected in the table and edit the
-  information in the appropriate Image Details pane:
-  +
-  * The Width and Height pixel values determine the reproduced image
-  size.
-  * The Platform value identifies the operating systems for which the
-  image is applied, for example `ios` or `android`.
-  * The Density value specifies the Android device pixel density for
-  which the image is applied, for example `ldpi`, `mdpi`, `hdpi` and
-  `xhdpi`.
-  +
-  ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-  *Note*
-
-  Each platform has different icon and splash screen image requirements,
-  including location and size. For more information see
-  http://cordova.apache.org/docs/en/edge/config_ref_images.md.html[] on
-  the Apache Cordova documentation website.
-  ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-Remove an icon or splash screen::
-  In the appropriate table, select the icon or splash screen image to be
-  removed and click Remove.
-
-All changes to `config.xml` must be saved before the results will take
+All changes to `config.xml` must be saved before the results take
 effect. To save, press Ctrl+S.
 
 == Run a Hybrid Mobile Application on Devices and Simulators
@@ -476,28 +503,29 @@ You can use the actions of Hybrid Mobile Tools to run applications on
 devices and simulators, as detailed below.
 
 Run on an Android device::
-  In the Project Explorer tab, right-click the project name and click
+  In the Project Explorer view, right-click the project name and click
   Run As→Run on Android Device. This option calls the external Android
   SDK to package the workspace project and run it on an Android device
   if one is attached. Note that Android APIs and AVDs must be installed
   and the IDE correctly configured to use the Android SDK for this
   option to execute successfully.
 Run on an Android emulator::
-  In the Project Explorer tab, right-click the project name and click
+  In the Project Explorer view, right-click the project name and click
   Run As→Run on Android Emulator. This option calls the external Android
   SDK to package the workspace project and run it on the Android
   emulator. Note that Android APIs and AVDs must be installed and the
   IDE correctly configured to use the Android SDK for this option to
   execute successfully.
   +
-  ____________________________________________________________________________________________________________________________________________________________________________________________________
-  *Warning*
+  ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+  *Important*
 
-  This process fails if you have Android API level 12 or earlier
-  installed on your system. For more information see
-  https://issues.jboss.org/browse/JBIDE-15885[] on the JBoss issue
-  tracking website.
-  ____________________________________________________________________________________________________________________________________________________________________________________________________
+  You must have Android API 17 or later installed on your system to use
+  the Run on Android Emulator action. You are prompted by an error
+  message when only Android API 16 or earlier is available. In the event
+  that multiple Android API of 17 and later are available, Hybrid Mobile
+  Tools uses the latest version.
+  ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 Run on iOS Simulator::
   ____________________________________________________________________________________________________________________________________________________________________________________________________________________________
   *Important*
@@ -508,15 +536,20 @@ Run on iOS Simulator::
   Developer website.
   ____________________________________________________________________________________________________________________________________________________________________________________________________________________________
   +
-  In the Project Explorer tab, right-click the project name and click
+  In the Project Explorer view, right-click the project name and click
   Run As→Run on iOS Emulator. This option calls the external iOS SDK to
   package the workspace project into an XCode project and run it on the
   iOS Simulator.
 Run with CordovaSim::
-  In the Project Explorer tab, right-click the project name and click
+  In the Project Explorer view, right-click the project name and click
   Run As→Run with CordovaSim. This opens the application in CordovaSim,
   which is composed of a BrowserSim simulated device and a device input
   panel.
+  +
+  image:images/4414.png[ In the Project Explorer tab, right-click the
+  project name and click Run As→Run with CordovaSim. This opens the
+  application in CordovaSim, which is composed of a BrowserSim simulated
+  device and a device input panel. ]
 
 * ?
 
@@ -532,10 +565,16 @@ Configurations manager.
 
 The information below details how to manage run configurations using the
 Run Configurations manger. To open the Run Configurations manger for a
-project, in the Project Explorer tab right-click the project name and
+project, in the Project Explorer view right-click the project name and
 click Run As→Run Configurations. Note that run configurations are
 organized by simulator within the Run Configurations manager, namely
 CordovaSim, Android and iOS Simulator.
+
+image:images/4415.png[ To open the Run Configurations manger for a
+project, in the Project Explorer tab right-click the project name and
+click Run As→Run Configurations. Note that run configurations are
+organized by simulator within the Run Configurations manager, namely
+CordovaSim, Android and iOS Simulator. ]
 
 Create a run configuration::
   From the list of run environments, right-click the simulator and click
@@ -580,13 +619,18 @@ Android and iOS APIs must be installed and the IDE correctly configured
 to use the Android SDK for this procedure to execute successfully.
 __________________________________________________________________________________________________________________________________________
 
-In the Project Explorer tab, right-click the project name and click
+In the Project Explorer view, right-click the project name and click
 Export.
 
 Expand Mobile, select the export type as appropriate and click Next:
 
-* To export as a native project, select Export Native Platform Project.
 * To export as an application, select Export Mobile Application.
+* To export as a native project, select Export Native Platform Project.
+
+image:images/4412.png[ Expand Mobile, select the export type as
+appropriate and click Next. To export as an application, select Export
+Mobile Application. To export as a native project, select Export Native
+Platform Project. ]
 
 Complete the following fields:
 
@@ -598,9 +642,38 @@ Only operating systems with installed SDKs are listed.
 * In the Directory field, type the path to which the projects are to be
 exported or click Browse to navigate to the location.
 
-Click Finish. The projects are exported to the provided location.
-Exported native projects are organized with subdirectories for each
-selected operating system.
+image:images/4413.png[ From the Select Projects list, select the check
+boxes of one or more workspace projects to be exported. From the Select
+Platforms list, select the check boxes of one or more operating systems
+for which you want to export the selected project. In the Directory
+field, type the path to which the projects are to be exported or click
+Browse to navigate to the location. ]
+
+Click Finish. Projects are exported to the specified location. Exported
+native projects are organized with subdirectories for each selected
+operating system.
 
 * ?
 
+= Customizing Hybrid Mobile Tools and CordovaSim
+
+== Customizing Overview
+
+The aim of this section is to guide you in customizing Hybrid Mobile
+Tools and CordovaSim:
+
+* Specify an Android SDK location
+
+== Set the Android SDK Location
+
+You must inform Hybrid Mobile Tools of the Android SDK location before
+you can use Hybrid Mobile Tools actions involving Android.
+
+To set the Android SDK location, click Window→Preferences and select
+Hybrid Mobile. In the Android SDK Directory field, type the path of the
+installed SDK or click Browse to navigate to the location. Click Apply
+and click OK to close the Preferences window.
+
+image:images/4402.png[ Click Window→Preferences and select Hybrid
+Mobile. In the Android SDK Directory field, type the path of the
+installed SDK or click Browse to navigate to the location. ]

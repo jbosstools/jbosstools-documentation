@@ -4,12 +4,12 @@
 
 == About JBoss Central
 
-JBoss Central is a core IDE tab, providing access to JBoss information
+JBoss Central is a core IDE view, providing access to JBoss information
 and assistance in one centralized location. It offers features for first
 time users of JBoss Tools, as well as those with more experience.
 
-The JBoss Central tab comprises resources and actions for creating new
-projects, learning about the tools and installing software updates:
+JBoss Central comprises resources and actions for creating new projects,
+learning about the tools and installing software updates:
 
 * Project wizards create new projects based on sample applications and
 different technologies.
@@ -24,29 +24,29 @@ management of IDE plug-ins.
 
 == About the JBoss Perspective
 
-JBoss is a key IDE perspective, giving easy access to useful tabs and
+JBoss is a key IDE perspective, giving easy access to useful views and
 actions when developing applications with JBoss technologies. The
-perspective consists of a default set of tabs, menus and toolbars.
+perspective consists of a default set of views, menus and toolbars.
 
-Tabs::
-  The default tabs of the JBoss perspective are OpenShift Explorer,
-  Outline, Package Explorer, Palette, Problems, Project Explorer,
-  Properties, and Servers. These tabs are vital when developing with
-  JBoss technologies.
+Views::
+  The default views of the JBoss perspective are JBoss Central,
+  OpenShift Explorer, Outline, Package Explorer, Palette, Problems,
+  Project Explorer, Properties, and Servers. These views are vital when
+  developing with JBoss technologies.
 Menus::
   The default menus of the JBoss perspective are File, Edit, Navigate,
   Search, Project, Run, Window, Help. These are shared with other
   perspectives but contain unique menu items for actions such as
   starting project wizards, converting line delimiters, showing items in
-  JBoss perspective tabs, generating Javadoc, building packages,
+  JBoss perspective views, generating Javadoc, building packages,
   accessing JBoss Central and cheat sheets, and reporting problems with
   tools.
 Toolbars::
   The default toolbars that compose the global toolbar of the JBoss
   perspective are BrowserSim, Debug, File, Help, Java EE, Java Element
-  Creation, JBoss Tools WTP Server Actions, JPA Element Creation,
-  Launch, Navigate, Search, Select Maven Profiles, and Web Browser. The
-  global toolbar provides access to frequently used actions.
+  Creation, JBoss Tools WTP Server Actions, Launch, Navigate, Search,
+  Select Maven Profiles, and Web Browser. The global toolbar provides
+  access to frequently used actions.
 
 = Features of JBoss Central and the JBoss Perspective
 
@@ -57,116 +57,122 @@ JBoss perspective:
 
 * View JBoss Central to access project wizards and information resources
 * Install and update software with JBoss Central
-* Open the JBoss perspective for easy access to key tabs, menus and
+* Open the JBoss perspective for easy access to key views, menus and
 toolbars
 * Access cheat sheets that assist in project development
 
 == View JBoss Central
 
-The JBoss Central tab provides resources for getting started and
-updating software.
+JBoss Central provides resources for getting started with application
+development and installing auxiliary IDE software.
 
-To open the JBoss Central tab, click the JBoss Central icon
+To open JBoss Central, click the JBoss Central icon
 image:images/3989.png[image]. Alternatively, click Help→JBoss Central.
 
-To maximize the JBoss Central tab, double-click the name of the JBoss
-Central tab. The JBoss Central tab fills the whole IDE window.
-Double-click the name of the JBoss Central tab to reduce the size of the
-tab again. These actions work for all IDE tabs.
+To maximize JBoss Central so that it fills the IDE window, double-click
+the JBoss Central view label. To reduce JBoss Central to its smaller
+size, double-click the JBoss Central view label again. These maximizing
+and minimizing actions work for all IDE views.
 
 == Access Project Wizards in JBoss Central
 
 JBoss Central provides access to wizards for generating projects. There
-are two types of project wizards available in JBoss Central:
+are two types of project wizards available in JBoss Central: Start from
+scratch and Start from a sample.
 
-* The Start from scratch wizards create the same project using different
-underlying technology, as started in the project name. To view a project
-summary, hover the cursor over a project wizard. If you do not have the
-necessary plug-in installed to use a wizard, you will be prompted to
-install it when you select the wizard.
-+
-image:images/3963.png[ The Start from scratch wizards create the same
-project using different underlying technology, as started in the project
-name. To view a project summary, hover the cursor over a project wizard.
-]
-* The Start from a sample wizards create sample web, mobile, back-end
-and portal applications. To view a project summary, hover the cursor
-over a project wizard.
-+
-image:images/3965.png[ The Start from a sample wizards create sample
-web, mobile, back-end and portal applications. To view a project
-summary, hover the cursor over a project wizard. ]
+Start from scratch::
+  These wizards create the same project using different underlying
+  technology, as stated in the project name. To view a project summary,
+  hover the cursor over a project wizard. If you do not have the
+  necessary plug-in installed to use a wizard, you are prompted to
+  install it when you click the wizard.
+  +
+  image:images/3963.png[ The Start from scratch wizards create the same
+  project using different underlying technology, as started in the
+  project name. To view a project summary, hover the cursor over a
+  project wizard. ]
+Start from a sample::
+  These wizards create sample web, mobile, back-end and portal
+  applications. To view a project summary, hover the cursor over a
+  project wizard.
+  +
+  image:images/4347.png[ The Start from a sample wizards create sample
+  web, mobile, back-end and portal applications. To view a project
+  summary, hover the cursor over a project wizard. ]
 
-To create a project from one of the wizards, in the JBoss Central tab
-select the Getting Started page. Click on one of the links below Start
-from scratch or Start from a sample. Alternatively, click File→New and
-select a project from the list. A wizard opens to guide you through the
-process of creating the project.
+To create a project from one of the wizards, in JBoss Central select the
+Getting Started tab. Click one of the links below Start from scratch or
+Start from a sample. Alternatively, click File→New and select a project
+from the list. A wizard opens to guide you through the process of
+creating the project.
 
 Additionally, access is provided to the comprehensive TicketMonster
-tutorial, part of JBoss Developer Framework, that guides you through
-developing a complex web application utilizing JBoss technologies from
-within the IDE. To view the tutorial, in the JBoss Central tab select
-the Getting Started page and click the Open the Ticket Monster tutorial
-button. The JBoss Developer Framework website will open in the default
-browser of the IDE.
+tutorial, part of JBoss Developer Framework. The tutorial guides you
+through developing a complex web application utilizing JBoss
+technologies from within the IDE. To view the tutorial, in JBoss Central
+select the Getting Started tab and click the TicketMonster link. The
+JBoss Developer Framework website opens in the default IDE browser.
 
 image:images/3958.png[ Access is provided to the comprehensive
-TicketMonster tutorial, part of JBoss Developer Framework, that guides
-you through developing a complex web application utilizing JBoss
-technologies from within the IDE. To view the tutorial, in the JBoss
-Central tab select the Getting Started page and click the Open the
-Ticket Monster tutorial button. ]
+TicketMonster tutorial, part of JBoss Developer Framework. The tutorial
+guides you through developing a complex web application utilizing JBoss
+technologies from within the IDE. To view the tutorial, in JBoss Central
+select the Getting Started tab and click the TicketMonster link. ]
 
 == Access Information in JBoss Central
 
 JBoss Central provides easy access to JBoss and developer information.
 Each of the information sources listed below are web-based and,
-depending on the web browser preferences you have set for the IDE,
-clicking on links results in an internal or external browser window
-opening.
+depending on the IDE default browser setting, clicking on links results
+in an internal or external browser window opening.
 
-View JBoss Tools website::
-  In the JBoss Central tab, click the JBoss Tools Home icon
+View the JBoss Tools website::
+  In JBoss Central, click the JBoss Tools Home icon
   image:images/3975.png[image].
 View the latest JBoss developments::
-  In the JBoss Central tab, select the Getting Started page and click
-  the links under JBoss Buzz. To see previews of the blog posts, hover
-  the cursor over these links. To view a complete list of JBoss blog
-  posts, click the JBoss Buzz button. JBoss blog posts are available to
-  follow as RSS feeds or with Twitter. To review these options, click
-  the News or Twitter icons.
+  In JBoss Central, select the Getting Started tab and click the links
+  under JBoss Buzz. To see previews of the blog posts, hover the cursor
+  over these links. To view a complete list of JBoss blog posts, click
+  the JBoss Buzz button image:images/4272.png[image]. JBoss blog posts
+  are available to follow as RSS feeds or with Twitter. To review these
+  options, click the News or Twitter icons.
   +
-  image:images/4228.png[ In the JBoss Central tab, select the Getting
-  Started page and click the links under JBoss Buzz. To see previews of
-  the blog posts, hover the cursor over these links. To view a complete
-  list of JBoss blog posts, click the JBoss Buzz button. ]
+  image:images/4228.png[ In JBoss Central, select the Getting Started
+  tab and click the links under JBoss Buzz. To see previews of the blog
+  posts, hover the cursor over these links. To view a complete list of
+  JBoss blog posts, click the JBoss Buzz button. ]
 View JBoss developer information sources::
-  In the JBoss Central tab, select the Getting Started page and click
-  the links under Other resources. These links provide access to videos,
+  In JBoss Central, select the Getting Started tab and click the links
+  under Other resources. These links provide access to videos,
   documentation and forums.
   +
-  image:images/3966.png[ In the JBoss Central tab, select the Getting
-  Started page and click the links under Other resources. ]
-Search JBoss Community website::
-  In the JBoss Central tab, click the arrow next to the search box and
-  select Search JBoss Community. In the search field, enter the search
-  terms.
+  image:images/3966.png[ In JBoss Central, select the Getting Started
+  tab and click the links under Other resources. ]
+Search the JBoss Community website::
+  In JBoss Central, click the arrow next to the search box and select
+  Search JBoss Community. In the search field, enter the search terms.
   +
-  image:images/3961.png[ In the JBoss Central tab, click the arrow next
-  to the search box and select Search JBoss Community. In the search
-  field, enter the search terms. ]
+  image:images/3961.png[ In JBoss Central, click the arrow next to the
+  search box and select Search JBoss Community. In the search field,
+  enter the search terms. ]
+
+_________________________________________________________________________________________________________
+*Note*
+
+To change the default IDE browser, click Window→Web Browser and select a
+browser from the listed options.
+_________________________________________________________________________________________________________
 
 == Install Software in JBoss Central
 
 JBoss Central enables you to install and update a range of IDE plug-ins.
 The available plug-ins comprise JBoss and third-party plug-ins that have
 been specifically tested for use with the IDE. These plug-ins include
-ones for web and mobile development, source control management, testing
-and Maven.
+ones for mobile and web development, source control management,
+utilities and Maven.
 
-For all actions listed below, open the JBoss Central tab and select the
-Software/Update page.
+For all actions listed below, open JBoss Central and select the
+Software/Update tab.
 
 View available software::
   The available software is listed in the table. To refresh the list of
@@ -176,7 +182,7 @@ View installed plug-ins::
   Select the Show Installed check box. The installed plug-ins are listed
   in the table as disabled.
   +
-  image:images/3980.png[ To view installed plug-ins, select the Show
+  image:images/4346.png[ To view installed plug-ins, select the Show
   Installed check box. The installed plug-ins are listed in the table as
   disabled. ]
 Install available software::
@@ -185,7 +191,7 @@ Install available software::
   you want to install and click Install or click the Install icon
   image:images/3979.png[image].
   +
-  image:images/3985.png[ In the Find field, type the name of the
+  image:images/4270.png[ In the Find field, type the name of the
   software or scroll through the list to locate it. Select the check box
   corresponding to the software you want to install and click Install or
   click the Install icon. ]
@@ -196,10 +202,10 @@ Install available software::
   image:images/3984.png[ In the Install wizard, ensure the check boxes
   are selected for the software you want to install and click Next. ]
   +
-  Review the details of the items listed for install and click Next.
+  Review the details of the items listed for installing and click Next.
   After reading and agreeing to the license(s), click I accept the terms
   of the license agreement(s) and click Finish. The Installing Software
-  window opens and reports the progress of the installation.
+  window opens and reports the installation progress.
   +
   During the installation process you may receive warnings about
   installing unsigned content. If this is the case, check the details of
@@ -227,12 +233,12 @@ Check for software updates::
 
 == Open the JBoss Perspective
 
-The JBoss perspective provides a default set of tabs, menus and toolbars
-to assist with common tasks associated with developing applications that
-use JBoss technologies.
+The JBoss perspective provides a default set of views, menus and
+toolbars to assist with common tasks associated with developing
+applications that use JBoss technologies.
 
 To open the JBoss perspective, click Window→Open Perspective→Other. From
-the list of available perspectives, select JBoss and click OK. The tabs
+the list of available perspectives, select JBoss and click OK. The views
 associated with the JBoss perspective open and menus and toolbars change
 as appropriate.
 
@@ -240,22 +246,24 @@ image:images/3973.png[ To open the JBoss perspective, click Window→Open
 Perspective→Other. From the list of available perspectives, select JBoss
 and click OK. ]
 
-== Manage JBoss Perspective
+== Manage the JBoss Perspective
 
 There are a number of actions provided by the IDE for managing
 perspectives, including the JBoss perspective.
 
 Reset the JBoss perspective::
-  You may want to reset the JBoss perspective to its default settings
-  after opening and closing tabs. Click Window→Reset Perspective. At the
-  prompt asking if you want to reset the current JBoss perspective to
-  its default settings, click Yes.
+  Click Window→Reset Perspective. At the prompt asking if you want to
+  reset the current JBoss perspective to its default settings, click
+  Yes. This action resets the views to their original size and position
+  and reverts the contents of menus and toolbars to their original
+  listings.
 Switch to the JBoss perspective::
-  You can have multiple perspectives open at one time. To switch to the
-  JBoss perspective, click the JBoss icon image:images/3976.png[image].
-  Alternatively, click Window→Navigation→Next Perspective or press
-  Ctrl+F8 and repeat until the JBoss perspective is the current
-  perspective.
+  Click the JBoss icon image:images/3976.png[image]. Alternatively, to
+  view a list of open perspectives, click Window→Navigation→Next
+  Perspective or press and hold Ctrl and press F8. From the list of
+  perspectives, select the JBoss perspective or press F8 repeatedly
+  until the JBoss perspective is selected. This action is useful if you
+  are using multiple perspectives.
 Close the JBoss perspective::
   Click Window→Close Perspective.
 
@@ -267,35 +275,29 @@ applications. JBoss Central and the JBoss perspective provide actions to
 make the cheat sheets that accompany projects easier to access and view.
 
 A cheat sheet contained in a project is automatically opened in the
-Cheat Sheets tab when the project is imported into the workspace with
+Cheat Sheets view when the project is imported into the workspace with
 File→Import.
 
 image:images/3988.png[ A cheat sheet contained in a project is
-automatically opened in the Cheat Sheets tab when the project is
+automatically opened in the Cheat Sheets view when the project is
 imported into the workspace with File→Import. ]
 
-To open a cheat sheet manually, in the Project Explorer tab right-click
+To open a cheat sheet manually, in the Project Explorer view right-click
 the project name or a cheat sheet file and click Open In Cheat Sheets
-View.
+View. Alternatively, click Help→Cheat Sheets, click Select a cheat sheet
+from a file and type the location of the file in the field or click
+Browse to navigate to the file. Click OK to close the window. The cheat
+sheet opens in the Cheat Sheets view.
 
-image:images/3960.png[ To open a cheat sheet manually, in the Project
-Explorer tab right-click the project name or a cheat sheet file and
-click Open In Cheat Sheets View. ]
-
-Alternatively, click Help→Cheat Sheets, click Select a cheat sheet from
-a file and type the location of the file in the field or click Browse to
-navigate to the file. Click OK to close the window. The cheat sheet
-opens in the Cheat Sheets tab.
-
-___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 *Note*
 
 If the cheat sheet file name begins with dot, it may not be
-automatically visible in the Project Explorer tab. To change the viewing
-preferences of the Project Explorer tab, click the View Menu icon and
-click Customize View. In the Filters tab, clear the .* resources check
-box and click OK.
-___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+automatically visible in the Project Explorer view. To change the
+viewing preferences of the Project Explorer view, click the View Menu
+icon and click Customize View. In the Filters tab, clear the .*
+resources check box and click OK.
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 = Customizing JBoss Central and the JBoss Perspective
 
@@ -305,8 +307,9 @@ The aim of this section is to guide you in customizing JBoss Central and
 the JBoss perspective:
 
 * Make JBoss Central visible when the IDE starts
-* Customize the menu and toolbar items of the JBoss perspective
-* Enable project examples for use when you are offline
+* Customize the views, menus and toolbars of the JBoss perspective
+* Enable offline availability of JBoss Central elements, such as project
+examples and auxiliary plug-ins
 * Specify the default IDE behavior for cheat sheets
 
 == Change the Behavior of JBoss Central on IDE Start
@@ -314,97 +317,91 @@ the JBoss perspective:
 JBoss Central is set by default to show when the IDE starts but you can
 customize this behavior.
 
-To change the behavior, in the JBoss Central tab select or clear the
-Show on Startup check box as appropriate.
+To change the behavior, in JBoss Central select or clear the Show on
+Startup check box as appropriate.
 
 image:images/3959.png[ JBoss Central is set by default to show when the
 IDE starts but you can customize this behavior. To change the behavior,
-in the JBoss Central tab select or clear the Show on Startup check box
-as appropriate. ]
+in JBoss Central select or clear the Show on Startup check box as
+appropriate. ]
 
-Alternatively, in the JBoss Central tab click the Preferences icon
+Alternatively, in JBoss Central click the Preferences icon
 image:images/3971.png[image] or click Window→Preferences. In both cases,
 expand JBoss Tools and select JBoss Central. Select or clear the Show
 JBoss Central on Startup check box as appropriate. Click Apply and click
 OK to close the Preferences window.
 
-image:images/3970.png[ In the JBoss Central tab click the Preferences
-icon or click Window→Preferences. In both cases, expand JBoss Tools and
-select JBoss Central. Select or clear the Show JBoss Central on Startup
-check box as appropriate. Click Apply and click OK to close the
-Preferences window. ]
+image:images/3970.png[ In JBoss Central, click the Preferences icon or
+click Window→Preferences. In both cases, expand JBoss Tools and select
+JBoss Central. Select or clear the Show JBoss Central on Startup check
+box as appropriate. Click Apply and click OK to close the Preferences
+window. ]
 
-== Customize the Default Tabs, Menus and Toolbars of the JBoss
+== Customize the Default Views, Menus and Toolbars of the JBoss
 Perspective
 
-You can customize the menus and toolbars displayed by the JBoss
+You can customize the views, menus and toolbars displayed by the JBoss
 perspective, as with any perspective.
 
-To customize the JBoss perspective, ensure it is the current perspective
-and click Window→Customize Perspective. In the Tool Bar Visibility tab,
-select or clear the check boxes corresponding to the individual toolbars
-and icons visible in the global toolbar of the JBoss perspective as
-appropriate. In the Menu Visibility tab, select or clear the check boxes
-corresponding to the menus and menu items visible in the JBoss
-perspective as appropriate. Disabled items in the Tool Bar Visibility or
-Menu Visibility tab can be activated in the Command Groups Availability
-tab. Click OK to close the window.
+For all actions listed below, ensure the JBoss perspective is the
+current perspective.
 
-image:images/3986.png[ To customize the JBoss perspective, ensure it is
-the current perspective and click Window→Customize Perspective. In the
-Tool Bar Visibility tab, select or clear the check boxes corresponding
-to the individual toolbars and icons visible in the global toolbar of
-the JBoss perspective as appropriate. Click OK to close the window. ]
-
-image:images/3987.png[ To customize the JBoss perspective, ensure it is
-the current perspective and click Window→Customize Perspective. In the
-Menu Visibility tab, select or clear the check boxes corresponding to
-the menus and menu items visible in the JBoss perspective as
-appropriate. Click OK to close the window. ]
-
-You can reorder the individual toolbars comprising the global toolbar in
-the JBoss perspective. To reorder, click the vertical line indicating
-the beginning of a toolbar and drag the toolbar to its new location in
-the global toolbar.
-
-image:images/3968.png[ You can reorder the individual toolbars
-comprising the global toolbar in the JBoss perspective. To reorder,
-click the vertical line indicating the beginning of a toolbar and drag
-the toolbar to its new location in the global toolbar. ]
-
-Additionally, you can customize which tabs are part of the JBoss
-perspective. To customize the tabs, ensure the JBoss perspective is the
-current perspective. Open or close tabs as desired and click Window→Save
-Perspective As. From the Existing Perspectives list, select JBoss and
-click OK. At the prompt asking if you want to overwrite the existing
-JBoss perspective, click Yes.
-
-image:images/3964.png[ you can customize which tabs are part of the
-JBoss perspective. To customize the tabs, ensure the JBoss perspective
-is the current perspective. Open or close tabs as desired and click
-Window→Save Perspective As. From the Existing Perspectives list, select
-JBoss and click OK. ]
-
-To revert all customization of the JBoss perspective, ensure it is the
-current perspective and click Window→Reset Perspective. At the prompt
-asking if you want to reset the JBoss perspective to its saved state,
-select the Also discard perspective's customization check box and click
-Yes.
-
-image:images/3967.png[ To revert all customization of the JBoss
-perspective, ensure it is the current perspective and click Window→Reset
-Perspective. At the prompt asking if you want to reset the JBoss
-perspective to its saved state, select the Also discard perspective's
-customization check box and click Yes. ]
+Customize views::
+  Open or close views as desired and click Window→Save Perspective As.
+  From the Existing Perspectives list, select JBoss and click OK. At the
+  prompt asking if you want to overwrite the existing JBoss perspective,
+  click Yes.
+  +
+  image:images/3964.png[ Open or close tabs as desired and click
+  Window→Save Perspective As. From the Existing Perspectives list,
+  select JBoss and click OK. ]
+Customize menu and toolbar elements::
+  Click Window→Customize Perspective. In the Tool Bar Visibility tab,
+  select or clear the check boxes corresponding to the individual
+  toolbars and icons visible in the global toolbar of the JBoss
+  perspective as appropriate. In the Menu Visibility tab, select or
+  clear the check boxes corresponding to the menus and menu items
+  visible in the JBoss perspective as appropriate. Disabled items in the
+  Tool Bar Visibility and Menu Visibility tabs can be activated in the
+  Command Groups Availability tab. Click OK to save any changes and
+  close the window.
+  +
+  image:images/3986.png[ Click Window→Customize Perspective. In the Tool
+  Bar Visibility tab, select or clear the check boxes corresponding to
+  the individual toolbars and icons visible in the global toolbar of the
+  JBoss perspective as appropriate. Click OK to save any changes and
+  close the window. ]
+  +
+  image:images/3987.png[ Click Window→Customize Perspective. In the Menu
+  Visibility tab, select or clear the check boxes corresponding to the
+  menus and menu items visible in the JBoss perspective as appropriate.
+  Click OK to save any changes and close the window. ]
+Reorder the individual toolbars comprising the global toolbar::
+  Click the vertical dashed line indicating the beginning of an
+  individual toolbar and drag the toolbar to its new location in the
+  global toolbar.
+  +
+  image:images/3968.png[ Click the vertical dashed line indicating the
+  beginning of an individual toolbar and drag the toolbar to its new
+  location in the global toolbar. ]
+Revert all perspective customizations::
+  Click Window→Reset Perspective. At the prompt asking if you want to
+  reset the JBoss perspective to its saved state, select the Also
+  discard perspective's customization check box and click Yes.
+  +
+  image:images/3967.png[ Click Window→Reset Perspective. At the prompt
+  asking if you want to reset the JBoss perspective to its saved state,
+  select the Also discard perspective's customization check box and
+  click Yes. ]
 
 == Use Project Examples when Working Offline
 
 When a project wizard in JBoss Central is used, the IDE searches online
 repositories for the most recent versions of project dependencies. JBoss
-Central provides a feature that enables you to create a cache of the
-necessary project dependencies when you are online so that you can still
-use the project wizards offline. As detailed below, this is achieved by
-first creating the cache and then informing the IDE to use that cache.
+Central enables you to create a cache of the necessary project
+dependencies when you are online so that you can still use the project
+wizards offline. As detailed below, this is achieved by first creating
+the cache and then informing the IDE to use that cache.
 
 ______________________________________________________________________________________________________________________________________________________________________________
 *Important*
@@ -414,44 +411,52 @@ documentation. For more information, see
 http://groovy.codehaus.org/Installing+Groovy[] at the Groovy website.
 ______________________________________________________________________________________________________________________________________________________________________________
 
-___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________________________________________
 *Important*
 
 Maven must be correctly configured for all of the project wizards before
-the cache script is run. Red Hat JBoss Enterprise Application Platform
-and Red Hat JBoss Web Framework Kit Maven repositories must be specified
-in `settings.xml`.
-___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+the cache script is run. The JBoss Public Maven repository must be
+specified in `settings.xml`.
+________________________________________________________________________________________________________________________________________________________________________
 
 To create the cache, click Window→Preferences. Expand JBoss
 Tools→Project Examples and select Offline Support. To run the cache
 generating script, click Copy to Clipboard and paste the selected text
-on a command line outside the IDE. The script will download and build
-all of the project examples in a new directory `offline`. The script may
+on a command line outside the IDE. The script downloads and builds all
+of the project examples in a new directory `offline`. The script may
 take some time to complete.
 
 Once the cache is generated, copy `offline/.jbosstools/cache` to the
-directory where you want to keep the project examples. Copy the contents
-of `offline/.m2/repository` to your local maven repository.
+directory where you want to keep the project examples cache. Copy the
+contents of `offline/.m2/repository` to your local maven repository.
 
-To inform the IDE to use the cache for the project example wizards,
-click Window→Preferences. Expand JBoss Tools→Project Examples and select
+To inform the IDE to use the generated project examples cache, click
+Window→Preferences. Expand JBoss Tools→Project Examples and select
 Offline Support. Select the Enable offline mode for project examples
 check box. Ensure the correct cache location is specified in the Offline
 directory field. Click Apply and click OK to close the Preferences
 window.
 
+image:images/4271.png[ To inform the IDE to use the generated project
+examples cache, click Window→Preferences. Expand JBoss Tools→Project
+Examples and select Offline Support. Select the Enable offline mode for
+project examples check box. Ensure the correct cache location is
+specified in the Offline directory field. Click Apply and click OK to
+close the Preferences window. ]
+
 == Install Software when Working Offline
 
 You can install the JBoss and third-party plug-ins listed in JBoss
 Central in offline mode using the JBoss Central `.zip` file, as detailed
-below. This feature is useful if you are installing these auxiliary
-plug-ins in a number of JBoss Developer Studio installations as it
-removes the need to repeatedly download the same plug-ins.
+below. This feature is useful if you regularly work offline or if you
+are installing these auxiliary plug-ins in a number of
+JBoss Developer Studio installations as it removes the need to
+repeatedly download the same plug-ins.
 
-Note that the `.zip` file is a snapshot of the plug-ins at the time of
-the given JBoss Developer Studio release and updated versions of the
-plug-ins must be installed from JBoss Central in online mode.
+Note that the JBoss Central `.zip` file is a snapshot of the plug-ins at
+the time of the given JBoss Developer Studio release and updated
+versions of the plug-ins must be installed from JBoss Central in online
+mode.
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 *Note*
@@ -467,6 +472,10 @@ Click Help→Install New Software.
 
 In the Work with field, enter the path of the JBoss Central `.zip` file.
 Alternatively, click Add and click Archive to locate the file.
+
+Clear the Group items by category check box. This action makes the
+contents of the JBoss Central `.zip` file visible in the table of
+components.
 
 From the table of components, select the software to be installed and
 click Next.
@@ -488,17 +497,17 @@ restarted.
 
 == Set Cheat Sheet Behavior
 
-You can specify the default action the IDE should take when finding
-cheat sheets in projects that it is importing. The available options
-include always or never showing cheat sheets or the IDE prompting for
-which action to take for each import.
+You can specify the default action the IDE is to take when finding cheat
+sheets in projects that it is importing. The available options include
+always or never showing cheat sheets or the IDE prompting for which
+action to take for each import.
 
 To customize the action, click Window→Preferences. Expand JBoss Tools
 and select Project Examples. From the Show included cheat sheet(s) when
 importing a project list, click one of the options. Click Apply and
 click OK to close the window.
 
-image:images/4269.png[ To customize the action, click
+image:images/4269.png[ To customize the behavior, click
 Window→Preferences. Expand JBoss Tools and select Project Examples. From
 the Show included cheat sheet(s) when importing a project list, click
 one of the options. Click Apply and click OK to close the window. ]

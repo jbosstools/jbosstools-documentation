@@ -6,8 +6,8 @@
 
 LiveReload is an open source tool that refreshes web pages open in
 browsers as their source is edited. Immediate and automatic web page
-refreshing, without the need to manually refresh, simplifies the
-workflow of web developers.
+refreshing, without the need to manually refresh, assists to simplify
+the workflow of web developers.
 
 LiveReload consists of server-side and client-side components. The
 server-side application monitors the source and sends notifications as
@@ -32,7 +32,7 @@ Safari, Chrome and Firefox.
 LiveReload Tools is tooling that implements LiveReload in the IDE. It
 enables you to take advantage of LiveReload browser refreshing while
 editing files within the IDE. The capabilities of LiveReload Tools also
-removes the need to install the LiveReload standalone application or
+remove the need to install the LiveReload standalone application or
 browser extensions.
 
 LiveReload Tools is the implementation of the LiveReload server-side
@@ -72,7 +72,16 @@ the necessary JavaScript code snippets into HTML files or enable remote
 connections. The procedure below guides you through creating a default
 LiveReload server.
 
-In the Servers tab, click create a new server or right-click an existing
+Click the Servers view. If the Servers view is not visible, click
+Window→Show View→Servers.
+
+Depending on the number of existing servers, follow the appropriate
+step:
+
+If there are no existing servers, click Click this link to create a new
+server.
+
+If there are one or more existing servers, right-click an existing
 server and click New→Server.
 
 From the list of server types, expand Basic and select LiveReload
@@ -85,14 +94,14 @@ The Server's host name and Server name fields are automatically
 populated. The `localhost` value in the Server's host name field
 indicates that the server is to be run on the local system and the value
 in the Server name field is the name by which the LiveReload server is
-identified in the Servers tab. You can edit these values as appropriate
+identified in the Servers view. You can edit these values as appropriate
 by typing in the fields.
 
 Click Finish to close the window. The LiveReload server is listed in the
-Servers tab.
+Servers view.
 
 image:images/4080.png[ The LiveReload server is listed in the Servers
-tab. ]
+view. ]
 
 _______________________________________________________________________________________________________________________________________________________________________________________
 *Note*
@@ -114,7 +123,7 @@ browsers of remote devices.
 
 The details below outline how to set the configuration options using the
 Server Editor. To open the Server Editor for a LiveReload server, in the
-Servers tab double-click the LiveReload server. Alternatively,
+Servers view double-click the LiveReload server. Alternatively,
 right-click the LiveReload server and click Open or press F3.
 
 image:images/4078.png[ The details below outline how to set the
@@ -135,8 +144,8 @@ Enable LiveReload in external device browsers::
 All changes to the settings of a LiveReload server must be saved and the
 server restarted before the results will take effect. To save setting
 changes, press Ctrl+S or click File→Save or click the Save icon. To
-restart the server, in the Servers tab right-click the LiveReload server
-and click Restart.
+restart the server, in the Servers view right-click the LiveReload
+server and click Restart.
 
 == View Resources in LiveReload-enabled Browsers
 
@@ -157,8 +166,8 @@ on the Asciidoctor website. The browser extension renders AsciiDoc files
 as HTML and it is available for Chrome and FireFox.
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-View workspace resources in a system browser::
-  In the Project Explorer tab, right-click the resource file and click
+View workspace resources in a web browser::
+  In the Project Explorer view, right-click the resource file and click
   Open With→Web Browser via LiveReload Server.
   +
   This requires the server to be configured to Inject the livereload.js
@@ -171,13 +180,13 @@ View workspace resources in a system browser::
   +
   The IDE-specified external web browser opens, with LiveReload
   activated, and displays the workspace resource.
-View deployed resources in a system browser::
+View deployed resources in a web browser::
   Ensure the server and application of the deployed resources are
-  started. In the Servers tab, right-click the application and click
+  started. In the Servers view, right-click the application and click
   Show In→Web Browser via LiveReload Server.
   +
   image:images/4074.png[ Ensure the server and application of the
-  deployed resources are started. In the Servers tab, right-click the
+  deployed resources are started. In the Servers view, right-click the
   application and click Show In→Web Browser via LiveReload Server. ]
   +
   This requires the server to be configured to Inject the livereload.js
@@ -191,21 +200,22 @@ View deployed resources in a system browser::
   The IDE-specified external web browser opens, with LiveReload
   activated, and displays the deployed resource.
   +
-  ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+  ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
   *Note*
 
   To change the IDE-specified external web browser, click
   Window→Preferences and expand General→Web Browser. From the External
   web browsers list, select the browser to use for actions involving
-  external web browsers. Click Apply and click OK to close the window.
-  ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+  external web browsers. Click Apply and click OK to close the
+  Preferences window.
+  ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 View deployed resources on an external device::
   Ensure the server and application of the deployed resources are
-  started. In the Servers tab, right-click the application and click
+  started. In the Servers view, right-click the application and click
   Show In→Web Browser on External Device.
   +
   image:images/4073.png[ Ensure the server and application of the
-  deployed resources are started. In the Servers tab, right-click the
+  deployed resources are started. In the Servers view, right-click the
   application and click Show In→Web Browser on External Device. ]
   +
   This requires the server to be configured to Inject the livereload.js
@@ -225,12 +235,12 @@ View deployed resources on an external device::
   corresponding to the deployed application are displayed and these can
   be input into external device browsers. ]
 
-_________________________________________________________________________________________________
+_____________________________________________________________________________________________
 *Note*
 
 The configuration of a LiveReload server can be viewed and manually set
-in the Server Editor tab.
-_________________________________________________________________________________________________
+in the Server Editor.
+_____________________________________________________________________________________________
 
 == View Resources in LiveReload-enabled BrowserSim
 
@@ -241,33 +251,33 @@ device browser window to refresh. The procedure below outlines how to
 enable LiveReload in BrowserSim for workspace and deployed resources.
 
 Ensure the LiveReload server is started. If it is not started, in the
-Servers tab right-click the LiveReload server and click Start.
+Servers view right-click the LiveReload server and click Start.
 
 Complete the appropriate step depending on the location of your
 resources:
 
-For workspace resources, in the Project Explorer tab right-click the
+For workspace resources, in the Project Explorer view right-click the
 resource file and click Open With→BrowserSim.
 
-For deployed resources, in the Servers tab right-click the application
+For deployed resources, in the Servers view right-click the application
 and click Show In→BrowserSim.
 
-image:images/4072.png[ For deployed resources, in the Servers tab
+image:images/4072.png[ For deployed resources, in the Servers view
 right-click the application and click Show In→BrowserSim. ]
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 *Important*
 
 Ensure the server and application of the deployed resources are started
 before attempting to view the resources in LiveReload-enabled
-BrowserSim. To start the server and the application, in the Servers tab
+BrowserSim. To start the server and the application, in the Servers view
 right-click each and click Start.
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Right-click the simulated device and ensure the Enable LiveReload check
 box is selected.
 
-image:images/4082.png[ Right-click the simulated device and ensure the
+image:images/4305.png[ Right-click the simulated device and ensure the
 Enable LiveReload check box is selected. ]
 
 _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
