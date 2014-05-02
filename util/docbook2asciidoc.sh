@@ -34,13 +34,26 @@ done
 # processed defauls
 if [[ ! $OUTFILE ]]; then OUTFILE=${INFILE/.xml/.adoc}; fi
 
+# get http://mirrors.ctan.org/macros/xetex/latex/mathspec/mathspec.sty because needed by xelatex
+
+if [[ ! -f ~/texmf/tex/latex/mathspec/mathspec.sty ]]; then 
+	mkdir -p ~/texmf/tex/latex/mathspec
+	pushd ~/texmf/tex/latex/mathspec >/dev/null
+	wget http://mirrors.ctan.org/macros/xetex/latex/mathspec/mathspec.sty -N
+	popd >/dev/null
+fi
+
 convert ()
 {
 	INF=$1
 	OUTF=$2
 	echo "Convert $INF to ${OUTF##*/}.adoc"
 	iconv -t utf-8 ${INF} | pandoc -f docbook -t asciidoc -o ${OUTF}.adoc  --toc --chapters --atx-headers | iconv -f utf-8
-	iconv -t utf-8 ${INF} | pandoc -f docbook  -o ${OUTF}.pdf --latex-engine=xelatex
+
+	# alternate approach: convert to pandoc native and use that to produce LaTeX / PDF (doesn't work yet)
+	#iconv -t utf-8 ${INF} | pandoc -f docbook -t native -o ${OUTF}.native  --toc --chapters --atx-headers | iconv -f utf-8
+	#iconv -t utf-8 ${OUTF}.native | pandoc -f native -o ${OUTF}.pdf --latex-engine=xelatex
+	#rm -f ${OUTF}.native
 }
 # and now, do some work...
 cd ${WORKSPACE}
