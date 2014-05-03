@@ -15,9 +15,9 @@ usage ()
   echo "Example: $0 -i /home/nboldt/tru/jbosstools-documentation/docs/User_Guide/JBoss_Tools_User_Guide/en-US/chap-OpenShift_Tools.xml -o /tmp/openshift"
   echo "Example: $0 -d /home/nboldt/tru/jbosstools-documentation/docs/User_Guide/JBoss_Tools_User_Guide/en-US"
   echo "Example: $0 -d /home/nboldt/tru/jbosstools-documentation/docs/User_Guide/JBoss_Tools_User_Guide/en-US \
-    -map 'guibutton=command guilabel=command guimenu=command procedure=itemizedlist step=listitem'
+    -map 'guibutton=command guilabel=command guimenu=command procedure=orderedlist step=listitem'
     -to 'md html epub pdf'"
-    # TODO: figure out what tags to use instead of command if we want bold, italic, or underline instead of <code>
+    # instead of <command>, can use <emphasis> if we want italics
   exit 1;
 }
 
@@ -59,15 +59,16 @@ convert ()
 
   # user-based pre-processing to replace tags w/ other tags
   if [[ $MAPPINGS ]]; then 
-    # for each before=after pair, process the docbook file w/ sed
-    # TODO: this should use <tags> not just tagNames so that no copy gets changed (eg., command or procedure or step)
+    # for each before=after pair, process the docbook file w/ sed to replace <before> with <after>
     for m in $MAPPINGS; do
-      m="s/"${m/=/\/}"/g"
-      # echo "$m ..."
-      sed -i -e "$m" ${INF}
+      l=${m%%=*}
+      r=${m##*=}
+      # echo -n "$l -> $r ... "
+      sed -i -e "s#<$l>#<$r>#g" -e "s#</$l>#</$r>#g" ${INF}
     done
   fi
 
+  # using uft-8, convert docbook to internal format (eg., pandoc extended markdown)
   iconv -c -t utf-8 ${INF} | pandoc -f docbook -t ${INTERNAL_FORMAT} -o ${OUTF}.md  --toc --chapters --atx-headers
 
   # change bullets to numbered lists in pandoc's markdown
@@ -97,7 +98,6 @@ convert ()
   # TODO: do we need to worry about indented code blocks, or is EVERYTHING just paragraphs?
 
   # TODO: add hard rules before each new top level "=" sections
-
 
   # optional conversions / formats
 
