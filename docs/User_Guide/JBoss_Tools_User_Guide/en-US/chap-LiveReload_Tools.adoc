@@ -76,13 +76,13 @@ IDE. In its default configuration, the server receives information from
 the IDE when resources change and sends notifications for refresh
 actions to be taken. The server may also be further configured to inject
 the necessary JavaScript code snippets into HTML files or enable remote
-connections. The itemizedlist below guides you through creating a
-default LiveReload server.
+connections. The procedure below guides you through creating a default
+LiveReload server.
 
 1.  Click the `Servers` view. If the `Servers` view is not visible,
 click `Window`→`Show View`→`Servers`.
 2.  Depending on the number of existing servers, follow the appropriate
-listitem:
+step:
 +
 If there are no existing servers, click
 `Click this link to create a new server`.
@@ -250,12 +250,12 @@ in the Server Editor.
 The LiveReload server can be used in conjunction with BrowserSim. In
 this case, the server sends notifications about changed resources and
 BrowserSim inserts the JavaScript code, which invokes the simulated
-device browser window to refresh. The itemizedlist below outlines how to
+device browser window to refresh. The procedure below outlines how to
 enable LiveReload in BrowserSim for workspace and deployed resources.
 
 1.  Ensure the LiveReload server is started. If it is not started, in
 the `Servers` view right-click the LiveReload server and click `Start`.
-2.  Complete the appropriate listitem depending on the location of your
+2.  Complete the appropriate step depending on the location of your
 resources:
 +
 For workspace resources, in the `Project Explorer` view right-click the

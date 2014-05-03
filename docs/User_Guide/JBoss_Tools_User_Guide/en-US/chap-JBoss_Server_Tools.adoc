@@ -92,7 +92,7 @@ Application servers must be installed on your system in order to deploy
 applications to local and remote instances of them. Many application
 servers must be downloaded from outside the IDE. But JBoss Server Tools
 can assist you to download JBoss community application servers from
-within the IDE, as detailed in the itemizedlist below.
+within the IDE, as detailed in the procedure below.
 
 1.  Click `Window`→`Preferences`, expand `JBoss Tools` and select
 `JBoss Runtime Detection`.
@@ -154,7 +154,7 @@ Before the IDE can use an application sever, you must create a server
 definition for it. JBoss Server Tools provides runtime detection that
 automatically generates a complete default server definition for any
 installed application servers found in a given local system search path,
-as detailed in the itemizedlist below. Note that complete server
+as detailed in the procedure below. Note that complete server
 definitions are also automatically generated for JBoss community servers
 downloaded with JBoss Server Tools.
 
@@ -168,8 +168,7 @@ and select `JBoss Runtime Detection`.]
 is to commence. To detect a specific application server, select the
 install directory for that application server. To detect multiple
 application servers, select a directory higher up the directory tree.
-4.  Depending on the outcome of the scan, follow the appropriate
-listitem:
+4.  Depending on the outcome of the scan, follow the appropriate step:
 +
 If no new application servers are found or if new application servers
 are found but you do not want to create any server runtime environments
@@ -211,7 +210,7 @@ default server definition for each application server it discovers in
 given search paths on your system. But you may want to create additional
 server runtime environments that specify a variety of JREs or
 configuration files for a given installed application server. The
-itemizedlist below details the process for creating new server runtime
+procedure below details the process for creating new server runtime
 environments. For older versions of application servers, you can also
 create a new runtime server by cloning an existing one as explained
 below.
@@ -299,12 +298,12 @@ paths on your system. But you may want to create additional server
 adapters that have different configurations for a given server runtime
 environment in order to define multiple servers. To create a new server
 adapter to define a local server, you must use the new server wizard as
-detailed in the itemizedlist below.
+detailed in the procedure below.
 
 1.  Click the `Servers` view. If the `Servers` view is not visible,
 click `Window`→`Show View`→`Servers`.
 2.  Depending on the number of existing servers, follow the appropriate
-listitem:
+step:
 +
 If there are no existing servers, click
 `Click this link to create a new server`.
@@ -388,7 +387,7 @@ the same host can result in port conflicts.
 You can define remote servers for JBoss community application servers.
 To complete a server definition, you must create a server adapter, or
 server, that informs the IDE how to communicate and manage the remote
-server, as detailed in the itemizedlist below.
+server, as detailed in the procedure below.
 
 [IMPORTANT]
 ====
@@ -404,7 +403,7 @@ locally and create a server runtime environment based on these.
 1.  Click the `Servers` view. If the `Servers` view is not visible,
 click `Window`→`Show View`→`Servers`.
 2.  Depending on the number of existing servers, follow the appropriate
-listitem:
+step:
 +
 If there are no existing servers, click
 `Click this link to create a new server`.

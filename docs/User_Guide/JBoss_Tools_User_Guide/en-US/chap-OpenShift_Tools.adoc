@@ -122,8 +122,8 @@ https://openshift.redhat.com/app/login?redirectUrl=%2Fapp%2Fconsole[].
 == Connect to OpenShift
 
 Once you have an OpenShift user account, you can connect to OpenShift
-and then create domains and applications. The itemizedlist below guides
-you through connecting to OpenShift for the first time in the IDE.
+and then create domains and applications. The procedure below guides you
+through connecting to OpenShift for the first time in the IDE.
 
 1.  In the `OpenShift Explorer` view, click the `Connect to OpenShift`
 icon image:images/4325.png[image].
@@ -208,8 +208,8 @@ SSH keys are essential when working with OpenShift. They enable you to
 develop and access deployed applications. SSH keys are also used to
 control access of other contributors to your OpenShift applications. SSH
 keys must be uploaded to the OpenShift server and, as detailed in the
-itemizedlist below, OpenShift Tools can assist with both the generation
-and uploading of SSH keys to OpenShift.
+procedure below, OpenShift Tools can assist with both the generation and
+uploading of SSH keys to OpenShift.
 
 1.  In the `OpenShift Explorer` view, right-click the connection and
 click `Manage SSH Keys`.
@@ -293,10 +293,10 @@ Refresh the SSH key information associated with OpenShift::
 Once you have an OpenShift user account, you need to create domains in
 which to host your applications. Note that user accounts for OpenShift
 Online with Free plan can be associated with one domain only. The
-itemizedlist below guides you through creating a new domain but you
-first need a live connection. If you already have a domain associated
-with your user account then domain information is automatically passed
-to the IDE when a live connection is started.
+procedure below guides you through creating a new domain but you first
+need a live connection. If you already have a domain associated with
+your user account then domain information is automatically passed to the
+IDE when a live connection is started.
 
 1.  In the `OpenShift Explorer` view, right-click the connection and
 click `New`→`Domain`. Alternatively, right-click the connection, click
@@ -367,7 +367,7 @@ as the local clone of the Git repository for projects is not deleted.
 OpenShift Tools provides the OpenShift Application wizard to assist you
 in creating and deploying OpenShift applications.
 
-As detailed in the itemizedlist below, OpenShift applications can be
+As detailed in the procedure below, OpenShift applications can be
 created using three sources: an existing workspace project, a Git source
 or a default project template. For an existing workspace project, the
 wizard merges the existing project contents with the key metadata files
@@ -504,7 +504,7 @@ in the `Project Explorer` and `Git Repositories` views. If you want to
 work on the project files associated with an application, you must first
 import the application. OpenShift Tools can assist you to import your
 deployed OpenShift applications into the IDE, as detailed in the
-itemizedlist below.
+procedure below.
 
 1.  Click `File`→`Import`, expand `OpenShift` and double-click
 `Existing OpenShift Application`. Alternatively, in the
@@ -580,9 +580,9 @@ OpenShift applications if you select the
 `Create and set up a server for easy publishing` check box. But
 OpenShift also provides an action to assist you in generating server
 adapters for OpenShift application that already exist in the IDE, as
-detailed in the itemizedlist below. You can use this action if you need
-to regenerate a deleted server adapter for an OpenShift application or
-if you create or import an OpenShift application and do not select the
+detailed in the procedure below. You can use this action if you need to
+regenerate a deleted server adapter for an OpenShift application or if
+you create or import an OpenShift application and do not select the
 `Create and set up a server for easy publishing` check box.
 
 1.  In the `OpenShift Explorer` view, right-click the application and

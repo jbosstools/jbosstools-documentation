@@ -121,7 +121,7 @@ Mobile Web Tools provides a HTML5 jQuery Mobile file template to assist
 in creating mobile web applications. The template inserts the necessary
 JavaScript and CSS library references into the HTML header and includes
 skeleton jQuery Mobile page and listview widgets in the HTML body. The
-itemizedlist below details how to insert the template into your project.
+procedure below details how to insert the template into your project.
 
 1.  In the `Project Explorer` view, right-click a project and click
 `New`→`HTML File`.

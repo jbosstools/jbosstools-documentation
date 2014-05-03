@@ -286,10 +286,9 @@ Click `Window`→`Close Perspective`.
 == View Cheat Sheets
 
 Typically, cheat sheets contain detailed information about projects,
-with listitem by listitem guidance and explanations for how to create
-and deploy applications. JBoss Central and the JBoss perspective provide
-actions to make the cheat sheets that accompany projects easier to
-access and view.
+with step by step guidance and explanations for how to create and deploy
+applications. JBoss Central and the JBoss perspective provide actions to
+make the cheat sheets that accompany projects easier to access and view.
 
 A cheat sheet contained in a project is automatically opened in the
 `Cheat Sheets` view when the project is imported into the workspace with

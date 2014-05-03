@@ -2,7 +2,7 @@
 = Getting Help and Giving Feedback
 
 _Do You Need Help?_. +
-If you experience difficulty with a itemizedlist described in this
+If you experience difficulty with a procedure described in this
 documentation, visit the JBoss Tools website at
 http://www.jboss.org/tools[]. Through the JBoss Tools website, you can:
 
