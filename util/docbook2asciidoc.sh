@@ -17,6 +17,7 @@ usage ()
   echo "Example: $0 -d /home/nboldt/tru/jbosstools-documentation/docs/User_Guide/JBoss_Tools_User_Guide/en-US \
     -map 'guibutton=command guilabel=command guimenu=command procedure=itemizedlist step=listitem'
     -to 'md html epub pdf'"
+    # TODO: figure out what tags to use instead of command if we want bold, italic, or underline instead of <code>
   exit 1;
 }
 
@@ -59,6 +60,7 @@ convert ()
   # user-based pre-processing to replace tags w/ other tags
   if [[ $MAPPINGS ]]; then 
     # for each before=after pair, process the docbook file w/ sed
+    # TODO: this should use <tags> not just tagNames so that no copy gets changed (eg., command or procedure or step)
     for m in $MAPPINGS; do
       m="s/"${m/=/\/}"/g"
       # echo "$m ..."
@@ -90,6 +92,12 @@ convert ()
   awk '/  image:images/ {inblock=1} /\+/ {inblock=0;}
   { if (inblock==1 && (/ {2}(.+)/)) { sub(/^[ \t]+/, ""); print } else print $0}' ${OUTF}.adoc > ${OUTF}.adoc.awkd; 
   mv ${OUTF}.adoc.awkd ${OUTF}.adoc
+
+  # TODO: fix remaining indented blocks
+  # TODO: do we need to worry about indented code blocks, or is EVERYTHING just paragraphs?
+
+  # TODO: add hard rules before each new top level "=" sections
+
 
   # optional conversions / formats
 
