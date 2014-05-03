@@ -1,0 +1,375 @@
+<h1 id="openshift-tools">OpenShift Tools</h1>
+<h1 id="overview-of-openshift-tools">Overview of OpenShift Tools</h1>
+<h2 id="about-openshift">About OpenShift</h2>
+<p>OpenShift is Red Hat's Platform as a Service (PaaS) for applications. It consists of an application platform in the cloud, enabling you to build, test and run applications in a cloud architecture. OpenShift provides disk space, CPU resources, network connectivity, and a runtime environment.</p>
+<p>OpenShift is available in three versions: OpenShift Online, Enterprise and Origin. OpenShift Online is the public cloud offering, with free and paid plans, hosted at <a href="https://openshift.redhat.com"></a>. OpenShift Enterprise is the private cloud offering, obtained through a Red Hat OpenShift subscription and hosted in a private data center. OpenShift Origin is the community and local cloud offering, available to download and install locally for development and testing purposes.</p>
+<p>OpenShift has a number of key features to assist you in developing and deploying applications:</p>
+<ol>
+<li><p>Unique domain names, or namespaces, support the hosting of your applications. A user account provides you with access to domains, the latter having the potential to be associated with multiple applications.</p></li>
+<li><p>Numerous cartridges give you access to predefined build and runtime environments with popular languages, database and management frameworks. OpenShift can also be extensively customized with the Do-It-Yourself (DIY) cartridge.</p></li>
+<li><p>Different sized gears provide RAM and disk space for your applications and cartridges. You can use a set number of small gears as part of OpenShift Online with Free Plan, a free OpenShift user account, and extend to more gears and bigger gears with OpenShift Online with Silver Plan or OpenShift Enterprise.</p></li>
+<li><p>Built-in administrative and stack management frees you up to focus on code development. OpenShift manages the intricate details of deploying your application to the stack and interfacing with middleware technologies for you.</p></li>
+<li><p>Automatic or manual scaling of the resources supporting your applications ensures that application performance does not suffer as usage increases. OpenShift can create additional instances of your application across more gears and enable clustering.</p></li>
+</ol>
+<p>OpenShift can be accessed via the web interface at <a href="https://www.openshift.com/"></a> on the OpenShift website or via the OpenShift command line interface.</p>
+<h2 id="about-openshift-tools">About OpenShift Tools</h2>
+<p>OpenShift Tools is tooling available within the IDE for OpenShift. It provides an alternative way of accessing OpenShift and managing the development of applications deployed on OpenShift servers.</p>
+<p>OpenShift Tools consists of a set of wizards and actions, which together provide core functionality for developing OpenShift applications:</p>
+<ol>
+<li><p>The tools prepare you for working with OpenShift, by assisting you to create OpenShift user accounts and domains.</p></li>
+<li><p>OpenShift Tools assists you with the essential tasks of setting up your system and the IDE for OpenShift interaction, such as creating connections and generating and uploading SSH keys.</p></li>
+<li><p>When creating and developing OpenShift applications, OpenShift Tools provides wizards for creating new and importing existing OpenShift applications.</p></li>
+<li><p>A variety of actions are available for managing deployed applications, for tasks such as restarting applications, uploading changes to applications, viewing OpenShift server output, editing application cartridges and environment variables, and deleting applications.</p></li>
+</ol>
+<h1 id="features-of-openshift-tools">Features of OpenShift Tools</h1>
+<h2 id="features-overview">Features Overview</h2>
+<p>The aim of this section is to guide you in using OpenShift Tools:</p>
+<ol>
+<li><p>Create OpenShift Online user accounts</p></li>
+<li><p>Connect to OpenShift servers</p></li>
+<li><p>Generate SSH keys and upload them to an OpenShift user account</p></li>
+<li><p>Create and manage domains</p></li>
+<li><p>Create new OpenShift applications from within the IDE</p></li>
+<li><p>Deploy existing workspace applications to OpenShift and import existing OpenShift applications into a workspace</p></li>
+<li><p>Manage deployed OpenShift applications and view information about them</p></li>
+</ol>
+<h2 id="create-an-openshift-online-user-account">Create an OpenShift Online User Account</h2>
+<p>To begin using OpenShift Online, you need to create a user account. OpenShift Tools provides the ability to create an OpenShift Online user account from within the IDE.</p>
+<p>To create a user account, click the <code>OpenShift Explorer</code> view. If the <code>OpenShift Explorer</code> view is not visible, click <code>Window</code>→<code>Show View</code>→<code>Other</code>, expand <code>JBoss Tools</code> and double-click <code>OpenShift Ecplorer</code>.</p>
+<figure>
+<img src="images/4324.png" alt="click the OpenShift Explorer view." /><figcaption>click the <code>OpenShift Explorer</code> view.</figcaption>
+</figure>
+<p>Click the <code>Connect to OpenShift</code> icon <img src="images/4325.png" /> and click the link to sign up for an account. This opens <a href="https://openshift.redhat.com/app/account/new"></a> in a browser window. Follow the instructions on the OpenShift web page to create an account. Once created, you can close the browser window.</p>
+<figure>
+<img src="images/3928.png" alt="Click the link to sign up for an account." /><figcaption>Click the link to sign up for an account.</figcaption>
+</figure>
+<p>Management of your OpenShift Online user account, such as changing or resetting your password, must be carried out through the OpenShift management console at <a href="https://openshift.redhat.com/app/login?redirectUrl=%2Fapp%2Fconsole"></a>.</p>
+<h2 id="connect-to-openshift">Connect to OpenShift</h2>
+<p>Once you have an OpenShift user account, you can connect to OpenShift and then create domains and applications. The itemizedlist below guides you through connecting to OpenShift for the first time in the IDE.</p>
+<ol>
+<li><p>In the <code>OpenShift Explorer</code> view, click the <code>Connect to OpenShift</code> icon <img src="images/4325.png" />.</p></li>
+<li><p>Complete the fields and options as detailed:</p>
+<ol>
+<li><p>From the <code>Connection</code> list, select <code>New Connection</code>.</p></li>
+<li><p>If you want to use a server other than the default at https://openshift.redhat.com, clear the <code>Use default server</code> check box and in the <code>Server</code> field type the address of the server. This option is most relevant when you are using OpenShift Enterprise or Origin servers.</p></li>
+<li><p>In the <code>Username</code> and <code>Password</code> fields, type your OpenShift user account authentication information.</p></li>
+<li><p>If you want the <code>Password</code> field to automatically populate for this connection in future, select the <code>Save password</code> check box.</p>
+<blockquote>
+<p><strong>Note</strong></p>
+<p>The password is retained in secure storage provided by the IDE. To manage the settings for secure storage, click <code>Window</code>→<code>Preferences</code>, expand <code>General</code>→<code>Security</code> and select <code>Secure Storage</code>.</p>
+</blockquote></li>
+</ol>
+<figure>
+<img src="images/3929.png" alt="From the Connection list, select New Connection. In the Username and Password fields, type your OpenShift user account authentication information." /><figcaption>From the <code>Connection</code> list, select <code>New Connection</code>. In the <code>Username</code> and <code>Password</code> fields, type your OpenShift user account authentication information.</figcaption>
+</figure></li>
+<li><p>Click <code>Finish</code> for OpenShift Tools to connect to OpenShift.</p>
+<p>If your credentials are incorrect, the Sign in to OpenShift wizard remains open for you to change your authentication information.</p>
+<p>If you selected for your password to be saved, you are prompted to enter your secure storage password or, if this is your first use of secure storage, you are prompted to set a secure storage password.</p>
+<p>Once your credentials are verified as correct, the wizard closes and a live OpenShift connection is listed in the <code>OpenShift Explorer</code> view.</p>
+<figure>
+<img src="images/4329.png" alt="Once your credentials are verified as correct, the wizard closes and a live OpenShift connection is listed in the OpenShift Explorer view." /><figcaption>Once your credentials are verified as correct, the wizard closes and a live OpenShift connection is listed in the <code>OpenShift Explorer</code> view.</figcaption>
+</figure></li>
+</ol>
+<p>When you close the IDE, any live OpenShift connections will be disconnected but they can be easily reestablished. OpenShift Tools lists previous connections in the <code>OpenShift Explorer</code> view until cleared by you. In the <code>OpenShift Explorer</code> view, double-click or expand the appropriate connection to open an automatically completed connection wizard. Type your password or, if using the saved password facility, the master password and click <code>Finish</code>.</p>
+<h2 id="manage-a-connection">Manage a Connection</h2>
+<p>Using OpenShift Tools, you can view and manage live OpenShift connections.</p>
+<dl>
+<dt>View information about a connection</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the connection and click <code>Properties</code>. The <code>Properties</code> view opens and shows information about the associated domains, key and user account. The <code>Key</code> parameter is unique to the connection and it is used by the IDE for identification purposes.</p>
+<figure>
+<img src="images/3933.png" alt="In the OpenShift Explorer view, right-click the connection and click Properties. The Properties view opens and shows information about the associated domains, key and user account. The Key parameter is unique to the connection and it is used by the IDE for identification purposes." /><figcaption>In the <code>OpenShift Explorer</code> view, right-click the connection and click <code>Properties</code>. The <code>Properties</code> view opens and shows information about the associated domains, key and user account. The <code>Key</code> parameter is unique to the connection and it is used by the IDE for identification purposes.</figcaption>
+</figure>
+</dd>
+<dt>Refresh information about a connection</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the connection and click <code>Refresh</code>. Information is retrieved from OpenShift and the <code>OpenShift Explorer</code> view updated as appropriate. This action is useful if you are simultaneously making changes to your domains and applications in the IDE and the OpenShift web interface or command line interface. Additionally, it may be used to recover from errors.</p>
+</dd>
+<dt>Delete a connection</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the connection and click <code>Remove Connection</code>.</p>
+</dd>
+</dl>
+<h2 id="generate-and-upload-ssh-keys-to-openshift">Generate and Upload SSH Keys to OpenShift</h2>
+<p>SSH keys are essential when working with OpenShift. They enable you to develop and access deployed applications. SSH keys are also used to control access of other contributors to your OpenShift applications. SSH keys must be uploaded to the OpenShift server and, as detailed in the itemizedlist below, OpenShift Tools can assist with both the generation and uploading of SSH keys to OpenShift.</p>
+<ol>
+<li><p>In the <code>OpenShift Explorer</code> view, right-click the connection and click <code>Manage SSH Keys</code>.</p></li>
+<li><p>To create a new SSH private-public key pair, click <code>New</code>.</p></li>
+<li><p>Complete the fields and options as detailed:</p>
+<ol>
+<li><p>In the <code>Name</code> field, type a name for the key pair that will be used by OpenShift to distinguish this key pair from others associated with your account.</p></li>
+<li><p>From the <code>Key Type</code> list, select <code>SSH_RSA</code>.</p></li>
+<li><p>Ensure the <code>SSH2 Home</code> field contains the location where you want to create the files associated with the key pair. To change the location, clear the <code>Default</code> check box and click <code>Browse</code> to navigate to the desired location.</p>
+<blockquote>
+<p><strong>Note</strong></p>
+<p>The default location for creating SSH key files is determined by the SSH information for the IDE. The default location can be altered by clicking <code>Windows</code>→<code>Preferences</code>, expanding <code>General</code>→<code>Network Connections</code>, selecting <code>SSH2</code> and changing the location in the <code>SSH2 home</code> field of the <code>General</code> tab.</p>
+</blockquote></li>
+<li><p>In the <code>Private Key File Name</code> field, type a name for the private key file.</p></li>
+<li><p>In the <code>Private Key Passphrase</code> field, type a passphrase for use in accessing the private key. This field is not mandatory and can be left empty if you want.</p></li>
+<li><p>In the <code>Public Key File Name</code> field, type a name for the public key file. Typically the file name of the public key is that of the private key with <code>.pub</code> appended.</p></li>
+</ol>
+<figure>
+<img src="images/3936.png" alt="To create a new SSH private-public key pair, click New." /><figcaption>To create a new SSH private-public key pair, click <code>New</code>.</figcaption>
+</figure></li>
+<li><p>Click <code>Finish</code>. The SSH key pair is generated and the public key automatically uploaded to OpenShift.</p></li>
+<li><p>Click <code>OK</code> to close the Manage SSH Keys window.</p></li>
+</ol>
+<h2 id="manage-ssh-keys">Manage SSH Keys</h2>
+<p>OpenShift Tools provides actions for managing the SSH keys of your OpenShift account.</p>
+<dl>
+<dt>Upload an existing public SSH key to OpenShift</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the connection and click <code>Manage SSH Keys</code>. Click <code>Add Existing</code>. In the <code>Name</code> field, type a name for the key that will be used by OpenShift to distinguish the key from others associated with your account. Click <code>Browse</code> to navigate to and select the public key file. Click <code>Finish</code> and click <code>OK</code> to close the Manage SSH Keys window.</p>
+<p>You must also inform the IDE of the location of the private key file. Click <code>Window</code>→<code>Preferences</code>, expand <code>General</code>→<code>Network Connections</code> and selecting <code>SSH2</code>. Click <code>Add Private Key</code> and locate the private key file. Click <code>Apply</code> and click <code>OK</code> to close the Preferences window.</p>
+</dd>
+<dt>Remove a public SSH key from OpenShift</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the connection and click <code>Manage SSH Keys</code>. From the <code>SSH Public Keys</code> table select the key you want to remove from your OpenShift account and click <code>Remove</code>. At the prompt asking if you are sure you want to remove the key, click <code>OK</code>. Click <code>OK</code> to close the Manage SSH Keys window.</p>
+<blockquote>
+<p><strong>Note</strong></p>
+<p><code>Remove</code> only disassociates keys with your OpenShift account. The files associated with a 'removed' SSH public-private key pair still exist in the local location where they were generated and can be uploaded again to OpenShift using the <code>Add Existing</code> action.</p>
+</blockquote>
+</dd>
+<dt>Refresh the SSH key information associated with OpenShift</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the connection and click <code>Manage SSH Keys</code>. Click <code>Refresh</code> and click <code>OK</code> to close the Manage SSH Keys window. It may be necessary to use this action if you make changes to your OpenShift SSH key settings through the OpenShift web interface while the IDE is open with a live OpenShift connection.</p>
+</dd>
+</dl>
+<h2 id="create-a-domain">Create a Domain</h2>
+<p>Once you have an OpenShift user account, you need to create domains in which to host your applications. Note that user accounts for OpenShift Online with Free plan can be associated with one domain only. The itemizedlist below guides you through creating a new domain but you first need a live connection. If you already have a domain associated with your user account then domain information is automatically passed to the IDE when a live connection is started.</p>
+<ol>
+<li><p>In the <code>OpenShift Explorer</code> view, right-click the connection and click <code>New</code>→<code>Domain</code>. Alternatively, right-click the connection, click <code>Manage Domains</code> and click <code>New</code>.</p></li>
+<li><p>In the <code>Domain Name</code> field, type the name of the domain you would like to use. When the domain is created, the name you provide is appended with the cloud address, for example <code>.rhcloud.com</code> for OpenShift Online.</p></li>
+<li><p>Click <code>Finish</code>. Domain names must be unique so if the name you have chosen is already in use you will see a warning. In this case, choose another name and try again until you have a unique one.</p>
+<figure>
+<img src="images/4326.png" alt="In the Domain Name field, type the name of the domain you would like to use and click Finish." /><figcaption>In the <code>Domain Name</code> field, type the name of the domain you would like to use and click <code>Finish</code>.</figcaption>
+</figure></li>
+</ol>
+<blockquote>
+<p><strong>Note</strong></p>
+<p>There are restrictions on the name you can use for a domain. Names must consist only of alphanumeric characters and can have a maximum length of 16 characters.</p>
+</blockquote>
+<h2 id="manage-a-domain">Manage a Domain</h2>
+<p>OpenShift Tools provides actions for managing the domains of your OpenShift account.</p>
+<dl>
+<dt>View the domains associated with a connection</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the connection and click <code>Manage Domains</code>. Alternatively, right-click the connection and click <code>Properties</code>. The <code>Properties</code> view opens, where the first row of the table contains the names of the domains associated with the connection.</p>
+</dd>
+<dt>Rename a domain</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the domain and click <code>Edit Domain</code>. Alternatively, right-click the connection and click <code>Manage Domains</code>. From the <code>Domains</code> table, select the domain and click <code>Edit</code>. In the <code>Domain Name</code> field, type the new name of the domain and click <code>Finish</code>. You cannot change the name of a domain which has associated applications.</p>
+<blockquote>
+<p><strong>Important</strong></p>
+<p>Renaming your domain changes the public URLs of applications you later create.</p>
+</blockquote>
+</dd>
+<dt>Delete a domain</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the domain and click <code>Delete Domain</code>. Alternatively, right-click the connection and click <code>Manage Domains</code>. From the <code>Domains</code> table, select the domain and click <code>Remove</code>. You cannot delete a domain that has any applications associated with it unless, at the prompt, you select the <code>Force applications deletion</code> check box. Click <code>OK</code> to complete the deleting action.</p>
+<blockquote>
+<p><strong>Note</strong></p>
+<p>Forcing the deletion of applications results in the applications being deleted from the OpenShift server. The projects of applications will still be visible in the <code>Project Explorer</code> and <code>Git Repositories</code> view as the local clone of the Git repository for projects is not deleted.</p>
+</blockquote>
+</dd>
+</dl>
+<h2 id="deploy-a-new-or-existing-application-on-openshift">Deploy a New or Existing Application on OpenShift</h2>
+<p>OpenShift Tools provides the OpenShift Application wizard to assist you in creating and deploying OpenShift applications.</p>
+<p>As detailed in the itemizedlist below, OpenShift applications can be created using three sources: an existing workspace project, a Git source or a default project template. For an existing workspace project, the wizard merges the existing project contents with the key metadata files from a new OpenShift application so that the application can be deployed on OpenShift. For a Git source, the wizard uses the source as the new OpenShift application so the source must be OpenShift-enabled, namely have a <code>.openshift</code> directory and have the openshift profile specified in the <code>pom.xml</code>. For a project template, the templates are provided by OpenShift.</p>
+<p>In addition to deploying your OpenShift applications, the wizard assists you in setting up linked remote (OpenShift server) and local Git repositories containing the original and clone of your project, respectively. You can then push project changes to OpenShift via Git or allow the OpenShift server adapter to do it for you.</p>
+<blockquote>
+<p><strong>Important</strong></p>
+<p>You must have SSH keys set up first in order to successfully proceed with the OpenShift Application wizard.</p>
+</blockquote>
+<ol>
+<li><p>In the <code>OpenShift Explorer</code> view, right-click the connection or domain and click <code>New</code>→<code>Application</code>. Alternatively, in JBoss Central click <code>OpenShift Application</code>, after which you are prompted to select an OpenShift connection and provide your user authentication information.</p>
+<figure>
+<img src="images/3932.png" alt="In JBoss Central, click OpenShift Application." /><figcaption>In <code>JBoss Central</code>, click <code>OpenShift Application</code>.</figcaption>
+</figure></li>
+<li><p>If you do not have a domain associated with the connection, the wizard prompts you to create one. In the <code>Domain Name</code> field, type the name of the domain you would like to use and click <code>Finish</code>. Domain names must be unique so if the name you have chosen is already in use you will see a warning. In this case, choose another name and try again until you have a unique one.</p></li>
+<li><p>Complete the fields and options about the OpenShift application as detailed:</p>
+<ol>
+<li><p>From the <code>Domain</code> list, select the domain to which to assign the application.</p></li>
+<li><p>In the <code>Name</code> field, type a name for the new OpenShift application. There are restrictions on the name you can use for an application. Names must consist only of alphanumeric characters. In the case of an existing workspace project, for simplicity you may choose the OpenShift application name to be the same as the name of the workspace project.</p></li>
+<li><p>From the <code>Type</code> list, select a runtime server. This will ensure the necessary core programming or technology cartridge is added to your application.</p></li>
+<li><p>From the <code>Gear profile</code> list, select the gear size. This is RAM and disk space required by your applications and its cartridges. If you are using OpenShift Online with Free Plan, you have access to small gears only.</p></li>
+<li><p>If you want OpenShift to automatically increase the instances of your application and enable clustering as usage increases, select the <code>Enable scaling</code> check box.</p></li>
+<li><p>From the <code>Embedded Cartridges</code> list, select the functionality you want to enable in your application. This will add associated capabilities and support to your application.</p></li>
+<li><p>To specify that the new application is to be based on source code from an existing Git repository, click <code>Advanced</code> and clear the <code>Use default source code</code> check box. In the <code>Source code</code> field, type the URL of the source code location.</p></li>
+<li><p>To declare environment variables to be used when the application is run, click <code>Advanced</code> and click <code>Environment Variables</code>. Click <code>Add</code> to declare an environment variable. In the <code>Name</code> and <code>Value</code> fields, type a name and value for the environment variable respectively. Click <code>OK</code> to save the information and click <code>OK</code> to close the <code>Environment Variables</code> window.</p></li>
+</ol>
+<figure>
+<img src="images/4327.png" alt="Complete the fields and options of the wizard page." /><figcaption>Complete the fields and options of the wizard page.</figcaption>
+</figure></li>
+<li><p>Click <code>Next</code>.</p></li>
+<li><p>Complete the fields and options as detailed:</p>
+<ol>
+<li><p>To specify that the new application is to be based on an existing workspace project, clear the <code>Create a new project</code> check box and in the <code>Use existing project</code> field type the name of the project or click <code>Browse</code> to locate the project. Otherwise, ensure the <code>Create a new project</code> check box is selected.</p></li>
+<li><p>Ensure the <code>Create and set up a server for easy publishing</code> check box is selected. This option automatically creates an OpenShift server adapter for the application, enabling you to easily upload changes made in the IDE to the OpenShift server.</p></li>
+<li><p>To disable Maven builds, check the <code>Disable automatic Maven builds when pushing to OpenShift</code> check box. This informs OpenShift not to launch the Maven build process when the Maven project is pushed to OpenShift but to put the deployment straight into the deployments folder. It is useful when you want to push applications already built for deployment rather than source code.</p></li>
+</ol></li>
+<li><p>Click <code>Next</code>.</p></li>
+<li><p>The <code>Git Clone Destination</code> field shows the location to be used for the local Git repository. The location must already exist to be able to proceed with the wizard. To change the location, clear the <code>Use default clone location</code> check box and type the location in the <code>Git Clone Destination</code> field or click <code>Browse</code> to navigate to the location.</p>
+<figure>
+<img src="images/3937.png" alt="The Git Clone Destination field shows the location to be used for the local Git repository. The location must already exist to be able to proceed with the wizard. To change the location, clear the Use default clone location check box and type the location in the Git Clone Destination field or click Browse to navigate to the location." /><figcaption>The <code>Git Clone Destination</code> field shows the location to be used for the local Git repository. The location must already exist to be able to proceed with the wizard. To change the location, clear the <code>Use default clone location</code> check box and type the location in the <code>Git Clone Destination</code> field or click <code>Browse</code> to navigate to the location.</figcaption>
+</figure></li>
+<li><p>Click <code>Finish</code>. If you are prompted that the authenticity of the host cannot be established and asked whether you want to continue connecting, check that the host name matches that of your application and domain and click <code>Yes</code>.</p></li>
+<li><p>At the prompt asking if you want to publish committed changes to OpenShift, click <code>Yes</code>. The progress of the application creation process is visible in the <code>Console</code> view.</p></li>
+</ol>
+<p>Once created, the application is listed under the connection and domain in the <code>OpenShift Explorer</code> view. The application type proceeds the application name. The project is also listed in the <code>Project Explorer</code> and <code>Git Repositories</code> views, where the details proceeding the application name indicate the current Git branch and status compared to the remote repository. Additionally, the server adapter for the application is visible in the <code>Servers</code> view.</p>
+<blockquote>
+<p><strong>Note</strong></p>
+<p>To view the project in the <code>Git Repositories</code> view, in the <code>Project Explorer</code> view right-click the project name and click <code>Team</code>→<code>Show in Repositories View</code>. Alternatively, click <code>Window</code>→<code>Show View</code>→<code>Other</code>, expand <code>Git</code> and double-click <code>Git Repositories</code>.</p>
+</blockquote>
+<h2 id="import-a-deployed-openshift-application-into-the-ide">Import a Deployed OpenShift Application into the IDE</h2>
+<p>All applications deployed on OpenShift are listed under live connections in the <code>OpenShift Explorer</code> view. But only the project files of OpenShift applications created through the IDE are immediately available in the <code>Project Explorer</code> and <code>Git Repositories</code> views. If you want to work on the project files associated with an application, you must first import the application. OpenShift Tools can assist you to import your deployed OpenShift applications into the IDE, as detailed in the itemizedlist below.</p>
+<ol>
+<li><p>Click <code>File</code>→<code>Import</code>, expand <code>OpenShift</code> and double-click <code>Existing OpenShift Application</code>. Alternatively, in the <code>OpenShift Explorer</code> view, right-click the application and click <code>Import Application</code>.</p></li>
+<li><p>Complete the fields and options as detailed:</p>
+<ol>
+<li><p>From the <code>Domain</code> list, select the domain of the application.</p></li>
+<li><p>Ensure the <code>Use existing application</code> check box is selected and type the name of the application in the text field. This field has an automatic completion feature to assist you in typing the application name or click <code>Browse</code> to see a list of all of your applications associated with the domain.</p>
+<blockquote>
+<p><strong>Important</strong></p>
+<p>Project names in the IDE workspace must be unique. If the name of the application you want to import is identical to an existing project in the workspace, the OpenShift Tools will not complete the import. To work around this constraint, you can import the OpenShift application to another workspace or change the name of either the conflicting project or application.</p>
+</blockquote></li>
+</ol>
+<figure>
+<img src="images/3941.png" alt="Ensure the Use existing application check box is selected and type the name of the application in the text field. This field has an auto-completion feature to assist you in typing the application name or click Browse to see a list of all of your applications associated with the connection." /><figcaption>Ensure the <code>Use existing application</code> check box is selected and type the name of the application in the text field. This field has an auto-completion feature to assist you in typing the application name or click <code>Browse</code> to see a list of all of your applications associated with the connection.</figcaption>
+</figure></li>
+<li><p>Click <code>Next</code>.</p></li>
+<li><p>Complete the fields and options as detailed:</p>
+<ol>
+<li><p>Ensure the <code>Create a new project</code> check box is selected. This option creates a new project in your IDE workspace for the existing OpenShift application.</p></li>
+<li><p>Ensure the <code>Create and set up a server for easy publishing</code> check box is selected. This option automatically creates an OpenShift server adapter for the application, enabling you to easily upload changes made in the IDE to the OpenShift server.</p></li>
+<li><p>To disable Maven builds, check the <code>Disable automatic Maven builds when pushing to OpenShift</code> check box. This informs OpenShift not to launch the Maven build process when the Maven project is pushed to OpenShift but to put the deployment straight into the deployments folder. It is useful when you want to push applications already built for deployment rather than source code.</p></li>
+</ol></li>
+<li><p>Click <code>Next</code>.</p></li>
+<li><p>The <code>Git Clone Destination</code> field shows the location to be used for the local Git repository. The location must already exist to be able to proceed with the wizard. To change the location, clear the <code>Use default clone location</code> check box and type the location in the <code>Git Clone Destination</code> field or click <code>Browse</code> to navigate to the location.</p></li>
+<li><p>Click <code>Finish</code>. If you are prompted that the authenticity of the host cannot be established and asked whether you want to continue connecting, check that the host name matches that of your application and domain and click <code>Yes</code>.</p></li>
+<li><p>OpenShift Tools modifies the .gitignore file on importing the application. At the prompt asking if you want to publish committed changes to OpenShift, click <code>Yes</code>. The progress of the import process is visible in the <code>Console</code> view.</p></li>
+</ol>
+<p>Once imported, the project is listed in the <code>Project Explorer</code> and <code>Git Repositories</code> veiws, where the details proceeding the application name indicate the current Git branch and status compared to the remote repository. Additionally, the server adapter for the application is visible in the <code>Servers</code> view.</p>
+<h2 id="generate-a-server-adapter-for-an-application">Generate a Server Adapter for an Application</h2>
+<p>In order to easily publish changes to a deployed OpenShift application, each application needs a server adapter. The OpenShift Application wizard can automatically generate server adapters for new or imported OpenShift applications if you select the <code>Create and set up a server for easy publishing</code> check box. But OpenShift also provides an action to assist you in generating server adapters for OpenShift application that already exist in the IDE, as detailed in the itemizedlist below. You can use this action if you need to regenerate a deleted server adapter for an OpenShift application or if you create or import an OpenShift application and do not select the <code>Create and set up a server for easy publishing</code> check box.</p>
+<ol>
+<li><p>In the <code>OpenShift Explorer</code> view, right-click the application and click <code>Create a Server Adapter</code>.</p></li>
+<li><p>Complete the fields and options as detailed:</p>
+<ol>
+<li><p>From the list of server types, expand <code>OpenShift</code> and select <code>OpenShift Server</code>.</p></li>
+<li><p>The <code>Server's host name</code> and <code>Server name</code> field are automatically completed. The <code>Server's host name</code> field contains the host name of the server and the <code>Server name</code> field contains the name by which the server adapter is know in the <code>Servers</code> view. You can edit these values as appropriate by typing in the fields.</p></li>
+</ol>
+<figure>
+<img src="images/3931.png" alt="From the list of server types, expand OpenShift and select OpenShift Server." /><figcaption>From the list of server types, expand <code>OpenShift</code> and select <code>OpenShift Server</code>.</figcaption>
+</figure></li>
+<li><p>Click <code>Next</code>.</p></li>
+<li><p>Complete the fields and options as detailed:</p>
+<ol>
+<li><p>Ensure the <code>Connection</code>, <code>Domain Name</code>, <code>Application Name</code> and <code>Deploy Project</code> fields contain the correct information relating to the application for which you want to generate the server adapter.</p></li>
+<li><p>In the <code>Remote</code> field, type the alias for the remote Git repository. For OpenShift Online applications this is <code>origin</code>.</p></li>
+<li><p>In the <code>Output Directory</code> field, type the location where archived projects for deployment are to be stored or click <code>Browse</code> to navigate to the location.</p></li>
+</ol>
+<figure>
+<img src="images/4328.png" alt="Ensure the Use existing application check box is selected and type the name of the application in the text field. This field has an automatic completion feature to assist you in typing the application name or click Browse to see a list of all of your applications associated with the connection." /><figcaption>Ensure the <code>Use existing application</code> check box is selected and type the name of the application in the text field. This field has an automatic completion feature to assist you in typing the application name or click <code>Browse</code> to see a list of all of your applications associated with the connection.</figcaption>
+</figure></li>
+<li><p>Click <code>Next</code>.</p></li>
+<li><p>From the <code>Available</code> list, select the project for which the server adapter is being generated and click <code>Add</code>. The application is now listed under <code>Configured</code>.</p></li>
+<li><p>Click <code>Finish</code> for OpenShift Tools to generate the server adapter. Once generated, the server adapter is listed in the <code>Servers</code> view.</p>
+<figure>
+<img src="images/3947.png" alt="Once generated, the server adapter is listed in the Servers view." /><figcaption>Once generated, the server adapter is listed in the <code>Servers</code> view.</figcaption>
+</figure></li>
+</ol>
+<h2 id="view-a-deployed-application-and-associated-information">View a Deployed Application and Associated Information</h2>
+<p>OpenShift Tools provides actions for viewing deployed OpenShift applications and information about them.</p>
+<dl>
+<dt>View a deployed application</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the application and click <code>Web Browser</code>. A browser tab opens displaying your deployed application. Alternatively, in the <code>Servers</code> view, right-click the server adapter for the application and click <code>Show In</code>→<code>Web Browser</code>.</p>
+</dd>
+<dt>View information about an application</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the application and click <code>Details</code>. The displayed information includes the public URL of the application, application type, and remote Git repository location. Click <code>OK</code> to close the Details window.</p>
+<figure>
+<img src="images/3944.png" alt="In the OpenShift Explorer view, right-click the application and click Details. The displayed information includes the public URL of the application, application type, and remote Git repository location. Click OK to close the Details window." /><figcaption>In the <code>OpenShift Explorer</code> view, right-click the application and click <code>Details</code>. The displayed information includes the public URL of the application, application type, and remote Git repository location. Click <code>OK</code> to close the Details window.</figcaption>
+</figure>
+</dd>
+<dt>View output from the OpenShift server</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the application and click <code>Tail files</code>. Alternatively, in the <code>Servers</code> view right-click the server adapter of the application and click <code>OpenShift</code>→<code>Tail files</code>. The Tail Log Files window opens, with either the default retrieval syntax or last used syntax for this application in the <code>Tail options</code> field.</p>
+<p>To change the retrieval command, in the <code>Tail options</code> field type the appropriate syntax. To specify the gears for which to show the server logs, from the table select the check boxes of the appropriate gears. Click <code>Finish</code> for OpenShift to retrieve the output, which is displayed in a distinct <code>Console</code> view for each gear.</p>
+<figure>
+<img src="images/4369.png" alt="To change the retrieval command, in the Tail options field type the appropriate syntax. To specify the gears for which to show the server logs, from the table select the check boxes of the appropriate gears. Click Finish for OpenShift to retrieve the output, which is displayed in a distinct Console view for each gear." /><figcaption>To change the retrieval command, in the <code>Tail options</code> field type the appropriate syntax. To specify the gears for which to show the server logs, from the table select the check boxes of the appropriate gears. Click <code>Finish</code> for OpenShift to retrieve the output, which is displayed in a distinct <code>Console</code> view for each gear.</figcaption>
+</figure>
+</dd>
+<dt>View values of variables associated with an application</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the application and click <code>All Environment Variables</code>. Variable names and values are listed in the <code>Console</code> view. Alternatively, in the <code>Servers</code> view, right-click the server adapter of the application and click <code>OpenShift</code>→<code>All Environment Variables</code>.</p>
+<figure>
+<img src="images/3942.png" alt="In the OpenShift Explorer view, right-click the application and click All Environment Variables. Variable names and values are listed in the Console view. Alternatively, in the Servers view, right-click the server adapter of the application and click OpenShift→All Environment Variables." /><figcaption>In the <code>OpenShift Explorer</code> view, right-click the application and click <code>All Environment Variables</code>. Variable names and values are listed in the <code>Console</code> view. Alternatively, in the <code>Servers</code> view, right-click the server adapter of the application and click <code>OpenShift</code>→<code>All Environment Variables</code>.</figcaption>
+</figure>
+</dd>
+<dt>View properties of cartridges associated with an application</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the cartridge and click <code>properties</code>. The <code>Properties</code> view opens and lists information about the cartridge.</p>
+</dd>
+<dt>View information about the server of an application</dt>
+<dd><p>In the <code>Servers</code> view, double-click the server adapter for the application. A Server Editor opens, enabling viewing and editing of server details. To save any changes, press Ctrl+S or click <code>File</code>→<code>Save</code> or click the <code>Save</code> icon.</p>
+</dd>
+<dt>Refresh information about an application</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the connection, domain, application or cartridge and click <code>Refresh</code>. Information is retrieved from OpenShift and the <code>OpenShift Explorer</code> view is updated as appropriate. This action is useful if you are simultaneously making changes in the IDE and the OpenShift web interface or command line interface to your domain and applications. Additionally, it may be used to recover from errors.</p>
+</dd>
+</dl>
+<h2 id="manage-a-deployed-application">Manage a Deployed Application</h2>
+<p>OpenShift Tools provides actions for developing and managing deployed OpenShift applications.</p>
+<dl>
+<dt>Upload modifications to a deployed application</dt>
+<dd><p>In the <code>Severs</code> view, right-click the server adapter for the application and click <code>Publish</code>. At the prompt asking if you want to publish to OpenShift by committing changes to Git, you can customize the default commit message <code>Commit from JBoss Tools</code>. Click <code>Yes</code> and changes, together with the commit message, are pushed to the remote Git repository. Additionally, the application is automatically updated on the OpenShift server and the <code>Console</code> view displays OpenShift server output.</p>
+<blockquote>
+<p><strong>Note</strong></p>
+<p>To view a log of changes to the local git repository, in the <code>Git Repositories</code> view, right-click a repository and click <code>Show In</code>→<code>History</code>. The <code>History</code> view opens, showing a log of commits for the local Git repository.</p>
+</blockquote>
+</dd>
+<dt>Edit environment variables associated with an application</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the application and click <code>Edit Environment Variables</code>. Click <code>Add</code>, <code>Edit</code> or <code>Remove</code> to customize the environment variables. Click <code>Finish</code> to close the window.</p>
+</dd>
+<dt>Add or remove markers associated with an application</dt>
+<dd><p>In the <code>Project Explorer</code> view, right-click the application and click <code>OpenShift</code>→<code>Configure Markers</code>. Select or clear the check boxes of markers as desired. Information about markers is given in the <code>Marker Description</code> section of the <code>Configure OpenShift Markers Window</code>. Click <code>OK</code> for your marker choice to be applied to the application.</p>
+<figure>
+<img src="images/3939.png" alt="In the Project Explorer view, right-click the application and click OpenShift→Configure Markers. Select or clear the check boxes of markers as desired. Information about markers is given in the Marker Description section of the Configure OpenShift Markers Window. Click OK for your marker choice to be applied to the application." /><figcaption>In the <code>Project Explorer</code> view, right-click the application and click <code>OpenShift</code>→<code>Configure Markers</code>. Select or clear the check boxes of markers as desired. Information about markers is given in the <code>Marker Description</code> section of the <code>Configure OpenShift Markers Window</code>. Click <code>OK</code> for your marker choice to be applied to the application.</figcaption>
+</figure>
+</dd>
+<dt>Add or remove cartridges associated with an application</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the application and click <code>Edit Embedded Cartridges</code>. Select or clear the check boxes of cartridges as desired. Click <code>Finish</code> for your cartridge choice to be applied to the application. You are prompted if the cartridges you have chosen to add or remove require further action, such as the addition of prerequisite cartridges or removal of conflicting cartridges. You can choose to ignore or apply the suggestions of the prompt.</p>
+<figure>
+<img src="images/3943.png" alt="In the OpenShift Explorer view, right-click the application name and click Edit Embedded Cartridges. Select or clear the check boxes of cartridges as desired. Click Finish for your cartridge choice to be applied to the application." /><figcaption>In the <code>OpenShift Explorer</code> view, right-click the application name and click <code>Edit Embedded Cartridges</code>. Select or clear the check boxes of cartridges as desired. Click <code>Finish</code> for your cartridge choice to be applied to the application.</figcaption>
+</figure>
+</dd>
+<dt>Restart an application</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the application and click <code>Restart Application</code>. Alternatively, in the <code>Servers</code> tab right-click the server adapter of the application and click <code>OpenShift</code>→<code>Restart Application</code>.</p>
+</dd>
+<dt>Forward remote ports</dt>
+<dd><p>You can forward the remote ports of the OpenShift server to your system to enable access to various services, such as MySQL. Port forwarding is available for all OpenShift applications, including scalable ones.</p>
+<blockquote>
+<p><strong>Important</strong></p>
+<p>Your application must be running before attempting to configure port forwarding.</p>
+</blockquote>
+<p>In the <code>OpenShift Explorer</code> view, right-click the application and click <code>Port forwarding</code>. Alternatively, in the <code>Servers</code> view right-click the server adapter of the application and click <code>OpenShift</code>→<code>Port forwarding</code>.</p>
+<figure>
+<img src="images/3934.png" alt="In the OpenShift Explorer view, right-click the application name and click Port forwarding. Alternatively, in the Servers view right-click the server adapter of the application and click OpenShift→Port forwarding." /><figcaption>In the <code>OpenShift Explorer</code> view, right-click the application name and click <code>Port forwarding</code>. Alternatively, in the <code>Servers</code> view right-click the server adapter of the application and click <code>OpenShift</code>→<code>Port forwarding</code>.</figcaption>
+</figure>
+<p>After checking the authenticity of SSH keys, the Application port forward window opens. Before commencing port forwarding, there are a number of options you can set:</p>
+<ol>
+<li><p>By default, the local address is 127.0.0.1. If this is unavailable, a random available address is allocated. To set the local address to be the same as the remote address, clear the <code>Use '127.0.0.1' as the local address for all Services</code> check box.</p></li>
+<li><p>By default, the local port numbers are the same as the remote port numbers. To set independent local port numbers, select the <code>Find free ports for all Services</code> check box.</p></li>
+</ol>
+<p>To commence port forwarding, click <code>Start All</code>. Click <code>OK</code> to close the Application port forward window.</p>
+</dd>
+<dt>Delete a server adapter for an OpenShift application</dt>
+<dd><p>In the <code>Servers</code> view, right-click the server adapter for the application and click <code>Delete</code>. At the prompt asking if you are sure you want to delete the server adapter, click <code>OK</code>.</p>
+</dd>
+<dt>Delete an application</dt>
+<dd><p>In the <code>OpenShift Explorer</code> view, right-click the application and click <code>Delete Application</code>. At the prompt asking if you are sure you want to destroy the application, select <code>OK</code>. The progress of the deleting process is shown in the activity bar in the lower right of the IDE window. To open the <code>Progress</code> view and see more detailed progress information or cancel the deleting process, double-click on the activity bar.</p>
+<blockquote>
+<p><strong>Note</strong></p>
+<p>Deleting applications results in the applications being deleted from the OpenShift server. The projects of applications are still be visible in the <code>Project Explorer</code> and <code>Git Repositories</code> view as the local Git repository copies of projects are not deleted. Additionally, any server adapters for deleted OpenShift applications are still listed in the <code>Servers</code> view but they are invalid.</p>
+</blockquote>
+</dd>
+</dl>
+<h1 id="customizing-openshift-tools">Customizing OpenShift Tools</h1>
+<h2 id="customizing-overview">Customizing Overview</h2>
+<p>The aim of this section is to guide you in customizing OpenShift Tools:</p>
+<ol>
+<li>Specify the timeout behavior for OpenShift requests</li>
+</ol>
+<h2 id="change-the-timeout-behavior-of-openshift-requests">Change the Timeout Behavior of OpenShift Requests</h2>
+<p>You may find that some requests made to OpenShift require a long time to complete and do not finish within the IDE default timeout limit of 120 seconds. For example, some of the OpenShift quickstarts take a long time to checkout the associated large source code. To resolve the timeout restriction, you can modify the default timeout limit to meet your requirements.</p>
+<p>To modify the timeout limit, click <code>Window</code>→<code>Preferences</code>, expand <code>JBoss Tools</code> and select <code>OpenShift</code>. In the <code>Remote requests timeout</code> field, type the required timeout limit in seconds. Click <code>Apply</code> and click <code>OK</code> to close the Preferences window.</p>
+<figure>
+<img src="images/4287.png" alt="To modify the timeout limit, click Window→Preferences, expand JBoss Tools and select OpenShift. In the Remote requests timeout field, type the required timeout limit in seconds. Click Apply and click OK to close the Preferences window." /><figcaption>To modify the timeout limit, click <code>Window</code>→<code>Preferences</code>, expand <code>JBoss Tools</code> and select <code>OpenShift</code>. In the <code>Remote requests timeout</code> field, type the required timeout limit in seconds. Click <code>Apply</code> and click <code>OK</code> to close the Preferences window.</figcaption>
+</figure>
