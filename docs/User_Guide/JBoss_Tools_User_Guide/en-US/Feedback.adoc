@@ -1,15 +1,16 @@
+[[getting-help-and-giving-feedback]]
 = Getting Help and Giving Feedback
 
 _Do You Need Help?_. +
-If you experience difficulty with a procedure described in this
+If you experience difficulty with a itemizedlist described in this
 documentation, visit the JBoss Tools website at
 http://www.jboss.org/tools[]. Through the JBoss Tools website, you can:
 
-* search or browse through a knowledgebase of technical support articles
-in the wiki.
-* view video tutorials on how to use the tools.
-* participate in discussions in the user forum.
-* keep up to date with changes via the blog, mailing list and News and
+1.  search or browse through a knowledgebase of technical support
+articles in the wiki.
+2.  view video tutorials on how to use the tools.
+3.  participate in discussions in the user forum.
+4.  keep up to date with changes via the blog, mailing list and News and
 Noteworthy web page.
 
 _Give us Feedback_. +
@@ -20,7 +21,7 @@ Studio (TOOLSDOC). The following link will take you to a pre-filled bug
 report for this product:
 https://issues.jboss.org/secure/CreateIssueDetails!init.jspa?issuetype=1&pid=12310980[https://issues.jboss.org].
 
-Fill out the following template in JIRA's Description field. Be as
+Fill out the following template in JIRA's `Description` field. Be as
 specific as possible when describing the issue; this will help ensure
 that we can fix it quickly.
 
