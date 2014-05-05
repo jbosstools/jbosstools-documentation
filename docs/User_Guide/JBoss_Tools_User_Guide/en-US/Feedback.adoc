@@ -6,11 +6,11 @@ If you experience difficulty with a procedure described in this
 documentation, visit the JBoss Tools website at
 http://www.jboss.org/tools[]. Through the JBoss Tools website, you can:
 
-1.  search or browse through a knowledgebase of technical support
-articles in the wiki.
-2.  view video tutorials on how to use the tools.
-3.  participate in discussions in the user forum.
-4.  keep up to date with changes via the blog, mailing list and News and
+* search or browse through a knowledgebase of technical support articles
+in the wiki.
+* view video tutorials on how to use the tools.
+* participate in discussions in the user forum.
+* keep up to date with changes via the blog, mailing list and News and
 Noteworthy web page.
 
 _Give us Feedback_. +

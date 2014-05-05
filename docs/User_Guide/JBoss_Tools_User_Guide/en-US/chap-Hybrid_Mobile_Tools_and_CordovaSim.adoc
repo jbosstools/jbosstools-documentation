@@ -26,14 +26,14 @@ software development kits (SDKs) to produce hybrid mobile applications.
 
 Cordova applications have a distinctive project structure:
 
-1.  An essential `config.xml` file holds information about the
+* An essential `config.xml` file holds information about the
 application. It specifies features, preferences and access details that
 affect how the application works, for example whether the application
 responds to orientation changes.
-2.  An application is implemented as a web page. The default starting
-page is `index.html` and device-independent resources are stored in a
-`www` directory.
-3.  An application must reference the `cordova.js` file, which holds
+* An application is implemented as a web page. The default starting page
+is `index.html` and device-independent resources are stored in a `www`
+directory.
+* An application must reference the `cordova.js` file, which holds
 necessary API bindings that enable the application to interact with
 device features.
 
@@ -54,24 +54,24 @@ Hybrid Mobile Tools consists of the Apache Cordova API and wizards, a
 dedicated editor and actions for developing Cordova-based hybrid mobile
 applications for Android and iOS operating systems:
 
-1.  The Hybrid Mobile Application project wizard creates a sample
-project to demonstrate the Cordova project structure and provides you
-with a template from which to create your own applications.
-2.  The Cordova Configuration Editor offers simplified management of
+* The Hybrid Mobile Application project wizard creates a sample project
+to demonstrate the Cordova project structure and provides you with a
+template from which to create your own applications.
+* The Cordova Configuration Editor offers simplified management of
 `config.xml` files, with dedicated tabs for adding and editing project
 descriptions, features, preferences and access. An additional tab
 enables direct editing of `config.xml` files.
-3.  The Cordova Plug-in Discovery wizard assists you to add Cordova
+* The Cordova Plug-in Discovery wizard assists you to add Cordova
 plug-ins to your projects. Plug-ins can be installed from the Cordova
 registry, Git locations and system directories. Information displayed in
 the `Project Explorer` view is extended to show installed plug-ins and
 enable their management.
-4.  Actions are provided for calling external Android and iOS SDKs to
+* Actions are provided for calling external Android and iOS SDKs to
 package Cordova-based hybrid mobile projects into native applications
 and subsequently run them on their associated simulators or connected
 Android devices.
-5.  Export wizards are available for exporting Cordova-based hybrid
-mobile projects from the IDE workspace as Cordova-enabled Android or iOS
+* Export wizards are available for exporting Cordova-based hybrid mobile
+projects from the IDE workspace as Cordova-enabled Android or iOS
 projects and ready-to-sign applications.
 
 Hybrid Mobile Tools, together with CordovaSim, provides a rounded hybrid
@@ -93,19 +93,19 @@ and enables user interaction with the application.
 Extensions to the device input panel for CordovaSim include the
 following:
 
-1.  CordovaSim supports a range of Cordova API implementations: the core
+* CordovaSim supports a range of Cordova API implementations: the core
 Apache Cordova plug-ins, several PhoneGap plug-ins and custom plug-ins.
 Supported PhoneGap plug-ins include `BarcodeScanner`, `InAppBrowser` and
 `ChildBrowser`. (Note that exceptions to the supported core Apache
 Cordova plug-ins are `File` and the `captureAudio` and `captureVideo`
 methods of `Capture`.)
-2.  CordovaSim automatically injects an up-to-date version of the
+* CordovaSim automatically injects an up-to-date version of the
 `cordova.js` library into your project code at simulation time in the
 case that it is missing. Typically this file is added when a project is
 built with a native SDK. This response by CordovaSim enables it to
 simulate applications of Cordova-based hybrid mobile projects and
 Cordova-enabled Android projects without requiring native SDKs.
-3.  The use of BrowserSim for displaying the application extends the
+* The use of BrowserSim for displaying the application extends the
 functionality of the mobile application simulator to encompass all of
 the BrowserSim functionality. This functionality includes skins, screen
 captures and LiveReload.
@@ -131,15 +131,15 @@ be installed in order to simulate successfully.
 ====
 
 Android SDK (including emulator)::
-  This is available as part of Android Development Tools. For further
-  information see http://developer.android.com/sdk/index.html[] on the
-  Android Developers website. Note that for Android actions in Hybrid
-  Mobile Tools it is only necessary to install the Android SDK, which
-  includes the Android Emulator.
+This is available as part of Android Development Tools. For further
+information see http://developer.android.com/sdk/index.html[] on the
+Android Developers website. Note that for Android actions in Hybrid
+Mobile Tools it is only necessary to install the Android SDK, which
+includes the Android Emulator.
 +
-  Once downloaded, you must use the included Android SDK Manager to
-  further download necessary APIs and set up Android virtual devices
-  (AVDs).
+Once downloaded, you must use the included Android SDK Manager to
+further download necessary APIs and set up Android virtual devices
+(AVDs).
 +
 [IMPORTANT]
 ====
@@ -150,14 +150,14 @@ available. In the event that multiple Android API of 17 and later are
 available, Hybrid Mobile Tools uses the latest version.
 ====
 +
-  Further, once Hybrid Mobile Tools is installed, you must set the
-  Android SDK location in the IDE before you can use Hybrid Mobile Tools
-  actions involving Android.
+Further, once Hybrid Mobile Tools is installed, you must set the
+Android SDK location in the IDE before you can use Hybrid Mobile Tools
+actions involving Android.
 iOS SDK (including simulator)::
-  This is available as part of Apple XCode. For further information see
-  https://developer.apple.com/xcode/[] on the Apple website.
+This is available as part of Apple XCode. For further information see
+https://developer.apple.com/xcode/[] on the Apple website.
 
-1.  ?
+* ?
 
 [[system-requirements-for-cordovasim]]
 == System Requirements for CordovaSim
@@ -239,7 +239,7 @@ Once installed, you must inform Hybrid Mobile Tools of the Android SDK
 location before you can use Hybrid Mobile Tools actions involving
 Android.
 
-1.  ?
+* ?
 
 [[features-of-hybrid-mobile-tools-and-cordovasim]]
 = Features of Hybrid Mobile Tools and CordovaSim
@@ -250,17 +250,17 @@ Android.
 The aim of this section is to guide you in using Hybrid Mobile Tools and
 CordovaSim:
 
-1.  Create the basis of new hybrid mobile projects using the project
+* Create the basis of new hybrid mobile projects using the project
 wizard
-2.  Add and remove Cordova plug-ins from your applications
-3.  Manage the Cordova functionality of applications using the Cordova
+* Add and remove Cordova plug-ins from your applications
+* Manage the Cordova functionality of applications using the Cordova
 Configuration Editor
-4.  Run and test hybrid mobile applications with CordovaSim or call
+* Run and test hybrid mobile applications with CordovaSim or call
 external Android and iOS SDKs to run applications on their associated
 simulators and, in the case of Android, attached devices
-5.  Customize the settings used by CordovaSim, Android and iOS
-simulators for running hybrid mobile applications
-6.  Export workspace applications as Cordova-enabled native projects or
+* Customize the settings used by CordovaSim, Android and iOS simulators
+for running hybrid mobile applications
+* Export workspace applications as Cordova-enabled native projects or
 ready-to-sign applications
 
 [[create-a-hybrid-mobile-project]]
@@ -278,14 +278,14 @@ the Cordova command-line interface (CLI).
 image:images/4405.png[Expand `Mobile`, select
 `Hybrid Mobile (Cordova) Application Project` and click `Next`.]
 3.  Complete the following fields:
-1.  In the `Project name` field, type a name for the project. This value
+* In the `Project name` field, type a name for the project. This value
 is the name of the directory to be created and in which the source files
 for the application are stored, for example `My_App`.
-2.  In the `Name` field, type a name by which the hybrid mobile
+* In the `Name` field, type a name by which the hybrid mobile
 application is to be known. This value is the display text used to
 represent the application in listings and device home screens, for
 example `My Application`.
-3.  In the `ID` field, type an ID for the hybrid mobile application. The
+* In the `ID` field, type an ID for the hybrid mobile application. The
 value is typically a reverse domain-style identifier, for example
 `com.example.myapp`, and for applications that are to be distributed
 through device platform application stores the ID value will be provided
@@ -325,32 +325,32 @@ for installing and removing plug-ins associated with applications, as
 detailed here.
 
 Add a plug-in::
-  In the `Project Explorer` view, right-click the `plugins` folder of
-  the project and click `Install Cordova Plug-in`.
+In the `Project Explorer` view, right-click the `plugins` folder of
+the project and click `Install Cordova Plug-in`.
 +
-  The Cordova Plug-in Discovery wizard opens. The Cordova Plug-in
-  Discovery wizard can install Cordova plug-ins from Cordova registries,
-  Git locations and system directories:
+The Cordova Plug-in Discovery wizard opens. The Cordova Plug-in
+Discovery wizard can install Cordova plug-ins from Cordova registries,
+Git locations and system directories:
 +
-  1.  In the `Registry` tab, in the `Find` field enter the name of the
-  feature or scroll through the list to find the plug-in. Select the
-  check box of the plug-in and click `Next`. Check the details of the
-  selected plug-in and use the drop-down list next to the plug-in name
-  to select the version to be installed. Click `Finish`.
-  2.  In the `Git` tab, in the `URL` field type the URL that specifies
-  the plug-in location. Click `Finish`.
-  3.  In the `Directory` tab, in the `Directory` field type the path of
-  the plug-in or click `Browse` to navigate to the location. Click
-  `Finish`.
+* In the `Registry` tab, in the `Find` field enter the name of the
+feature or scroll through the list to find the plug-in. Select the
+check box of the plug-in and click `Next`. Check the details of the
+selected plug-in and use the drop-down list next to the plug-in name
+to select the version to be installed. Click `Finish`.
+* In the `Git` tab, in the `URL` field type the URL that specifies the
+plug-in location. Click `Finish`.
+* In the `Directory` tab, in the `Directory` field type the path of
+the plug-in or click `Browse` to navigate to the location. Click
+`Finish`.
 +
 image:images/4407.png[In the `Registry` tab, in the `Find` field enter
 the name of the feature or scroll through the list to find the
 plug-in. Select the check box for the plug-in and click `Next`.]
 +
-  After installing the plug-in, configuration files are automatically
-  updated with relevant settings for the plug-in. Note that the
-  `config.xml` file is only updated with `features` and `param` entries
-  if an installed plug-in has native parts.
+After installing the plug-in, configuration files are automatically
+updated with relevant settings for the plug-in. Note that the
+`config.xml` file is only updated with `features` and `param` entries
+if an installed plug-in has native parts.
 +
 [IMPORTANT]
 ====
@@ -361,8 +361,8 @@ value of `PLEASE_DEFINE`. You must edit the preference and provide the
 required value.
 ====
 Remove a plug-in::
-  In the `Project Explorer` view, in the plugins folder right-click the
-  plug-in and click `Remove Cordova Plug-in`.
+In the `Project Explorer` view, in the plugins folder right-click the
+plug-in and click `Remove Cordova Plug-in`.
 
 [NOTE]
 ====
@@ -370,7 +370,7 @@ Alternatively, you can add and remove plug-ins by using the
 `Platform Properties` tab of the Cordova Configuration Editor.
 ====
 
-1.  ?
+* ?
 
 [[manage-cordova-settings-of-a-hybrid-mobile-project]]
 == Manage Cordova Settings of a Hybrid Mobile Project
@@ -421,7 +421,7 @@ ID, name, version, description and content source or home page. The
 can be edited as detailed below.
 
 Change the value of a variable::
-  Click the appropriate field and edit the content.
+Click the appropriate field and edit the content.
 
 All changes to `config.xml` must be saved before the results take
 effect. To save, press Ctrl+S.
@@ -435,70 +435,70 @@ Features, parameters, preferences and access can be added and removed as
 detailed below.
 
 Add a feature::
-  Features are the Cordova API plug-ins required by the application in
-  order to access native APIs at runtime. Examples include `Camera`,
-  `Contacts` and `Geolocation`.
+Features are the Cordova API plug-ins required by the application in
+order to access native APIs at runtime. Examples include `Camera`,
+`Contacts` and `Geolocation`.
 +
-  To add a feature, click `Add` for the `Features` table. The Cordova
-  Plug-in Discovery wizard opens. Follow the instructions as appropriate
-  for the plug-in source:
+To add a feature, click `Add` for the `Features` table. The Cordova
+Plug-in Discovery wizard opens. Follow the instructions as appropriate
+for the plug-in source:
 +
-  1.  For the Cordova registry, click the `Registry` tab. In the `Find`
-  field, enter the name of the feature or scroll through the list to
-  find the plug-in. Select the check box for the plug-in and click
-  `Next`. Check the details of the selected plug-in and use the
-  drop-down list next to the plug-in to select the version to be
-  installed.
-  2.  For a Git location, click the `Git` tab. In the `URL` field, type
-  the URL that specifies the plug-in location.
-  3.  For a system directory, click the `Directory` tab. In the
-  `Directory` field, type the path of the plug-in or click `Browse` to
-  navigate to the location.
+* For the Cordova registry, click the `Registry` tab. In the `Find`
+field, enter the name of the feature or scroll through the list to
+find the plug-in. Select the check box for the plug-in and click
+`Next`. Check the details of the selected plug-in and use the
+drop-down list next to the plug-in to select the version to be
+installed.
+* For a Git location, click the `Git` tab. In the `URL` field, type
+the URL that specifies the plug-in location.
+* For a system directory, click the `Directory` tab. In the
+`Directory` field, type the path of the plug-in or click `Browse` to
+navigate to the location.
 +
-  To add the feature, click `Finish`.
+To add the feature, click `Finish`.
 Add a parameter::
-  All parameters are associated with a feature and provide information
-  about the specific mapping of Cordova and native APIs.
+All parameters are associated with a feature and provide information
+about the specific mapping of Cordova and native APIs.
 +
-  To add a parameter, from the `Features` table select an item for which
-  to create a parameter. For the `Params` table, click `Add`. In the
-  `name` and `value` fields, type the service name and Java class full
-  name (including namespace), respectively. To add the parameter, click
-  `OK`.
+To add a parameter, from the `Features` table select an item for which
+to create a parameter. For the `Params` table, click `Add`. In the
+`name` and `value` fields, type the service name and Java class full
+name (including namespace), respectively. To add the parameter, click
+`OK`.
 Add a preference::
-  Preferences details the global, cross-platform and platform-specific
-  behaviors for the web view of the hybrid mobile application.
+Preferences details the global, cross-platform and platform-specific
+behaviors for the web view of the hybrid mobile application.
 +
-  To add a preference, click `Add` for the `Preference` table. Complete
-  the `name` and `value` fields as appropriate. To add the parameter,
-  click `OK`.
+To add a preference, click `Add` for the `Preference` table. Complete
+the `name` and `value` fields as appropriate. To add the parameter,
+click `OK`.
 +
-  By default for an application created with the Hybrid Mobile Tools
-  project wizard, the `Preferences` table has two entries. The
-  `fullscreen` and `webviewbounce` elements specify whether the
-  application is fullscreen and bounces when pulled down in iOS devices,
-  respectively. For a full list of available preferences see
-  http://cordova.apache.org/docs/en/edge/config_ref_index.md.html#The%20config.xml%20File[]
-  on the Apache Cordova website.
+By default for an application created with the Hybrid Mobile Tools
+project wizard, the `Preferences` table has two entries. The
+`fullscreen` and `webviewbounce` elements specify whether the
+application is fullscreen and bounces when pulled down in iOS devices,
+respectively. For a full list of available preferences see
+http://cordova.apache.org/docs/en/edge/config_ref_index.md.html#The%20config.xml%20File[]
+on the Apache Cordova website.
 Add access::
-  Access entries specify the external network resources to which the
-  application has access, also referred to as whitelisting.
+Access entries specify the external network resources to which the
+application has access, also referred to as whitelisting.
 +
-  To add an access entry, click `Add` for the `Access` table. In the
-  required `Origin` field, type the URL to which access is granted,
-  using `*` as a wildcard character. Select the `Allow Subdomains` and
-  `Browser Only` check boxes as appropriate. These items enable access
-  to subdomains and cause links to open in browsers rather than the
-  application window, respectively. To add the access entry, click `OK`.
+To add an access entry, click `Add` for the `Access` table. In the
+required `Origin` field, type the URL to which access is granted,
+using `*` as a wildcard character. Select the `Allow Subdomains` and
+`Browser Only` check boxes as appropriate. These items enable access
+to subdomains and cause links to open in browsers rather than the
+application window, respectively. To add the access entry, click `OK`.
 +
-  By default for an application created with the Hybrid Mobile Tools
-  project wizard, the `Access` table has an entry allowing access to all
-  networks, `<access origin="*" />`. You are advised to declare access
-  to specific network resources.
+By default for an application created with the Hybrid Mobile Tools
+project wizard, the `Access` table has an entry allowing access to all
+networks, `<access origin="*" />`. You are advised to declare access
+to specific network resources.
 Remove a feature, parameter, preference or access::
-  In the appropriate table, select the item to be removed and click
-  `Remove`. Note that removing a feature also removes the associated
-  parameters.
+In the appropriate table, select the item to be removed and click
+`Remove`. Note that removing a feature also removes the associated
+parameters.
 
 All changes to `config.xml` must be saved before the results take
 effect. To save, press Ctrl+S.
@@ -510,19 +510,19 @@ You can use the actions of Hybrid Mobile Tools to run applications on
 devices and simulators, as detailed below.
 
 Run on an Android device::
-  In the `Project Explorer` view, right-click the project name and click
-  `Run As`→`Run on Android Device`. This option calls the external
-  Android SDK to package the workspace project and run it on an Android
-  device if one is attached. Note that Android APIs and AVDs must be
-  installed and the IDE correctly configured to use the Android SDK for
-  this option to execute successfully.
+In the `Project Explorer` view, right-click the project name and click
+`Run As`→`Run on Android Device`. This option calls the external
+Android SDK to package the workspace project and run it on an Android
+device if one is attached. Note that Android APIs and AVDs must be
+installed and the IDE correctly configured to use the Android SDK for
+this option to execute successfully.
 Run on an Android emulator::
-  In the `Project Explorer` view, right-click the project name and click
-  `Run As`→`Run on Android Emulator`. This option calls the external
-  Android SDK to package the workspace project and run it on the Android
-  emulator. Note that Android APIs and AVDs must be installed and the
-  IDE correctly configured to use the Android SDK for this option to
-  execute successfully.
+In the `Project Explorer` view, right-click the project name and click
+`Run As`→`Run on Android Emulator`. This option calls the external
+Android SDK to package the workspace project and run it on the Android
+emulator. Note that Android APIs and AVDs must be installed and the
+IDE correctly configured to use the Android SDK for this option to
+execute successfully.
 +
 [IMPORTANT]
 ====
@@ -554,7 +554,7 @@ project name and click `Run As`→`Run with CordovaSim`. This opens the
 application in CordovaSim, which is composed of a BrowserSim simulated
 device and a device input panel.]
 
-1.  ?
+* ?
 
 [[manage-hybrid-mobile-project-run-configurations]]
 == Manage Hybrid Mobile Project Run Configurations
@@ -593,11 +593,11 @@ have the same `Common` tab. These options include where to save the
 run configuration information and how standard input and output are
 managed. Additional customizable options vary according to simulator:
 +
-1.  For Android, you can specify details about the virtual device to
-be used by the emulator and the values of environment variables.
+* For Android, you can specify details about the virtual device to be
+used by the emulator and the values of environment variables.
 Additionally, you can customize which of the information returned by
 the Android emulator is shown in the IDE console.
-2.  For CordovaSim, you can customize default values including the
+* For CordovaSim, you can customize default values including the
 location of the root folder containing key device-independent files,
 the application start page opened when CordovaSim starts, and the
 server port used by CordovaSim to host the application.
@@ -628,8 +628,8 @@ to use the Android SDK for this procedure to execute successfully.
 click `Export`.
 2.  Expand `Mobile`, select the export type as appropriate and click
 `Next`:
-1.  To export as an application, select `Export Mobile Application`.
-2.  To export as a native project, select
+* To export as an application, select `Export Mobile Application`.
+* To export as a native project, select
 `Export Native Platform Project`.
 +
 image:images/4412.png[Expand `Mobile`, select the export type as
@@ -637,12 +637,12 @@ appropriate and click `Next`. To export as an application, select
 `Export Mobile Application`. To export as a native project, select
 `Export Native Platform Project`.]
 3.  Complete the following fields:
-1.  From the `Select Projects` list, select the check boxes of one or
-more workspace projects to be exported.
-2.  From the `Select Platforms` list, select the check boxes of one or
+* From the `Select Projects` list, select the check boxes of one or more
+workspace projects to be exported.
+* From the `Select Platforms` list, select the check boxes of one or
 more operating systems for which you want to export the selected
 project. Only operating systems with installed SDKs are listed.
-3.  In the `Directory` field, type the path to which the projects are to
+* In the `Directory` field, type the path to which the projects are to
 be exported or click `Browse` to navigate to the location.
 +
 image:images/4413.png[From the `Select Projects` list, select the check
@@ -654,7 +654,8 @@ exported or click `Browse` to navigate to the location.]
 4.  Click `Finish`. Projects are exported to the specified location.
 Exported native projects are organized with subdirectories for each
 selected operating system.
-5.  ?
+
+* ?
 
 [[customizing-hybrid-mobile-tools-and-cordovasim]]
 = Customizing Hybrid Mobile Tools and CordovaSim
@@ -665,7 +666,7 @@ selected operating system.
 The aim of this section is to guide you in customizing Hybrid Mobile
 Tools and CordovaSim:
 
-1.  Specify an Android SDK location
+* Specify an Android SDK location
 
 [[set-the-android-sdk-location]]
 == Set the Android SDK Location

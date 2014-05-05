@@ -56,13 +56,13 @@ image:images/4322.png[To set BrowserSim to use a 32-bit JVM, click
 
 The aim of this section is to guide you in using BrowserSim:
 
-1.  View local and remote web applications in BrowserSim
-2.  Change the appearance of simulated devices, by rotating them and
+* View local and remote web applications in BrowserSim
+* Change the appearance of simulated devices, by rotating them and
 changing or removing their skins
-3.  Check the look and functionality of web pages in different browsers,
+* Check the look and functionality of web pages in different browsers,
 such as the default browser or additional synchronized simulated devices
-4.  Generate screen captures of simulated devices and their web pages
-5.  View the page source of web pages with editors, Firebug Lite and
+* Generate screen captures of simulated devices and their web pages
+* View the page source of web pages with editors, Firebug Lite and
 Weinre
 
 [[view-a-web-application-on-browsersim]]
@@ -72,16 +72,16 @@ You can use BrowserSim to view web applications on local file systems or
 deployed on runtime servers.
 
 To view web applications in local file systems::
-  In the `Project Explorer` view, select a `.html` file and click the
-  `Run BrowserSim` icon image:images/4115.png[image]. Alternatively,
-  right-click a `.html` file and click `Open With`→`BrowserSim`.
+In the `Project Explorer` view, select a `.html` file and click the
+`Run BrowserSim` icon image:images/4115.png[image]. Alternatively,
+right-click a `.html` file and click `Open With`→`BrowserSim`.
 To view deployed web applications::
-  In the `Servers` view, expand the server on which the application is
-  deployed. Right-click the application and click
-  `Show In`→`BrowserSim`. Alternatively, select the application and
-  click the `Run BrowserSim` icon. If BrowserSim is the default IDE
-  browser, you can also right-click the application and click
-  `Show In`→`Web Browser`.
+In the `Servers` view, expand the server on which the application is
+deployed. Right-click the application and click
+`Show In`→`BrowserSim`. Alternatively, select the application and
+click the `Run BrowserSim` icon. If BrowserSim is the default IDE
+browser, you can also right-click the application and click
+`Show In`→`Web Browser`.
 +
 [IMPORTANT]
 ====
@@ -108,25 +108,25 @@ BrowserSim provides actions to assist with viewing web applications on
 its simulated devices.
 
 Open a web link::
-  In the browser window, click the web link. The link opens in the
-  simulated device browser window.
+In the browser window, click the web link. The link opens in the
+simulated device browser window.
 Show or hide the address bar::
-  Click the notification bar, where the connectivity, time and battery
-  are displayed, to show or hide the address bar.
+Click the notification bar, where the connectivity, time and battery
+are displayed, to show or hide the address bar.
 Reload a web page::
-  Click the `Reload` icon. The icon differs in appearance and location
-  across the simulated devices.
+Click the `Reload` icon. The icon differs in appearance and location
+across the simulated devices.
 Stop loading a web page::
-  Click the `Stop` icon image:images/4101.png[image] at the end of the
-  address bar.
+Click the `Stop` icon image:images/4101.png[image] at the end of the
+address bar.
 Use simulated touch::
-  Right-click the simulated device and click `Enable Touch Events`. This
-  option changes the cursor to a circle when it is over the simulated
-  device browser window and returns mouse events in the browser window
-  as touch events.
+Right-click the simulated device and click `Enable Touch Events`. This
+option changes the cursor to a circle when it is over the simulated
+device browser window and returns mouse events in the browser window
+as touch events.
 Close BrowserSim::
-  Right-click the simulated device and click `Close`. Open BrowserSim
-  windows automatically close when the IDE closes.
+Right-click the simulated device and click `Close`. Open BrowserSim
+windows automatically close when the IDE closes.
 
 [[change-the-appearance-of-a-simulated-device]]
 == Change the Appearance of a Simulated Device
@@ -137,8 +137,8 @@ are retained by BrowserSim and they are automatically applied when it
 starts in future.
 
 Rotate the view between portrait and landscape modes::
-  Click any corner of the simulated device. Alternatively, right-click
-  the simulated device and click `Rotate Left` or `Rotate Right`.
+Click any corner of the simulated device. Alternatively, right-click
+the simulated device and click `Rotate Left` or `Rotate Right`.
 +
 image:images/4104.png[To rotate the view between portrait and
 landscape modes, click any corner of the simulated device.]
@@ -188,11 +188,11 @@ To generate a screen capture of a simulated device, right-click the
 simulated device and click `Screenshot`. Select the output for the
 screen capture from the list of options:
 
-1.  `Save` to save as a `.png` file in the default location. The default
+* `Save` to save as a `.png` file in the default location. The default
 location is a customizable setting and if it is not set you are prompted
 to select a location to which to save the file each time.
-2.  `Save As` to save as a `.png` file in a location you specify.
-3.  `Copy to Clipboard` to copy the graphic for immediate use.
+* `Save As` to save as a `.png` file in a location you specify.
+* `Copy to Clipboard` to copy the graphic for immediate use.
 
 [[activate-livereload-for-browsersim]]
 == Activate LiveReload for BrowserSim
@@ -274,16 +274,16 @@ can be viewed with a variety of applications that can be initiated from
 within BrowserSim.
 
 Open the page source in an editor::
-  Right-click the simulated device and click `View Page Source`. The
-  file containing the page source opens in an IDE editor.
+Right-click the simulated device and click `View Page Source`. The
+file containing the page source opens in an IDE editor.
 Inspect the page source with Firebug Lite::
-  Right-click the simulated device and click `Debug`→`Firebug Lite`. The
-  Firebug Lite application is displayed in an external window.
+Right-click the simulated device and click `Debug`→`Firebug Lite`. The
+Firebug Lite application is displayed in an external window.
 Inspect and edit the page source with Weinre::
-  Right-click the simulated device and click `Debug`→`Weinre`. The
-  Weinre Inspector is displayed in an external window. Weinre supports
-  remote debugging, enabling you to debug an application running on a
-  mobile device from your desktop browser.
+Right-click the simulated device and click `Debug`→`Weinre`. The
+Weinre Inspector is displayed in an external window. Weinre supports
+remote debugging, enabling you to debug an application running on a
+mobile device from your desktop browser.
 
 [[customizing-browsersim]]
 = Customizing BrowserSim
@@ -293,12 +293,12 @@ Inspect and edit the page source with Weinre::
 
 The aim of this section is to guide you in customizing BrowserSim:
 
-1.  Make BrowserSim more prominent to use by making it the default
+* Make BrowserSim more prominent to use by making it the default
 browser, by adding its icon to the global toolbar and creating a
 shortcut key for launching it
-2.  Extend the functionality of BrowserSim by adding or modify the
+* Extend the functionality of BrowserSim by adding or modify the
 simulated devices it provides
-3.  Customize the default settings of BrowserSim for large simulated
+* Customize the default settings of BrowserSim for large simulated
 devices, for LiveReload, for screen captures and for Weinre
 
 [[make-browsersim-the-default-browser]]
@@ -373,14 +373,14 @@ BrowserSim and modify the existing devices, as detailed below.
 1.  Right-click the simulated device and click `Preferences`.
 2.  In the `Devices` section of the `Devices` tab, click `Add`.
 3.  Complete the fields and options as detailed:
-1.  In the `Name` field, type the name you want to give the device.
-2.  In the `Width` and `Height` fields, type the dimensions of the
-device window in pixels.
-3.  In the `Pixel Ratio` field, type a value for the ratio of CSS pixels
+* In the `Name` field, type the name you want to give the device.
+* In the `Width` and `Height` fields, type the dimensions of the device
+window in pixels.
+* In the `Pixel Ratio` field, type a value for the ratio of CSS pixels
 to device pixels.
-4.  In the `User Agent` field, type the User Agent string of your
-device. Clearing the `User Agent` check box results in the default User
-Agent for the BrowserSim browser being used.
+* In the `User Agent` field, type the User Agent string of your device.
+Clearing the `User Agent` check box results in the default User Agent
+for the BrowserSim browser being used.
 +
 [NOTE]
 ====
@@ -390,7 +390,7 @@ tailored for devices, operating systems and browsers. Information is
 widely available on the Internet to assist you in identifying the User
 Agent associated with a particular device.
 ====
-5.  From the `Skin` list, select the skin to be used or select `None`.
+* From the `Skin` list, select the skin to be used or select `None`.
 +
 image:images/4118.png[In the `Devices` section of the `Devices` tab,
 click `Add`.]

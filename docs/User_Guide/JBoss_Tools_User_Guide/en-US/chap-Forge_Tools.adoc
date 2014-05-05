@@ -46,16 +46,16 @@ the Forge command line.
 
 The aim of this section is to guide you in using Forge Tools:
 
-1.  View and manage the Forge Console view, from which the Forge command
+* View and manage the Forge Console view, from which the Forge command
 line is accessible
-2.  Start and stop the Forge runtime server in order to access the
-command line
-3.  Navigate to project resources in the Forge command line
-4.  Understand how Forge commands affect the IDE through background
+* Start and stop the Forge runtime server in order to access the command
+line
+* Navigate to project resources in the Forge command line
+* Understand how Forge commands affect the IDE through background
 actions, such as expanding directories in explorer views and opening
 files in editors
-5.  Use wizards for accomplishing common Forge commands as an
-alternative to the Forge command line
+* Use wizards for accomplishing common Forge commands as an alternative
+to the Forge command line
 
 [[manage-the-forge-console]]
 == Manage the Forge Console
@@ -84,27 +84,27 @@ command line. Forge Tools provides actions for starting and managing the
 Forge runtime server.
 
 Start Forge::
-  In the `Forge Console` view, click the
-  `Start the default Forge runtime` icon image:images/4062.png[image].
+In the `Forge Console` view, click the
+`Start the default Forge runtime` icon image:images/4062.png[image].
   Alternatively, press Ctrl+4 and at the prompt asking if you want to
-  start the Forge runtime server, click `Yes`. A progress bar in the IDE
-  window and text in the `Forge Console` view indicate the starting
-  status of Forge.
+start the Forge runtime server, click `Yes`. A progress bar in the IDE
+window and text in the `Forge Console` view indicate the starting
+status of Forge.
 +
 image:images/4063.png[In the `Forge Console` view, click the
   `Start the default Forge runtime` icon. Alternatively, press Ctrl+4
-  and at the prompt asking if you want to start the Forge runtime
-  server, click `Yes`.]
+and at the prompt asking if you want to start the Forge runtime
+server, click `Yes`.]
 Run Forge in the background::
-  With a running instance of Forge, in the `Forge Console` view click
-  the `Close` icon image:images/4071.png[image]. Despite the
-  `Forge Console` view not being open, Forge continues to run in the
-  background. Reopen the `Forge Console` view to access the same Forge
-  command line, identifiable by the existing command line output.
+With a running instance of Forge, in the `Forge Console` view click
+the `Close` icon image:images/4071.png[image]. Despite the
+`Forge Console` view not being open, Forge continues to run in the
+background. Reopen the `Forge Console` view to access the same Forge
+command line, identifiable by the existing command line output.
 Stop Forge::
-  In the `Forge Console` view, click the
-  `Stop the running Forge runtime` icon image:images/4061.png[image].
-  Alternatively, on the Forge command line, enter `exit`.
+In the `Forge Console` view, click the
+`Stop the running Forge runtime` icon image:images/4061.png[image].
+Alternatively, on the Forge command line, enter `exit`.
 +
 image:images/4069.png[To stop Forge, on the Forge command line enter
 `exit`.]
@@ -208,16 +208,16 @@ addition to supporting command line functionality. There are three
 wizards currently available relating to entities, as detailed below.
 
 Entities from Tables::
-  This wizard generates entities from an existing database. There are
-  options for creating a new project if one does not already exist and
-  browsing for the driver.jar and driver classes.
+This wizard generates entities from an existing database. There are
+options for creating a new project if one does not already exist and
+browsing for the driver.jar and driver classes.
 REST Endpoints from Entities::
-  This wizard generates REST endpoint for entities.
+This wizard generates REST endpoint for entities.
 Scaffold UI from Entities::
-  This wizard generates the necessary scaffolding for you to use JPA
-  entities in your project. There are options for JavaServer Faces and
-  AngularJS implementations, with the wizard creating the associated
-  pages and Java backing beans.
+This wizard generates the necessary scaffolding for you to use JPA
+entities in your project. There are options for JavaServer Faces and
+AngularJS implementations, with the wizard creating the associated
+pages and Java backing beans.
 
 To open a Forge Tools wizard, click `File`→`New`→`Other` and expand
 `JBoss Tools`→`Forge`. Select one of the listed wizards, click `Next`
@@ -236,8 +236,8 @@ listed wizards, click `Next` and follow the instructions.]
 
 The aim of this section is to guide you in customizing Forge Tools:
 
-1.  Customize when and how Forge starts
-2.  Manage available Forge runtime servers
+* Customize when and how Forge starts
+* Manage available Forge runtime servers
 
 [[customize-the-forge-start]]
 == Customize the Forge Start
@@ -248,20 +248,20 @@ image:images/4066.png[To open the the Forge Pane, click
 `Window`→`Preferences` and select `Forge`.]
 
 Start Forge on IDE start::
-  Click `Window`→`Preferences` and select `Forge`. Select the
-  `Start Forge when workbench starts` check box. Click `OK` to close the
-  Preferences window.
+Click `Window`→`Preferences` and select `Forge`. Select the
+`Start Forge when workbench starts` check box. Click `OK` to close the
+Preferences window.
 Start Forge in debug mode::
-  Click `Window`→`Preferences` and select `Forge`. Select the
-  `Start Forge in Debug Mode` check box. Click `OK` to close the
-  Preferences window. The debug mode enables you to view the progress of
-  processes executed on the Forge command line in the `Debug` view. This
-  mode is most useful if you are developing and testing plug-ins to
-  extend the functionality of Forge.
+Click `Window`→`Preferences` and select `Forge`. Select the
+`Start Forge in Debug Mode` check box. Click `OK` to close the
+Preferences window. The debug mode enables you to view the progress of
+processes executed on the Forge command line in the `Debug` view. This
+mode is most useful if you are developing and testing plug-ins to
+extend the functionality of Forge.
 Specify arguments for Forge start::
-  Click `Window`→`Preferences` and select `Forge`. In the
-  `Forge Startup VM Arguments` field, type the arguments you want Forge
-  to use when it starts. Click `OK` to close the Preferences window.
+Click `Window`→`Preferences` and select `Forge`. In the
+`Forge Startup VM Arguments` field, type the arguments you want Forge
+to use when it starts. Click `OK` to close the Preferences window.
 +
 [NOTE]
 ====
@@ -286,17 +286,17 @@ To manage the available Forge runtime servers, click
 servers, click `Window`→`Preferences`, expand `Forge` and select
 `Installed Forge Runtimes`.
 
-1.  To add a Forge runtime server, click `Add`. In the `Name` field,
-type a name to distinguish the Forge runtime server in the IDE. In the
+* To add a Forge runtime server, click `Add`. In the `Name` field, type
+a name to distinguish the Forge runtime server in the IDE. In the
 `Location` field, type the location of the runtime server or click
 `Browse` to navigate to the location. Click `OK` to close the window.
-2.  To change the name or the location of a Forge runtime server, from
-the `Installed Forge Runtimes` list select a runtime and click `Edit`.
+* To change the name or the location of a Forge runtime server, from the
+`Installed Forge Runtimes` list select a runtime and click `Edit`.
 Modify the `Name` and `Location` fields as appropriate. Click `OK` to
 close the window.
-3.  To delete a Forge runtime server, from the
-`Installed Forge Runtimes` list select the runtime and click `Remove`.
-4.  To set a runtime server as the default, select the check box
+* To delete a Forge runtime server, from the `Installed Forge Runtimes`
+list select the runtime and click `Remove`.
+* To set a runtime server as the default, select the check box
 corresponding to the Forge runtime server. This runtime server is used
 when Forge starts.
 

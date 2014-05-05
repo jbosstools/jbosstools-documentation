@@ -16,16 +16,16 @@ on a daily basis.
 Mobile Web Tools consists of project wizards, file templates, the jQuery
 Mobile palette, and actions for developing with HTML5 and jQuery Mobile:
 
-1.  The HTML5 project wizards and HTML5 jQuery Mobile file template
-enable you to quickly generate the foundations of mobile web
-applications and to view mobile web application programming in action.
-2.  The jQuery Mobile palette offers a visual reference of the available
+* The HTML5 project wizards and HTML5 jQuery Mobile file template enable
+you to quickly generate the foundations of mobile web applications and
+to view mobile web application programming in action.
+* The jQuery Mobile palette offers a visual reference of the available
 HTML5 and jQuery Mobile user interface widgets, which can be
 effortlessly inserted into your project files with drag-and-drop
 functionality. In conjunction with the jQuery Mobile palette, widget
 wizards allow you to easily customize HTML5 and jQuery Mobile widgets
 when inserting them into your project.
-3.  Code assistance and one-click action for viewing jQuery Mobile pages
+* Code assistance and one-click action for viewing jQuery Mobile pages
 in browsers enable you to work more efficiently when developing mobile
 web applications in the IDE.
 
@@ -37,12 +37,12 @@ web applications in the IDE.
 
 The aim of this section is to guide you in using Mobile Web Tools:
 
-1.  Generate the foundations of web applications with the project
-wizards and file templates
-2.  Access the jQuery Mobile palette and add customized widgets to your
+* Generate the foundations of web applications with the project wizards
+and file templates
+* Access the jQuery Mobile palette and add customized widgets to your
 mobile web application with the aid of the widget wizards
-3.  Use code completion to assist in programming
-4.  View pages of the application in various browsers
+* Use code completion to assist in programming
+* View pages of the application in various browsers
 
 [[create-a-mobile-web-project]]
 == Create a Mobile Web Project
@@ -50,8 +50,8 @@ mobile web application with the aid of the widget wizards
 Project wizards are available to assist you in generating new mobile web
 applications. The project wizards are listed in JBoss Central:
 
-1.  `HTML5 Project`, under `Start from scratch`
-2.  `kitchensink-html5-mobile`, under `Start from a sample`
+* `HTML5 Project`, under `Start from scratch`
+* `kitchensink-html5-mobile`, under `Start from a sample`
 
 [IMPORTANT]
 ====
@@ -74,10 +74,9 @@ Server 7.1 server runtime environment or select `<none>`. When `<none>`
 is selected, a non-enterprise server runtime environment is assumed.
 3.  Click `Next`.
 4.  Complete the fields and options as detailed:
-1.  In the `Project name` field, type a name for the project.
-2.  In the `Package` field, type a package name for the project
-resources.
-3.  To create the project in a different location to the workspace
+* In the `Project name` field, type a name for the project.
+* In the `Package` field, type a package name for the project resources.
+* To create the project in a different location to the workspace
 default, clear the `Use default Workspace location` check box and type
 the path in the field or click `Browse` to navigate to the location.
 +
@@ -126,10 +125,10 @@ procedure below details how to insert the template into your project.
 1.  In the `Project Explorer` view, right-click a project and click
 `New`→`HTML File`.
 2.  Complete the fields and options as detailed:
-1.  In the `Enter or select the parent folder` field, type a project
-path or expand the project folder tree and select the parent folder for
-the new file.
-2.  In the `File name` field, type the name for the new file. It is not
+* In the `Enter or select the parent folder` field, type a project path
+or expand the project folder tree and select the parent folder for the
+new file.
+* In the `File name` field, type the name for the new file. It is not
 essential to include the file extension in the name as this is
 automatically appended if it is found to be missing.
 +
@@ -141,8 +140,8 @@ the name as this is automatically appended if it is found to be
 missing.]
 3.  Click `Next`.
 4.  Complete the fields and options as detailed:
-1.  Ensure the `Use HTML Template` check box is selected.
-2.  From the `Templates` table, select `HTML5 jQuery Mobile Page`.
+* Ensure the `Use HTML Template` check box is selected.
+* From the `Templates` table, select `HTML5 jQuery Mobile Page`.
 +
 image:images/4097.png[Ensure the `Use HTML Template` check box is
 selected. From the `Templates` table, select
@@ -212,19 +211,19 @@ information. Once you have completed the customizable fields, click
 The widget wizards have three common aspects:
 
 Design fields::
-  These fields are unique to each widget. They allow you to customize
-  the attributes of the widget by providing names, actions, numbers of
-  elements, and styling themes. All widget wizards assign automatically
-  generated values to the `ID` attribute in the case that you do not
-  specify a value. Content assist is available for the `URL (href)`
+These fields are unique to each widget. They allow you to customize
+the attributes of the widget by providing names, actions, numbers of
+elements, and styling themes. All widget wizards assign automatically
+generated values to the `ID` attribute in the case that you do not
+specify a value. Content assist is available for the `URL (href)`
   field by placing the text cursor in the field and pressing Ctrl+Space.
 Add references to JS/CSS::
-  This check box provides the ability to automatically add any missing
-  library references to the HTML5 file that are required by the widget.
+This check box provides the ability to automatically add any missing
+library references to the HTML5 file that are required by the widget.
 Preview Panes::
-  These panes show previews of the code snippet for the widget and of
-  the rendered widget. The preview panes can be shown and hidden by
-  clicking `Show Preview` and `Hide Preview`, respectively.
+These panes show previews of the code snippet for the widget and of
+the rendered widget. The preview panes can be shown and hidden by
+clicking `Show Preview` and `Hide Preview`, respectively.
 
 [[get-assistance-with-jquery-mobile-programming]]
 == Get Assistance with jQuery Mobile Programming
@@ -267,9 +266,9 @@ To open a jQuery Mobile page from a file open in the
 `<div>` tag corresponding to the page widget. Continue to press Ctrl and
 from the menu select one of the options:
 
-1.  `Open With Browser`, which shows the page in the default browser of
+* `Open With Browser`, which shows the page in the default browser of
 the IDE
-2.  `Open With BrowserSim`, which shows the page in BrowserSim
+* `Open With BrowserSim`, which shows the page in BrowserSim
 
 image:images/4087.png[To open a jQuery Mobile page from a file open in
 the `JBoss Tools HTML Editor`, press Ctrl and move the mouse over the
@@ -284,7 +283,7 @@ from the menu select one of the options.]
 
 The aim of this section is to guide you in customizing Mobile Web Tools:
 
-1.  Customize the HTML5 jQuery Mobile templates available in the IDE
+* Customize the HTML5 jQuery Mobile templates available in the IDE
 
 [[customize-jquery-mobile-file-templates]]
 == Customize jQuery Mobile File Templates
@@ -304,24 +303,24 @@ in the IDE, click `Window`→`Preferences`. Expand
 There are a number of available actions:
 
 Add a template::
-  There are several options for adding templates:
+There are several options for adding templates:
 +
-  1.  To create a new template, click `New`. In the `Name` and
-  `Description` fields, type a name and description of the template,
-  respectively. In the `Pattern` field, type the code for the template.
-  From the `Context` list, select the instance in which the IDE should
-  make the template available. Click `OK` to close the window.
-  2.  To restore all templates that have been deleted, click
-  `Restore Removed`.
-  3.  To load an existing template into the IDE, click `Import` and
-  select the file. The file must be an XML file, with appropriate file
-  headers and the HTML5 and jQuery Mobile content written in XML syntax
-  and contained between XML `template` and `templates` tags.
+* To create a new template, click `New`. In the `Name` and
+`Description` fields, type a name and description of the template,
+respectively. In the `Pattern` field, type the code for the template.
+From the `Context` list, select the instance in which the IDE should
+make the template available. Click `OK` to close the window.
+* To restore all templates that have been deleted, click
+`Restore Removed`.
+* To load an existing template into the IDE, click `Import` and select
+the file. The file must be an XML file, with appropriate file headers
+and the HTML5 and jQuery Mobile content written in XML syntax and
+contained between XML `template` and `templates` tags.
 Edit a template::
-  From the table, select a template and click `Edit`. You can modify the
-  name, description, code content and context in which the IDE makes the
-  template available. After making changes, click `OK` to close the
-  window.
+From the table, select a template and click `Edit`. You can modify the
+name, description, code content and context in which the IDE makes the
+template available. After making changes, click `OK` to close the
+window.
 Remove a template::
-  From the table, select a template and click `Remove`.
+From the table, select a template and click `Remove`.
 

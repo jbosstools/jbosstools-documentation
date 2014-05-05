@@ -61,11 +61,11 @@ simulated devices.
 
 The aim of this section is to guide you in using LiveReload Tools:
 
-1.  Create a LiveReload server to receive information from the IDE on
+* Create a LiveReload server to receive information from the IDE on
 resource changes
-2.  Configure LiveReload for use with system web browsers and external
+* Configure LiveReload for use with system web browsers and external
 devices
-3.  View resources in LiveReload-enabled web browsers, including system
+* View resources in LiveReload-enabled web browsers, including system
 and external device browsers and BrowserSim
 
 [[create-a-livereload-server]]
@@ -136,13 +136,13 @@ LiveReload server. Alternatively, right-click the LiveReload server and
 click `Open` or press F3.]
 
 Insert JavaScript code snippet to resources::
-  In the Server Editor under `LiveReload Server Configuration`, select
-  the `Inject the livereload.js script in HTML pages` check box.
+In the Server Editor under `LiveReload Server Configuration`, select
+the `Inject the livereload.js script in HTML pages` check box.
 Enable LiveReload in external device browsers::
-  In the Server Editor under `LiveReload Server Configuration`, select
-  the `Allow Remote Connections` check box. This option is disabled by
-  default when a LiveReload server is created as it exposes your
-  workspace files, which may not always be desirable.
+In the Server Editor under `LiveReload Server Configuration`, select
+the `Allow Remote Connections` check box. This option is disabled by
+default when a LiveReload server is created as it exposes your
+workspace files, which may not always be desirable.
 
 All changes to the settings of a LiveReload server must be saved and the
 server restarted before the results will take effect. To save setting
@@ -170,38 +170,38 @@ as HTML and it is available for Chrome and FireFox.
 ====
 
 View workspace resources in a web browser::
-  In the `Project Explorer` view, right-click the resource file and
-  click `Open With`→`Web Browser via LiveReload Server`.
+In the `Project Explorer` view, right-click the resource file and
+click `Open With`→`Web Browser via LiveReload Server`.
 +
-  This requires the server to be configured to
-  `Inject the livereload.js script in HTML pages` and, if the server is
-  not correctly configured, you are prompted to enable this option.
+This requires the server to be configured to
+`Inject the livereload.js script in HTML pages` and, if the server is
+not correctly configured, you are prompted to enable this option.
 +
 image:images/4081.png[This requires the server to be configured to
 `Inject the livereload.js script in HTML pages` and, if the server is
 not correctly configured, you are prompted to enable this option.]
 +
-  The IDE-specified external web browser opens, with LiveReload
-  activated, and displays the workspace resource.
+The IDE-specified external web browser opens, with LiveReload
+activated, and displays the workspace resource.
 View deployed resources in a web browser::
-  Ensure the server and application of the deployed resources are
-  started. In the `Servers` view, right-click the application and click
-  `Show In`→`Web Browser via LiveReload Server`.
+Ensure the server and application of the deployed resources are
+started. In the `Servers` view, right-click the application and click
+`Show In`→`Web Browser via LiveReload Server`.
 +
 image:images/4074.png[Ensure the server and application of the
 deployed resources are started. In the `Servers` view, right-click the
 application and click `Show In`→`Web Browser via LiveReload Server`.]
 +
-  This requires the server to be configured to
-  `Inject the livereload.js script in HTML pages` and, if the server is
-  not correctly configured, you are prompted to enable this option.
+This requires the server to be configured to
+`Inject the livereload.js script in HTML pages` and, if the server is
+not correctly configured, you are prompted to enable this option.
 +
 image:images/4081.png[This requires the server to be configured to
 `Inject the livereload.js script in HTML pages` and, if the server is
 not correctly configured, you are prompted to enable this option.]
 +
-  The IDE-specified external web browser opens, with LiveReload
-  activated, and displays the deployed resource.
+The IDE-specified external web browser opens, with LiveReload
+activated, and displays the deployed resource.
 +
 [NOTE]
 ====
@@ -212,27 +212,27 @@ involving external web browsers. Click `Apply` and click `OK` to close
 the Preferences window.
 ====
 View deployed resources on an external device::
-  Ensure the server and application of the deployed resources are
-  started. In the `Servers` view, right-click the application and click
-  `Show In`→`Web Browser on External Device`.
+Ensure the server and application of the deployed resources are
+started. In the `Servers` view, right-click the application and click
+`Show In`→`Web Browser on External Device`.
 +
 image:images/4073.png[Ensure the server and application of the
 deployed resources are started. In the `Servers` view, right-click the
 application and click `Show In`→`Web Browser on External Device`.]
 +
-  This requires the server to be configured to
-  `Inject the livereload.js script in HTML pages` and
-  `Allow Remote Connections` and, if the server is not correctly
-  configured, you are prompted to enable these options.
+This requires the server to be configured to
+`Inject the livereload.js script in HTML pages` and
+`Allow Remote Connections` and, if the server is not correctly
+configured, you are prompted to enable these options.
 +
 image:images/4075.png[This requires the server to be configured to
 `Inject the livereload.js script in HTML pages` and
 `Allow Remote Connections` and, if the server is not correctly
 configured, you are prompted to enable these options.]
 +
-  A QR code and LiveReload server port URL corresponding to the deployed
-  application are displayed and these can be input into external device
-  browsers.
+A QR code and LiveReload server port URL corresponding to the deployed
+application are displayed and these can be input into external device
+browsers.
 +
 image:images/4076.png[A QR code and LiveReload server port URL
 corresponding to the deployed application are displayed and these can

@@ -14,15 +14,15 @@ time users of JBoss Tools, as well as those with more experience.
 JBoss Central comprises resources and actions for creating new projects,
 learning about the tools and installing software updates:
 
-1.  Project wizards create new projects based on sample applications and
+* Project wizards create new projects based on sample applications and
 different technologies.
-2.  The TicketMonster tutorial, part of JBoss Java Developer Framework,
+* The TicketMonster tutorial, part of JBoss Java Developer Framework,
 demonstrates how to use the IDE to best advantage in developing a
 complex web application that utilizes JBoss technologies.
-3.  Links to JBoss blog posts give timely insight into JBoss
-developments and the links to JBoss resources, such as documentation and
-forums, provide easy access to key information sources.
-4.  Software installation and update information assist in the easy
+* Links to JBoss blog posts give timely insight into JBoss developments
+and the links to JBoss resources, such as documentation and forums,
+provide easy access to key information sources.
+* Software installation and update information assist in the easy
 management of IDE plug-ins.
 
 [[about-the-jboss-perspective]]
@@ -33,24 +33,24 @@ actions when developing applications with JBoss technologies. The
 perspective consists of a default set of views, menus and toolbars.
 
 Views::
-  The default views of the JBoss perspective are JBoss Central,
-  OpenShift Explorer, Outline, Package Explorer, Palette, Problems,
-  Project Explorer, Properties, and Servers. These views are vital when
-  developing with JBoss technologies.
+The default views of the JBoss perspective are JBoss Central,
+OpenShift Explorer, Outline, Package Explorer, Palette, Problems,
+Project Explorer, Properties, and Servers. These views are vital when
+developing with JBoss technologies.
 Menus::
-  The default menus of the JBoss perspective are File, Edit, Navigate,
-  Search, Project, Run, Window, Help. These are shared with other
-  perspectives but contain unique menu items for actions such as
-  starting project wizards, converting line delimiters, showing items in
-  JBoss perspective views, generating Javadoc, building packages,
-  accessing JBoss Central and cheat sheets, and reporting problems with
-  tools.
+The default menus of the JBoss perspective are File, Edit, Navigate,
+Search, Project, Run, Window, Help. These are shared with other
+perspectives but contain unique menu items for actions such as
+starting project wizards, converting line delimiters, showing items in
+JBoss perspective views, generating Javadoc, building packages,
+accessing JBoss Central and cheat sheets, and reporting problems with
+tools.
 Toolbars::
-  The default toolbars that compose the global toolbar of the JBoss
-  perspective are BrowserSim, Debug, File, Help, Java EE, Java Element
-  Creation, JBoss Tools WTP Server Actions, Launch, Navigate, Search,
-  Select Maven Profiles, and Web Browser. The global toolbar provides
-  access to frequently used actions.
+The default toolbars that compose the global toolbar of the JBoss
+perspective are BrowserSim, Debug, File, Help, Java EE, Java Element
+Creation, JBoss Tools WTP Server Actions, Launch, Navigate, Search,
+Select Maven Profiles, and Web Browser. The global toolbar provides
+access to frequently used actions.
 
 [[features-of-jboss-central-and-the-jboss-perspective]]
 = Features of JBoss Central and the JBoss Perspective
@@ -61,12 +61,11 @@ Toolbars::
 The aim of this section is to guide you in using JBoss Central and the
 JBoss perspective:
 
-1.  View JBoss Central to access project wizards and information
-resources
-2.  Install and update software with JBoss Central
-3.  Open the JBoss perspective for easy access to key views, menus and
+* View JBoss Central to access project wizards and information resources
+* Install and update software with JBoss Central
+* Open the JBoss perspective for easy access to key views, menus and
 toolbars
-4.  Access cheat sheets that assist in project development
+* Access cheat sheets that assist in project development
 
 [[view-jboss-central]]
 == View JBoss Central
@@ -91,11 +90,11 @@ are two types of project wizards available in JBoss Central:
 `Start from scratch` and `Start from a sample`.
 
 `Start from scratch`::
-  These wizards create the same project using different underlying
-  technology, as stated in the project name. To view a project summary,
-  hover the cursor over a project wizard. If you do not have the
-  necessary plug-in installed to use a wizard, you are prompted to
-  install it when you click the wizard.
+These wizards create the same project using different underlying
+technology, as stated in the project name. To view a project summary,
+hover the cursor over a project wizard. If you do not have the
+necessary plug-in installed to use a wizard, you are prompted to
+install it when you click the wizard.
 +
 image:images/3963.png[The `Start from scratch` wizards create the same
 project using different underlying technology, as started in the
@@ -207,37 +206,37 @@ software or scroll through the list to locate it. Select the check box
 corresponding to the software you want to install and click `Install`
 or click the `Install` icon.]
 +
-  In the Install wizard, ensure the check boxes are selected for the
-  software you want to install and click `Next`.
+In the Install wizard, ensure the check boxes are selected for the
+software you want to install and click `Next`.
 +
 image:images/3984.png[In the Install wizard, ensure the check boxes
 are selected for the software you want to install and click `Next`.]
 +
-  Review the details of the items listed for installing and click
-  `Next`. After reading and agreeing to the license(s), click
-  `I accept the terms of the license agreement(s)` and click `Finish`.
-  The `Installing Software` window opens and reports the installation
-  progress.
+Review the details of the items listed for installing and click
+`Next`. After reading and agreeing to the license(s), click
+`I accept the terms of the license agreement(s)` and click `Finish`.
+The `Installing Software` window opens and reports the installation
+progress.
 +
-  During the installation process you may receive warnings about
-  installing unsigned content. If this is the case, check the details of
-  the content and if satisfied click `OK` to continue with the
-  installation.
+During the installation process you may receive warnings about
+installing unsigned content. If this is the case, check the details of
+the content and if satisfied click `OK` to continue with the
+installation.
 +
 image:images/3981.png[During the installation process you may receive
 warnings about installing unsigned content. If this is the case, check
 the details of the content and if satisfied click `OK` to continue
 with the installation.]
 +
-  Once installing is complete, you are prompted to restart the IDE.
-  Click `Yes` to restart now and `No` if you need to save any unsaved
-  changes to open projects. Note that changes do not take effect until
-  the IDE is restarted.
+Once installing is complete, you are prompted to restart the IDE.
+Click `Yes` to restart now and `No` if you need to save any unsaved
+changes to open projects. Note that changes do not take effect until
+the IDE is restarted.
 Check for software updates::
-  Click the `Check for Updates` icon image:images/3957.png[image]. The
-  `Contacting Software Sites` window opens and reports the progress of
-  checking. Once checking is complete, a prompt informs you of any new
-  software found. Click `OK` to close the prompt.
+Click the `Check for Updates` icon image:images/3957.png[image]. The
+`Contacting Software Sites` window opens and reports the progress of
+checking. Once checking is complete, a prompt informs you of any new
+software found. Click `OK` to close the prompt.
 +
 image:images/3974.png[The `Contacting Software Sites` window opens and
 reports the progress of checking. Once checking is complete, a prompt
@@ -323,11 +322,11 @@ the `.* resources` check box and click `OK`.
 The aim of this section is to guide you in customizing JBoss Central and
 the JBoss perspective:
 
-1.  Make JBoss Central visible when the IDE starts
-2.  Customize the views, menus and toolbars of the JBoss perspective
-3.  Enable offline availability of JBoss Central elements, such as
-project examples and auxiliary plug-ins
-4.  Specify the default IDE behavior for cheat sheets
+* Make JBoss Central visible when the IDE starts
+* Customize the views, menus and toolbars of the JBoss perspective
+* Enable offline availability of JBoss Central elements, such as project
+examples and auxiliary plug-ins
+* Specify the default IDE behavior for cheat sheets
 
 [[change-the-behavior-of-jboss-central-on-ide-start]]
 == Change the Behavior of JBoss Central on IDE Start

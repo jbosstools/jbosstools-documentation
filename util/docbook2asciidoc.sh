@@ -15,7 +15,7 @@ usage ()
   echo "Example: $0 -i /home/nboldt/tru/jbosstools-documentation/docs/User_Guide/JBoss_Tools_User_Guide/en-US/chap-OpenShift_Tools.xml -o /tmp/openshift"
   echo "Example: $0 -d /home/nboldt/tru/jbosstools-documentation/docs/User_Guide/JBoss_Tools_User_Guide/en-US"
   echo "Example: $0 -d /home/nboldt/tru/jbosstools-documentation/docs/User_Guide/JBoss_Tools_User_Guide/en-US \
-    -map 'guibutton=command guilabel=command guimenu=command procedure=orderedlist step=listitem'
+    -map 'guibutton=command guilabel=command guimenu=command procedure=orderedlist step=listitem' \
     -to 'md html epub pdf'"
     # instead of <command>, can use <emphasis> if we want italics
   exit 1;
