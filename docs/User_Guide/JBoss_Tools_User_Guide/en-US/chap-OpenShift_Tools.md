@@ -21,28 +21,28 @@ and install locally for development and testing purposes.
 OpenShift has a number of key features to assist you in developing and
 deploying applications:
 
-#. Unique domain names, or namespaces, support the hosting of your
+-   Unique domain names, or namespaces, support the hosting of your
     applications. A user account provides you with access to domains,
     the latter having the potential to be associated with multiple
     applications.
 
-#. Numerous cartridges give you access to predefined build and runtime
+-   Numerous cartridges give you access to predefined build and runtime
     environments with popular languages, database and management
     frameworks. OpenShift can also be extensively customized with the
     Do-It-Yourself (DIY) cartridge.
 
-#. Different sized gears provide RAM and disk space for your
+-   Different sized gears provide RAM and disk space for your
     applications and cartridges. You can use a set number of small gears
     as part of OpenShift Online with Free Plan, a free OpenShift user
     account, and extend to more gears and bigger gears with OpenShift
     Online with Silver Plan or OpenShift Enterprise.
 
-#. Built-in administrative and stack management frees you up to focus
+-   Built-in administrative and stack management frees you up to focus
     on code development. OpenShift manages the intricate details of
     deploying your application to the stack and interfacing with
     middleware technologies for you.
 
-#. Automatic or manual scaling of the resources supporting your
+-   Automatic or manual scaling of the resources supporting your
     applications ensures that application performance does not suffer as
     usage increases. OpenShift can create additional instances of your
     application across more gears and enable clustering.
@@ -60,18 +60,18 @@ development of applications deployed on OpenShift servers.
 OpenShift Tools consists of a set of wizards and actions, which together
 provide core functionality for developing OpenShift applications:
 
-#. The tools prepare you for working with OpenShift, by assisting you
+-   The tools prepare you for working with OpenShift, by assisting you
     to create OpenShift user accounts and domains.
 
-#. OpenShift Tools assists you with the essential tasks of setting up
+-   OpenShift Tools assists you with the essential tasks of setting up
     your system and the IDE for OpenShift interaction, such as creating
     connections and generating and uploading SSH keys.
 
-#. When creating and developing OpenShift applications, OpenShift Tools
+-   When creating and developing OpenShift applications, OpenShift Tools
     provides wizards for creating new and importing existing OpenShift
     applications.
 
-#. A variety of actions are available for managing deployed
+-   A variety of actions are available for managing deployed
     applications, for tasks such as restarting applications, uploading
     changes to applications, viewing OpenShift server output, editing
     application cartridges and environment variables, and deleting
@@ -83,20 +83,20 @@ provide core functionality for developing OpenShift applications:
 
 The aim of this section is to guide you in using OpenShift Tools:
 
-#. Create OpenShift Online user accounts
+-   Create OpenShift Online user accounts
 
-#. Connect to OpenShift servers
+-   Connect to OpenShift servers
 
-#. Generate SSH keys and upload them to an OpenShift user account
+-   Generate SSH keys and upload them to an OpenShift user account
 
-#. Create and manage domains
+-   Create and manage domains
 
-#. Create new OpenShift applications from within the IDE
+-   Create new OpenShift applications from within the IDE
 
-#. Deploy existing workspace applications to OpenShift and import
+-   Deploy existing workspace applications to OpenShift and import
     existing OpenShift applications into a workspace
 
-#. Manage deployed OpenShift applications and view information about
+-   Manage deployed OpenShift applications and view information about
     them
 
 ## Create an OpenShift Online User Account
@@ -136,18 +136,18 @@ through connecting to OpenShift for the first time in the IDE.
 
 2.  Complete the fields and options as detailed:
 
-    #. From the `Connection` list, select `New Connection`.
+    -   From the `Connection` list, select `New Connection`.
 
-    #. If you want to use a server other than the default at
+    -   If you want to use a server other than the default at
         https://openshift.redhat.com, clear the `Use default server`
         check box and in the `Server` field type the address of the
         server. This option is most relevant when you are using
         OpenShift Enterprise or Origin servers.
 
-    #. In the `Username` and `Password` fields, type your OpenShift
+    -   In the `Username` and `Password` fields, type your OpenShift
         user account authentication information.
 
-    #. If you want the `Password` field to automatically populate for
+    -   If you want the `Password` field to automatically populate for
         this connection in future, select the `Save password` check box.
 
         > **Note**
@@ -232,13 +232,13 @@ uploading of SSH keys to OpenShift.
 
 3.  Complete the fields and options as detailed:
 
-    #. In the `Name` field, type a name for the key pair that will be
+    -   In the `Name` field, type a name for the key pair that will be
         used by OpenShift to distinguish this key pair from others
         associated with your account.
 
-    #. From the `Key Type` list, select `SSH_RSA`.
+    -   From the `Key Type` list, select `SSH_RSA`.
 
-    #. Ensure the `SSH2 Home` field contains the location where you
+    -   Ensure the `SSH2 Home` field contains the location where you
         want to create the files associated with the key pair. To change
         the location, clear the `Default` check box and click `Browse`
         to navigate to the desired location.
@@ -251,14 +251,14 @@ uploading of SSH keys to OpenShift.
         > `General`→`Network Connections`, selecting `SSH2` and changing
         > the location in the `SSH2 home` field of the `General` tab.
 
-    #. In the `Private Key File Name` field, type a name for the
+    -   In the `Private Key File Name` field, type a name for the
         private key file.
 
-    #. In the `Private Key Passphrase` field, type a passphrase for use
+    -   In the `Private Key Passphrase` field, type a passphrase for use
         in accessing the private key. This field is not mandatory and
         can be left empty if you want.
 
-    #. In the `Public Key File Name` field, type a name for the public
+    -   In the `Public Key File Name` field, type a name for the public
         key file. Typically the file name of the public key is that of
         the private key with `.pub` appended.
 
@@ -432,39 +432,39 @@ allow the OpenShift server adapter to do it for you.
 3.  Complete the fields and options about the OpenShift application as
     detailed:
 
-    #. From the `Domain` list, select the domain to which to assign the
+    -   From the `Domain` list, select the domain to which to assign the
         application.
 
-    #. In the `Name` field, type a name for the new OpenShift
+    -   In the `Name` field, type a name for the new OpenShift
         application. There are restrictions on the name you can use for
         an application. Names must consist only of alphanumeric
         characters. In the case of an existing workspace project, for
         simplicity you may choose the OpenShift application name to be
         the same as the name of the workspace project.
 
-    #. From the `Type` list, select a runtime server. This will ensure
+    -   From the `Type` list, select a runtime server. This will ensure
         the necessary core programming or technology cartridge is added
         to your application.
 
-    #. From the `Gear profile` list, select the gear size. This is RAM
+    -   From the `Gear profile` list, select the gear size. This is RAM
         and disk space required by your applications and its cartridges.
         If you are using OpenShift Online with Free Plan, you have
         access to small gears only.
 
-    #. If you want OpenShift to automatically increase the instances of
+    -   If you want OpenShift to automatically increase the instances of
         your application and enable clustering as usage increases,
         select the `Enable scaling` check box.
 
-    #. From the `Embedded Cartridges` list, select the functionality
+    -   From the `Embedded Cartridges` list, select the functionality
         you want to enable in your application. This will add associated
         capabilities and support to your application.
 
-    #. To specify that the new application is to be based on source
+    -   To specify that the new application is to be based on source
         code from an existing Git repository, click `Advanced` and clear
         the `Use default source code` check box. In the `Source code`
         field, type the URL of the source code location.
 
-    #. To declare environment variables to be used when the application
+    -   To declare environment variables to be used when the application
         is run, click `Advanced` and click `Environment Variables`.
         Click `Add` to declare an environment variable. In the `Name`
         and `Value` fields, type a name and value for the environment
@@ -478,19 +478,19 @@ allow the OpenShift server adapter to do it for you.
 
 5.  Complete the fields and options as detailed:
 
-    #. To specify that the new application is to be based on an
+    -   To specify that the new application is to be based on an
         existing workspace project, clear the `Create a new project`
         check box and in the `Use existing project` field type the name
         of the project or click `Browse` to locate the project.
         Otherwise, ensure the `Create a new project` check box is
         selected.
 
-    #. Ensure the `Create and set up a server for easy publishing`
+    -   Ensure the `Create and set up a server for easy publishing`
         check box is selected. This option automatically creates an
         OpenShift server adapter for the application, enabling you to
         easily upload changes made in the IDE to the OpenShift server.
 
-    #. To disable Maven builds, check the
+    -   To disable Maven builds, check the
         `Disable automatic Maven builds when pushing to OpenShift` check
         box. This informs OpenShift not to launch the Maven build
         process when the Maven project is pushed to OpenShift but to put
@@ -557,9 +557,9 @@ procedure below.
 
 2.  Complete the fields and options as detailed:
 
-    #. From the `Domain` list, select the domain of the application.
+    -   From the `Domain` list, select the domain of the application.
 
-    #. Ensure the `Use existing application` check box is selected and
+    -   Ensure the `Use existing application` check box is selected and
         type the name of the application in the text field. This field
         has an automatic completion feature to assist you in typing the
         application name or click `Browse` to see a list of all of your
@@ -585,16 +585,16 @@ procedure below.
 
 4.  Complete the fields and options as detailed:
 
-    #. Ensure the `Create a new project` check box is selected. This
+    -   Ensure the `Create a new project` check box is selected. This
         option creates a new project in your IDE workspace for the
         existing OpenShift application.
 
-    #. Ensure the `Create and set up a server for easy publishing`
+    -   Ensure the `Create and set up a server for easy publishing`
         check box is selected. This option automatically creates an
         OpenShift server adapter for the application, enabling you to
         easily upload changes made in the IDE to the OpenShift server.
 
-    #. To disable Maven builds, check the
+    -   To disable Maven builds, check the
         `Disable automatic Maven builds when pushing to OpenShift` check
         box. This informs OpenShift not to launch the Maven build
         process when the Maven project is pushed to OpenShift but to put
@@ -646,10 +646,10 @@ you create or import an OpenShift application and do not select the
 
 2.  Complete the fields and options as detailed:
 
-    #. From the list of server types, expand `OpenShift` and select
+    -   From the list of server types, expand `OpenShift` and select
         `OpenShift Server`.
 
-    #. The `Server's host name` and `Server name` field are
+    -   The `Server's host name` and `Server name` field are
         automatically completed. The `Server's host name` field contains
         the host name of the server and the `Server name` field contains
         the name by which the server adapter is know in the `Servers`
@@ -663,15 +663,15 @@ you create or import an OpenShift application and do not select the
 
 4.  Complete the fields and options as detailed:
 
-    #. Ensure the `Connection`, `Domain Name`, `Application Name` and
+    -   Ensure the `Connection`, `Domain Name`, `Application Name` and
         `Deploy Project` fields contain the correct information relating
         to the application for which you want to generate the server
         adapter.
 
-    #. In the `Remote` field, type the alias for the remote Git
+    -   In the `Remote` field, type the alias for the remote Git
         repository. For OpenShift Online applications this is `origin`.
 
-    #. In the `Output Directory` field, type the location where
+    -   In the `Output Directory` field, type the location where
         archived projects for deployment are to be stored or click
         `Browse` to navigate to the location.
 
@@ -860,13 +860,13 @@ Forward remote ports
     forward window opens. Before commencing port forwarding, there are a
     number of options you can set:
 
-    #. By default, the local address is 127.0.0.1. If this is
+    -   By default, the local address is 127.0.0.1. If this is
         unavailable, a random available address is allocated. To set the
         local address to be the same as the remote address, clear the
         `Use '127.0.0.1' as the local address for all Services` check
         box.
 
-    #. By default, the local port numbers are the same as the remote
+    -   By default, the local port numbers are the same as the remote
         port numbers. To set independent local port numbers, select the
         `Find free ports for all Services` check box.
 
@@ -903,7 +903,7 @@ Delete an application
 
 The aim of this section is to guide you in customizing OpenShift Tools:
 
-#. Specify the timeout behavior for OpenShift requests
+-   Specify the timeout behavior for OpenShift requests
 
 ## Change the Timeout Behavior of OpenShift Requests
 

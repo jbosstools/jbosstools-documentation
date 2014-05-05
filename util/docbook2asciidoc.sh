@@ -70,10 +70,8 @@ convert ()
 
   # using uft-8, convert docbook to internal format (eg., pandoc extended markdown)
   iconv -c -t utf-8 ${INF} | pandoc -f docbook -t ${INTERNAL_FORMAT} -o ${OUTF}.md  --toc --chapters --atx-headers
-
-  # change bullets to numbered lists in pandoc's markdown
-  sed -i -e "s/-   /#. /g" ${OUTF}.md
-
+  # to change *ALL* bullets (unordered lists) to numbered lists in pandoc's markdown, enable the next line
+  #sed -i -e "s/-   /#. /g" ${OUTF}.md
   iconv -c -t utf-8 ${OUTF}.md | pandoc -f ${INTERNAL_FORMAT} -t asciidoc -o ${OUTF}.adoc  --toc --chapters --atx-headers
 
   # fix placement of paragraph joiners (+) - should be flushed left, not indented
@@ -90,17 +88,15 @@ convert ()
   perl -0777 -pi -e 's/====\n\ ?\*(Note|Tip|Important|Warning|Caution)\*\n/\[\U\1\E\]\n====/igs' ${OUTF}.adoc
 
   # fix indented images
-  awk '/  image:images/ {inblock=1} /\+/ {inblock=0;}
+  awk '/  .+/ {inblock=1} /\+/ {inblock=0;}
   { if (inblock==1 && (/ {2}(.+)/)) { sub(/^[ \t]+/, ""); print } else print $0}' ${OUTF}.adoc > ${OUTF}.adoc.awkd; 
   mv ${OUTF}.adoc.awkd ${OUTF}.adoc
 
-  # TODO: fix remaining indented blocks
-  # TODO: do we need to worry about indented code blocks, or is EVERYTHING just paragraphs?
-
-  # TODO: add hard rules before each new top level "=" sections
+  # fix indented text blocks
+  #awk '/ {2}(.+)/ { if (/ {2}(.+)/) { sub(/^[ \t]+/, ""); print } else print}' ${OUTF}.adoc > ${OUTF}.adoc.awkd; 
+  #mv ${OUTF}.adoc.awkd ${OUTF}.adoc
 
   # optional conversions / formats
-
   if [[ ${OUTFORMATS} ]]; then
     if [[ ! ${OUTFORMATS##*html*} ]]; then 
       echo -n " to ${OUTF##*/}.html ..."
