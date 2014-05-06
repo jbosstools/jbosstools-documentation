@@ -1,0 +1,28 @@
+:toc:
+
+= JBoss Tools User Guide
+
+== Tools for Every Project
+
+include::jboss_central_and_the_jboss_perspective.adoc[]
+
+include::jboss_server_tools.adoc[]
+
+include::forge_tools.adoc[]
+
+== Tools for Creating Web Interfaces
+
+include::livereload_tools.adoc[]
+
+== Tools for Creating Mobile Applications
+
+include::mobile_web_tools.adoc[]
+
+include::browsersim.adoc[]
+
+include::hybrid_mobile_tools_and_cordovasim.adoc[]
+
+== Tools for Deployment and Maintenance
+
+include::openshift_tools.adoc[]
+
