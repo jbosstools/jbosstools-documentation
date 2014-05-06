@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # this script is used to convert docbook files to asciidoc.
-# prereqs: `yum install pandoc texlive texlive-xetex-bin 'tex(eu1enc.def)' 'tex(xetex.def)' 'tex(xltxtra.sty)' 'tex(mathspec.sty)'`
+# prereqs: `yum install pandoc texlive texlive-xetex-bin 'tex(eu1enc.def)' 'tex(xetex.def)' 'tex(xltxtra.sty)' 'tex(mathspec.sty)' asciidoc`
 # See also http://johnmacfarlane.net/pandoc/installing.html for details
 
 # optionally, it can also create html5, epub & pdf
@@ -100,7 +100,8 @@ convert ()
   if [[ ${OUTFORMATS} ]]; then
     if [[ ! ${OUTFORMATS##*html*} ]]; then 
       echo -n " to ${OUTF##*/}.html ..."
-      pandoc ${OUTF}.md -o ${OUTF}.html -t html5
+      #iconv -c -t utf-8 ${OUTF}.md | pandoc --toc -o ${OUTF}.html -t html5
+      asciidoc -b html5 -a icons -a toc2 -a theme=flask -d book {OUTF}.adoc
     fi
 
     if [[ ! ${OUTFORMATS##*epub*} ]]; then 
