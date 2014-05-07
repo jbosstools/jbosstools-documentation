@@ -1,5 +1,5 @@
-:toc:
 :icons: font
+:toc: left
 :numbered:
 
 [[hybrid-mobile-tools-and-cordovasim]]
@@ -161,7 +161,8 @@ iOS SDK (including simulator)::
 This is available as part of Apple XCode. For further information see
 https://developer.apple.com/xcode/[] on the Apple website.
 
-* ?
+* See Also: link:#set-the-android-sdk-location[Set the Android SDK
+Location]
 
 [[system-requirements-for-cordovasim]]
 ==== System Requirements for CordovaSim
@@ -243,7 +244,8 @@ Once installed, you must inform Hybrid Mobile Tools of the Android SDK
 location before you can use Hybrid Mobile Tools actions involving
 Android.
 
-* ?
+* See Also: link:#set-the-android-sdk-location[Set the Android SDK
+Location]
 
 [[features-of-hybrid-mobile-tools-and-cordovasim]]
 === Features of Hybrid Mobile Tools and CordovaSim
@@ -374,7 +376,9 @@ Alternatively, you can add and remove plug-ins by using the
 `Platform Properties` tab of the Cordova Configuration Editor.
 ====
 
-* ?
+* See Also:
+link:#manage-cordova-settings-in-the-platform-properties-tab[Manage
+Cordova Settings in the Platform Properties Tab]
 
 [[manage-cordova-settings-of-a-hybrid-mobile-project]]
 ==== Manage Cordova Settings of a Hybrid Mobile Project
@@ -558,7 +562,8 @@ project name and click `Run As`→`Run with CordovaSim`. This opens the
 application in CordovaSim, which is composed of a BrowserSim simulated
 device and a device input panel.]
 
-* ?
+* See Also: link:#system-requirements-for-hybrid-mobile-tools[System
+Requirements for Hybrid Mobile Tools]
 
 [[manage-hybrid-mobile-project-run-configurations]]
 ==== Manage Hybrid Mobile Project Run Configurations
@@ -659,7 +664,8 @@ exported or click `Browse` to navigate to the location.]
 Exported native projects are organized with subdirectories for each
 selected operating system.
 
-* ?
+* See Also: link:#system-requirements-for-hybrid-mobile-tools[System
+Requirements for Hybrid Mobile Tools]
 
 [[customizing-hybrid-mobile-tools-and-cordovasim]]
 === Customizing Hybrid Mobile Tools and CordovaSim
