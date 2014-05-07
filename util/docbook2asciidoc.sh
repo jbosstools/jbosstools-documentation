@@ -84,7 +84,7 @@ convert ()
   { if (inblock==1 && (/See Also Text: .+/)) { gsub("[_]"," "); print $0 } else print $0}' ${INF}.awkd > ${INF}
   # reassemble the 4 lines into a single line
   perl -0777 -pi -e 's/See Also:\nSee Also Text: ([^\n]+)\nSee Also Anchor: ([^\n]+)\n/See Also: \1\2/igs' ${INF}
-   
+
   # using uft-8, convert docbook to internal format (eg., pandoc extended markdown)
   iconv -c -t utf-8 ${INF} | pandoc -f docbook -t ${INTERNAL_FORMAT} -o ${OUTF}.md  --toc --chapters --atx-headers
   # to change *ALL* bullets (unordered lists) to numbered lists in pandoc's markdown, enable the next line
@@ -125,8 +125,7 @@ convert ()
 TXT
   mv ${OUTF}.adoc ${OUTF}.adoc.in
   cat ${OUTF}.adoc.head ${OUTF}.adoc.in > ${OUTF}.adoc
-  rm -f ${OUTF}.adoc.head ${OUTF}.adoc.in
-
+  
   # optional conversions / formats
   if [[ ${OUTFORMATS} ]]; then
     if [[ ! ${OUTFORMATS##*html*} ]]; then 
@@ -151,6 +150,9 @@ TXT
   else # remove intermediate .md file, as no longer needed
     rm -f ${OUTF}.md
   fi
+
+  # cleanup
+  rm -f ${INF/.modified.xml/.xml} ${INF} ${INF}.awkd ${OUTF}.adoc.head ${OUTF}.adoc.in
 
   echo ""
 }
