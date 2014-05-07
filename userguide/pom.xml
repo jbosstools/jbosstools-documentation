@@ -36,9 +36,11 @@
 								<imagesDir>.</imagesDir> 
 								<backend>html</backend>
 								<doctype>book</doctype>
+
 								<sourceHighlighter>coderay</sourceHighlighter>
 								<attributes>
-									<toc />
+									<toc>true</toc>
+									<numbered>true</numbered>
 									<docVersion>${project.version}</docVersion>
 									<!-- <stylesheet>my-theme.css</stylesheet> -->
 								</attributes>
