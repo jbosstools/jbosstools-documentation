@@ -1,5 +1,5 @@
-:toc:
 :icons: font
+:toc: left
 :numbered:
 
 [[jboss-central-and-the-jboss-perspective]]

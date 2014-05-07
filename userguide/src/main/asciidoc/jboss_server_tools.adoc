@@ -1,5 +1,5 @@
-:toc:
 :icons: font
+:toc: left
 :numbered:
 
 [[jboss-server-tools]]
@@ -70,7 +70,9 @@ this, JBoss Server Tools provides runtime detection that automatically
 generates a complete default server definition for any installed
 application servers found in a given local system search path.
 
-* ?
+* See Also:
+link:#create-a-default-local-server-definition-with-runtime-detection[Create
+a Default Local Server Definition with Runtime Detection]
 
 [[features-of-jboss-server-tools]]
 === Features of JBoss Server Tools

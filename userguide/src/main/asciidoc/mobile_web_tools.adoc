@@ -1,5 +1,5 @@
-:toc:
 :icons: font
+:toc: left
 :numbered:
 
 [[mobile-web-tools]]
