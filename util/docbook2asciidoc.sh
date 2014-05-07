@@ -55,8 +55,13 @@ convert ()
 {
   INF=$1
   OUTF=$2
-  echo -n "Convert ${INF##*/} to ${OUTF##*/}.adoc ..."
+  # work on copy of the input xml file, not the original
+  cp ${INF} /tmp
+  INF=/tmp/${INF##*/}
+  cp ${INF} ${INF/.xml/.modified.xml}
 
+  echo -n "Convert ${INF} to ${OUTF##*/}.adoc ..."
+  INF=${INF/.xml/.modified.xml}
   # user-based pre-processing to replace tags w/ other tags
   if [[ $MAPPINGS ]]; then 
     # for each before=after pair, process the docbook file w/ sed to replace <before> with <after>
@@ -68,6 +73,18 @@ convert ()
     done
   fi
 
+  # special case: convert See Also <xref> anchors into See Also: [Link Text](#anchor-text)
+  # break into 4 lines: header, link text (Title Case), anchor (lowercase), newline
+  sed -i -e "s#<xref linkend=\"\(.\+\)\" xrefstyle=\"see-also\"/>#See Also:\nSee Also Text: [\1]\nSee Also Anchor: (\#\L\1\E)\n#g" ${INF}
+  # substitute underscores for dashes in the anchor
+  awk '/See Also Anchor: .+/ {inblock=1} /$^/ {inblock=0;}
+  { if (inblock==1 && (/See Also Anchor: .+/)) { gsub("[_]","-"); print $0 } else print $0}' ${INF} > ${INF}.awkd
+  # substitute underscores for spaces
+  awk '/See Also Text: .+/ {inblock=1} /See Also Anchor:/ {inblock=0;}
+  { if (inblock==1 && (/See Also Text: .+/)) { gsub("[_]"," "); print $0 } else print $0}' ${INF}.awkd > ${INF}
+  # reassemble the 4 lines into a single line
+  perl -0777 -pi -e 's/See Also:\nSee Also Text: ([^\n]+)\nSee Also Anchor: ([^\n]+)\n/See Also: \1\2/igs' ${INF}
+   
   # using uft-8, convert docbook to internal format (eg., pandoc extended markdown)
   iconv -c -t utf-8 ${INF} | pandoc -f docbook -t ${INTERNAL_FORMAT} -o ${OUTF}.md  --toc --chapters --atx-headers
   # to change *ALL* bullets (unordered lists) to numbered lists in pandoc's markdown, enable the next line
@@ -76,32 +93,46 @@ convert ()
 
   # fix placement of paragraph joiners (+) - should be flushed left, not indented
   sed -i -e "s/  +$/+/g" ${OUTF}.adoc
-
   # fix NOTE, TIP, IMPORTANT, WARNING, CAUTION
   # 1/3: change the delims from ______ to ====
   sed -i -e "s/\ \+__\+/====/g" ${OUTF}.adoc
   sed -i -e "s/__\+/====/g" ${OUTF}.adoc
   # 2/3: fix the indent
   awk '/\ ?(\*(Note|Tip|Important|Warning|Caution)\*)/ {inblock=1} /====/ {inblock=0;} 
-  { if (inblock==1 && /(\ {2})(.+)/) { sub(/^[ \t]+/, ""); print } else print $0}' ${OUTF}.adoc > ${OUTF}.adoc.awkd; mv ${OUTF}.adoc.awkd ${OUTF}.adoc
+  { if (inblock==1 && /(\ {2})(.+)/) { sub(/^[ \t]+/, ""); print } else print $0}' ${OUTF}.adoc > ${OUTF}.adoc.awkd
+  mv ${OUTF}.adoc.awkd ${OUTF}.adoc
   # 3/3: reorder the labels BEFORE the delims
   perl -0777 -pi -e 's/====\n\ ?\*(Note|Tip|Important|Warning|Caution)\*\n/\[\U\1\E\]\n====/igs' ${OUTF}.adoc
 
   # fix indented images
   awk '/  .+/ {inblock=1} /\+/ {inblock=0;}
-  { if (inblock==1 && (/ {2}(.+)/)) { sub(/^[ \t]+/, ""); print } else print $0}' ${OUTF}.adoc > ${OUTF}.adoc.awkd; 
+  { if (inblock==1 && (/ {2}(.+)/)) { sub(/^[ \t]+/, ""); print } else print $0}' ${OUTF}.adoc > ${OUTF}.adoc.awkd
   mv ${OUTF}.adoc.awkd ${OUTF}.adoc
+  # indent sections deeper so they can be concatenated into a single readme.adoc, and don't throw errors when being post-processed by asciidoctor w/ maven
+  sed -i -e "s/\(=\+ .\+\)/==\1/g" ${OUTF}.adoc
+  sed -i -e "0,/===/ {s/=== \(.\+\)/== \1/}" ${OUTF}.adoc
 
-  # fix indented text blocks
-  #awk '/ {2}(.+)/ { if (/ {2}(.+)/) { sub(/^[ \t]+/, ""); print } else print}' ${OUTF}.adoc > ${OUTF}.adoc.awkd; 
-  #mv ${OUTF}.adoc.awkd ${OUTF}.adoc
+  # insert header to the start of each adoc file, in order to:
+  # add icons for NOTE, TIP, IMPORTANT, WARNING, CAUTION
+  # include a left-side ToC
+  # number the sections
+  rm -f ${OUTF}.adoc.head
+  cat << TXT > ${OUTF}.adoc.head
+:icons: font
+:toc: left
+:numbered:
+
+TXT
+  mv ${OUTF}.adoc ${OUTF}.adoc.in
+  cat ${OUTF}.adoc.head ${OUTF}.adoc.in > ${OUTF}.adoc
+  rm -f ${OUTF}.adoc.head ${OUTF}.adoc.in
 
   # optional conversions / formats
   if [[ ${OUTFORMATS} ]]; then
     if [[ ! ${OUTFORMATS##*html*} ]]; then 
       echo -n " to ${OUTF##*/}.html ..."
       #iconv -c -t utf-8 ${OUTF}.md | pandoc --toc -o ${OUTF}.html -t html5
-      asciidoc -b html5 -a icons -a toc2 -a theme=flask -d book {OUTF}.adoc
+      asciidoctor -b html5 -d book ${OUTF}.adoc -o ${OUTF}.html
     fi
 
     if [[ ! ${OUTFORMATS##*epub*} ]]; then 
