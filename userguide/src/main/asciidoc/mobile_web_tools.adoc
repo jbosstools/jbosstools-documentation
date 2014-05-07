@@ -1,14 +1,15 @@
 :toc:
 :icons: font
+:numbered:
 
 [[mobile-web-tools]]
-= Mobile Web Tools
+== Mobile Web Tools
 
 [[overview-of-mobile-web-tools]]
-== Overview of Mobile Web Tools
+=== Overview of Mobile Web Tools
 
 [[about-mobile-web-tools]]
-=== About Mobile Web Tools
+==== About Mobile Web Tools
 
 Mobile Web Tools provides tooling for developing mobile web applications
 within the IDE. It simplifies the process of getting started with HTML5
@@ -33,10 +34,10 @@ in browsers enable you to work more efficiently when developing mobile
 web applications in the IDE.
 
 [[features-of-mobile-web-tools]]
-== Features of Mobile Web Tools
+=== Features of Mobile Web Tools
 
 [[features-overview]]
-=== Features Overview
+==== Features Overview
 
 The aim of this section is to guide you in using Mobile Web Tools:
 
@@ -48,7 +49,7 @@ mobile web application with the aid of the widget wizards
 * View pages of the application in various browsers
 
 [[create-a-mobile-web-project]]
-=== Create a Mobile Web Project
+==== Create a Mobile Web Project
 
 Project wizards are available to assist you in generating new mobile web
 applications. The project wizards are listed in JBoss Central:
@@ -117,7 +118,7 @@ close the wizard. A `README.md` file for the project automatically opens
 for viewing.
 
 [[use-a-html5-jquery-mobile-file-template]]
-=== Use a HTML5 jQuery Mobile File Template
+==== Use a HTML5 jQuery Mobile File Template
 
 Mobile Web Tools provides a HTML5 jQuery Mobile file template to assist
 in creating mobile web applications. The template inserts the necessary
@@ -154,7 +155,7 @@ selected. From the `Templates` table, select
 Editor.
 
 [[access-the-jquery-mobile-palette]]
-=== Access the jQuery Mobile Palette
+==== Access the jQuery Mobile Palette
 
 Mobile Web Tools offers a jQuery Mobile palette, with wizards for adding
 jQuery Mobile and HTML5 widgets to your project. The jQuery Mobile
@@ -188,7 +189,7 @@ search field type a search term or phrase. The elements displayed in the
 jQuery Mobile palette are filtered as you type in the search field.
 
 [[insert-a-jquery-mobile-palette-widget-into-a-html5-file]]
-=== Insert a jQuery Mobile Palette Widget into a HTML5 File
+==== Insert a jQuery Mobile Palette Widget into a HTML5 File
 
 The jQuery Mobile palette contains wizards for the HTML5 and jQuery
 Mobile user interface widgets commonly used in mobile web applications.
@@ -229,7 +230,7 @@ the rendered widget. The preview panes can be shown and hidden by
 clicking `Show Preview` and `Hide Preview`, respectively.
 
 [[get-assistance-with-jquery-mobile-programming]]
-=== Get Assistance with jQuery Mobile Programming
+==== Get Assistance with jQuery Mobile Programming
 
 Mobile Web Tools offers code assist to help you when working with jQuery
 Mobile. Code assist lists available options for attributes and attribute
@@ -259,7 +260,7 @@ To view more information about a listed item, select the item. To insert
 a listed item into the code, double-click the item.]
 
 [[view-jquery-mobile-pages-in-a-browser]]
-=== View jQuery Mobile Pages in a Browser
+==== View jQuery Mobile Pages in a Browser
 
 Mobile Web Tools provides an action to easily and quickly open jQuery
 Mobile pages in web browsers for viewing.
@@ -279,17 +280,17 @@ the `JBoss Tools HTML Editor`, press Ctrl and move the mouse over the
 from the menu select one of the options.]
 
 [[customizing-mobile-web-tools]]
-== Customizing Mobile Web Tools
+=== Customizing Mobile Web Tools
 
 [[customizing-overview]]
-=== Customizing Overview
+==== Customizing Overview
 
 The aim of this section is to guide you in customizing Mobile Web Tools:
 
 * Customize the HTML5 jQuery Mobile templates available in the IDE
 
 [[customize-jquery-mobile-file-templates]]
-=== Customize jQuery Mobile File Templates
+==== Customize jQuery Mobile File Templates
 
 The `HTML5 jQuery Mobile Page` template for new HTML files is provided
 by Mobile Web Tools. You can customize this template and add more jQuery

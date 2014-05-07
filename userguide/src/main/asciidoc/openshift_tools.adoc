@@ -1,14 +1,15 @@
 :toc:
 :icons: font
+:numbered:
 
 [[openshift-tools]]
-= OpenShift Tools
+== OpenShift Tools
 
 [[overview-of-openshift-tools]]
-== Overview of OpenShift Tools
+=== Overview of OpenShift Tools
 
 [[about-openshift]]
-=== About OpenShift
+==== About OpenShift
 
 OpenShift is Red Hat's Platform as a Service (PaaS) for applications. It
 consists of an application platform in the cloud, enabling you to build,
@@ -53,7 +54,7 @@ https://www.openshift.com/[] on the OpenShift website or via the
 OpenShift command line interface.
 
 [[about-openshift-tools]]
-=== About OpenShift Tools
+==== About OpenShift Tools
 
 OpenShift Tools is tooling available within the IDE for OpenShift. It
 provides an alternative way of accessing OpenShift and managing the
@@ -76,10 +77,10 @@ applications, viewing OpenShift server output, editing application
 cartridges and environment variables, and deleting applications.
 
 [[features-of-openshift-tools]]
-== Features of OpenShift Tools
+=== Features of OpenShift Tools
 
 [[features-overview]]
-=== Features Overview
+==== Features Overview
 
 The aim of this section is to guide you in using OpenShift Tools:
 
@@ -93,7 +94,7 @@ existing OpenShift applications into a workspace
 * Manage deployed OpenShift applications and view information about them
 
 [[create-an-openshift-online-user-account]]
-=== Create an OpenShift Online User Account
+==== Create an OpenShift Online User Account
 
 To begin using OpenShift Online, you need to create a user account.
 OpenShift Tools provides the ability to create an OpenShift Online user
@@ -120,7 +121,7 @@ management console at
 https://openshift.redhat.com/app/login?redirectUrl=%2Fapp%2Fconsole[].
 
 [[connect-to-openshift]]
-=== Connect to OpenShift
+==== Connect to OpenShift
 
 Once you have an OpenShift user account, you can connect to OpenShift
 and then create domains and applications. The procedure below guides you
@@ -174,7 +175,7 @@ wizard. Type your password or, if using the saved password facility, the
 master password and click `Finish`.
 
 [[manage-a-connection]]
-=== Manage a Connection
+==== Manage a Connection
 
 Using OpenShift Tools, you can view and manage live OpenShift
 connections.
@@ -203,7 +204,7 @@ In the `OpenShift Explorer` view, right-click the connection and click
 `Remove Connection`.
 
 [[generate-and-upload-ssh-keys-to-openshift]]
-=== Generate and Upload SSH Keys to OpenShift
+==== Generate and Upload SSH Keys to OpenShift
 
 SSH keys are essential when working with OpenShift. They enable you to
 develop and access deployed applications. SSH keys are also used to
@@ -249,7 +250,7 @@ automatically uploaded to OpenShift.
 5.  Click `OK` to close the Manage SSH Keys window.
 
 [[manage-ssh-keys]]
-=== Manage SSH Keys
+==== Manage SSH Keys
 
 OpenShift Tools provides actions for managing the SSH keys of your
 OpenShift account.
@@ -289,7 +290,7 @@ changes to your OpenShift SSH key settings through the OpenShift web
 interface while the IDE is open with a live OpenShift connection.
 
 [[create-a-domain]]
-=== Create a Domain
+==== Create a Domain
 
 Once you have an OpenShift user account, you need to create domains in
 which to host your applications. Note that user accounts for OpenShift
@@ -321,7 +322,7 @@ consist only of alphanumeric characters and can have a maximum length of
 ====
 
 [[manage-a-domain]]
-=== Manage a Domain
+==== Manage a Domain
 
 OpenShift Tools provides actions for managing the domains of your
 OpenShift account.
@@ -363,7 +364,7 @@ as the local clone of the Git repository for projects is not deleted.
 ====
 
 [[deploy-a-new-or-existing-application-on-openshift]]
-=== Deploy a New or Existing Application on OpenShift
+==== Deploy a New or Existing Application on OpenShift
 
 OpenShift Tools provides the OpenShift Application wizard to assist you
 in creating and deploying OpenShift applications.
@@ -496,7 +497,7 @@ To view the project in the `Git Repositories` view, in the
 ====
 
 [[import-a-deployed-openshift-application-into-the-ide]]
-=== Import a Deployed OpenShift Application into the IDE
+==== Import a Deployed OpenShift Application into the IDE
 
 All applications deployed on OpenShift are listed under live connections
 in the `OpenShift Explorer` view. But only the project files of
@@ -572,7 +573,7 @@ repository. Additionally, the server adapter for the application is
 visible in the `Servers` view.
 
 [[generate-a-server-adapter-for-an-application]]
-=== Generate a Server Adapter for an Application
+==== Generate a Server Adapter for an Application
 
 In order to easily publish changes to a deployed OpenShift application,
 each application needs a server adapter. The OpenShift Application
@@ -626,7 +627,7 @@ image:images/3947.png[Once generated, the server adapter is listed in
 the `Servers` view.]
 
 [[view-a-deployed-application-and-associated-information]]
-=== View a Deployed Application and Associated Information
+==== View a Deployed Application and Associated Information
 
 OpenShift Tools provides actions for viewing deployed OpenShift
 applications and information about them.
@@ -698,7 +699,7 @@ interface to your domain and applications. Additionally, it may be
 used to recover from errors.
 
 [[manage-a-deployed-application]]
-=== Manage a Deployed Application
+==== Manage a Deployed Application
 
 OpenShift Tools provides actions for developing and managing deployed
 OpenShift applications.
@@ -818,17 +819,17 @@ listed in the `Servers` view but they are invalid.
 ====
 
 [[customizing-openshift-tools]]
-== Customizing OpenShift Tools
+=== Customizing OpenShift Tools
 
 [[customizing-overview]]
-=== Customizing Overview
+==== Customizing Overview
 
 The aim of this section is to guide you in customizing OpenShift Tools:
 
 * Specify the timeout behavior for OpenShift requests
 
 [[change-the-timeout-behavior-of-openshift-requests]]
-=== Change the Timeout Behavior of OpenShift Requests
+==== Change the Timeout Behavior of OpenShift Requests
 
 You may find that some requests made to OpenShift require a long time to
 complete and do not finish within the IDE default timeout limit of 120

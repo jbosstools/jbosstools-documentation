@@ -1,14 +1,15 @@
 :toc:
 :icons: font
+:numbered:
 
 [[browsersim]]
-= BrowserSim
+== BrowserSim
 
 [[overview-of-browsersim]]
-== Overview of BrowserSim
+=== Overview of BrowserSim
 
 [[about-browsersim]]
-=== About BrowserSim
+==== About BrowserSim
 
 BrowserSim is a mobile web browser simulator. It enables you to view and
 interact with web pages as they would appear on mobile devices.
@@ -22,7 +23,7 @@ result of rotating a mobile device. Additionally, BrowserSim provides
 access to tools for inspecting and editing the source of web pages.
 
 [[system-requirements-for-browsersim]]
-=== System Requirements for BrowserSim
+==== System Requirements for BrowserSim
 
 The overall system requirements of JBoss Tools are applicable for
 BrowserSim and can be viewed at
@@ -52,10 +53,10 @@ image:images/4322.png[To set BrowserSim to use a 32-bit JVM, click
 `BrowserSim/CordovaSim`.]
 
 [[features-of-browsersim]]
-== Features of BrowserSim
+=== Features of BrowserSim
 
 [[features-overview]]
-=== Features Overview
+==== Features Overview
 
 The aim of this section is to guide you in using BrowserSim:
 
@@ -69,7 +70,7 @@ such as the default browser or additional synchronized simulated devices
 Weinre
 
 [[view-a-web-application-on-browsersim]]
-=== View a Web Application on BrowserSim
+==== View a Web Application on BrowserSim
 
 You can use BrowserSim to view web applications on local file systems or
 deployed on runtime servers.
@@ -105,7 +106,7 @@ view. To open the `Error Log` view, click `Window`→`Show View`→`Other`.
 Expand `General` and double-click `Error Log`.
 
 [[manage-web-applications-on-browsersim]]
-=== Manage Web Applications on BrowserSim
+==== Manage Web Applications on BrowserSim
 
 BrowserSim provides actions to assist with viewing web applications on
 its simulated devices.
@@ -132,7 +133,7 @@ Right-click the simulated device and click `Close`. Open BrowserSim
 windows automatically close when the IDE closes.
 
 [[change-the-appearance-of-a-simulated-device]]
-=== Change the Appearance of a Simulated Device
+==== Change the Appearance of a Simulated Device
 
 BrowserSim provides a number of ways to change the appearance of
 simulated devices. Changes made to the appearance of simulated devices
@@ -157,7 +158,7 @@ right-click the simulated device and click `Use Skins`. To reapply the
 skin, click `Device`→`Use Skins`.
 
 [[view-a-web-page-in-different-browsers-and-simulated-devices]]
-=== View a Web Page in Different Browsers and Simulated Devices
+==== View a Web Page in Different Browsers and Simulated Devices
 
 From within BrowserSim, web pages can be viewed in different browsers
 and simulated devices.
@@ -182,7 +183,7 @@ device results in the web page opening in all the synchronized
 simulated devices.]
 
 [[generate-a-screen-capture-of-a-simulated-device]]
-=== Generate a Screen Capture of a Simulated Device
+==== Generate a Screen Capture of a Simulated Device
 
 BrowserSim provides the ability to generate screen captures of a
 simulated device and the web pages it shows.
@@ -198,7 +199,7 @@ to select a location to which to save the file each time.
 * `Copy to Clipboard` to copy the graphic for immediate use.
 
 [[activate-livereload-for-browsersim]]
-=== Activate LiveReload for BrowserSim
+==== Activate LiveReload for BrowserSim
 
 LiveReload for BrowserSim refreshes web pages open in simulated device
 browser windows as the source is edited in the IDE. A LiveReload server
@@ -270,7 +271,7 @@ always enabled in this case.
 ====
 
 [[view-the-source-of-a-web-page]]
-=== View the Source of a Web Page
+==== View the Source of a Web Page
 
 The source of web pages displayed in simulated device browser windows
 can be viewed with a variety of applications that can be initiated from
@@ -289,10 +290,10 @@ remote debugging, enabling you to debug an application running on a
 mobile device from your desktop browser.
 
 [[customizing-browsersim]]
-== Customizing BrowserSim
+=== Customizing BrowserSim
 
 [[customizing-overview]]
-=== Customizing Overview
+==== Customizing Overview
 
 The aim of this section is to guide you in customizing BrowserSim:
 
@@ -305,7 +306,7 @@ simulated devices it provides
 devices, for LiveReload, for screen captures and for Weinre
 
 [[make-browsersim-the-default-browser]]
-=== Make BrowserSim the Default Browser
+==== Make BrowserSim the Default Browser
 
 You can set BrowserSim to be the default browser used in actions such as
 `Show In`→`Web Browser` and `Run on Server`.
@@ -319,7 +320,7 @@ Alternatively, click `Window`→`Preferences`, expand `General` and select
 `Apply` and click `OK` to close the Preferences window.
 
 [[add-browsersim-to-the-global-toolbar]]
-=== Add BrowserSim to the Global Toolbar
+==== Add BrowserSim to the Global Toolbar
 
 The BrowserSim icon is part of the BrowserSim toolbar and, by default,
 this toolbar is included in the global toolbar of the JBoss perspective.
@@ -347,7 +348,7 @@ image:images/4115.png[image] is now visible in the global toolbar of the
 perspective.
 
 [[set-a-shortcut-for-the-run-browsersim-action]]
-=== Set a Shortcut for the Run BrowserSim Action
+==== Set a Shortcut for the Run BrowserSim Action
 
 If you use BrowserSim frequently but do not want to set it as the
 default browser, you can set a shortcut for the `Run BrowserSim` action,
@@ -367,7 +368,7 @@ image:images/4114.png[Once a unique key binding is selected, click
 `Apply` and click `OK` to close the Preferences window.]
 
 [[add-or-modify-devices-in-browsersim]]
-=== Add or Modify Devices in BrowserSim
+==== Add or Modify Devices in BrowserSim
 
 You may wish to preview a web application on a simulated mobile device
 that is not predefined in BrowserSim. You can add more devices to
@@ -407,7 +408,7 @@ and click `Edit`. Once you have finished editing the fields, click `OK`.
 Click `OK` to close the `Preferences` window.
 
 [[change-the-default-behavior-when-a-device-does-not-fit-the-display]]
-=== Change the Default Behavior when a Device does not Fit the Display
+==== Change the Default Behavior when a Device does not Fit the Display
 
 When a device window is too large to fit the display of the system you
 are prompted about which action the IDE is to taken. This default IDE
@@ -427,7 +428,7 @@ simulated device and click `Preferences`. In the
 behavior as appropriate and click `OK` to close the Preferences window.]
 
 [[change-the-default-livereload-port]]
-=== Change the Default LiveReload Port
+==== Change the Default LiveReload Port
 
 The LiveReload server uses a port to communicate resource changes to
 BrowserSim. The default port can be changed.
@@ -447,7 +448,7 @@ section. In the `LiveReload Port` field type the port number you want to
 use. Click `OK` to close the Preferences window.]
 
 [[set-the-location-for-saved-screen-captures]]
-=== Set the Location for Saved Screen Captures
+==== Set the Location for Saved Screen Captures
 
 The `Save` option for screen captures saves graphics files to a set
 location when that location has been predefined.
@@ -465,7 +466,7 @@ graphics files to be saved or click `Browse` to navigate to the
 location. Click `OK` to close the Preferences window.]
 
 [[change-the-default-settings-for-weinre]]
-=== Change the Default Settings for Weinre
+==== Change the Default Settings for Weinre
 
 By default, the `Weinre` option for viewing the source of a web page
 uses the Weiner server provided by PhoneGap. If you have a different

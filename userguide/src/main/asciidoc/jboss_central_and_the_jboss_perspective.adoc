@@ -1,14 +1,15 @@
 :toc:
 :icons: font
+:numbered:
 
 [[jboss-central-and-the-jboss-perspective]]
-= JBoss Central and the JBoss Perspective
+== JBoss Central and the JBoss Perspective
 
 [[overview-of-jboss-central-and-the-jboss-perspective]]
-== Overview of JBoss Central and the JBoss Perspective
+=== Overview of JBoss Central and the JBoss Perspective
 
 [[about-jboss-central]]
-=== About JBoss Central
+==== About JBoss Central
 
 JBoss Central is a core IDE view, providing access to JBoss information
 and assistance in one centralized location. It offers features for first
@@ -29,7 +30,7 @@ provide easy access to key information sources.
 management of IDE plug-ins.
 
 [[about-the-jboss-perspective]]
-=== About the JBoss Perspective
+==== About the JBoss Perspective
 
 JBoss is a key IDE perspective, giving easy access to useful views and
 actions when developing applications with JBoss technologies. The
@@ -56,10 +57,10 @@ Select Maven Profiles, and Web Browser. The global toolbar provides
 access to frequently used actions.
 
 [[features-of-jboss-central-and-the-jboss-perspective]]
-== Features of JBoss Central and the JBoss Perspective
+=== Features of JBoss Central and the JBoss Perspective
 
 [[features-overview]]
-=== Features Overview
+==== Features Overview
 
 The aim of this section is to guide you in using JBoss Central and the
 JBoss perspective:
@@ -71,7 +72,7 @@ toolbars
 * Access cheat sheets that assist in project development
 
 [[view-jboss-central]]
-=== View JBoss Central
+==== View JBoss Central
 
 JBoss Central provides resources for getting started with application
 development and installing auxiliary IDE software.
@@ -86,7 +87,7 @@ size, double-click the `JBoss Central` view label again. These
 maximizing and minimizing actions work for all IDE views.
 
 [[access-project-wizards-in-jboss-central]]
-=== Access Project Wizards in JBoss Central
+==== Access Project Wizards in JBoss Central
 
 JBoss Central provides access to wizards for generating projects. There
 are two types of project wizards available in JBoss Central:
@@ -132,7 +133,7 @@ technologies from within the IDE. To view the tutorial, in JBoss Central
 select the `Getting Started` tab and click the `TicketMonster` link.]
 
 [[access-information-in-jboss-central]]
-=== Access Information in JBoss Central
+==== Access Information in JBoss Central
 
 JBoss Central provides easy access to JBoss and developer information.
 Each of the information sources listed below are web-based and,
@@ -176,7 +177,7 @@ select a browser from the listed options.
 ====
 
 [[install-software-in-jboss-central]]
-=== Install Software in JBoss Central
+==== Install Software in JBoss Central
 
 JBoss Central enables you to install and update a range of IDE plug-ins.
 The available plug-ins comprise JBoss and third-party plug-ins that have
@@ -247,7 +248,7 @@ informs you of any new software found. Click `OK` to close the
 prompt.]
 
 [[open-the-jboss-perspective]]
-=== Open the JBoss Perspective
+==== Open the JBoss Perspective
 
 The JBoss perspective provides a default set of views, menus and
 toolbars to assist with common tasks associated with developing
@@ -263,7 +264,7 @@ image:images/3973.png[To open the JBoss perspective, click
 perspectives, select `JBoss` and click `OK`.]
 
 [[manage-the-jboss-perspective]]
-=== Manage the JBoss Perspective
+==== Manage the JBoss Perspective
 
 There are a number of actions provided by the IDE for managing
 perspectives, including the JBoss perspective.
@@ -285,7 +286,7 @@ Close the JBoss perspective::
 Click `Window`→`Close Perspective`.
 
 [[view-cheat-sheets]]
-=== View Cheat Sheets
+==== View Cheat Sheets
 
 Typically, cheat sheets contain detailed information about projects,
 with step by step guidance and explanations for how to create and deploy
@@ -317,10 +318,10 @@ the `.* resources` check box and click `OK`.
 ====
 
 [[customizing-jboss-central-and-the-jboss-perspective]]
-== Customizing JBoss Central and the JBoss Perspective
+=== Customizing JBoss Central and the JBoss Perspective
 
 [[customizing-overview]]
-=== Customizing Overview
+==== Customizing Overview
 
 The aim of this section is to guide you in customizing JBoss Central and
 the JBoss perspective:
@@ -332,7 +333,7 @@ examples and auxiliary plug-ins
 * Specify the default IDE behavior for cheat sheets
 
 [[change-the-behavior-of-jboss-central-on-ide-start]]
-=== Change the Behavior of JBoss Central on IDE Start
+==== Change the Behavior of JBoss Central on IDE Start
 
 JBoss Central is set by default to show when the IDE starts but you can
 customize this behavior.
@@ -358,7 +359,7 @@ select `JBoss Central`. Select or clear the
 and click `OK` to close the Preferences window.]
 
 [[customize-the-default-views-menus-and-toolbars-of-the-jboss-perspective]]
-=== Customize the Default Views, Menus and Toolbars of the JBoss
+==== Customize the Default Views, Menus and Toolbars of the JBoss
 Perspective
 
 You can customize the views, menus and toolbars displayed by the JBoss
@@ -416,7 +417,7 @@ state, select the `Also discard perspective's customization` check box
 and click `Yes`.]
 
 [[use-project-examples-when-working-offline]]
-=== Use Project Examples when Working Offline
+==== Use Project Examples when Working Offline
 
 When a project wizard in JBoss Central is used, the IDE searches online
 repositories for the most recent versions of project dependencies. JBoss
@@ -465,7 +466,7 @@ correct cache location is specified in the `Offline directory` field.
 Click `Apply` and click `OK` to close the `Preferences` window.]
 
 [[install-software-when-working-offline]]
-=== Install Software when Working Offline
+==== Install Software when Working Offline
 
 You can install the JBoss and third-party plug-ins listed in JBoss
 Central in offline mode using the JBoss Central `.zip` file, as detailed
@@ -502,7 +503,7 @@ changes to open projects. Note that changes do not take effect until the
 IDE is restarted.
 
 [[set-cheat-sheet-behavior]]
-=== Set Cheat Sheet Behavior
+==== Set Cheat Sheet Behavior
 
 You can specify the default action the IDE is to take when finding cheat
 sheets in projects that it is importing. The available options include
