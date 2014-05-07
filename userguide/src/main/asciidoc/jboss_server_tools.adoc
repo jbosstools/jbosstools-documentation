@@ -1,11 +1,14 @@
+:toc:
+:icons: font
+
 [[jboss-server-tools]]
 = JBoss Server Tools
 
 [[overview-of-jboss-server-tools]]
-= Overview of JBoss Server Tools
+== Overview of JBoss Server Tools
 
 [[about-jboss-server-tools]]
-== About JBoss Server Tools
+=== About JBoss Server Tools
 
 JBoss Server Tools is tooling for working with application servers in
 the IDE. It extends and enhances the existing server functionality of
@@ -35,7 +38,7 @@ and classpath filesets. You can also customize the default server used
 for IDE actions such as 'Run on Server'.
 
 [[about-ide-server-definitions]]
-== About IDE Server Definitions
+=== About IDE Server Definitions
 
 A server definition is a description of how the IDE is to use an
 application server. It informs the IDE of configuration information with
@@ -69,10 +72,10 @@ application servers found in a given local system search path.
 * ?
 
 [[features-of-jboss-server-tools]]
-= Features of JBoss Server Tools
+== Features of JBoss Server Tools
 
 [[features-overview]]
-== Features Overview
+=== Features Overview
 
 The aim of this section is to guide you in using JBoss Server Tools:
 
@@ -86,7 +89,7 @@ the JBoss Server Editor, including settings such as launch options,
 publishing frequency and communication ports
 
 [[download-a-jboss-community-application-server]]
-== Download a JBoss Community Application Server
+=== Download a JBoss Community Application Server
 
 Application servers must be installed on your system in order to deploy
 applications to local and remote instances of them. Many application
@@ -148,7 +151,7 @@ wizards in JBoss Central.
 ====
 
 [[create-a-default-local-server-definition-with-runtime-detection]]
-== Create a Default Local Server Definition with Runtime Detection
+=== Create a Default Local Server Definition with Runtime Detection
 
 Before the IDE can use an application sever, you must create a server
 definition for it. JBoss Server Tools provides runtime detection that
@@ -203,7 +206,7 @@ server adapter.
 ====
 
 [[create-an-additional-server-runtime-environment]]
-== Create an Additional Server Runtime Environment
+=== Create an Additional Server Runtime Environment
 
 Runtime detection creates a server runtime environment as part of the
 default server definition for each application server it discovers in
@@ -290,7 +293,7 @@ wizard for creating new servers in the `Servers` view or with the
 ====
 
 [[define-an-additional-local-server]]
-== Define an Additional Local Server
+=== Define an Additional Local Server
 
 Runtime detection defines a local server as part of the default server
 definition for each application server it discovers in given search
@@ -382,7 +385,7 @@ the same host can result in port conflicts.
 ====
 
 [[define-a-remote-server]]
-== Define a Remote Server
+=== Define a Remote Server
 
 You can define remote servers for JBoss community application servers.
 To complete a server definition, you must create a server adapter, or
@@ -484,7 +487,7 @@ Applications to be deployed are detailed in the `Configured` list.]
 status.
 
 [[manage-server-settings]]
-== Manage Server Settings
+=== Manage Server Settings
 
 JBoss Server Tools provides the JBoss Server Editor for managing the
 settings of servers. This editor has two tabs: Overview and Deployment.
@@ -518,7 +521,7 @@ required to enter the server management password when making changes to
 certain settings.
 
 [[manage-server-settings-in-the-overview-tab]]
-=== Manage Server Settings in the Overview Tab
+==== Manage Server Settings in the Overview Tab
 
 The Overview tab of the JBoss Server Editor enables you to vary the
 management and behavior settings of an individual server. Each section
@@ -718,7 +721,7 @@ To manually specify the server ports or port offset, clear the
 tool and edit the port value.
 
 [[manage-server-settings-in-the-deployment-tab]]
-=== Manage Server Settings in the Deployment Tab
+==== Manage Server Settings in the Deployment Tab
 
 The Deployment tab of the JBoss Server Editor enables you to vary the
 deployment settings of an individual server. Each section of the
@@ -776,10 +779,10 @@ specified use absolute paths or paths relative to the default deploy
 directory.
 
 [[customizing-jboss-server-tools]]
-= Customizing JBoss Server Tools
+== Customizing JBoss Server Tools
 
 [[customizing-overview]]
-== Customizing Overview
+=== Customizing Overview
 
 The aim of this section is to guide you in customizing JBoss Server
 Tools:
@@ -793,7 +796,7 @@ ease of access
 server type
 
 [[enable-runtime-detection-on-ide-start]]
-== Enable Runtime Detection on IDE Start
+=== Enable Runtime Detection on IDE Start
 
 You can customize runtime detection to automatically search paths for
 installed application servers when the IDE starts. If any application
@@ -815,7 +818,7 @@ automatically searched on IDE start. Click `Apply` and click `OK` to
 close the Preferences window.]
 
 [[set-a-default-server]]
-== Set a Default Server
+=== Set a Default Server
 
 JBoss Server Tools enables you to select a default server on which to
 carry out actions such as `Run on server`. This is useful when you have
@@ -834,7 +837,7 @@ default. Alternatively, to create a new default server click
 `New Server` and follow the instructions.]
 
 [[default-file-sets]]
-== Default File Sets
+=== Default File Sets
 
 File sets are collections of files that are listed under the server in
 the `Servers` view for ease of access. JBoss Server Tools generates a
@@ -877,7 +880,7 @@ default file sets. Click `Apply` and click `OK` to close the Preferences
 window.]
 
 [[default-classpath-entries]]
-== Default Classpath Entries
+=== Default Classpath Entries
 
 Classpath entries specify the availability of `.jar` files for your
 projects. JBoss Server Tools generates a default classpath file set for

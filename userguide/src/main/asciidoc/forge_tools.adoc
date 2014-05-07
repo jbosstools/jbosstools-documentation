@@ -1,11 +1,14 @@
+:toc:
+:icons: font
+
 [[forge-tools]]
 = Forge Tools
 
 [[overview-of-forge-tools]]
-= Overview of Forge Tools
+== Overview of Forge Tools
 
 [[about-forge]]
-== About Forge
+=== About Forge
 
 Forge is an application for developing Java EE applications, promoting
 ease in getting started, working efficiently, and integrating
@@ -24,7 +27,7 @@ Forge comprehends a range of file types, with actions for working with
 their contents.
 
 [[about-forge-tools]]
-== About Forge Tools
+=== About Forge Tools
 
 Forge Tools is tooling that integrates Forge into the IDE. It enhances
 your workflow by providing and integrating Forge functionality within
@@ -39,10 +42,10 @@ explorer views as actions creating and modifying them are executed on
 the Forge command line.
 
 [[features-of-forge-tools]]
-= Features of Forge Tools
+== Features of Forge Tools
 
 [[features-overview]]
-== Features Overview
+=== Features Overview
 
 The aim of this section is to guide you in using Forge Tools:
 
@@ -58,7 +61,7 @@ files in editors
 to the Forge command line
 
 [[manage-the-forge-console]]
-== Manage the Forge Console
+=== Manage the Forge Console
 
 A key element for working with Forge is the Forge command line. In order
 to see this, you need to open the `Forge Console` view.
@@ -77,7 +80,7 @@ the Forge runtime server. Irrespective of your response to starting
 Forge, the `Forge Console` view opens.
 
 [[manage-the-forge-runtime-server]]
-== Manage the Forge Runtime Server
+=== Manage the Forge Runtime Server
 
 You must start a Forge runtime server in order to access the Forge
 command line. Forge Tools provides actions for starting and managing the
@@ -110,7 +113,7 @@ image:images/4069.png[To stop Forge, on the Forge command line enter
 `exit`.]
 
 [[navigate-to-project-resources-on-the-forge-command-line]]
-== Navigate to Project Resources on the Forge Command Line
+=== Navigate to Project Resources on the Forge Command Line
 
 Forge Tools enables you to efficiently navigate to project resources,
 such as directories and files, on the Forge command line.
@@ -138,7 +141,7 @@ image:images/4067.png[The Forge command line automatically executing the
 `pick-up` command for the project resource.]
 
 [[background-actions-invoked-by-forge-commands]]
-== Background Actions Invoked by Forge Commands
+=== Background Actions Invoked by Forge Commands
 
 Forge Tools invokes background actions in the IDE in response to
 commands issued on the command line in the `Forge Console` view. For
@@ -183,7 +186,7 @@ within the IDE and the field selected. The field is also selected in
 the `Outline` view.
 
 [[access-a-list-of-forge-commands]]
-== Access a List of Forge Commands
+=== Access a List of Forge Commands
 
 Forge Tools provides access to a readily available list of Forge
 commands. Additionally, the commands can be easily inserted in to the
@@ -200,7 +203,7 @@ Forge command line, in the pop-up window expand the command groups and
 double-click a command.]
 
 [[use-forge-wizards]]
-== Use Forge Wizards
+=== Use Forge Wizards
 
 You may prefer to work with wizards rather than the command line. Forge
 Tools provides wizards for some of the most used Forge commands, in
@@ -229,10 +232,10 @@ image:images/4059.png[To open a Forge Tools wizard, click
 listed wizards, click `Next` and follow the instructions.]
 
 [[customizing-forge-tools]]
-= Customizing Forge Tools
+== Customizing Forge Tools
 
 [[customizing-overview]]
-== Customizing Overview
+=== Customizing Overview
 
 The aim of this section is to guide you in customizing Forge Tools:
 
@@ -240,7 +243,7 @@ The aim of this section is to guide you in customizing Forge Tools:
 * Manage available Forge runtime servers
 
 [[customize-the-forge-start]]
-== Customize the Forge Start
+=== Customize the Forge Start
 
 Forge Tools provides a number of options for customized Forge starts.
 
@@ -273,7 +276,7 @@ to look for plug-ins to install rather than the default
 ====
 
 [[manage-forge-runtime-servers]]
-== Manage Forge Runtime Servers
+=== Manage Forge Runtime Servers
 
 Forge Tools is distributed with a Forge runtime server but you may want
 to use different versions of Forge runtime servers. Forge Tools provides

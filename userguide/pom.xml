@@ -17,7 +17,7 @@
 	</properties>
 
 	<build>
-	  <plugins>
+		<plugins>
 				<plugin>
 					<groupId>org.asciidoctor</groupId>
 					<artifactId>asciidoctor-maven-plugin</artifactId>
@@ -30,7 +30,7 @@
 								<goal>process-asciidoc</goal>
 							</goals>
 							<configuration>
-							        <sourceDirectory>${docs.input}</sourceDirectory>
+								<sourceDirectory>${docs.input}</sourceDirectory>
 								<outputdirectory>${docs.output}</outputdirectory>
 								<!-- we use relative paths to images - need to set explicitly -->
 								<imagesDir>.</imagesDir> 
@@ -45,10 +45,10 @@
 
 								<!-- copy of images to work within html -->
 								<synchronizations>
-								  <synchronization>
-								    <source>${docs.input}/images</source>
-								    <target>${docs.output}/images</target>
-								  </synchronization>
+									<synchronization>
+										<source>${docs.input}/images</source>
+										<target>${docs.output}/images</target>
+									</synchronization>
 								</synchronizations>
 							</configuration>
 						</execution>

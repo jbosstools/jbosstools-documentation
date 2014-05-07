@@ -1,3 +1,6 @@
+:toc:
+:icons: font
+
 [[getting-help-and-giving-feedback]]
 = Getting Help and Giving Feedback
 

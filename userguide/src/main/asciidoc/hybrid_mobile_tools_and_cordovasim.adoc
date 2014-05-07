@@ -1,11 +1,14 @@
+:toc:
+:icons: font
+
 [[hybrid-mobile-tools-and-cordovasim]]
 = Hybrid Mobile Tools and CordovaSim
 
 [[overview-of-hybrid-mobile-tools-and-cordovasim]]
-= Overview of Hybrid Mobile Tools and CordovaSim
+== Overview of Hybrid Mobile Tools and CordovaSim
 
 [[about-apache-cordova]]
-== About Apache Cordova
+=== About Apache Cordova
 
 Apache Cordova is a framework for hybrid mobile application development.
 It simplifies mobile application development by enabling developers to
@@ -42,7 +45,7 @@ distributions. PhoneGap, in addition to being the originator of Cordova,
 and IBM Worklight are such distributions.
 
 [[about-hybrid-mobile-tools]]
-== About Hybrid Mobile Tools
+=== About Hybrid Mobile Tools
 
 Hybrid Mobile Tools provides tooling for developing Cordova-based hybrid
 mobile applications within the IDE. It simplifies the process of getting
@@ -78,7 +81,7 @@ Hybrid Mobile Tools, together with CordovaSim, provides a rounded hybrid
 mobile development and testing environment.
 
 [[about-cordovasim]]
-== About CordovaSim
+=== About CordovaSim
 
 CordovaSim is a mobile application simulator. It enables you to view and
 test Cordova-based hybrid mobile applications through a mobile device
@@ -111,7 +114,7 @@ the BrowserSim functionality. This functionality includes skins, screen
 captures and LiveReload.
 
 [[system-requirements-for-hybrid-mobile-tools]]
-== System Requirements for Hybrid Mobile Tools
+=== System Requirements for Hybrid Mobile Tools
 
 The overall system requirements of JBoss Tools are applicable for Hybrid
 Mobile Tools and can be viewed at
@@ -160,7 +163,7 @@ https://developer.apple.com/xcode/[] on the Apple website.
 * ?
 
 [[system-requirements-for-cordovasim]]
-== System Requirements for CordovaSim
+=== System Requirements for CordovaSim
 
 The overall system requirements of JBoss Tools are applicable for
 CordovaSim and can be viewed at
@@ -192,7 +195,7 @@ image:images/4322.png[To set BrowserSim to use a 32-bit JVM, click
 `BrowserSim/CordovaSim`.]
 
 [[install-hybrid-mobile-tools-and-cordovasim]]
-== Install Hybrid Mobile Tools and CordovaSim
+=== Install Hybrid Mobile Tools and CordovaSim
 
 Hybrid Mobile Tools and CordovaSim are not packaged as part of JBoss
 Tools installations. These plug-ins must be installed independently
@@ -242,10 +245,10 @@ Android.
 * ?
 
 [[features-of-hybrid-mobile-tools-and-cordovasim]]
-= Features of Hybrid Mobile Tools and CordovaSim
+== Features of Hybrid Mobile Tools and CordovaSim
 
 [[features-overview]]
-== Features Overview
+=== Features Overview
 
 The aim of this section is to guide you in using Hybrid Mobile Tools and
 CordovaSim:
@@ -264,7 +267,7 @@ for running hybrid mobile applications
 ready-to-sign applications
 
 [[create-a-hybrid-mobile-project]]
-== Create a Hybrid Mobile Project
+=== Create a Hybrid Mobile Project
 
 A project wizard is available to assist you in generating new hybrid
 mobile applications, as demonstrated in the procedure below. It creates
@@ -317,7 +320,7 @@ the `Project Explorer` view and the `config.xml` file is automatically
 opened in the `Cordova Configuration Editor`.
 
 [[enable-cordova-plug-ins-for-an-application]]
-== Enable Cordova Plug-ins for an Application
+=== Enable Cordova Plug-ins for an Application
 
 Plug-ins, or features, provide the application with access to the
 necessary Cordova APIs at runtime. Hybrid Mobile Tools provides actions
@@ -373,7 +376,7 @@ Alternatively, you can add and remove plug-ins by using the
 * ?
 
 [[manage-cordova-settings-of-a-hybrid-mobile-project]]
-== Manage Cordova Settings of a Hybrid Mobile Project
+=== Manage Cordova Settings of a Hybrid Mobile Project
 
 The Cordova Configuration Editor is available for managing the settings
 of Cordova projects that are specified in the `config.xml` file. This
@@ -410,7 +413,7 @@ the Cordova settings of a project must be saved before the results take
 effect. To save, press Ctrl+S.
 
 [[manage-cordova-settings-in-the-overview-tab]]
-=== Manage Cordova Settings in the Overview Tab
+==== Manage Cordova Settings in the Overview Tab
 
 The Overview tab of the Cordova Configuration Editor enables you to edit
 the application information of a hybrid mobile project. Information
@@ -427,7 +430,7 @@ All changes to `config.xml` must be saved before the results take
 effect. To save, press Ctrl+S.
 
 [[manage-cordova-settings-in-the-platform-properties-tab]]
-=== Manage Cordova Settings in the Platform Properties Tab
+==== Manage Cordova Settings in the Platform Properties Tab
 
 The Platform Properties tab of the Cordova Configuration Editor enables
 you to specify the Cordova settings in your hybrid mobile project.
@@ -504,7 +507,7 @@ All changes to `config.xml` must be saved before the results take
 effect. To save, press Ctrl+S.
 
 [[run-a-hybrid-mobile-application-on-devices-and-simulators]]
-== Run a Hybrid Mobile Application on Devices and Simulators
+=== Run a Hybrid Mobile Application on Devices and Simulators
 
 You can use the actions of Hybrid Mobile Tools to run applications on
 devices and simulators, as detailed below.
@@ -557,7 +560,7 @@ device and a device input panel.]
 * ?
 
 [[manage-hybrid-mobile-project-run-configurations]]
-== Manage Hybrid Mobile Project Run Configurations
+=== Manage Hybrid Mobile Project Run Configurations
 
 Run configurations inform simulators how to run the application
 associated with a project. Hybrid Mobile Tools generates a default run
@@ -612,7 +615,7 @@ the application associated with the project using the specified
 configuration settings.
 
 [[export-a-hybrid-mobile-project]]
-== Export a Hybrid Mobile Project
+=== Export a Hybrid Mobile Project
 
 Hybrid Mobile Tools provides actions for exporting workspace projects
 from the IDE. Projects can be exported as native projects and
@@ -658,10 +661,10 @@ selected operating system.
 * ?
 
 [[customizing-hybrid-mobile-tools-and-cordovasim]]
-= Customizing Hybrid Mobile Tools and CordovaSim
+== Customizing Hybrid Mobile Tools and CordovaSim
 
 [[customizing-overview]]
-== Customizing Overview
+=== Customizing Overview
 
 The aim of this section is to guide you in customizing Hybrid Mobile
 Tools and CordovaSim:
@@ -669,7 +672,7 @@ Tools and CordovaSim:
 * Specify an Android SDK location
 
 [[set-the-android-sdk-location]]
-== Set the Android SDK Location
+=== Set the Android SDK Location
 
 You must inform Hybrid Mobile Tools of the Android SDK location before
 you can use Hybrid Mobile Tools actions involving Android.
