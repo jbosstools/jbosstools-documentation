@@ -30,33 +30,45 @@
 								<goal>process-asciidoc</goal>
 							</goals>
 							<configuration>
-								<sourceDirectory>${docs.input}</sourceDirectory>
-								<outputdirectory>${docs.output}</outputdirectory>
-								<!-- we use relative paths to images - need to set explicitly -->
-								<imagesDir>.</imagesDir> 
 								<backend>html</backend>
-								<doctype>book</doctype>
-
-								<sourceHighlighter>coderay</sourceHighlighter>
-								<attributes>
-									<toc>true</toc>
-									<numbered>true</numbered>
-									<docVersion>${project.version}</docVersion>
-									<!-- <stylesheet>my-theme.css</stylesheet> -->
-								</attributes>
-
-								<!-- copy of images to work within html -->
-								<synchronizations>
-									<synchronization>
-										<source>${docs.input}/images</source>
-										<target>${docs.output}/images</target>
-									</synchronization>
-								</synchronizations>
+							</configuration>
+						</execution>
+						<execution>
+							<id>output-docbook</id>
+							<phase>generate-resources</phase>
+							<goals>
+								<goal>process-asciidoc</goal>
+							</goals>
+							<configuration>
+								<backend>docbook</backend>
 							</configuration>
 						</execution>
 					</executions>
+					<configuration>
+						<sourceDirectory>${docs.input}</sourceDirectory>
+						<outputdirectory>${docs.output}</outputdirectory>
+						<!-- we use relative paths to images - need to set explicitly -->
+						<imagesDir>.</imagesDir> 
+						<doctype>book</doctype>
+						<sourceHighlighter>coderay</sourceHighlighter>
+						<attributes>
+							<toc>true</toc>
+							<numbered>true</numbered>
+							<docVersion>${project.version}</docVersion>
+							<!-- some style options: both replace the left-hand ToC w/ a ToC inside the main doc body, and INFO / IMPORTANT blocks appear to vanish -->
+							<!-- <stylesheet>${docs.input}/stylesheets/bootstrap-default.css</stylesheet> -->
+							<!-- <stylesheet>${docs.input}/stylesheets/bootstrap-community.css</stylesheet> -->
+							<copycss>true</copycss>
+							<linkcss>true</linkcss>
+						</attributes>
+						<synchronizations>
+							<synchronization>
+								<source>${docs.input}/images</source>
+								<target>${docs.output}/images</target>
+							</synchronization>
+						</synchronizations>
+					</configuration>
 				</plugin>
 			</plugins>
 	</build>
-
 </project>
