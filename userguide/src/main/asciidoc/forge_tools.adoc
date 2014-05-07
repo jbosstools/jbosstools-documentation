@@ -1,0 +1,317 @@
+:icons: font
+:toc: left
+:numbered:
+
+[[forge-tools]]
+== Forge Tools
+
+[[overview-of-forge-tools]]
+=== Overview of Forge Tools
+
+[[about-forge]]
+==== About Forge
+
+Forge is an application for developing Java EE applications, promoting
+ease in getting started, working efficiently, and integrating
+technologies. It simplifies development workflow by providing automation
+at a command line level. Such automation is useful if you are working
+with new or complex technology or completing repetitive tasks.
+
+Forge consists of a command line interface and sets of commands provided
+through plug-ins. The Forge command line accepts standard UNIX commands
+such as `cd` for change directory, `mkdir` to create a new directory and
+`touch` to create a new file. But the real power of Forge lies in its
+unique command set, which is extendable through plug-ins. For example,
+the `scaffold` command generates a user interface for an application and
+the `persistence` command adds persistence to a project. Furthermore,
+Forge comprehends a range of file types, with actions for working with
+their contents.
+
+[[about-forge-tools]]
+==== About Forge Tools
+
+Forge Tools is tooling that integrates Forge into the IDE. It enhances
+your workflow by providing and integrating Forge functionality within
+the IDE.
+
+Forge Tools consists of the Forge Console and background actions. The
+Forge Console provides a Forge command line on which to execute all of
+the Forge commands. The background actions result in the outcome of the
+Forge commands being immediately reflected in the IDE. For example,
+files are opened in editors and projects and directories expanded in
+explorer views as actions creating and modifying them are executed on
+the Forge command line.
+
+[[features-of-forge-tools]]
+=== Features of Forge Tools
+
+[[features-overview]]
+==== Features Overview
+
+The aim of this section is to guide you in using Forge Tools:
+
+* View and manage the Forge Console view, from which the Forge command
+line is accessible
+* Start and stop the Forge runtime server in order to access the command
+line
+* Navigate to project resources in the Forge command line
+* Understand how Forge commands affect the IDE through background
+actions, such as expanding directories in explorer views and opening
+files in editors
+* Use wizards for accomplishing common Forge commands as an alternative
+to the Forge command line
+
+[[manage-the-forge-console]]
+==== Manage the Forge Console
+
+A key element for working with Forge is the Forge command line. In order
+to see this, you need to open the `Forge Console` view.
+
+image:images/4060.png[To open the `Forge Console` view, click
+`Window`→`Show View`→`Other`. Expand `Forge` and double-click
+`Forge Console` and click `OK`. Alternatively, press Ctrl+4, at which
+you are prompted whether you also want to start the Forge runtime
+server. Irrespective of your response to starting Forge, the
+`Forge Console` view opens.]
+
+To open the `Forge Console` view, click `Window`→`Show View`→`Other`.
+Expand `Forge`, select `Forge Console` and click `OK`. Alternatively,
+press Ctrl+4, at which you are prompted whether you also want to start
+the Forge runtime server. Irrespective of your response to starting
+Forge, the `Forge Console` view opens.
+
+[[manage-the-forge-runtime-server]]
+==== Manage the Forge Runtime Server
+
+You must start a Forge runtime server in order to access the Forge
+command line. Forge Tools provides actions for starting and managing the
+Forge runtime server.
+
+Start Forge::
+In the `Forge Console` view, click the
+`Start the default Forge runtime` icon image:images/4062.png[image].
+  Alternatively, press Ctrl+4 and at the prompt asking if you want to
+start the Forge runtime server, click `Yes`. A progress bar in the IDE
+window and text in the `Forge Console` view indicate the starting
+status of Forge.
++
+image:images/4063.png[In the `Forge Console` view, click the
+  `Start the default Forge runtime` icon. Alternatively, press Ctrl+4
+and at the prompt asking if you want to start the Forge runtime
+server, click `Yes`.]
+Run Forge in the background::
+With a running instance of Forge, in the `Forge Console` view click
+the `Close` icon image:images/4071.png[image]. Despite the
+`Forge Console` view not being open, Forge continues to run in the
+background. Reopen the `Forge Console` view to access the same Forge
+command line, identifiable by the existing command line output.
+Stop Forge::
+In the `Forge Console` view, click the
+`Stop the running Forge runtime` icon image:images/4061.png[image].
+Alternatively, on the Forge command line, enter `exit`.
++
+image:images/4069.png[To stop Forge, on the Forge command line enter
+`exit`.]
+
+[[navigate-to-project-resources-on-the-forge-command-line]]
+==== Navigate to Project Resources on the Forge Command Line
+
+Forge Tools enables you to efficiently navigate to project resources,
+such as directories and files, on the Forge command line.
+
+To navigate to a project resource on the Forge command line, in the
+`Project Explorer` view right-click any project resource and click
+`Show In`→`Forge Console`. If the Forge runtime server is not started,
+you are prompted to start it. At the prompt, click `OK`.
+
+image:images/4064.png[To navigate to a project resource on the Forge
+command line, in the `Project Explorer` view right-click any project
+resource and click `Show In`→`Forge Console`.]
+
+Alternatively, in the `Project Explorer` view, select a project resource
+and click the `Go to Selection` icon image:images/4068.png[image] in the
+`Forge Console` view.
+
+Both of these actions result in the Forge command line automatically
+executing the `pick-up` command for the project resource. Following
+this, the command line navigates to the project resource, the command
+line indicates the selected resource, and the resource opens in an
+editor if it is a file.
+
+image:images/4067.png[The Forge command line automatically executing the
+`pick-up` command for the project resource.]
+
+[[background-actions-invoked-by-forge-commands]]
+==== Background Actions Invoked by Forge Commands
+
+Forge Tools invokes background actions in the IDE in response to
+commands issued on the command line in the `Forge Console` view. For
+example, if you create a project file or directory on the Forge command
+line, the `Project Explorer` view is automatically refreshed to show the
+newly created project resource. A list of Forge commands that result in
+additional background actions is given below.
+
+`cd`::
+The command navigates to the project directory and selects it in the
+`Project Explorer` and `Package Explorer` views.
+`pick-up`::
+The command navigates to the project resource and in the case that the
+resource is a file it is opened in an editor within the IDE. The
+project resource is selected and expanded in the `Project Explorer`
+and `Package Explorer` views. If the resource resides outside the
+workspace, it is selected and expanded in the
+`Remote Systems Explorer` view, providing this is installed.
+`open`::
+The command opens a file in an editor within the IDE. The project
+resource is selected and expanded in the `Project Explorer` and
+`Package Explorer` views. If the resource resides outside the
+workspace, it is selected and expanded in the
+`Remote Systems Explorer` view, providing this is installed.
+`new-project`::
+The command creates a new project in a specified location. The project
+is automatically imported into the workspace and it is visible in the
+`Project Explorer` and `Package Explorer` views.
+`persistence setup`::
+The command creates a `persistence.xml` file. This file is selected in
+the `Project Explorer` and `Package Explorer` views and it is
+automatically opened in an editor within the IDE.
+`entity`::
+The command creates a new entity and associated Java file. This file
+is selected in the `Project Explorer` and `Package Explorer` views and
+it is automatically opened in the Java editor within the IDE.
+`field`::
+The command creates a new field for an entity. The Java file
+associated with the entity is selected in the `Project Explorer` and
+`Package Explorer` views and it is automatically opened in an editor
+within the IDE and the field selected. The field is also selected in
+the `Outline` view.
+
+[[access-a-list-of-forge-commands]]
+==== Access a List of Forge Commands
+
+Forge Tools provides access to a readily available list of Forge
+commands. Additionally, the commands can be easily inserted in to the
+Forge command line, as detailed below.
+
+To view the list of Forge commands, with a running instance of Forge,
+press Ctrl+4. To insert one of the commands in to the Forge command
+line, in the pop-up window expand the command groups and double-click a
+command.
+
+image:images/4070.png[To view the list of Forge commands, with a running
+instance of Forge, press Ctrl+4. To insert one of the commands in to the
+Forge command line, in the pop-up window expand the command groups and
+double-click a command.]
+
+[[use-forge-wizards]]
+==== Use Forge Wizards
+
+You may prefer to work with wizards rather than the command line. Forge
+Tools provides wizards for some of the most used Forge commands, in
+addition to supporting command line functionality. There are three
+wizards currently available relating to entities, as detailed below.
+
+Entities from Tables::
+This wizard generates entities from an existing database. There are
+options for creating a new project if one does not already exist and
+browsing for the driver.jar and driver classes.
+REST Endpoints from Entities::
+This wizard generates REST endpoint for entities.
+Scaffold UI from Entities::
+This wizard generates the necessary scaffolding for you to use JPA
+entities in your project. There are options for JavaServer Faces and
+AngularJS implementations, with the wizard creating the associated
+pages and Java backing beans.
+
+To open a Forge Tools wizard, click `File`→`New`→`Other` and expand
+`JBoss Tools`→`Forge`. Select one of the listed wizards, click `Next`
+and follow the instructions. In the case that Forge is not already
+started, the wizard automatically starts it.
+
+image:images/4059.png[To open a Forge Tools wizard, click
+`File`→`New`→`Other` and expand `JBoss Tools`→`Forge`. Select one of the
+listed wizards, click `Next` and follow the instructions.]
+
+[[customizing-forge-tools]]
+=== Customizing Forge Tools
+
+[[customizing-overview]]
+==== Customizing Overview
+
+The aim of this section is to guide you in customizing Forge Tools:
+
+* Customize when and how Forge starts
+* Manage available Forge runtime servers
+
+[[customize-the-forge-start]]
+==== Customize the Forge Start
+
+Forge Tools provides a number of options for customized Forge starts.
+
+image:images/4066.png[To open the the Forge Pane, click
+`Window`→`Preferences` and select `Forge`.]
+
+Start Forge on IDE start::
+Click `Window`→`Preferences` and select `Forge`. Select the
+`Start Forge when workbench starts` check box. Click `OK` to close the
+Preferences window.
+Start Forge in debug mode::
+Click `Window`→`Preferences` and select `Forge`. Select the
+`Start Forge in Debug Mode` check box. Click `OK` to close the
+Preferences window. The debug mode enables you to view the progress of
+processes executed on the Forge command line in the `Debug` view. This
+mode is most useful if you are developing and testing plug-ins to
+extend the functionality of Forge.
+Specify arguments for Forge start::
+Click `Window`→`Preferences` and select `Forge`. In the
+`Forge Startup VM Arguments` field, type the arguments you want Forge
+to use when it starts. Click `OK` to close the Preferences window.
++
+[NOTE]
+====
+The standard Java VM arguments can be used when starting Forge.
+Additionally, Forge specific commands include `--debug` to start Forge
+in debug mode and `-pluginDir` to specify the directory where Forge is
+to look for plug-ins to install rather than the default
+`.forge/plugins` directory.
+====
+
+[[manage-forge-runtime-servers]]
+==== Manage Forge Runtime Servers
+
+Forge Tools is distributed with a Forge runtime server but you may want
+to use different versions of Forge runtime servers. Forge Tools provides
+the ability to manage the Forge runtime servers that are available in
+the IDE, as detailed below.
+
+To manage the available Forge runtime servers, click
+`Window`→`Preferences`, expand `Forge` and select
+`Installed Forge Runtimes`. To manage the available Forge runtime
+servers, click `Window`→`Preferences`, expand `Forge` and select
+`Installed Forge Runtimes`.
+
+* To add a Forge runtime server, click `Add`. In the `Name` field, type
+a name to distinguish the Forge runtime server in the IDE. In the
+`Location` field, type the location of the runtime server or click
+`Browse` to navigate to the location. Click `OK` to close the window.
+* To change the name or the location of a Forge runtime server, from the
+`Installed Forge Runtimes` list select a runtime and click `Edit`.
+Modify the `Name` and `Location` fields as appropriate. Click `OK` to
+close the window.
+* To delete a Forge runtime server, from the `Installed Forge Runtimes`
+list select the runtime and click `Remove`.
+* To set a runtime server as the default, select the check box
+corresponding to the Forge runtime server. This runtime server is used
+when Forge starts.
+
+Click `OK` to close the Preferences window.
+
+[IMPORTANT]
+====
+It is not possible to edit or delete the Forge runtime server that is
+distributed with Forge Tools. This server is named `embedded` in the
+`Installed Forge Runtimes` list. Additionally, it is not possible to
+delete a Forge runtime server that is selected as the default. To delete
+a default runtime server, you must first select a different runtime
+server as the default.
+====
