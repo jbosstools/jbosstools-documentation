@@ -1,14 +1,15 @@
 :toc:
 :icons: font
+:numbered:
 
 [[livereload-tools]]
-= LiveReload Tools
+== LiveReload Tools
 
 [[overview-of-livereload-tools]]
-== Overview of LiveReload Tools
+=== Overview of LiveReload Tools
 
 [[about-livereload]]
-=== About LiveReload
+==== About LiveReload
 
 LiveReload is an open source tool that refreshes web pages open in
 browsers as their source is edited. Immediate and automatic web page
@@ -34,7 +35,7 @@ operating systems. LiveReload browser extensions are available for
 Safari, Chrome and Firefox.
 
 [[about-livereload-tools]]
-=== About LiveReload Tools
+==== About LiveReload Tools
 
 LiveReload Tools is tooling that implements LiveReload in the IDE. It
 enables you to take advantage of LiveReload browser refreshing while
@@ -57,10 +58,10 @@ also be used in conjunction with BrowserSim, extending LiveReload to
 simulated devices.
 
 [[features-of-livereload-tools]]
-== Features of LiveReload Tools
+=== Features of LiveReload Tools
 
 [[features-overview]]
-=== Features Overview
+==== Features Overview
 
 The aim of this section is to guide you in using LiveReload Tools:
 
@@ -72,7 +73,7 @@ devices
 and external device browsers and BrowserSim
 
 [[create-a-livereload-server]]
-=== Create a LiveReload Server
+==== Create a LiveReload Server
 
 The LiveReload server is integral to the LiveReload integration with the
 IDE. In its default configuration, the server receives information from
@@ -117,7 +118,7 @@ the actions provided by LiveReload Tools.
 ====
 
 [[configure-the-livereload-server]]
-=== Configure the LiveReload Server
+==== Configure the LiveReload Server
 
 A LiveReload client must be inserted into HTML files in order for it to
 receive the LiveReload server notifications about changed resources.
@@ -154,7 +155,7 @@ To restart the server, in the `Servers` view right-click the LiveReload
 server and click `Restart`.
 
 [[view-resources-in-livereload-enabled-browsers]]
-=== View Resources in LiveReload-enabled Browsers
+==== View Resources in LiveReload-enabled Browsers
 
 You can use the actions of LiveReload Tools to open HTML, XHTML and
 AsciiDoc resources in LiveReload-enabled browsers, as detailed below. If
@@ -248,7 +249,7 @@ in the Server Editor.
 ====
 
 [[view-resources-in-livereload-enabled-browsersim]]
-=== View Resources in LiveReload-enabled BrowserSim
+==== View Resources in LiveReload-enabled BrowserSim
 
 The LiveReload server can be used in conjunction with BrowserSim. In
 this case, the server sends notifications about changed resources and
