@@ -1,6 +1,7 @@
 :numbered:
 :doctype: book
 :toc: left
+:icons: font
 
 
 [[sect-overview-of-livereload-tools]]
