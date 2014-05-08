@@ -20,9 +20,25 @@ JBoss Central comprises resources and actions for creating new projects, learnin
 
 
 * Project wizards create new projects based on sample applications and different technologies.
+
+
+Project wizards create new projects based on sample applications and different technologies.
+
 * The TicketMonster tutorial, part of JBoss Java Developer Framework, demonstrates how to use the IDE to best advantage in developing a complex web application that utilizes JBoss technologies.
+
+
+The TicketMonster tutorial, part of JBoss Java Developer Framework, demonstrates how to use the IDE to best advantage in developing a complex web application that utilizes JBoss technologies.
+
 * Links to JBoss blog posts give timely insight into JBoss developments and the links to JBoss resources, such as documentation and forums, provide easy access to key information sources.
+
+
+Links to JBoss blog posts give timely insight into JBoss developments and the links to JBoss resources, such as documentation and forums, provide easy access to key information sources.
+
 * Software installation and update information assist in the easy management of IDE plug-ins.
+
+
+Software installation and update information assist in the easy management of IDE plug-ins.
+
 
 
 [[about-the-jboss-perspective]]
@@ -60,9 +76,25 @@ The aim of this section is to guide you in using JBoss Central and the JBoss per
 
 
 * View JBoss Central to access project wizards and information resources
+
+
+View JBoss Central to access project wizards and information resources
+
 * Install and update software with JBoss Central
+
+
+Install and update software with JBoss Central
+
 * Open the JBoss perspective for easy access to key views, menus and toolbars
+
+
+Open the JBoss perspective for easy access to key views, menus and toolbars
+
 * Access cheat sheets that assist in project development
+
+
+Access cheat sheets that assist in project development
+
 
 [[view-jboss-central]]
 === View JBoss Central
@@ -98,11 +130,15 @@ There are two types of project wizards available in JBoss Central: `Start from s
   To view a project summary, hover the cursor over a project wizard.
   If you do not have the necessary plug-in installed to use a wizard, you are prompted to install it when you click the wizard.
 
+.Start from Scratch Wizards
+image::images/3963.png["The Start from scratch wizards create the same project using different underlying technology, as started in the project name. To view a project summary, hover the cursor over a project wizard."]
 `Start from a sample`;;
   
   These wizards create sample web, mobile, back-end and portal applications.
   To view a project summary, hover the cursor over a project wizard.
 
+.Start from Sample Wizards
+image::images/4347.png["The Start from a sample wizards create sample web, mobile, back-end and portal applications. To view a project summary, hover the cursor over a project wizard."]
 
 To create a project from one of the wizards, in JBoss Central select the `Getting Started` tab.
 Click one of the links below `Start from scratch` or `Start from a sample`.
@@ -141,16 +177,22 @@ View the latest JBoss developments;;
   JBoss blog posts are available to follow as RSS feeds or with Twitter.
   To review these options, click the `News` or `Twitter` icons.
 
+.JBoss Buzz
+image::images/4228.png["In JBoss Central, select the Getting Started tab and click the links under JBoss Buzz. To see previews of the blog posts, hover the cursor over these links. To view a complete list of JBoss blog posts, click the JBoss Buzz button."]
 View JBoss developer information sources;;
   
   In JBoss Central, select the `Getting Started` tab and click the links under `Other resources`.
   These links provide access to videos, documentation and forums.
 
+.Other Resources
+image::images/3966.png["In JBoss Central, select the Getting Started tab and click the links under Other resources."]
 Search the JBoss Community website;;
   
   In JBoss Central, click the arrow next to the search box and select `Search JBoss Community`.
   In the search field, enter the search terms.
 
+.Search the JBoss Community Website
+image::images/3961.png["In JBoss Central, click the arrow next to the search box and select Search JBoss Community. In the search field, enter the search terms."]
 NOTE: 
 To change the default IDE browser, click `Window`&rarr;`Web Browser` and select a browser from the listed options.
 
@@ -179,12 +221,16 @@ View installed plug-ins;;
   Select the `Show Installed` check box.
   The installed plug-ins are listed in the table as disabled.
 
+.`Show Installed` Check Box Selected and Installed Plug-ins Listed as Disabled
+image::images/4346.png["To view installed plug-ins, select the Show Installed check box. The installed plug-ins are listed in the table as disabled."]
 Install available software;;
   
   In the `Find` field, type the name of the software or scroll through the list to locate it.
   Select the check box corresponding to the software you want to install and click `Install` or click the `Install` icon 
   image:images/3979.png[""].
 
+.Find and Install Software
+image::images/4270.png["In the Find field, type the name of the software or scroll through the list to locate it. Select the check box corresponding to the software you want to install and click Install or click the Install icon."]
 Check for software updates;;
   
   Click the `Check for Updates` icon 
@@ -193,6 +239,8 @@ Check for software updates;;
   Once checking is complete, a prompt informs you of any new software found.
   Click `OK` to close the prompt.
 
+.Information Window Showing No Updates Found
+image::images/3974.png["The Contacting Software Sites window opens and reports the progress of checking. Once checking is complete, a prompt informs you of any new software found. Click OK to close the prompt."]
 [[open-the-jboss-perspective]]
 === Open the JBoss Perspective
 
@@ -272,9 +320,25 @@ The aim of this section is to guide you in customizing JBoss Central and the JBo
 
 
 * Make JBoss Central visible when the IDE starts
+
+
+Make JBoss Central visible when the IDE starts
+
 * Customize the views, menus and toolbars of the JBoss perspective
+
+
+Customize the views, menus and toolbars of the JBoss perspective
+
 * Enable offline availability of JBoss Central elements, such as project examples and auxiliary plug-ins
+
+
+Enable offline availability of JBoss Central elements, such as project examples and auxiliary plug-ins
+
 * Specify the default IDE behavior for cheat sheets
+
+
+Specify the default IDE behavior for cheat sheets
+
 
 [[change-the-behavior-of-jboss-central-on-ide-start]]
 === Change the Behavior of JBoss Central on IDE Start
@@ -317,6 +381,8 @@ Customize views;;
   From the `Existing Perspectives` list, select `JBoss` and click `OK`.
   At the prompt asking if you want to overwrite the existing JBoss perspective, click `Yes`.
 
+.Save Perspective As Window
+image::images/3964.png["Open or close tabs as desired and click WindowSave Perspective As. From the Existing Perspectives list, select JBoss and click OK."]
 Customize menu and toolbar elements;;
   
   Click `Window`&rarr;`Customize Perspective`.
@@ -325,15 +391,21 @@ Customize menu and toolbar elements;;
   Disabled items in the `Tool Bar Visibility` and `Menu Visibility` tabs can be activated in the `Command Groups Availability` tab.
   Click `OK` to save any changes and close the window.
 
+.`Tool Bar Visibility` Tab in Customize Perspective Window
+image::images/3986.png["Click WindowCustomize Perspective. In the Tool Bar Visibility tab, select or clear the check boxes corresponding to the individual toolbars and icons visible in the global toolbar of the JBoss perspective as appropriate. Click OK to save any changes and close the window."]
 Reorder the individual toolbars comprising the global toolbar;;
   
   Click the vertical dashed line indicating the beginning of an individual toolbar and drag the toolbar to its new location in the global toolbar.
 
+.Select and Drag a Toolbar to Reorder the Global Toolbar
+image::images/3968.png["Click the vertical dashed line indicating the beginning of an individual toolbar and drag the toolbar to its new location in the global toolbar."]
 Revert all perspective customizations;;
   
   Click `Window`&rarr;`Reset Perspective`.
   At the prompt asking if you want to reset the JBoss perspective to its saved state, select the `Also discard perspective's customization` check box and click `Yes`.
 
+.Revert Perspective Window
+image::images/3967.png["Click WindowReset Perspective. At the prompt asking if you want to reset the JBoss perspective to its saved state, select the Also discard perspective's customization check box and click Yes."]
 [[use-project-examples-when-working-offline]]
 === Use Project Examples when Working Offline
 
@@ -394,18 +466,55 @@ To install JBoss and third-party plug-ins in offline mode, you must first downlo
 []##You can download the JBoss Central [file]`.zip` file from http://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/[] on the JBoss Tools website.##
 
 * Click `Help`&rarr;`Install New Software`.
+
+
+Click `Help`&rarr;`Install New Software`.
+
 * In the `Work with` field, enter the path of the JBoss Central [file]`.zip` file.
   Alternatively, click `Add` and click `Archive` to locate the file.
+
+
+In the `Work with` field, enter the path of the JBoss Central [file]`.zip` file.
+Alternatively, click `Add` and click `Archive` to locate the file.
+
 * Clear the `Group items by category` check box.
   This action makes the contents of the JBoss Central [file]`.zip` file visible in the table of components.
+
+
+Clear the `Group items by category` check box.
+This action makes the contents of the JBoss Central [file]`.zip` file visible in the table of components.
+
 * From the table of components, select the software to be installed and click `Next`.
+
+
+From the table of components, select the software to be installed and click `Next`.
+
 * Review the details of the items listed for install and click `Next`.
+
+
+Review the details of the items listed for install and click `Next`.
+
 * After reading and agreeing to the license(s), click `I accept the terms of the license agreement(s)` and click `Finish`.
   The `Installing Software` window opens and reports the progress of the installation.
+
+
+After reading and agreeing to the license(s), click `I accept the terms of the license agreement(s)` and click `Finish`.
+The `Installing Software` window opens and reports the progress of the installation.
+
 * During the installation process you may receive warnings about installing unsigned content.
   If this is the case, review the details of the content and if satisfied click `OK` to continue with the installation.
+
+
+During the installation process you may receive warnings about installing unsigned content.
+If this is the case, review the details of the content and if satisfied click `OK` to continue with the installation.
+
 * Once installing is complete, you are prompted to restart the IDE. Click `Yes` to restart now and `No` if you need to save any unsaved changes to open projects.
   Note that changes do not take effect until the IDE is restarted.
+
+
+Once installing is complete, you are prompted to restart the IDE. Click `Yes` to restart now and `No` if you need to save any unsaved changes to open projects.
+Note that changes do not take effect until the IDE is restarted.
+
 
 [[set-cheat-sheet-behavior]]
 === Set Cheat Sheet Behavior

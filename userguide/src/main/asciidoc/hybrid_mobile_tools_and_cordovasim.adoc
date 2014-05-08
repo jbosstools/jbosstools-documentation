@@ -32,9 +32,23 @@ Cordova applications have a distinctive project structure:
 
 * An essential [file]`config.xml` file holds information about the application.
   It specifies features, preferences and access details that affect how the application works, for example whether the application responds to orientation changes.
+
+
+An essential [file]`config.xml` file holds information about the application.
+It specifies features, preferences and access details that affect how the application works, for example whether the application responds to orientation changes.
+
 * An application is implemented as a web page.
   The default starting page is [file]`index.html` and device-independent resources are stored in a [file]`www` directory.
+
+
+An application is implemented as a web page.
+The default starting page is [file]`index.html` and device-independent resources are stored in a [file]`www` directory.
+
 * An application must reference the [file]`cordova.js` file, which holds necessary API bindings that enable the application to interact with device features.
+
+
+An application must reference the [file]`cordova.js` file, which holds necessary API bindings that enable the application to interact with device features.
+
 
 
 
@@ -54,13 +68,36 @@ Hybrid Mobile Tools consists of the Apache Cordova API and wizards, a dedicated 
 
 
 * The Hybrid Mobile Application project wizard creates a sample project to demonstrate the Cordova project structure and provides you with a template from which to create your own applications.
+
+
+The Hybrid Mobile Application project wizard creates a sample project to demonstrate the Cordova project structure and provides you with a template from which to create your own applications.
+
 * The Cordova Configuration Editor offers simplified management of [file]`config.xml` files, with dedicated tabs for adding and editing project descriptions, features, preferences and access.
   An additional tab enables direct editing of [file]`config.xml` files.
+
+
+The Cordova Configuration Editor offers simplified management of [file]`config.xml` files, with dedicated tabs for adding and editing project descriptions, features, preferences and access.
+An additional tab enables direct editing of [file]`config.xml` files.
+
 * The Cordova Plug-in Discovery wizard assists you to add Cordova plug-ins to your projects.
   Plug-ins can be installed from the Cordova registry, Git locations and system directories.
   Information displayed in the `Project Explorer` view is extended to show installed plug-ins and enable their management.
+
+
+The Cordova Plug-in Discovery wizard assists you to add Cordova plug-ins to your projects.
+Plug-ins can be installed from the Cordova registry, Git locations and system directories.
+Information displayed in the `Project Explorer` view is extended to show installed plug-ins and enable their management.
+
 * Actions are provided for calling external Android and iOS SDKs to package Cordova-based hybrid mobile projects into native applications and subsequently run them on their associated simulators or connected Android devices.
+
+
+Actions are provided for calling external Android and iOS SDKs to package Cordova-based hybrid mobile projects into native applications and subsequently run them on their associated simulators or connected Android devices.
+
 * Export wizards are available for exporting Cordova-based hybrid mobile projects from the IDE workspace as Cordova-enabled Android or iOS projects and ready-to-sign applications.
+
+
+Export wizards are available for exporting Cordova-based hybrid mobile projects from the IDE workspace as Cordova-enabled Android or iOS projects and ready-to-sign applications.
+
 
 
 
@@ -88,10 +125,26 @@ Extensions to the device input panel for CordovaSim include the following:
 * CordovaSim supports a range of Cordova API implementations: the core Apache Cordova plug-ins, several PhoneGap plug-ins and custom plug-ins.
   Supported PhoneGap plug-ins include `BarcodeScanner`, `InAppBrowser` and `ChildBrowser`.
   (Note that exceptions to the supported core Apache Cordova plug-ins are `File` and the `captureAudio` and `captureVideo` methods of `Capture`.)
+
+
+CordovaSim supports a range of Cordova API implementations: the core Apache Cordova plug-ins, several PhoneGap plug-ins and custom plug-ins.
+Supported PhoneGap plug-ins include `BarcodeScanner`, `InAppBrowser` and `ChildBrowser`.
+(Note that exceptions to the supported core Apache Cordova plug-ins are `File` and the `captureAudio` and `captureVideo` methods of `Capture`.)
+
 * CordovaSim automatically injects an up-to-date version of the [file]`cordova.js` library into your project code at simulation time in the case that it is missing.
   Typically this file is added when a project is built with a native SDK. This response by CordovaSim enables it to simulate applications of Cordova-based hybrid mobile projects and Cordova-enabled Android projects without requiring native SDKs.
+
+
+CordovaSim automatically injects an up-to-date version of the [file]`cordova.js` library into your project code at simulation time in the case that it is missing.
+Typically this file is added when a project is built with a native SDK. This response by CordovaSim enables it to simulate applications of Cordova-based hybrid mobile projects and Cordova-enabled Android projects without requiring native SDKs.
+
 * The use of BrowserSim for displaying the application extends the functionality of the mobile application simulator to encompass all of the BrowserSim functionality.
   This functionality includes skins, screen captures and LiveReload.
+
+
+The use of BrowserSim for displaying the application extends the functionality of the mobile application simulator to encompass all of the BrowserSim functionality.
+This functionality includes skins, screen captures and LiveReload.
+
 
 [[system-requirements-for-hybrid-mobile-tools]]
 === System Requirements for Hybrid Mobile Tools
@@ -122,6 +175,10 @@ iOS SDK (including simulator);;
 
 * See Also:
   <<set-the-android-sdk-location,Set the Android SDK Location>>
+
+
+<<set-the-android-sdk-location,Set the Android SDK Location>>
+
 
 [[system-requirements-for-cordovasim]]
 === System Requirements for CordovaSim
@@ -165,18 +222,54 @@ These plug-ins must be installed independently through JBoss Central, as detaile
 image::images/4403.png["To install these plug-ins, drag the following link into JBoss Central: ."]
 .+Find Hybrid Mobile Tools and CordovaSim in JBoss Central `Software/Update` Tab
 image::images/4404.png["To install these plug-ins, drag the following link into JBoss Central: ."]
-* In the `Install` wizard, ensure the check boxes are selected for the software you want to install and click `Next`.
+
+
+To install these plug-ins, drag the following link into JBoss Central: https://devstudio.jboss.com/central/install?connectors=org.jboss.tools.aerogear.hybrid[].
+Alternatively, in JBoss Central select the `Software/Update` tab.
+In the `Find` field, type `JBoss Hybrid Mobile Tools` or scroll through the list to locate `JBoss Hybrid Mobile Tools + CordovaSim`.
+Select the corresponding check box and click `Install`.
+
+
+.Start the Hybrid Mobile Tools and CordovaSim Installation Process with the Link
+image::images/4403.png["To install these plug-ins, drag the following link into JBoss Central: ."]
+.Find Hybrid Mobile Tools and CordovaSim in JBoss Central `Software/Update` Tab
+* image::images/4404.png["To install these plug-ins, drag the following link into JBoss Central: ."]
+  In the `Install` wizard, ensure the check boxes are selected for the software you want to install and click `Next`.
   It is recommended that you install all of the selected components.
+
+
+In the `Install` wizard, ensure the check boxes are selected for the software you want to install and click `Next`.
+It is recommended that you install all of the selected components.
+
 * Review the details of the items listed for install and click `Next`.
   After reading and agreeing to the license(s), click `I accept the terms of the license agreement(s)` and click `Finish`.
   The `Installing Software` window opens and reports the progress of the installation.
+
+
+Review the details of the items listed for install and click `Next`.
+After reading and agreeing to the license(s), click `I accept the terms of the license agreement(s)` and click `Finish`.
+The `Installing Software` window opens and reports the progress of the installation.
+
 * During the installation process you may receive warnings about installing unsigned content.
   If this is the case, check the details of the content and if satisfied click `OK` to continue with the installation.
 +
 .Warning Prompt for Installing Unsigned Content
 image::images/3981.png["During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click OK to continue with the installation."]
-* Once installing is complete, you are prompted to restart the IDE. Click `Yes` to restart now and `No` if you need to save any unsaved changes to open projects.
+
+
+During the installation process you may receive warnings about installing unsigned content.
+If this is the case, check the details of the content and if satisfied click `OK` to continue with the installation.
+
+
+.Warning Prompt for Installing Unsigned Content
+* image::images/3981.png["During the installation process you may receive warnings about installing unsigned content. If this is the case, check the details of the content and if satisfied click OK to continue with the installation."]
+  Once installing is complete, you are prompted to restart the IDE. Click `Yes` to restart now and `No` if you need to save any unsaved changes to open projects.
   Note that changes do not take effect until the IDE is restarted.
+
+
+Once installing is complete, you are prompted to restart the IDE. Click `Yes` to restart now and `No` if you need to save any unsaved changes to open projects.
+Note that changes do not take effect until the IDE is restarted.
+
 
 
 Once installed, you must inform Hybrid Mobile Tools of the Android SDK location before you can use Hybrid Mobile Tools actions involving Android.
@@ -184,6 +277,10 @@ Once installed, you must inform Hybrid Mobile Tools of the Android SDK location 
 
 * See Also:
   <<set-the-android-sdk-location,Set the Android SDK Location>>
+
+
+<<set-the-android-sdk-location,Set the Android SDK Location>>
+
 
 [[sect-features-of-hybrid-mobile-tools-and-cordovasim]]
 == Features of Hybrid Mobile Tools and CordovaSim
@@ -196,11 +293,35 @@ The aim of this section is to guide you in using Hybrid Mobile Tools and Cordova
 
 
 * Create the basis of new hybrid mobile projects using the project wizard
+
+
+Create the basis of new hybrid mobile projects using the project wizard
+
 * Add and remove Cordova plug-ins from your applications
+
+
+Add and remove Cordova plug-ins from your applications
+
 * Manage the Cordova functionality of applications using the Cordova Configuration Editor
+
+
+Manage the Cordova functionality of applications using the Cordova Configuration Editor
+
 * Run and test hybrid mobile applications with CordovaSim or call external Android and iOS SDKs to run applications on their associated simulators and, in the case of Android, attached devices
+
+
+Run and test hybrid mobile applications with CordovaSim or call external Android and iOS SDKs to run applications on their associated simulators and, in the case of Android, attached devices
+
 * Customize the settings used by CordovaSim, Android and iOS simulators for running hybrid mobile applications
+
+
+Customize the settings used by CordovaSim, Android and iOS simulators for running hybrid mobile applications
+
 * Export workspace applications as Cordova-enabled native projects or ready-to-sign applications
+
+
+Export workspace applications as Cordova-enabled native projects or ready-to-sign applications
+
 
 [[create-a-hybrid-mobile-project]]
 === Create a Hybrid Mobile Project
@@ -212,18 +333,38 @@ It creates a Cordova project with structure compatible with projects generated b
 
 []
 * Click `File`&rarr;`New`&rarr;`Project`.
+
+
+Click `File`&rarr;`New`&rarr;`Project`.
+
 * Expand `Mobile`, select `Hybrid Mobile (Cordova) Application Project` and click `Next`.
 +
 .Select `Hybrid Mobile Application Project` in New Project Wizard
 image::images/4405.png["Expand Mobile, select Hybrid Mobile (Cordova) Application Project and click Next."]
 
+
+Expand `Mobile`, select `Hybrid Mobile (Cordova) Application Project` and click `Next`.
+
+
+.Select `Hybrid Mobile Application Project` in New Project Wizard
+image::images/4405.png["Expand Mobile, select Hybrid Mobile (Cordova) Application Project and click Next."]
 Complete the following fields: 
 
 
 * In the `Project name` field, type a name for the project.
   This value is the name of the directory to be created and in which the source files for the application are stored, for example `My_App`.
+
+
+In the `Project name` field, type a name for the project.
+This value is the name of the directory to be created and in which the source files for the application are stored, for example `My_App`.
+
 * In the `Name` field, type a name by which the hybrid mobile application is to be known.
   This value is the display text used to represent the application in listings and device home screens, for example `My Application`.
+
+
+In the `Name` field, type a name by which the hybrid mobile application is to be known.
+This value is the display text used to represent the application in listings and device home screens, for example `My Application`.
+
 * In the `ID` field, type an ID for the hybrid mobile application.
   The value is typically a reverse domain-style identifier, for example `com.example.myapp`, and for applications that are to be distributed through device platform application stores the ID value will be provided by the store.
 +
@@ -232,14 +373,79 @@ There are restrictions on the ID you can use for an application.
 IDs must consist only of alphanumeric characters and dots.
 IDs must begin with an alpha character and contain at least one dot.
 
+
+
+
+In the `ID` field, type an ID for the hybrid mobile application.
+The value is typically a reverse domain-style identifier, for example `com.example.myapp`, and for applications that are to be distributed through device platform application stores the ID value will be provided by the store.
+
+
+* NOTE: 
+  There are restrictions on the ID you can use for an application.
+  IDs must consist only of alphanumeric characters and dots.
+  IDs must begin with an alpha character and contain at least one dot.
 +
 .`Hybrid Mobile Application Project` Wizard
 image::images/4406.png["In the Project name field, type a name for the project. In the Name field, type a name by which the hybrid mobile application is to be known. In the ID field, type an ID for the hybrid mobile application."]
-* By default, the project is created in a subdirectory of the workspace that is named according to the project name.
+
+
+Complete the following fields: 
+
+
+* In the `Project name` field, type a name for the project.
+  This value is the name of the directory to be created and in which the source files for the application are stored, for example `My_App`.
+
+
+In the `Project name` field, type a name for the project.
+This value is the name of the directory to be created and in which the source files for the application are stored, for example `My_App`.
+
+* In the `Name` field, type a name by which the hybrid mobile application is to be known.
+  This value is the display text used to represent the application in listings and device home screens, for example `My Application`.
+
+
+In the `Name` field, type a name by which the hybrid mobile application is to be known.
+This value is the display text used to represent the application in listings and device home screens, for example `My Application`.
+
+* In the `ID` field, type an ID for the hybrid mobile application.
+  The value is typically a reverse domain-style identifier, for example `com.example.myapp`, and for applications that are to be distributed through device platform application stores the ID value will be provided by the store.
++
+NOTE: 
+There are restrictions on the ID you can use for an application.
+IDs must consist only of alphanumeric characters and dots.
+IDs must begin with an alpha character and contain at least one dot.
+
+
+
+
+In the `ID` field, type an ID for the hybrid mobile application.
+The value is typically a reverse domain-style identifier, for example `com.example.myapp`, and for applications that are to be distributed through device platform application stores the ID value will be provided by the store.
+
+
+NOTE: 
+There are restrictions on the ID you can use for an application.
+IDs must consist only of alphanumeric characters and dots.
+IDs must begin with an alpha character and contain at least one dot.
+
+
+
+.`Hybrid Mobile Application Project` Wizard
+* image::images/4406.png["In the Project name field, type a name for the project. In the Name field, type a name by which the hybrid mobile application is to be known. In the ID field, type an ID for the hybrid mobile application."]
+  By default, the project is created in a subdirectory of the workspace that is named according to the project name.
   To change the default location, clear the `Use default location` check box.
   From the `Choose file system` list, select the `default` or `RSE` (Remote System Explorer) as appropriate.
   In the `Location` field, type the path where the project is to be created or click `Browse` to navigate to the location.
+
+
+By default, the project is created in a subdirectory of the workspace that is named according to the project name.
+To change the default location, clear the `Use default location` check box.
+From the `Choose file system` list, select the `default` or `RSE` (Remote System Explorer) as appropriate.
+In the `Location` field, type the path where the project is to be created or click `Browse` to navigate to the location.
+
 * To create the project, click `Finish`.
+
+
+To create the project, click `Finish`.
+
 
 
 During project creation, the wizard imports project dependencies and populates a [file]`config.xml` file.
@@ -259,6 +465,8 @@ Add a plug-in;;
   
   In the `Project Explorer` view, right-click the [file]`plugins` folder of the project and click `Install Cordova Plug-in`.
 
+.Example of a Cordova Plug-in Selected in the `Registry` Tab of Cordova Plug-in Discovery Wizard
+image::images/4407.png["In the Registry tab, in the Find field enter the name of the feature or scroll through the list to find the plug-in. Select the check box for the plug-in and click Next."]
 Remove a plug-in;;
   
   In the `Project Explorer` view, in the plugins folder right-click the plug-in and click `Remove Cordova Plug-in`.
@@ -269,6 +477,10 @@ Alternatively, you can add and remove plug-ins by using the `Platform Properties
 
 * See Also:
   <<manage-cordova-settings-in-the-platform-properties-tab,Manage Cordova Settings in the Platform Properties Tab>>
+
+
+<<manage-cordova-settings-in-the-platform-properties-tab,Manage Cordova Settings in the Platform Properties Tab>>
+
 
 [[sect-manage-cordova-settings-of-a-hybrid-mobile-project]]
 === Manage Cordova Settings of a Hybrid Mobile Project
@@ -391,8 +603,14 @@ Run with CordovaSim;;
   In the `Project Explorer` view, right-click the project name and click `Run As`&rarr;`Run with CordovaSim`.
   This opens the application in CordovaSim, which is composed of a BrowserSim simulated device and a device input panel.
 
+.CordovaSim for Samsung Galaxy Nexus Simulated Device
+image::images/4414.png["In the Project Explorer tab, right-click the project name and click Run AsRun with CordovaSim. This opens the application in CordovaSim, which is composed of a BrowserSim simulated device and a device input panel."]
 * See Also:
   <<system-requirements-for-hybrid-mobile-tools,System Requirements for Hybrid Mobile Tools>>
+
+
+<<system-requirements-for-hybrid-mobile-tools,System Requirements for Hybrid Mobile Tools>>
+
 
 [[manage-hybrid-mobile-project-run-configurations]]
 === Manage Hybrid Mobile Project Run Configurations
@@ -443,30 +661,106 @@ Android and iOS APIs must be installed and the IDE correctly configured to use t
 
 []
 * In the `Project Explorer` view, right-click the project name and click `Export`.
+
+
+In the `Project Explorer` view, right-click the project name and click `Export`.
+
 * Expand `Mobile`, select the export type as appropriate and click `Next`:
 +
 * To export as an application, select `Export Mobile Application`.
+
+
+To export as an application, select `Export Mobile Application`.
+
 * To export as a native project, select `Export Native Platform Project`.
+
+
+To export as a native project, select `Export Native Platform Project`.
+
 +
 .Select from the Mobile Export Types in the Export Wizard
 image::images/4412.png["Expand Mobile, select the export type as appropriate and click Next. To export as an application, select Export Mobile Application. To export as a native project, select Export Native Platform Project."]
+
+
+Expand `Mobile`, select the export type as appropriate and click `Next`:
+
+
+* To export as an application, select `Export Mobile Application`.
+
+
+To export as an application, select `Export Mobile Application`.
+
+* To export as a native project, select `Export Native Platform Project`.
+
+
+To export as a native project, select `Export Native Platform Project`.
+
+
+.Select from the Mobile Export Types in the Export Wizard
+image::images/4412.png["Expand Mobile, select the export type as appropriate and click Next. To export as an application, select Export Mobile Application. To export as a native project, select Export Native Platform Project."]
+Complete the following fields: 
+
+
+* From the `Select Projects` list, select the check boxes of one or more workspace projects to be exported.
+
+
+From the `Select Projects` list, select the check boxes of one or more workspace projects to be exported.
+
+* From the `Select Platforms` list, select the check boxes of one or more operating systems for which you want to export the selected project.
+  Only operating systems with installed SDKs are listed.
+
+
+From the `Select Platforms` list, select the check boxes of one or more operating systems for which you want to export the selected project.
+Only operating systems with installed SDKs are listed.
+
+* In the `Directory` field, type the path to which the projects are to be exported or click `Browse` to navigate to the location.
+
+* In the `Directory` field, type the path to which the projects are to be exported or click `Browse` to navigate to the location.
++
+.Provide Export Settings in the Export Wizard
+image::images/4413.png["From the Select Projects list, select the check boxes of one or more workspace projects to be exported. From the Select Platforms list, select the check boxes of one or more operating systems for which you want to export the selected project. In the Directory field, type the path to which the projects are to be exported or click Browse to navigate to the location."]
+
 
 Complete the following fields: 
 
 
 * From the `Select Projects` list, select the check boxes of one or more workspace projects to be exported.
+
+
+From the `Select Projects` list, select the check boxes of one or more workspace projects to be exported.
+
 * From the `Select Platforms` list, select the check boxes of one or more operating systems for which you want to export the selected project.
   Only operating systems with installed SDKs are listed.
-* * In the `Directory` field, type the path to which the projects are to be exported or click `Browse` to navigate to the location.
-+
+
+
+From the `Select Platforms` list, select the check boxes of one or more operating systems for which you want to export the selected project.
+Only operating systems with installed SDKs are listed.
+
+* In the `Directory` field, type the path to which the projects are to be exported or click `Browse` to navigate to the location.
+
+
+In the `Directory` field, type the path to which the projects are to be exported or click `Browse` to navigate to the location.
+
+
+
 .Provide Export Settings in the Export Wizard
-image::images/4413.png["From the Select Projects list, select the check boxes of one or more workspace projects to be exported. From the Select Platforms list, select the check boxes of one or more operating systems for which you want to export the selected project. In the Directory field, type the path to which the projects are to be exported or click Browse to navigate to the location."]
-* Click `Finish`.
+* image::images/4413.png["From the Select Projects list, select the check boxes of one or more workspace projects to be exported. From the Select Platforms list, select the check boxes of one or more operating systems for which you want to export the selected project. In the Directory field, type the path to which the projects are to be exported or click Browse to navigate to the location."]
+  Click `Finish`.
   Projects are exported to the specified location.
   Exported native projects are organized with subdirectories for each selected operating system.
 
+
+Click `Finish`.
+Projects are exported to the specified location.
+Exported native projects are organized with subdirectories for each selected operating system.
+
+
 * See Also:
   <<system-requirements-for-hybrid-mobile-tools,System Requirements for Hybrid Mobile Tools>>
+
+
+<<system-requirements-for-hybrid-mobile-tools,System Requirements for Hybrid Mobile Tools>>
+
 
 [[sect-customizing-hybrid-mobile-tools-and-cordovasim]]
 == Customizing Hybrid Mobile Tools and CordovaSim
@@ -479,6 +773,10 @@ The aim of this section is to guide you in customizing Hybrid Mobile Tools and C
 
 
 * Specify an Android SDK location
+
+
+Specify an Android SDK location
+
 
 [[set-the-android-sdk-location]]
 === Set the Android SDK Location

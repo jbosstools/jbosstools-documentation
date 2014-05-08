@@ -67,6 +67,10 @@ You must generate at least one complete server definition for an application ser
 * See Also:
   <<create-a-default-local-server-definition-with-runtime-detection,Create a Default Local Server Definition with Runtime Detection>>
 
+
+<<create-a-default-local-server-definition-with-runtime-detection,Create a Default Local Server Definition with Runtime Detection>>
+
+
 [[sect-features-of-jboss-server-tools]]
 == Features of JBoss Server Tools
 
@@ -78,9 +82,25 @@ The aim of this section is to guide you in using JBoss Server Tools:
 
 
 * Download JBoss community application servers from with the IDE
+
+
+Download JBoss community application servers from with the IDE
+
 * Use runtime detection to locate installed application servers and generate complete server definitions, making them ready for IDE use
+
+
+Use runtime detection to locate installed application servers and generate complete server definitions, making them ready for IDE use
+
 * Define custom configured servers, both local and remote, by creating additional runtime environments and server adapters
+
+
+Define custom configured servers, both local and remote, by creating additional runtime environments and server adapters
+
 * Manage server configuration and specify IDE-server interaction with the JBoss Server Editor, including settings such as launch options, publishing frequency and communication ports
+
+
+Manage server configuration and specify IDE-server interaction with the JBoss Server Editor, including settings such as launch options, publishing frequency and communication ports
+
 
 [[download-a-jboss-community-application-server]]
 === Download a JBoss Community Application Server
@@ -95,30 +115,89 @@ Many application servers must be downloaded from outside the IDE. But JBoss Serv
 +
 .JBoss Runtime Detection Pane
 image::images/4051.png["Click WindowPreferences, expand JBoss Tools and select JBoss Runtime Detection."]
-* Click `Download`.
+
+
+Click `Window`&rarr;`Preferences`, expand `JBoss Tools` and select `JBoss Runtime Detection`.
+
+
+.JBoss Runtime Detection Pane
+* image::images/4051.png["Click WindowPreferences, expand JBoss Tools and select JBoss Runtime Detection."]
+  Click `Download`.
+
+
+Click `Download`.
+
 * From the table, select an application server and click `Next`.
 +
 .Application Server Options in Download Runtimes Wizard
 image::images/4052.png["From the table, select an application server and click Next."]
-* After reading and agreeing to the terms of the license, click `I accept the terms of this license agreement` and click `Next`.
+
+
+From the table, select an application server and click `Next`.
+
+
+.Application Server Options in Download Runtimes Wizard
+* image::images/4052.png["From the table, select an application server and click Next."]
+  After reading and agreeing to the terms of the license, click `I accept the terms of this license agreement` and click `Next`.
+
+
+After reading and agreeing to the terms of the license, click `I accept the terms of this license agreement` and click `Next`.
+
 * In the `Install folder` field, type the path in which the downloaded application server should be installed or click `Browse` to navigate to the location.
 +
 .Location Options in Download Runtimes Wizard
 image::images/4053.png["In the Install folder field, type the path in which the downloaded application server should be installed or click Browse to navigate to the location. In the Download folder field, type the path to which the application server should be downloaded or click Browse to navigate to the location. To automatically remove the downloaded archive after installing, select the Delete archive after installing check box."]
-* In the `Download folder` field, type the path to which the application server should be downloaded or click `Browse` to navigate to the location.
+
+
+In the `Install folder` field, type the path in which the downloaded application server should be installed or click `Browse` to navigate to the location.
+
+
+.Location Options in Download Runtimes Wizard
+* image::images/4053.png["In the Install folder field, type the path in which the downloaded application server should be installed or click Browse to navigate to the location. In the Download folder field, type the path to which the application server should be downloaded or click Browse to navigate to the location. To automatically remove the downloaded archive after installing, select the Delete archive after installing check box."]
+  In the `Download folder` field, type the path to which the application server should be downloaded or click `Browse` to navigate to the location.
+
+
+In the `Download folder` field, type the path to which the application server should be downloaded or click `Browse` to navigate to the location.
+
 * To automatically remove the downloaded archive after installing, select the `Delete archive after installing` check box.
+
+
+To automatically remove the downloaded archive after installing, select the `Delete archive after installing` check box.
+
 * Click `Finish` to commence downloading and installing.
   The IDE progress bar and `Download` window show the progress of the download process.
   You can click `Run in Background` to close the download window and continue the download process.
+
+
+Click `Finish` to commence downloading and installing.
+The IDE progress bar and `Download` window show the progress of the download process.
+You can click `Run in Background` to close the download window and continue the download process.
+
 * Click `OK` to close the `Preferences` window.
+
+
+Click `OK` to close the `Preferences` window.
+
 
 
 Once downloading is complete, the application server archive is extracted and several automated actions occur:
 
 
 * The path of the application server is added to the runtime detection `Paths` table.
+
+
+The path of the application server is added to the runtime detection `Paths` table.
+
 * A default server runtime environment is generated for the application server.
+
+
+A default server runtime environment is generated for the application server.
+
 * A default server adapter is created for the server runtime environment.
+
+
+A default server adapter is created for the server runtime environment.
+
 
 NOTE: 
 Alternatively, you can download and install JBoss community application servers when adding server runtime environments within `Preferences` under `Server`&rarr;`Runtime Environments`, with the wizard for creating new servers, or with the `Start from scratch` and `Start from a sample` wizards in JBoss Central.
@@ -138,10 +217,27 @@ JBoss Server Tools provides runtime detection that automatically generates a com
 +
 .JBoss Runtime Detection Pane of Preferences Window
 image::images/4035.png["Click WindowPreferences, expand JBoss Tools and select JBoss Runtime Detection."]
-* Click `Add`.
+
+
+Click `Window`&rarr;`Preferences`, expand `JBoss Tools` and select `JBoss Runtime Detection`.
+
+
+.JBoss Runtime Detection Pane of Preferences Window
+* image::images/4035.png["Click WindowPreferences, expand JBoss Tools and select JBoss Runtime Detection."]
+  Click `Add`.
+
+
+Click `Add`.
+
 * Select a path from which recursive scanning for application servers is to commence.
   To detect a specific application server, select the install directory for that application server.
   To detect multiple application servers, select a directory higher up the directory tree.
+
+
+Select a path from which recursive scanning for application servers is to commence.
+To detect a specific application server, select the install directory for that application server.
+To detect multiple application servers, select a directory higher up the directory tree.
+
 * Depending on the outcome of the scan, follow the appropriate step:
 +
 +
@@ -149,7 +245,19 @@ image::images/4035.png["Click WindowPreferences, expand JBoss Tools and select J
 In all cases, the path is added to the `Paths` table.
 
 
+
+
+Depending on the outcome of the scan, follow the appropriate step:
+
+
+
+In all cases, the path is added to the `Paths` table.
+
 * Click `Apply` and click `OK` to close the `Preferences` window.
+
+
+Click `Apply` and click `OK` to close the `Preferences` window.
+
 
 
 Generated server runtime environments are listed in `Preferences` under `Server`&rarr;`Runtime Environments`.
@@ -178,22 +286,80 @@ For older versions of application servers, you can also create a new runtime ser
 +
 .Runtime Environments Pane
 image::images/4288.png["Click WindowPreferences, expand Server and select Runtime Environments."]
-* Click `Add`.
+
+
+Click `Window`&rarr;`Preferences`, expand `Server` and select `Runtime Environments`.
+
+
+.Runtime Environments Pane
+* image::images/4288.png["Click WindowPreferences, expand Server and select Runtime Environments."]
+  Click `Add`.
+
+
+Click `Add`.
+
 
 Complete the fields and options as detailed: 
 
 
 * From the `Select the type of runtime environment` list, select a []##JBoss community application server##.
+
+
+From the `Select the type of runtime environment` list, select a []##JBoss community application server##.
+
 * To create a complete local server definition, select the `Create a new local server` check box.
 +
 .Application Server Options in the New Server Runtime Environment Wizard
+image::images/4025.png["From the Select the type of runtime environment list, select a JBoss community application server. To create a complete local server definition, select the Create a new local server check box."]
+
+
+To create a complete local server definition, select the `Create a new local server` check box.
+
+
+.Application Server Options in the New Server Runtime Environment Wizard
 * image::images/4025.png["From the Select the type of runtime environment list, select a JBoss community application server. To create a complete local server definition, select the Create a new local server check box."]
-* Click `Next`.
+
+Complete the fields and options as detailed: 
+
+
+* From the `Select the type of runtime environment` list, select a []##JBoss community application server##.
+
+
+From the `Select the type of runtime environment` list, select a []##JBoss community application server##.
+
+* To create a complete local server definition, select the `Create a new local server` check box.
++
+.Application Server Options in the New Server Runtime Environment Wizard
+image::images/4025.png["From the Select the type of runtime environment list, select a JBoss community application server. To create a complete local server definition, select the Create a new local server check box."]
+
+
+To create a complete local server definition, select the `Create a new local server` check box.
+
+
+.Application Server Options in the New Server Runtime Environment Wizard
+* image::images/4025.png["From the Select the type of runtime environment list, select a JBoss community application server. To create a complete local server definition, select the Create a new local server check box."]
+  Click `Next`.
+
+
+Click `Next`.
+
 * Complete the fields and options as detailed:
 +
 * In the `Name` field, type a name by which to identify the server runtime environment within the IDE.
+
+
+In the `Name` field, type a name by which to identify the server runtime environment within the IDE.
+
 * In the `Home Directory` field, type the path of the installed application server or click `Browse` to navigate to the location.[]##Alternatively, to use a JBoss community application server that is not already installed on the system, click `Download and install runtime` and follow the instructions.##
+
+
+In the `Home Directory` field, type the path of the installed application server or click `Browse` to navigate to the location.[]##Alternatively, to use a JBoss community application server that is not already installed on the system, click `Download and install runtime` and follow the instructions.##
+
 * From the `JRE` list, select the JRE to use with the application server.
+
+
+From the `JRE` list, select the JRE to use with the application server.
+
 * In the `Configuration file` field, type the path of the application server configuration file or click `Browse` to navigate to the location.
   Note that the path of the application server configuration file is relative to [file]`Home Directory/standalone/configuration/`, where [file]`Home Directory` is specified in the `Home Directory` field.
 +
@@ -207,6 +373,66 @@ Complete the name for the new configuration and the location where the configura
 
 
 
+
+In the `Configuration file` field, type the path of the application server configuration file or click `Browse` to navigate to the location.
+Note that the path of the application server configuration file is relative to [file]`Home Directory/standalone/configuration/`, where [file]`Home Directory` is specified in the `Home Directory` field.
+
+
+.Server Runtime Environment Options in the New Server Runtime Environment Wizard
+image::images/4027.png["In the Name field, type a name by which to identify the server runtime environment within the IDE. In the Home Directory field, type the path of the installed application server or click Browse to navigate to the location. From the JRE list, select the JRE to use with the application server. In the Configuration file field, type the path of the application server configuration file or click Browse to navigate to the location. Note that the path of the application server configuration file is relative to Home Directory/standalone/configuration/, where Home Directory is specified in the Home Directory field."]
+NOTE: 
+For older application servers, the `Configuration file` field is replaced with the `Directory` field.
+In this field, type the path where the application server configurations are installed and then select a listed configuration.
+To clone from an existing server runtime environment, after selecting a listed configuration click `Copy`.
+Complete the name for the new configuration and the location where the configuration should be stored and click `OK`.
+
+
+
+
+Complete the fields and options as detailed:
+
+
+* In the `Name` field, type a name by which to identify the server runtime environment within the IDE.
+
+
+In the `Name` field, type a name by which to identify the server runtime environment within the IDE.
+
+* In the `Home Directory` field, type the path of the installed application server or click `Browse` to navigate to the location.[]##Alternatively, to use a JBoss community application server that is not already installed on the system, click `Download and install runtime` and follow the instructions.##
+
+
+In the `Home Directory` field, type the path of the installed application server or click `Browse` to navigate to the location.[]##Alternatively, to use a JBoss community application server that is not already installed on the system, click `Download and install runtime` and follow the instructions.##
+
+* From the `JRE` list, select the JRE to use with the application server.
+
+
+From the `JRE` list, select the JRE to use with the application server.
+
+* In the `Configuration file` field, type the path of the application server configuration file or click `Browse` to navigate to the location.
+  Note that the path of the application server configuration file is relative to [file]`Home Directory/standalone/configuration/`, where [file]`Home Directory` is specified in the `Home Directory` field.
++
+.Server Runtime Environment Options in the New Server Runtime Environment Wizard
+image::images/4027.png["In the Name field, type a name by which to identify the server runtime environment within the IDE. In the Home Directory field, type the path of the installed application server or click Browse to navigate to the location. From the JRE list, select the JRE to use with the application server. In the Configuration file field, type the path of the application server configuration file or click Browse to navigate to the location. Note that the path of the application server configuration file is relative to Home Directory/standalone/configuration/, where Home Directory is specified in the Home Directory field."]
+NOTE: +
+For older application servers, the `Configuration file` field is replaced with the `Directory` field.
+In this field, type the path where the application server configurations are installed and then select a listed configuration.
+To clone from an existing server runtime environment, after selecting a listed configuration click `Copy`.
+Complete the name for the new configuration and the location where the configuration should be stored and click `OK`.
+
+
+
+
+In the `Configuration file` field, type the path of the application server configuration file or click `Browse` to navigate to the location.
+Note that the path of the application server configuration file is relative to [file]`Home Directory/standalone/configuration/`, where [file]`Home Directory` is specified in the `Home Directory` field.
+
+
+.Server Runtime Environment Options in the New Server Runtime Environment Wizard
+image::images/4027.png["In the Name field, type a name by which to identify the server runtime environment within the IDE. In the Home Directory field, type the path of the installed application server or click Browse to navigate to the location. From the JRE list, select the JRE to use with the application server. In the Configuration file field, type the path of the application server configuration file or click Browse to navigate to the location. Note that the path of the application server configuration file is relative to Home Directory/standalone/configuration/, where Home Directory is specified in the Home Directory field."]
+NOTE: 
+For older application servers, the `Configuration file` field is replaced with the `Directory` field.
+In this field, type the path where the application server configurations are installed and then select a listed configuration.
+To clone from an existing server runtime environment, after selecting a listed configuration click `Copy`.
+Complete the name for the new configuration and the location where the configuration should be stored and click `OK`.
+
 * Click `Next` if the button is enabled, otherwise click `Finish`.
   The `Next` button is only enabled if you selected the `Create a new local server` check box earlier.
   On the presented page, complete the appropriate information and click `Finish`.
@@ -216,6 +442,18 @@ image::images/4026.png["Complete the appropriate information for the new server 
 +
 The new server runtime environment is listed in the `Server runtime environments` table of the `Runtime Environments` pane in the `Preferences` window.
 
+
+
+
+Click `Next` if the button is enabled, otherwise click `Finish`.
+The `Next` button is only enabled if you selected the `Create a new local server` check box earlier.
+On the presented page, complete the appropriate information and click `Finish`.
+
+
+.Server Adapter Behavior Options in the New Server Runtime Environment Wizard
+image::images/4026.png["Complete the appropriate information for the new server adapter and click Finish."]
+
+The new server runtime environment is listed in the `Server runtime environments` table of the `Runtime Environments` pane in the `Preferences` window.
 
 
 NOTE: 
@@ -234,13 +472,31 @@ To create a new server adapter to define a local server, you must use the new se
 []
 * Click the `Servers` view.
   If the `Servers` view is not visible, click `Window`&rarr;`Show View`&rarr;`Servers`.
+
+
+Click the `Servers` view.
+If the `Servers` view is not visible, click `Window`&rarr;`Show View`&rarr;`Servers`.
+
 * Depending on the number of existing servers, follow the appropriate step:
 +
+
+
+Depending on the number of existing servers, follow the appropriate step:
+
 * Complete the fields and options as detailed:
 +
 * From the `Select the server type` list, select a []##JBoss community application server##.
+
+
+From the `Select the server type` list, select a []##JBoss community application server##.
+
 * The `Server's host name` and `Server name` fields are completed by default.
   In the `Server name` field, you can type a custom name by which to identify the server in the `Servers` view.
+
+
+The `Server's host name` and `Server name` fields are completed by default.
+In the `Server name` field, you can type a custom name by which to identify the server in the `Servers` view.
+
 * From the `Server runtime environment` list, select an existing server runtime environment for the application server type.
   Alternatively, to create a new runtime environment click `Add` and complete the fields and options as appropriate.
 +
@@ -253,16 +509,87 @@ To create a new server runtime environment without canceling the wizard, click `
 
 
 
+
+From the `Server runtime environment` list, select an existing server runtime environment for the application server type.
+Alternatively, to create a new runtime environment click `Add` and complete the fields and options as appropriate.
+
+
+.Server Runtime Environment Options in the New Server Runtime Environment Wizard
+image::images/4029.png["From the Select the server type list, select a JBoss community application server. The Server's host name and Server name fields are completed by default. In the Server name field, type a name by which to identify the server definition. From the Server runtime environment list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click Add and complete the fields and options as appropriate."]
+NOTE: 
+If the `Server runtime environment` field is not shown, no server runtime environments exist for the selected application server type.
+A server runtime environment must be selected before you can successfully create a server adapter and complete the server definition.
+To create a new server runtime environment without canceling the wizard, click `Next` and complete the fields and options as appropriate.
+
+
+
+
+Complete the fields and options as detailed:
+
+
+* From the `Select the server type` list, select a []##JBoss community application server##.
+
+
+From the `Select the server type` list, select a []##JBoss community application server##.
+
+* The `Server's host name` and `Server name` fields are completed by default.
+  In the `Server name` field, you can type a custom name by which to identify the server in the `Servers` view.
+
+
+The `Server's host name` and `Server name` fields are completed by default.
+In the `Server name` field, you can type a custom name by which to identify the server in the `Servers` view.
+
+* From the `Server runtime environment` list, select an existing server runtime environment for the application server type.
+  Alternatively, to create a new runtime environment click `Add` and complete the fields and options as appropriate.
++
+.Server Runtime Environment Options in the New Server Runtime Environment Wizard
+image::images/4029.png["From the Select the server type list, select a JBoss community application server. The Server's host name and Server name fields are completed by default. In the Server name field, type a name by which to identify the server definition. From the Server runtime environment list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click Add and complete the fields and options as appropriate."]
+NOTE: +
+If the `Server runtime environment` field is not shown, no server runtime environments exist for the selected application server type.
+A server runtime environment must be selected before you can successfully create a server adapter and complete the server definition.
+To create a new server runtime environment without canceling the wizard, click `Next` and complete the fields and options as appropriate.
+
+
+
+
+From the `Server runtime environment` list, select an existing server runtime environment for the application server type.
+Alternatively, to create a new runtime environment click `Add` and complete the fields and options as appropriate.
+
+
+.Server Runtime Environment Options in the New Server Runtime Environment Wizard
+image::images/4029.png["From the Select the server type list, select a JBoss community application server. The Server's host name and Server name fields are completed by default. In the Server name field, type a name by which to identify the server definition. From the Server runtime environment list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click Add and complete the fields and options as appropriate."]
+NOTE: 
+If the `Server runtime environment` field is not shown, no server runtime environments exist for the selected application server type.
+A server runtime environment must be selected before you can successfully create a server adapter and complete the server definition.
+To create a new server runtime environment without canceling the wizard, click `Next` and complete the fields and options as appropriate.
+
 * Click `Next`.
+
+
+Click `Next`.
+
 
 The server behavior options displayed vary depending on the selected application server type.
 Complete the fields and options as detailed: 
 
 
 * To specify that the server life cycle will be managed from outside the IDE, select the `Server is externally managed` check box.
+
+
+To specify that the server life cycle will be managed from outside the IDE, select the `Server is externally managed` check box.
+
 * To specify that the server should be launched to respond to requests on all hostnames, select the `Listen on all interfaces to allow remote web connections` check box.
   This option adds the `-b 0.0.0.0` argument to the server launch command.
+
+
+To specify that the server should be launched to respond to requests on all hostnames, select the `Listen on all interfaces to allow remote web connections` check box.
+This option adds the `-b 0.0.0.0` argument to the server launch command.
+
 * From the location list, select `Local`.
+
+
+From the location list, select `Local`.
+
 
 
 * NOTE: 
@@ -270,14 +597,63 @@ Complete the fields and options as detailed:
 +
 .Server Adapter Behavior Options in the New Server Wizard
 image::images/4030.png["The server behavior options displayed vary depending on the selected application server type. Complete the options as appropriate."]
-* Click `Next`.
+
+
+The server behavior options displayed vary depending on the selected application server type.
+Complete the fields and options as detailed: 
+
+
+* To specify that the server life cycle will be managed from outside the IDE, select the `Server is externally managed` check box.
+
+
+To specify that the server life cycle will be managed from outside the IDE, select the `Server is externally managed` check box.
+
+* To specify that the server should be launched to respond to requests on all hostnames, select the `Listen on all interfaces to allow remote web connections` check box.
+  This option adds the `-b 0.0.0.0` argument to the server launch command.
+
+
+To specify that the server should be launched to respond to requests on all hostnames, select the `Listen on all interfaces to allow remote web connections` check box.
+This option adds the `-b 0.0.0.0` argument to the server launch command.
+
+* From the location list, select `Local`.
+
+
+From the location list, select `Local`.
+
+
+
+NOTE: 
+The `Expose your management port as the server's hostname` option, which enables management commands sent by the IDE to be successfully received by the server, is bypassed for local servers regardless of whether the check box is selected.
+
+
+
+.Server Adapter Behavior Options in the New Server Wizard
+* image::images/4030.png["The server behavior options displayed vary depending on the selected application server type. Complete the options as appropriate."]
+  Click `Next`.
+
+
+Click `Next`.
+
 * To select applications to deploy with this server, from the `Available` list select the applications and click `Add`.
   Applications to be deployed are detailed in the `Configured` list.
 +
 .Add or Remove Server Resources in the New Server Wizard
 image::images/4031.png["To select applications to deploy with this server, from the Available list select the applications and click Add. Applications to be deployed are detailed in the Configured list."]
-* Click `Finish` to create the server.
+
+
+To select applications to deploy with this server, from the `Available` list select the applications and click `Add`.
+Applications to be deployed are detailed in the `Configured` list.
+
+
+.Add or Remove Server Resources in the New Server Wizard
+* image::images/4031.png["To select applications to deploy with this server, from the Available list select the applications and click Add. Applications to be deployed are detailed in the Configured list."]
+  Click `Finish` to create the server.
   The server is listed in the `Servers` view, with the information in brackets detailing the server status.
+
+
+Click `Finish` to create the server.
+The server is listed in the `Servers` view, with the information in brackets detailing the server status.
+
 
 IMPORTANT: 
 You can create multiple servers that use the same application server.
@@ -302,13 +678,31 @@ To work around this issue, you must have a version of the remote application ser
 []
 * Click the `Servers` view.
   If the `Servers` view is not visible, click `Window`&rarr;`Show View`&rarr;`Servers`.
+
+
+Click the `Servers` view.
+If the `Servers` view is not visible, click `Window`&rarr;`Show View`&rarr;`Servers`.
+
 * Depending on the number of existing servers, follow the appropriate step:
 +
+
+
+Depending on the number of existing servers, follow the appropriate step:
+
 * Complete the fields and options as detailed:
 +
 * From the `Select the server type` list, select a []##JBoss community application server##.
+
+
+From the `Select the server type` list, select a []##JBoss community application server##.
+
 * The `Server's host name` and `Server name` fields are completed by default.
   In the `Server name` field, you can type a custom name by which to identify the server in the `Servers` view.
+
+
+The `Server's host name` and `Server name` fields are completed by default.
+In the `Server name` field, you can type a custom name by which to identify the server in the `Servers` view.
+
 * From the `Server runtime environment` list, select an existing server runtime environment for the application server type.
   Alternatively, to create a new runtime environment click `Add` and complete the fields and options as appropriate.
 +
@@ -321,15 +715,82 @@ To create a new server runtime environment without canceling the wizard, click `
 
 
 
+
+From the `Server runtime environment` list, select an existing server runtime environment for the application server type.
+Alternatively, to create a new runtime environment click `Add` and complete the fields and options as appropriate.
+
+
+.Server Runtime Environment Options in the New Server Runtime Environment Wizard
+image::images/4029.png["From the Select the server type list, select a JBoss community application server. The Server's host name and Server name fields are completed by default. In the Server name field, type a name by which to identify the server definition. From the Server runtime environment list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click Add and complete the fields and options as appropriate."]
+NOTE: 
+If the `Server runtime environment` field is not shown, no server runtime environments exist for the selected application server type.
+A server runtime environment must be selected before you can successfully create a server adapter and complete the server definition.
+To create a new server runtime environment without canceling the wizard, click `Next` and complete the fields and options as appropriate.
+
+
+
+
+Complete the fields and options as detailed:
+
+
+* From the `Select the server type` list, select a []##JBoss community application server##.
+
+
+From the `Select the server type` list, select a []##JBoss community application server##.
+
+* The `Server's host name` and `Server name` fields are completed by default.
+  In the `Server name` field, you can type a custom name by which to identify the server in the `Servers` view.
+
+
+The `Server's host name` and `Server name` fields are completed by default.
+In the `Server name` field, you can type a custom name by which to identify the server in the `Servers` view.
+
+* From the `Server runtime environment` list, select an existing server runtime environment for the application server type.
+  Alternatively, to create a new runtime environment click `Add` and complete the fields and options as appropriate.
++
+.Server Runtime Environment Options in the New Server Runtime Environment Wizard
+image::images/4029.png["From the Select the server type list, select a JBoss community application server. The Server's host name and Server name fields are completed by default. In the Server name field, type a name by which to identify the server definition. From the Server runtime environment list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click Add and complete the fields and options as appropriate."]
+NOTE: +
+If the `Server runtime environment` field is not shown, no server runtime environments exist for the selected application server type.
+A server runtime environment must be selected before you can successfully create a server adapter and complete the server definition.
+To create a new server runtime environment without canceling the wizard, click `Next` and complete the fields and options as appropriate.
+
+
+
+
+From the `Server runtime environment` list, select an existing server runtime environment for the application server type.
+Alternatively, to create a new runtime environment click `Add` and complete the fields and options as appropriate.
+
+
+.Server Runtime Environment Options in the New Server Runtime Environment Wizard
+image::images/4029.png["From the Select the server type list, select a JBoss community application server. The Server's host name and Server name fields are completed by default. In the Server name field, type a name by which to identify the server definition. From the Server runtime environment list, select the specific server runtime environment for the application server type to use. Alternatively, to create a new runtime environment click Add and complete the fields and options as appropriate."]
+NOTE: 
+If the `Server runtime environment` field is not shown, no server runtime environments exist for the selected application server type.
+A server runtime environment must be selected before you can successfully create a server adapter and complete the server definition.
+To create a new server runtime environment without canceling the wizard, click `Next` and complete the fields and options as appropriate.
+
 * Click `Next`.
+
+
+Click `Next`.
+
 
 The server behavior options displayed vary depending on the selected application server type.
 Complete the options as detailed: 
 
 
 * To specify that the server life cycle will be managed from outside the IDE, select the `Server is externally managed` check box.
+
+
+To specify that the server life cycle will be managed from outside the IDE, select the `Server is externally managed` check box.
+
 * To specify that the server should be launched to respond to requests on all hostnames, select the `Listen on all interfaces to allow remote web connections` check box.
   This option adds the `-b 0.0.0.0` argument to the server launch command.
+
+
+To specify that the server should be launched to respond to requests on all hostnames, select the `Listen on all interfaces to allow remote web connections` check box.
+This option adds the `-b 0.0.0.0` argument to the server launch command.
+
 * To enable management commands sent by the IDE to be successfully received by the server, select the `Expose your management port as the server's hostname` check box.
   This option is useful for remote servers.
 +
@@ -337,25 +798,137 @@ NOTE:
 To make use of this facility, a management user must exist for the remote server and you must provide the management user credentials to the IDE.
 
 
+
+
+To enable management commands sent by the IDE to be successfully received by the server, select the `Expose your management port as the server's hostname` check box.
+This option is useful for remote servers.
+
+
+NOTE: 
+To make use of this facility, a management user must exist for the remote server and you must provide the management user credentials to the IDE.
+
 * From the location list, select `Remote System Deployment`.
 +
 .Remote System Deployment Options in the New Server Wizard
+image::images/4032.png["From the location list, select Remote System Deployment."]
+
+
+From the location list, select `Remote System Deployment`.
+
+
+.Remote System Deployment Options in the New Server Wizard
 * image::images/4032.png["From the location list, select Remote System Deployment."]
-* Complete the additional fields and options for the remote server as detailed:
+
+The server behavior options displayed vary depending on the selected application server type.
+Complete the options as detailed: 
+
+
+* To specify that the server life cycle will be managed from outside the IDE, select the `Server is externally managed` check box.
+
+
+To specify that the server life cycle will be managed from outside the IDE, select the `Server is externally managed` check box.
+
+* To specify that the server should be launched to respond to requests on all hostnames, select the `Listen on all interfaces to allow remote web connections` check box.
+  This option adds the `-b 0.0.0.0` argument to the server launch command.
+
+
+To specify that the server should be launched to respond to requests on all hostnames, select the `Listen on all interfaces to allow remote web connections` check box.
+This option adds the `-b 0.0.0.0` argument to the server launch command.
+
+* To enable management commands sent by the IDE to be successfully received by the server, select the `Expose your management port as the server's hostname` check box.
+  This option is useful for remote servers.
++
+NOTE: 
+To make use of this facility, a management user must exist for the remote server and you must provide the management user credentials to the IDE.
+
+
+
+
+To enable management commands sent by the IDE to be successfully received by the server, select the `Expose your management port as the server's hostname` check box.
+This option is useful for remote servers.
+
+
+NOTE: 
+To make use of this facility, a management user must exist for the remote server and you must provide the management user credentials to the IDE.
+
+* From the location list, select `Remote System Deployment`.
++
+.Remote System Deployment Options in the New Server Wizard
+image::images/4032.png["From the location list, select Remote System Deployment."]
+
+
+From the location list, select `Remote System Deployment`.
+
+
+.Remote System Deployment Options in the New Server Wizard
+* image::images/4032.png["From the location list, select Remote System Deployment."]
+  Complete the additional fields and options for the remote server as detailed:
 +
 * From the `Host` list, select the host.
   Alternatively, to specify a new host, click `New Host` and follow the instructions.
+
+
+From the `Host` list, select the host.
+Alternatively, to specify a new host, click `New Host` and follow the instructions.
+
 * In the `Remote Server Home` field, type the path of the application server or click `Browse` to navigate to the location.
+
+
+In the `Remote Server Home` field, type the path of the application server or click `Browse` to navigate to the location.
+
 * In the `Remote Server Configuration File` field, type the path of the configuration file or click `Browse` to navigate to the location.
 
+
+In the `Remote Server Configuration File` field, type the path of the configuration file or click `Browse` to navigate to the location.
+
+
+
+
+Complete the additional fields and options for the remote server as detailed:
+
+
+* From the `Host` list, select the host.
+  Alternatively, to specify a new host, click `New Host` and follow the instructions.
+
+
+From the `Host` list, select the host.
+Alternatively, to specify a new host, click `New Host` and follow the instructions.
+
+* In the `Remote Server Home` field, type the path of the application server or click `Browse` to navigate to the location.
+
+
+In the `Remote Server Home` field, type the path of the application server or click `Browse` to navigate to the location.
+
+* In the `Remote Server Configuration File` field, type the path of the configuration file or click `Browse` to navigate to the location.
+
+
+In the `Remote Server Configuration File` field, type the path of the configuration file or click `Browse` to navigate to the location.
+
 * Click `Next`.
+
+
+Click `Next`.
+
 * To select applications to deploy with this server, from the `Available` list select the applications and click `Add`.
   Applications to be deployed are detailed in the `Configured` list.
 +
 .Add or Remove Server Resources in the New Server Wizard
 image::images/4031.png["To select applications to deploy with this server, from the Available list select the applications and click Add. Applications to be deployed are detailed in the Configured list."]
-* Click `Finish` to create the server.
+
+
+To select applications to deploy with this server, from the `Available` list select the applications and click `Add`.
+Applications to be deployed are detailed in the `Configured` list.
+
+
+.Add or Remove Server Resources in the New Server Wizard
+* image::images/4031.png["To select applications to deploy with this server, from the Available list select the applications and click Add. Applications to be deployed are detailed in the Configured list."]
+  Click `Finish` to create the server.
   The server is listed in the `Servers` view, with the information in brackets detailing the server status.
+
+
+Click `Finish` to create the server.
+The server is listed in the `Servers` view, with the information in brackets detailing the server status.
+
 
 [[sect-manage-server-settings]]
 === Manage Server Settings
@@ -402,47 +975,65 @@ General information;;
   
   This section details essential information comprising the server definition: the name by which the server is identified in the IDE, the hostname of the server and the server runtime environment.
 
+.General Information Section
+image::images/4047.png["This section details essential information comprising the server definition: the name by which the server is identified in the IDE, the hostname of the server and the server runtime environment."]
 Management login credentials;;
   
   This section holds credentials, specifically username and password, necessary for the IDE to successfully communicate management commands with the server.
   The password is obscured and stored in Eclipse Secure Storage for security.
   Incorrect management credentials can cause the IDE to not detect when a server is started.
 
+.Management Login Credentials Section
+image::images/4048.png["This section holds credentials, specifically username and password, necessary for the IDE to successfully communicate management commands with the server. The password is obscured and stored in Eclipse Secure Storage for security. Incorrect management credentials can cause the IDE to not detect when a server is started."]
 Server behavior;;
   
   This section enables you to customize server behavior that encompasses how the IDE communicates with the server.
 
+.Server Behavior Section
+image::images/4050.png["This section enables you to customize server behavior that encompasses how the IDE communicates with the server."]
 Publishing;;
   
   This section details the publishing action the IDE should take in response to modifications to local resources of deployed applications.
   Publishing involves replacing changed project resources in the dedicated deployment location of a server and the IDE action options are `Never publish automatically`, `Automatically publish when resources change`, and `Automatically publish after a build event`.
   Additionally, you can specify a minimum time interval that must occur between consecutive automated publish actions by the IDE to control the frequency of publishing.
 
+.Publishing Section
+image::images/4045.png["This section details the publishing action the IDE should take in response to modifications to local resources of deployed applications. Publishing involves replacing changed project resources in the dedicated deployment location of a server and the IDE action options are Never publish automatically, Automatically publish when resources change, and Automatically publish after a build event. Additionally, you can specify a minimum time interval that must occur between consecutive automated publish actions by the IDE to control the frequency of publishing."]
 Timeouts;;
   
   This section specifies the maximum length of time, in seconds, the IDE should wait for server actions to complete before aborting.
   The server actions are specifically starting and stopping.
 
+.Timeouts Section
+image::images/4041.png["This section specifies the maximum length of time, in seconds, the IDE should wait for server actions to complete before aborting. The server actions are specifically starting and stopping."]
 Deployment scanner;;
   
   This section enables you to customize the behavior of deployment scanners, which detect the applications deployed to a server.
   You can manage deployment scanners or allow the IDE to do it for you.
   The management options available are `Add missing deployment scanners after server startup` and `Remove added deployment scanners before shutdown`.
 
+.Deployment Scanners Section
+image::images/4043.png["This section enables you to customize the behavior of deployment scanners, which detect the applications deployed to a server. You can manage deployment scanners or allow the IDE to do it for you. The management options available are Add missing deployment scanners after server startup and Remove added deployment scanners before shutdown."]
 Application reload behavior;;
   
   This section details the application reload action the IDE should take in response to changed published resources of deployed applications.
   Application reload involves undeploying and redeploying an application and this action is necessary when you make changes to project resources that will not be detected by the server.
   By default, the application reload behavior is set to invoke application redeployment when [file]`.jar` files are changed.
 
+.Application Reload Behavior Section
+image::images/4044.png["This section details the application reload action the IDE should take in response to changed published resources of deployed applications. Application reload involves undeploying and redeploying an application and this action is necessary when you make changes to project resources that will not be detected by the server. By default, the application reload behavior is set to invoke application redeployment when .jar files are changed."]
 Server state detectors;;
   
   This section specifies which method the IDE should use to verify the started and stopped status of the server.
 
+.Server State Detectors Section
+image::images/4042.png["This section specifies which method the IDE should use to verify the started and stopped status of the server."]
 Server ports;;
   
   This section details the ports and port offset that the IDE should use for communication with the server.
 
+.Server Ports Section
+image::images/4046.png["This section details the ports and port offset that the IDE should use for communication with the server."]
 [[manage-server-settings-in-the-deployment-tab]]
 ==== Manage Server Settings in the Deployment Tab
 
@@ -463,10 +1054,14 @@ Default settings for the server;;
   
   This section specifies where deployments are kept and how they are packaged.
 
+.Default Settings Section
+image::images/4055.png["This section specifies where deployments are kept and how they are packaged."]
 Settings per module;;
   
   This section shows deployment settings for all modules in the workspace regardless of whether they are deployed on the server under consideration.
 
+.Module Settings Section
+image::images/4054.png["This section shows deployment settings for all modules in the workspace regardless of whether they are deployed on the server under consideration."]
 [[sect-customizing-jboss-server-tools]]
 == Customizing JBoss Server Tools
 
@@ -478,9 +1073,25 @@ The aim of this section is to guide you in customizing JBoss Server Tools:
 
 
 * Enable runtime detection to search paths for application servers on IDE start
+
+
+Enable runtime detection to search paths for application servers on IDE start
+
 * Select a default server for IDE actions
+
+
+Select a default server for IDE actions
+
 * Specify default file sets that are listed in the `Servers` view for ease of access
+
+
+Specify default file sets that are listed in the `Servers` view for ease of access
+
 * Customize classpath entries for your projects based on application server type
+
+
+Customize classpath entries for your projects based on application server type
+
 
 [[enable-runtime-detection-on-ide-start]]
 === Enable Runtime Detection on IDE Start
