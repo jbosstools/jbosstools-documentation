@@ -58,7 +58,6 @@ Alternatively, before starting a wizard click `Window`&rarr;`Preferences`, expan
 Click `Add` and follow the instructions.
 
 
-[]
 * In JBoss Central under `Start from scratch`, click `HTML5 Project`.
 +
 .HTML5 Project Wizard in JBoss Central
@@ -80,7 +79,6 @@ image::images/4090.png["In the Project name field, type a name for the project. 
   When the `HTML5 Project` wizard displays `'HTML5 Project' Project is now ready`, click `Finish` to close the wizard.
   A [file]`README.md` file for the project automatically opens for viewing.
 
-[]
 * In JBoss Central under `Start from a sample`, hover the mouse over `Mobile Applications` and click `kitchensink-html5-mobile`.
 +
 .kitchensink-html5-mobile Wizard in JBoss Central
@@ -104,7 +102,6 @@ The template inserts the necessary JavaScript and CSS library references into th
 The procedure below details how to insert the template into your project.
 
 
-[]
 * In the `Project Explorer` view, right-click a project and click `New`&rarr;`HTML File`.
 * Complete the fields and options as detailed:
 +

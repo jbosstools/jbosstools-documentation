@@ -90,7 +90,6 @@ Application servers must be installed on your system in order to deploy applicat
 Many application servers must be downloaded from outside the IDE. But JBoss Server Tools can assist you to download JBoss community application servers from within the IDE, as detailed in the procedure below.
 
 
-[]
 * Click `Window`&rarr;`Preferences`, expand `JBoss Tools` and select `JBoss Runtime Detection`.
 +
 .JBoss Runtime Detection Pane
@@ -133,7 +132,6 @@ JBoss Server Tools provides runtime detection that automatically generates a com
 Note that complete server definitions are also automatically generated for JBoss community servers downloaded with JBoss Server Tools.
 
 
-[]
 * Click `Window`&rarr;`Preferences`, expand `JBoss Tools` and select `JBoss Runtime Detection`.
 +
 .JBoss Runtime Detection Pane of Preferences Window
@@ -144,6 +142,11 @@ image::images/4035.png["Click WindowPreferences, expand JBoss Tools and select J
   To detect multiple application servers, select a directory higher up the directory tree.
 * Depending on the outcome of the scan, follow the appropriate step:
 +
+a. If no new application servers are found or if new application servers are found but you do not want to create any server runtime environments for them, click `Cancel`.
+a. If new application servers are found and you want to generate server runtime environments for them, select the check boxes of the appropriate application servers and click `OK`.
++
+.Application Servers Found by Runtime Detection
+image::images/4289.png["If new application servers are found and you want to generate server runtime environments for them, select the check boxes of the appropriate application servers and click OK."]
 +
 
 In all cases, the path is added to the `Paths` table.
@@ -173,7 +176,6 @@ The procedure below details the process for creating new server runtime environm
 For older versions of application servers, you can also create a new runtime server by cloning an existing one as explained below.
 
 
-[]
 * Click `Window`&rarr;`Preferences`, expand `Server` and select `Runtime Environments`.
 +
 .Runtime Environments Pane
@@ -231,11 +233,13 @@ But you may want to create additional server adapters that have different config
 To create a new server adapter to define a local server, you must use the new server wizard as detailed in the procedure below.
 
 
-[]
 * Click the `Servers` view.
   If the `Servers` view is not visible, click `Window`&rarr;`Show View`&rarr;`Servers`.
 * Depending on the number of existing servers, follow the appropriate step:
 +
+a. If there are no existing servers, click `Click this link to create a new server`.
+a. If there are one or more existing servers, right-click an existing server and click `New`&rarr;`Server`.
+
 * Complete the fields and options as detailed:
 +
 * From the `Select the server type` list, select a JBoss community application server.
@@ -299,11 +303,13 @@ Ideally the server runtime environment would be created by specifying the remote
 To work around this issue, you must have a version of the remote application server and remote Java developer kit installed locally and create a server runtime environment based on these.
 
 
-[]
 * Click the `Servers` view.
   If the `Servers` view is not visible, click `Window`&rarr;`Show View`&rarr;`Servers`.
 * Depending on the number of existing servers, follow the appropriate step:
 +
+a. If there are no existing servers, click `Click this link to create a new server`.
+a. If there are one or more existing servers, right-click an existing server and click `New`&rarr;`Server`.
+
 * Complete the fields and options as detailed:
 +
 * From the `Select the server type` list, select a JBoss community application server.

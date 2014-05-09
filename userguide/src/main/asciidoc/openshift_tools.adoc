@@ -116,7 +116,6 @@ Once you have an OpenShift user account, you can connect to OpenShift and then c
 The procedure below guides you through connecting to OpenShift for the first time in the IDE.
 
 
-[]
 * In the `OpenShift Explorer` view, click the `Connect to OpenShift` icon 
   image:images/4325.png[""].
 * Complete the fields and options as detailed:
@@ -136,7 +135,6 @@ The password is retained in secure storage provided by the IDE. To manage the se
 image::images/3929.png["From the Connection list, select New Connection. In the Username and Password fields, type your OpenShift user account authentication information."]
 * Click `Finish` for OpenShift Tools to connect to OpenShift.
 +
-[]
 * If your credentials are incorrect, the `Sign in to OpenShift` wizard remains open for you to change your authentication information.
 * If you selected for your password to be saved, you are prompted to enter your secure storage password or, if this is your first use of secure storage, you are prompted to set a secure storage password.
 +
@@ -191,7 +189,6 @@ SSH keys are also used to control access of other contributors to your OpenShift
 SSH keys must be uploaded to the OpenShift server and, as detailed in the procedure below, OpenShift Tools can assist with both the generation and uploading of SSH keys to OpenShift.
 
 
-[]
 * In the `OpenShift Explorer` view, right-click the connection and click `Manage SSH Keys`.
 * To create a new SSH private-public key pair, click `New`.
 * Complete the fields and options as detailed:
@@ -256,7 +253,6 @@ The procedure below guides you through creating a new domain but you first need 
 If you already have a domain associated with your user account then domain information is automatically passed to the IDE when a live connection is started.
 
 
-[]
 * In the `OpenShift Explorer` view, right-click the connection and click `New`&rarr;`Domain`.
   Alternatively, right-click the connection, click `Manage Domains` and click `New`.
 * In the `Domain Name` field, type the name of the domain you would like to use.
@@ -326,7 +322,6 @@ IMPORTANT:
 You must have SSH keys set up first in order to successfully proceed with the `OpenShift Application` wizard.
 
 
-[]
 * In the `OpenShift Explorer` view, right-click the connection or domain and click `New`&rarr;`Application`.
   Alternatively, in JBoss Central click `OpenShift Application`, after which you are prompted to select an OpenShift connection and provide your user authentication information.
 +
@@ -405,7 +400,6 @@ If you want to work on the project files associated with an application, you mus
 OpenShift Tools can assist you to import your deployed OpenShift applications into the IDE, as detailed in the procedure below.
 
 
-[]
 * Click `File`&rarr;`Import`, expand `OpenShift` and double-click `Existing OpenShift Application`.
   Alternatively, in the `OpenShift Explorer` view, right-click the application and click `Import Application`.
 * Complete the fields and options as detailed:
@@ -459,7 +453,6 @@ But OpenShift also provides an action to assist you in generating server adapter
 You can use this action if you need to regenerate a deleted server adapter for an OpenShift application or if you create or import an OpenShift application and do not select the `Create and set up a server for easy publishing` check box.
 
 
-[]
 * In the `OpenShift Explorer` view, right-click the application and click `Create a Server Adapter`.
 * Complete the fields and options as detailed:
 +

@@ -73,11 +73,13 @@ The server may also be further configured to inject the necessary JavaScript cod
 The procedure below guides you through creating a default LiveReload server.
 
 
-[]
 * Click the `Servers` view.
   If the `Servers` view is not visible, click `Window`&rarr;`Show View`&rarr;`Servers`.
 * Depending on the number of existing servers, follow the appropriate step:
 +
+a. If there are no existing servers, click `Click this link to create a new server`.
+a. If there are one or more existing servers, right-click an existing server and click `New`&rarr;`Server`.
+
 * From the list of server types, expand `Basic` and select `LiveReload Server`.
 +
 .LiveReload Server Selected in New Server Wizard
@@ -176,11 +178,21 @@ In this case, the server sends notifications about changed resources and Browser
 The procedure below outlines how to enable LiveReload in BrowserSim for workspace and deployed resources.
 
 
-[]
 * Ensure the LiveReload server is started.
   If it is not started, in the `Servers` view right-click the LiveReload server and click `Start`.
 * Complete the appropriate step depending on the location of your resources:
 +
+a. For workspace resources, in the `Project Explorer` view right-click the resource file and click `Open With`&rarr;`BrowserSim`.
+a. For deployed resources, in the `Servers` view right-click the application and click `Show In`&rarr;`BrowserSim`.
++
+.`Show In`&rarr;`BrowserSim` Menu Option
+image::images/4072.png["For deployed resources, in the Servers view right-click the application and click Show InBrowserSim."]
+IMPORTANT: +
+Ensure the server and application of the deployed resources are started before attempting to view the resources in LiveReload-enabled BrowserSim.
+To start the server and the application, in the `Servers` view right-click each and click `Start`.
+
+
+
 * Right-click the simulated device and ensure the `Enable LiveReload` check box is selected.
 +
 .`Enable LiveReload` Menu Option for BrowserSim

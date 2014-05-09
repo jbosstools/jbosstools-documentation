@@ -411,7 +411,6 @@ This feature is useful if you regularly work offline or if you are installing th
 Note that the JBoss Central [file]`.zip` file is a snapshot of the plug-ins at the time of the given JBoss&nbsp;Developer&nbsp;Studio release and updated versions of the plug-ins must be installed from JBoss Central in online mode.
 
 
-[]
 
 NOTE: 
 To install JBoss and third-party plug-ins in offline mode, you must first download the JBoss Central [file]`.zip` file.

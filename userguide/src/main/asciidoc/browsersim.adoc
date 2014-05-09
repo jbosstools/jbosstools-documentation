@@ -207,11 +207,13 @@ LiveReload for BrowserSim refreshes web pages open in simulated device browser w
 The procedures below outline how to create a LiveReload server and how to enable LiveReload in BrowserSim for workspace and deployed resources.
 
 
-[]
 * Click the `Servers` view.
   If the `Servers` view is not visible, click `Window`&rarr;`Show View`&rarr;`Servers`.
 * Depending on the number of existing servers, follow the appropriate step:
 +
+a. If there are no existing servers, click `Click this link to create a new server`.
+a. If there are one or more existing servers, right-click an existing server and click `New`&rarr;`Server`.
+
 * From the list of server types, expand `Basic` and select `LiveReload Server`.
 +
 .LiveReload Server Selected in New Server Wizard
@@ -225,11 +227,21 @@ image::images/4079.png["From the list of server types, expand Basic and select L
 .LiveReload Server Listed in the `Servers` View
 image::images/4080.png["The LiveReload server is listed in the Servers view."]
 
-[]
 * Ensure the LiveReload server is started.
   If it is not started, in the `Servers` view right-click the LiveReload server and click `Start`.
 * Complete the appropriate step depending on the location of your resources:
 +
+a. For workspace resources, in the `Project Explorer` view right-click the resource file and click `Open With`&rarr;`BrowserSim`.
+a. For deployed resources, in the `Servers` view right-click the application and click `Show In`&rarr;`BrowserSim`.
++
+.`Show In`&rarr;`BrowserSim` Menu Option
+image::images/4072.png["For deployed resources, in the Servers view right-click the application and click Show InBrowserSim."]
+IMPORTANT: +
+Ensure the server and application of the deployed resources are started before attempting to view the resources in LiveReload-enabled BrowserSim.
+To start the server and the application, in the `Servers` view right-click each and click `Start`.
+
+
+
 * Right-click the simulated device and ensure the `Enable LiveReload` check box is selected.
 +
 .`Enable LiveReload` Menu Option for BrowserSim
@@ -303,7 +315,6 @@ But the BrowserSim icon might not be visible in other perspectives because the i
 As detailed in the procedure below, you can add the BrowserSim toolbar to other perspectives.
 
 
-[]
 * Ensure you are using the perspective in which you would like to add the BrowserSim toolbar.
   To open the desired perspective, click `Window`&rarr;`Open Perspective`&rarr;`Other` and double-click the perspective.
 * Click `Window`&rarr;`Customize Perspective`.
@@ -325,7 +336,6 @@ image::images/4117.png["In the Tool Bar Visibility tab, ensure the BrowserSim ch
 If you use BrowserSim frequently but do not want to set it as the default browser, you can set a shortcut for the `Run BrowserSim` action, as described in the procedure below.
 
 
-[]
 * Click `Window`&rarr;`Preferences`, expand `General` and select `Keys`.
 * To find the `Run BrowserSim` action, in the `type filter text` field enter `BrowserSim`.
 * From the table, select `Run BrowserSim`.
@@ -344,7 +354,6 @@ You may wish to preview a web application on a simulated mobile device that is n
 You can add more devices to BrowserSim and modify the existing devices, as detailed below.
 
 
-[]
 * Right-click the simulated device and click `Preferences`.
 * In the `Devices` section of the `Devices` tab, click `Add`.
 * Complete the fields and options as detailed:
