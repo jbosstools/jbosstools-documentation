@@ -1,0 +1,51 @@
+= JBoss Tools User Guide
+
+:icons: font
+:toc: left
+:numbered:
+:imagesdir: ./images
+:includedir: .
+
+:numbered!:
+== Part I. Tools for Every Project
+
+include::{includedir}/jboss_central_and_the_jboss_perspective.adoc[]
+
+- - -
+
+include::{includedir}/jboss_server_tools.adoc[]
+
+- - -
+
+include::{includedir}/forge_tools.adoc[]
+
+- - -
+
+:numbered!:
+== Part II. Tools for Creating Web Interfaces
+
+include::{includedir}/livereload_tools.adoc[]
+
+- - -
+
+:numbered!:
+== Part III. Tools for Creating Mobile Applications
+
+include::{includedir}/mobile_web_tools.adoc[]
+
+- - -
+
+include::{includedir}/browsersim.adoc[]
+
+- - -
+
+include::{includedir}/hybrid_mobile_tools_and_cordovasim.adoc[]
+
+- - -
+
+:numbered!:
+== Part IV. Tools for Deployment and Maintenance
+
+include::{includedir}/openshift_tools.adoc[]
+
+- - -

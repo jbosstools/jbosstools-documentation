@@ -1,0 +1,19 @@
+To process a whole directory of docbook files using my forked version of @/mojavelinux 's docbookrx:
+
+[source,bash]
+----
+
+# if in the jbosstools-documentation/util dir
+
+basedir=`cd ..; pwd`;
+
+if [[ ! -f docbookrx.rb ]]; then 
+  wget -N https://raw.githubusercontent.com/nickboldt/docbookrx/tweaks-hacks-and-contribs/docbookrx.rb
+fi
+
+for f in  ${basedir}/docs/User_Guide/JBoss_Tools_User_Guide/en-US/chap-*.xml; do \
+  o=${f##*/}; o=${o/chap-/}; o=${o/.xml/.adoc}; o=`echo $o | tr '[:upper:]' '[:lower:]'`; echo $o; \
+  ruby docbookrx.rb $f > ${basedir}/userguide/src/main/asciidoc/${o}; 
+done
+
+----
