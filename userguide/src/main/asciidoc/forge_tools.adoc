@@ -64,6 +64,7 @@ In order to see this, you need to open the `Forge Console` view.
 .Stopped Console in Forge Console View
 image::images/4060.png["To open the Forge Console view, click WindowShow ViewOther. Expand Forge and double-click Forge Console and click OK. Alternatively, press Ctrl+4, at which you are prompted whether you also want to start the Forge runtime server. Irrespective of your response to starting Forge, the Forge Console view opens."]
 
+
 To open the `Forge Console` view, click `Window`&rarr;`Show View`&rarr;`Other`.
 Expand `Forge`, select `Forge Console` and click `OK`.
 Alternatively, press `Ctrl+4`, at which you are prompted whether you also want to start the Forge runtime server.
@@ -88,6 +89,7 @@ Start Forge;;
 
 .Started Console in Forge Console View
 image::images/4063.png["In the Forge Console view, click the Start the default Forge runtime icon. Alternatively, press Ctrl+4 and at the prompt asking if you want to start the Forge runtime server, click Yes."]
+
 Run Forge in the background;;
   
   With a running instance of Forge, in the `Forge Console` view click the `Close` icon 
@@ -103,6 +105,7 @@ Stop Forge;;
 
 .`exit` Command on Forge Command Line
 image::images/4069.png["To stop Forge, on the Forge command line enter exit."]
+
 [[navigate-to-project-resources-on-the-forge-command-line]]
 === Navigate to Project Resources on the Forge Command Line
 
@@ -119,6 +122,7 @@ At the prompt, click `OK`.
 .`Show In`&rarr;`Forge Console` Menu Option
 image::images/4064.png["To navigate to a project resource on the Forge command line, in the Project Explorer view right-click any project resource and click Show InForge Console."]
 
+
 Alternatively, in the `Project Explorer` view, select a project resource and click the `Go to Selection` icon 
 image:images/4068.png[""] in the `Forge Console` view.
 
@@ -130,6 +134,7 @@ Following this, the command line navigates to the project resource, the command 
 
 .`pick-up` Command Executed on Forge Command Line
 image::images/4067.png["The Forge command line automatically executing the pick-up command for the project resource."]
+
 [[background-actions-invoked-by-forge-commands]]
 === Background Actions Invoked by Forge Commands
 
@@ -190,6 +195,7 @@ To insert one of the commands in to the Forge command line, in the pop-up window
 
 .Forge Commands Window
 image::images/4070.png["To view the list of Forge commands, with a running instance of Forge, press Ctrl+4. To insert one of the commands in to the Forge command line, in the pop-up window expand the command groups and double-click a command."]
+
 [[use-forge-wizards]]
 === Use Forge Wizards
 
@@ -222,6 +228,7 @@ In the case that Forge is not already started, the wizard automatically starts i
 
 .Forge Wizards Listed in New Window
 image::images/4059.png["To open a Forge Tools wizard, click FileNewOther and expand JBoss ToolsForge. Select one of the listed wizards, click Next and follow the instructions."]
+
 [[sect-customizing-forge-tools]]
 == Customizing Forge Tools
 
@@ -244,6 +251,7 @@ Forge Tools provides a number of options for customized Forge starts.
 
 .Forge Pane of Preferences Window
 image::images/4066.png["To open the the Forge Pane, click WindowPreferences and select Forge."]
+
 
 Start Forge on IDE start;;
   
@@ -281,6 +289,7 @@ To manage the available Forge runtime servers, click `Window`&rarr;`Preferences`
 .Installed Forge Runtimes Pane of Preferences Window
 image::images/4065.png["To manage the available Forge runtime servers, click WindowPreferences, expand Forge and select Installed Forge Runtimes."]
 
+
 * To add a Forge runtime server, click `Add`.
   In the `Name` field, type a name to distinguish the Forge runtime server in the IDE. In the `Location` field, type the location of the runtime server or click `Browse` to navigate to the location.
   Click `OK` to close the window.
@@ -292,8 +301,12 @@ image::images/4065.png["To manage the available Forge runtime servers, click Win
   This runtime server is used when Forge starts. Click `OK` to close the `Preferences` window.
 
 
-IMPORTANT: 
+[IMPORTANT]
+====
+
 It is not possible to edit or delete the Forge runtime server that is distributed with Forge Tools.
 This server is named `embedded` in the `Installed Forge Runtimes` list.
 Additionally, it is not possible to delete a Forge runtime server that is selected as the default.
 To delete a default runtime server, you must first select a different runtime server as the default.
+
+====

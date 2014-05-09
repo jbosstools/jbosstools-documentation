@@ -72,30 +72,37 @@ The LiveReload server is integral to the LiveReload integration with the IDE. In
 The server may also be further configured to inject the necessary JavaScript code snippets into HTML files or enable remote connections.
 The procedure below guides you through creating a default LiveReload server.
 
+.Procedure: Create a LiveReload Server
 
-* Click the `Servers` view.
+
+. Click the `Servers` view.
   If the `Servers` view is not visible, click `Window`&rarr;`Show View`&rarr;`Servers`.
-* Depending on the number of existing servers, follow the appropriate step:
+. Depending on the number of existing servers, follow the appropriate step:
 +
 a. If there are no existing servers, click `Click this link to create a new server`.
 a. If there are one or more existing servers, right-click an existing server and click `New`&rarr;`Server`.
 
-* From the list of server types, expand `Basic` and select `LiveReload Server`.
+. From the list of server types, expand `Basic` and select `LiveReload Server`.
 +
 .LiveReload Server Selected in New Server Wizard
 image::images/4079.png["From the list of server types, expand Basic and select LiveReload Server."]
-* The `Server's host name` and `Server name` fields are automatically populated.
+
+. The `Server's host name` and `Server name` fields are automatically populated.
   The `localhost` value in the `Server's host name` field indicates that the server is to be run on the local system and the value in the `Server name` field is the name by which the LiveReload server is identified in the `Servers` view.
   You can edit these values as appropriate by typing in the fields.
-* Click `Finish` to close the window.
+. Click `Finish` to close the window.
   The LiveReload server is listed in the `Servers` view.
 +
 .LiveReload Server Listed in the `Servers` View
 image::images/4080.png["The LiveReload server is listed in the Servers view."]
 
-NOTE: 
+
+[NOTE]
+====
+
 Alternatively, LiveReload servers can be automatically created when you select to view workspace and deployed resources in web browsers using the actions provided by LiveReload Tools.
 
+====
 
 [[configure-the-livereload-server]]
 === Configure the LiveReload Server
@@ -114,6 +121,7 @@ Alternatively, right-click the LiveReload server and click `Open` or press `F3`.
 
 .LiveReload Server Options in the Server Editor
 image::images/4078.png["The details below outline how to set the configuration options using the Server Editor. To open the Server Editor for a LiveReload server, in the Servers tab double-click the LiveReload server. Alternatively, right-click the LiveReload server and click Open or press F3."]
+
 
 Insert JavaScript code snippet to resources;;
   
@@ -139,10 +147,13 @@ If the requisite LiveReload server does not exist or is not correctly configured
 Note that LiveReload Tools functionality may only work with deployed XHTML resources due to their dynamic nature.
 
 
-NOTE: 
+[NOTE]
+====
+
 To use LiveReload Tools with AsciiDoc files, you must install the AsciiDoctor.js browser extension from http://asciidoctor.org/news/2013/09/18/introducing-asciidoctor-js-live-preview/[] on the Asciidoctor website.
 The browser extension renders AsciiDoc files as HTML and it is available for Chrome and FireFox.
 
+====
 
 
 View workspace resources in a web browser;;
@@ -151,6 +162,7 @@ View workspace resources in a web browser;;
 
 .Live Reload Settings Prompt
 image::images/4081.png["This requires the server to be configured to Inject the livereload.js script in HTML pages and, if the server is not correctly configured, you are prompted to enable this option."]
+
 View deployed resources in a web browser;;
   
   Ensure the server and application of the deployed resources are started.
@@ -158,6 +170,7 @@ View deployed resources in a web browser;;
 
 .`Show In`&rarr;`Web Browser via LiveReload Server` Menu Option
 image::images/4074.png["Ensure the server and application of the deployed resources are started. In the Servers view, right-click the application and click Show InWeb Browser via LiveReload Server."]
+
 View deployed resources on an external device;;
   
   Ensure the server and application of the deployed resources are started.
@@ -165,9 +178,13 @@ View deployed resources on an external device;;
 
 .`Show In`&rarr;`Web Browser on External Device` Menu Option
 image::images/4073.png["Ensure the server and application of the deployed resources are started. In the Servers view, right-click the application and click Show InWeb Browser on External Device."]
-NOTE: 
+
+[NOTE]
+====
+
 The configuration of a LiveReload server can be viewed and manually set in the Server Editor.
 
+====
 
 [[view-resources-in-livereload-enabled-browsersim]]
 === View Resources in LiveReload-enabled BrowserSim
@@ -177,26 +194,37 @@ The LiveReload server can be used in conjunction with BrowserSim.
 In this case, the server sends notifications about changed resources and BrowserSim inserts the JavaScript code, which invokes the simulated device browser window to refresh.
 The procedure below outlines how to enable LiveReload in BrowserSim for workspace and deployed resources.
 
+.Procedure: View Resources in LiveReload-enabled BrowserSim
 
-* Ensure the LiveReload server is started.
+
+. Ensure the LiveReload server is started.
   If it is not started, in the `Servers` view right-click the LiveReload server and click `Start`.
-* Complete the appropriate step depending on the location of your resources:
+. Complete the appropriate step depending on the location of your resources:
 +
 a. For workspace resources, in the `Project Explorer` view right-click the resource file and click `Open With`&rarr;`BrowserSim`.
 a. For deployed resources, in the `Servers` view right-click the application and click `Show In`&rarr;`BrowserSim`.
 +
 .`Show In`&rarr;`BrowserSim` Menu Option
 image::images/4072.png["For deployed resources, in the Servers view right-click the application and click Show InBrowserSim."]
-IMPORTANT: +
++
+[IMPORTANT]
+====
+
 Ensure the server and application of the deployed resources are started before attempting to view the resources in LiveReload-enabled BrowserSim.
 To start the server and the application, in the `Servers` view right-click each and click `Start`.
 
+====
 
 
-* Right-click the simulated device and ensure the `Enable LiveReload` check box is selected.
+. Right-click the simulated device and ensure the `Enable LiveReload` check box is selected.
 +
 .`Enable LiveReload` Menu Option for BrowserSim
 image::images/4305.png["Right-click the simulated device and ensure the Enable LiveReload check box is selected."]
 
-IMPORTANT: 
+
+[IMPORTANT]
+====
+
 The `Enable LiveReload` check box has no effect when the LiveReload server is set to insert the JavaScript code and the web resource is viewed in BrowserSim via the LiveReload server port URL. LiveReload is always enabled in this case.
+
+====

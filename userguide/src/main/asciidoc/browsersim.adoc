@@ -45,6 +45,7 @@ Click `Apply` and click `OK` to close the `Preferences` window.
 
 .BrowserSim/Cordova Pane of Preferences Window
 image::images/4322.png["To set BrowserSim to use a 32-bit JVM, click WindowPreferences. Expand JBoss Tools and select BrowserSim/CordovaSim."]
+
 [[sect-features-of-browsersim]]
 == Features of BrowserSim
 
@@ -89,6 +90,7 @@ If a web page is already open in a standard browser window, this is the web page
 
 .Web Page Open on Simulated Device
 image::images/4116.png["Web Page Open on Simulated Device."]
+
 
 Runtime errors for simulated devices can be viewed in the `Error Log` view.
 To open the `Error Log` view, click `Window`&rarr;`Show View`&rarr;`Other`.
@@ -148,12 +150,14 @@ Rotate the view between portrait and landscape modes;;
 
 .Rotate Mouse Pointer in Upper-right Corner of Simulated Device
 image::images/4104.png["To rotate the view between portrait and landscape modes, click any corner of the simulated device."]
+
 Change the simulated device;;
   
   Right-click the simulated device, click `Skins` and select from the listed devices.
 
 .Skins Menu Option
 image::images/4323.png["Right-click the simulated device, click Skins and select from the listed devices."]
+
 Remove or use skins;;
   
   To view a plain browser window without the mobile device skin, right-click the simulated device and click `Use Skins`.
@@ -181,6 +185,7 @@ View simultaneously on synchronized simulated devices;;
 
 .Synchronized Simulated Devices
 image::images/4100.png["Right-click the simulated device and click Open Synchronized Window. Select from the list of available skins for the additional simulated device. An additional simulated device opens and displays the same web page as that of the synchronized simulated device. Opening a web page in one synchronized simulated device results in the web page opening in all the synchronized simulated devices."]
+
 [[generate-a-screen-capture-of-a-simulated-device]]
 === Generate a Screen Capture of a Simulated Device
 
@@ -206,50 +211,64 @@ Select the output for the screen capture from the list of options:
 LiveReload for BrowserSim refreshes web pages open in simulated device browser windows as the source is edited in the IDE. A LiveReload server sends notifications as resources are changed in the IDE and BrowserSim inserts the JavaScript code, which invokes the simulated device browser window to refresh.
 The procedures below outline how to create a LiveReload server and how to enable LiveReload in BrowserSim for workspace and deployed resources.
 
+.Procedure: Create a LiveReload Server
 
-* Click the `Servers` view.
+
+. Click the `Servers` view.
   If the `Servers` view is not visible, click `Window`&rarr;`Show View`&rarr;`Servers`.
-* Depending on the number of existing servers, follow the appropriate step:
+. Depending on the number of existing servers, follow the appropriate step:
 +
 a. If there are no existing servers, click `Click this link to create a new server`.
 a. If there are one or more existing servers, right-click an existing server and click `New`&rarr;`Server`.
 
-* From the list of server types, expand `Basic` and select `LiveReload Server`.
+. From the list of server types, expand `Basic` and select `LiveReload Server`.
 +
 .LiveReload Server Selected in New Server Wizard
 image::images/4079.png["From the list of server types, expand Basic and select LiveReload Server."]
-* The `Server's host name` and `Server name` fields are automatically populated.
+
+. The `Server's host name` and `Server name` fields are automatically populated.
   The `localhost` value in the `Server's host name` field indicates that the server is to be run on the local system and the value in the `Server name` field is the name by which the LiveReload server is identified in the `Servers` view.
   You can edit these values as appropriate by typing in the fields.
-* Click `Finish` to close the window.
+. Click `Finish` to close the window.
   The LiveReload server is listed in the `Servers` view.
 +
 .LiveReload Server Listed in the `Servers` View
 image::images/4080.png["The LiveReload server is listed in the Servers view."]
 
-* Ensure the LiveReload server is started.
+.Procedure: View Resources in LiveReload-enabled BrowserSim
+
+
+. Ensure the LiveReload server is started.
   If it is not started, in the `Servers` view right-click the LiveReload server and click `Start`.
-* Complete the appropriate step depending on the location of your resources:
+. Complete the appropriate step depending on the location of your resources:
 +
 a. For workspace resources, in the `Project Explorer` view right-click the resource file and click `Open With`&rarr;`BrowserSim`.
 a. For deployed resources, in the `Servers` view right-click the application and click `Show In`&rarr;`BrowserSim`.
 +
 .`Show In`&rarr;`BrowserSim` Menu Option
 image::images/4072.png["For deployed resources, in the Servers view right-click the application and click Show InBrowserSim."]
-IMPORTANT: +
++
+[IMPORTANT]
+====
+
 Ensure the server and application of the deployed resources are started before attempting to view the resources in LiveReload-enabled BrowserSim.
 To start the server and the application, in the `Servers` view right-click each and click `Start`.
 
+====
 
 
-* Right-click the simulated device and ensure the `Enable LiveReload` check box is selected.
+. Right-click the simulated device and ensure the `Enable LiveReload` check box is selected.
 +
 .`Enable LiveReload` Menu Option for BrowserSim
 image::images/4305.png["Right-click the simulated device and ensure the Enable LiveReload check box is selected."]
 
-IMPORTANT: 
+
+[IMPORTANT]
+====
+
 The `Enable LiveReload` check box has no effect when the LiveReload server is set to insert the JavaScript code and the web resource is viewed in BrowserSim via the LiveReload server port URL. LiveReload is always enabled in this case.
 
+====
 
 [[view-the-source-of-a-web-page]]
 === View the Source of a Web Page
@@ -314,18 +333,21 @@ The BrowserSim icon is part of the BrowserSim toolbar and, by default, this tool
 But the BrowserSim icon might not be visible in other perspectives because the icons in the global toolbar change depending on the perspective you are using.
 As detailed in the procedure below, you can add the BrowserSim toolbar to other perspectives.
 
+.Procedure: Add BrowserSim to the Global Toolbar in the Current Perspective
 
-* Ensure you are using the perspective in which you would like to add the BrowserSim toolbar.
+
+. Ensure you are using the perspective in which you would like to add the BrowserSim toolbar.
   To open the desired perspective, click `Window`&rarr;`Open Perspective`&rarr;`Other` and double-click the perspective.
-* Click `Window`&rarr;`Customize Perspective`.
-* In the `Command Groups Availability` tab, select the `BrowserSim` check box.
+. Click `Window`&rarr;`Customize Perspective`.
+. In the `Command Groups Availability` tab, select the `BrowserSim` check box.
   This option makes the BrowserSim toolbar available for adding to the current perspective.
-* In the `Tool Bar Visibility` tab, ensure the `BrowserSim` check box is selected.
+. In the `Tool Bar Visibility` tab, ensure the `BrowserSim` check box is selected.
   This option adds the BrowserSim toolbar to the global toolbar of the current perspective.
 +
 .`BrowserSim` Check Box Selected in `Tool Bar Visibility` tab of `Customize Perspective` Window
 image::images/4117.png["In the Tool Bar Visibility tab, ensure the BrowserSim check box is selected as this makes the BrowserSim toolbar visible"]
-* Click `OK` to close the window.
+
+. Click `OK` to close the window.
   The `Run BrowserSim` icon 
   image:images/4115.png[""] is now visible in the global toolbar of the perspective.
 
@@ -335,16 +357,19 @@ image::images/4117.png["In the Tool Bar Visibility tab, ensure the BrowserSim ch
 
 If you use BrowserSim frequently but do not want to set it as the default browser, you can set a shortcut for the `Run BrowserSim` action, as described in the procedure below.
 
+.Procedure: Set a Shortcut for BrowserSim
 
-* Click `Window`&rarr;`Preferences`, expand `General` and select `Keys`.
-* To find the `Run BrowserSim` action, in the `type filter text` field enter `BrowserSim`.
-* From the table, select `Run BrowserSim`.
-* In the `Binding` field, type the key combination you want to use as a shortcut.
+
+. Click `Window`&rarr;`Preferences`, expand `General` and select `Keys`.
+. To find the `Run BrowserSim` action, in the `type filter text` field enter `BrowserSim`.
+. From the table, select `Run BrowserSim`.
+. In the `Binding` field, type the key combination you want to use as a shortcut.
   Check the `Conflicts` table to ensure the key binding you have chosen does not conflict with existing shortcuts.
-* Once a unique key binding is selected, click `Apply` and click `OK` to close the `Preferences` window.
+. Once a unique key binding is selected, click `Apply` and click `OK` to close the `Preferences` window.
 +
 .Keys Pane of Preferences Window
 image::images/4114.png["Once a unique key binding is selected, click Apply and click OK to close the Preferences window."]
+
 
 [[add-or-modify-devices-in-browsersim]]
 === Add or Modify Devices in BrowserSim
@@ -353,10 +378,12 @@ image::images/4114.png["Once a unique key binding is selected, click Apply and c
 You may wish to preview a web application on a simulated mobile device that is not predefined in BrowserSim.
 You can add more devices to BrowserSim and modify the existing devices, as detailed below.
 
+.Procedure: Add Devices to BrowserSim
 
-* Right-click the simulated device and click `Preferences`.
-* In the `Devices` section of the `Devices` tab, click `Add`.
-* Complete the fields and options as detailed:
+
+. Right-click the simulated device and click `Preferences`.
+. In the `Devices` section of the `Devices` tab, click `Add`.
+. Complete the fields and options as detailed:
 +
 * In the `Name` field, type the name you want to give the device.
 * In the `Width` and `Height` fields, type the dimensions of the device window in pixels.
@@ -364,19 +391,23 @@ You can add more devices to BrowserSim and modify the existing devices, as detai
 * In the `User Agent` field, type the User Agent string of your device.
   Clearing the `User Agent` check box results in the default User Agent for the BrowserSim browser being used.
 +
-NOTE: 
+[NOTE]
+====
+
 User Agent is a string denoting the device, operating system and browser combination.
 This string may be used by websites to provide content tailored for devices, operating systems and browsers.
 Information is widely available on the Internet to assist you in identifying the User Agent associated with a particular device.
 
+====
 
 * From the `Skin` list, select the skin to be used or select `None`.
 +
 .Add Device Window
 image::images/4118.png["In the Devices section of the Devices tab, click Add."]
-* Click `OK` to add the new device.
+
+. Click `OK` to add the new device.
   It is listed in the `Devices` table.
-* Click `OK` to close the `Preferences` window.
+. Click `OK` to close the `Preferences` window.
 
 
 To modify existing devices in BrowserSim, right-click the simulated device and click `Preferences`.
@@ -400,6 +431,7 @@ In the `Truncate the device window when it does not fit display` section of the 
 
 .Truncate Preferences
 image::images/4110.png["To change the default behavior, right-click the simulated device and click Preferences. In the Truncate the device window when it does not fit display section of the Devices tab, click Always truncate or Never truncate to change the behavior as appropriate and click OK to close the Preferences window."]
+
 [[change-the-default-livereload-port]]
 === Change the Default LiveReload Port
 
@@ -418,6 +450,7 @@ Click `OK` to close the `Preferences` window.
 
 .LiveReload Port Preferences
 image::images/4109.png["To change the default LiveReload port, right-click the simulated device and click Preferences. Click the Settings tab. Note that if LiveReload is not already enabled for BrowserSim you must select the Enable LiveReload check box in the LiveReload options section. In the LiveReload Port field type the port number you want to use. Click OK to close the Preferences window."]
+
 [[set-the-location-for-saved-screen-captures]]
 === Set the Location for Saved Screen Captures
 
@@ -433,6 +466,7 @@ Click `OK` to close the `Preferences` window.
 
 .Screen Capture Preferences
 image::images/4108.png["To set the location, right-click the simulated device and click Preferences. In the Screenshots section of the Settings tab, in the Location field type the location where you want graphics files to be saved or click Browse to navigate to the location. Click OK to close the Preferences window."]
+
 [[change-the-default-settings-for-weinre]]
 === Change the Default Settings for Weinre
 
