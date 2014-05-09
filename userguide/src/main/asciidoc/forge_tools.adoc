@@ -48,30 +48,10 @@ The aim of this section is to guide you in using Forge Tools:
 
 
 * View and manage the Forge Console view, from which the Forge command line is accessible
-
-
-View and manage the Forge Console view, from which the Forge command line is accessible
-
 * Start and stop the Forge runtime server in order to access the command line
-
-
-Start and stop the Forge runtime server in order to access the command line
-
 * Navigate to project resources in the Forge command line
-
-
-Navigate to project resources in the Forge command line
-
 * Understand how Forge commands affect the IDE through background actions, such as expanding directories in explorer views and opening files in editors
-
-
-Understand how Forge commands affect the IDE through background actions, such as expanding directories in explorer views and opening files in editors
-
 * Use wizards for accomplishing common Forge commands as an alternative to the Forge command line
-
-
-Use wizards for accomplishing common Forge commands as an alternative to the Forge command line
-
 
 [[manage-the-forge-console]]
 === Manage the Forge Console
@@ -253,15 +233,7 @@ The aim of this section is to guide you in customizing Forge Tools:
 
 
 * Customize when and how Forge starts
-
-
-Customize when and how Forge starts
-
 * Manage available Forge runtime servers
-
-
-Manage available Forge runtime servers
-
 
 [[customize-the-forge-start]]
 === Customize the Forge Start
@@ -312,33 +284,12 @@ image::images/4065.png["To manage the available Forge runtime servers, click Win
 * To add a Forge runtime server, click `Add`.
   In the `Name` field, type a name to distinguish the Forge runtime server in the IDE. In the `Location` field, type the location of the runtime server or click `Browse` to navigate to the location.
   Click `OK` to close the window.
-
-
-To add a Forge runtime server, click `Add`.
-In the `Name` field, type a name to distinguish the Forge runtime server in the IDE. In the `Location` field, type the location of the runtime server or click `Browse` to navigate to the location.
-Click `OK` to close the window.
-
 * To change the name or the location of a Forge runtime server, from the `Installed Forge Runtimes` list select a runtime and click `Edit`.
   Modify the `Name` and `Location` fields as appropriate.
   Click `OK` to close the window.
-
-
-To change the name or the location of a Forge runtime server, from the `Installed Forge Runtimes` list select a runtime and click `Edit`.
-Modify the `Name` and `Location` fields as appropriate.
-Click `OK` to close the window.
-
 * To delete a Forge runtime server, from the `Installed Forge Runtimes` list select the runtime and click `Remove`.
-
-
-To delete a Forge runtime server, from the `Installed Forge Runtimes` list select the runtime and click `Remove`.
-
 * To set a runtime server as the default, select the check box corresponding to the Forge runtime server.
-  This runtime server is used when Forge starts.
-
-
-To set a runtime server as the default, select the check box corresponding to the Forge runtime server.
-This runtime server is used when Forge starts.
- Click `OK` to close the `Preferences` window.
+  This runtime server is used when Forge starts. Click `OK` to close the `Preferences` window.
 
 
 IMPORTANT: 

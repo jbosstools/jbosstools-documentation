@@ -12,7 +12,7 @@
 
 
 JBoss Central is a core IDE view, providing access to JBoss information and assistance in one centralized location.
-It offers features for first time users of []##JBoss Tools##, as well as those with more experience.
+It offers features for first time users of JBoss Tools, as well as those with more experience.
 
 
 
@@ -20,25 +20,9 @@ JBoss Central comprises resources and actions for creating new projects, learnin
 
 
 * Project wizards create new projects based on sample applications and different technologies.
-
-
-Project wizards create new projects based on sample applications and different technologies.
-
 * The TicketMonster tutorial, part of JBoss Java Developer Framework, demonstrates how to use the IDE to best advantage in developing a complex web application that utilizes JBoss technologies.
-
-
-The TicketMonster tutorial, part of JBoss Java Developer Framework, demonstrates how to use the IDE to best advantage in developing a complex web application that utilizes JBoss technologies.
-
 * Links to JBoss blog posts give timely insight into JBoss developments and the links to JBoss resources, such as documentation and forums, provide easy access to key information sources.
-
-
-Links to JBoss blog posts give timely insight into JBoss developments and the links to JBoss resources, such as documentation and forums, provide easy access to key information sources.
-
 * Software installation and update information assist in the easy management of IDE plug-ins.
-
-
-Software installation and update information assist in the easy management of IDE plug-ins.
-
 
 
 [[about-the-jboss-perspective]]
@@ -76,25 +60,9 @@ The aim of this section is to guide you in using JBoss Central and the JBoss per
 
 
 * View JBoss Central to access project wizards and information resources
-
-
-View JBoss Central to access project wizards and information resources
-
 * Install and update software with JBoss Central
-
-
-Install and update software with JBoss Central
-
 * Open the JBoss perspective for easy access to key views, menus and toolbars
-
-
-Open the JBoss perspective for easy access to key views, menus and toolbars
-
 * Access cheat sheets that assist in project development
-
-
-Access cheat sheets that assist in project development
-
 
 [[view-jboss-central]]
 === View JBoss Central
@@ -163,9 +131,9 @@ Each of the information sources listed below are web-based and, depending on the
 
 
 
-View the JBoss []##Tools## website;;
+View the JBoss Tools website;;
   
-  In JBoss Central, click the []##`JBoss Tools Home`## icon 
+  In JBoss Central, click the `JBoss Tools Home` icon 
   image:images/3975.png[""].
 
 View the latest JBoss developments;;
@@ -320,25 +288,9 @@ The aim of this section is to guide you in customizing JBoss Central and the JBo
 
 
 * Make JBoss Central visible when the IDE starts
-
-
-Make JBoss Central visible when the IDE starts
-
 * Customize the views, menus and toolbars of the JBoss perspective
-
-
-Customize the views, menus and toolbars of the JBoss perspective
-
 * Enable offline availability of JBoss Central elements, such as project examples and auxiliary plug-ins
-
-
-Enable offline availability of JBoss Central elements, such as project examples and auxiliary plug-ins
-
 * Specify the default IDE behavior for cheat sheets
-
-
-Specify the default IDE behavior for cheat sheets
-
 
 [[change-the-behavior-of-jboss-central-on-ide-start]]
 === Change the Behavior of JBoss Central on IDE Start
@@ -422,7 +374,7 @@ For more information, see http://groovy.codehaus.org/Installing+Groovy[] at the 
 
 IMPORTANT: 
 Maven must be correctly configured for all of the project wizards before the cache script is run.
-[]##The JBoss Public Maven repository## must be specified in [file]`settings.xml`.
+The JBoss Public Maven repository must be specified in [file]`settings.xml`.
 
 
 
@@ -463,58 +415,21 @@ Note that the JBoss Central [file]`.zip` file is a snapshot of the plug-ins at t
 
 NOTE: 
 To install JBoss and third-party plug-ins in offline mode, you must first download the JBoss Central [file]`.zip` file.
-[]##You can download the JBoss Central [file]`.zip` file from http://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/[] on the JBoss Tools website.##
+You can download the JBoss Central [file]`.zip` file from http://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/[] on the JBoss Tools website.
 
 * Click `Help`&rarr;`Install New Software`.
-
-
-Click `Help`&rarr;`Install New Software`.
-
 * In the `Work with` field, enter the path of the JBoss Central [file]`.zip` file.
   Alternatively, click `Add` and click `Archive` to locate the file.
-
-
-In the `Work with` field, enter the path of the JBoss Central [file]`.zip` file.
-Alternatively, click `Add` and click `Archive` to locate the file.
-
 * Clear the `Group items by category` check box.
   This action makes the contents of the JBoss Central [file]`.zip` file visible in the table of components.
-
-
-Clear the `Group items by category` check box.
-This action makes the contents of the JBoss Central [file]`.zip` file visible in the table of components.
-
 * From the table of components, select the software to be installed and click `Next`.
-
-
-From the table of components, select the software to be installed and click `Next`.
-
 * Review the details of the items listed for install and click `Next`.
-
-
-Review the details of the items listed for install and click `Next`.
-
 * After reading and agreeing to the license(s), click `I accept the terms of the license agreement(s)` and click `Finish`.
   The `Installing Software` window opens and reports the progress of the installation.
-
-
-After reading and agreeing to the license(s), click `I accept the terms of the license agreement(s)` and click `Finish`.
-The `Installing Software` window opens and reports the progress of the installation.
-
 * During the installation process you may receive warnings about installing unsigned content.
   If this is the case, review the details of the content and if satisfied click `OK` to continue with the installation.
-
-
-During the installation process you may receive warnings about installing unsigned content.
-If this is the case, review the details of the content and if satisfied click `OK` to continue with the installation.
-
 * Once installing is complete, you are prompted to restart the IDE. Click `Yes` to restart now and `No` if you need to save any unsaved changes to open projects.
   Note that changes do not take effect until the IDE is restarted.
-
-
-Once installing is complete, you are prompted to restart the IDE. Click `Yes` to restart now and `No` if you need to save any unsaved changes to open projects.
-Note that changes do not take effect until the IDE is restarted.
-
 
 [[set-cheat-sheet-behavior]]
 === Set Cheat Sheet Behavior

@@ -19,22 +19,9 @@ Mobile Web Tools consists of project wizards, file templates, the jQuery Mobile 
 
 
 * The HTML5 project wizards and HTML5 jQuery Mobile file template enable you to quickly generate the foundations of mobile web applications and to view mobile web application programming in action.
-
-
-The HTML5 project wizards and HTML5 jQuery Mobile file template enable you to quickly generate the foundations of mobile web applications and to view mobile web application programming in action.
-
 * The jQuery Mobile palette offers a visual reference of the available HTML5 and jQuery Mobile user interface widgets, which can be effortlessly inserted into your project files with drag-and-drop functionality.
   In conjunction with the jQuery Mobile palette, widget wizards allow you to easily customize HTML5 and jQuery Mobile widgets when inserting them into your project.
-
-
-The jQuery Mobile palette offers a visual reference of the available HTML5 and jQuery Mobile user interface widgets, which can be effortlessly inserted into your project files with drag-and-drop functionality.
-In conjunction with the jQuery Mobile palette, widget wizards allow you to easily customize HTML5 and jQuery Mobile widgets when inserting them into your project.
-
 * Code assistance and one-click action for viewing jQuery Mobile pages in browsers enable you to work more efficiently when developing mobile web applications in the IDE.
-
-
-Code assistance and one-click action for viewing jQuery Mobile pages in browsers enable you to work more efficiently when developing mobile web applications in the IDE.
-
 
 [[sect-features-of-mobile-web-tools]]
 == Features of Mobile Web Tools
@@ -47,25 +34,9 @@ The aim of this section is to guide you in using Mobile Web Tools:
 
 
 * Generate the foundations of web applications with the project wizards and file templates
-
-
-Generate the foundations of web applications with the project wizards and file templates
-
 * Access the jQuery Mobile palette and add customized widgets to your mobile web application with the aid of the widget wizards
-
-
-Access the jQuery Mobile palette and add customized widgets to your mobile web application with the aid of the widget wizards
-
 * Use code completion to assist in programming
-
-
-Use code completion to assist in programming
-
 * View pages of the application in various browsers
-
-
-View pages of the application in various browsers
-
 
 [[create-a-mobile-web-project]]
 === Create a Mobile Web Project
@@ -76,20 +47,12 @@ The project wizards are listed in JBoss Central:
 
 
 * `HTML5 Project`, under `Start from scratch`
-
-
-`HTML5 Project`, under `Start from scratch`
-
 * `kitchensink-html5-mobile`, under `Start from a sample`
-
-
-`kitchensink-html5-mobile`, under `Start from a sample`
-
 
 
 
 IMPORTANT: 
-In order to deploy the applications created by these wizards, []##JBoss Application Server 7.1## must be defined for use in the IDE. You can define a server using runtime detection from within a project wizard.
+In order to deploy the applications created by these wizards, JBoss Application Server 7.1 must be defined for use in the IDE. You can define a server using runtime detection from within a project wizard.
 From the `Requirements` table on the first page of the project wizard, select `server/runtime` and click `Install` or `Download and Install` and follow the instructions.
 Alternatively, before starting a wizard click `Window`&rarr;`Preferences`, expand `JBoss Tools` and select `JBoss Runtime Detection`.
 Click `Add` and follow the instructions.
@@ -100,130 +63,37 @@ Click `Add` and follow the instructions.
 +
 .HTML5 Project Wizard in JBoss Central
 image::images/4083.png["In JBoss Central under Start from scratch, click HTML5 Project."]
-
-
-In JBoss Central under `Start from scratch`, click `HTML5 Project`.
-
-
-.HTML5 Project Wizard in JBoss Central
-* image::images/4083.png["In JBoss Central under Start from scratch, click HTML5 Project."]
-  From the `Target Runtime` list, select an existing []##JBoss Application Server 7.1## server runtime environment or select `<none>`.
+* From the `Target Runtime` list, select an existing JBoss Application Server 7.1 server runtime environment or select `<none>`.
   When `<none>` is selected, a non-enterprise server runtime environment is assumed.
-
-
-From the `Target Runtime` list, select an existing []##JBoss Application Server 7.1## server runtime environment or select `<none>`.
-When `<none>` is selected, a non-enterprise server runtime environment is assumed.
-
 * Click `Next`.
-
-
-Click `Next`.
-
 * Complete the fields and options as detailed:
 +
 * In the `Project name` field, type a name for the project.
-
-
-In the `Project name` field, type a name for the project.
-
 * In the `Package` field, type a package name for the project resources.
-
-
-In the `Package` field, type a package name for the project resources.
-
 * To create the project in a different location to the workspace default, clear the `Use default Workspace location` check box and type the path in the field or click `Browse` to navigate to the location.
-
-
-To create the project in a different location to the workspace default, clear the `Use default Workspace location` check box and type the path in the field or click `Browse` to navigate to the location.
-
 +
 .HTML5 Project Wizard
 image::images/4090.png["In the Project name field, type a name for the project. In the Package field, type a package name for the project resources."]
-
-
-Complete the fields and options as detailed:
-
-
-* In the `Project name` field, type a name for the project.
-
-
-In the `Project name` field, type a name for the project.
-
-* In the `Package` field, type a package name for the project resources.
-
-
-In the `Package` field, type a package name for the project resources.
-
-* To create the project in a different location to the workspace default, clear the `Use default Workspace location` check box and type the path in the field or click `Browse` to navigate to the location.
-
-
-To create the project in a different location to the workspace default, clear the `Use default Workspace location` check box and type the path in the field or click `Browse` to navigate to the location.
-
-
-.HTML5 Project Wizard
-* image::images/4090.png["In the Project name field, type a name for the project. In the Package field, type a package name for the project resources."]
-  Click `Next`.
-
-
-Click `Next`.
-
+* Click `Next`.
 * Check the Maven details for the project to be created and click `Finish`.
-
-
-Check the Maven details for the project to be created and click `Finish`.
-
 * During project creation, the wizard imports project dependencies.
   When the `HTML5 Project` wizard displays `'HTML5 Project' Project is now ready`, click `Finish` to close the wizard.
   A [file]`README.md` file for the project automatically opens for viewing.
-
-
-During project creation, the wizard imports project dependencies.
-When the `HTML5 Project` wizard displays `'HTML5 Project' Project is now ready`, click `Finish` to close the wizard.
-A [file]`README.md` file for the project automatically opens for viewing.
-
 
 []
 * In JBoss Central under `Start from a sample`, hover the mouse over `Mobile Applications` and click `kitchensink-html5-mobile`.
 +
 .kitchensink-html5-mobile Wizard in JBoss Central
 image::images/4084.png["In JBoss Central under Start from a sample, hover the mouse over Mobile Applications and click kitchensink-html5-mobile."]
-
-
-In JBoss Central under `Start from a sample`, hover the mouse over `Mobile Applications` and click `kitchensink-html5-mobile`.
-
-
-.kitchensink-html5-mobile Wizard in JBoss Central
-* image::images/4084.png["In JBoss Central under Start from a sample, hover the mouse over Mobile Applications and click kitchensink-html5-mobile."]
-  Click `Next`.
-
-
-Click `Next`.
-
+* Click `Next`.
 * To create the project in a different location to the workspace default, clear the `Use default location` check box and type the path in the field or click `Browse` to navigate to the location.
 +
 .kitchensink-html5-mobile Wizard
 image::images/4095.png["To create the project in a different location to the workspace default, clear the Use default location check box and type the path in the field or click Browse to navigate to the location."]
-
-
-To create the project in a different location to the workspace default, clear the `Use default location` check box and type the path in the field or click `Browse` to navigate to the location.
-
-
-.kitchensink-html5-mobile Wizard
-* image::images/4095.png["To create the project in a different location to the workspace default, clear the Use default location check box and type the path in the field or click Browse to navigate to the location."]
-  Click `Finish`.
-
-
-Click `Finish`.
-
+* Click `Finish`.
 * During project creation, the wizard imports project dependencies.
   When the `kitchensink-html5-mobile` wizard displays `'kitchensink-html5-mobile' Project is now ready`, click `Finish` to close the wizard.
   A [file]`README.md` file for the project automatically opens for viewing.
-
-
-During project creation, the wizard imports project dependencies.
-When the `kitchensink-html5-mobile` wizard displays `'kitchensink-html5-mobile' Project is now ready`, click `Finish` to close the wizard.
-A [file]`README.md` file for the project automatically opens for viewing.
-
 
 [[use-a-html5-jquery-mobile-file-template]]
 === Use a HTML5 jQuery Mobile File Template
@@ -236,92 +106,24 @@ The procedure below details how to insert the template into your project.
 
 []
 * In the `Project Explorer` view, right-click a project and click `New`&rarr;`HTML File`.
-
-
-In the `Project Explorer` view, right-click a project and click `New`&rarr;`HTML File`.
-
 * Complete the fields and options as detailed:
 +
 * In the `Enter or select the parent folder` field, type a project path or expand the project folder tree and select the parent folder for the new file.
-
-
-In the `Enter or select the parent folder` field, type a project path or expand the project folder tree and select the parent folder for the new file.
-
 * In the `File name` field, type the name for the new file.
   It is not essential to include the file extension in the name as this is automatically appended if it is found to be missing.
-
-
-In the `File name` field, type the name for the new file.
-It is not essential to include the file extension in the name as this is automatically appended if it is found to be missing.
-
 +
 .New HTML File Wizard
 image::images/4093.png["In the Enter or select the parent folder field, type a project path or expand the project folder tree and select the parent folder for the new file. In the File name field, type the name for the new file. It is not essential to include the file extension in the name as this is automatically appended if it is found to be missing."]
-
-
-Complete the fields and options as detailed:
-
-
-* In the `Enter or select the parent folder` field, type a project path or expand the project folder tree and select the parent folder for the new file.
-
-
-In the `Enter or select the parent folder` field, type a project path or expand the project folder tree and select the parent folder for the new file.
-
-* In the `File name` field, type the name for the new file.
-  It is not essential to include the file extension in the name as this is automatically appended if it is found to be missing.
-
-
-In the `File name` field, type the name for the new file.
-It is not essential to include the file extension in the name as this is automatically appended if it is found to be missing.
-
-
-.New HTML File Wizard
-* image::images/4093.png["In the Enter or select the parent folder field, type a project path or expand the project folder tree and select the parent folder for the new file. In the File name field, type the name for the new file. It is not essential to include the file extension in the name as this is automatically appended if it is found to be missing."]
-  Click `Next`.
-
-
-Click `Next`.
-
+* Click `Next`.
 * Complete the fields and options as detailed:
 +
 * Ensure the `Use HTML Template` check box is selected.
-
-
-Ensure the `Use HTML Template` check box is selected.
-
 * From the `Templates` table, select `HTML5 jQuery Mobile Page`.
-
-
-From the `Templates` table, select `HTML5 jQuery Mobile Page`.
-
 +
 .HTML5 jQuery Mobile Page Template for New HTML Files
 image::images/4097.png["Ensure the Use HTML Template check box is selected. From the Templates table, select HTML5 jQuery Mobile Page."]
-
-
-Complete the fields and options as detailed:
-
-
-* Ensure the `Use HTML Template` check box is selected.
-
-
-Ensure the `Use HTML Template` check box is selected.
-
-* From the `Templates` table, select `HTML5 jQuery Mobile Page`.
-
-
-From the `Templates` table, select `HTML5 jQuery Mobile Page`.
-
-
-.HTML5 jQuery Mobile Page Template for New HTML Files
-* image::images/4097.png["Ensure the Use HTML Template check box is selected. From the Templates table, select HTML5 jQuery Mobile Page."]
-  Click `Finish`.
+* Click `Finish`.
   The new HTML5 file is listed in the `Project Explorer` view and automatically opened in the JBoss Tools HTML Editor.
-
-
-Click `Finish`.
-The new HTML5 file is listed in the `Project Explorer` view and automatically opened in the JBoss Tools HTML Editor.
-
 
 [[access-the-jquery-mobile-palette]]
 === Access the jQuery Mobile Palette
@@ -432,15 +234,7 @@ Continue to press `Ctrl` and from the menu select one of the options:
 
 
 * `Open With Browser`, which shows the page in the default browser of the IDE
-
-
-`Open With Browser`, which shows the page in the default browser of the IDE
-
 * `Open With BrowserSim`, which shows the page in BrowserSim
-
-
-`Open With BrowserSim`, which shows the page in BrowserSim
-
 
 .Open With Menu Option for a jQuery Mobile Page Widget
 image::images/4087.png["To open a jQuery Mobile page from a file open in the JBoss Tools HTML Editor, press Ctrl and move the mouse over the <div> tag corresponding to the page widget. Continue to press Ctrl and from the menu select one of the options."]
@@ -455,10 +249,6 @@ The aim of this section is to guide you in customizing Mobile Web Tools:
 
 
 * Customize the HTML5 jQuery Mobile templates available in the IDE
-
-
-Customize the HTML5 jQuery Mobile templates available in the IDE
-
 
 [[customize-jquery-mobile-file-templates]]
 === Customize jQuery Mobile File Templates
@@ -490,25 +280,9 @@ There are several options for adding templates:
   In the `Pattern` field, type the code for the template.
   From the `Context` list, select the instance in which the IDE should make the template available.
   Click `OK` to close the window.
-
-
-To create a new template, click `New`.
-In the `Name` and `Description` fields, type a name and description of the template, respectively.
-In the `Pattern` field, type the code for the template.
-From the `Context` list, select the instance in which the IDE should make the template available.
-Click `OK` to close the window.
-
 * To restore all templates that have been deleted, click `Restore Removed`.
-
-
-To restore all templates that have been deleted, click `Restore Removed`.
-
 * To load an existing template into the IDE, click `Import` and select the file.
-  The file must be an XML file, with appropriate file headers and the HTML5 and jQuery Mobile content written in XML syntax and contained between XML `template` and `templates` tags.
-
-  
-  To load an existing template into the IDE, click `Import` and select the file.
-  The file must be an XML file, with appropriate file headers and the HTML5 and jQuery Mobile content written in XML syntax and contained between XML `template` and `templates` tags.
+    The file must be an XML file, with appropriate file headers and the HTML5 and jQuery Mobile content written in XML syntax and contained between XML `template` and `templates` tags.
 
 Edit a template;;
   

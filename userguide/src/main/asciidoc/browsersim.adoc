@@ -26,13 +26,13 @@ Additionally, BrowserSim provides access to tools for inspecting and editing the
 === System Requirements for BrowserSim
 
 
-[]##The overall system requirements of JBoss Tools are applicable for BrowserSim and can be viewed at https://community.jboss.org/wiki/MatrixOfSupportedPlatformsRuntimesAndTechnologiesInJBossToolsJBDS[] on the JBoss Tools website.## But, as reiterated below, there are additional system requirements and restrictions when using BrowserSim on Microsoft Windows operating systems.
+The overall system requirements of JBoss Tools are applicable for BrowserSim and can be viewed at https://community.jboss.org/wiki/MatrixOfSupportedPlatformsRuntimesAndTechnologiesInJBossToolsJBDS[] on the JBoss Tools website. But, as reiterated below, there are additional system requirements and restrictions when using BrowserSim on Microsoft Windows operating systems.
 
 
 
 BrowserSim depends on WebKit and, consequently, requires Apple Safari to be installed on Microsoft Windows operating systems.
 Only a 32-bit version of Apple Safari is available for Microsoft Windows operating systems.
-To work around this restriction for 64-bit Microsoft Windows operating systems, you must set BrowserSim to use a 32-bit JVM when running in 64-bit versions of []##Eclipse##.
+To work around this restriction for 64-bit Microsoft Windows operating systems, you must set BrowserSim to use a 32-bit JVM when running in 64-bit versions of Eclipse.
 Note that 32-bit JVM choice is limited to Oracle 32-bit JRE 1.6, JDK 1.6, or JDK 1.7 on Microsoft Windows operating systems because Oracle 32-bit JRE 1.7 is incompatible with Apple Safari.
 
 
@@ -56,30 +56,10 @@ The aim of this section is to guide you in using BrowserSim:
 
 
 * View local and remote web applications in BrowserSim
-
-
-View local and remote web applications in BrowserSim
-
 * Change the appearance of simulated devices, by rotating them and changing or removing their skins
-
-
-Change the appearance of simulated devices, by rotating them and changing or removing their skins
-
 * Check the look and functionality of web pages in different browsers, such as the default browser or additional synchronized simulated devices
-
-
-Check the look and functionality of web pages in different browsers, such as the default browser or additional synchronized simulated devices
-
 * Generate screen captures of simulated devices and their web pages
-
-
-Generate screen captures of simulated devices and their web pages
-
 * View the page source of web pages with editors, Firebug Lite and Weinre
-
-
-View the page source of web pages with editors, Firebug Lite and Weinre
-
 
 [[view-a-web-application-on-browsersim]]
 === View a Web Application on BrowserSim
@@ -215,21 +195,8 @@ Select the output for the screen capture from the list of options:
 
 * `Save` to save as a [file]`.png` file in the default location.
   The default location is a customizable setting and if it is not set you are prompted to select a location to which to save the file each time.
-
-
-`Save` to save as a [file]`.png` file in the default location.
-The default location is a customizable setting and if it is not set you are prompted to select a location to which to save the file each time.
-
 * `Save As` to save as a [file]`.png` file in a location you specify.
-
-
-`Save As` to save as a [file]`.png` file in a location you specify.
-
 * `Copy to Clipboard` to copy the graphic for immediate use.
-
-
-`Copy to Clipboard` to copy the graphic for immediate use.
-
 
 
 [[activate-livereload-for-browsersim]]
@@ -243,75 +210,31 @@ The procedures below outline how to create a LiveReload server and how to enable
 []
 * Click the `Servers` view.
   If the `Servers` view is not visible, click `Window`&rarr;`Show View`&rarr;`Servers`.
-
-
-Click the `Servers` view.
-If the `Servers` view is not visible, click `Window`&rarr;`Show View`&rarr;`Servers`.
-
 * Depending on the number of existing servers, follow the appropriate step:
 +
-
-
-Depending on the number of existing servers, follow the appropriate step:
-
 * From the list of server types, expand `Basic` and select `LiveReload Server`.
 +
 .LiveReload Server Selected in New Server Wizard
 image::images/4079.png["From the list of server types, expand Basic and select LiveReload Server."]
-
-
-From the list of server types, expand `Basic` and select `LiveReload Server`.
-
-
-.LiveReload Server Selected in New Server Wizard
-* image::images/4079.png["From the list of server types, expand Basic and select LiveReload Server."]
-  The `Server's host name` and `Server name` fields are automatically populated.
+* The `Server's host name` and `Server name` fields are automatically populated.
   The `localhost` value in the `Server's host name` field indicates that the server is to be run on the local system and the value in the `Server name` field is the name by which the LiveReload server is identified in the `Servers` view.
   You can edit these values as appropriate by typing in the fields.
-
-
-The `Server's host name` and `Server name` fields are automatically populated.
-The `localhost` value in the `Server's host name` field indicates that the server is to be run on the local system and the value in the `Server name` field is the name by which the LiveReload server is identified in the `Servers` view.
-You can edit these values as appropriate by typing in the fields.
-
 * Click `Finish` to close the window.
   The LiveReload server is listed in the `Servers` view.
 +
 .LiveReload Server Listed in the `Servers` View
 image::images/4080.png["The LiveReload server is listed in the Servers view."]
 
-
-Click `Finish` to close the window.
-The LiveReload server is listed in the `Servers` view.
-
-
-.LiveReload Server Listed in the `Servers` View
-image::images/4080.png["The LiveReload server is listed in the Servers view."]
 []
 * Ensure the LiveReload server is started.
   If it is not started, in the `Servers` view right-click the LiveReload server and click `Start`.
-
-
-Ensure the LiveReload server is started.
-If it is not started, in the `Servers` view right-click the LiveReload server and click `Start`.
-
 * Complete the appropriate step depending on the location of your resources:
 +
-
-
-Complete the appropriate step depending on the location of your resources:
-
 * Right-click the simulated device and ensure the `Enable LiveReload` check box is selected.
 +
 .`Enable LiveReload` Menu Option for BrowserSim
 image::images/4305.png["Right-click the simulated device and ensure the Enable LiveReload check box is selected."]
 
-
-Right-click the simulated device and ensure the `Enable LiveReload` check box is selected.
-
-
-.`Enable LiveReload` Menu Option for BrowserSim
-image::images/4305.png["Right-click the simulated device and ensure the Enable LiveReload check box is selected."]
 IMPORTANT: 
 The `Enable LiveReload` check box has no effect when the LiveReload server is set to insert the JavaScript code and the web resource is viewed in BrowserSim via the LiveReload server port URL. LiveReload is always enabled in this case.
 
@@ -351,20 +274,8 @@ The aim of this section is to guide you in customizing BrowserSim:
 
 
 * Make BrowserSim more prominent to use by making it the default browser, by adding its icon to the global toolbar and creating a shortcut key for launching it
-
-
-Make BrowserSim more prominent to use by making it the default browser, by adding its icon to the global toolbar and creating a shortcut key for launching it
-
 * Extend the functionality of BrowserSim by adding or modify the simulated devices it provides
-
-
-Extend the functionality of BrowserSim by adding or modify the simulated devices it provides
-
 * Customize the default settings of BrowserSim for large simulated devices, for LiveReload, for screen captures and for Weinre
-
-
-Customize the default settings of BrowserSim for large simulated devices, for LiveReload, for screen captures and for Weinre
-
 
 [[make-browsersim-the-default-browser]]
 === Make BrowserSim the Default Browser
@@ -395,45 +306,17 @@ As detailed in the procedure below, you can add the BrowserSim toolbar to other 
 []
 * Ensure you are using the perspective in which you would like to add the BrowserSim toolbar.
   To open the desired perspective, click `Window`&rarr;`Open Perspective`&rarr;`Other` and double-click the perspective.
-
-
-Ensure you are using the perspective in which you would like to add the BrowserSim toolbar.
-To open the desired perspective, click `Window`&rarr;`Open Perspective`&rarr;`Other` and double-click the perspective.
-
 * Click `Window`&rarr;`Customize Perspective`.
-
-
-Click `Window`&rarr;`Customize Perspective`.
-
 * In the `Command Groups Availability` tab, select the `BrowserSim` check box.
   This option makes the BrowserSim toolbar available for adding to the current perspective.
-
-
-In the `Command Groups Availability` tab, select the `BrowserSim` check box.
-This option makes the BrowserSim toolbar available for adding to the current perspective.
-
 * In the `Tool Bar Visibility` tab, ensure the `BrowserSim` check box is selected.
   This option adds the BrowserSim toolbar to the global toolbar of the current perspective.
 +
 .`BrowserSim` Check Box Selected in `Tool Bar Visibility` tab of `Customize Perspective` Window
 image::images/4117.png["In the Tool Bar Visibility tab, ensure the BrowserSim check box is selected as this makes the BrowserSim toolbar visible"]
-
-
-In the `Tool Bar Visibility` tab, ensure the `BrowserSim` check box is selected.
-This option adds the BrowserSim toolbar to the global toolbar of the current perspective.
-
-
-.`BrowserSim` Check Box Selected in `Tool Bar Visibility` tab of `Customize Perspective` Window
-* image::images/4117.png["In the Tool Bar Visibility tab, ensure the BrowserSim check box is selected as this makes the BrowserSim toolbar visible"]
-  Click `OK` to close the window.
+* Click `OK` to close the window.
   The `Run BrowserSim` icon 
   image:images/4115.png[""] is now visible in the global toolbar of the perspective.
-
-
-Click `OK` to close the window.
-The `Run BrowserSim` icon 
-image:images/4115.png[""] is now visible in the global toolbar of the perspective.
-
 
 [[set-a-shortcut-for-the-run-browsersim-action]]
 === Set a Shortcut for the Run BrowserSim Action
@@ -444,38 +327,15 @@ If you use BrowserSim frequently but do not want to set it as the default browse
 
 []
 * Click `Window`&rarr;`Preferences`, expand `General` and select `Keys`.
-
-
-Click `Window`&rarr;`Preferences`, expand `General` and select `Keys`.
-
 * To find the `Run BrowserSim` action, in the `type filter text` field enter `BrowserSim`.
-
-
-To find the `Run BrowserSim` action, in the `type filter text` field enter `BrowserSim`.
-
 * From the table, select `Run BrowserSim`.
-
-
-From the table, select `Run BrowserSim`.
-
 * In the `Binding` field, type the key combination you want to use as a shortcut.
   Check the `Conflicts` table to ensure the key binding you have chosen does not conflict with existing shortcuts.
-
-
-In the `Binding` field, type the key combination you want to use as a shortcut.
-Check the `Conflicts` table to ensure the key binding you have chosen does not conflict with existing shortcuts.
-
 * Once a unique key binding is selected, click `Apply` and click `OK` to close the `Preferences` window.
 +
 .Keys Pane of Preferences Window
 image::images/4114.png["Once a unique key binding is selected, click Apply and click OK to close the Preferences window."]
 
-
-Once a unique key binding is selected, click `Apply` and click `OK` to close the `Preferences` window.
-
-
-.Keys Pane of Preferences Window
-image::images/4114.png["Once a unique key binding is selected, click Apply and click OK to close the Preferences window."]
 [[add-or-modify-devices-in-browsersim]]
 === Add or Modify Devices in BrowserSim
 
@@ -486,32 +346,12 @@ You can add more devices to BrowserSim and modify the existing devices, as detai
 
 []
 * Right-click the simulated device and click `Preferences`.
-
-
-Right-click the simulated device and click `Preferences`.
-
 * In the `Devices` section of the `Devices` tab, click `Add`.
-
-
-In the `Devices` section of the `Devices` tab, click `Add`.
-
 * Complete the fields and options as detailed:
 +
 * In the `Name` field, type the name you want to give the device.
-
-
-In the `Name` field, type the name you want to give the device.
-
 * In the `Width` and `Height` fields, type the dimensions of the device window in pixels.
-
-
-In the `Width` and `Height` fields, type the dimensions of the device window in pixels.
-
 * In the `Pixel Ratio` field, type a value for the ratio of CSS pixels to device pixels.
-
-
-In the `Pixel Ratio` field, type a value for the ratio of CSS pixels to device pixels.
-
 * In the `User Agent` field, type the User Agent string of your device.
   Clearing the `User Agent` check box results in the default User Agent for the BrowserSim browser being used.
 +
@@ -521,85 +361,13 @@ This string may be used by websites to provide content tailored for devices, ope
 Information is widely available on the Internet to assist you in identifying the User Agent associated with a particular device.
 
 
-
-
-In the `User Agent` field, type the User Agent string of your device.
-Clearing the `User Agent` check box results in the default User Agent for the BrowserSim browser being used.
-
-
-NOTE: 
-User Agent is a string denoting the device, operating system and browser combination.
-This string may be used by websites to provide content tailored for devices, operating systems and browsers.
-Information is widely available on the Internet to assist you in identifying the User Agent associated with a particular device.
-
 * From the `Skin` list, select the skin to be used or select `None`.
-
-
-From the `Skin` list, select the skin to be used or select `None`.
-
 +
 .Add Device Window
 image::images/4118.png["In the Devices section of the Devices tab, click Add."]
-
-
-Complete the fields and options as detailed:
-
-
-* In the `Name` field, type the name you want to give the device.
-
-
-In the `Name` field, type the name you want to give the device.
-
-* In the `Width` and `Height` fields, type the dimensions of the device window in pixels.
-
-
-In the `Width` and `Height` fields, type the dimensions of the device window in pixels.
-
-* In the `Pixel Ratio` field, type a value for the ratio of CSS pixels to device pixels.
-
-
-In the `Pixel Ratio` field, type a value for the ratio of CSS pixels to device pixels.
-
-* In the `User Agent` field, type the User Agent string of your device.
-  Clearing the `User Agent` check box results in the default User Agent for the BrowserSim browser being used.
-+
-NOTE: 
-User Agent is a string denoting the device, operating system and browser combination.
-This string may be used by websites to provide content tailored for devices, operating systems and browsers.
-Information is widely available on the Internet to assist you in identifying the User Agent associated with a particular device.
-
-
-
-
-In the `User Agent` field, type the User Agent string of your device.
-Clearing the `User Agent` check box results in the default User Agent for the BrowserSim browser being used.
-
-
-NOTE: 
-User Agent is a string denoting the device, operating system and browser combination.
-This string may be used by websites to provide content tailored for devices, operating systems and browsers.
-Information is widely available on the Internet to assist you in identifying the User Agent associated with a particular device.
-
-* From the `Skin` list, select the skin to be used or select `None`.
-
-
-From the `Skin` list, select the skin to be used or select `None`.
-
-
-.Add Device Window
-* image::images/4118.png["In the Devices section of the Devices tab, click Add."]
-  Click `OK` to add the new device.
+* Click `OK` to add the new device.
   It is listed in the `Devices` table.
-
-
-Click `OK` to add the new device.
-It is listed in the `Devices` table.
-
 * Click `OK` to close the `Preferences` window.
-
-
-Click `OK` to close the `Preferences` window.
-
 
 
 To modify existing devices in BrowserSim, right-click the simulated device and click `Preferences`.

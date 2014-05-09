@@ -61,20 +61,8 @@ The aim of this section is to guide you in using LiveReload Tools:
 
 
 * Create a LiveReload server to receive information from the IDE on resource changes
-
-
-Create a LiveReload server to receive information from the IDE on resource changes
-
 * Configure LiveReload for use with system web browsers and external devices
-
-
-Configure LiveReload for use with system web browsers and external devices
-
 * View resources in LiveReload-enabled web browsers, including system and external device browsers and BrowserSim
-
-
-View resources in LiveReload-enabled web browsers, including system and external device browsers and BrowserSim
-
 
 [[create-a-livereload-server]]
 === Create a LiveReload Server
@@ -88,50 +76,21 @@ The procedure below guides you through creating a default LiveReload server.
 []
 * Click the `Servers` view.
   If the `Servers` view is not visible, click `Window`&rarr;`Show View`&rarr;`Servers`.
-
-
-Click the `Servers` view.
-If the `Servers` view is not visible, click `Window`&rarr;`Show View`&rarr;`Servers`.
-
 * Depending on the number of existing servers, follow the appropriate step:
 +
-
-
-Depending on the number of existing servers, follow the appropriate step:
-
 * From the list of server types, expand `Basic` and select `LiveReload Server`.
 +
 .LiveReload Server Selected in New Server Wizard
 image::images/4079.png["From the list of server types, expand Basic and select LiveReload Server."]
-
-
-From the list of server types, expand `Basic` and select `LiveReload Server`.
-
-
-.LiveReload Server Selected in New Server Wizard
-* image::images/4079.png["From the list of server types, expand Basic and select LiveReload Server."]
-  The `Server's host name` and `Server name` fields are automatically populated.
+* The `Server's host name` and `Server name` fields are automatically populated.
   The `localhost` value in the `Server's host name` field indicates that the server is to be run on the local system and the value in the `Server name` field is the name by which the LiveReload server is identified in the `Servers` view.
   You can edit these values as appropriate by typing in the fields.
-
-
-The `Server's host name` and `Server name` fields are automatically populated.
-The `localhost` value in the `Server's host name` field indicates that the server is to be run on the local system and the value in the `Server name` field is the name by which the LiveReload server is identified in the `Servers` view.
-You can edit these values as appropriate by typing in the fields.
-
 * Click `Finish` to close the window.
   The LiveReload server is listed in the `Servers` view.
 +
 .LiveReload Server Listed in the `Servers` View
 image::images/4080.png["The LiveReload server is listed in the Servers view."]
 
-
-Click `Finish` to close the window.
-The LiveReload server is listed in the `Servers` view.
-
-
-.LiveReload Server Listed in the `Servers` View
-image::images/4080.png["The LiveReload server is listed in the Servers view."]
 NOTE: 
 Alternatively, LiveReload servers can be automatically created when you select to view workspace and deployed resources in web browsers using the actions provided by LiveReload Tools.
 
@@ -220,27 +179,12 @@ The procedure below outlines how to enable LiveReload in BrowserSim for workspac
 []
 * Ensure the LiveReload server is started.
   If it is not started, in the `Servers` view right-click the LiveReload server and click `Start`.
-
-
-Ensure the LiveReload server is started.
-If it is not started, in the `Servers` view right-click the LiveReload server and click `Start`.
-
 * Complete the appropriate step depending on the location of your resources:
 +
-
-
-Complete the appropriate step depending on the location of your resources:
-
 * Right-click the simulated device and ensure the `Enable LiveReload` check box is selected.
 +
 .`Enable LiveReload` Menu Option for BrowserSim
 image::images/4305.png["Right-click the simulated device and ensure the Enable LiveReload check box is selected."]
 
-
-Right-click the simulated device and ensure the `Enable LiveReload` check box is selected.
-
-
-.`Enable LiveReload` Menu Option for BrowserSim
-image::images/4305.png["Right-click the simulated device and ensure the Enable LiveReload check box is selected."]
 IMPORTANT: 
 The `Enable LiveReload` check box has no effect when the LiveReload server is set to insert the JavaScript code and the web resource is viewed in BrowserSim via the LiveReload server port URL. LiveReload is always enabled in this case.
