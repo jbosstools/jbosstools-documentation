@@ -145,8 +145,8 @@ image::images/3929.png["From the Connection list, select New Connection. In the 
 +
 * If your credentials are incorrect, the `Sign in to OpenShift` wizard remains open for you to change your authentication information.
 * If you selected for your password to be saved, you are prompted to enter your secure storage password or, if this is your first use of secure storage, you are prompted to set a secure storage password.
-+
 
++
 Once your credentials are verified as correct, the wizard closes and a live OpenShift connection is listed in the `OpenShift Explorer` view.
 
 +
@@ -174,7 +174,7 @@ View information about a connection;;
   In the `OpenShift Explorer` view, right-click the connection and click `Properties`.
   The `Properties` view opens and shows information about the associated domains, key and user account.
   The `Key` parameter is unique to the connection and it is used by the IDE for identification purposes.
-
++
 .Properties View
 image::images/3933.png["In the OpenShift Explorer view, right-click the connection and click Properties. The Properties view opens and shows information about the associated domains, key and user account. The Key parameter is unique to the connection and it is used by the IDE for identification purposes."]
 
@@ -221,7 +221,7 @@ The default location for creating SSH key files is determined by the SSH informa
 * In the `Private Key Passphrase` field, type a passphrase for use in accessing the private key.
   This field is not mandatory and can be left empty if you want.
 * In the `Public Key File Name` field, type a name for the public key file.
-  Typically the file name of the public key is that of the private key with [file]`.pub` appended.
+  Typically the file name of the public key is that of the private key with `.pub` appended.
 +
 .New SSH Key Wizard
 image::images/3936.png["To create a new SSH private-public key pair, click New."]
@@ -331,7 +331,7 @@ OpenShift Tools provides the `OpenShift Application` wizard to assist you in cre
 
 As detailed in the procedure below, OpenShift applications can be created using three sources: an existing workspace project, a Git source or a default project template.
 For an existing workspace project, the wizard merges the existing project contents with the key metadata files from a new OpenShift application so that the application can be deployed on OpenShift.
-For a Git source, the wizard uses the source as the new OpenShift application so the source must be OpenShift-enabled, namely have a [file]`.openshift` directory and have the openshift profile specified in the [file]`pom.xml`.
+For a Git source, the wizard uses the source as the new OpenShift application so the source must be OpenShift-enabled, namely have a `.openshift` directory and have the openshift profile specified in the `pom.xml`.
 For a project template, the templates are provided by OpenShift.
 
 
@@ -545,7 +545,7 @@ View information about an application;;
   In the `OpenShift Explorer` view, right-click the application and click `Details`.
   The displayed information includes the public URL of the application, application type, and remote Git repository location.
   Click `OK` to close the `Details` window.
-
++
 .Application Details Window
 image::images/3944.png["In the OpenShift Explorer view, right-click the application and click Details. The displayed information includes the public URL of the application, application type, and remote Git repository location. Click OK to close the Details window."]
 
@@ -554,7 +554,7 @@ View output from the OpenShift server;;
   In the `OpenShift Explorer` view, right-click the application and click `Tail files`.
   Alternatively, in the `Servers` view right-click the server adapter of the application and click `OpenShift`&rarr;`Tail files`.
   The `Tail Log Files` window opens, with either the default retrieval syntax or last used syntax for this application in the `Tail options` field.
-
++
 .Default Retrieval Syntax in Tail Options Field
 image::images/4369.png["To change the retrieval command, in the Tail options field type the appropriate syntax. To specify the gears for which to show the server logs, from the table select the check boxes of the appropriate gears. Click Finish for OpenShift to retrieve the output, which is displayed in a distinct Console view for each gear."]
 
@@ -563,7 +563,7 @@ View values of variables associated with an application;;
   In the `OpenShift Explorer` view, right-click the application and click `All Environment Variables`.
   Variable names and values are listed in the `Console` view.
   Alternatively, in the `Servers` view, right-click the server adapter of the application and click `OpenShift`&rarr;`All Environment Variables`.
-
++
 .Environment Variables Listed in Console View
 image::images/3942.png["In the OpenShift Explorer view, right-click the application and click All Environment Variables. Variable names and values are listed in the Console view. Alternatively, in the Servers view, right-click the server adapter of the application and click OpenShiftAll Environment Variables."]
 
@@ -612,7 +612,7 @@ Add or remove markers associated with an application;;
   Select or clear the check boxes of markers as desired.
   Information about markers is given in the `Marker Description` section of the `Configure OpenShift Markers Window`.
   Click `OK` for your marker choice to be applied to the application.
-
++
 .Configure OpenShift Markers Window
 image::images/3939.png["In the Project Explorer view, right-click the application and click OpenShiftConfigure Markers. Select or clear the check boxes of markers as desired. Information about markers is given in the Marker Description section of the Configure OpenShift Markers Window. Click OK for your marker choice to be applied to the application."]
 
@@ -623,7 +623,7 @@ Add or remove cartridges associated with an application;;
   Click `Finish` for your cartridge choice to be applied to the application.
   You are prompted if the cartridges you have chosen to add or remove require further action, such as the addition of prerequisite cartridges or removal of conflicting cartridges.
   You can choose to ignore or apply the suggestions of the prompt.
-
++
 .Edit Embedded Cartridges Window
 image::images/3943.png["In the OpenShift Explorer view, right-click the application name and click Edit Embedded Cartridges. Select or clear the check boxes of cartridges as desired. Click Finish for your cartridge choice to be applied to the application."]
 
@@ -633,19 +633,13 @@ Restart an application;;
   Alternatively, in the `Servers` tab right-click the server adapter of the application and click `OpenShift`&rarr;`Restart Application`.
 
 Forward remote ports;;
-
 You can forward the remote ports of the OpenShift server to your system to enable access to various services, such as MySQL. Port forwarding is available for all OpenShift applications, including scalable ones.
-
-
-
-[IMPORTANT]
-====
-
-Your application must be running before attempting to configure port forwarding.
-
-  ==== In the `OpenShift Explorer` view, right-click the application and click `Port forwarding`.
-  Alternatively, in the `Servers` view right-click the server adapter of the application and click `OpenShift`&rarr;`Port forwarding`.
-
++
+IMPORTANT: Your application must be running before attempting to configure port forwarding.
++
+In the `OpenShift Explorer` view, right-click the application and click `Port forwarding`.
+Alternatively, in the `Servers` view right-click the server adapter of the application and click `OpenShift`&rarr;`Port forwarding`.
++
 .Application Port Forward Window
 image::images/3934.png["In the OpenShift Explorer view, right-click the application name and click Port forwarding. Alternatively, in the Servers view right-click the server adapter of the application and click OpenShiftPort forwarding."]
 

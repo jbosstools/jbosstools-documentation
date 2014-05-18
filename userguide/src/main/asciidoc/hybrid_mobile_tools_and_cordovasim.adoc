@@ -30,11 +30,11 @@ Applications using Cordova are written once and packaged using native software d
 Cordova applications have a distinctive project structure: 
 
 
-* An essential [file]`config.xml` file holds information about the application.
+* An essential `config.xml` file holds information about the application.
   It specifies features, preferences and access details that affect how the application works, for example whether the application responds to orientation changes.
 * An application is implemented as a web page.
-  The default starting page is [file]`index.html` and device-independent resources are stored in a [file]`www` directory.
-* An application must reference the [file]`cordova.js` file, which holds necessary API bindings that enable the application to interact with device features.
+  The default starting page is `index.html` and device-independent resources are stored in a `www` directory.
+* An application must reference the `cordova.js` file, which holds necessary API bindings that enable the application to interact with device features.
 
 
 
@@ -54,8 +54,8 @@ Hybrid Mobile Tools consists of the Apache Cordova API and wizards, a dedicated 
 
 
 * The Hybrid Mobile Application project wizard creates a sample project to demonstrate the Cordova project structure and provides you with a template from which to create your own applications.
-* The Cordova Configuration Editor offers simplified management of [file]`config.xml` files, with dedicated tabs for adding and editing project descriptions, features, preferences and access.
-  An additional tab enables direct editing of [file]`config.xml` files.
+* The Cordova Configuration Editor offers simplified management of `config.xml` files, with dedicated tabs for adding and editing project descriptions, features, preferences and access.
+  An additional tab enables direct editing of `config.xml` files.
 * The Cordova Plug-in Discovery wizard assists you to add Cordova plug-ins to your projects.
   Plug-ins can be installed from the Cordova registry, Git locations and system directories.
   Information displayed in the `Project Explorer` view is extended to show installed plug-ins and enable their management.
@@ -88,7 +88,7 @@ Extensions to the device input panel for CordovaSim include the following:
 * CordovaSim supports a range of Cordova API implementations: the core Apache Cordova plug-ins, several PhoneGap plug-ins and custom plug-ins.
   Supported PhoneGap plug-ins include `BarcodeScanner`, `InAppBrowser` and `ChildBrowser`.
   (Note that exceptions to the supported core Apache Cordova plug-ins are `File` and the `captureAudio` and `captureVideo` methods of `Capture`.)
-* CordovaSim automatically injects an up-to-date version of the [file]`cordova.js` library into your project code at simulation time in the case that it is missing.
+* CordovaSim automatically injects an up-to-date version of the `cordova.js` library into your project code at simulation time in the case that it is missing.
   Typically this file is added when a project is built with a native SDK. This response by CordovaSim enables it to simulate applications of Cordova-based hybrid mobile projects and Cordova-enabled Android projects without requiring native SDKs.
 * The use of BrowserSim for displaying the application extends the functionality of the mobile application simulator to encompass all of the BrowserSim functionality.
   This functionality includes skins, screen captures and LiveReload.
@@ -123,8 +123,8 @@ iOS SDK (including simulator);;
   This is available as part of Apple XCode.
   For further information see https://developer.apple.com/xcode/[] on the Apple website.
 
-* See Also:
-  <<set-the-android-sdk-location,Set the Android SDK Location>>
+.See Also:
+* <<set-the-android-sdk-location,Set the Android SDK Location>>
 
 [[system-requirements-for-cordovasim]]
 === System Requirements for CordovaSim
@@ -190,8 +190,8 @@ image::images/3981.png["During the installation process you may receive warnings
 Once installed, you must inform Hybrid Mobile Tools of the Android SDK location before you can use Hybrid Mobile Tools actions involving Android.
 
 
-* See Also:
-  <<set-the-android-sdk-location,Set the Android SDK Location>>
+.See Also:
+* <<set-the-android-sdk-location,Set the Android SDK Location>>
 
 [[sect-features-of-hybrid-mobile-tools-and-cordovasim]]
 == Features of Hybrid Mobile Tools and CordovaSim
@@ -227,9 +227,7 @@ It creates a Cordova project with structure compatible with projects generated b
 image::images/4405.png["Expand Mobile, select Hybrid Mobile (Cordova) Application Project and click Next."]
 
 
-Complete the following fields: 
-
-
+. Complete the following fields:
 * In the `Project name` field, type a name for the project.
   This value is the name of the directory to be created and in which the source files for the application are stored, for example `My_App`.
 * In the `Name` field, type a name by which the hybrid mobile application is to be known.
@@ -256,8 +254,8 @@ image::images/4406.png["In the Project name field, type a name for the project. 
 . To create the project, click `Finish`.
 
 
-During project creation, the wizard imports project dependencies and populates a [file]`config.xml` file.
-Once created, the project is listed in the `Project Explorer` view and the [file]`config.xml` file is automatically opened in the `Cordova Configuration Editor`.
+During project creation, the wizard imports project dependencies and populates a `config.xml` file.
+Once created, the project is listed in the `Project Explorer` view and the `config.xml` file is automatically opened in the `Cordova Configuration Editor`.
 
 
 [[enable-cordova-plug-ins-for-an-application]]
@@ -271,8 +269,8 @@ Hybrid Mobile Tools provides actions for installing and removing plug-ins associ
 
 Add a plug-in;;
   
-  In the `Project Explorer` view, right-click the [file]`plugins` folder of the project and click `Install Cordova Plug-in`.
-
+  In the `Project Explorer` view, right-click the `plugins` folder of the project and click `Install Cordova Plug-in`.
++
 .Example of a Cordova Plug-in Selected in the `Registry` Tab of Cordova Plug-in Discovery Wizard
 image::images/4407.png["In the Registry tab, in the Find field enter the name of the feature or scroll through the list to find the plug-in. Select the check box for the plug-in and click Next."]
 
@@ -287,16 +285,16 @@ Alternatively, you can add and remove plug-ins by using the `Platform Properties
 
 ====
 
-* See Also:
-  <<manage-cordova-settings-in-the-platform-properties-tab,Manage Cordova Settings in the Platform Properties Tab>>
+.See Also:
+* <<manage-cordova-settings-in-the-platform-properties-tab,Manage Cordova Settings in the Platform Properties Tab>>
 
 [[sect-manage-cordova-settings-of-a-hybrid-mobile-project]]
 === Manage Cordova Settings of a Hybrid Mobile Project
 
 
-The Cordova Configuration Editor is available for managing the settings of Cordova projects that are specified in the [file]`config.xml` file.
+The Cordova Configuration Editor is available for managing the settings of Cordova projects that are specified in the `config.xml` file.
 This editor has three tabs: Overview, Platform Properties, and config.xml.
-As described below, the first two tabs provide interfaces for configuring the settings specified in the [file]`config.xml` file and the third tab enables direct editing of the file.
+As described below, the first two tabs provide interfaces for configuring the settings specified in the `config.xml` file and the third tab enables direct editing of the file.
 
 
 
@@ -315,14 +313,14 @@ The `Platform Properties` tab specifies Cordova project functionality, such as f
 image::images/4409.png["The Platform Properties tab specifies Cordova project functionality, such as features (plug-ins and parameters), preferences and access."]
 
 
-The `config.xml` tab provides an editor in which to view and modify the [file]`config.xml` file directly.
+The `config.xml` tab provides an editor in which to view and modify the `config.xml` file directly.
 
 
 .`config.xml` Tab of the Cordova Configuration Editor
 image::images/4410.png["The config.xml tab provides an editor in which to view and modify the config.xml file directly."]
 
 
-To open the Cordova Configuration Editor for a specific hybrid mobile project, in the `Project Explorer` view right-click the [file]`config.xml` file.
+To open the Cordova Configuration Editor for a specific hybrid mobile project, in the `Project Explorer` view right-click the `config.xml` file.
 Click `Open With`&rarr;`Cordova Configuration Editor`.
 All changes to the Cordova settings of a project must be saved before the results take effect.
 To save, press `Ctrl+S`.
@@ -344,7 +342,7 @@ Change the value of a variable;;
   Click the appropriate field and edit the content.
 
 
-All changes to [file]`config.xml` must be saved before the results take effect.
+All changes to `config.xml` must be saved before the results take effect.
 To save, press `Ctrl+S`.
 
 
@@ -380,7 +378,7 @@ Remove a feature, parameter, preference or access;;
   Note that removing a feature also removes the associated parameters.
 
 
-All changes to [file]`config.xml` must be saved before the results take effect.
+All changes to `config.xml` must be saved before the results take effect.
 To save, press `Ctrl+S`.
 
 
@@ -413,12 +411,12 @@ Run with CordovaSim;;
   
   In the `Project Explorer` view, right-click the project name and click `Run As`&rarr;`Run with CordovaSim`.
   This opens the application in CordovaSim, which is composed of a BrowserSim simulated device and a device input panel.
-
++
 .CordovaSim for Samsung Galaxy Nexus Simulated Device
 image::images/4414.png["In the Project Explorer tab, right-click the project name and click Run AsRun with CordovaSim. This opens the application in CordovaSim, which is composed of a BrowserSim simulated device and a device input panel."]
 
-* See Also:
-  <<system-requirements-for-hybrid-mobile-tools,System Requirements for Hybrid Mobile Tools>>
+.See Also:
+* <<system-requirements-for-hybrid-mobile-tools,System Requirements for Hybrid Mobile Tools>>
 
 [[manage-hybrid-mobile-project-run-configurations]]
 === Manage Hybrid Mobile Project Run Configurations
@@ -483,13 +481,11 @@ Android and iOS APIs must be installed and the IDE correctly configured to use t
 image::images/4412.png["Expand Mobile, select the export type as appropriate and click Next. To export as an application, select Export Mobile Application. To export as a native project, select Export Native Platform Project."]
 
 
-Complete the following fields: 
-
-
+. Complete the following fields: 
 * From the `Select Projects` list, select the check boxes of one or more workspace projects to be exported.
 * From the `Select Platforms` list, select the check boxes of one or more operating systems for which you want to export the selected project.
   Only operating systems with installed SDKs are listed.
-. * In the `Directory` field, type the path to which the projects are to be exported or click `Browse` to navigate to the location.
+* In the `Directory` field, type the path to which the projects are to be exported or click `Browse` to navigate to the location.
 +
 .Provide Export Settings in the Export Wizard
 image::images/4413.png["From the Select Projects list, select the check boxes of one or more workspace projects to be exported. From the Select Platforms list, select the check boxes of one or more operating systems for which you want to export the selected project. In the Directory field, type the path to which the projects are to be exported or click Browse to navigate to the location."]
@@ -498,8 +494,8 @@ image::images/4413.png["From the Select Projects list, select the check boxes of
   Projects are exported to the specified location.
   Exported native projects are organized with subdirectories for each selected operating system.
 
-* See Also:
-  <<system-requirements-for-hybrid-mobile-tools,System Requirements for Hybrid Mobile Tools>>
+.See Also:
+* <<system-requirements-for-hybrid-mobile-tools,System Requirements for Hybrid Mobile Tools>>
 
 [[sect-customizing-hybrid-mobile-tools-and-cordovasim]]
 == Customizing Hybrid Mobile Tools and CordovaSim

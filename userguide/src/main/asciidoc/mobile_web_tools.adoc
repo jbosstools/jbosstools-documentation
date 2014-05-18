@@ -84,7 +84,7 @@ image::images/4090.png["In the Project name field, type a name for the project. 
 . Check the Maven details for the project to be created and click `Finish`.
 . During project creation, the wizard imports project dependencies.
   When the `HTML5 Project` wizard displays `'HTML5 Project' Project is now ready`, click `Finish` to close the wizard.
-  A [file]`README.md` file for the project automatically opens for viewing.
+  A `README.md` file for the project automatically opens for viewing.
 .Procedure: Create a HTML5 Project with the kitchensink-html5-mobile Wizard
 
 
@@ -102,7 +102,7 @@ image::images/4095.png["To create the project in a different location to the wor
 . Click `Finish`.
 . During project creation, the wizard imports project dependencies.
   When the `kitchensink-html5-mobile` wizard displays `'kitchensink-html5-mobile' Project is now ready`, click `Finish` to close the wizard.
-  A [file]`README.md` file for the project automatically opens for viewing.
+  A `README.md` file for the project automatically opens for viewing.
 
 [[use-a-html5-jquery-mobile-file-template]]
 === Use a HTML5 jQuery Mobile File Template

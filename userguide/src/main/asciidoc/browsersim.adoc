@@ -72,9 +72,9 @@ You can use BrowserSim to view web applications on local file systems or deploye
 
 To view web applications in local file systems;;
   
-  In the `Project Explorer` view, select a [file]`.html` file and click the `Run BrowserSim` icon 
+  In the `Project Explorer` view, select a `.html` file and click the `Run BrowserSim` icon 
   image:images/4115.png[""].
-  Alternatively, right-click a [file]`.html` file and click `Open With`&rarr;`BrowserSim`.
+  Alternatively, right-click a `.html` file and click `Open With`&rarr;`BrowserSim`.
 
 To view deployed web applications;;
   
@@ -147,14 +147,14 @@ Rotate the view between portrait and landscape modes;;
   
   Click any corner of the simulated device.
   Alternatively, right-click the simulated device and click `Rotate Left` or `Rotate Right`.
-
++
 .Rotate Mouse Pointer in Upper-right Corner of Simulated Device
 image::images/4104.png["To rotate the view between portrait and landscape modes, click any corner of the simulated device."]
 
 Change the simulated device;;
   
   Right-click the simulated device, click `Skins` and select from the listed devices.
-
++
 .Skins Menu Option
 image::images/4323.png["Right-click the simulated device, click Skins and select from the listed devices."]
 
@@ -182,7 +182,7 @@ View simultaneously on synchronized simulated devices;;
   Select from the list of available skins for the additional simulated device.
   An additional simulated device opens and displays the same web page as that of the synchronized simulated device.
   Opening a web page in one synchronized simulated device results in the web page opening in all the synchronized simulated devices.
-
++
 .Synchronized Simulated Devices
 image::images/4100.png["Right-click the simulated device and click Open Synchronized Window. Select from the list of available skins for the additional simulated device. An additional simulated device opens and displays the same web page as that of the synchronized simulated device. Opening a web page in one synchronized simulated device results in the web page opening in all the synchronized simulated devices."]
 
@@ -198,9 +198,9 @@ To generate a screen capture of a simulated device, right-click the simulated de
 Select the output for the screen capture from the list of options: 
 
 
-* `Save` to save as a [file]`.png` file in the default location.
+* `Save` to save as a `.png` file in the default location.
   The default location is a customizable setting and if it is not set you are prompted to select a location to which to save the file each time.
-* `Save As` to save as a [file]`.png` file in a location you specify.
+* `Save As` to save as a `.png` file in a location you specify.
 * `Copy to Clipboard` to copy the graphic for immediate use.
 
 
@@ -312,7 +312,7 @@ The aim of this section is to guide you in customizing BrowserSim:
 === Make BrowserSim the Default Browser
 
 
- You can set BrowserSim to be the default browser used in actions such as `Show In`&rarr;`Web Browser` and `Run on Server`.
+You can set BrowserSim to be the default browser used in actions such as `Show In`&rarr;`Web Browser` and `Run on Server`.
 
 
 
@@ -477,7 +477,7 @@ If you have a different Weiner server available, the default Weinre settings can
 
 
 To change the default settings for Weinre, right-click the simulated device and click `Preferences`.
-In the `Weinre` section of the `Settings` tab, in the `Script URL` field type the address of the [file]`.js` file provided by the Weinre server and in the `Client URL` field type the address of the web page showing the Weinre Inspector interface.
+In the `Weinre` section of the `Settings` tab, in the `Script URL` field type the address of the `.js` file provided by the Weinre server and in the `Client URL` field type the address of the web page showing the Weinre Inspector interface.
 Click `OK` to close the `Preferences` window.
 
 

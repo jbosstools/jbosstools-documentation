@@ -29,7 +29,7 @@ Depending upon the changes to the source, the web page is either reloaded or the
 
 
 
-The LiveReload application is available for OS X and Microsoft Window operating systems and through a third-party provider for Linux-based operating systems.
+The LiveReload application is available for OS X and Microsoft Window operating systems and through a third-party provider for Linux-b*OS Tools doneview workspaceased operating systems.
 LiveReload browser extensions are available for Safari, Chrome and Firefox.
 
 
@@ -159,7 +159,7 @@ The browser extension renders AsciiDoc files as HTML and it is available for Chr
 View workspace resources in a web browser;;
   
   In the `Project Explorer` view, right-click the resource file and click `Open With`&rarr;`Web Browser via LiveReload Server`.
-
++
 .Live Reload Settings Prompt
 image::images/4081.png["This requires the server to be configured to Inject the livereload.js script in HTML pages and, if the server is not correctly configured, you are prompted to enable this option."]
 
@@ -167,7 +167,7 @@ View deployed resources in a web browser;;
   
   Ensure the server and application of the deployed resources are started.
   In the `Servers` view, right-click the application and click `Show In`&rarr;`Web Browser via LiveReload Server`.
-
++
 .`Show In`&rarr;`Web Browser via LiveReload Server` Menu Option
 image::images/4074.png["Ensure the server and application of the deployed resources are started. In the Servers view, right-click the application and click Show InWeb Browser via LiveReload Server."]
 
@@ -175,7 +175,7 @@ View deployed resources on an external device;;
   
   Ensure the server and application of the deployed resources are started.
   In the `Servers` view, right-click the application and click `Show In`&rarr;`Web Browser on External Device`.
-
++
 .`Show In`&rarr;`Web Browser on External Device` Menu Option
 image::images/4073.png["Ensure the server and application of the deployed resources are started. In the Servers view, right-click the application and click Show InWeb Browser on External Device."]
 

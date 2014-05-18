@@ -97,7 +97,7 @@ There are two types of project wizards available in JBoss Central: `Start from s
   These wizards create the same project using different underlying technology, as stated in the project name.
   To view a project summary, hover the cursor over a project wizard.
   If you do not have the necessary plug-in installed to use a wizard, you are prompted to install it when you click the wizard.
-
++
 .Start from Scratch Wizards
 image::images/3963.png["The Start from scratch wizards create the same project using different underlying technology, as started in the project name. To view a project summary, hover the cursor over a project wizard."]
 
@@ -105,7 +105,7 @@ image::images/3963.png["The Start from scratch wizards create the same project u
   
   These wizards create sample web, mobile, back-end and portal applications.
   To view a project summary, hover the cursor over a project wizard.
-
++
 .Start from Sample Wizards
 image::images/4347.png["The Start from a sample wizards create sample web, mobile, back-end and portal applications. To view a project summary, hover the cursor over a project wizard."]
 
@@ -147,7 +147,7 @@ View the latest JBoss developments;;
   image:images/4272.png[""].
   JBoss blog posts are available to follow as RSS feeds or with Twitter.
   To review these options, click the `News` or `Twitter` icons.
-
++
 .JBoss Buzz
 image::images/4228.png["In JBoss Central, select the Getting Started tab and click the links under JBoss Buzz. To see previews of the blog posts, hover the cursor over these links. To view a complete list of JBoss blog posts, click the JBoss Buzz button."]
 
@@ -155,7 +155,7 @@ View JBoss developer information sources;;
   
   In JBoss Central, select the `Getting Started` tab and click the links under `Other resources`.
   These links provide access to videos, documentation and forums.
-
++
 .Other Resources
 image::images/3966.png["In JBoss Central, select the Getting Started tab and click the links under Other resources."]
 
@@ -163,7 +163,7 @@ Search the JBoss Community website;;
   
   In JBoss Central, click the arrow next to the search box and select `Search JBoss Community`.
   In the search field, enter the search terms.
-
++
 .Search the JBoss Community Website
 image::images/3961.png["In JBoss Central, click the arrow next to the search box and select Search JBoss Community. In the search field, enter the search terms."]
 
@@ -197,7 +197,7 @@ View installed plug-ins;;
   
   Select the `Show Installed` check box.
   The installed plug-ins are listed in the table as disabled.
-
++
 .`Show Installed` Check Box Selected and Installed Plug-ins Listed as Disabled
 image::images/4346.png["To view installed plug-ins, select the Show Installed check box. The installed plug-ins are listed in the table as disabled."]
 
@@ -206,7 +206,7 @@ Install available software;;
   In the `Find` field, type the name of the software or scroll through the list to locate it.
   Select the check box corresponding to the software you want to install and click `Install` or click the `Install` icon 
   image:images/3979.png[""].
-
++
 .Find and Install Software
 image::images/4270.png["In the Find field, type the name of the software or scroll through the list to locate it. Select the check box corresponding to the software you want to install and click Install or click the Install icon."]
 
@@ -217,7 +217,7 @@ Check for software updates;;
   The `Contacting Software Sites` window opens and reports the progress of checking.
   Once checking is complete, a prompt informs you of any new software found.
   Click `OK` to close the prompt.
-
++
 .Information Window Showing No Updates Found
 image::images/3974.png["The Contacting Software Sites window opens and reports the progress of checking. Once checking is complete, a prompt informs you of any new software found. Click OK to close the prompt."]
 
@@ -351,7 +351,7 @@ Customize views;;
   Open or close views as desired and click `Window`&rarr;`Save Perspective As`.
   From the `Existing Perspectives` list, select `JBoss` and click `OK`.
   At the prompt asking if you want to overwrite the existing JBoss perspective, click `Yes`.
-
++
 .Save Perspective As Window
 image::images/3964.png["Open or close tabs as desired and click WindowSave Perspective As. From the Existing Perspectives list, select JBoss and click OK."]
 
@@ -362,14 +362,14 @@ Customize menu and toolbar elements;;
   In the `Menu Visibility` tab, select or clear the check boxes corresponding to the menus and menu items visible in the JBoss perspective as appropriate.
   Disabled items in the `Tool Bar Visibility` and `Menu Visibility` tabs can be activated in the `Command Groups Availability` tab.
   Click `OK` to save any changes and close the window.
-
++
 .`Tool Bar Visibility` Tab in Customize Perspective Window
 image::images/3986.png["Click WindowCustomize Perspective. In the Tool Bar Visibility tab, select or clear the check boxes corresponding to the individual toolbars and icons visible in the global toolbar of the JBoss perspective as appropriate. Click OK to save any changes and close the window."]
 
 Reorder the individual toolbars comprising the global toolbar;;
   
   Click the vertical dashed line indicating the beginning of an individual toolbar and drag the toolbar to its new location in the global toolbar.
-
++
 .Select and Drag a Toolbar to Reorder the Global Toolbar
 image::images/3968.png["Click the vertical dashed line indicating the beginning of an individual toolbar and drag the toolbar to its new location in the global toolbar."]
 
@@ -377,7 +377,7 @@ Revert all perspective customizations;;
   
   Click `Window`&rarr;`Reset Perspective`.
   At the prompt asking if you want to reset the JBoss perspective to its saved state, select the `Also discard perspective's customization` check box and click `Yes`.
-
++
 .Revert Perspective Window
 image::images/3967.png["Click WindowReset Perspective. At the prompt asking if you want to reset the JBoss perspective to its saved state, select the Also discard perspective's customization check box and click Yes."]
 
@@ -402,20 +402,20 @@ For more information, see http://groovy.codehaus.org/Installing+Groovy[] at the 
 ====
 
 Maven must be correctly configured for all of the project wizards before the cache script is run.
-The JBoss Public Maven repository must be specified in [file]`settings.xml`.
+The JBoss Public Maven repository must be specified in `settings.xml`.
 
 ====
 
 
 To create the cache, click `Window`&rarr;`Preferences`.
 Expand `JBoss Tools`&rarr;`Project Examples` and select `Offline Support`.
-To run the cache generating script, click `Copy to Clipboard` and paste the selected text on a command line outside the IDE. The script downloads and builds all of the project examples in a new directory [file]`offline`.
+To run the cache generating script, click `Copy to Clipboard` and paste the selected text on a command line outside the IDE. The script downloads and builds all of the project examples in a new directory `offline`.
 The script may take some time to complete.
 
 
 
-Once the cache is generated, copy [file]`offline/.jbosstools/cache` to the directory where you want to keep the project examples cache.
-Copy the contents of [file]`offline/.m2/repository` to your local maven repository.
+Once the cache is generated, copy `offline/.jbosstools/cache` to the directory where you want to keep the project examples cache.
+Copy the contents of `offline/.m2/repository` to your local maven repository.
 
 
 
@@ -433,29 +433,27 @@ image::images/4271.png["To inform the IDE to use the generated project examples 
 === Install Software when Working Offline
 
 
-You can install the JBoss and third-party plug-ins listed in JBoss Central in offline mode using the JBoss Central [file]`.zip` file, as detailed below.
+You can install the JBoss and third-party plug-ins listed in JBoss Central in offline mode using the JBoss Central `.zip` file, as detailed below.
 This feature is useful if you regularly work offline or if you are installing these auxiliary plug-ins in a number of JBoss&nbsp;Developer&nbsp;Studio installations as it removes the need to repeatedly download the same plug-ins.
 
 
 
-Note that the JBoss Central [file]`.zip` file is a snapshot of the plug-ins at the time of the given JBoss&nbsp;Developer&nbsp;Studio release and updated versions of the plug-ins must be installed from JBoss Central in online mode.
-
-.Procedure: Install from JBoss Central .zip File
+Note that the JBoss Central `.zip` file is a snapshot of the plug-ins at the time of the given JBoss&nbsp;Developer&nbsp;Studio release and updated versions of the plug-ins must be installed from JBoss Central in online mode.
 
 
 
 [NOTE]
 ====
-
-To install JBoss and third-party plug-ins in offline mode, you must first download the JBoss Central [file]`.zip` file.
-You can download the JBoss Central [file]`.zip` file from http://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/[] on the JBoss Tools website.
-
+To install JBoss and third-party plug-ins in offline mode, you must first download the JBoss Central `.zip` file.
+You can download the JBoss Central `.zip` file from http://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/[] on the JBoss Tools website.
 ====
+
+.Procedure: Install from JBoss Central .zip File
 . Click `Help`&rarr;`Install New Software`.
-. In the `Work with` field, enter the path of the JBoss Central [file]`.zip` file.
+. In the `Work with` field, enter the path of the JBoss Central `.zip` file.
   Alternatively, click `Add` and click `Archive` to locate the file.
 . Clear the `Group items by category` check box.
-  This action makes the contents of the JBoss Central [file]`.zip` file visible in the table of components.
+  This action makes the contents of the JBoss Central `.zip` file visible in the table of components.
 . From the table of components, select the software to be installed and click `Next`.
 . Review the details of the items listed for install and click `Next`.
 . After reading and agreeing to the license(s), click `I accept the terms of the license agreement(s)` and click `Finish`.

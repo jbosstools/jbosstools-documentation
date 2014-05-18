@@ -86,7 +86,7 @@ Start Forge;;
   image:images/4062.png[""].
   Alternatively, press `Ctrl+4` and at the prompt asking if you want to start the Forge runtime server, click `Yes`.
   A progress bar in the IDE window and text in the `Forge Console` view indicate the starting status of Forge.
-
++
 .Started Console in Forge Console View
 image::images/4063.png["In the Forge Console view, click the Start the default Forge runtime icon. Alternatively, press Ctrl+4 and at the prompt asking if you want to start the Forge runtime server, click Yes."]
 
@@ -102,7 +102,7 @@ Stop Forge;;
   In the `Forge Console` view, click the `Stop the running Forge runtime` icon 
   image:images/4061.png[""].
   Alternatively, on the Forge command line, enter `exit`.
-
++
 .`exit` Command on Forge Command Line
 image::images/4069.png["To stop Forge, on the Forge command line enter exit."]
 
@@ -166,7 +166,7 @@ A list of Forge commands that result in additional background actions is given b
 
 `persistence setup`;;
   
-  The command creates a [file]`persistence.xml` file.
+  The command creates a `persistence.xml` file.
   This file is selected in the `Project Explorer` and `Package Explorer` views and it is automatically opened in an editor within the IDE.
 
 `entity`;;
