@@ -1,0 +1,316 @@
+:numbered:
+:doctype: book
+:toc: left
+:icons: font
+
+
+[[sect-overview-of-mobile-web-tools]]
+== Overview of Mobile Web Tools
+
+[[about-mobile-web-tools]]
+=== About Mobile Web Tools
+
+
+Mobile Web Tools provides tooling for developing mobile web applications within the IDE. It simplifies the process of getting started with HTML5 and jQuery Mobile technologies that are used for these types of applications and provides efficient workflows for developing with them on a daily basis.
+
+
+
+Mobile Web Tools consists of project wizards, file templates, the jQuery Mobile palette, and actions for developing with HTML5 and jQuery Mobile:
+
+
+* The HTML5 project wizards and HTML5 jQuery Mobile file template enable you to quickly generate the foundations of mobile web applications and to view mobile web application programming in action.
+* The jQuery Mobile palette offers a visual reference of the available HTML5 and jQuery Mobile user interface widgets, which can be effortlessly inserted into your project files with drag-and-drop functionality.
+  In conjunction with the jQuery Mobile palette, widget wizards allow you to easily customize HTML5 and jQuery Mobile widgets when inserting them into your project.
+* Code assistance and one-click action for viewing jQuery Mobile pages in browsers enable you to work more efficiently when developing mobile web applications in the IDE.
+
+[[sect-features-of-mobile-web-tools]]
+== Features of Mobile Web Tools
+
+[[features-overview4]]
+=== Features Overview
+
+
+The aim of this section is to guide you in using Mobile Web Tools:
+
+
+* Generate the foundations of web applications with the project wizards and file templates
+* Access the jQuery Mobile palette and add customized widgets to your mobile web application with the aid of the widget wizards
+* Use code completion to assist in programming
+* View pages of the application in various browsers
+
+[[create-a-mobile-web-project]]
+=== Create a Mobile Web Project
+
+
+Project wizards are available to assist you in generating new mobile web applications.
+The project wizards are listed in JBoss Central: 
+
+
+* `HTML5 Project`, under `Start from scratch`
+* `kitchensink-html5-mobile`, under `Start from a sample`
+
+
+
+[IMPORTANT]
+====
+
+In order to deploy the applications created by these wizards, JBoss Application Server 7.1 must be defined for use in the IDE. You can define a server using runtime detection from within a project wizard.
+From the `Requirements` table on the first page of the project wizard, select `server/runtime` and click `Install` or `Download and Install` and follow the instructions.
+Alternatively, before starting a wizard click `Window`&rarr;`Preferences`, expand `JBoss Tools` and select `JBoss Runtime Detection`.
+Click `Add` and follow the instructions.
+
+====
+.Procedure: Create a HTML5 Project with the HTML5 Project Wizard
+
+
+. In JBoss Central under `Start from scratch`, click `HTML5 Project`.
++
+.HTML5 Project Wizard in JBoss Central
+image::images/4083.png["In JBoss Central under Start from scratch, click HTML5 Project."]
+
+. From the `Target Runtime` list, select an existing JBoss Application Server 7.1 server runtime environment or select `<none>`.
+  When `<none>` is selected, a non-enterprise server runtime environment is assumed.
+. Click `Next`.
+. Complete the fields and options as detailed:
++
+* In the `Project name` field, type a name for the project.
+* In the `Package` field, type a package name for the project resources.
+* To create the project in a different location to the workspace default, clear the `Use default Workspace location` check box and type the path in the field or click `Browse` to navigate to the location.
++
+.HTML5 Project Wizard
+image::images/4090.png["In the Project name field, type a name for the project. In the Package field, type a package name for the project resources."]
+
+. Click `Next`.
+. Check the Maven details for the project to be created and click `Finish`.
+. During project creation, the wizard imports project dependencies.
+  When the `HTML5 Project` wizard displays `'HTML5 Project' Project is now ready`, click `Finish` to close the wizard.
+  A `README.md` file for the project automatically opens for viewing.
+.Procedure: Create a HTML5 Project with the kitchensink-html5-mobile Wizard
+
+
+. In JBoss Central under `Start from a sample`, hover the mouse over `Mobile Applications` and click `kitchensink-html5-mobile`.
++
+.kitchensink-html5-mobile Wizard in JBoss Central
+image::images/4084.png["In JBoss Central under Start from a sample, hover the mouse over Mobile Applications and click kitchensink-html5-mobile."]
+
+. Click `Next`.
+. To create the project in a different location to the workspace default, clear the `Use default location` check box and type the path in the field or click `Browse` to navigate to the location.
++
+.kitchensink-html5-mobile Wizard
+image::images/4095.png["To create the project in a different location to the workspace default, clear the Use default location check box and type the path in the field or click Browse to navigate to the location."]
+
+. Click `Finish`.
+. During project creation, the wizard imports project dependencies.
+  When the `kitchensink-html5-mobile` wizard displays `'kitchensink-html5-mobile' Project is now ready`, click `Finish` to close the wizard.
+  A `README.md` file for the project automatically opens for viewing.
+
+[[use-a-html5-jquery-mobile-file-template]]
+=== Use a HTML5 jQuery Mobile File Template
+
+
+Mobile Web Tools provides a HTML5 jQuery Mobile file template to assist in creating mobile web applications.
+The template inserts the necessary JavaScript and CSS library references into the HTML header and includes skeleton jQuery Mobile page and listview widgets in the HTML body.
+The procedure below details how to insert the template into your project.
+
+.Procedure: Use a HTML5 jQuery Mobile File Template
+
+
+. In the `Project Explorer` view, right-click a project and click `New`&rarr;`HTML File`.
+. Complete the fields and options as detailed:
++
+* In the `Enter or select the parent folder` field, type a project path or expand the project folder tree and select the parent folder for the new file.
+* In the `File name` field, type the name for the new file.
+  It is not essential to include the file extension in the name as this is automatically appended if it is found to be missing.
++
+.New HTML File Wizard
+image::images/4093.png["In the Enter or select the parent folder field, type a project path or expand the project folder tree and select the parent folder for the new file. In the File name field, type the name for the new file. It is not essential to include the file extension in the name as this is automatically appended if it is found to be missing."]
+
+. Click `Next`.
+. Complete the fields and options as detailed:
++
+* Ensure the `Use HTML Template` check box is selected.
+* From the `Templates` table, select `HTML5 jQuery Mobile Page`.
++
+.HTML5 jQuery Mobile Page Template for New HTML Files
+image::images/4097.png["Ensure the Use HTML Template check box is selected. From the Templates table, select HTML5 jQuery Mobile Page."]
+
+. Click `Finish`.
+  The new HTML5 file is listed in the `Project Explorer` view and automatically opened in the JBoss Tools HTML Editor.
+
+[[access-the-jquery-mobile-palette]]
+=== Access the jQuery Mobile Palette
+
+
+Mobile Web Tools offers a jQuery Mobile palette, with wizards for adding jQuery Mobile and HTML5 widgets to your project.
+The jQuery Mobile palette, part of the `Palette` view, is available for use when working with HTML5 files in the JBoss Tools HTML Editor.
+
+
+.jQuery Mobile Palette in the Palette View
+image::images/4086.png["The jQuery Mobile palette is available in the Palette view, which is part of the JBoss perspective."]
+
+
+The jQuery Mobile palette is automatically displayed in the `Palette` view when a HTML5 file is opened in the JBoss Tools HTML Editor.
+To open a file in this editor, in the `Project Explorer` view right-click a HTML5 file and click `Open With`&rarr;`JBoss Tools HTML Editor`.
+Alternatively, if `JBoss Tools HTML Editor` is the default option for `Open With`, double-click the HTML5 file to open it in the editor.
+The file opens in the editor and the jQuery Mobile palette is displayed in the `Palette` view.
+
+
+[NOTE]
+====
+
+The `Palette` view must be visible in order to see the jQuery Mobile palette.
+To open the view, click `Window`&rarr;`Show View`&rarr;`Other`, expand `General` and double-click `Palette`.
+
+====
+
+
+To show or hide an individual palette in the `Palette` view, click the name of the individual palette.
+
+
+
+To search for a palette element within the jQuery Mobile palette, in the search field type a search term or phrase.
+The elements displayed in the jQuery Mobile palette are filtered as you type in the search field.
+
+
+[[insert-a-jquery-mobile-palette-widget-into-a-html5-file]]
+=== Insert a jQuery Mobile Palette Widget into a HTML5 File
+
+
+The jQuery Mobile palette contains wizards for the HTML5 and jQuery Mobile user interface widgets commonly used in mobile web applications.
+The widgets are grouped in the palette by functionality, with tooltips providing widget descriptions.
+
+
+
+To insert a palette widget in a file open in the JBoss Tools HTML Editor, drag the widget icon to the appropriate place in the file.
+Alternatively, ensure the text cursor is located at the desired insertion point in the file and click the widget icon.
+For widgets with no attributes that can be customized, such as `JS/CSS` and `Field Container`, the code snippets are immediately inserted into the file.
+For widgets with attributes that can be customized, a widget wizard opens allowing you to input attribute information.
+Once you have completed the customizable fields, click `Finish` and the code snippet is inserted into the file.
+
+
+.Page Widget Wizard
+image::images/4092.png["For widgets with attributes that can be customized, a widget wizard opens allowing you to input attribute information. Once you have completed the customizable fields, click Finish and the code snippet is inserted into the file."]
+
+
+The widget wizards have three common aspects:
+
+
+
+Design fields;;
+  
+  These fields are unique to each widget.
+  They allow you to customize the attributes of the widget by providing names, actions, numbers of elements, and styling themes.
+  All widget wizards assign automatically generated values to the `ID` attribute in the case that you do not specify a value.
+  Content assist is available for the `URL (href)` field by placing the text cursor in the field and pressing `Ctrl+Space`.
+
+Add references to JS/CSS;;
+  
+  This check box provides the ability to automatically add any missing library references to the HTML5 file that are required by the widget.
+
+Preview Panes;;
+  
+  These panes show previews of the code snippet for the widget and of the rendered widget.
+  The preview panes can be shown and hidden by clicking `Show Preview` and `Hide Preview`, respectively.
+
+[[get-assistance-with-jquery-mobile-programming]]
+=== Get Assistance with jQuery Mobile Programming
+
+
+Mobile Web Tools offers code assist to help you when working with jQuery Mobile.
+Code assist lists available options for attributes and attribute values.
+Code assist is available for use in files and in the `URL (href)` field of widget wizards.
+
+
+
+To view code assist in a file, ensure the text cursor is located at the desired insertion point in the file and press `Ctrl+Space`.
+Repeatedly press `Ctrl+Space` to cycle through HTML and JSF EL completion options.
+To view more information about a listed item, select the item.
+To insert a listed item into the code, double-click the item.
+
+
+.Code Assist for File Contents
+image::images/4099.png["To view code assist in a file, ensure the text cursor is located at the desired insertion point in the file and press Ctrl+Space. Repeatedly press Ctrl+Space to cycle through HTML and JSF EL completion options. To view more information about a listed item, select the item. To insert a listed item into the code, double-click the item."]
+
+
+To view code assist in a widget wizard, ensure the text cursor is located in the `URL (href)` field and press `Ctrl+Space`.
+To view more information about a listed item, select the item.
+To insert a listed item into the code, double-click the item.
+
+
+.Code Assist for Widget Wizards
+image::images/4098.png["To view code assist in a widget wizard, ensure the text cursor is located in the URL (href) field and press Ctrl+Space. To view more information about a listed item, select the item. To insert a listed item into the code, double-click the item."]
+
+[[view-jquery-mobile-pages-in-a-browser]]
+=== View jQuery Mobile Pages in a Browser
+
+
+Mobile Web Tools provides an action to easily and quickly open jQuery Mobile pages in web browsers for viewing.
+
+
+
+To open a jQuery Mobile page from a file open in the `JBoss Tools HTML Editor`, press `Ctrl` and move the mouse over the `<div>` tag corresponding to the page widget.
+Continue to press `Ctrl` and from the menu select one of the options:
+
+
+* `Open With Browser`, which shows the page in the default browser of the IDE
+* `Open With BrowserSim`, which shows the page in BrowserSim
+
+.Open With Menu Option for a jQuery Mobile Page Widget
+image::images/4087.png["To open a jQuery Mobile page from a file open in the JBoss Tools HTML Editor, press Ctrl and move the mouse over the <div> tag corresponding to the page widget. Continue to press Ctrl and from the menu select one of the options."]
+
+[[sect-customizing-mobile-web-tools]]
+== Customizing Mobile Web Tools
+
+[[customizing-overview3]]
+=== Customizing Overview
+
+
+The aim of this section is to guide you in customizing Mobile Web Tools:
+
+
+* Customize the HTML5 jQuery Mobile templates available in the IDE
+
+[[customize-jquery-mobile-file-templates]]
+=== Customize jQuery Mobile File Templates
+
+
+The `HTML5 jQuery Mobile Page` template for new HTML files is provided by Mobile Web Tools.
+You can customize this template and add more jQuery Mobile templates to the IDE.
+
+
+
+To customize the jQuery Mobile templates available in the IDE, click `Window`&rarr;`Preferences`.
+Expand `Web`&rarr;`HTML Files`&rarr;`Editor` and select `Templates`.
+
+
+.Templates Pane of Preferences Window
+image::images/4085.png["To customize the jQuery Mobile templates available in the IDE, click WindowPreferences. Expand WebHTML FilesEditor and select Templates."]
+
+
+There are a number of available actions:
+
+
+
+Add a template;;
+
+There are several options for adding templates: 
+
+
+* To create a new template, click `New`.
+  In the `Name` and `Description` fields, type a name and description of the template, respectively.
+  In the `Pattern` field, type the code for the template.
+  From the `Context` list, select the instance in which the IDE should make the template available.
+  Click `OK` to close the window.
+* To restore all templates that have been deleted, click `Restore Removed`.
+* To load an existing template into the IDE, click `Import` and select the file.
+    The file must be an XML file, with appropriate file headers and the HTML5 and jQuery Mobile content written in XML syntax and contained between XML `template` and `templates` tags.
+
+Edit a template;;
+  
+  From the table, select a template and click `Edit`.
+  You can modify the name, description, code content and context in which the IDE makes the template available.
+  After making changes, click `OK` to close the window.
+
+Remove a template;;
+  
+  From the table, select a template and click `Remove`.
