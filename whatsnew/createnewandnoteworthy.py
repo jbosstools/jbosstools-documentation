@@ -53,7 +53,7 @@ components = {
     "GWT" : { "gwt"},
     "CDI" : { "cdi"},
     "hibernate" : { "hibernate"}, 
-    "JBoss ESB" : { "esb"},
+   ## not needed anymore "JBoss ESB" : { "esb"},
     "server" : {  "server", "archives", "jmx" },
     "jst/jsf": { "jsp/jsf/xml/html source editing", "jsf"},
     "Seam" : { "seam2"},
@@ -86,7 +86,7 @@ for name, comps in components.iteritems():
     rootnn_dict = {
         'project' : { 'key': 'JBIDE' },
         'summary' : name + ' New and Noteworthy for ' + jbide_fixversion,
-        'description' : 'This [query|' + compnnsearch + '] contains the search for the specific component(s), to see all, use this [query|' + nnsearch + '].\n\n If ' + name + ' is not listed here check if there are issues that should be added and add them.\n\n Document the ones relevant for ' + name + ' by adding to [whatsnew|https://github.com/jbosstools/jbosstools-documentation/tree/master/whatsnew] and submit a pullrequest.\n\n If no news for this component please reject and close this issue.',
+        'description' : 'This [query|' + compnnsearch + '] contains the search for the specific component(s), to see all, use this [query|' + nnsearch + '].\n\n If ' + name + ' is not listed here check if there are issues that should be added and add them.\n\n Document the ones relevant for ' + name + ' by adding to [whatsnew|https://github.com/jbosstools/jbosstools-website/tree/master/whatsnew] and submit a pullrequest.\n\n If no news for this component please reject and close this issue.',
         'issuetype' : { 'name' : 'Sub-task' },
         'parent' : { 'id' : rootnn.key},
         'priority' : { 'name': 'Critical'},
