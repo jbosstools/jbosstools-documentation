@@ -82,13 +82,14 @@ for name, comps in components.iteritems():
     
     cms = map(nametuple, comps)    
     #print name + "->" + str(cms)
+    new_file_contents = '= '+ name +' What's New\n:page-layout: whatsnew\n:page-component_id: '+comps+'\n:page-component_version: '+jbide_fixversion+'\n:page-product_id: jbt_core\n:page-product_version: '+jbide_fixversion
 
     compnnsearch = 'https://issues.jboss.org/issues/?jql=' + urllib.quote_plus(nnsearchquery + " and component in (" + ",".join(map(quote,comps)) + ")")
     
     rootnn_dict = {
         'project' : { 'key': 'JBIDE' },
         'summary' : name + ' New and Noteworthy for ' + jbide_fixversion,
-        'description' : 'This [query|' + compnnsearch + '] contains the search for the specific component(s), to see all, use this [query|' + nnsearch + '].\n\n If ' + name + ' is not listed here check if there are issues that should be added and add them.\n\n Document the ones relevant for ' + name + ' by adding to [whatsnew|https://github.com/jbosstools/jbosstools-website/tree/master/documentation/whatsnew] and submit a pullrequest.\n\n If no news for this component please reject and close this issue.',
+        'description' : 'This [query|' + compnnsearch + '] contains the search for the specific component(s), to see all, use this [query|' + nnsearch + '].\n\n If ' + name + ' is not listed here check if there are issues that should be added and add them.\n\n Document the ones relevant for ' + name + ' by adding to [whatsnew|https://github.com/jbosstools/jbosstools-website/tree/master/documentation/whatsnew] and submit a pull-request with the following header: {code}'+new_file_contents+'{code}.\n\n If no news for this component please reject and close this issue.',
         'issuetype' : { 'name' : 'Sub-task' },
         'parent' : { 'id' : rootnn.key},
         'priority' : { 'name': 'Critical'},
