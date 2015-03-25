@@ -82,7 +82,7 @@ for name, comps in components.iteritems():
     
     cms = map(nametuple, comps)    
     #print name + "->" + str(cms)
-    new_file_contents = '= '+ name +' What's New\n:page-layout: whatsnew\n:page-component_id: '+comps+'\n:page-component_version: '+jbide_fixversion+'\n:page-product_id: jbt_core\n:page-product_version: '+jbide_fixversion
+    new_file_contents = '= '+ name +' What\'s New\n:page-layout: whatsnew\n:page-component_id: '+comps+'\n:page-component_version: '+jbide_fixversion+'\n:page-product_id: jbt_core\n:page-product_version: '+jbide_fixversion
 
     compnnsearch = 'https://issues.jboss.org/issues/?jql=' + urllib.quote_plus(nnsearchquery + " and component in (" + ",".join(map(quote,comps)) + ")")
     
