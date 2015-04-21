@@ -67,7 +67,7 @@ components = {
     "OpenShift": { "openshift"},
     "JBoss Central": { "central"},
     "Core/General": { "common/jst/core"},
-    "Arquillian": { "testing-tools" },
+    "Arquillian": { "arquillian" },
     "Aerogear": { "aerogear-hybrid" }
     }
 
