@@ -58,6 +58,7 @@ components = {
    ## not needed anymore "JBoss ESB" : { "esb"},
     "server" : {  "server", "archives", "jmx" },
     "jst/jsf": { "jsp/jsf/xml/html source editing", "jsf"},
+    "javascript": { "javascript"},
     "Seam" : { "seam2"},
     "Visual Editor": { "visual-page-editor-core", "visual-page-editor-templates"},
     "Webservices and Rest": { "webservices"},
