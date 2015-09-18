@@ -66,6 +66,7 @@ components = {
     "Maven": { "maven"},
     "Forge": { "forge"},
     "OpenShift": { "openshift"},
+    "Docker": { "docker"},
     "JBoss Central": { "central"},
     "Core/General": { "common/jst/core"},
     "Arquillian": { "arquillian" },
