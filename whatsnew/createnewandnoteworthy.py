@@ -29,10 +29,18 @@ nnsearchquery = '((project in (JBDS) and fixVersion = "' + jbds_fixversion + '")
 
 nnsearch = 'https://issues.jboss.org/issues/?jql=' + urllib.quote_plus(nnsearchquery)
 
+rootnn_description_milestone = 'This [query|' + nnsearch + '] contains the search for all N&N'
+rootnn_description_final = 'This [query|' + nnsearch + '] contains the search for all N&N'
+
+if jbide_fixversion.endswith(".Final"):
+    rootnn_description = rootnn_description_final
+else:
+    rootnn_description = rootnn_description_milestone
+
 rootnn_dict = {
     'project' : { 'key': 'JBIDE' },
     'summary' : 'Create New and Noteworthy for ' + jbide_fixversion,
-    'description' : 'This [query|' + nnsearch + '] contains the search for all N&N',
+    'description' : rootnn_description,
     'issuetype' : { 'name' : 'Task' },
     'priority' : { 'name' :'Blocker'},
     'fixVersions' : [{ "name" : jbide_fixversion }],
@@ -69,6 +77,7 @@ components = {
     "Docker": { "docker"},
     "JBoss Central": { "central"},
     "Core/General": { "common/jst/core"},
+    "Easy import": { "easymport"},
     "Arquillian": { "arquillian" },
     "Aerogear": { "aerogear-hybrid" }
     }
@@ -87,10 +96,19 @@ for name, comps in components.iteritems():
 
     compnnsearch = 'https://issues.jboss.org/issues/?jql=' + urllib.quote_plus(nnsearchquery + " and component in (" + ",".join(map(quote,comps)) + ")")
     
+    rootnn_description_milestone = 'This [query|' + compnnsearch + '] contains the search for the specific component(s), to see all, use this [query|' + nnsearch + '].\n\n If ' + name + ' is not listed here check if there are issues that should be added and add them.\n\n Document the ones relevant for ' + name + ' by adding to [whatsnew|https://github.com/jbosstools/jbosstools-website/tree/master/documentation/whatsnew] and submit a pull request.\n\n If no news for this component please reject and close this issue.'
+
+    rootnn_description_final = 'If no news for ' + jbide_fixversion + ' since the last CR release for this component please reject and close this issue. The final N&N page will be aggregated from all previous N&N documents.\n\n If you want to add a comment to the final document then create a separate <component>-news-' + jbide_fixversion + '.adoc file in [whatsnew|https://github.com/jbosstools/jbosstools-website/tree/master/documentation/whatsnew] and submit a pull request. The final N&N page will be aggregated from all previous N&N documents plus this *.Final.adoc.\n\n If you want to replace all previous N&Ns by a new document then create a new <component>-news-' + jbide_fixversion + '.adoc file in [whatsnew|https://github.com/jbosstools/jbosstools-website/tree/master/documentation/whatsnew], add \"Include-previous: false\" directive to the document and submit a pull request.\n\n This [query|' + compnnsearch + '] contains the search for the specific component(s), to see all, use this [query|' + nnsearch + '].'
+
+    if jbide_fixversion.endswith(".Final"):
+        rootnn_description = rootnn_description_final
+    else:
+        rootnn_description = rootnn_description_milestone
+    
     rootnn_dict = {
         'project' : { 'key': 'JBIDE' },
         'summary' : name + ' New and Noteworthy for ' + jbide_fixversion,
-        'description' : 'This [query|' + compnnsearch + '] contains the search for the specific component(s), to see all, use this [query|' + nnsearch + '].\n\n If ' + name + ' is not listed here check if there are issues that should be added and add them.\n\n Document the ones relevant for ' + name + ' by adding to [whatsnew|https://github.com/jbosstools/jbosstools-website/tree/master/documentation/whatsnew] and submit a pullrequest.\n\n If no news for this component please reject and close this issue.',
+        'description' : rootnn_description,
         'issuetype' : { 'name' : 'Sub-task' },
         'parent' : { 'id' : rootnn.key},
         'priority' : { 'name': 'Critical'},
