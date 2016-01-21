@@ -67,7 +67,6 @@ components = {
     "server" : {  "server", "archives", "jmx" },
     "jst/jsf": { "jsp/jsf/xml/html-source-editing", "jsf"},
     "javascript": { "javascript", "nodejs"},
-    "Seam" : { "seam2"},
     "Visual Editor": { "visual-page-editor-core", "visual-page-editor-templates"},
     "Webservices and Rest": { "webservices"},
     "Project Examples": { "project-examples"},
