@@ -58,6 +58,7 @@ components = {
     "BrowserSim" : { "browsersim"},
     "Live Reload" : { "livereload" },
     "Usage Analytics" : { "usage"},
+    "Automatic Error reporting" : {"aeri"},
    ## Outdated?    "GWT" : { "gwt"},
     "CDI" : { "cdi"},
     "Batch": { "batch"},
