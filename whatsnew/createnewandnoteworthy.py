@@ -79,7 +79,7 @@ components = {
     "OpenShift": { "openshift"},
     "Docker": { "docker"},
     "JBoss Central": { "central"},
-    "Core/General": { "common/jst/core"},
+    "Core/General": { "common/jst/core", "runtime-detection"},
     "Easy import": { "easymport"},
     "Arquillian": { "arquillian" },
     "Aerogear": { "aerogear-hybrid" }
