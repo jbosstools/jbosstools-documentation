@@ -27,10 +27,13 @@ jbds_fixversion = options.jbdsfixversion
 ## The jql query across for all N&N
 nnsearchquery = '((project in (JBDS) and fixVersion = "' + jbds_fixversion + '") or (project in (JBIDE) and fixVersion = "' + jbide_fixversion + '")) AND resolution = Done AND labels = new_and_noteworthy'
 
+nnsearchquery_unlabeled = '((project in (JBDS) and fixVersion = "' + jbds_fixversion + '") or (project in (JBIDE) and fixVersion = "' + jbide_fixversion + '")) AND resolution = Done'
+
 nnsearch = 'https://issues.jboss.org/issues/?jql=' + urllib.quote_plus(nnsearchquery)
+nnsearch_unlabeled = 'https://issues.jboss.org/issues/?jql=' + urllib.quote_plus(nnsearchquery_unlabeled)
 
 rootnn_description_milestone = 'This [query|' + nnsearch + '] contains the search for all N&N'
-rootnn_description_final = 'This [query|' + nnsearch + '] contains the search for all N&N'
+rootnn_description_final = 'This [query|' + nnsearch + '] contains the search for all issues marked N&N. [This|' + mmsearch_unlabeled + '] contains the search for all issues, to help find issues that should be marked n&n but are not.'
 
 if jbide_fixversion.endswith(".Final"):
     rootnn_description = rootnn_description_final
@@ -76,7 +79,7 @@ components = {
     "OpenShift": { "openshift"},
     "Docker": { "docker"},
     "JBoss Central": { "central"},
-    "Core/General": { "common/jst/core"},
+    "Core/General": { "common/jst/core", "runtime-detection"},
     "Easy import": { "easymport"},
     "Arquillian": { "arquillian" },
     "Aerogear": { "aerogear-hybrid" }
@@ -96,9 +99,11 @@ for name, comps in components.iteritems():
 
     compnnsearch = 'https://issues.jboss.org/issues/?jql=' + urllib.quote_plus(nnsearchquery + " and component in (" + ",".join(map(quote,comps)) + ")")
     
-    rootnn_description_milestone = 'This [query|' + compnnsearch + '] contains the search for the specific component(s), to see all, use this [query|' + nnsearch + '].\n\n If ' + name + ' is not listed here check if there are issues that should be added and add them.\n\n Document the ones relevant for ' + name + ' by adding to [whatsnew|https://github.com/jbosstools/jbosstools-website/tree/master/documentation/whatsnew] and submit a pull request.\n\n If no news for this component please reject and close this issue.'
+    compnnsearch_unlabeled = 'https://issues.jboss.org/issues/?jql=' + urllib.quote_plus(nnsearchquery_unlabeled + " and component in (" + ",".join(map(quote,comps)) + ")")
 
-    rootnn_description_final = 'If no news for ' + jbide_fixversion + ' since the last CR release for this component please reject and close this issue. The final N&N page will be aggregated from all previous N&N documents.\n\n If you want to add a comment to the final document then create a separate <component>-news-' + jbide_fixversion + '.adoc file in [whatsnew|https://github.com/jbosstools/jbosstools-website/tree/master/documentation/whatsnew] and submit a pull request. The final N&N page will be aggregated from all previous N&N documents plus this *.Final.adoc.\n\n If you want to replace all previous N&Ns by a new document then create a new <component>-news-' + jbide_fixversion + '.adoc file in [whatsnew|https://github.com/jbosstools/jbosstools-website/tree/master/documentation/whatsnew], add \"page-include-previous: false\" attribute to the document and submit a pull request.\n\n This [query|' + compnnsearch + '] contains the search for the specific component(s), to see all, use this [query|' + nnsearch + '].'
+    rootnn_description_milestone = 'This [query|' + compnnsearch + '] contains the search for all issues marked n&n in the specific component(s). To see all issues marked n&n in all components, use this [query|' + nnsearch + '].\n\n If ' + name + ' is not listed here, use [this query|' + compnnsearch_unlabeled + '] to check if there are issues that should be added and add them.\n\n Document the ones relevant for ' + name + ' by adding to [whatsnew|https://github.com/jbosstools/jbosstools-website/tree/master/documentation/whatsnew] and submit a pull request.\n\n If no news for this component please reject and close this issue.'
+
+    rootnn_description_final = 'If no news for ' + jbide_fixversion + ' since the last CR release for this component please reject and close this issue. The final N&N page will be aggregated from all previous N&N documents.\n\n If you want to add a comment to the final document then create a separate <component>-news-' + jbide_fixversion + '.adoc file in [whatsnew|https://github.com/jbosstools/jbosstools-website/tree/master/documentation/whatsnew] and submit a pull request. The final N&N page will be aggregated from all previous N&N documents plus this *.Final.adoc.\n\n If you want to replace all previous N&Ns by a new document then create a new <component>-news-' + jbide_fixversion + '.adoc file in [whatsnew|https://github.com/jbosstools/jbosstools-website/tree/master/documentation/whatsnew], add \"page-include-previous: false\" attribute to the document and submit a pull request.\n\n This [query|' + compnnsearch + '] contains the search for all issues marked n&n for the specific component(s). To see all marked n&n, use this [query|' + nnsearch + '].\n\nIf no issues are found, use [this query|' + compnnsearch_unlabeled + '] to check if there are issues that should have the label added to them.'
 
     if jbide_fixversion.endswith(".Final"):
         rootnn_description = rootnn_description_final
